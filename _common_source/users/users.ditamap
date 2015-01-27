@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Users</title>
+ <keydef keys="product-vars" href="../_Branded_Terms/con_PHEMI_Central.xml"/>
+ <topicref href="con_users.xml">
+  <topicref href="con_user-roles.xml"/>
+  <topicref href="con_user-authorizations.xml"/>
+  <topicref href="task_view-system-users.xml"/>
+  <topicref href="task_create-new-user.xml"/>
+  <topicref href="task_view-user-information.xml"/>
+  <topicref href="task_modify-user-information.xml"/>
+  <topicref href="task_delete-user.xml"/>
+ </topicref>
+</map>

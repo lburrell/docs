@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_governance-policies">
+ <title>Governance Policies</title>
+ <shortdesc/>
+ <conbody>
+    <p>A governance policy is a coordinated approach to protecting data and assigning privileges to
+      users.  To protect your data and the privacy of your data, your organization should have a
+      clearly defined policy governing data. </p>
+  <p>Your governance policies will drive how you configure <ph conkeyref="product-vars/product-name"
+      />.  Therefore, before configuring <ph conkeyref="product-vars/product-name"/>, you should
+      make sure you have your organization's governance policy available to you. If you are
+      uncertain as to the appropriate data visibilities, user authorizations, or access policies to
+      define for your organization, consult with your Information Officer, Privacy Officer, or with
+      someone in a comparable role.</p>
+ </conbody>
+</concept>

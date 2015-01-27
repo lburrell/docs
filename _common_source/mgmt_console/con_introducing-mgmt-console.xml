@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_intro-mgmt-console">
+ <title>Introducing the <ph conkeyref="product-vars/gui-name"/></title>
+ <shortdesc>The <ph conkeyref="product-vars/gui-name"/> is a web-based interface for configuring and
+  monitoring <ph conkeyref="product-vars/product-name"/>.</shortdesc>
+ <conbody>
+  <note>Use either Mozilla Firefox or Google Chrome to access the <ph
+    conkeyref="product-vars/product-name"/>
+   <ph conkeyref="product-vars/gui-name"/>. Microsoft Internet Explorer is not supported.</note>
+ </conbody>
+</concept>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_create-new-user">
+    <title>Create a New User</title>
+    <shortdesc>Create a new user on the <wintitle>Manage Users</wintitle> page. </shortdesc>
+    <taskbody>
+        <context>
+            <p>To create a new user:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Open the <uicontrol>Manage Users</uicontrol> page, by clicking the
+                        <uicontrol>Users</uicontrol> icon <image
+                        href="../_images/gui-screen-shots/icon_users.JPG" id="image_svp_vkn_jq"/> in
+                    the left navigation bar.</cmd>
+                <info>The <wintitle>Manage Users</wintitle> page lists all users defined in the
+                    system so far.<fig id="fig_manage-users">
+                        <image href="../_images/gui-screen-shots/users_manage-users.jpg"
+                            id="image_j4l_xkn_jq"/>
+                    </fig></info>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>Create User</uicontrol> button.</cmd>
+                <info>The <wintitle>Create a New User</wintitle> window opens. <fig
+                        id="fig_create-new-user">
+                        <image href="../_images/gui-screen-shots/users_create-new-user.jpg"
+                            id="image_h44_ykn_jq"/>
+                    </fig></info>
+            </step>
+            <step>
+                <cmd>Enter the user information.</cmd>
+                <choicetable id="choicetable_h54_rtx_3q">
+                    <chrow>
+                        <choption>Full Name</choption>
+                        <chdesc>Mandatory. The user's full name.</chdesc>
+                    </chrow>
+                    <chrow>
+                        <choption>User name</choption>
+                        <chdesc>Mandatory. The user ID for this user. The <wintitle>User
+                                Name</wintitle> field autopopulates with the first initial and last
+                            name entered for as the user's full name. For example, if the user's
+                            full name is <keyword>Jane Smith</keyword>, the <wintitle>User
+                                Name</wintitle> field autopopulates with <keyword>jsmith</keyword>.
+                            The user ID can be edited after it has been autopopulated. IDs can be up
+                            to 16 characters long. Alphabetic and numeric characters are permitted,
+                            as well as underscore ("_")</chdesc>
+                    </chrow>
+                    <chrow>
+                        <choption>Phone Number</choption>
+                        <chdesc>Optional. The user's phone number. You must configure this field if
+                            you want the system to send alerts to the user's phone.  </chdesc>
+                    </chrow>
+                    <chrow>
+                        <choption>Email</choption>
+                        <chdesc>Mandatory. The user's email address. If you configure the system to
+                            send email alerts to the user, this is the email address that will be
+                            used.</chdesc>
+                    </chrow>
+                    <chrow>
+                        <choption>Role</choption>
+                        <chdesc>Mandatory. The user's system role. Together with the user
+                            authorization configured and the visibility set for data, the user role
+                            determines what access the user will have to data. Each user has exactly
+                            one role.<xref href="con_user-roles.xml">Tell me about user
+                                roles.</xref></chdesc>
+                    </chrow>
+                    <chrow>
+                        <choption>Authorizations</choption>
+                        <chdesc>Optional. The types of data the user is authorized to access. Use
+                            either the <uicontrol>Shift</uicontrol> key or the
+                                <uicontrol>Ctrl</uicontrol> key to make multiple selections. <xref
+                                href="con_user-authorizations.xml">Tell me about user
+                                authorizations.</xref></chdesc>
+                    </chrow>
+                    <chrow>
+                        <choption>Password</choption>
+                        <chdesc>Mandatory. The password policy (such as minimum and maximum length,
+                            whether a password can be reused, and so on) is set by your
+                            administrator in system configuration. Passwords must be confirmed by
+                            re-entering.</chdesc>
+                    </chrow>
+                </choicetable>
+            </step>
+            <step>
+                <cmd>Save the user information by clicking the <uicontrol>Save User</uicontrol>
+                    button. The system confirms when the user has been successfully saved. Click
+                        <uicontrol>Close</uicontrol> to close the screen.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_role-based-access">
+ <title>Role-Based Access Control</title>
+ <shortdesc/>
+ <conbody>
+  <p>Role-Based Access Control User roles determine what operations a user can perform. For example,
+   only users with a role of administrator can configure the system, while only users with a role of
+   data analyst can execute or export a dataset.</p>
+  <p/>
+ </conbody>
+</concept>

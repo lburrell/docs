@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_view-data-categories">
+    <title>View Data Categories</title>
+    <shortdesc>View the names of defined data categories on the<wintitle>Data Sources</wintitle>
+        page. <image href="../_images/gui-screen-shots/icon_datasources.JPG" id="image_nxk_fsr_3q"
+        /></shortdesc>
+    <taskbody id="system-config_view-data-categories">
+        <context>
+            <p>To view data category names:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Open the <uicontrol>Data Sources</uicontrol> screen, by clicking the
+                        <uicontrol>Data Sources</uicontrol> icon. <image
+                        href="../_images/gui-screen-shots/icon_datasources.JPG"
+                        id="image_fmr_wzn_mq"/> in the left navigation bar.</cmd>
+                <info>
+                    <p>The <wintitle>Data Sources</wintitle> page opens showing the defined data
+                        categories.</p>
+                    <fig id="fig_data-sources">
+                        <image href="../_images/gui-screen-shots/data-sources.jpg"
+                            id="image_hmp_55r_3q"/>
+                    </fig>
+                </info>
+            </step>
+        </steps>
+        <result>
+            <p>If you are an administrator, you can also view data category names from the <menucascade>
+                    <uicontrol>System Configuration</uicontrol>
+                    <uicontrol>Data Categories</uicontrol>
+                </menucascade> screen. </p>
+            <p>Open the <uicontrol>System Configuration</uicontrol> screen, by clicking the
+                    <uicontrol>System Configuration</uicontrol> icon. Then click the <uicontrol>Data
+                    Categories</uicontrol> tab to open the <wintitle>Data Categories</wintitle>
+                screen. At the right side of the <uicontrol>Choose Category to Edit</uicontrol>
+                field, click the drop-down list to see the list of defined data categories. </p>
+            <fig id="data-category_sysconfig">
+                <image href="../_images/gui-screen-shots/data-categories_system-config.jpg"
+                    id="image_ptj_3c4_mq"/>
+            </fig>
+        </result>
+    </taskbody>
+</task>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_data-policies">
+ <title>Data Policies</title>
+ <shortdesc>The data policy provides several key items of information about a data source. </shortdesc>
+ <conbody>
+  <p>The data policy describes what type and format of data is expected from the data source and to
+   what data category the information belongs. It also lists the users who are responsible for
+   various aspects of the information.</p>
+  <p>The data policy also specifies the privacy settings for the data source. It identifies how
+   sensitive the data is, by listing which of the configured data visibilities applies to it.  The
+   data policy also specifies which access policy (if any) will be used to enforce rightful access
+   to the information. All raw data ingested from this source, as well as every item of derived
+   data, will be tagged with this privacy information.</p>
+  <p>The data policy is also where the organization's data sharing agreement is stored for
+   reference. The data sharing agreement is a record that the information under consideration is
+   allowed to reside on the PHEMI system. You upload the agreement as a document and specify the
+   time period for which the agreement is valid.</p>
+  <p>The data policy also records the retention rules that are specified for the information. The
+   system uses the retention rules to calculate a time to live for each data item. When the time to
+   live expires, the raw data and all associated derived data items are deleted from the system.</p>
+  <p>If you want your information version-controlled, the data policy is the place where you enable
+   version control.</p>
+ </conbody>
+</concept>

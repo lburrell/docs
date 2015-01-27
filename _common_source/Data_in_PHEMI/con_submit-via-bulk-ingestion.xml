@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_submit-bulk-ingest">
+ <title>Using Bulk Ingestion</title>
+ <shortdesc/>
+ <conbody>
+  <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+  <p>The second method currently supported is via our batch ingest method which is extremely fast.
+   Secure FTP or an ssh connection is configured to enable a source system to write data to a
+   temporary landing space in PHEMI Central. Currently, this temporary data file is a Sequence file
+   which is a specific distributed file format, which the file transfer process must support --
+   either through use of PHEMI's helper functions &amp; scripts, or client developed. </p>
+  <p> </p>
+  <p>A bulk ingest process is then triggered (schedule or remotely) which launches a Map-Reduce job
+   that inserts the bulk data into PHEMI Central at a very fast rate. The temporary files are then
+   purged from the system.</p>
+  <?oxy_custom_end?>
+  <p/>
+ </conbody>
+</concept>

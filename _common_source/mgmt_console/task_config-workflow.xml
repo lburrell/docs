@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_system-config-workflow">
+    <title>Configuration Workflow</title>
+    <shortdesc>Since some configuration tasks must be completed before others can be performed, use
+        this workflow to configure your PHEMI system.</shortdesc>
+    <taskbody>
+        <steps>
+            <stepsection>In these first steps, order matters. You cannot create users until you have
+                defined user authorizations. Likewise, you cannot create access policies without
+                defining both user authorizations and data visibilities.</stepsection>
+            <step>
+                <cmd><xref href="../Login/task_logging-on.xml#task_logging-on">Log on to the PHEMI
+                        Central Management Console</xref>.</cmd>
+            </step>
+            <step>
+                <cmd><xref href="../Users/con_user-authorizations.xml#concept_user-authorizations"
+                        >Define user authorizations.</xref></cmd>
+            </step>
+            <step>
+                <cmd><xref href="../Users/task_create-new-user.xml#task_create-new-user">Create
+                        users.</xref></cmd>
+            </step>
+            <step>
+                <cmd><xref
+                        href="../Data_Visibilities/task_define-data-visibility.xml#task_define-data-visibilities"
+                        >Define data visibilities.</xref></cmd>
+            </step>
+            <stepsection>Data categories must be added before you can define data sources. Access
+                policies are optional for data source configuration. If you are using a Data
+                Processing Function (DPF) to create derived data from raw data, you upload the DPF
+                archive as part of data source configuration.</stepsection>
+            <step>
+                <cmd><xref
+                        href="../Data_Categories/task_add-data-category.xml#task_add-data-category"
+                        >Add data categories.</xref></cmd>
+            </step>
+            <step>
+                <cmd><xref
+                        href="../Access_Policies/task_create-access-policy.xml#task_create-access-policy"
+                        >Create access policies.</xref></cmd>
+            </step>
+            <step>
+                <cmd><xref
+                        href="../Data_Sources/task_define-data-source.xml#task_define-data-source"
+                        >Define data sources.</xref></cmd>
+            </step>
+            <stepsection>Configuring datasets and dataset destinations is optional.</stepsection>
+            <step>
+                <cmd><xref href="../Datasets/task_define-dataset.xml#task_define-new-dataset"
+                        >Configure datasets.</xref></cmd>
+            </step>
+            <step>
+                <cmd><xref
+                        href="../Datasets/task_create-dataset-destination.xml#task_create-dataset-destination"
+                        >Configure dataset destinations.</xref></cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

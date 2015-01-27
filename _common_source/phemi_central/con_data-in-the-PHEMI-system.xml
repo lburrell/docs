@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_data-in-PHEMI">
+ <title>Data in <ph conkeyref="product-vars/product-name"/></title>
+ <shortdesc/>
+ <conbody>
+  <p><i>To be written.</i></p>
+  <p>This topic will follow an item of data as it traverses <ph
+                conkeyref="product-vars/product-name"/>. It will include diagrams. It will start at
+            the data source, through collect, through curate, and through consumption by users,
+            machine destinations, applications, and so on.</p>
+ </conbody>
+</concept>

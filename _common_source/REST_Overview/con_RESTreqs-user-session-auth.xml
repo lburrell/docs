@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_REST-requirements-user-sess-auth">
+ <title>User Session Authentication</title>
+ <conbody>
+  <p>An authenticated user session needs to be created before using the interface. During this
+   process, a valid user credential is required from which a user session is created as the user
+   logs in successfully. A cookie that holds the session information is required to perform further
+   operations, such as ingesting data, querying aggregations and logging out, etc.</p>
+ </conbody>
+</concept>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_bqp_fp1_fq">
+ <title>Proposed Solution Architecture</title>
+ <shortdesc>Architcture, deployment, and infrastructure of proposed solution</shortdesc>
+ <conbody>
+  <p>The following diagram illustrates the high level architecture of the Semios-PHEMI integration. </p>
+  <fig id="fig_PHEMI_Semios_Arch">
+      <image href="_Images/PHEMI_Semios_Arch.jpg" id="image_z3s_tw1_fq"/>
+    </fig>
+  <p>This architecture is deployed with the following infrastructure details</p>
+  <fig id="fig_PHEMI_Semios_Infra">
+      <image href="_Images/PHEMI_Semios_Infra.jpg" id="image_ejr_xp1_fq"/>
+    </fig>
+ </conbody>
+</concept>

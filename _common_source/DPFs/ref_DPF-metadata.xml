@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="reference_DPF-metadata">
+  <title>DPF Metadata</title>
+  <shortdesc> This section describes the metadata generated when a Semios log entry is
+    processed.</shortdesc>
+  <refbody>
+    <properties id="properties_xgc_dyz_gq">
+      <prophead>
+        <proptypehd>Name</proptypehd>
+        <propvaluehd>Type</propvaluehd>
+        <propdeschd>Description</propdeschd>
+      </prophead>
+       <property>
+        <proptype>datasource</proptype>
+        <propvalue>admin</propvalue>
+        <propdesc>The identifier of the data source.</propdesc>
+      </property>
+      <property>
+        <proptype>document_status</proptype>
+        <propvalue>admin</propvalue>
+        <propdesc>The status of the document. Supported values are as follows:<ul id="ul_xm5_syz_gq">
+            <li>X</li>
+            <li>Y</li>
+            <li>Z</li>
+          </ul></propdesc>
+      </property>
+       <property>
+        <proptype>source_of_data</proptype>
+        <propvalue>admin</propvalue>
+        <propdesc>TBD</propdesc>
+      </property>
+      <property>
+        <proptype>data:chunks</proptype>
+        <propvalue>data</propvalue>
+        <propdesc>TBD</propdesc>
+      </property>
+       <property>
+        <proptype>encoding</proptype>
+        <propvalue>data</propvalue>
+        <propdesc>The encoding algorithm used to encode the document. Supported values are as
+            follows:<ul id="ul_yfv_mzz_gq">
+            <li>X</li>
+            <li>Y</li>
+            <li>Z</li>
+          </ul></propdesc>
+      </property>
+      <property>
+        <proptype>encryption_key</proptype>
+        <propvalue>data</propvalue>
+        <propdesc>The encryption key used to encrypt the document. Supported values are as
+            follows:<ul id="ul_ngk_nzz_gq">
+            <li>X</li>
+            <li>Y</li>
+            <li>Z</li>
+          </ul></propdesc>
+      </property>
+      <property>
+        <proptype>encryption_type</proptype>
+        <propvalue>data</propvalue>
+        <propdesc>The type of encryption used to encrypt the document. Supported values are as
+            follows:<ul id="ul_ygc_qzz_gq">
+            <li>X</li>
+            <li>Y</li>
+            <li>Z</li>
+          </ul></propdesc>
+      </property>
+      <property>
+        <proptype>hash</proptype>
+        <propvalue>data</propvalue>
+        <propdesc>The hash algorithm used to secure the document. Supported values are as
+            follows:<ul id="ul_o3r_szz_gq">
+            <li>X</li>
+            <li>Y</li>
+            <li>Z</li>
+          </ul></propdesc>
+      </property>
+      <property>
+        <proptype>size</proptype>
+        <propvalue>data</propvalue>
+        <propdesc>The size of the document. Supported values are as follows:<ul id="ul_yjt_yzz_gq">
+            <li>X</li>
+            <li>Y</li>
+            <li>Z</li>
+          </ul></propdesc>
+      </property>
+      <property>
+        <proptype>type</proptype>
+        <propvalue>data</propvalue>
+        <propdesc>The document type. Supported values are as follows:<ul id="ul_tdw_111_hq">
+            <li>X</li>
+            <li>Y</li>
+            <li>Z</li>
+          </ul></propdesc>
+      </property>
+      <property>
+        <proptype>asset_type</proptype>
+        <propvalue>descriptive</propvalue>
+        <propdesc>The assigned type of the digital asset. Supported values are as follows:<ul
+            id="ul_gd1_c11_hq">
+            <li>X</li>
+            <li>Y</li>
+            <li>Z</li>
+          </ul></propdesc>
+      </property>
+      <property>
+        <proptype>asset_type</proptype>
+        <propvalue>descriptive</propvalue>
+        <propdesc>The assigned type of the digital asset. Supported values are as follows:<ul
+            id="ul_vv3_211_hq">
+            <li>X</li>
+            <li>Y</li>
+            <li>Z</li>
+          </ul></propdesc>
+      </property>
+      <property>
+        <proptype>name</proptype>
+        <propvalue>descriptive</propvalue>
+        <propdesc>A mnemonic name for the document. Supported values are as follows:<ul
+            id="ul_a3h_g11_hq">
+            <li>X</li>
+            <li>Y</li>
+            <li>Z</li>
+          </ul></propdesc>
+      </property>
+      <property>
+        <proptype>metadata_checksum</proptype>
+        <propvalue>header</propvalue>
+        <propdesc>A checksum for verifying the integrity of the message. Supported values are as
+            follows:<ul id="ul_bx1_311_hq">
+            <li>X</li>
+            <li>Y</li>
+            <li>Z</li>
+          </ul></propdesc>
+      </property>
+      <property>
+        <proptype>process_information</proptype>
+        <propvalue>header</propvalue>
+        <propdesc>???. Supported values are as follows:<ul id="ul_lrk_l11_hq">
+            <li>X</li>
+            <li>Y</li>
+            <li>Z</li>
+          </ul></propdesc>
+      </property>
+      <property>
+        <proptype>system_indentifier</proptype>
+        <propvalue>header</propvalue>
+        <propdesc>???. Supported values are as follows:<ul id="ul_gjz_m11_hq">
+            <li>X</li>
+            <li>Y</li>
+            <li>Z</li>
+          </ul></propdesc>
+      </property>
+      <property>
+        <proptype>version</proptype>
+        <propvalue>header</propvalue>
+        <propdesc>The version of software running on the system. Supported values are as
+          follows:</propdesc>
+      </property>
+    </properties>
+  </refbody>
+</reference>

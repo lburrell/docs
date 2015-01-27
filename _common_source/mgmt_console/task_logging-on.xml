@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_logging-on">
+    <title>Logging On to the <ph conkeyref="product-vars/gui-name"/></title>
+    <shortdesc/>
+    <taskbody>
+        <prereq>
+            <p>The URL for the <ph conkeyref="product-vars/product-name"/>
+                <ph conkeyref="product-vars/gui-name"/> is configured during physical installation
+                of <ph conkeyref="product-vars/product-name"/>. Your PHEMI representative will
+                provide you with the URL. </p>
+        </prereq>
+        <context>
+            <p>To access the <ph conkeyref="product-vars/product-name"/>
+                <ph conkeyref="product-vars/gui-name"/>:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>In the address bar of the browser, enter the URL configured for the <ph
+                        conkeyref="product-vars/product-name"/>
+                    <ph conkeyref="product-vars/gui-name"/>.</cmd>
+                <info/>
+                <stepresult>
+                    <p>The <ph conkeyref="product-vars/product-name"/> login screen appears.</p>
+                    <fig id="fig_login-screen">
+                        <image href="../_images/gui-screen-shots/login-screen.JPG"
+                            id="image_kym_blr_3q"/>
+                    </fig>
+                </stepresult>
+            </step>
+            <step>
+                <cmd>Enter your user name and password. Click <uicontrol>Login</uicontrol>.</cmd>
+                <stepresult>The <ph conkeyref="product-vars/product-name"/>
+                    <ph conkeyref="product-vars/gui-name"/> launches.The <ph
+                        conkeyref="product-vars/gui-name"/> initially opens on the Data Sources
+                    page. Subsequently, the system remembers the last page you viewed and opens on
+                    that page.</stepresult>
+            </step>
+        </steps>
+    </taskbody>
+</task>

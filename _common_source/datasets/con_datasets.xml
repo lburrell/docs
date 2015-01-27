@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_datasets">
+ <title>Datasets</title>
+ <shortdesc/>
+ <conbody>
+  <p>A dataset is a specific view of data in the PHEMI system that is accessible to some limited set
+   of users. The view can be across multiple data sources.</p>
+  <p>Data sets are typically created for a research or exploratory data use falling outside the
+   bounds of governance and controls protecting the source data. Each dataset must be associated
+   with an access polcy to ensure that it complies with the criteria that were established in the
+   authorization to create it.</p>
+  <p> You can define any number of datasets. Defining a dataset has no impact on configuration for
+   data sources or protections to data. Data Source configurations and protections to data. The only
+   requirement is that an Access Policy must be associated with the dataset to ensure that it
+   complies with the criteria that were established in the authorization to create it.</p>
+  <p><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>A subset of the elements
+   produced by Data Processing Functions are selected to define a dataset that will be materialized
+   in HANA. The chosen Access Policies determine the data representation (e.g. identified or
+   de-identified) that is persisted in HANA.<?oxy_custom_end?></p>
+  <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+  <p>A Dataset refers to a specific, cross-data-source view of data in the system that is accessible
+   to a limited set of users. These are typically created for research or exploratory uses of data
+   that falls outside of the bounds of the protections and controls that protect the source data
+   (i.e. the Governance specified for each Data Source).</p>
+  <p> </p>
+  <p>Any number of Datasets can be created, with no impact on the existing Data Source
+   configurations and protections to data. The only requirement is that an Access Policy must be
+   associated with the dataset to ensure that it complies with the criteria that were established in
+   the authorization to create it.</p>
+  <?oxy_custom_end?>
+ </conbody>
+</concept>

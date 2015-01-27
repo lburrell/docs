@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_REST-requirements-units-of-measurement">
+ <title>Units of Measurement</title>
+ <conbody>
+  <p>Each data item should be ingested as the same base type (one of DOUBLE, LONG or STRING). The
+   units of measurements must also be consistent (for example, a duration in milliseconds units
+   should always be milliseconds).</p>
+ </conbody>
+</concept>

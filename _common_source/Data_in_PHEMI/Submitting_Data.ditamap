@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Submitting Data</title>
+ <topicref href="con_submit-data.xml">
+  <topicref href="con_submit-via-REST.xml"/>
+  <topicref href="con_using-manual-upload.xml"/>
+  <topicref href="con_submit-via-bulk-ingestion.xml"/>
+  <topicref href="con_submit-via-ETL.xml"/>
+ </topicref>
+</map>

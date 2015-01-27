@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>REST API Overview</title>
+ <topicref href="con_REST-ovw.xml">
+  <topicref href="con_REST-reqs.xml">
+   <topicref href="con_REST-reqs-interface.xml"/>
+   <topicref href="con_RESTreqs-user-session-auth.xml"/>
+   <topicref href="con_REST-reqs-response-sizes.xml"/>
+   <topicref href="con_REST-reqs-response-time.xml"/>
+   <topicref href="con_REST-reqs-units-of-measurement.xml"/>
+   <topicref href="con_REST-reqs-data-types.xml"/>
+  </topicref>
+  <topicref href="con_REST-query-params.xml">
+   <topicref href="con_REST-query-operators.xml"/>
+   <topicref href="con_REST-query-data-types.xml"/>
+   <topicref href="con_REST-request-format.xml"/>
+   <topicref href="con_REST-query-queried-data.xml"/>
+  </topicref>
+ </topicref>
+</map>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_REST-requirements-data-types">
+ <title>Data Types</title>
+ <conbody>
+  <p>Ingested data and query parameter data types must be consistent. More specifically, the data
+   types output by the DPF must be consistent with the data types used to query data (see Query
+   Parameters below).</p>
+ </conbody>
+</concept>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_data-source-ui">
+ <title>Data Source User Interface</title>
+ <shortdesc/>
+ <conbody>
+  <p>PHEMI provides a graphical user interface to configure and use a data source. The following
+   screenshot shows a list of data sources:</p>
+  <fig id="fig_GUI_Data-Sources">
+   <image href="GUI_Data-Sources.jpg" id="image_wjn_dl3_fq"/>
+  </fig>
+  <p>When a data source is selected, a screen is displayed showing:</p>
+  <ul id="ul_hzv_kg3_fq">
+   <li><b>Data Policy </b>- Provide the information such as ownership, privacy, data sharing and
+    other policy information</li>
+   <li><b>Ingest Data </b>- Provides a method of ingesting data by uploading a single or set of
+    files</li>
+   <li><b>Data Processing Function </b>- The DPF to be used to process the ingested data to generate
+    a set of derived data</li>
+  </ul>
+  <p>The following is a screenshot for the Data Policy Details page:</p>
+  <fig id="fig_Data-Policy-Details">
+   <image href="GUI_Data-Sources_Data-Policy-Details.jpg" id="image_pbl_2l3_fq"/>
+  </fig>
+  <p>The following is a screenshot for ingesting data to a data source:</p>
+  <fig id="fig_Data-Sources_Ingest-Data">
+   <image href="GUI_Data-Sources_Ingest-Data.jpg" id="image_aqt_4l3_fq"/>
+  </fig>
+  <p>The following is a screenshot for uploading a DPF to the data source so it can process the
+   Semios log information:</p>
+  <p>The following is a screenshot for uploading a DPF to the data source so it can process the
+   Semios log information:</p>
+  <fig id="fig_Data-Sources_Upload-DPF">
+   <image href="GUI_Data-Sources_Upload-DPF.jpg" id="image_shz_5l3_fq"/>
+  </fig>
+ </conbody>
+</concept>

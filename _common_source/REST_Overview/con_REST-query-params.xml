@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_REST-query-params">
+ <title>REST API Query Parameters</title>
+ <conbody>
+  <p>REST API queries are specified as URI  parameters to an HTTP request. A query must provide
+      parameters that specify the field to search, the value to search for, the data type of the
+      field, and the comparison operator to use ( =, &gt;, &lt;, etc.).</p>
+        <p>Query parameters or values must be URL-encoded when required (for example, a space is
+            encoded as %20).</p>
+ </conbody>
+</concept>

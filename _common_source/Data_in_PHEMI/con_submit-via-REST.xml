@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_submit-via-REST">
+ <title>Using REST</title>
+ <conbody>
+  <p>In REST-based ingestion, the client (that is, the submitting system) initiates an HTTP or HTTPS
+   session with a series of REST requests. <ph conkeyref="product-vars/product-name"/> listens for
+   REST queries on port 80 (for HTTP) and port 443 (for HTTPS). Once the session is established, the
+   client can POST data to the appropriate data source by including the data source ID returned as a
+   token by <ph conkeyref="product-vars/product-name"/>.</p>
+  <p>REST-based ingestion is useful in situations where a system submits smaller pieces of data very
+   frequently. Since <ph conkeyref="product-vars/product-name"/> always listens on the port, the
+   client system can be set up with a scheduled task to submit the data as often as needed.</p>
+ </conbody>
+</concept>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_before-you-begin">
+ <title>Before You Configure</title>
+ <shortdesc>Before you start configuring <ph conkeyref="product-vars/product-name"/>, the system
+  must be installed and you should have your organization's governance policy clearly
+  defined.</shortdesc>
+ <conbody>
+  <p>Installation may include populating your system with some of your organization's pre-existing
+   data.</p>
+ </conbody>
+</concept>

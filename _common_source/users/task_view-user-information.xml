@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_view-user-information">
+    <title>View User Information</title>
+    <shortdesc>View user information from the <wintitle>Manage Users</wintitle> page. </shortdesc>
+    <taskbody>
+        <context>
+            <p>To view user information:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Open the <uicontrol>Manage Users</uicontrol> screen, by clicking the
+                        <uicontrol>Users</uicontrol> icon <image
+                        href="../_images/gui-screen-shots/icon_users.JPG" id="image_i5h_1ln_jq"/> in
+                    the left navigation bar.</cmd>
+                <info>
+                    <fig id="fig_manage-users">
+                        <image href="../_images/gui-screen-shots/users_manage-users.jpg"
+                            id="image_g1v_fln_jq"/>
+                    </fig>
+                </info>
+            </step>
+            <step>
+                <cmd>Click the user's name to expand the user record.</cmd>
+                <info><fig id="fig_view-user-information">
+                        <image href="../_images/gui-screen-shots/users_view-info.jpg"
+                            id="image_mbs_gln_jq"/>
+                    </fig>Click the user's name a second time to collapse the user record
+                    again.</info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

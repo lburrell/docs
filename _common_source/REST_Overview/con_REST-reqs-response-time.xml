@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_REST-requirements-response-time">
+ <title>Response Time</title>
+ <conbody>
+  <p>Unless otherwise noted, aggregated queries using a single tag will return within a 250 ms
+   response time, exclusive of network latency between Semios and PHEMI Central. </p>
+  <p>When multiple identifiers are queried (e.g., a set of sensor ids returned by a range query),
+   the response time will be less than the total number of identifiers in the set multiplied times
+   250 ms (e.g., 10 sensors in the set would give a max response time of 2.5 seconds). For best
+   performance a single identifier is preferred for the query.</p>
+ </conbody>
+</concept>

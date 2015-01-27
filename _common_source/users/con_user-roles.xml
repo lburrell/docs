@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_users-roles">
+ <title>User Roles</title>
+ <conbody>
+  <p>User roles define what you are allowed to do within the <ph
+    conkeyref="product-vars/product-name"/>
+   <ph conkeyref="product-vars/gui-name"/>. Users can be assigned one of three roles.</p>
+  <table frame="all" rowsep="1" colsep="1" id="table_krh_mnn_hq">
+   <title>User Roles</title>
+   <tgroup cols="3">
+    <colspec colname="c1" colnum="1" colwidth="1.0*"/>
+    <colspec colname="newCol2" colnum="2" colwidth="1*"/>
+    <colspec colname="c2" colnum="3" colwidth="1.0*"/>
+    <thead>
+     <row>
+      <entry>Role</entry>
+      <entry>Purpose</entry>
+      <entry>PHEMI Central Management Console Access</entry>
+     </row>
+    </thead>
+    <tbody>
+     <row>
+      <entry>PHEMI Administrator</entry>
+      <entry>Configures access to <ph conkeyref="product-vars/product-name"/> and to data.</entry>
+      <entry>
+       <ul id="ul_b5r_4tp_kq">
+        <li>System configuration: password policy, dataset destinations, data retention behavior,
+         data categories, data visibilities, and user authorizations</li>
+        <li>Configure data sources, including deploying DPFs</li>
+        <li>Create access policies</li>
+        <li>Monitor system metrics</li>
+        <li>Manage users</li>
+        <li>Perform system maintenance</li>
+        <li>Monitor audit logs</li>
+       </ul>
+      </entry>
+     </row>
+     <row>
+      <entry>Privacy Officer</entry>
+      <entry>Responsible for governance policies that define the organization's approach for
+       safeguarding data and assigning privileges to users. </entry>
+      <entry>The privacy officer has no functional ability within the <ph
+        conkeyref="product-vars/product-name"/>
+       <ph conkeyref="product-vars/gui-name"/>. The influence of privacy officer occurs before
+       system configuration.</entry>
+     </row>
+     <row>
+      <entry>Data Analyst</entry>
+      <entry>Submits data for ingestion and consumes data.</entry>
+      <entry>
+       <ul id="ul_ybw_ytp_kq">
+        <li>Manually ingest data</li>
+        <li>Build and execute datasets</li>
+       </ul>
+      </entry>
+     </row>
+    </tbody>
+   </tgroup>
+  </table>
+ </conbody>
+</concept>

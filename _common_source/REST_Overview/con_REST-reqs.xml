@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_REST-requirements">
+ <title>REST API Requirements</title>
+ <conbody>
+  <p>This section describes the requirements for using the REST API. </p>
+ </conbody>
+</concept>

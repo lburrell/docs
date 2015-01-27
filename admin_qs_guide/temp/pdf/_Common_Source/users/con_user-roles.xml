@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Users\Lindsay\Dropbox\Marketing & Product Management\Product Documentation\R1.0\User_Guide\temp\pdf\_Common_Source\Users?><?workdir-uri file:/C:/Users/Lindsay/Dropbox/Marketing%20&%20Product%20Management/Product%20Documentation/R1.0/User_Guide/temp/pdf/_Common_Source/Users/?><?path2project ..\..\pdf\?><?path2project-uri ../../pdf/?><concept xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="concept_users-roles" ditaarch:DITAArchVersion="1.2" domains="(topic concept)                            (topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic concept/concept " xtrf="C:\Users\Lindsay\Dropbox\Marketing &amp; Product Management\Product Documentation\R1.0\_Common_Source\Users\con_user-roles.xml" xtrc="concept:1;3:35">
+ <title class="- topic/title " xtrf="C:\Users\Lindsay\Dropbox\Marketing &amp; Product Management\Product Documentation\R1.0\_Common_Source\Users\con_user-roles.xml" xtrc="title:1;4:9">About User Roles</title>
+ <conbody class="- topic/body  concept/conbody " xtrf="C:\Users\Lindsay\Dropbox\Marketing &amp; Product Management\Product Documentation\R1.0\_Common_Source\Users\con_user-roles.xml" xtrc="conbody:1;5:11">
+  <p class="- topic/p " xtrf="C:\Users\Lindsay\Dropbox\Marketing &amp; Product Management\Product Documentation\R1.0\_Common_Source\Users\con_user-roles.xml" xtrc="p:1;6:6">Users can be assigned one of four roles.</p>
+  <table frame="all" rowsep="1" colsep="1" id="table_krh_mnn_hq" class="- topic/table " xtrf="C:\Users\Lindsay\Dropbox\Marketing &amp; Product Management\Product Documentation\R1.0\_Common_Source\Users\con_user-roles.xml" xtrc="table:1;7:66">
+   <title class="- topic/title " xtrf="C:\Users\Lindsay\Dropbox\Marketing &amp; Product Management\Product Documentation\R1.0\_Common_Source\Users\con_user-roles.xml" xtrc="title:2;8:11">User Roles</title>
+   <tgroup cols="2" class="- topic/tgroup " xtrf="C:\Users\Lindsay\Dropbox\Marketing &amp; Product Management\Product Documentation\R1.0\_Common_Source\Users\con_user-roles.xml" xtrc="tgroup:1;9:21">
+    <colspec colname="col1" colnum="1" colwidth="1.0*" class="- topic/colspec " xtrf="C:\Users\Lindsay\Dropbox\Marketing &amp; Product Management\Product Documentation\R1.0\_Common_Source\Users\con_user-roles.xml" xtrc="colspec:1;10:55"/>
+    <colspec colname="col2" colnum="2" colwidth="1.0*" class="- topic/colspec " xtrf="C:\Users\Lindsay\Dropbox\Marketing &amp; Product Management\Product Documentation\R1.0\_Common_Source\Users\con_user-roles.xml" xtrc="colspec:2;11:55"/>
+    <thead class="- topic/thead " xtrf="C:\Users\Lindsay\Dropbox\Marketing &amp; Product Management\Product Documentation\R1.0\_Common_Source\Users\con_user-roles.xml" xtrc="thead:1;12:12">
+     <row class="- topic/row " xtrf="C:\Users\Lindsay\Dropbox\Marketing &amp; Product Management\Product Documentation\R1.0\_Common_Source\Users\con_user-roles.xml" xtrc="row:1;13:11">
+      <entry colname="col1" class="- topic/entry " xtrf="C:\Users\Lindsay\Dropbox\Marketing &amp; Product Management\Product Documentation\R1.0\_Common_Source\Users\con_user-roles.xml" xtrc="entry:1;14:14">Role</entry>
+      <entry colname="col2" class="- topic/entry " xtrf="C:\Users\Lindsay\Dropbox\Marketing &amp; Product Management\Product Documentation\R1.0\_Common_Source\Users\con_user-roles.xml" xtrc="entry:2;15:14">Responsibility</entry>
+     </row>
+    </thead>
+    <tbody class="- topic/tbody " xtrf="C:\Users\Lindsay\Dropbox\Marketing &amp; Product Management\Product Documentation\R1.0\_Common_Source\Users\con_user-roles.xml" xtrc="tbody:1;18:12">
+     <row class="- topic/row " xtrf="C:\Users\Lindsay\Dropbox\Marketing &amp; Product Management\Product Documentation\R1.0\_Common_Source\Users\con_user-roles.xml" xtrc="row:2;19:11">
+      <entry colname="col1" class="- topic/entry " xtrf="C:\Users\Lindsay\Dropbox\Marketing &amp; Product Management\Product Documentation\R1.0\_Common_Source\Users\con_user-roles.xml" xtrc="entry:3;20:14">Administrator</entry>
+      <entry colname="col2" class="- topic/entry " xtrf="C:\Users\Lindsay\Dropbox\Marketing &amp; Product Management\Product Documentation\R1.0\_Common_Source\Users\con_user-roles.xml" xtrc="entry:4;21:14">Configuring and maintaining the system. Managing users.</entry>
+     </row>
+     <row class="- topic/row " xtrf="C:\Users\Lindsay\Dropbox\Marketing &amp; Product Management\Product Documentation\R1.0\_Common_Source\Users\con_user-roles.xml" xtrc="row:3;23:11">
+      <entry colname="col1" class="- topic/entry " xtrf="C:\Users\Lindsay\Dropbox\Marketing &amp; Product Management\Product Documentation\R1.0\_Common_Source\Users\con_user-roles.xml" xtrc="entry:5;24:14">Privacy Officer</entry>
+      <entry colname="col2" class="- topic/entry " xtrf="C:\Users\Lindsay\Dropbox\Marketing &amp; Product Management\Product Documentation\R1.0\_Common_Source\Users\con_user-roles.xml" xtrc="entry:6;25:14">Defining access policies. Approving data policies based on data-sharing
+       agreements.</entry>
+     </row>
+     <row class="- topic/row " xtrf="C:\Users\Lindsay\Dropbox\Marketing &amp; Product Management\Product Documentation\R1.0\_Common_Source\Users\con_user-roles.xml" xtrc="row:4;28:11">
+      <entry colname="col1" class="- topic/entry " xtrf="C:\Users\Lindsay\Dropbox\Marketing &amp; Product Management\Product Documentation\R1.0\_Common_Source\Users\con_user-roles.xml" xtrc="entry:7;29:14">Data Analyst</entry>
+      <entry colname="col2" class="- topic/entry " xtrf="C:\Users\Lindsay\Dropbox\Marketing &amp; Product Management\Product Documentation\R1.0\_Common_Source\Users\con_user-roles.xml" xtrc="entry:8;30:14">TBD</entry>
+     </row>
+     <row class="- topic/row " xtrf="C:\Users\Lindsay\Dropbox\Marketing &amp; Product Management\Product Documentation\R1.0\_Common_Source\Users\con_user-roles.xml" xtrc="row:5;32:11">
+      <entry colname="col1" class="- topic/entry " xtrf="C:\Users\Lindsay\Dropbox\Marketing &amp; Product Management\Product Documentation\R1.0\_Common_Source\Users\con_user-roles.xml" xtrc="entry:9;33:14">Data Owner</entry>
+      <entry colname="col2" class="- topic/entry " xtrf="C:\Users\Lindsay\Dropbox\Marketing &amp; Product Management\Product Documentation\R1.0\_Common_Source\Users\con_user-roles.xml" xtrc="entry:10;34:14">Creating and managing data sources. Creating and managing datasets for export from the
+       system.</entry>
+     </row>
+    </tbody>
+   </tgroup>
+  </table>
+  <fig id="fig_gui_user-roles" class="- topic/fig " xtrf="C:\Users\Lindsay\Dropbox\Marketing &amp; Product Management\Product Documentation\R1.0\_Common_Source\Users\con_user-roles.xml" xtrc="fig:1;40:32">
+   <image href="../_images/gui-screen-shots/users_user-roles.JPG" id="image_q3y_cpn_hq" placement="inline" class="- topic/image " xtrf="C:\Users\Lindsay\Dropbox\Marketing &amp; Product Management\Product Documentation\R1.0\_Common_Source\Users\con_user-roles.xml" xtrc="image:1;41:90"/>
+  </fig>
+ </conbody>
+</concept>

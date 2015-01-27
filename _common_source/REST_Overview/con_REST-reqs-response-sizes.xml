@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_REST-requirements-response-sizes">
+  <title>Response Sizes</title>
+  <conbody>
+    <p>All query responses should be small enough to be buffered in memory on the client side (i.e.,
+      a maximum of a few megabytes of decompressed data).</p>
+    <p>This requirement can only be met if the query for multiple identifiers encompasses a
+      reasonably sized result set (e.g., identifiers returned across a reasonably short time
+      range).</p>
+  </conbody>
+</concept>

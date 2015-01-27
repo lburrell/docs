@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_foundations">
+ <title>Introducing <ph conkeyref="product-vars/product-name"/></title>
+ <shortdesc><ph conkeyref="product-vars/product-name"/> is a big data warehouse that offers big data
+  capability with advanced data management functionality. </shortdesc>
+ <conbody>
+  <p><ph conkeyref="product-vars/product-name"/> allows organizations that need to protect and
+   govern the use of their information to take advantage of big data technology to access,
+   catalogue, and analyze their digital assets at scale.</p>
+ </conbody>
+</concept>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_modify-access-policy">
+    <title>Modify an Access Policy </title>
+    <shortdesc>Modify an access policy on the <wintitle>Access Policy Builder</wintitle> page. </shortdesc>
+    <taskbody>
+        <context>
+            <p>To modify an access policy:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Open the <uicontrol>Access Policy Builder</uicontrol> page, by clicking the
+                        <uicontrol>Access Policy Builder</uicontrol> icon. <image
+                        href="../_images/gui-screen-shots/icon_access-policies.JPG"
+                        id="image_fmr_wzn_mq"/> in the left navigation bar.</cmd>
+                <info>
+                    <p>The <wintitle>Access Policy Builder</wintitle> page opens.</p>
+                    <fig id="fig_access-policy-builder" scale="70">
+                        <image href="../_images/gui-screen-shots/access-policy_policy-builder.jpg"
+                            id="image_hmp_55r_3q"/>
+                    </fig>
+                </info>
+            </step>
+            <step>
+                <cmd>At the right of the <uicontrol>Choose Policy to Edit</uicontrol> field, click
+                    the drop-down arrow to see configured access policies. Select the policy you
+                    want to modify.</cmd>
+                <info>
+                    <fig id="fig_access-policies_view-info" scale="70">
+                        <image href="../_images/gui-screen-shots/access-policy_select.jpg"
+                            id="image_wpx_pd4_mq"/>
+                    </fig>
+                    <p>The screen for the selected access policy opens, showing the information
+                        configured for it.</p>
+                    <fig id="fig_access-policy_view-info" scale="70">
+                        <image href="../_images/gui-screen-shots/access-policy_view-info.jpg"
+                            id="image_hy3_dnm_qq"/>
+                    </fig>
+                </info>
+            </step>
+            <step>
+                <cmd>Do any of the following.</cmd>
+                <choices id="choices_afm_tpn_qq">
+                    <choice>Modify an existing rule by editing values for
+                        <keyword>Subject</keyword>, <keyword>Action</keyword>, or
+                            <keyword>Object</keyword>.</choice>
+                    <choice>Add a new rule by clicking the <uicontrol>Add Rule</uicontrol> button
+                        and populating the fields. </choice>
+                    <choice>Delete a rule by clicking the trash can icon. <image
+                            href="../_images/gui-screen-shots/icon_delete.JPG" id="image_kzn_rqn_qq"
+                        /> to the right of the rule.</choice>
+                </choices>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>Save Access Policy</uicontrol> button to save the
+                    changes.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

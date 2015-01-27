@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_delete-user">
+    <title>Delete a User</title>
+    <shortdesc>Delete a user from the <wintitle>Manage Users</wintitle> page. </shortdesc>
+    <taskbody>
+        <context>
+            <p>To delete a user:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Open the <uicontrol>Manage Users</uicontrol> page, by clicking the
+                        <uicontrol>Users</uicontrol> icon <image
+                        href="../_images/gui-screen-shots/icon_users.JPG" id="image_ljq_qln_jq"/> in
+                    the left navigation bar.</cmd>
+                <info>
+                    <fig id="fig_manage-users">
+                        <image href="../_images/gui-screen-shots/users_manage-users.jpg"
+                            id="image_lx5_rln_jq"/>
+                    </fig>
+                </info>
+            </step>
+            <step>
+                <cmd>Click the user's name to expand the user record.</cmd>
+                <info>
+                    <fig id="fig_view-user-information">
+                        <image href="../_images/gui-screen-shots/users_view-info.jpg"
+                            id="image_qzt_sln_jq"/>
+                    </fig>
+                </info>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>Modify</uicontrol> button.</cmd>
+                <info>The <wintitle>Edit User</wintitle>screen opens. <fig id="fig_edit-user">
+                        <image href="../_images/gui-screen-shots/users_modify.jpg"
+                            id="image_ztr_tln_jq"/>
+                    </fig></info>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>Delete User</uicontrol> button. The system asks you to
+                    confirm. Click the <uicontrol>Confirm Delete</uicontrol> button.</cmd>
+                <info>The system confirms when the user has been successfully deleted. Click
+                        <uicontrol>Close</uicontrol> to close the screen.</info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

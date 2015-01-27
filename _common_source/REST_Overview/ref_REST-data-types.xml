@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="reference_REST-data-types">
+  <title>Supported Data Types</title>
+  <refbody>
+    <table frame="all" rowsep="1" colsep="1" id="table_REST-data-types">
+      <title>Data Types Supported in Queries</title>
+      <tgroup cols="2">
+        <colspec colname="c1" colnum="1" colwidth="1.0*"/>
+        <colspec colname="c2" colnum="2" colwidth="1.0*"/>
+        <thead>
+          <row>
+            <entry>Data Type</entry>
+            <entry>Description</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry><codeph>STRING</codeph></entry>
+            <entry>String data type. String is the default data type.</entry>
+          </row>
+          <row>
+            <entry><codeph>DOUBLE</codeph></entry>
+            <entry>Double-precision floating point. </entry>
+          </row>
+          <row>
+            <entry><codeph>LONG</codeph></entry>
+            <entry>Long integer.</entry>
+          </row>
+          <row>
+            <entry><codeph>DATE</codeph></entry>
+            <entry>Date data type. Format is either the data in milliseconds since the start of the
+              epoch or a date string formatted according to ISO 8601.</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </refbody>
+</reference>

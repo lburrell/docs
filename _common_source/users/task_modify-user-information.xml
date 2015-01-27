@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_modify-user-information">
+    <title>Modify User Information</title>
+    <shortdesc>Modify user information on the <wintitle>Manage Users</wintitle> page. </shortdesc>
+    <taskbody>
+        <prereq>You must know a user's password in order to change their user information.</prereq>
+        <context>
+            <p>To modify user information:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Open the <uicontrol>Manage Users</uicontrol> page, by clicking the
+                        <uicontrol>Users</uicontrol> icon <image
+                        href="../_images/gui-screen-shots/icon_users.JPG" id="image_vgg_kln_jq"/> in
+                    the left navigation bar.</cmd>
+                <info>
+                    <fig id="fig_manage-users">
+                        <image href="../_images/gui-screen-shots/users_manage-users.jpg"
+                            id="image_emw_mln_jq"/>
+                    </fig>
+                </info>
+            </step>
+            <step>
+                <cmd>Click the user's name to expand the user record.</cmd>
+                <info>
+                    <fig id="fig_view-user-information">
+                        <image href="../_images/gui-screen-shots/users_view-info.jpg"
+                            id="image_ipx_nln_jq"/>
+                    </fig>
+                </info>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>Modify</uicontrol> button.</cmd>
+                <info>The <wintitle>Edit User</wintitle>screen opens. <fig id="fig_edit-user">
+                        <image href="../_images/gui-screen-shots/users_modify.jpg"
+                            id="image_qss_4ln_jq"/>
+                    </fig></info>
+            </step>
+            <step>
+                <cmd>Modify the user information as necessary. You must confirm the user's password
+                    by typing it in both the <uicontrol>Password</uicontrol> and the
+                        <uicontrol>Confirm Password</uicontrol> fields.<xref
+                        href="task_create-new-user.xml#task_create-new-user/choices_user-info">Tell
+                        me about user information fields.</xref></cmd>
+            </step>
+            <step>
+                <cmd>Save the changes by clicking the <uicontrol>Save User</uicontrol> button. The
+                    system confirms when the user has been successfully saved. Click
+                        <uicontrol>Close</uicontrol> to close the screen.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

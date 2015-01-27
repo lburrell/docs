@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_configuration">
+ <title>Users</title>
+ <shortdesc/>
+ <conbody>
+  <p>PHEMI Central is configured for Semios with a PHEMI administrator user <b>admin</b> that has
+   Administrator and Analyst authorizations. A privacy officer <b>priv</b> also exists.</p>
+  <p>The following is a screenshot of the user interface showing the pre-populated Semios users.</p>
+  <fig id="fig_GUI_Manage-Users">
+   <image href="_Images/GUI_Users_Manage-Users.jpg" id="image_l3m_kbb_fq"/>
+  </fig>
+ </conbody>
+</concept>

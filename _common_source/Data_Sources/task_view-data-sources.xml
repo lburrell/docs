@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_view-data-sources">
+    <title>View Data Sources</title>
+    <shortdesc>View data sources on the<wintitle>Data Sources</wintitle> page. </shortdesc>
+    <taskbody>
+        <context>
+            <p>To view the data sources:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Open the <uicontrol>Data Sources</uicontrol> screen, by clicking the
+                        <uicontrol>Data Sources</uicontrol> icon. <image
+                        href="../_images/gui-screen-shots/icon_datasources.JPG"
+                        id="image_fmr_wzn_mq"/> in the left navigation bar.</cmd>
+                <info>
+                    <p>The <wintitle>Data Sources</wintitle> page opens showing defined data
+                        categories.</p>
+                    <fig id="fig_data-categories">
+                        <image href="../_images/gui-screen-shots/data-sources.jpg"
+                            id="image_hmp_55r_3q"/>
+                    </fig>
+                </info>
+            </step>
+            <step>
+                <cmd>Click any data category to expand the category and see the data sources
+                    included in the category.</cmd>
+                <info><fig id="fig_data-sources_data-sources">
+                        <image href="../_images/gui-screen-shots/data-sources_data-sources.jpg"
+                            id="image_wpx_pd4_mq"/>
+                    </fig>Click the data category a second time to collapse the category
+                    again.</info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_view-access-policy-info">
+    <title>View Access Policy Information</title>
+    <shortdesc>View the information configured for a given access policy on the <wintitle>Access
+            Policy Builder</wintitle> page. </shortdesc>
+    <taskbody>
+        <context>
+            <p>To view information for an access policy:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Open the <uicontrol>Access Policy Builder</uicontrol> page, by clicking the
+                        <uicontrol>Access Policy Builder</uicontrol> icon. <image
+                        href="../_images/gui-screen-shots/icon_access-policies.JPG"
+                        id="image_fmr_wzn_mq"/> in the left navigation bar.</cmd>
+                <info>
+                    <p>The <wintitle>Access Policy Builder</wintitle> page opens.</p>
+                    <fig id="fig_access-policy-builder" scale="70">
+                        <image href="../_images/gui-screen-shots/access-policy_policy-builder.jpg"
+                            id="image_hmp_55r_3q"/>
+                    </fig>
+                </info>
+            </step>
+            <step>
+                <cmd>At the right of the <uicontrol>Choose Policy to Edit</uicontrol> field, click
+                    the drop-down arrow to see configured access policies. Select the policy you
+                    want to view.</cmd>
+                <info>
+                    <fig id="fig_access-policies_view-info" scale="70">
+                        <image href="../_images/gui-screen-shots/access-policy_select.jpg"
+                            id="image_wpx_pd4_mq"/>
+                    </fig>
+                    <p>The screen for the selected access policy opens, showing the information
+                        configured for it.</p>
+                    <fig id="fig_access-policy_view-info" scale="70">
+                        <image href="../_images/gui-screen-shots/access-policy_view-info.jpg"
+                            id="image_hy3_dnm_qq"/>
+                    </fig>
+                </info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

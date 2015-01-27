@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_dataset-destinations">
+ <title>Dataset Destinations</title>
+ <shortdesc>Datasets can be exported to consuming applications and tools. </shortdesc>
+ <conbody>
+  <p><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>Dataset destinations and
+   data source connections are configured initially based on the parameters of the connection type
+   (ODBC, FTP, and JSON-REST).<?oxy_custom_end?></p>
+  <p>
+   <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>A subset of the elements
+   produced by Data Processing Functions are selected to define a dataset that will be materialized
+   in HANA. The chosen Access Policies determine the data representation (e.g. identified or
+   de-identified) that is persisted in HANA.<?oxy_custom_end?></p>
+ </conbody>
+</concept>

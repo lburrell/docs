@@ -1,0 +1,153 @@
+
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html xml:lang="en-us" lang="en-us">
+<head><meta name="description" content="Log on to PHEMI Central and create an active session. URI POST /rest/user_sessions Request Parameters This request logs on to PHEMI Central by sending an HTTP POST request. The POST request expects ..."></meta><meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta><meta name="copyright" content="(C) Copyright 2005"></meta><meta name="DC.rights.owner" content="(C) Copyright 2005"></meta><meta name="DC.Type" content="reference"></meta><meta name="DC.Title" content="User Login"></meta><meta name="abstract" content="Log on to PHEMI Central and create an active session."></meta><meta name="description" content="Log on to PHEMI Central and create an active session."></meta><meta name="DC.Relation" scheme="URI" content="../Commands/con_REST-request-reference.html"></meta><meta name="DC.Format" content="XHTML"></meta><meta name="DC.Identifier" content="reference_user-logout"></meta><link rel="stylesheet" type="text/css" href="../oxygen-webhelp/resources/css/commonltr.css"><!----></link><title>User Login</title><meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta><link rel="stylesheet" type="text/css" href="../oxygen-webhelp/resources/css/webhelp_topic.css"><!----></link><link rel="stylesheet" type="text/css" href="../oxygen-webhelp/resources/skins/skin.css"><!----></link><script type="text/javascript"><!--
+          
+          var prefix = "../index.html";
+          
+          --></script><script type="text/javascript" src="../oxygen-webhelp/resources/js/jquery-1.8.2.min.js"><!----></script><script type="text/javascript" src="../oxygen-webhelp/resources/js/jquery.cookie.js"><!----></script><script type="text/javascript" src="../oxygen-webhelp/resources/js/jquery-ui.custom.min.js"><!----></script><script type="text/javascript" src="../oxygen-webhelp/resources/js/jquery.highlight-3.js"><!----></script><script type="text/javascript" charset="utf-8" src="../oxygen-webhelp/resources/js/webhelp_topic.js"><!----></script></head>
+<body onload="highlightSearchTerm()" class="frmBody" id="reference_user-logout">
+<table class="nav"><tbody><tr><td colspan="2"><div id="printlink"><a href="javascript:window.print();" title="Print this page"></a></div><div id="permalink"><a href="#" title="Link to this page"></a></div></td></tr><tr><td width="75%"><a class="navheader_parent_path" href="../Commands/con_REST-request-reference.html" title="REST Request Reference">REST Request Reference</a></td><td><div class="navheader">
+<span class="navparent"><a class="link" href="../Commands/con_REST-request-reference.html" title="REST Request Reference"><span class="navheader_label">Parent topic</span><span class="navheader_separator">: </span><span class="navheader_linktext">REST Request Reference</span></a></span>  </div></td></tr></tbody></table>
+
+  <h1 class="title topictitle1">User Login</h1>
+
+  
+  <div class="body refbody"><p class="shortdesc"> Log on to PHEMI Central and create an active session. </p>
+
+    <div class="section"><h2 class="title sectiontitle">URI</h2>
+      
+      <pre class="pre codeblock">POST /rest/user_sessions</pre>
+
+    </div>
+
+    <div class="section"><h2 class="title sectiontitle">Request Parameters</h2>
+      
+      <p class="p">This request logs on to PHEMI Central by sending an HTTP POST request. The POST request
+        expects valid user credentials in JSON format in the payload body, as in the following
+        example.</p>
+
+      <pre class="pre codeblock">{
+   “username”: ”<em class="ph i">valid-username</em>”,
+   “password”: “<em class="ph i">valid-password</em>”
+}</pre>
+
+    </div>
+
+    <div class="section"><h2 class="title sectiontitle">Request Headers</h2>
+      
+      <p class="p">None.</p>
+
+    </div>
+
+    <div class="section"><h2 class="title sectiontitle">Response</h2>
+      
+      <p class="p">The following are the HTTP status codes that can be expected:</p>
+
+      <dl class="dl parml">
+        
+          <dt class="dt pt dlterm">201 Created</dt>
+
+          <dd class="dd pd">
+            <p class="p">Successful login, the session has been created for the current user.</p>
+
+          </dd>
+
+        
+        
+          <dt class="dt pt dlterm">400 Bad Request</dt>
+
+          <dd class="dd pd">
+            <p class="p">Failed login: the JSON body was not well-formed, or validation errors occurred.</p>
+
+          </dd>
+
+        
+        
+          <dt class="dt pt dlterm">401 Unauthorized</dt>
+
+          <dd class="dd pd">
+            <p class="p">Failed login: the user credentials were not accepted.</p>
+
+          </dd>
+
+        
+        
+          <dt class="dt pt dlterm">409 Conflict</dt>
+
+          <dd class="dd pd">
+            <p class="p">Failed login: A current session is already in progress for the specified user.</p>
+
+          </dd>
+
+        
+      </dl>
+
+      <p class="p">For a successful login (<samp class="ph msgph">201 Created</samp> return code), the body of the response
+        will contain status code, session ID, and URI for the session; additionally, a session
+        cookie is returned. The following is an example.</p>
+
+      <pre class="pre codeblock">{
+   "code": 201,
+   "id": "phemi-agile-session:b5a04a2353814a679a9df303a387aca2"
+}</pre>
+
+      <p class="p">In this example:</p>
+
+      <ul class="ul" id="reference_user-logout__ul_n1g_rhp_fq">
+        <li class="li"><samp class="ph codeph">code</samp>:  is the status code returned by the HTTP request.</li>
+
+        <li class="li"><samp class="ph codeph">id</samp>: is the session ID</li>
+
+      </ul>
+
+    </div>
+
+    <div class="section"><h2 class="title sectiontitle">Usage Guidelines</h2>
+      
+      <p class="p">This example shows Python code that logs a user in, saves the user session cookie, makes a
+        request and logs out.</p>
+
+      <pre class="pre codeblock">import urllib
+import httplib2
+import json
+
+http = httplib2.Http()
+
+<var class="keyword varname"># Log in</var>
+url = 'http//<var class="keyword varname">hostname</var>:<var class="keyword varname">port</var>/rest/user_sessions'
+body = {'username': '<var class="keyword varname">username</var>', 'password': '<var class="keyword varname">password</var>'}
+headers = {'Content-type': 'application/json'}
+login_response, login_content = http.request (url,
+                                              'POST',
+                                              headers=headers,
+                                              body=json.dumps(body))
+
+<var class="keyword varname"># Save the login session cookie into the header for the next
+    call</var>
+headers = {'Cookie': login_response['set-cookie']}
+
+<var class="keyword varname"># Make a REST call and include the login session cookie in the
+    header</var>
+url = 'http://<var class="keyword varname">hostname</var>:<var class="keyword varname">port</var>/rest/data_sources/<var class="keyword varname">datasource_id</var>/raw_data'
+query_response, query_content = http.request(url,
+                                             'GET',
+                                             headers=headers)
+
+<var class="keyword varname"># Log out using the login session cookie in the header</var>
+url = 'http://<var class="keyword varname">hostname</var>:<var class="keyword varname">port</var>/rest/user_sessions'
+headers = {'Cookie': login_response['set-cookie']}
+logout_response, logout_content = http.request(url,
+                                               'DELETE',
+                                               headers=headers)</pre>
+
+    </div>
+
+  </div>
+
+<div class="related-links"></div>
+<div class="navfooter"><!---->
+<span class="navparent"><a class="link" href="../Commands/con_REST-request-reference.html" title="REST Request Reference"><span class="navheader_label">Parent topic</span><span class="navheader_separator">: </span><span class="navheader_linktext">REST Request Reference</span></a></span>  </div><div class="footer">WebHelp output generated by<a href="http://www.oxygenxml.com" target="_blank"><span class="oXygenLogo"><img src="../oxygen-webhelp/resources/img/LogoOxygen100x22.png" alt="Oxygen"></img></span><span class="xmlauthor">XML Author</span></a></div>
+</body>
+</html>

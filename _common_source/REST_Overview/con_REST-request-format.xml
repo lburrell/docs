@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_REST-request-format">
+ <title>REST Request Format</title>
+ <conbody>
+  <p>All API requests start with the same URI prefix containing the data source identifier. The
+   following is the API request that generates the URI prefix for a specific data source name:</p>
+  <codeblock>GET /rest/data_sources?name=Semios</codeblock>
+  <p>An HTTP response of 200 OK indicates success and contains the following JSON:</p>
+  <codeblock>
+{
+   "_links": {
+      "curies": [
+          {
+             "href": "http://docs.phemi.com/relations/{rel}",
+             "name": "ph",
+             "templated": true
+          }
+       ],
+       "ph:data_source": [
+          {
+             "href": "/rest/data_sources/53ea9cd8e779892f24ee8972",
+             "title": "Semios"
+          }
+       ],
+       "ph:find": {
+          "href": "/rest/data_sources/{id}",
+          "templated": true
+       },
+       "self": {
+          "href": "/rest/data_sources?name=Semios"
+       }
+    },
+    "count": 1 
+}</codeblock>
+  <p>From the response, use the URI specified in <i>["_links"]["ph:data_source"]["href"]</i> for all
+   future requests (i.e., "/rest/data_sources/53ea9cd8e779892f24ee8972"). The URI prefix
+   /rest/data_sources/&lt;id&gt; in the returned response is used throughout this document. </p>
+  <p>Note that the URI prefix cannot be taken literally from the above example but must be
+   determined when the Semios Application starts for the first time. Once the URI is obtained, it
+   does not have to be re-queried for in subsequent sessions as it is valid for the life of a
+   specific datasource.</p>
+ </conbody>
+</concept>

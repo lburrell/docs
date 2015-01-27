@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_mgmt-console-ref">
+ <title><ph conkeyref="product-vars/gui-name"/> Reference</title>
+ <shortdesc>This section steps you through all the functions and procedures in the <ph
+   conkeyref="product-vars/gui-name"/></shortdesc>
+ <conbody>
+  <p><xref href="con_what-can-i-do.xml#concept_what-can-i-do">What am I allowed to do in the <ph
+     conkeyref="product-vars/gui-name"/>?</xref></p>
+ </conbody>
+</concept>

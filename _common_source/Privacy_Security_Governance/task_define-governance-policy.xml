@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_define-governance-policy">
+    <title>Defining a Governance Policy</title>
+    <shortdesc/>
+    <taskbody>
+        <context>
+            <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+            <p/>
+            <p>1a. Identify the different visibilities (i.e. sensitivities) of data you will store
+                and want to assign protections to. This is a key part of the Information Governance
+                process. Consult your Information Officer or comparable position. Some examples of
+                data visibilities are: </p>
+            <p>- PII = Personally Identifiable Information</p>
+            <p>- NonPII = Non Personally Identifiable Information</p>
+            <p>- CONFIDENTIAL = Data with that is sensitive and requires a certain level of access
+                (or certification) on the users part.</p>
+            <p>- SECRET = An increase in sensitivity beyond CONFIDENTIAL.</p>
+            <p> </p>
+            <p>1b. Identify the different authorizations that users may have in order to gain access
+                to data. This should be done in concert with (1a) where data visibilities are
+                defined, when applicable. For example, having CONFIDENTIAL data implies that some
+                users will have authorizations that grant access whereas others don't. Some examples
+                are:</p>
+            <p>- C_LEVEL = User is a C-level (e.g. CEO, COO, etc.) individual that has a more
+                privileged level of access to data (e.g. will be allowed to see CONFIDENTIAL).</p>
+            <p>- DOCTOR = User can see all data about a patient, such as PII.</p>
+            <p>- ANALYST = User can only see NonPII data for running reports, etc.</p>
+            <p> </p>
+            <p> </p>
+            <p>The result of 1a &amp; 1b will define the Data Visibilities and User Authorizations
+                that will be created.</p>
+            <p>2. Identify the allowed combinations of User Authorizations and Data Visibilities for
+                accessing data. Note that the examples included some of these combinations for
+                illustration purposes. However, the explicit combinations should be driven by
+                business compliant access to data.</p>
+            <p> </p>
+            <p>For example:</p>
+            <p>- Access Policy 1 = Users that are DOCTOR can access PII data.</p>
+            <p>- Access Policy 2 = Users that are ANALYST or DOCTOR can access NonPII data.</p>
+            <p>It's important to note that an Access Policy is associated with a collection of data.
+                This means that some data can be governed by one Access Policy, and others by
+                different Access Policies. So, for example, this means Access Policies can be
+                conflicting, since only one can be associated with a collection of Data.</p>
+            <p>For example:</p>
+            <p>- Access Policy 3 = Users that are ANALYST can access PII data.</p>
+            <p>This is inconsistent with Access Policy 1, but this is permitted because each Access
+                Policy is associated with different collections of data, and it's entirely
+                reasonable that there might be some data, that even though it contains PII, should
+                be accessible by users that are not DOCTORs. </p>
+            <?oxy_custom_end?>
+        </context>
+        <steps>
+            <step>
+                <cmd/>
+            </step>
+        </steps>
+    </taskbody>
+</task>

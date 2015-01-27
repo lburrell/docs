@@ -1,0 +1,66 @@
+
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html xml:lang="en-us" lang="en-us">
+<head><meta name="description" content="All API requests start with the same URI prefix containing the data source identifier. The following is the API request that generates the URI prefix for a specific data source name: GET ..."></meta><meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta><meta name="copyright" content="(C) Copyright 2005"></meta><meta name="DC.rights.owner" content="(C) Copyright 2005"></meta><meta name="DC.Type" content="concept"></meta><meta name="DC.Title" content="REST Request Format"></meta><meta name="DC.Relation" scheme="URI" content="../Overview/con_REST-query-params.html"></meta><meta name="DC.Format" content="XHTML"></meta><meta name="DC.Identifier" content="concept_REST-request-format"></meta><link rel="stylesheet" type="text/css" href="../oxygen-webhelp/resources/css/commonltr.css"><!----></link><title>REST Request Format</title><meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta><link rel="stylesheet" type="text/css" href="../oxygen-webhelp/resources/css/webhelp_topic.css"><!----></link><link rel="stylesheet" type="text/css" href="../oxygen-webhelp/resources/skins/skin.css"><!----></link><script type="text/javascript"><!--
+          
+          var prefix = "../index.html";
+          
+          --></script><script type="text/javascript" src="../oxygen-webhelp/resources/js/jquery-1.8.2.min.js"><!----></script><script type="text/javascript" src="../oxygen-webhelp/resources/js/jquery.cookie.js"><!----></script><script type="text/javascript" src="../oxygen-webhelp/resources/js/jquery-ui.custom.min.js"><!----></script><script type="text/javascript" src="../oxygen-webhelp/resources/js/jquery.highlight-3.js"><!----></script><script type="text/javascript" charset="utf-8" src="../oxygen-webhelp/resources/js/webhelp_topic.js"><!----></script></head>
+<body onload="highlightSearchTerm()" class="frmBody" id="concept_REST-request-format">
+<table class="nav"><tbody><tr><td colspan="2"><div id="printlink"><a href="javascript:window.print();" title="Print this page"></a></div><div id="permalink"><a href="#" title="Link to this page"></a></div></td></tr><tr><td width="75%"><a class="navheader_parent_path" href="../Overview/../Overview/con_REST-ovw.html" title="REST API Overview">REST API Overview</a> / <a class="navheader_parent_path" href="../Overview/con_REST-query-params.html" title="REST API Query Parameters">REST API Query Parameters</a></td><td><div class="navheader">
+<span class="navparent"><a class="link" href="../Overview/con_REST-query-params.html" title="REST API Query Parameters"><span class="navheader_label">Parent topic</span><span class="navheader_separator">: </span><span class="navheader_linktext">REST API Query Parameters</span></a></span>  </div></td></tr></tbody></table>
+
+ <h1 class="title topictitle1">REST Request Format</h1>
+
+ <div class="body conbody">
+  <p class="p">All API requests start with the same URI prefix containing the data source identifier. The
+   following is the API request that generates the URI prefix for a specific data source name:</p>
+
+  <pre class="pre codeblock">GET /rest/data_sources?name=Semios</pre>
+
+  <p class="p">An HTTP response of 200 OK indicates success and contains the following JSON:</p>
+
+  <pre class="pre codeblock">
+{
+   "_links": {
+      "curies": [
+          {
+             "href": "http://docs.phemi.com/relations/{rel}",
+             "name": "ph",
+             "templated": true
+          }
+       ],
+       "ph:data_source": [
+          {
+             "href": "/rest/data_sources/53ea9cd8e779892f24ee8972",
+             "title": "Semios"
+          }
+       ],
+       "ph:find": {
+          "href": "/rest/data_sources/{id}",
+          "templated": true
+       },
+       "self": {
+          "href": "/rest/data_sources?name=Semios"
+       }
+    },
+    "count": 1 
+}</pre>
+
+  <p class="p">From the response, use the URI specified in <em class="ph i">["_links"]["ph:data_source"]["href"]</em> for all
+   future requests (i.e., "/rest/data_sources/53ea9cd8e779892f24ee8972"). The URI prefix
+   /rest/data_sources/&lt;id&gt; in the returned response is used throughout this document. </p>
+
+  <p class="p">Note that the URI prefix cannot be taken literally from the above example but must be
+   determined when the Semios Application starts for the first time. Once the URI is obtained, it
+   does not have to be re-queried for in subsequent sessions as it is valid for the life of a
+   specific datasource.</p>
+
+ </div>
+
+<div class="related-links"></div>
+<div class="navfooter"><!---->
+<span class="navparent"><a class="link" href="../Overview/con_REST-query-params.html" title="REST API Query Parameters"><span class="navheader_label">Parent topic</span><span class="navheader_separator">: </span><span class="navheader_linktext">REST API Query Parameters</span></a></span>  </div><div class="footer">WebHelp output generated by<a href="http://www.oxygenxml.com" target="_blank"><span class="oXygenLogo"><img src="../oxygen-webhelp/resources/img/LogoOxygen100x22.png" alt="Oxygen"></img></span><span class="xmlauthor">XML Author</span></a></div>
+</body>
+</html>

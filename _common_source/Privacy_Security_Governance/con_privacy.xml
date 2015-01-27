@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_privacy">
+ <title>Privacy</title>
+ <shortdesc/>
+ <conbody>
+  <p/>
+  <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+  <p><b>specify protections for cell-level security control?</b></p>
+  <p>The PHEMI Central DPF system enables the tagging of derived data elements with privacy
+   protections. Available privacy protections are configured in the PHEMI Management Console by an
+   Administrator, and are then available for DPFs to tag data with context specific protections. For
+   instance, the SSN extracted from a health record object may be tagged as CONFIDENTIAL. </p>
+  <p> </p>
+  <p>Privacy tags (called Data Attributes in PHEMI Central) can then be combined with rules around
+   user properties (such as Doctor or Analyst) to control access to data of a specific sensitivity.
+   For instance, an Administrator may create a rules (called an Access Policy) that grants READ
+   access to user's that are Doctors for data that is CONFIDENTIAL. They can then attach this Access
+   Policy to a set of data, such as a collection of health records. </p>
+  <p> </p>
+  <p>This approach to data protection is called Attribute Based Access Control (ABAC) and is a more
+   general version of the more commonly used Role Based Access Control (RBAC). An ABAC approach is
+   advantageous when not all uses/access controls around data are known up front and when new types
+   of data may be introduced into the system -- both common scenarios in healthcare, where data
+   evolves and changes as well as the allowed use of data.</p>
+  <?oxy_custom_end?>
+  <p>Privacy by Design PHEMI Central was built from the ground up on an innovative Privacy by Design
+   framework to define, manage, and enforce data sharing agreements and privacy policies. Because
+   PHEMI Central’s privacy, security, and governance features are one coordinated design across the
+   system, you don’t have to rely on a cobbled-together mish-mash of security mechanisms to protect
+   your organization’s sensitive data.</p>
+  <p>Anonymization and De-Identification PHEMI Central can automatically de-identify, encrypt, or
+   mask personal information and enforce privacy based on sophisticated user access privileges and
+   fine-grained sharing and consent rules. PHEMI Central stores the fully identified data but
+   strictly controls the rightful use of all digital assets. When the user’s access privileges and
+   the recorded data sharing agreements dictate, PHEMI Central can invoke a data processing function
+   to de-identify or anonymize any</p>
+  <p>information information. Anonymization and de-identification may include disallowing access to
+   personally identifiable information, masking certain information, redacting content, or may
+   involve more sophisticated data dependency algorithms to reduce the risk of re-identification.
+   Centralizing anonymization and de-identification helps reduce data sprawl and reduces the risk of
+   data consistency errors.</p>
+ </conbody>
+</concept>

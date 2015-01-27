@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_create-access-policy">
+    <title>Create an Access Policy</title>
+    <shortdesc>Create a new access policy on the <wintitle>Access Policy Builder</wintitle>
+        page.</shortdesc>
+    <taskbody>
+        <prereq>
+            <p>Before you can define an access policy you must configure the following:</p>
+            <ul id="ul_t4t_mlm_lq">
+                <li>User authorities</li>
+                <li>Data visibilities</li>
+                <li>Environments (access networks)</li>
+            </ul>
+        </prereq>
+        <context>To create a new access policy, define one or more access rules:</context>
+        <steps id="steps_xwj_jkm_lq">
+            <step>
+                <cmd>Open the <uicontrol>Access Policy Builder </uicontrol> page, by clicking the
+                        <uicontrol>Access Policy Builder</uicontrol> icon <image
+                        href="../_images/gui-screen-shots/icon_access-policies.JPG"
+                        id="image_svp_vkn_jq"/> in the left navigation bar.</cmd>
+                <info>The <wintitle>Access Policy Builder</wintitle> page opens.<fig
+                        id="fig_access-policy-builder">
+                        <image href="../_images/gui-screen-shots/access-policy_policy-builder.jpg"
+                            id="image_j4l_xkn_jq"/>
+                    </fig></info>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>New Policy</uicontrol> button.</cmd>
+                <info>The form for the new access policy opens, with Rule 1 ready for you to edit.
+                        <fig id="fig_create-access-rule">
+                        <image href="../_images/gui-screen-shots/access-policy_create-rule.jpg"
+                            id="image_h44_ykn_jq"/>
+                    </fig></info>
+            </step>
+            <step>
+                <cmd>Enter the access rule information.</cmd>
+                <choicetable id="choicetable_access-policies">
+                    <chrow>
+                        <choption>Subject</choption>
+                        <chdesc>
+                            <p>Mandatory. The user authorizations allowed to perform the action on
+                                the data. User authorizations are configured for the system by the
+                                administrator. </p>
+                        </chdesc>
+                    </chrow>
+                    <chrow>
+                        <choption>Action</choption>
+                        <chdesc>
+                            <p>Mandatory. The action(s) an authorized user may take on the data.
+                                Supported actions are as follows: </p>
+                            <ul id="ul_e2n_tmn_qq">
+                                <li><keyword>Read</keyword>. The user may view the data.</li>
+                                <li><keyword>Export</keyword>. The user may export the data to a
+                                    destination, such as a SAP system.</li>
+                            </ul>
+                        </chdesc>
+                    </chrow>
+                    <chrow>
+                        <choption>Object</choption>
+                        <chdesc>
+                            <p>Mandatory. The data visibilities authorized users are allowed to
+                                access. Data visibilities are configured by the administrator.</p>
+                        </chdesc>
+                    </chrow>
+                </choicetable>
+            </step>
+            <step>
+                <cmd>Add another rule by clicking the <uicontrol>Add Rule</uicontrol> button. Or,
+                    save the access policy by clicking the <uicontrol>Save Access Policy</uicontrol>
+                    button. The system confirms when the access policy has been successfully saved. </cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

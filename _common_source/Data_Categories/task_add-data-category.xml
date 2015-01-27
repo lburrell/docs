@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_add-data-category">
+    <title>Add a Data Category</title>
+    <shortdesc>Use the <wintitle>Datasource Categories</wintitle> screen of the <wintitle>System
+            Configuration</wintitle> page to add a data category.</shortdesc>
+    <taskbody>
+        <context>
+            <p>Datasource categories are configured by the PHEMI Administrator. To add a data
+                category:</p>
+        </context>
+        <steps id="steps_dwd_rnx_kq">
+            <step>
+                <cmd>Open the <uicontrol>System Configuration</uicontrol> page, by clicking the
+                        <uicontrol>System Configuration</uicontrol> icon <image
+                        href="../_images/gui-screen-shots/icon_system-config.JPG"
+                        id="image_svp_vkn_jq"/> in the left navigation bar.</cmd>
+                <info>The <wintitle>System Configuration</wintitle> page opens on the<wintitle>
+                        Password Policy</wintitle> screen.<fig
+                        id="fig_system-config_password-policy">
+                        <image href="../_images/gui-screen-shots/password-policy.jpg"
+                            id="image_j4l_xkn_jq"/>
+                    </fig></info>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>Datasource Categories</uicontrol> tab.</cmd>
+                <info>The <wintitle>Datasource Categories</wintitle> screen opens.<fig
+                        id="fig_data-categories">
+                        <image href="../_images/gui-screen-shots/data-categories.jpg"
+                            id="image_mc5_xg4_mq"/>
+                    </fig></info>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>New Category</uicontrol> button.</cmd>
+                <info>
+                    <p>The <wintitle>Datasource Categories</wintitle> screen expands to show the
+                            <wintitle>Category Details</wintitle> area.</p>
+                    <fig id="fig_data-category-details">
+                        <image href="../_images/gui-screen-shots/data-categories_details.jpg"
+                            id="image_smd_qh4_mq"/>
+                    </fig>
+                </info>
+            </step>
+            <step>
+                <cmd>Enter a name for the category. </cmd>
+            </step>
+            <step>
+                <cmd>Save the data category by clicking the <uicontrol>Save Category</uicontrol>
+                    button. </cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

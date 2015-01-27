@@ -1,0 +1,58 @@
+
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html xml:lang="en-us" lang="en-us">
+<head><meta name="description" content="A Semios Sensors data source is created and configured with a category of Semios . Its Institutional Owner and Source owner are set to the admin user. The privacy officer for the data source is set to ..."></meta><meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta><meta name="copyright" content="(C) Copyright 2005"></meta><meta name="DC.rights.owner" content="(C) Copyright 2005"></meta><meta name="DC.Type" content="concept"></meta><meta name="DC.Title" content="Data Sources"></meta><meta name="abstract" content=""></meta><meta name="description" content=""></meta><meta name="DC.Relation" scheme="URI" content="con_configuration.html"></meta><meta name="DC.Relation" scheme="URI" content="con_config-dpf-semios.html"></meta><meta name="DC.Relation" scheme="URI" content="con_config-data-ingestions.html"></meta><meta name="DC.Relation" scheme="URI" content="con_config-data-aggregations.html"></meta><meta name="DC.Relation" scheme="URI" content="_Images/con_Data-Sources-UI.html"></meta><meta name="DC.Format" content="XHTML"></meta><meta name="DC.Identifier" content="concept_config-data-sources"></meta><link rel="stylesheet" type="text/css" href="oxygen-webhelp/resources/css/commonltr.css"><!----></link><title>Data Sources</title><meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta><link rel="stylesheet" type="text/css" href="oxygen-webhelp/resources/css/webhelp_topic.css"><!----></link><link rel="stylesheet" type="text/css" href="oxygen-webhelp/resources/skins/skin.css"><!----></link><script type="text/javascript"><!--
+          
+          var prefix = "index.html";
+          
+          --></script><script type="text/javascript" src="oxygen-webhelp/resources/js/jquery-1.8.2.min.js"><!----></script><script type="text/javascript" src="oxygen-webhelp/resources/js/jquery.cookie.js"><!----></script><script type="text/javascript" src="oxygen-webhelp/resources/js/jquery-ui.custom.min.js"><!----></script><script type="text/javascript" src="oxygen-webhelp/resources/js/jquery.highlight-3.js"><!----></script><script type="text/javascript" charset="utf-8" src="oxygen-webhelp/resources/js/webhelp_topic.js"><!----></script></head>
+<body onload="highlightSearchTerm()" class="frmBody" id="concept_config-data-sources">
+<table class="nav"><tbody><tr><td colspan="2"><div id="printlink"><a href="javascript:window.print();" title="Print this page"></a></div><div id="permalink"><a href="#" title="Link to this page"></a></div></td></tr><tr><td width="75%"><a class="navheader_parent_path" href="con_configuration.html" title="Configuration">Configuration</a></td><td><div class="navheader">
+<span class="navparent"><a class="link" href="con_configuration.html" title="Configuration"><span class="navheader_label">Parent topic</span><span class="navheader_separator">: </span><span class="navheader_linktext">Configuration</span></a></span>  </div></td></tr></tbody></table>
+
+ <h1 class="title topictitle1">Data Sources</h1>
+
+ 
+ <div class="body conbody"><p class="shortdesc"></p>
+
+  <p class="p">A <strong class="ph b">Semios Sensors</strong> data source is created and configured with a category of <strong class="ph b">Semios</strong>.
+   Its Institutional Owner and Source owner are set to the <strong class="ph b">admin</strong> user. The privacy officer
+   for the data source is set to the <strong class="ph b">priv</strong> user. The document format is <strong class="ph b">Binary</strong> and the
+   data source retention rule is <strong class="ph b">Do not delete</strong>.</p>
+
+    <ul class="ul" id="concept_config-data-sources__ul_xl2_kd3_fq">
+      <li class="li"><strong class="ph b">When new data arrives</strong>: When data is ingested, the DPF is run immediatel</li>
+
+      <li class="li"><strong class="ph b">Manually</strong>: When data is ingested, the DPF is not run until the user manually runs
+        the DPF. This is done by hitting the “Execute” button on the Data Processing Function tab of
+        the Datasource page.</li>
+
+      <li class="li"><strong class="ph b">Periodic</strong>: The DPF is run on a periodic basis as specified by the periodic value,
+        regardless if data has been ingested or not; the DPF processes ingested data starting at the
+        first incompleted file.</li>
+
+    </ul>
+
+    <p class="p">The trigger setting for the Semios data processing function is set to *Periodic for 5
+      Minutes*. This means that when Semios data is ingested, derived data will not necessarily be
+      generated immediately, but generated in 5 minute intervals.</p>
+
+ </div>
+
+<div class="related-links">
+<ul class="ullinks">
+<li class="link ulchildlink"><strong><a href="con_config-dpf-semios.html">Data Processing Functions</a></strong><br></br>
+</li>
+<li class="link ulchildlink"><strong><a href="con_config-data-ingestions.html">Data Ingestions</a></strong><br></br>
+</li>
+<li class="link ulchildlink"><strong><a href="con_config-data-aggregations.html">Data Aggregations</a></strong><br></br>
+</li>
+<li class="link ulchildlink"><strong><a href="_Images/con_Data-Sources-UI.html">Data Source User Interface</a></strong><br></br>
+</li>
+</ul>
+</div>
+<div class="navfooter"><!---->
+<span class="navparent"><a class="link" href="con_configuration.html" title="Configuration"><span class="navheader_label">Parent topic</span><span class="navheader_separator">: </span><span class="navheader_linktext">Configuration</span></a></span>  </div><div class="footer">WebHelp output generated by<a href="http://www.oxygenxml.com" target="_blank"><span class="oXygenLogo"><img src="oxygen-webhelp/resources/img/LogoOxygen100x22.png" alt="Oxygen"></img></span><span class="xmlauthor">XML Author</span></a> - Trial Edition</div>
+</body>
+</html>

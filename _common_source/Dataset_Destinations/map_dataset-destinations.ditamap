@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Dataset Destinations</title>
+ <topicref href="con_dataset-destinations.xml">
+  <topicref href="task_view-dataset-destinations.xml"/>
+  <topicref href="task_create-dataset-destination.xml"/>
+  <topicref href="task_view-dataset-destination-info.xml"/>
+  <topicref href="task_modify-dataset-destination-info.xml"/>
+  <topicref href="task_delete-dataset-destination.xml"/>
+ </topicref>
+</map>

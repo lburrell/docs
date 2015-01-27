@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="reference_user-logout">
+  <title>User Login</title>
+  <shortdesc> Log on to PHEMI Central and create an active session. </shortdesc>
+  <refbody>
+    <section>
+      <title>URI</title>
+      <codeblock>POST /rest/user_sessions</codeblock>
+    </section>
+    <section>
+      <title>Request Parameters</title>
+      <p>This request logs on to PHEMI Central by sending an HTTP POST request. The POST request
+        expects valid user credentials in JSON format in the payload body, as in the following
+        example.</p>
+      <codeblock>{
+   “username”: ”<i>valid-username</i>”,
+   “password”: “<i>valid-password</i>”
+}</codeblock>
+    </section>
+    <section>
+      <title>Request Headers</title>
+      <p>None.</p>
+    </section>
+    <section>
+      <title>Response</title>
+      <p>The following are the HTTP status codes that can be expected:</p>
+      <parml>
+        <plentry>
+          <pt>201 Created</pt>
+          <pd>
+            <p>Successful login, the session has been created for the current user.</p>
+          </pd>
+        </plentry>
+        <plentry>
+          <pt>400 Bad Request</pt>
+          <pd>
+            <p>Failed login: the JSON body was not well-formed, or validation errors occurred.</p>
+          </pd>
+        </plentry>
+        <plentry>
+          <pt>401 Unauthorized</pt>
+          <pd>
+            <p>Failed login: the user credentials were not accepted.</p>
+          </pd>
+        </plentry>
+        <plentry>
+          <pt>409 Conflict</pt>
+          <pd>
+            <p>Failed login: A current session is already in progress for the specified user.</p>
+          </pd>
+        </plentry>
+      </parml>
+      <p>For a successful login (<msgph>201 Created</msgph> return code), the body of the response
+        will contain status code, session ID, and URI for the session; additionally, a session
+        cookie is returned. The following is an example.</p>
+      <codeblock>{
+   "code": 201,
+   "id": "phemi-agile-session:b5a04a2353814a679a9df303a387aca2"
+}</codeblock>
+      <p>In this example:</p>
+      <ul id="ul_n1g_rhp_fq">
+        <li><codeph>code</codeph>:  is the status code returned by the HTTP request.</li>
+        <li><codeph>id</codeph>: is the session ID</li>
+      </ul>
+    </section>
+    <section>
+      <title>Usage Guidelines</title>
+      <p>This example shows Python code that logs a user in, saves the user session cookie, makes a
+        request and logs out.</p>
+      <codeblock>import urllib
+import httplib2
+import json
+
+http = httplib2.Http()
+
+<varname># Log in</varname>
+url = 'http//<varname>hostname</varname>:<varname>port</varname>/rest/user_sessions'
+body = {'username': '<varname>username</varname>', 'password': '<varname>password</varname>'}
+headers = {'Content-type': 'application/json'}
+login_response, login_content = http.request (url,
+                                              'POST',
+                                              headers=headers,
+                                              body=json.dumps(body))
+
+<varname># Save the login session cookie into the header for the next
+    call</varname>
+headers = {'Cookie': login_response['set-cookie']}
+
+<varname># Make a REST call and include the login session cookie in the
+    header</varname>
+url = 'http://<varname>hostname</varname>:<varname>port</varname>/rest/data_sources/<varname>datasource_id</varname>/raw_data'
+query_response, query_content = http.request(url,
+                                             'GET',
+                                             headers=headers)
+
+<varname># Log out using the login session cookie in the header</varname>
+url = 'http://<varname>hostname</varname>:<varname>port</varname>/rest/user_sessions'
+headers = {'Cookie': login_response['set-cookie']}
+logout_response, logout_content = http.request(url,
+                                               'DELETE',
+                                               headers=headers)</codeblock>
+    </section>
+  </refbody>
+</reference>

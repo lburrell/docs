@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>REST Request Reference</title>
+ <topicref href="con_REST-request-reference.xml">
+  <topicref href="ref_REST-user-login.xml"/>
+  <topicref href="ref_REST-user-logout.xml"/>
+  <topicref href="ref_REST-data-ingest.xml"/>
+  <topicref href="ref_REST-query-sensor-data.xml"/>
+ </topicref>
+</map>

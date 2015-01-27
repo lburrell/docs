@@ -1,0 +1,412 @@
+
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html xml:lang="en-us" lang="en-us">
+<head><meta name="description" content="Query data from a data source. URI GET /rest/data_sources/ datasource_id /raw_data? attribute-name __ operator = lexicoder : filter-value Request Parameters This request allows you to query data from ..."></meta><meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta><meta name="copyright" content="(C) Copyright 2005"></meta><meta name="DC.rights.owner" content="(C) Copyright 2005"></meta><meta name="DC.Type" content="reference"></meta><meta name="DC.Title" content="Query Sensor Data"></meta><meta name="abstract" content="Query data from a data source."></meta><meta name="description" content="Query data from a data source."></meta><meta name="DC.Relation" scheme="URI" content="../Commands/con_REST-request-reference.html"></meta><meta name="DC.Format" content="XHTML"></meta><meta name="DC.Identifier" content="reference_query-sensor-data"></meta><link rel="stylesheet" type="text/css" href="../oxygen-webhelp/resources/css/commonltr.css"><!----></link><title>Query Sensor Data</title><meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta><link rel="stylesheet" type="text/css" href="../oxygen-webhelp/resources/css/webhelp_topic.css"><!----></link><link rel="stylesheet" type="text/css" href="../oxygen-webhelp/resources/skins/skin.css"><!----></link><script type="text/javascript"><!--
+          
+          var prefix = "../index.html";
+          
+          --></script><script type="text/javascript" src="../oxygen-webhelp/resources/js/jquery-1.8.2.min.js"><!----></script><script type="text/javascript" src="../oxygen-webhelp/resources/js/jquery.cookie.js"><!----></script><script type="text/javascript" src="../oxygen-webhelp/resources/js/jquery-ui.custom.min.js"><!----></script><script type="text/javascript" src="../oxygen-webhelp/resources/js/jquery.highlight-3.js"><!----></script><script type="text/javascript" charset="utf-8" src="../oxygen-webhelp/resources/js/webhelp_topic.js"><!----></script></head>
+<body onload="highlightSearchTerm()" class="frmBody" id="reference_query-sensor-data">
+<table class="nav"><tbody><tr><td colspan="2"><div id="printlink"><a href="javascript:window.print();" title="Print this page"></a></div><div id="permalink"><a href="#" title="Link to this page"></a></div></td></tr><tr><td width="75%"><a class="navheader_parent_path" href="../Commands/con_REST-request-reference.html" title="REST Request Reference">REST Request Reference</a></td><td><div class="navheader">
+<span class="navparent"><a class="link" href="../Commands/con_REST-request-reference.html" title="REST Request Reference"><span class="navheader_label">Parent topic</span><span class="navheader_separator">: </span><span class="navheader_linktext">REST Request Reference</span></a></span>  </div></td></tr></tbody></table>
+
+  <h1 class="title topictitle1">Query Sensor Data</h1>
+
+  
+  <div class="body refbody"><p class="shortdesc">Query data from a data source.</p>
+
+    <div class="section"><h2 class="title sectiontitle">URI</h2>
+      
+      <pre class="pre codeblock">GET /rest/data_sources/<var class="keyword varname">datasource_id</var>/raw_data?<var class="keyword varname">attribute-name</var>__<var class="keyword varname">operator</var>=<var class="keyword varname">lexicoder</var>:<var class="keyword varname">filter-value</var></pre>
+
+    </div>
+
+    <div class="section"><h2 class="title sectiontitle">Request Parameters</h2>
+      
+      <p class="p">This request allows you to query data from a given data source based on various criteria
+        such as attribute values and ranges. Query parameters or values must be correctly escaped
+        for URLs as necessary.</p>
+
+      <p class="p">This request supports the following parameters.</p>
+
+      <dl class="dl parml">
+        
+          <dt class="dt pt dlterm"><samp class="ph codeph"><var class="keyword varname">attribute-name</var>__<var class="keyword varname">operator</var>=<var class="keyword varname">lexicoder</var>:<var class="keyword varname">filter-value</var></samp></dt>
+
+          <dd class="dd pd">Queries the specified data source for the specified data. In this parameter:<ul class="ul" id="reference_query-sensor-data__ul_gh3_tpr_gq">
+              <li class="li"><samp class="ph codeph"><var class="keyword varname">attribute-name</var></samp>: The raw-data attribute being
+                queried. The attribute name is defined in the DPF for the data source. </li>
+
+              <li class="li"><samp class="ph codeph">__<var class="keyword varname">operator</var></samp>: The comparison operator specifying
+                how the query should be performed. Supported operators are listed in   <a class="xref" href="../Overview/con_REST-query-operators.html#concept_REST-query-operators">Query Operators</a>.</li>
+
+              <li class="li"><samp class="ph codeph"><var class="keyword varname">lexicoder</var></samp>: The data type of the queried value.
+                The data type is defined in the DPF that creates the derived data during data
+                ingestion. Supported data types are described in <a class="xref" href="../Overview/con_REST-query-data-types.html#concept_REST-data-types">Data Types in Queries</a>.</li>
+
+              <li class="li"><samp class="ph codeph"><var class="keyword varname">filter-value</var></samp>: The value to query on.  For
+                example, in
+                  <samp class="ph codeph">/rest/datasources/<var class="keyword varname">datasource-id</var>/raw_data?derived:id__eq=STRING:sensor_1138</samp>,
+                the <samp class="ph codeph"><var class="keyword varname">filter-value</var></samp> is
+                <samp class="ph codeph">sensor_1138</samp>.</li>
+
+            </ul>
+</dd>
+
+        
+        
+          <dt class="dt pt dlterm"><a name="reference_query-sensor-data__skip"><!-- --></a><samp class="ph codeph">skip=<var class="keyword varname">num-rows-to-skip</var></samp></dt>
+
+          <dd class="dd pd">
+            <p class="p">Skips the specified number of rows in the query result and returns subsequent rows in
+              the resultset. Rows are considered to start numbering at 1.</p>
+
+            <p class="p">By default, <samp class="ph codeph">skip</samp> is 0, which means no results are skipped.
+              Specifying a value for <samp class="ph codeph">skip</samp> that is larger than the number of rows in
+              the resultset is not an error, but no results are returned. Specifying a negative
+              value for <samp class="ph codeph">skip</samp> is an error, and causes an exception.</p>
+
+            <p class="p">As an example, assume a resultset of 50 rows, numbered row 1 to row 50. The results
+              returned for various values of <samp class="ph codeph">skip</samp> are shown below.</p>
+
+            
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" id="reference_query-sensor-data__table_wk2_fvs_gq" class="table" frame="border" border="1" rules="all"><caption><span class="tablecap">Table 1. "skip" Parameter Behavior</span></caption>
+                
+                
+                <thead class="thead" align="left">
+                  <tr class="row">
+                    <th class="entry" valign="top" width="50%" id="d475e165">Value for "skip"</th>
+
+                    <th class="entry" valign="top" width="50%" id="d475e168">Rows Returned</th>
+
+                  </tr>
+
+                </thead>
+
+                <tbody class="tbody">
+                  <tr class="row">
+                    <td class="entry" valign="top" width="50%" headers="d475e165 ">Undefined</td>
+
+                    <td class="entry" valign="top" width="50%" headers="d475e168 ">1 to 50</td>
+
+                  </tr>
+
+                  <tr class="row">
+                    <td class="entry" valign="top" width="50%" headers="d475e165 ">
+                      <pre class="pre codeblock">skip=0</pre>
+
+                    </td>
+
+                    <td class="entry" valign="top" width="50%" headers="d475e168 ">1 to 50</td>
+
+                  </tr>
+
+                  <tr class="row">
+                    <td class="entry" valign="top" width="50%" headers="d475e165 ">
+                      <pre class="pre codeblock">skip=1</pre>
+
+                    </td>
+
+                    <td class="entry" valign="top" width="50%" headers="d475e168 ">2 to 50</td>
+
+                  </tr>
+
+                  <tr class="row">
+                    <td class="entry" valign="top" width="50%" headers="d475e165 ">
+                      <pre class="pre codeblock">skip=10</pre>
+
+                    </td>
+
+                    <td class="entry" valign="top" width="50%" headers="d475e168 ">11 to 50</td>
+
+                  </tr>
+
+                  <tr class="row">
+                    <td class="entry" valign="top" width="50%" headers="d475e165 ">
+                      <pre class="pre codeblock">skip=50</pre>
+
+                    </td>
+
+                    <td class="entry" valign="top" width="50%" headers="d475e168 ">None</td>
+
+                  </tr>
+
+                  <tr class="row">
+                    <td class="entry" valign="top" width="50%" headers="d475e165 ">
+                      <pre class="pre codeblock">skip=100</pre>
+
+                    </td>
+
+                    <td class="entry" valign="top" width="50%" headers="d475e168 ">None</td>
+
+                  </tr>
+
+                  <tr class="row">
+                    <td class="entry" valign="top" width="50%" headers="d475e165 ">
+                      <pre class="pre codeblock">skip=-1</pre>
+
+                    </td>
+
+                    <td class="entry" valign="top" width="50%" headers="d475e168 ">Error</td>
+
+                  </tr>
+
+                </tbody>
+
+              </table>
+</div>
+
+            <p class="p">The following example skips the first 50 rows of the query results and returns from
+              row 51 onwards.</p>
+
+            <pre class="pre codeblock">/rest/datasources/<var class="keyword varname">datasource-id</var>/raw_data?derived:id__eq=STRING:sensor_1138&amp;skip=50</pre>
+
+            <p class="p">Note that you can use <samp class="ph codeph">skip</samp> parameter in combination with the
+                <samp class="ph codeph">limit</samp> parameter to achieve pagination-type functionality; see the
+                <samp class="ph codeph">limit</samp> parameter for an example.</p>
+
+          </dd>
+
+        
+        
+          <dt class="dt pt dlterm"><a name="reference_query-sensor-data__limit"><!-- --></a><samp class="ph codeph">limit=<var class="keyword varname">max-rows-to-return</var></samp></dt>
+
+          <dd class="dd pd">Specifies the maximum number of rows to return from the resultset. By default,
+              <samp class="ph codeph">limit</samp> is set to 50. The largest value permitted for
+              <samp class="ph codeph">limit</samp> is 2500; specifying a larger value is an error. <p class="p">As an
+              example, assume a resultset of 100 rows, numbered row 1 to row 100. The results
+              returned for various values of <samp class="ph codeph">limit</samp> are shown below.</p>
+
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" id="reference_query-sensor-data__table_rdz_zbt_gq" class="table" frame="border" border="1" rules="all"><caption><span class="tablecap">Table 2. "limit" Parameter Behavior</span></caption>
+                
+                
+                <thead class="thead" align="left">
+                  <tr class="row">
+                    <th class="entry" valign="top" width="50%" id="d475e320">Value for "limit"</th>
+
+                    <th class="entry" valign="top" width="50%" id="d475e323">Rows Returned</th>
+
+                  </tr>
+
+                </thead>
+
+                <tbody class="tbody">
+                  <tr class="row">
+                    <td class="entry" valign="top" width="50%" headers="d475e320 ">Undefined</td>
+
+                    <td class="entry" valign="top" width="50%" headers="d475e323 ">100</td>
+
+                  </tr>
+
+                  <tr class="row">
+                    <td class="entry" valign="top" width="50%" headers="d475e320 ">
+                      <pre class="pre codeblock">limit=1</pre>
+
+                    </td>
+
+                    <td class="entry" valign="top" width="50%" headers="d475e323 ">1</td>
+
+                  </tr>
+
+                  <tr class="row">
+                    <td class="entry" valign="top" width="50%" headers="d475e320 ">
+                      <pre class="pre codeblock">limit=2</pre>
+
+                    </td>
+
+                    <td class="entry" valign="top" width="50%" headers="d475e323 ">1 and 2</td>
+
+                  </tr>
+
+                  <tr class="row">
+                    <td class="entry" valign="top" width="50%" headers="d475e320 ">
+                      <pre class="pre codeblock">limit=10</pre>
+
+                    </td>
+
+                    <td class="entry" valign="top" width="50%" headers="d475e323 ">1 to 10</td>
+
+                  </tr>
+
+                  <tr class="row">
+                    <td class="entry" valign="top" width="50%" headers="d475e320 ">
+                      <pre class="pre codeblock">limit=100</pre>
+
+                    </td>
+
+                    <td class="entry" valign="top" width="50%" headers="d475e323 ">1 to 100</td>
+
+                  </tr>
+
+                  <tr class="row">
+                    <td class="entry" valign="top" width="50%" headers="d475e320 ">
+                      <pre class="pre codeblock">limit=200</pre>
+
+                    </td>
+
+                    <td class="entry" valign="top" width="50%" headers="d475e323 ">1 to 100</td>
+
+                  </tr>
+
+                </tbody>
+
+              </table>
+</div>
+<p class="p">The following example limits returned results to 50
+              rows.</p>
+<pre class="pre codeblock">/rest/datasources/<var class="keyword varname">datasource-id</var>/raw_data?derived:id__eq=STRING:sensor_1138&amp;limit=50</pre>
+<p class="p">The
+                <samp class="ph codeph">limit</samp> parameter can be used with the <samp class="ph codeph">skip</samp>
+              parameter to select from the resultset in various ways. For example, specifying
+                <samp class="ph codeph">skip=1, limit=50</samp> returns rows 2 through 51 of the resultset.
+              Incrementing <samp class="ph codeph">skip</samp> by the value of <samp class="ph codeph">limit</samp> results in
+              pagination functionality, as in the first two lines of the following example. In this
+              example, assume that the resultset is 100
+            rows.</p>
+<pre class="pre codeblock">skip=0,limit=50     # Returns rows 1 to 50
+skip=50,limit=50    # Returns rows 51 to 100
+skip=75, limit=50   # Returns rows 76 to 100
+skip=99, limit=50   # Returns row 100
+skip=100, limit=50  # Returns nothing
+</pre>
+</dd>
+
+        
+        
+          <dt class="dt pt dlterm"><samp class="ph codeph">order_by=<var class="keyword varname">comma-separated-list</var></samp></dt>
+
+          <dd class="dd pd">Specifies how the returned resultset should be ordered. Order is specified as a
+            comma-separated list of attributes. The hyphen is a reverse-ordering operator:
+            prepending a hyphen ("-") in front of  a value reverses the normal ordering or data. For
+            example, if <samp class="ph codeph">derived:data|wind_speed</samp> is normally returned in ascending
+            order, <samp class="ph codeph">-derived:data|wind_speed</samp>is returned in descending order. </dd>
+
+          <dd class="dd pd">Consider the following
+              request:<pre class="pre codeblock">/rest/datasources/<var class="keyword varname">datasource-id</var>/
+raw_data?derived:id__eq=STRING:sensor_113&amp;
+order_by=derived:data|temperature,-derived:data|wind_speed</pre>
+<p class="p">In
+              this example, the resultset returned by the query would be ordered first by
+                <samp class="ph codeph">derived:data|temperature</samp>and then by
+                <samp class="ph codeph">derived:data|wind_speed</samp> in reverse order.</p>
+<p class="p">The attributes
+              listed in the <samp class="ph codeph">order_by</samp> attribute apply only to the rows actually
+              returned by the query. The <samp class="ph codeph">order_by</samp> specification has no effect on
+              what rows the query returns, only on the order of the rows returned. </p>
+<p class="p">An
+              exception to this  behavior occurs when one of the attributes specified for the
+                <samp class="ph codeph">order_by</samp> parameter matches an attribute in the query itself, as in
+              the following example:
+              </p>
+<pre class="pre codeblock">/rest/datasources/<var class="keyword varname">datasource-id</var>/
+raw_data?derived:id__eq=STRING:sensor_113&amp;
+order_by=-derived:id</pre>
+<p class="p">If
+              a reverse ordering operator is present, as it is in the example, it is the operator is
+              applied first, to make a more efficient query. In this case, the query could
+              potentially return rows from the database in a different order than a query not using
+              the operator.</p>
+</dd>
+
+        
+      </dl>
+
+    </div>
+
+    <div class="section"><h2 class="title sectiontitle">Request Headers</h2>
+      
+      <p class="p">None.</p>
+
+    </div>
+
+    <div class="section"><h2 class="title sectiontitle">Response</h2>
+      
+      <p class="p">When an HTTP request is made against the raw data REST interface, the following HTTP status
+        codes can be expected depending on the query result:</p>
+
+      <dl class="dl parml">
+        
+          <dt class="dt pt dlterm">200 OK</dt>
+
+          <dd class="dd pd">
+            <p class="p">The query was successful.</p>
+
+          </dd>
+
+        
+        
+          <dt class="dt pt dlterm">400 Bad Request</dt>
+
+          <dd class="dd pd">
+            <p class="p">Invalid criteria parameter values were provided.</p>
+
+          </dd>
+
+        
+        
+          <dt class="dt pt dlterm">401 Unauthorized</dt>
+
+          <dd class="dd pd">
+            <p class="p">The user is not authenticated.</p>
+
+          </dd>
+
+        
+        
+          <dt class="dt pt dlterm">403 Forbidden</dt>
+
+          <dd class="dd pd">
+            <p class="p">The authenticated user is not authorized to perform the query.</p>
+
+          </dd>
+
+        
+        
+          <dt class="dt pt dlterm">404 Not Found</dt>
+
+          <dd class="dd pd">
+            <p class="p">A resource associated with the query (for example, a data source) does not exist.</p>
+
+          </dd>
+
+        
+        
+          <dt class="dt pt dlterm">500 Internal Server Error</dt>
+
+          <dd class="dd pd">
+            <p class="p">An internal system error has occurred.</p>
+
+          </dd>
+
+        
+      </dl>
+
+    </div>
+
+    <div class="section"><h2 class="title sectiontitle">Usage Guidelines </h2>
+      
+      <p class="p">In the following example:</p>
+
+      <ul class="ul" id="reference_query-sensor-data__ul_wbl_zqz_gq">
+        <li class="li">The data source ID is <samp class="ph codeph">540e5056e77989182bd5aad0</samp>.</li>
+
+        <li class="li">The ID of each derived data item takes the form
+            <samp class="ph codeph">sensor_<var class="keyword varname">n</var></samp></li>
+
+        <li class="li">Data is to be returned for <samp class="ph codeph">sensor_1130</samp> up to but not including
+            <samp class="ph codeph">sensor_1140</samp>.</li>
+
+      </ul>
+
+      <pre class="pre codeblock">GET /rest/data_sources/540e5056e77989182bd5aad0/raw_data? derived:id__gte=STRING:sensor_1130&amp; derived:id__lt=STRING:sensor_1140</pre>
+
+    </div>
+
+  </div>
+
+<div class="related-links"></div>
+<div class="navfooter"><!---->
+<span class="navparent"><a class="link" href="../Commands/con_REST-request-reference.html" title="REST Request Reference"><span class="navheader_label">Parent topic</span><span class="navheader_separator">: </span><span class="navheader_linktext">REST Request Reference</span></a></span>  </div><div class="footer">WebHelp output generated by<a href="http://www.oxygenxml.com" target="_blank"><span class="oXygenLogo"><img src="../oxygen-webhelp/resources/img/LogoOxygen100x22.png" alt="Oxygen"></img></span><span class="xmlauthor">XML Author</span></a></div>
+</body>
+</html>

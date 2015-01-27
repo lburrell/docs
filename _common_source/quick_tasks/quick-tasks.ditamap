@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Quick Tasks</title>
+ <keydef keys="product-vars" href="../_Branded_Terms/con_PHEMI_Central.xml"/>
+ <topicref href="con_quick-tasks.xml">
+  <topicref href="task_change-your-password.xml"/>
+  <topicref href="task_get-system-version-info.xml"/>
+  <topicref href="task_log-off.xml"/>
+ </topicref>
+</map>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_view-audit-log">
+    <title>View the Audit Log</title>
+    <shortdesc>View the Audit Log on the <wintitle>Audit Log</wintitle> page.</shortdesc>
+    <taskbody>
+        <context>
+            <p>To view the Audit Log:</p>
+        </context>
+        <steps id="steps_tkd_15t_qq">
+            <step>
+                <cmd>Open the <uicontrol>Audit Log</uicontrol> page, by clicking the
+                        <uicontrol>Audit Log</uicontrol> icon in the left navigation bar.</cmd>
+                <info>
+                    <p>The <wintitle>Audit Log</wintitle> page opens.</p>
+                    <fig id="fig_access-policies" scale="70"/>
+                </info>
+            </step>
+            <step>
+                <cmd>If you want to see something in particular, set the filtering options.</cmd>
+                <choices id="choices_kv1_f35_qq">
+                    <choice>Specify a start time.</choice>
+                    <choice>Specify an end time.</choice>
+                    <choice>Specify a filter string. </choice>
+                </choices>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>Search</uicontrol> button.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

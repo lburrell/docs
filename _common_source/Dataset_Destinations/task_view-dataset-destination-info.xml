@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_view-dataset-destination-info">
+    <title>View Dataset Destination Information</title>
+    <shortdesc>View the information configured for a given dataset destination on the
+            <wintitle>Dataset Destinations</wintitle> screen of the <wintitle>System
+            Configuration</wintitle> page. </shortdesc>
+    <taskbody>
+        <context>
+            <p>To view information for a dataset destination:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Open the <uicontrol>System Configuration</uicontrol> page, by clicking the
+                        <uicontrol>System Configuration</uicontrol> icon. <image
+                        href="../_images/gui-screen-shots/icon_system-config.JPG"
+                        id="image_fmr_wzn_mq"/> in the left navigation bar.</cmd>
+                <info>
+                    <p>The <wintitle>System Configuration</wintitle> page opens on the
+                            <wintitle>Password Policy</wintitle> screen.</p>
+                    <fig id="fig_system-config">
+                        <image href="../_images/gui-screen-shots/password-policy.jpg"
+                            id="image_j4l_xkn_jq"/>
+                    </fig>
+                </info>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>Dataset Destinations</uicontrol> tab. </cmd>
+                <info>
+                    <p>The <wintitle>Dataset Destinations</wintitle> screen opens.</p>
+                    <fig id="fig_view-dataset-destinations">
+                        <image href="../_images/gui-screen-shots/dataset-destinations.jpg"
+                            id="image_s2y_vfm_qq"/>
+                    </fig>
+                </info>
+            </step>
+            <step>
+                <cmd>At the right of the <uicontrol>Choose Destination to Edit</uicontrol> field,
+                    click the drop-down arrow to see configured dataset destinations. Select the
+                    destination you want to view.</cmd>
+                <info>
+                    <fig id="fig_system-config_view-dataset-dests" scale="70">
+                        <image href="../_images/gui-screen-shots/dataset-destinations_view.jpg"
+                            id="image_wpx_pd4_mq"/>
+                    </fig>
+                    <p>The screen for the selected destination opens, showing the information
+                        configured for it.</p>
+                    <fig id="fig_view-dest-info" scale="70">
+                        <image href="../_images/gui-screen-shots/dataset-destination_view-info.jpg"
+                            id="image_hy3_dnm_qq"/>
+                    </fig>
+                </info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

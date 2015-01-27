@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_submit-data">
+ <title>Submitting Data to <ph conkeyref="product-vars/product-name"/></title>
+ <shortdesc>Data can be submitted to PHEMI using a REST API, using FTP or SSH batch ingestion, or
+  using ETL tools.</shortdesc>
+ <conbody>
+  <p/>
+ </conbody>
+</concept>

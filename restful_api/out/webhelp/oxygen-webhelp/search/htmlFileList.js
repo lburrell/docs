@@ -1,0 +1,21 @@
+//List of files which are indexed.
+fl = new Array();
+fl["0"]= "Commands/con_REST-request-reference.html";
+fl["1"]= "Commands/ref_REST-data-ingest.html";
+fl["2"]= "Commands/ref_REST-query-sensor-data.html";
+fl["3"]= "Commands/ref_REST-user-login.html";
+fl["4"]= "Commands/ref_REST-user-logout.html";
+fl["5"]= "Overview/con_REST-ovw.html";
+fl["6"]= "Overview/con_REST-query-data-types.html";
+fl["7"]= "Overview/con_REST-query-operators.html";
+fl["8"]= "Overview/con_REST-query-params.html";
+fl["9"]= "Overview/con_REST-query-queried-data.html";
+fl["10"]= "Overview/con_REST-reqs-data-types.html";
+fl["11"]= "Overview/con_REST-reqs-interface.html";
+fl["12"]= "Overview/con_REST-reqs-response-sizes.html";
+fl["13"]= "Overview/con_REST-reqs-response-time.html";
+fl["14"]= "Overview/con_REST-reqs-units-of-measurement.html";
+fl["15"]= "Overview/con_REST-reqs.html";
+fl["16"]= "Overview/con_REST-request-format.html";
+fl["17"]= "Overview/con_RESTreqs-user-session-auth.html";
+var doStem = false

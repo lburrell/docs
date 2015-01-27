@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_define-user-authorizations">
+    <title>Define User Authorizations</title>
+    <shortdesc>Define user authorizations on the <wintitle>System Configuration</wintitle> page. </shortdesc>
+    <taskbody>
+        <context>
+            <p><i>Provisional: needs to be updated from demo system.</i></p>
+            <note>Once defined, a user authorization may be neither edited nor deleted.</note>
+            <p>To define user authorizations:</p>
+        </context>
+        <steps id="steps_dwd_rnx_kq">
+            <step>
+                <cmd>Open the <uicontrol>System Configuration</uicontrol> page, by clicking the
+                        <uicontrol>System Configuration</uicontrol> icon <image
+                        href="../_images/gui-screen-shots/icon_system-config.JPG"
+                        id="image_svp_vkn_jq"/> in the left navigation bar.</cmd>
+                <info>The <wintitle>System Configuration</wintitle> page opens on the<wintitle>
+                        Password Policy</wintitle> screen.</info>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>Authorizations</uicontrol> tab.</cmd>
+                <info>The <wintitle>Authorizations</wintitle> screen opens.<fig
+                        id="fig_sys-config_authorizations"/></info>
+            </step>
+            <step>
+                <cmd>Set the authorization information.</cmd>
+                <choicetable id="choicetable_h54_rtx_3q">
+                    <chrow>
+                        <choption/>
+                        <chdesc>
+                            <p/>
+                        </chdesc>
+                    </chrow>
+                </choicetable>
+            </step>
+            <step>
+                <cmd>Save the authorization information by clicking the <uicontrol>Save</uicontrol>
+                    button. </cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

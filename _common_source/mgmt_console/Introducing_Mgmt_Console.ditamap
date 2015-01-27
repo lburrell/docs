@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Introducing the Management Console</title>
+ <topicref href="con_introducing-mgmt-console.xml">
+  <topicref href="task_logging-on.xml"/>
+  <topicref href="con_quick-tour-mgmt-console.xml"/>
+  <topicref href="con_what-can-i-do.xml"/>
+  <topicref href="../Initial_Setup/task_setup-workflow.xml"/>
+ </topicref>
+</map>

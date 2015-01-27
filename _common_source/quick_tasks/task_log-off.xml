@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_log-off">
+    <title>Log Off</title>
+    <shortdesc>Log off from any screen by using the quick task buttons at the top of the
+        screen.</shortdesc>
+    <taskbody>
+        <context>
+            <p>To log off <ph conkeyref="product-vars/gui-name"/>:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Locate the quick task buttons, next to your username at the top right of the
+                    screen.</cmd>
+                <info>
+                    <fig id="fig_quick-tasks">
+                        <image href="../_images/gui-screen-shots/quick-tasks.JPG"
+                            id="image_xpq_lnr_3q"/>
+                    </fig>
+                </info>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>Logout</uicontrol> button. You are logged off <ph
+                        conkeyref="product-vars/gui-name"/> and the <wintitle>Login</wintitle>
+                    screen reappears.</cmd>
+                <info>
+                    <fig id="fig_login-screen">
+                        <image href="../_images/gui-screen-shots/login-screen.JPG"
+                            id="image_wkx_xpr_3q"/>
+                    </fig>
+                </info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

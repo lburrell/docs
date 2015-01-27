@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Administrator Quick Start Guide</title>
+ <keydef keys="product-vars" href="../_Common_Source/_Branded_Terms/con_PHEMI_Central.xml"/>
+ <topicref href="../_Common_Source/PHEMI_Central/con_introducing-PHEMI-Central.xml">
+  <topicref href="../_Common_Source/PHEMI_Central/con_PHEMI-Central-ovw.xml"/>
+ </topicref>
+ <topicref href="../_Common_Source/Mgmt_Console/con_introducing-mgmt-console.xml">
+  <topicref href="../_Common_Source/Mgmt_Console/con_quick-tour-mgmt-console.xml"/>
+ </topicref>
+ <topicref href="../_Common_Source/Initial_Setup/con_before-configuring.xml">
+  <topicref href="../_Common_Source/Installation/con_installation.xml"/>
+  <topicref href="../_Common_Source/Privacy_Security_Governance/con_governance-policies.xml"/>
+ </topicref>
+ <topicref href="../_Common_Source/Initial_Setup/task_setup-workflow.xml">
+  <topicref href="../_Common_Source/Mgmt_Console/task_logging-on.xml"/>
+  <topicref href="../_Common_Source/Users/task_define-user-authorizations.xml"/>
+  <topicref href="../_Common_Source/Users/task_create-new-user.xml"/>
+  <topicref href="../_Common_Source/Data_Visibilities/task_define-data-visibility.xml"/>
+  <topicref href="../_Common_Source/Data_Categories/task_add-data-category.xml"/>
+  <topicref href="../_Common_Source/Access_Policies/task_create-access-policy.xml"/>
+  <topicref href="../_Common_Source/Data_Sources/task_define-data-source.xml"/>
+  <topicref href="../_Common_Source/Dataset_Destinations/task_create-dataset-destination.xml"/>
+ </topicref>
+</map>

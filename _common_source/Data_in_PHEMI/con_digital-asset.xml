@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_digital-asset">
+ <title>Digital Asset</title>
+ <shortdesc/>
+ <conbody>
+  <p>Once raw data has had metadata applied, it is considered a digital asset. Derived data is also
+   a digital asset.</p>
+ </conbody>
+</concept>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_data-visibilities">
+ <title>Data Visibilities</title>
+ <shortdesc>Data visibilities identify the privacy requirements for data.</shortdesc>
+ <conbody>
+  <p><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>All data stored in PHEMI
+   Central is protected with Visibilities, which are user-defined labels that specify the
+   sensitivity of data. For example, PII (Personally Identifiable Information) is a common label,
+   that can be applied to data about an individual to indicate its sensitivity, such as a Name.
+   Another example, is NonPII (Non-PII) labels, such as an individuals weight or eye colour.
+   <?oxy_custom_end?></p>
+  <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+  <p> </p>
+  <p>PHEMI Central enables the creation of custom Data Visibilities to meet an organization's needs
+   around data protection through its Management Console. </p>
+  <p> </p>
+  <p>When a Data Policy is defined for a Data Source, it can be configured with any number of
+   Visibilities so that the data is stored with these labels attached to the data. Additionally,
+   Data Processing Functions can apply Visibilities at a fine-grained level, enabling cell-level
+   data protection.</p>
+  <?oxy_custom_end?>
+  <p conref="../_Glossary/con_glossary.xml#concept_glossary/visibilities"/>
+  <p><ph conkeyref="product-vars/product-name"/> predefines three visibilities pertaining to
+   privacy:</p>
+  <table frame="all" rowsep="1" colsep="1" id="table_zq5_hfw_kq">
+   <title>System-Defined Data Visibilities</title>
+   <tgroup cols="2">
+    <colspec colname="c1" colnum="1" colwidth="1.0*"/>
+    <colspec colname="c2" colnum="2" colwidth="1.0*"/>
+    <thead>
+     <row>
+      <entry>Visibility</entry>
+      <entry>Description</entry>
+     </row>
+    </thead>
+    <tbody>
+     <row>
+      <entry>IDENTIFIED</entry>
+      <entry>Sensitive data that contains identifying information. Such data should be secured and
+       available only to authorized personnel.</entry>
+     </row>
+     <row>
+      <entry>DE_IDENTIFIED</entry>
+      <entry>Sensitive data that has been transformed and masked to remove identifying
+       information</entry>
+     </row>
+     <row>
+      <entry>NONIDENTIFIED</entry>
+      <entry>Data that does not contain sensitive or identifying data.</entry>
+     </row>
+    </tbody>
+   </tgroup>
+  </table>
+  <p>You can define additional data visibilities to suit your organization's needs. Possible
+   examples are CONFIDENTIAL to identify data that is sensitive and requires a user to a certain
+   level of access or certification to access, PII to identify Personally Identifiable Information,
+   PHI to identify personal health information, or SECRET to identify especially sensitive
+   material.</p>
+  <note>Once defined, a data visibility may be neither edited nor deleted.</note>
+  <p>The data visibilities specified for a data source are referred to in access policies and
+   matched against user authorizations to determine what actions, if any, a given user is allowed to
+   perform on the data. </p>
+  <p>Any data visibility defined in the system can be used by a Data Processing Function (DPF) to
+   tag data elements, or cells, derived by the DPF. For example, the Social Security Number
+   extracted from a health record can be tagged CONFIDENTIAL if that data visibility has been
+   defined in the system. This mechanism provides "cell-level" privacy protection.</p>
+ </conbody>
+</concept>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="reference_data-ingest">
+  <title>Data Ingest</title>
+  <shortdesc> Submit data to PHEMI Central. </shortdesc>
+  <refbody>
+    <section>
+      <title>URI</title>
+      <codeblock>POST /rest/data_sources/<varname>datasource_id</varname>/ingestions</codeblock>
+    </section>
+    <section>
+      <title>Request Parameters</title>
+      <p>This request submits data to PHEMI Central by issuing a POST request to the REST ingest
+        URI. The POST request expects a JSON payload with the Semios device data:</p>
+      <ul id="ul_a1d_nqp_fq">
+        <li>A version identifier</li>
+        <li>A device identifier</li>
+        <li>A set of non-hierarchical logs (data)</li>
+        <li>A set of non-hierarchical tags</li>
+      </ul>
+    </section>
+    <section>
+      <title>Request Headers</title>
+      <parml>
+        <plentry>
+          <pt>Prefer: respond-async</pt>
+          <pd>
+            <p>The presence of the <msgph>Prefer</msgph> header with the value
+                <msgph>respond-async</msgph> will cause requests to be executed in the background.
+              Control is returned to the REST client immediately. If this header is used, a return
+              code of <msgph>202 Accepted</msgph> is returned.</p>
+          </pd>
+        </plentry>
+      </parml>
+    </section>
+    <section>
+      <title>Response</title>
+      <p>The following are the HTTP status codes that can be expected:</p>
+      <parml>
+        <plentry>
+          <pt>200 OK</pt>
+          <pd>
+            <p>The ingestion request completed successfully. The raw data has been persisted in
+              PHEMI Central.</p>
+          </pd>
+        </plentry>
+        <plentry>
+          <pt>202 Accepted</pt>
+          <pd>
+            <p>The ingestion request was accepted, but did not complete.</p>
+          </pd>
+        </plentry>
+        <plentry>
+          <pt>400 Bad Request</pt>
+          <pd>
+            <p>The JSON body of the request is not well-formed.</p>
+          </pd>
+        </plentry>
+        <plentry>
+          <pt>401 Unauthorized</pt>
+          <pd>
+            <p>The user session is invalid.</p>
+          </pd>
+        </plentry>
+        <plentry>
+          <pt>403 Forbidden</pt>
+          <pd>
+            <p>The user session does not have permission to perform an ingestion.</p>
+          </pd>
+        </plentry>
+        <plentry>
+          <pt>404 Not Found</pt>
+          <pd>
+            <p>The data source does not exist.</p>
+          </pd>
+        </plentry>
+        <plentry>
+          <pt>500 Internal Server Error</pt>
+          <pd>
+            <p>An internal system error has occurred.</p>
+          </pd>
+        </plentry>
+      </parml>
+      
+    </section>
+    <section>
+      <title>Usage Guidelines</title>
+      <p>In the event of a <msgph>202 Accepted</msgph> return code, the body of the response will
+        contain status and meta information. The following is an example.</p>
+      <codeblock>{
+   "_links": {
+      "curies": [
+         {
+            "href": "http://docs.phemi.com/rels/{rel}",
+            "name": "ph",
+            "templated": true
+         }
+       ],
+       "ph:task_history": {
+          "href": "/rest/tms/task_histories/54108814e779891b9b1a1eb4",
+          "title": "Ingest and Derive for Data Source ECG"
+       },
+       "self": {
+          "href": "/rest/tms/ingest_statuses/54108814e779891b9b1a1eb4"
+       }
+    },
+    "error": null,
+    "result": null,
+    "status": "pending"
+}</codeblock>
+      <p>If the task is still running, the return status code will continue to be <msgph>202
+          Accepted</msgph>; otherwise, if the task finished and was successful, a <msgph>200
+          OK</msgph> response code is returned. If the task failed, a <msgph>500 Internal Server
+          Error</msgph> is returned along with error details in the response body.</p>
+      <p>In the example below, the task is still running as the status shows on the last line. To
+        determine the status of the ingestion at a later time, use the <b><i>self href</i></b> link
+        specified in this response. In this example, the following is the link to use to determine
+        the running status:</p>
+      <codeblock>/rest/tms/ingest_statuses/54108814e779891b9b1a1eb4</codeblock>
+      <p>The following is an example of a status while the ingest task is still running:</p>
+      <codeblock>{
+   "_id": {
+      "$oid": "54108814e779891b9b1a1eb4
+   },
+   "_links": {
+      "curies": [
+         {
+            "href": "http://docs.phemi.com/rels/{rel}",
+            "name": "ph",
+            "templated": true
+         }
+      ],
+      "self": {
+         "href": "/rest/tms/task_histories/54108814e779891b9b1a1eb4"
+      }
+   },
+   "action": "chained",
+   "error": "",
+   "extra_props": {
+      "tasks": [
+         {
+            "_id": {
+               "$oid": "54468bb0e779891099693f44"
+            },
+            "action": "ingest",
+            "error": "",
+            "extra_props": {
+               "data_source_id": "543d87d8e779897cfc5d3330",                   
+               "data_source_name": "Semios Sensors",                   
+               "total_metasize": 212,                   
+               "total_objects": 1,                   
+               "total_rawsize": 780               
+            },
+            "finished": "2014-10-21T16:37:04.576Z",
+            "name": "Semios Retention",
+            "queued": "2014-10-21T16:37:04.464Z",
+            "started": 2014-10-21T16:37:04.498Z",
+            "status": "finished",
+            "uniquename": "datasource-Semios Sensors",
+            "username": "admin"
+         },
+         {
+            "_id": {
+                "$oid": "54468bb0e779891099693f45"               
+            },
+            "action": "derive",
+            "error": "",
+            "extra_props": {},
+            "finished": "2014-10-21T16:37:19.683Z",
+            "name": "Semios Retention",
+            "queued": "2014-10-21T16:37:04.488Z",
+            "started": "2014-10-21T16:37:04.583Z",
+            "status": "finished",
+            "uniquename": "datasource-Semios Retention",
+            "username": "admin"
+         }
+      ]
+   },
+   "finished": "2014-10-21T16:37:19.686Z",
+   "name": "Ingest and Derive for Data Source Semios Sensors",
+   "queued": "2014-10-21T16:37:04.491Z",
+   "started": "2014-10-21T16:37:04.494Z",
+   "status": "finished",
+   "uniquename": "Ingest and Derive for Data Source Semios Sensors",
+   "username": "admin"
+}</codeblock>
+      <p>Notice that the task status is set to “finished” and the time the task finished is also
+        given. If the DPF has not been configured to process the derived data immediately, a
+        finished task only indicates that the ingestion of raw data is complete (the raw data has
+        been persisted in PHEMI Central). To determine when generation of derived data has been
+        completed, follow the instructions in the Derivation Completion section.</p>
+    </section>
+  </refbody>
+</reference>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_security">
+ <title>Security</title>
+ <shortdesc/>
+ <conbody>
+  <p/>
+  <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+  <p>At the same time, at no time can users, applications or external systems bypass the PHEMI
+   policy enforcement engine to access data directly. </p>
+  <?oxy_custom_end?>
+ </conbody>
+</concept>

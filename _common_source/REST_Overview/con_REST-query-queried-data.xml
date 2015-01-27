@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_REST-queried-data">
+ <title>Queried Data</title>
+ <conbody>
+  <p>The Semios Web Application retrieves device log records from PHEMI Central using the Query Data
+   APIs. </p>
+  <p>There are four kinds of data to retrieve:</p>
+  <ul id="ul_q2p_scp_fq">
+   <li><u>Metadata</u>: Descriptive information generically describing the ingested data</li>
+   <li><u>Derived data</u>: individual pieces of data extracted and transformed from ingested data
+    used for later analysis</li>
+   <li><u>Aggregated data</u>: calculated data based on the derived data</li>
+   <li><u>Raw Data</u>: The data that was ingested</li>
+  </ul>
+  <p>To support each type of data, separate HTTP GET APIs are provided.</p>
+ </conbody>
+</concept>

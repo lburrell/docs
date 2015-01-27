@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_view-system-users">
+    <title>View System Users</title>
+    <shortdesc>View system users on the <wintitle>Manage Users</wintitle> page. </shortdesc>
+    <taskbody>
+        <context>
+            <p>To view system users:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Open the <uicontrol>Manage Users</uicontrol> page, by clicking the
+                        <uicontrol>Users</uicontrol> icon<image
+                        href="../_images/gui-screen-shots/icon_users.JPG" id="image_lg1_skn_jq"/> in
+                    the left navigation bar.</cmd>
+                <info>The <wintitle>Manage Users</wintitle> page lists all the users defined on the
+                        system.<fig id="fig_manage-users">
+                        <image href="../_images/gui-screen-shots/users_manage-users.jpg"
+                            id="image_lq2_5kn_jq"/>
+                    </fig></info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

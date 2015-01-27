@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>System Maintenance</title>
+ <topicref href="con_sys-maint.xml">
+  <topicref href="task_define-test-sim.xml"/>
+  <topicref href="task_execute-test-sim.xml"/>
+ </topicref>
+</map>

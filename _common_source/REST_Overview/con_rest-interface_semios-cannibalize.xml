@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_REST-interface-ovw">
+ <title>The REST Interface</title>
+ <conbody>
+  <p>PHEMI Central provides an HTTP REST interface to support data ingest and querying. REST is an
+   architecture style for designing networked applications using HTTP as its stateless,
+   client-server, cache-able communications protocol. RESTful applications use HTTP requests and
+   their associated methods (POST, PUT, GET, DELETE) to create, update, read, and delete data (<xref
+    href="http://en.wikipedia.org/wiki/Representational_state_transfer" format="html"
+    scope="external">http://en.wikipedia.org/wiki/Representational_state_transfer</xref>). PHEMI
+   uses JSON as its data format and follows the HAL standard for JSON: for definitions see <xref
+    href="http://stateless.co/hal_specification.html" format="html" scope="external"
+    >http://stateless.co/hal_specification.html</xref>.</p>
+  <p>Data is ingested by an HTTP POST to a specific URL, while data is queried by an HTTP GET to a
+   specific URL.</p>
+  <p>If an <i>incorrect</i> URL is specified, the following will occur:</p>
+  <ul id="ul_jqm_2p3_fq">
+   <li>If the REST operation is a GET or POST, a <b>404 Not Found</b> code is returned with a
+    message stating the resource could not be found</li>
+   <li>If the REST operation is something other than GET or POST (i.e., PUT or DELETE), a <b>405
+     Method Not Allowed </b>code is returned with a message stating the resource method is not
+    supported by the resource</li>
+  </ul>
+ </conbody>
+</concept>

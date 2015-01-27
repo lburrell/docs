@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Privacy, Security, and Governance</title>
+ <topicref href="con_psg.xml">
+  <topicref href="con_privacy.xml">
+   <topicref href="con_privacy-by-design.xml"/>
+   <topicref href="con_abac.xml">
+    <topicref href="../Users/con_user-authorizations.xml"/>
+    <topicref href="../Data_Visibilities/con_data-visibilities.xml"/>
+    <topicref href="../Access_Policies/con_access-policies.xml"/>
+   </topicref>
+  </topicref>
+  <topicref href="con_security.xml">
+   <topicref href="con_role-based-access.xml"/>
+   <topicref href="../Passwords/con_password-policies.xml"/>
+   <topicref href="../Audit_Log/con_audit-log.xml"/>
+   <topicref href="con_network-security.xml"/>
+  </topicref>
+  <topicref href="con_governance.xml">
+   <topicref href="con_governance-policies.xml"/>
+   <topicref href="task_define-governance-policy.xml"/>
+   <topicref href="con_data-sharing-agreements.xml"/>
+   <topicref href="../Lifecycle_Management/con_lifecycle-mgmt.xml"/>
+  </topicref>
+ </topicref>
+</map>

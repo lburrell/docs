@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_data-policy">
+  <title>Data Policies</title>
+  <shortdesc/>
+  <conbody>
+    <p>Data source information is set and modified on the Data Sources page. <image
+        href="../_images/gui-screen-shots/icon_datasources.JPG" id="image_zkg_pkr_3q"/></p>
+  </conbody>
+</concept>

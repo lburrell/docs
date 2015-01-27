@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="reference_REST-query-operators">
+  <title>REST Query Operators</title>
+  <refbody>
+    <table frame="all" rowsep="1" colsep="1" id="table_REST-query-operators">
+      <title>REST Query Operators</title>
+      <tgroup cols="4">
+        <colspec colname="c1" colnum="1" colwidth="1.0*"/>
+        <colspec colname="c2" colnum="2" colwidth="1.0*"/>
+        <colspec colname="c3" colnum="3" colwidth="1.0*"/>
+        <colspec colname="c4" colnum="4" colwidth="1.0*"/>
+        <thead>
+          <row>
+            <entry>Operator</entry>
+            <entry>Symbol</entry>
+            <entry>Description</entry>
+            <entry>Example</entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry><i>[None]</i></entry>
+            <entry/>
+            <entry>When no operator is specified, the equals operator is assumed.</entry>
+            <entry><codeph>agg_id=id= sensor_2</codeph></entry>
+          </row>
+          <row>
+            <entry><codeph>__eq</codeph></entry>
+            <entry>=</entry>
+            <entry>Performs an exact match</entry>
+            <entry><codeph>agg_id__eq=id= sensor_2</codeph></entry>
+          </row>
+          <row>
+            <entry><codeph>__gt</codeph></entry>
+            <entry>></entry>
+            <entry>Queries for values greater than the specified value</entry>
+            <entry><codeph>derived:attribute __gt=STRING:aaaa</codeph></entry>
+          </row>
+          <row>
+            <entry><codeph>__gte</codeph></entry>
+            <entry>>=</entry>
+            <entry>Queries for values greater than or equal to the specified value</entry>
+            <entry><codeph>derived:attribute __gte=DOUBLE:5.50</codeph></entry>
+          </row>
+          <row>
+            <entry><codeph>__lt</codeph></entry>
+            <entry>&lt;</entry>
+            <entry>Queries for values less than the specified value</entry>
+            <entry><codeph>derived:attribute __lt=DATE:2014-10 -15T00:54:32.750Z</codeph></entry>
+          </row>
+          <row>
+            <entry><codeph>__lte</codeph></entry>
+            <entry>&lt;=</entry>
+            <entry>Queries for values less than or equal to the specified value</entry>
+            <entry><codeph>derived:attribute __lte=LONG:345543</codeph></entry>
+          </row>
+          <row>
+            <entry><codeph>__in</codeph></entry>
+            <entry/>
+            <entry>Queries for values in a list</entry>
+            <entry><codeph>derived:attribute __in=STRING:blue, red,green,purple</codeph></entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </refbody>
+</reference>

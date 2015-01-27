@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Object Browsing</title>
+ <keydef keys="product-vars" href="../_Branded_Terms/con_PHEMI_Central.xml"/>
+ <topicref href="con_object-browsing.xml">
+  <topicref href="task_locate-object.xml"/>
+  <topicref href="task_delete-object.xml"/>
+ </topicref>
+</map>

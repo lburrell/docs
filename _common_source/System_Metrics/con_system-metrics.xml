@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_system-metrics-intro">
+ <title>System Metrics</title>
+ <shortdesc><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>The System Metrics
+        page provides system status and health at a glance. <?oxy_custom_end?></shortdesc>
+ <conbody>
+  <p><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>The user is also presented
+            with the option to filter based on Data Sources in the system. Metrics displayed include
+            statistics on users, roles, content, sources and storage.<?oxy_custom_end?></p>
+ </conbody>
+</concept>

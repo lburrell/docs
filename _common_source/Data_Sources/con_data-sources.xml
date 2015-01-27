@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_about-data-sources">
+ <title>Data Sources</title>
+ <conbody>
+    <p conref="../_Glossary/con_glossary.xml#concept_glossary/data-source"/>
+  <p>Data source configuration includes:</p>
+  <ul id="ul_nxv_jjf_jq">
+   <li>The data policy. <xref href="con_data-policies.xml#concept_data-policies">Tell me about data
+          policies</xref></li>
+      <li>The Data Processing Function. <xref href="../DPFs/con_dpfs.xml#concept_dpfs">Tell me about
+          DPFs</xref></li>
+   <li>A utility function for manually ingesting data. <xref
+          href="task_manually-ingest-data.xml#task_tl5_hvq_5q">How do I manually ingest
+        data?</xref></li>
+  </ul>
+  <p>No connection information is specified in data source configuration. Data is "pushed" from the
+      site that is submitting the data. The submitting system initiates a session on a designated
+      port, on which <ph conkeyref="product-vars/product-name"/>  listens.  <ph
+        conkeyref="product-vars/product-name"/> extracts any necessary connection information from
+      the session information. <xref href="../Data_in_PHEMI/con_submit-data.xml#concept_submit-data"
+        >How do I submit data to <ph conkeyref="product-vars/product-name"/>?</xref></p>
+ </conbody>
+</concept>

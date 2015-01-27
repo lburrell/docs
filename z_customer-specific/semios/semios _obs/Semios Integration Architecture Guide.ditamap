@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Semios/PHEMI Integration Guide</title>
+ <topicref href="con_intro.xml"/>
+ <topicref href="con_proposed-architecture-solution.xml"/>
+ <topicref href="../REST_API/Overview/REST-API-Ovw.ditamap" format="ditamap"/>
+ <topicref href="../REST_API/Commands/REST-Request-Reference.ditamap" format="ditamap"/>
+ <mapref href="../DPF_API/DPF_API.ditamap" format="ditamap"/>
+</map>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>PHEMI RESTful API User Guide</title>
+ <topicref href="Overview/REST-API-Ovw.ditamap" format="ditamap"/>
+ <topicref href="Commands/REST-Request-Reference.ditamap" format="ditamap"/>
+</map>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_data-consumption">
+ <title>Consumption</title>
+ <shortdesc/>
+ <conbody>
+  <p/>
+  <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+  <p>PHEMI Central has a rich REST API for expressing queries to search for and retrieve data stored
+   in the system. Our API supports standard operators, such as:</p>
+  <p>Multiple criteria can be combined to create a more restrictive query. Furthermore, PHEMI
+   Central supports common data types for these operands, such as INT, DOUBLE, DATE, and TIMESTAMPS.
+   The fields queried against (e.g. in the above table <b>ssn </b>or <b>age</b>) are the derived
+   data values that are extracted by DPFs, all of which are automatically indexed, making querying
+   of the system very efficient. Additionally, all values are tagged with the data attributes,
+   preventing users from finding data they are not permitted to see.</p>
+  <p> </p>
+  <p>For users or analytics tools that use SQL to query a system, PHEMI Central provides an SQL-like
+   interface for querying against configured datasets. First, an Administrator defines a dataset by
+   selecting the derived data fields that are present in it, such as <b>ssn</b> and <b>age</b>. They
+   then assign an Access Policy which determines whether data is filtered (such as the <b>ssn</b>
+   field) when a user issues a SQL command against the system.</p>
+  <p> </p>
+  <p>Currently, PHEMI supports HiveQL which is a SQL dialect that closely resembles standard SQL. In
+   the future, PHEMI will support complete ANSI-92 SQL in the system.</p>
+  <p>PHEMI Central allows you to build datasets on demand without having to manage multiple data
+   marts or complex MapReduce or YARN processes. Whether the dataset is consumed by a user or
+   exported to an application or analytics tool, PHEMI Central strictly enforces your organization’s
+   privacy and security policies to ensure appropriate access to data.</p>
+  <?oxy_custom_end?>
+  <p>PHEMI Central integrates with your existing infrastructure, applications, and analytics tools
+   to let you immediately take advantage of the Big Data Warehouse. Multiple users can concurrently
+   interact with the system, accessing datasets via SQL, data exports, and using custom
+   applications, breaking down the costly data silos spread throughout your organization.</p>
+  <p>Dataset Access Datasets can be accessed in a variety of ways: • Export to a Microsoft Excel
+   spreadsheet or Comma Separated Value (CSV) file • Custom application via the PHEMI REST API •
+   Applications and analytics tools via ODBC/ JDBC connectors • SAP HANA via the SAP Smart Data
+   Access connector</p>
+  <p>On Demand Datasets Datasets are instantiated when information is needed, without having to
+   predefine or navigate complex relational database schema. Data views are logical mappings that
+   define a subset of the cataloged digital assets in the system across a specified collection of
+   data. They can be created, altered, and discarded, and, since they are virtual constructs, they
+   eliminate any need for data marts.</p>
+  <p>Data Analysis PHEMI Central supports standard tools, including R, SAP, SAS, SPSS, Stata,
+   Tableau and more, to let organizations leverage their existing software.</p>
+  <p>SQL Support SQL remains the primary method for analyzing and accessing data in many logical
+   data warehouse architectures. PHEMI Central supports batch and interactive SQL queries.</p>
+  <p>In-house developers, PHEMI developers, or third-party developers can develop custom
+   applications using the PHEMI REST web services interface. The REST interface provides a rich set
+   of statements that can access core system functionality, including flexible queries for data.
+   REST queries, like all other queries are subject to the access controls enforcing information
+   privacy, security and governance. Organizations can quickly trial innovative new applications,
+   putting information in the hands of their users. This development agility means that applications
+   that gain traction can be hardened and expanded and others retired.</p>
+ </conbody>
+</concept>

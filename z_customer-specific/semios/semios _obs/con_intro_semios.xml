@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_doc_intro_semios">
+ <title>Introduction</title>
+ <conbody>
+  <p>This document specifies the high level architecture for Semios system integration with PHEMI
+   Central. It describes the Semios - PHEMI Central system integration points and their use, and the
+   deployment and configuration of PHEMI Central for Semios.</p>
+  <p>M2M integration with PHEMI Central is achieved with the PHEMI REST interface, which is also
+   used internally by PHEMI Central's Web and Command Line interfaces. The PHEMI REST interface
+   provides the capability to write data into the system (ingest) and read data from the system
+   (query). </p>
+  <p>The Semios system uses PHEMI Central in a headless configuration utilizing the PHEMI REST
+   interface. Semios raw sensor data is ingested into the system using this interface. Queries are
+   conducted on Semios raw and derived data (e.g. sensor aggregation) using the same interface. For
+   example, the Semios App Server queries PHEMI Central to provide analytical information back to
+   users to satisfy the Semios “Read Logs” and “Drill Down” use cases.</p>
+  <p>During ingestion the sensor data are stored, processed and aggregated. The parsing, processing
+   and aggregation tasks are done by custom Data Processing Functions (DPFs). The resulting data
+   structures support the following calculations at scale by providing appropriate sensor
+   aggregations:</p>
+  <ul id="ul_nv2_v41_fq">
+   <li>Degree Days</li>
+   <li>Frost</li>
+   <li>Fireblight</li>
+  </ul>
+  <p>PHEMI Central provides efficient and scalable methods utilizing aggregations to calculate
+   running averages, summations, minimums and maximums of the Semios data. To describe sets of
+   aggregated data, sets are tagged with user defined labels, such as ‘Block’, ‘Property’ or ‘Crop
+   Type’. By using the aggregations, the task of calculating combinatory values is aided and
+   accelerated by PHEMI Central, simplifying the Semios application. </p>
+  <p>The following diagram illustrates the high level architecture of the Semios-PHEMI integration.
+   The flow of data between PHEMI Central and the Semios components is managed by the PHEMI REST
+   interface.</p>
+ </conbody>
+</concept>

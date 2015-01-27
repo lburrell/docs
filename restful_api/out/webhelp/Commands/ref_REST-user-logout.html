@@ -1,0 +1,103 @@
+
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html xml:lang="en-us" lang="en-us">
+<head><meta name="description" content="Log off PHEMI Central and delete the session. URI DELETE /rest/user_sessions Request Parameters This request logs the user off PHEMI Central by sending a DELETE request containing the cookie for the ..."></meta><meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta><meta name="copyright" content="(C) Copyright 2005"></meta><meta name="DC.rights.owner" content="(C) Copyright 2005"></meta><meta name="DC.Type" content="reference"></meta><meta name="DC.Title" content="User Logout"></meta><meta name="abstract" content="Log off PHEMI Central and delete the session."></meta><meta name="description" content="Log off PHEMI Central and delete the session."></meta><meta name="DC.Relation" scheme="URI" content="../Commands/con_REST-request-reference.html"></meta><meta name="DC.Format" content="XHTML"></meta><meta name="DC.Identifier" content="reference_user-logout"></meta><link rel="stylesheet" type="text/css" href="../oxygen-webhelp/resources/css/commonltr.css"><!----></link><title>User Logout</title><meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta><link rel="stylesheet" type="text/css" href="../oxygen-webhelp/resources/css/webhelp_topic.css"><!----></link><link rel="stylesheet" type="text/css" href="../oxygen-webhelp/resources/skins/skin.css"><!----></link><script type="text/javascript"><!--
+          
+          var prefix = "../index.html";
+          
+          --></script><script type="text/javascript" src="../oxygen-webhelp/resources/js/jquery-1.8.2.min.js"><!----></script><script type="text/javascript" src="../oxygen-webhelp/resources/js/jquery.cookie.js"><!----></script><script type="text/javascript" src="../oxygen-webhelp/resources/js/jquery-ui.custom.min.js"><!----></script><script type="text/javascript" src="../oxygen-webhelp/resources/js/jquery.highlight-3.js"><!----></script><script type="text/javascript" charset="utf-8" src="../oxygen-webhelp/resources/js/webhelp_topic.js"><!----></script></head>
+<body onload="highlightSearchTerm()" class="frmBody" id="reference_user-logout">
+<table class="nav"><tbody><tr><td colspan="2"><div id="printlink"><a href="javascript:window.print();" title="Print this page"></a></div><div id="permalink"><a href="#" title="Link to this page"></a></div></td></tr><tr><td width="75%"><a class="navheader_parent_path" href="../Commands/con_REST-request-reference.html" title="REST Request Reference">REST Request Reference</a></td><td><div class="navheader">
+<span class="navparent"><a class="link" href="../Commands/con_REST-request-reference.html" title="REST Request Reference"><span class="navheader_label">Parent topic</span><span class="navheader_separator">: </span><span class="navheader_linktext">REST Request Reference</span></a></span>  </div></td></tr></tbody></table>
+
+  <h1 class="title topictitle1">User Logout</h1>
+
+  
+  <div class="body refbody"><p class="shortdesc"> Log off PHEMI Central and delete the session. </p>
+
+    <div class="section"><h2 class="title sectiontitle">URI</h2>
+      
+      <pre class="pre codeblock">DELETE /rest/user_sessions</pre>
+
+    </div>
+
+    <div class="section"><h2 class="title sectiontitle">Request Parameters</h2>
+      
+      <p class="p">This request logs the user off PHEMI Central by sending a DELETE request containing the
+        cookie for the user session.  request. The DELETE request does not expect a JSON body or any
+        request parameters. However, a cookie that contains the user session information is
+        required.</p>
+
+    </div>
+
+    <div class="section"><h2 class="title sectiontitle">Request Headers</h2>
+      
+      <p class="p">None.</p>
+
+    </div>
+
+    <div class="section"><h2 class="title sectiontitle">Response</h2>
+      
+      <p class="p">The following are the HTTP status codes that can be expected:</p>
+
+      <dl class="dl parml">
+        
+          <dt class="dt pt dlterm">204 No Content</dt>
+
+          <dd class="dd pd">
+            <p class="p">The session for the current user has been deleted.</p>
+
+          </dd>
+
+        
+        
+          <dt class="dt pt dlterm">404 Not Found</dt>
+
+          <dd class="dd pd">
+            <p class="p">The specified user session does not exist.</p>
+
+          </dd>
+
+        
+      </dl>
+
+    </div>
+
+    <div class="section"><h2 class="title sectiontitle">Usage Guidelines</h2>
+      
+      <p class="p">This example shows Python code that logs a user in, then uses the login cookie to log the
+        user off.</p>
+
+      <pre class="pre codeblock">import urllib
+import httplib2
+import json
+
+http = httplib2.Http()
+
+<var class="keyword varname"># Log in</var>
+url = 'http//<var class="keyword varname">hostname</var>:<var class="keyword varname">port</var>/rest/user_sessions'
+body = {'username': '<var class="keyword varname">username</var>', 'password': '<var class="keyword varname">password</var>'}
+headers = {'Content-type': 'application/json'}
+login_response, login_content = http.request (url,
+                                              'POST',
+                                              headers=headers,
+                                              body=json.dumps(body))
+
+<var class="keyword varname"># Include the login session in the header</var>
+url = 'http://<var class="keyword varname">hostname</var>:<var class="keyword varname">port</var>/rest/user_sessions'
+headers = {'Cookie': login_response['set-cookie']}
+logout_response, logout_content = http.request(url,
+                                             'DELETE',
+                                             headers=headers)
+</pre>
+
+    </div>
+
+  </div>
+
+<div class="related-links"></div>
+<div class="navfooter"><!---->
+<span class="navparent"><a class="link" href="../Commands/con_REST-request-reference.html" title="REST Request Reference"><span class="navheader_label">Parent topic</span><span class="navheader_separator">: </span><span class="navheader_linktext">REST Request Reference</span></a></span>  </div><div class="footer">WebHelp output generated by<a href="http://www.oxygenxml.com" target="_blank"><span class="oXygenLogo"><img src="../oxygen-webhelp/resources/img/LogoOxygen100x22.png" alt="Oxygen"></img></span><span class="xmlauthor">XML Author</span></a></div>
+</body>
+</html>

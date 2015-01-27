@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_define-data-visibilities">
+    <title>Define Data Visibilities</title>
+    <shortdesc>Define data visibilities on the <wintitle>System Configuration</wintitle> page. </shortdesc>
+    <taskbody>
+        <context>
+            <note>Once defined, a data visibility may be neither edited nor deleted.</note>
+            <p>To define the visibility levels for data stored in <ph
+                    conkeyref="product-vars/product-name"/>:</p>
+        </context>
+        <steps id="steps_dwd_rnx_kq">
+            <step>
+                <cmd>Open the <uicontrol>System Configuration</uicontrol> page, by clicking the
+                        <uicontrol>System Configuration</uicontrol> icon <image
+                        href="../_images/gui-screen-shots/icon_system-config.JPG"
+                        id="image_svp_vkn_jq"/> in the left navigation bar.</cmd>
+                <info>The <wintitle>System Configuration</wintitle> page opens on the<wintitle>
+                        Password Policy</wintitle> screen.</info>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>Manage Visibilities</uicontrol> tab.</cmd>
+                <info>The <wintitle>Manage Visibilities</wintitle> screen opens.<fig
+                        id="fig_system-config_manage-visibilities">
+                        <image href="../_images/gui-screen-shots/data-visibilities.jpg"
+                            id="image_snr_ypm_lq"/>
+                    </fig></info>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>Create Visibility</uicontrol> button. The <wintitle>Create
+                        Visibility</wintitle> screen opens.</cmd>
+                <info/>
+            </step>
+            <step>
+                <cmd>Enter the visibility information.</cmd>
+                <choicetable id="choicetable_h54_rtx_3q">
+                    <chrow>
+                        <choption>Name</choption>
+                        <chdesc>
+                            <p>Enter a name for the data visibility; for example, "CONFIDENTIAL,"
+                                "SECRET" or "PII".</p>
+                        </chdesc>
+                    </chrow>
+                    <chrow>
+                        <choption>Description</choption>
+                        <chdesc>Enter a brief description to remind you or someone else of the
+                            intention of the visibility.</chdesc>
+                    </chrow>
+                </choicetable>
+            </step>
+            <step>
+                <cmd>Save the visibility information by clicking the <uicontrol>Save</uicontrol>
+                    button. </cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

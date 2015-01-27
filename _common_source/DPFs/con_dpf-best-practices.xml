@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_config-dpf-semios">
+  <title>Data Processing Functions</title>
+  <shortdesc/>
+  <conbody>
+    <p>Data Processing Functions (DPFs) are instructions for parsing a document (e.g. a sensor log
+      message) into digital assets such as a temperature reading. DPFs are discussed in more detail
+      in another document. </p>
+    <p>The PHEMI-developed DPFs read and process Semios sensor log messages to produce digital
+      assets that support Semios use cases. The DPFs perform additional calculations to facilitate
+      efficient retrieval of data assets at scale by aggregating sensor readings.</p>
+    <p>To improve efficiency for many small files, it is preferred that DPFs process many ingested
+      files before terminating. DPFs can be configured to run in different ways:</p>
+    <ul id="ul_r34_q23_fq">
+      <li><u>When new data arrives</u>: When data is ingested, the DPF is run immediately.</li>
+      <li><u>Manually</u>: When data is ingested, the DPF is not run until the user manually runs
+        the DPF. This is done by hitting the “Execute” button on the Data Processing Function tab of
+        the Datasource page.</li>
+      <li><u>Periodic</u>: The DPF is run on a periodic basis as specified by the periodic value,
+        regardless if data has been ingested or not; the DPF processes ingested data starting at the
+        first incompleted file.</li>
+    </ul>
+    <p> </p>
+    <p>The trigger setting for the Semios data processing function is set to *Periodic for 5
+      Minutes*. This means that when Semios data is ingested, derived data will not necessarily be
+      generated immediately, but generated in 5 minute intervals.</p>
+  </conbody>
+</concept>

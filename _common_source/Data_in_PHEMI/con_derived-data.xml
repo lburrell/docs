@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_derived-data">
+ <title>Derived Data</title>
+ <shortdesc/>
+ <conbody>
+  <p conref="../_Glossary/con_glossary.xml#concept_glossary/derived-data"/>
+ </conbody>
+</concept>

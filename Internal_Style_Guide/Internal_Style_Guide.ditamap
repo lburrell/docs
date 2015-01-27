@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Internal Style Guide</title>
+ <topicref href="../_Common_Source/_Glossary/con_glossary.xml"/>
+ <topicref href="../_Common_Source/_Branded_Terms/con_branded-terms.xml"/>
+</map>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_governance-policies">
+ <title>Governance Policies</title>
+ <shortdesc/>
+ <conbody>
+  <p>To protect your data and the privacy of your data, you should have your organization's
+   governance policy in place before configuring the PHEMI system. A governance policy is a
+   coordinated approach to protecting data and assigning privileges to users. </p>
+  <p>There are three main aspects to a governance policy:</p>
+  <ul id="ul_rh2_mxq_kq">
+   <li><keyword>Data visibility</keyword>. Data can have different levels of visibility or
+    sensitivity, and your organization may need to protect different data in different ways. You may
+    want some data visible to every user but other data visible only to selected users. In the PHEMI
+    system, these levels are called "data visibilities." <xref
+     href="../Data_Visibilities/con_data-visibilities.xml#concept_data-visibilities">Tell me more
+     about data visibilities</xref></li>
+   <li><keyword>User authorizations</keyword>. Different users may be required to interact with data
+    differently. For example, clinicians might be allowed to access all data, while researchers
+    might be allowed to read only non-identified or de-identified data. <xref
+     href="../Users/con_user-authorizations.xml">Tell me more about user authorizations</xref></li>
+   <li><keyword>Access policies</keyword>. Your organization's governance policy will state how
+    users with different authorizations can interact with data of different visibility. <xref
+     href="../Access_Policies/con_access-policies.xml">Tell me more about access
+    policies</xref></li>
+  </ul>
+  <p>The data visibilities, user authorizations, and access policies defined in your governance
+   policies will drive how you configure the PHEMI system. If you are uncertain as to the
+   appropriate data visibilities, user authorizations, or access policies to define for your
+   organization, consult with your Information Officer, Privacy Officer, or with someone in a
+   comparable role.</p>
+ </conbody>
+</concept>

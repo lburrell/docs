@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_using-manual-upload">
+ <title>Using Manual Upload</title>
+ <conbody>
+  <p>You can use the <ph conkeyref="product-vars/gui-name"/> to manually upload data objects into
+    <ph conkeyref="product-vars/product-name"/>. <xref
+    href="../Data_Sources/task_manually-ingest-data.xml">How do I use manual upload?</xref></p>
+  <p>Manual upload is a good method when you have very large amounts of data (for example, gigabytes
+   or terabytes, such that HTTP/REST is not suitable) that needs to be ingested relatively
+   infrequently. </p>
+ </conbody>
+</concept>

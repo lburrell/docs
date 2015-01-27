@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_get-system-version-info">
+    <title>Get System Version Information</title>
+    <shortdesc>Get system version information from any screen by using the quick task buttons at the
+        top of the screen.</shortdesc>
+    <taskbody>
+        <context>
+            <p>To get system version information:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Locate the quick task buttons next to your username at the top right of the
+                    screen.</cmd>
+                <info>
+                    <fig id="fig_quick-tasks">
+                        <image href="../_images/gui-screen-shots/quick-tasks.JPG"
+                            id="image_xpq_lnr_3q"/>
+                    </fig>
+                </info>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>About</uicontrol>. </cmd>
+                <info>
+                    <p>The <wintitle>About PHEMI Central</wintitle> screen opens.</p>
+                    <fig id="fig_login-screen">
+                        <image
+                            href="../_images/gui-screen-shots/quick-tasks_system-version-info.JPG"
+                            id="image_wkx_xpr_3q"/>
+                    </fig>
+                </info>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>Close</uicontrol> button to dismiss the screen.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

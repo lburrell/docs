@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="reference_DPF-processed-tags">
+  <title>DPF Processed Tags</title>
+  <shortdesc> This section describes the derived data that the Semios DPF extracts from log
+    messages.</shortdesc>
+  <refbody>
+    <properties id="properties_xgc_dyz_gq">
+      <prophead>
+        <proptypehd>Name</proptypehd>
+        <propvaluehd>Type</propvaluehd>
+        <propdeschd>Description</propdeschd>
+      </prophead>
+       <property>
+        <proptype>id</proptype>
+        <propvalue>STRING</propvalue>
+        <propdesc>The unique identifier of the log message.</propdesc>
+      </property>
+      <property>
+        <proptype>log_timestamp</proptype>
+        <propvalue>STRING </propvalue>
+        <propdesc>
+          <p>The timestamp of the message. </p>
+          <p>Log timestamps are received and persisted "as is"; that is, as type STRING.  All dates
+            and timestamps must be sent in ISO 8601 format (for example,
+              <codeph>2014-06-23T19:35:00-07:00</codeph>).The PHEMI system also uses this format for
+            aggregations. For aggregations, all dates and times must be local, in order to align
+            with the local time clock, so, for example, a day extends from midnight to midnight
+            local time.</p>
+        </propdesc>
+      </property>
+    </properties>
+  </refbody>
+</reference>

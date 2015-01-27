@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_users">
+ <title>Users</title>
+ <shortdesc>User management allows you to say who can use the system to do what, and who can access
+        what data.</shortdesc>
+ <conbody>
+        <p><ph conkeyref="product-vars/product-name"/> user management is organized around user
+            roles and user authorizations. Your user role defines what parts of the <ph
+                conkeyref="product-vars/gui-name"/> you can use, and your user authorization
+            together with data visibilities, are used in access policies that specify how user with
+            your access authorizations are allowed to interact with data.</p>
+        <p><xref href="con_user-roles.xml#concept_users-roles">Tell me about user roles</xref></p>
+        <p><xref href="con_user-authorizations.xml#concept_user-authorizations">Tell me about user
+                authorizations</xref></p>
+        <p><xref href="../Data_Visibilities/con_data-visibilities.xml#concept_data-visibilities"
+                >Tell me about data visibilities</xref></p>
+        <p>User information is set and modified on the <wintitle>Manage Users</wintitle> page.
+                <image href="../_images/gui-screen-shots/icon_users.JPG" id="image_jws_fhn_jq"/></p>
+    </conbody>
+</concept>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_REST-query-operators">
+ <title>Query Operators</title>
+ <conbody>
+  <p>URI query operators follow the MongoDB convention of prefixing the operator with a double
+   underscore "__"; for example, "__eq" is equals, "__ge" is greater than or equal to, etc.
+   Supported query operators are shown below.</p>
+  <table
+   conref="ref_REST-query-operators.xml#reference_REST-query-operators/table_REST-query-operators"
+   id="table_u1h_yr4_fq">
+   <tgroup cols="cols_sqg_yr4_fq">
+    <tbody>
+     <row>
+      <entry/>
+     </row>
+    </tbody>
+   </tgroup>
+  </table>
+ </conbody>
+</concept>

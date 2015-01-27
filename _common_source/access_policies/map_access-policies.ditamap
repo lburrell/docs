@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Access Policies</title>
+ <topicref href="con_access-policies.xml">
+  <topicref href="task_view-access-policies.xml"/>
+  <topicref href="task_create-access-policy.xml"/>
+  <topicref href="task_view-access-policy-info.xml"/>
+  <topicref href="task_modify-access-policy.xml"/>
+  <topicref href="task_delete-access-policy.xml"/>
+ </topicref>
+</map>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_define-data-policy">
+    <title>Define the Data Policy</title>
+    <shortdesc/>
+    <taskbody>
+        <prereq>
+            <p>Before you can define a data policy, you must configure the following:</p>
+            <ul id="ul_t4t_mlm_lq">
+                <li>Data categories</li>
+                <li>Users, including at least one user with a role of <keyword>Privacy
+                        Officer</keyword></li>
+            </ul>
+        </prereq>
+        <context>
+            <p>To define a data policy for a data source:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd/>
+            </step>
+        </steps>
+    </taskbody>
+</task>

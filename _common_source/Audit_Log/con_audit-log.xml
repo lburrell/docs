@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_audit-log">
+ <title>The Audit Log</title>
+ <shortdesc>The Audit Log shows how the PHEMI system has been accessed and used.</shortdesc>
+ <conbody>
+    <p>The log tracks all accesses to the PHEMI system: through the RESTful API or through the
+      Management Console.</p>
+    <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+    <p>Audit Log PHEMI Central maintains complete audit logs of system and user operations. They
+      include all create/modify/delete operations, along with a record of all queries made to the
+      system through the REST interface. These log files are completely tamperproof for all users.
+      Approved users can filter log files and export the information for downstream analysis and
+      compliance reporting</p>
+    <?oxy_custom_end?>
+  </conbody>
+</concept>

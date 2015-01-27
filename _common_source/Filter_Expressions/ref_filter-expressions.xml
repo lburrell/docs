@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="reference_filter-expr">
+  <title>Filter Expressions</title>
+  <shortdesc>Filter data in reports, logs, and lists of objects using simple regular expressions. </shortdesc>
+  <refbody>
+    <section>
+      <p>Regular expressions used to filter information in the PHEMI must be compatible with both
+        the Java and the Python programming languages.</p>
+      <p>The simple regular expressions described in this section are supported by the system. More
+        complicated regular expressions may succeed, but are not guaranteed to succeed.</p>
+    </section>
+    <section>
+      <title>Character Classes</title>
+      <p>Generally, the allowed character classes include lowercase letters, uppercase letters,
+        numbers (decimal digits), and the underscore character ("_"). Taken together, these
+        characters comprise the "word" character class.</p>
+      <p>To match a specific string of letters, numbers, punctuation, or a mix, simply enter the
+        string. For example entering the string <userinput>2014</userinput> matches any entry
+        containing the string "2014". A blank space is entered simply as a blank space.</p>
+      <p>To make more flexible expressions, use <xref href="#reference_filter-expr/metacharacters"
+          format="dita">metacharacters</xref> and <xref
+          href="#reference_filter-expr/escape-sequences" format="dita">escape sequences</xref>.</p>
+    </section>
+    <section>
+      <title id="metacharacters">Metacharacters</title>
+      <p>Metacharacters are characters that are not matched themselves, but indicate how a filter
+        expression should be interpreted. </p>
+    </section>
+    <properties id="properties_mdf_zxk_lq">
+      <prophead>
+        <proptypehd>Character(s)</proptypehd>
+        <propdeschd>Description</propdeschd>
+      </prophead>
+      <property>
+        <proptype>[ ]</proptype>
+        <propdesc>
+          <p>Square brackets. Matches any single character within the brackets. For example,
+              <userinput>[abc]</userinput> matches any of the characters "a", "b", or "c". Backslash
+            escapes are not allowed within square brackets.</p>
+          <p>To filter on a sequence of more than one character inside brackets, delimit the
+            expressions using a single quote; for example, ['11''12''13']</p>
+          <p>A closing square bracket may be included in the bracket expression if it is the first
+            character of the set (or the first character after the carat), as in
+              <userinput>[]abc]</userinput>.</p>
+        </propdesc>
+      </property>
+      <property>
+        <proptype>-</proptype>
+        <propdesc>
+          <p>Hyphen. When within square brackets, specifies a range of values. For example,
+              <userinput>[a-z]</userinput> matches any lowercase letter from "a" through "z". The
+            expression <userinput>[a-d]</userinput> is equivalent to
+            <userinput>[abcd]</userinput>.</p>
+          <p>The hyphen is treated as a literal character if it is the first or last character
+            inside square brackets, as in <userinput>[abc-]</userinput> or if it is the first
+            character after the carat inside square brackets.</p>
+        </propdesc>
+      </property>
+      <property>
+        <proptype>[^ ]</proptype>
+        <propdesc>
+          <p>Matches the negation or complement of the characters within the brackets. For example,
+              <userinput>[^abc]</userinput> matches any character that is neither an "a" nor a "b"
+            nor a "c", while <userinput>[^a-z]</userinput> matches any character that is not a
+            lowercase alphabetic character. </p>
+          <p>When outside square brackets, the carat is matched as an ordinary character.</p>
+        </propdesc>
+      </property>
+      <property>
+        <proptype>^</proptype>
+        <propdesc>Matches the starting position of the string or line.</propdesc>
+      </property>
+      <property>
+        <proptype>$</proptype>
+        <propvalue>Matches the ending position of a string or line, or the position immediately
+          preceding the newline character.</propvalue>
+      </property>
+      <property>
+        <proptype>\</proptype>
+        <propdesc>The escape character. When followed by an ordinary character, the escape character
+          signals a special sequence; for example, <userinput>\n</userinput> indicates a newline
+          character. When followed by a metacharacter, the metacharacter loses its special meaning
+          and is matched in the same way as an ordinary character.</propdesc>
+      </property>
+      <property>
+        <proptype>.</proptype>
+        <propdesc>
+          <p>Dot, or period. Matches any single character, except newline (\n). For example,
+              <userinput>.at</userinput> matches "bat", "cat", "hat", "mat", and so on. Within a
+            bracket expression, the dot matches a literal dot. Therefore, while
+              <userinput>.at</userinput> matches "bat", "cat", and so on,
+              <userinput>[.at]</userinput> matches "." or "a" or "t". </p>
+        </propdesc>
+      </property>
+      <property/>
+      <property/>
+      <property/>
+      <property/>
+      <property/>
+    </properties>
+    <section>
+      <title id="escape-sequences">Escape Sequences</title>
+      <p>There are certain characters that take on a new meaning when they are preceded by the
+        escape character, the backslash.</p>
+    </section>
+    <properties id="properties_dhf_xjl_lq">
+      <prophead>
+        <proptypehd>Escape Sequence</proptypehd>
+        <propdeschd>Description</propdeschd>
+      </prophead>
+      <property>
+        <proptype>\n</proptype>
+        <propdesc>
+          <p>Newline.</p>
+        </propdesc>
+      </property>
+      <property>
+        <proptype>\r</proptype>
+        <propdesc>
+          <p>Carraige return.</p>
+        </propdesc>
+      </property>
+      <property>
+        <proptype>\t</proptype>
+        <propdesc>
+          <p>Horizontal tab.</p>
+        </propdesc>
+      </property>
+      <property>
+        <proptype>\x0B</proptype>
+        <propvalue>
+          <p>Vertical tab.</p>
+        </propvalue>
+      </property>
+      <property>
+        <proptype>\f</proptype>
+        <propdesc>
+          <p>Form feed.</p>
+        </propdesc>
+      </property>
+      <property>
+        <proptype>\d</proptype>
+        <propdesc>
+          <p>A digit. Equivalent to [0-9].</p>
+        </propdesc>
+      </property>
+      <property>
+        <proptype>\D</proptype>
+        <propdesc>
+          <p>A non-digit. Equivalent to [^0-9].</p>
+        </propdesc>
+      </property>
+      <property>
+        <proptype>\s</proptype>
+        <propdesc>
+          <p>A whitespace character. Equivalent to [ \t\n\r\x0B\f].</p>
+        </propdesc>
+      </property>
+      <property>
+        <proptype>\S</proptype>
+        <propdesc>
+          <p>A non-whitespace character. Equivalent to [^\s].</p>
+        </propdesc>
+      </property>
+      <property>
+        <proptype>\w</proptype>
+        <propvalue>A member of the word character class. Equivalent to [a-zA-Z_0-9]</propvalue>
+      </property>
+      <property>
+        <proptype>\W</proptype>
+        <propvalue>A non-word character. Equivalent to [^\w]</propvalue>
+      </property>
+      <property/>
+      <property/>
+      <property/>
+      <property/>
+      <property/>
+    </properties>
+  </refbody>
+</reference>

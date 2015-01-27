@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Introducing PHEMI Central</title>
+ <topicref href="con_introducing-PHEMI-Central.xml">
+  <topicref href="con_PHEMI-Central-ovw.xml"/>
+  <topicref href="../Data_in_PHEMI/con_data-in-PHEMI.xml">
+   <topicref href="../Data_in_PHEMI/con_collection.xml"/>
+   <topicref href="../Data_in_PHEMI/con_curation.xml"/>
+   <topicref href="../Data_in_PHEMI/con_consumption.xml"/>
+  </topicref>
+ </topicref>
+</map>

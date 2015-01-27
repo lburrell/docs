@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_DPF-api-reference">
+ <title>Semios DPF Reference</title>
+ <conbody>
+  <p>This section describes the Data Processing Functions implemented to allow Semios to use PHEMI
+   Central.</p>
+    <p>For information about supported data types, see <xref
+        href="../REST_API/Overview/con_REST-query-data-types.xml#concept_REST-data-types"/></p>
+ </conbody>
+</concept>

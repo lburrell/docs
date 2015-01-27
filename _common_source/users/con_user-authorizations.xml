@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_user-authorizations">
+ <title>User Authorizations</title>
+ <conbody>
+    <p><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>A user authorization is a
+      label, much like Data Visibilities, but applied to users of the system. For example, a user
+      may have "Advanced PII Handling Certification" or "SECRET Clearance". These authorizations are
+      different than the roles a user may have in the system (e.g. a System Administrator) since
+      they pertain to specific user capabilities, not system roles.<?oxy_custom_end?></p>
+    <p conref="../_Glossary/con_glossary.xml#concept_glossary/user-authorizations"/>
+    <p>Authorizations are used in access policies together with data visibilities that have been
+      applied to data sources. The access policy matches the authorization against the data
+      visibility to determine what action, if any, a user may take with respect to the data. </p>
+    <p>Some examples of possible user authorizations are as follows: </p>
+    <ul id="ul_lsz_53w_kq">
+      <li><keyword>C_LEVEL</keyword>: The user is a C-Level individual (for example, CEO, COO, CIO,
+        or CTO) with a privileged level of access. Individuals with <keyword>C_LEVEL</keyword>
+        authorization, for example, might be permitted to read data with
+          <keyword>CONFIDENTIAL</keyword> visibility.</li>
+      <li><keyword>DOCTOR</keyword>: A user with <keyword>DOCTOR</keyword> authorization might, for
+        example, be permitted to read any information, including personally identifiable information
+        or personal health information.</li>
+      <li><keyword>ANALYST</keyword>: A user with <keyword>ANALYST</keyword> information might be
+        restricted to accessing de-identified or nonidentified data.</li>
+    </ul>
+    <p>A user can be assigned multiple authorizations. Authorizations are defined as part of system
+      configuration.</p>
+    <note>Once defined, a user authorization may be neither edited nor deleted.</note>
+  </conbody>
+</concept>

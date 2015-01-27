@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_REST-data-types">
+ <title>Data Types in Queries</title>
+ <conbody>
+    <p>The data type must be specified as part of the query parameter and it must match the data
+      type that is output by the data processing function that processed the ingested data. </p>
+    <p>Supported data types are shown below.</p>
+    <table conref="ref_REST-data-types.xml#reference_REST-data-types/table_REST-data-types"
+      id="table_ytl_tfs_gq">
+      <tgroup cols="cols_tpl_tfs_gq">
+        <tbody>
+          <row>
+            <entry/>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <p>If no type is specified in the query parameter, the default type used is STRING. If the type
+      specified in the query parameter does not match the type specified to the system when the
+      document was ingested, the following will occur:</p>
+    <ul id="ul_gnv_hs4_fq">
+      <li>If a type conversion cannot occur such as converting a non-numeric STRING to a LONG, then
+        a <b>400</b> code is returned indicating a type conversion error occurred</li>
+      <li>If a type conversion could occur, but is of the wrong type then no results will be
+        returned</li>
+    </ul>
+    <p>An example query parameter that matches (equals) a specific device ID with a LONG data type
+      would be:</p>
+    <codeblock>derived:model__eq=LONG:38</codeblock>
+  </conbody>
+</concept>

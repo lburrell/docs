@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>System Configuration</title>
+ <topicref href="con_system-config.xml">
+  <topicref href="../Passwords/con_config-password-policy.xml">
+   <topicref href="../Passwords/task_view-password-policy.xml"/>
+   <topicref href="../Passwords/task_set-password-policy.xml"/>
+  </topicref>
+  <topicref href="../Users/con_user-authorizations.xml">
+   <topicref href="../Users/task_define-user-authorizations.xml"/>
+   <topicref href="../Users/task_view-user-auths.xml"/>
+  </topicref>
+  <topicref href="../Dataset_Destinations/map_dataset-destinations.ditamap" format="ditamap"/>
+  <topicref href="../Lifecycle_Management/con_data-retention-behavior.xml">
+   <topicref href="../Lifecycle_Management/task_view-data-retention-behav.xml"/>
+   <topicref href="../Lifecycle_Management/task_set-data-retention-behav.xml"/>
+  </topicref>
+  <topicref href="../Data_Categories/con_data-categories.xml">
+   <topicref href="../Data_Categories/task_view-data-category-names.xml"/>
+   <topicref href="../Data_Categories/task_add-data-category.xml"/>
+   <topicref href="../Data_Categories/task_edit-data-category-name.xml"/>
+   <topicref href="../Data_Categories/task_delete-data-category.xml"/>
+  </topicref>
+  <topicref href="../Data_Visibilities/con_data-visibilities.xml">
+   <topicref href="../Data_Visibilities/task_view-data-visibilities.xml"/>
+   <topicref href="../Data_Visibilities/task_define-data-visibility.xml"/>
+  </topicref>
+ </topicref>
+</map>

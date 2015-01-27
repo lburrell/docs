@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_view-access-policies">
+    <title>View Access Policies</title>
+    <shortdesc>See what access policies have been configured on the <wintitle>Access Policy
+            Builder</wintitle>  page. </shortdesc>
+    <taskbody>
+        <context>
+            <p>To view defined access policies:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Open the <uicontrol>Access Policy Builder</uicontrol> page, by clicking the
+                        <uicontrol>Access Policy Builder</uicontrol> icon. <image
+                        href="../_images/gui-screen-shots/icon_access-policies.JPG"
+                        id="image_fmr_wzn_mq"/> in the left navigation bar.</cmd>
+                <info>
+                    <p>The <wintitle>Access Policy Builder</wintitle> page opens.</p>
+                    <fig id="fig_access-policies" scale="70">
+                        <image href="../_images/gui-screen-shots/access-policy_policy-builder.jpg"
+                            id="image_hmp_55r_3q"/>
+                    </fig>
+                </info>
+            </step>
+            <step>
+                <cmd>At the right of the <uicontrol>Choose Policy to Edit</uicontrol> field, click
+                    the drop-down arrow to see the list of configured access policies.</cmd>
+                <info>
+                    <fig id="fig_access-policies_view" scale="70">
+                        <image href="../_images/gui-screen-shots/access-policy_view.jpg"
+                            id="image_wpx_pd4_mq"/>
+                    </fig>
+                </info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

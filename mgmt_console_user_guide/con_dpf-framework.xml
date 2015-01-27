@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_dpf-framework">
+ <title>DPF Framework</title>
+ <shortdesc/>
+ <conbody>
+  <p/>
+  <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
+  <p>DPF Framework Just as the metadata framework manages the tagging of data items throughout the
+   lifetime of data in the system, the PHEMI Central DPF framework manages DPF deployment and
+   execution. The DPF framework is very simple and easy for programmers to learn and use: code
+   libraries are uploaded into the system as simple ZIP files; PHEMI Central manages DPF execution
+   across all datasets and data elements.</p>
+  <?oxy_custom_end?>
+ </conbody>
+</concept>

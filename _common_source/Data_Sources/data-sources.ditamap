@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Data Sources</title>
+ <topicref href="con_data-sources.xml">
+  <topicref href="con_data-policies.xml"/>
+  <topicref href="../DPFs/con_dpfs.xml"/>
+  <topicref href="task_view-data-sources.xml"/>
+  <topicref href="task_define-data-source.xml">
+   <topicref href="task_define-data-policy.xml"/>
+   <topicref href="task_associate-dpf.xml"/>
+  </topicref>
+  <topicref href="task_manually-ingest-data.xml"/>
+  <topicref href="task_view-data-source-info.xml"/>
+  <topicref href="task_modify-data-source.xml"/>
+  <topicref href="task_delete-data-source.xml"/>
+ </topicref>
+</map>

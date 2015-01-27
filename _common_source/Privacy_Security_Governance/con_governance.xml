@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_governance">
+ <title>Governance</title>
+ <shortdesc/>
+ <conbody>
+  <p>In-System Governance Enforcement Governance rules for privacy and security are enforced within
+   the data warehouse, rather than at the application layer. This ensures that data custodians, not
+   application developers, retain control over privacy and security. Managing privacy and security
+   within the data store also greatly simplifies application development and the use of analytics
+   tools.</p>
+  <p>Information governance is about controlling an organization’s data. The data may be sensitive;
+   or perhaps it is important that the data be absolutely accurate; or perhaps the organization must
+   achieve legislative and compliance targets. Data governance includes the process and policies
+   around the protection, curation, and access to data. Data governance encompasses all of privacy
+   protection, data security, and data audit. PHEMI Central helps organizations achieve compliance
+   objectives by providing an industry-pioneering set of capabilities to manage the privacy,
+   security, and governance of data. These capabilities are fully configurable and are automatically
+   enforced throughout the data lifecycle.</p>
+  <p/>
+ </conbody>
+</concept>

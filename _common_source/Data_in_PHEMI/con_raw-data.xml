@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_raw-data">
+ <title>Raw Data</title>
+ <shortdesc/>
+ <conbody>
+  <p conref="../_Glossary/con_glossary.xml#concept_glossary/raw-data"/>
+  <p/>
+ </conbody>
+</concept>

@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="reference_query-sensor-data">
+  <title>Query Sensor Data</title>
+  <shortdesc>Query data from a data source.</shortdesc>
+  <refbody>
+    <section>
+      <title>URI</title>
+      <codeblock>GET /rest/data_sources/<varname>datasource_id</varname>/raw_data?<varname>attribute-name</varname>__<varname>operator</varname>=<varname>lexicoder</varname>:<varname>filter-value</varname></codeblock>
+    </section>
+    <section>
+      <title>Request Parameters</title>
+      <p>This request allows you to query data from a given data source based on various criteria
+        such as attribute values and ranges. Query parameters or values must be correctly escaped
+        for URLs as necessary.</p>
+      <p>This request supports the following parameters.</p>
+      <parml>
+        <plentry>
+          <pt><codeph><varname>attribute-name</varname>__<varname>operator</varname>=<varname>lexicoder</varname>:<varname>filter-value</varname></codeph></pt>
+          <pd>Queries the specified data source for the specified data. In this parameter:<ul
+              id="ul_gh3_tpr_gq">
+              <li><codeph><varname>attribute-name</varname></codeph>: The raw-data attribute being
+                queried. The attribute name is defined in the DPF for the data source. </li>
+              <li><codeph>__<varname>operator</varname></codeph>: The comparison operator specifying
+                how the query should be performed. Supported operators are listed in   <xref
+                  href="../Overview/con_REST-query-operators.xml#concept_REST-query-operators"
+                />.</li>
+              <li><codeph><varname>lexicoder</varname></codeph>: The data type of the queried value.
+                The data type is defined in the DPF that creates the derived data during data
+                ingestion. Supported data types are described in <xref
+                  href="../Overview/con_REST-query-data-types.xml#concept_REST-data-types"/>.</li>
+              <li><codeph><varname>filter-value</varname></codeph>: The value to query on.  For
+                example, in
+                  <codeph>/rest/datasources/<varname>datasource-id</varname>/raw_data?derived:id__eq=STRING:sensor_1138</codeph>,
+                the <codeph><varname>filter-value</varname></codeph> is
+                <codeph>sensor_1138</codeph>.</li>
+            </ul></pd>
+        </plentry>
+        <plentry id="skip">
+          <pt><codeph>skip=<varname>num-rows-to-skip</varname></codeph></pt>
+          <pd>
+            <p>Skips the specified number of rows in the query result and returns subsequent rows in
+              the resultset. Rows are considered to start numbering at 1.</p>
+            <p>By default, <codeph>skip</codeph> is 0, which means no results are skipped.
+              Specifying a value for <codeph>skip</codeph> that is larger than the number of rows in
+              the resultset is not an error, but no results are returned. Specifying a negative
+              value for <codeph>skip</codeph> is an error, and causes an exception.</p>
+            <p>As an example, assume a resultset of 50 rows, numbered row 1 to row 50. The results
+              returned for various values of <codeph>skip</codeph> are shown below.</p>
+            <table frame="all" rowsep="1" colsep="1" id="table_wk2_fvs_gq">
+              <title>&quot;skip&quot; Parameter Behavior</title>
+              <tgroup cols="2">
+                <colspec colname="c1" colnum="1" colwidth="1.0*"/>
+                <colspec colname="c2" colnum="2" colwidth="1.0*"/>
+                <thead>
+                  <row>
+                    <entry>Value for "skip"</entry>
+                    <entry>Rows Returned</entry>
+                  </row>
+                </thead>
+                <tbody>
+                  <row>
+                    <entry>Undefined</entry>
+                    <entry>1 to 50</entry>
+                  </row>
+                  <row>
+                    <entry>
+                      <codeblock>skip=0</codeblock>
+                    </entry>
+                    <entry>1 to 50</entry>
+                  </row>
+                  <row>
+                    <entry>
+                      <codeblock>skip=1</codeblock>
+                    </entry>
+                    <entry>2 to 50</entry>
+                  </row>
+                  <row>
+                    <entry>
+                      <codeblock>skip=10</codeblock>
+                    </entry>
+                    <entry>11 to 50</entry>
+                  </row>
+                  <row>
+                    <entry>
+                      <codeblock>skip=50</codeblock>
+                    </entry>
+                    <entry>None</entry>
+                  </row>
+                  <row>
+                    <entry>
+                      <codeblock>skip=100</codeblock>
+                    </entry>
+                    <entry>None</entry>
+                  </row>
+                  <row>
+                    <entry>
+                      <codeblock>skip=-1</codeblock>
+                    </entry>
+                    <entry>Error</entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table>
+            <p>The following example skips the first 50 rows of the query results and returns from
+              row 51 onwards.</p>
+            <codeblock>/rest/datasources/<varname>datasource-id</varname>/raw_data?derived:id__eq=STRING:sensor_1138&amp;skip=50</codeblock>
+            <p>Note that you can use <codeph>skip</codeph> parameter in combination with the
+                <codeph>limit</codeph> parameter to achieve pagination-type functionality; see the
+                <codeph>limit</codeph> parameter for an example.</p>
+          </pd>
+        </plentry>
+        <plentry id="limit">
+          <pt><codeph>limit=<varname>max-rows-to-return</varname></codeph></pt>
+          <pd>Specifies the maximum number of rows to return from the resultset. By default,
+              <codeph>limit</codeph> is set to 50. The largest value permitted for
+              <codeph>limit</codeph> is 2500; specifying a larger value is an error. <p>As an
+              example, assume a resultset of 100 rows, numbered row 1 to row 100. The results
+              returned for various values of <codeph>limit</codeph> are shown below.</p><table
+              frame="all" rowsep="1" colsep="1" id="table_rdz_zbt_gq">
+              <title>&quot;limit&quot; Parameter Behavior</title>
+              <tgroup cols="2">
+                <colspec colname="c1" colnum="1" colwidth="1.0*"/>
+                <colspec colname="c2" colnum="2" colwidth="1.0*"/>
+                <thead>
+                  <row>
+                    <entry>Value for "limit"</entry>
+                    <entry>Rows Returned</entry>
+                  </row>
+                </thead>
+                <tbody>
+                  <row>
+                    <entry>Undefined</entry>
+                    <entry>100</entry>
+                  </row>
+                  <row>
+                    <entry>
+                      <codeblock>limit=1</codeblock>
+                    </entry>
+                    <entry>1</entry>
+                  </row>
+                  <row>
+                    <entry>
+                      <codeblock>limit=2</codeblock>
+                    </entry>
+                    <entry>1 and 2</entry>
+                  </row>
+                  <row>
+                    <entry>
+                      <codeblock>limit=10</codeblock>
+                    </entry>
+                    <entry>1 to 10</entry>
+                  </row>
+                  <row>
+                    <entry>
+                      <codeblock>limit=100</codeblock>
+                    </entry>
+                    <entry>1 to 100</entry>
+                  </row>
+                  <row>
+                    <entry>
+                      <codeblock>limit=200</codeblock>
+                    </entry>
+                    <entry>1 to 100</entry>
+                  </row>
+                </tbody>
+              </tgroup>
+            </table><p>The following example limits returned results to 50
+              rows.</p><codeblock>/rest/datasources/<varname>datasource-id</varname>/raw_data?derived:id__eq=STRING:sensor_1138&amp;limit=50</codeblock><p>The
+                <codeph>limit</codeph> parameter can be used with the <codeph>skip</codeph>
+              parameter to select from the resultset in various ways. For example, specifying
+                <codeph>skip=1, limit=50</codeph> returns rows 2 through 51 of the resultset.
+              Incrementing <codeph>skip</codeph> by the value of <codeph>limit</codeph> results in
+              pagination functionality, as in the first two lines of the following example. In this
+              example, assume that the resultset is 100
+            rows.</p><codeblock>skip=0,limit=50     # Returns rows 1 to 50
+skip=50,limit=50    # Returns rows 51 to 100
+skip=75, limit=50   # Returns rows 76 to 100
+skip=99, limit=50   # Returns row 100
+skip=100, limit=50  # Returns nothing
+</codeblock></pd>
+        </plentry>
+        <plentry>
+          <pt><codeph>order_by=<varname>comma-separated-list</varname></codeph></pt>
+          <pd>Specifies how the returned resultset should be ordered. Order is specified as a
+            comma-separated list of attributes. The hyphen is a reverse-ordering operator:
+            prepending a hyphen ("-") in front of  a value reverses the normal ordering or data. For
+            example, if <codeph>derived:data|wind_speed</codeph> is normally returned in ascending
+            order, <codeph>-derived:data|wind_speed</codeph>is returned in descending order. </pd>
+          <pd>Consider the following
+              request:<codeblock>/rest/datasources/<varname>datasource-id</varname>/
+raw_data?derived:id__eq=STRING:sensor_113&amp;
+order_by=derived:data|temperature,-derived:data|wind_speed</codeblock><p>In
+              this example, the resultset returned by the query would be ordered first by
+                <codeph>derived:data|temperature</codeph>and then by
+                <codeph>derived:data|wind_speed</codeph> in reverse order.</p><p>The attributes
+              listed in the <codeph>order_by</codeph> attribute apply only to the rows actually
+              returned by the query. The <codeph>order_by</codeph> specification has no effect on
+              what rows the query returns, only on the order of the rows returned. </p><p>An
+              exception to this  behavior occurs when one of the attributes specified for the
+                <codeph>order_by</codeph> parameter matches an attribute in the query itself, as in
+              the following example:
+              </p><codeblock>/rest/datasources/<varname>datasource-id</varname>/
+raw_data?derived:id__eq=STRING:sensor_113&amp;
+order_by=-derived:id</codeblock><p>If
+              a reverse ordering operator is present, as it is in the example, it is the operator is
+              applied first, to make a more efficient query. In this case, the query could
+              potentially return rows from the database in a different order than a query not using
+              the operator.</p></pd>
+        </plentry>
+      </parml>
+    </section>
+    <section>
+      <title>Request Headers</title>
+      <p>None.</p>
+    </section>
+    <section>
+      <title>Response</title>
+      <p>When an HTTP request is made against the raw data REST interface, the following HTTP status
+        codes can be expected depending on the query result:</p>
+      <parml>
+        <plentry>
+          <pt>200 OK</pt>
+          <pd>
+            <p>The query was successful.</p>
+          </pd>
+        </plentry>
+        <plentry>
+          <pt>400 Bad Request</pt>
+          <pd>
+            <p>Invalid criteria parameter values were provided.</p>
+          </pd>
+        </plentry>
+        <plentry>
+          <pt>401 Unauthorized</pt>
+          <pd>
+            <p>The user is not authenticated.</p>
+          </pd>
+        </plentry>
+        <plentry>
+          <pt>403 Forbidden</pt>
+          <pd>
+            <p>The authenticated user is not authorized to perform the query.</p>
+          </pd>
+        </plentry>
+        <plentry>
+          <pt>404 Not Found</pt>
+          <pd>
+            <p>A resource associated with the query (for example, a data source) does not exist.</p>
+          </pd>
+        </plentry>
+        <plentry>
+          <pt>500 Internal Server Error</pt>
+          <pd>
+            <p>An internal system error has occurred.</p>
+          </pd>
+        </plentry>
+      </parml>
+    </section>
+    <section>
+      <title>Usage Guidelines </title>
+      <p>In the following example:</p>
+      <ul id="ul_wbl_zqz_gq">
+        <li>The data source ID is <codeph>540e5056e77989182bd5aad0</codeph>.</li>
+        <li>The ID of each derived data item takes the form
+            <codeph>sensor_<varname>n</varname></codeph></li>
+        <li>Data is to be returned for <codeph>sensor_1130</codeph> up to but not including
+            <codeph>sensor_1140</codeph>.</li>
+      </ul>
+      <codeblock>GET /rest/data_sources/540e5056e77989182bd5aad0/raw_data? derived:id__gte=STRING:sensor_1130&amp; derived:id__lt=STRING:sensor_1140</codeblock>
+    </section>
+  </refbody>
+</reference>

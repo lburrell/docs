@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_view-data-sources">
+    <title>View Data Source Information</title>
+    <shortdesc>View data source information on the<wintitle>Data Sources</wintitle> page. </shortdesc>
+    <taskbody>
+        <context>
+            <p>To view the data source information:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Open the <uicontrol>Data Sources</uicontrol> screen, by clicking the
+                        <uicontrol>Data Sources</uicontrol> icon. <image
+                        href="../_images/gui-screen-shots/icon_datasources.JPG"
+                        id="image_fmr_wzn_mq"/> in the left navigation bar.</cmd>
+                <info>
+                    <p>The <wintitle>Data Sources</wintitle> page opens showing defined data
+                        categories.</p>
+                    <fig id="fig_data-sources">
+                        <image href="../_images/gui-screen-shots/data-sources.jpg"
+                            id="image_hmp_55r_3q"/>
+                    </fig>
+                </info>
+            </step>
+            <step>
+                <cmd>Click the data category that contains the data source, so that it expands and
+                    shows the data source.</cmd>
+                <info>
+                    <fig id="fig_data-sources_data-sources">
+                        <image href="../_images/gui-screen-shots/data-sources_data-sources.jpg"
+                            id="image_wpx_pd4_mq"/>
+                    </fig>
+                </info>
+            </step>
+            <step>
+                <cmd>Click the data source name. The page for the data source opens on the
+                        <wintitle>Data Policy</wintitle> screen. Do any of the following:</cmd>
+                <choices id="choices_vbd_p24_mq">
+                    <choice>View data policy information on the <wintitle>Data Policy</wintitle>
+                        screen.</choice>
+                    <choice>Click the <uicontrol>Ingest Data</uicontrol> tab to see data ingest
+                        settings.</choice>
+                    <choice>Click the <uicontrol>Data Processing Function</uicontrol> tab to see the
+                        DPF associated with this data source.</choice>
+                </choices>
+            </step>
+        </steps>
+    </taskbody>
+</task>
