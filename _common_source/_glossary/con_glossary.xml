@@ -10,8 +10,8 @@
     <dd>
      <p audience="internal">Lowercase (i.e., not "Access Policies").</p>
      <p id="access-policy">An access policy is a set of logical rules that determines how users can
-      consume data stored in <ph conkeyref="product-vars/product-name"/>. Access policies can be
-      optionally applied to data sources and datasets. </p>
+            consume data stored in <ph conkeyref="product-vars/product-name"/>. Access policies can
+            be applied to data sources and datasets. </p>
     </dd>
    </dlentry>
    <dlentry>
@@ -19,13 +19,13 @@
     <dd>
      <p audience="internal">Lowercase (i.e., not "Authorizations").</p>
      <p id="user-authorizations">Authorizations are configurable properties assigned to <ph
-       conkeyref="product-vars/product-name"/> users. Authorizations are defined by the
-      administrator in accordance with the organization's governance policies. Authorizations are
-      combined with data visibilities to determine what permission a user has to interact with
-      different data. For example, a user with <keyword>Clinician</keyword> authorization might be
-      allowed to access all forms of health data, including confidential or identifiable
-      information, while a user with <keyword>Researcher</keyword> authorization might be allowed to
-      consume only with de-identified or nonidentified information.</p>
+              conkeyref="product-vars/product-name"/> users. Authorizations are defined by the
+            administrator in accordance with the organization's governance policies. Authorizations
+            are combined with data visibilities to determine what permission a user has to interact
+            with different data. For example, a user with <keyword>Clinician</keyword> authorization
+            might be allowed to access all forms of health data, including confidential or
+            identifiable information, while a user with <keyword>Researcher</keyword> authorization
+            might be allowed to consume only with de-identified or nonidentified information.</p>
     </dd>
    </dlentry>
    <dlentry audience="internal">
@@ -37,13 +37,13 @@
     <dt>cell (field)</dt>
     <dd>
      <p id="cell">A cell, or field, is the smallest unit of data storage in <ph
-       conkeyref="product-vars/product-name"/>. A cell is a single data item, which can range from a
-      single byte up to gigabytes, plus the metadata associated with the data item. Any piece of raw
-      data, regardless of size, is stored in a single cell. Elements of derived data (transformed
-      from the raw data) are also each stored individually in cells. Any cell can be protected by
-      applying data visibilities.For derived data, each derived item can be individually assigned a
-      visibility (which may be different than that configured for the data source) by the DPF
-      performing the processing.</p>
+              conkeyref="product-vars/product-name"/>. A cell is a single data item, which can range
+            from a single byte up to gigabytes, plus the metadata associated with the data item. Any
+            piece of raw data, regardless of size, is stored in a single cell. Elements of derived
+            data (transformed from the raw data) are also each stored individually in cells. Any
+            cell can be protected by applying data visibilities.For derived data, each derived item
+            can be individually assigned a visibility (which may be different than that configured
+            for the data source) by the DPF performing the processing.</p>
     </dd>
    </dlentry>
    <dlentry>
@@ -79,10 +79,10 @@
     <dd>
      <p audience="internal">Two words (i.e., not "datasource").</p>
      <p id="data-source">In <ph conkeyref="product-vars/product-name"/>, configuration for a data
-      source is the set of information defining the rules and policies for managing and governing a
-      given kind of data, thereby controlling consumption and access to the data. A data source
-      should be created for any collection of data to be stored in the system and managed by the
-      same retention, legal, and governance rules. </p>
+            source is the set of information defining the rules and policies for managing and
+            governing a given kind of data, thereby controlling consumption and access to the data.
+            A data source should be created for any collection of data to be stored in the system
+            and managed by the same retention, legal, and governance rules. </p>
     </dd>
    </dlentry>
    <dlentry>
@@ -131,10 +131,10 @@
     <dt>ingestion</dt>
     <dd>
      <p id="ingestion">Ingestion is the process by which data is brought into in <ph
-       conkeyref="product-vars/product-name"/>. The sending system (the data source) submits the
-      data to <ph conkeyref="product-vars/product-name"/>, which listens for the data using a web
-      service. The specific characteristics of data ingestion can be specified per data source as
-      part of the data source configuration. </p>
+              conkeyref="product-vars/product-name"/>. The sending system (the data source) submits
+            the data to <ph conkeyref="product-vars/product-name"/>, which listens for the data
+            using a web service. The specific characteristics of data ingestion can be specified per
+            data source as part of the data source configuration. </p>
     </dd>
    </dlentry>
    <dlentry>
@@ -174,15 +174,16 @@
     <dd>
      <p audience="internal">One word (i.e., not "meta data")</p>
      <p id="metadata">Metadata is information about a piece of data. In <ph
-       conkeyref="product-vars/product-name"/>, metadata is information about how a given piece of
-      data is to be managed. When a piece of raw data is ingested into <ph
-       conkeyref="product-vars/product-name"/>, information from the connection (for example, the
-      timestamp) together with policy information configured for the data source (for example, the
-      data visibility) and some derived information (for example, a "time to live," as derived from
-      the timestamp and the data retention policy) is used to create metadata properties that are
-      stored with the data. Further, <ph conkeyref="product-vars/product-name"/> also automatically
-      indexes and catalogues all stored data, whether raw or derived; the indexes and catalogues can
-      also be considered a kind of metadata.</p>
+              conkeyref="product-vars/product-name"/>, metadata is information about how a given
+            piece of data is to be managed. When a piece of raw data is ingested into <ph
+              conkeyref="product-vars/product-name"/>, information from the connection (for example,
+            the timestamp) together with policy information configured for the data source (for
+            example, the data visibility) and some derived information (for example, a "time to
+            live," as derived from the timestamp and the data retention policy) is used to create
+            metadata properties that are stored with the data. Further, <ph
+              conkeyref="product-vars/product-name"/> also automatically indexes and catalogues all
+            stored data, whether raw or derived; the indexes and catalogues can also be considered a
+            kind of metadata.</p>
     </dd>
    </dlentry>
    <dlentry>
@@ -203,8 +204,8 @@
     <dt>privacy-level visibilities</dt>
     <dd>
      <p>Privacy-level visibilities are data visibilities that characterize the privacy level of a
-      data item. <ph conkeyref="product-vars/product-name"/> includes predefined privacy-level
-      visibilities designed to apply to data domains where privacy is important.</p>
+            data item. <ph conkeyref="product-vars/product-name"/> includes predefined privacy-level
+            visibilities designed to apply to data domains where privacy is important.</p>
      <ul id="ul_wt5_bsm_jq">
       <li><b>IDENTIFIED</b>. The data contains Personally Identifying Information that potentially
        identifies an individual. Examples of information of this type include name, Social Insurance
@@ -231,8 +232,9 @@
     <dt>raw data</dt>
     <dd>
      <p id="raw-data">In <ph conkeyref="product-vars/product-name"/>, raw data items are files,
-      objects, records, images, and so on that are submitted for ingestion into the system. Raw data
-      is stored exactly as received, along with the metadata generated for it on ingestion. </p>
+            objects, records, images, and so on that are submitted for ingestion into the system.
+            Raw data is stored exactly as received, along with the metadata generated for it on
+            ingestion. </p>
     </dd>
    </dlentry>
    <dlentry>
@@ -250,10 +252,11 @@
     <dt>visibilities</dt>
     <dd>
      <p id="visibilities">All raw data and derived data stored in <ph
-       conkeyref="product-vars/product-name"/> can be tagged with attributes that provide
-      information about the data's sensitivity, and the visibility it should have to different
-      system users. These attributes are called data visibilities. The visibilities you define for
-      your data should reflect the sensitivity of the data as identified by your organization. </p>
+              conkeyref="product-vars/product-name"/> can be tagged with attributes that provide
+            information about the data's sensitivity, and the visibility it should have to different
+            system users. These attributes are called data visibilities. The visibilities you define
+            for your data should reflect the sensitivity of the data as identified by your
+            organization. </p>
     </dd>
    </dlentry>
    <dlentry audience="internal">
