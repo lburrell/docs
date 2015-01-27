@@ -17,9 +17,10 @@
         <steps id="steps_xwj_jkm_lq">
             <step>
                 <cmd>Open the <uicontrol>Access Policy Builder </uicontrol> page, by clicking the
-                        <uicontrol>Access Policy Builder</uicontrol> icon <image
-                        href="../_images/gui-screen-shots/icon_access-policies.JPG"
-                        id="image_svp_vkn_jq"/> in the left navigation bar.</cmd>
+                        <uicontrol>Access Policy Builder</uicontrol> icon in the left navigation
+                    bar. <image href="../_images/gui-screen-shots/icon_access-policies.JPG"
+                        id="image_svp_vkn_jq"/>
+                </cmd>
                 <info>The <wintitle>Access Policy Builder</wintitle> page opens.<fig
                         id="fig_access-policy-builder">
                         <image href="../_images/gui-screen-shots/access-policy_policy-builder.jpg"
@@ -36,7 +37,7 @@
             </step>
             <step>
                 <cmd>Enter the access rule information.</cmd>
-                <choicetable id="choicetable_access-policies">
+                <choicetable id="choicetable_access-policies" relcolwidth="1.0* 4.3*">
                     <chrow>
                         <choption>Subject</choption>
                         <chdesc>

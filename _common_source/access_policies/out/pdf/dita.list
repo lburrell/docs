@@ -1,9 +1,9 @@
-#Mon Jan 05 17:25:19 PST 2015
+#Tue Jan 27 14:19:51 PST 2015
 relflagimagelist=
-user.input.dir=C\:\\Users\\Lindsay\\Dropbox\\Product Management\\Product Documentation\\R1.0\\_Common_Source
+user.input.dir=/Users/lindsayburrell/Documents/_PHEMI/Docs/r1.0/_common_source
 copytotarget2sourcemaplist=
-uplevels=..\\
-user.input.file=Access_Policies\\map_access-policies.ditamap
+uplevels=../
+user.input.file=access_policies/map_access-policies.ditamap
 user.input.file.listfile=usr.input.file.list
-tempdirToinputmapdir.relative.value=Access_Policies[\\\\|/]
+tempdirToinputmapdir.relative.value=access_policies/
 relflagimagefile=relflagimage.list

@@ -10,22 +10,20 @@
     <dd>
      <p audience="internal">Lowercase (i.e., not "Access Policies").</p>
      <p id="access-policy">An access policy is a set of logical rules that determines how users can
-            consume data stored in <ph conkeyref="product-vars/product-name"/>. Access policies can
-            be applied to data sources and datasets. </p>
+      consume data stored in <ph conkeyref="product-vars/product-name"/>.  The access policy
+      specifies what user authorizations are required to interact with data tagged with specified
+      sensitivity, or visibility. Access policies can be applied to data sources and datasets. </p>
     </dd>
    </dlentry>
    <dlentry>
     <dt>authorizations</dt>
     <dd>
      <p audience="internal">Lowercase (i.e., not "Authorizations").</p>
-     <p id="user-authorizations">Authorizations are configurable properties assigned to <ph
-              conkeyref="product-vars/product-name"/> users. Authorizations are defined by the
-            administrator in accordance with the organization's governance policies. Authorizations
-            are combined with data visibilities to determine what permission a user has to interact
-            with different data. For example, a user with <keyword>Clinician</keyword> authorization
-            might be allowed to access all forms of health data, including confidential or
-            identifiable information, while a user with <keyword>Researcher</keyword> authorization
-            might be allowed to consume only with de-identified or nonidentified information.</p>
+     <p id="user-authorizations">User Authorizations are configurable properties you can assign to
+              <ph conkeyref="product-vars/product-name"/> users. Authorization definitions are
+            configured in <ph conkeyref="product-vars/product-name"/> by the <ph
+              conkeyref="product-vars/admin"/> in accordance with the organization's governance
+            policies. </p>
     </dd>
    </dlentry>
    <dlentry audience="internal">
@@ -252,10 +250,10 @@
     <dt>visibilities</dt>
     <dd>
      <p id="visibilities">All raw data and derived data stored in <ph
-              conkeyref="product-vars/product-name"/> can be tagged with attributes that provide
-            information about the data's sensitivity, and the visibility it should have to different
-            system users. These attributes are called data visibilities. The visibilities you define
-            for your data should reflect the sensitivity of the data as identified by your
+              conkeyref="product-vars/product-name"/> can be tagged with labels that provide
+            information about the data's sensitivity. This sensitivity is described in terms of the
+            visibility the data should have to different system users. The visibility tags you
+            define for your data should reflect the sensitivity of the data as identified by your
             organization. </p>
     </dd>
    </dlentry>

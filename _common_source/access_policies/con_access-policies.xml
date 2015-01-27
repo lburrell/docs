@@ -2,48 +2,28 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_access-policies">
  <title>Access Policies</title>
- <shortdesc/>
+ <shortdesc>Access policies let you characterize rightful access in terms of user authorizations and
+    data sensitivity, or visibility.</shortdesc>
  <conbody>
-    <p><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>Data Owners can create
-      Access Policies by constructing logical rules that combine user authorizations with object
-      attributes for feeding data from PHEMI Central into HANA. Rules are combined by a logical “or”
-      operation that enables a wide range of access policies to be created (eg. A doctor can view
-      identified patient information when logged on from the hospital
-      network).<?oxy_custom_end?></p>
-    <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
-    <p>An Access Policy is a combination of Data Visibilities, User Authorizations, and Actions that
-      specify an allowed Access to data in PHEMI Central. Any number of Access Policies can be
-      created, and they don't conflict or limit existing ones when new ones are created. </p>
-    <p> </p>
-    <p>The purpose of an Access Policy is to define a "lens" or "view" into data that determines
-      what user authorizations are required to action with data that has specified labels.</p>
-    <p> </p>
-    <p>For example, an Access Policy may state that a user authorization of "SECRET Clearance" is
-      required to "Read" data that has the label "PII". This Access Policy can then be associated
-      with any number of Data Sources to impose the rule that only SECRET Clearance users can read
-      data that is labelled as PII. </p>
-    <?oxy_custom_end?>
-    <p> </p>
     <p conref="../_Glossary/con_glossary.xml#concept_glossary/access-policy"/>
     <p>To create an access policy, you define one or more access rules. Each rule has three parts. </p>
     <ul id="ul_l4z_2dm_lq">
-      <li><keyword>Subject</keyword> specifies who may access the data, by listing the permitted
-        user authorizations.</li>
-      <li><keyword>Action</keyword> specifies how authorized users may consume the data. </li>
-      <li><keyword>Object</keyword> specifies what data the permitted users are allowed to interact
-        with, by listing the data visibilities.</li>
-    </ul>
-    <ul id="ul_qfm_rr4_mq">
-      <li>The <keyword>Subject</keyword> specifies a set of the user authorizations. </li>
-      <li>The <keyword>Object</keyword> specifies a set of data visibilities. </li>
-      <li>The <keyword>Action</keyword> specifies the action to be taken if the rule is
-        matched.</li>
+      <li><keyword>Subject</keyword> specifies who may access the data. Access is characterized in
+        terms of user authorizations. <xref
+          href="../users/con_user-authorizations.xml#concept_user-authorizations">Tell me about user
+          authorizations</xref></li>
+      <li><keyword>Action</keyword> specifies what action authorized users may take to interact with
+        the data. </li>
+      <li><keyword>Object</keyword> specifies the kind of data for which the access is being
+        granted. The data is specified in terms of data visibility. <xref
+          href="../data_visibilities/con_data-visibilities.xml#concept_data-visibilities">Tell me
+          about data visibilities</xref></li>
     </ul>
     <p> A rule is matched when the user making the request has an authorization matching at least
       one of those listed for <keyword>Subject</keyword>, and the data being requested has a
       visibility matching at least one of those listed for <keyword>Object</keyword>. When there is
       a match, the user may take the specified action(s) on the data.</p>
-    <p>If there is more than one access rule within a policy, the rules are related by OR logic.</p>
+    <p>If there is more than one rule in an access policy, the rules are related by OR logic.</p>
     <p>The rules in a given access policy are intended to implement specific controls over a
       dataset. Depending on the number and kinds of datasets your organization works with, you may
       need just one access policy or multiple access policies. </p>
