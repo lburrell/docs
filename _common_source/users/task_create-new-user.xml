@@ -4,19 +4,21 @@
     <title>Create a New User</title>
     <shortdesc>Create a new user on the <wintitle>Manage Users</wintitle> page. </shortdesc>
     <taskbody>
+        <prereq>Before you can create users, you must configure user authorizations. <xref
+                href="task_define-user-authorizations.xml">How?</xref></prereq>
         <context>
             <p>To create a new user:</p>
         </context>
         <steps>
             <step>
                 <cmd>Open the <uicontrol>Manage Users</uicontrol> page, by clicking the
-                        <uicontrol>Users</uicontrol> icon <image
-                        href="../_images/gui-screen-shots/icon_users.JPG" id="image_svp_vkn_jq"/> in
-                    the left navigation bar.</cmd>
+                        <uicontrol>Users</uicontrol> icon in the left navigation bar. <image
+                        href="../_images/gui-screen-shots/icon_users.JPG" id="image_svp_vkn_jq"/>
+                </cmd>
                 <info>The <wintitle>Manage Users</wintitle> page lists all users defined in the
                     system so far.<fig id="fig_manage-users">
                         <image href="../_images/gui-screen-shots/users_manage-users.jpg"
-                            id="image_j4l_xkn_jq"/>
+                            id="image_j4l_xkn_jq" scale="70"/>
                     </fig></info>
             </step>
             <step>
@@ -24,12 +26,12 @@
                 <info>The <wintitle>Create a New User</wintitle> window opens. <fig
                         id="fig_create-new-user">
                         <image href="../_images/gui-screen-shots/users_create-new-user.jpg"
-                            id="image_h44_ykn_jq"/>
+                            id="image_h44_ykn_jq" scale="70"/>
                     </fig></info>
             </step>
             <step>
                 <cmd>Enter the user information.</cmd>
-                <choicetable id="choicetable_h54_rtx_3q">
+                <choicetable id="choicetable_user-info" relcolwidth="1* 4*">
                     <chrow>
                         <choption>Full Name</choption>
                         <chdesc>Mandatory. The user's full name.</chdesc>
@@ -48,7 +50,7 @@
                     <chrow>
                         <choption>Phone Number</choption>
                         <chdesc>Optional. The user's phone number. You must configure this field if
-                            you want the system to send alerts to the user's phone.  </chdesc>
+                            you want the system to send alerts to the user's phone. </chdesc>
                     </chrow>
                     <chrow>
                         <choption>Email</choption>
@@ -62,7 +64,7 @@
                             authorization configured and the visibility set for data, the user role
                             determines what access the user will have to data. Each user has exactly
                             one role.<xref href="con_user-roles.xml">Tell me about user
-                                roles.</xref></chdesc>
+                            roles</xref></chdesc>
                     </chrow>
                     <chrow>
                         <choption>Authorizations</choption>
@@ -70,14 +72,14 @@
                             either the <uicontrol>Shift</uicontrol> key or the
                                 <uicontrol>Ctrl</uicontrol> key to make multiple selections. <xref
                                 href="con_user-authorizations.xml">Tell me about user
-                                authorizations.</xref></chdesc>
+                                authorizations</xref></chdesc>
                     </chrow>
                     <chrow>
                         <choption>Password</choption>
-                        <chdesc>Mandatory. The password policy (such as minimum and maximum length,
-                            whether a password can be reused, and so on) is set by your
-                            administrator in system configuration. Passwords must be confirmed by
-                            re-entering.</chdesc>
+                        <chdesc>Mandatory. Note that the password must comply with your
+                            organization's password policy. <xref
+                                href="../Passwords/con_password-policies.xml#concept_password-policies"
+                                >Tell me about the password policy</xref></chdesc>
                     </chrow>
                 </choicetable>
             </step>

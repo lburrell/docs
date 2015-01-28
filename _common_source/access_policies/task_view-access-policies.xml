@@ -16,9 +16,9 @@
                         id="image_fmr_wzn_mq"/></cmd>
                 <info>
                     <p>The <wintitle>Access Policy Builder</wintitle> page opens.</p>
-                    <fig id="fig_access-policies" scale="70">
+                    <fig id="fig_access-policies">
                         <image href="../_images/gui-screen-shots/access-policy_policy-builder.jpg"
-                            id="image_hmp_55r_3q"/>
+                            id="image_hmp_55r_3q" scale="70"/>
                     </fig>
                 </info>
             </step>
@@ -26,9 +26,9 @@
                 <cmd>At the right of the <uicontrol>Choose Policy to Edit</uicontrol> field, click
                     the drop-down arrow to see the list of configured access policies.</cmd>
                 <info>
-                    <fig id="fig_access-policies_view" scale="70">
+                    <fig id="fig_access-policies_view">
                         <image href="../_images/gui-screen-shots/access-policy_view.jpg"
-                            id="image_wpx_pd4_mq"/>
+                            id="image_wpx_pd4_mq" scale="70"/>
                     </fig>
                 </info>
             </step>

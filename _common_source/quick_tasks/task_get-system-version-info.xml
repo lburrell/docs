@@ -26,7 +26,7 @@
                     <fig id="fig_login-screen">
                         <image
                             href="../_images/gui-screen-shots/quick-tasks_system-version-info.JPG"
-                            id="image_wkx_xpr_3q"/>
+                            id="image_wkx_xpr_3q" scale="70"/>
                     </fig>
                 </info>
             </step>

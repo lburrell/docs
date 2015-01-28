@@ -1,9 +1,9 @@
-#Thu Jan 22 16:35:40 PST 2015
+#Tue Jan 27 15:51:25 PST 2015
 relflagimagelist=
-user.input.dir=C\:\\Users\\Lindsay\\Documents\\\!\!PHEMI\\Product Documentation\\R1.0\\_Common_Source
+user.input.dir=/Users/lindsayburrell/Documents/_PHEMI/Docs/r1.0/_common_source
 copytotarget2sourcemaplist=
-uplevels=..\\
-user.input.file=Quick_Tasks\\quick-tasks.ditamap
+uplevels=../
+user.input.file=quick_tasks/quick-tasks.ditamap
 user.input.file.listfile=usr.input.file.list
-tempdirToinputmapdir.relative.value=Quick_Tasks[\\\\|/]
+tempdirToinputmapdir.relative.value=quick_tasks/
 relflagimagefile=relflagimage.list

@@ -9,9 +9,9 @@
   <table frame="all" rowsep="1" colsep="1" id="table_krh_mnn_hq">
    <title>User Roles</title>
    <tgroup cols="3">
-    <colspec colname="c1" colnum="1" colwidth="1.0*"/>
-    <colspec colname="newCol2" colnum="2" colwidth="1*"/>
-    <colspec colname="c2" colnum="3" colwidth="1.0*"/>
+    <colspec colname="c1" colnum="1" colwidth="1*"/>
+    <colspec colname="newCol2" colnum="2" colwidth="1.36*"/>
+    <colspec colname="c2" colnum="3" colwidth="1.35*"/>
     <thead>
      <row>
       <entry>Role</entry>
@@ -21,7 +21,7 @@
     </thead>
     <tbody>
      <row>
-      <entry>PHEMI Administrator</entry>
+      <entry><ph conkeyref="product-vars/admin"/></entry>
       <entry>Configures access to <ph conkeyref="product-vars/product-name"/> and to data.</entry>
       <entry>
        <ul id="ul_b5r_4tp_kq">
@@ -42,8 +42,8 @@
        safeguarding data and assigning privileges to users. </entry>
       <entry>The privacy officer has no functional ability within the <ph
         conkeyref="product-vars/product-name"/>
-       <ph conkeyref="product-vars/gui-name"/>. The influence of privacy officer occurs before
-       system configuration.</entry>
+       <ph conkeyref="product-vars/gui-name"/>. The privacy officer elucidates the goernance
+       policies prior to system configuration.</entry>
      </row>
      <row>
       <entry>Data Analyst</entry>

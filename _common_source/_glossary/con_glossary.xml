@@ -19,8 +19,8 @@
     <dt>authorizations</dt>
     <dd>
      <p audience="internal">Lowercase (i.e., not "Authorizations").</p>
-     <p id="user-authorizations">User Authorizations are configurable properties you can assign to
-              <ph conkeyref="product-vars/product-name"/> users. Authorization definitions are
+     <p id="user-authorizations">User authorizations are configurable labels you can assign to <ph
+              conkeyref="product-vars/product-name"/> users. Authorization definitions are
             configured in <ph conkeyref="product-vars/product-name"/> by the <ph
               conkeyref="product-vars/admin"/> in accordance with the organization's governance
             policies. </p>

@@ -6,7 +6,8 @@
         screen.</shortdesc>
     <taskbody>
         <context>
-            <p>To log off <ph conkeyref="product-vars/gui-name"/>:</p>
+            <p>To log off the <ph conkeyref="product-vars/product-name"/>
+                <ph conkeyref="product-vars/gui-name"/>:</p>
         </context>
         <steps>
             <step>
@@ -26,7 +27,7 @@
                 <info>
                     <fig id="fig_login-screen">
                         <image href="../_images/gui-screen-shots/login-screen.JPG"
-                            id="image_wkx_xpr_3q"/>
+                            id="image_wkx_xpr_3q" scale="70"/>
                     </fig>
                 </info>
             </step>
