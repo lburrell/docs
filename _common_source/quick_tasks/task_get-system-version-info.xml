@@ -15,7 +15,7 @@
                 <info>
                     <fig id="fig_quick-tasks">
                         <image href="../_images/gui-screen-shots/quick-tasks.JPG"
-                            id="image_xpq_lnr_3q"/>
+                            id="image_xpq_lnr_3q" scale="70"/>
                     </fig>
                 </info>
             </step>

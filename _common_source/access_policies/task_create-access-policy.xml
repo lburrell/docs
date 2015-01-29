@@ -6,10 +6,14 @@
         page.</shortdesc>
     <taskbody>
         <prereq>
-            <p>Before you can define an access policy you must configure the following:</p>
+            <p>Before you can create an access policy you must configure the following:</p>
             <ul id="ul_t4t_mlm_lq">
-                <li>User authorizations</li>
-                <li>Data visibilities</li>
+                <li>User authorizations <xref
+                        href="../users/task_define-user-authorizations.xml#task_define-user-authorizations"
+                        >How do I configure user authorizations?</xref></li>
+                <li>Data visibilities <xref
+                        href="../data_visibilities/task_define-data-visibility.xml#task_define-data-visibilities"
+                        >How do I configure data visibilities?</xref></li>
             </ul>
         </prereq>
         <context>To create a new access policy, define one or more access rules:</context>
@@ -18,7 +22,7 @@
                 <cmd>Open the <uicontrol>Access Policy Builder </uicontrol> page, by clicking the
                         <uicontrol>Access Policy Builder</uicontrol> icon in the left navigation
                     bar. <image href="../_images/gui-screen-shots/icon_access-policies.JPG"
-                        id="image_svp_vkn_jq"/>
+                        id="image_fmr_wzn_mq" scale="70"/>
                 </cmd>
                 <info>The <wintitle>Access Policy Builder</wintitle> page opens.<fig
                         id="fig_access-policy-builder">

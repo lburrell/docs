@@ -2,6 +2,7 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
  <title>Dataset Destinations</title>
+ <keydef keys="product-vars"/>
  <topicref href="con_dataset-destinations.xml">
   <topicref href="task_view-dataset-destinations.xml"/>
   <topicref href="task_create-dataset-destination.xml"/>

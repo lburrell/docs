@@ -5,7 +5,6 @@
  <keydef keys="product-vars" href="../_Variables/PHEMI_Central/con_Product-Vars.xml"/>
  <topicref href="con_users.xml">
   <topicref href="con_user-roles.xml"/>
-  <topicref href="con_user-authorizations.xml"/>
   <topicref href="task_view-system-users.xml"/>
   <topicref href="task_create-new-user.xml"/>
   <topicref href="task_view-user-information.xml"/>

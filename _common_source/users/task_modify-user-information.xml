@@ -11,9 +11,9 @@
         <steps>
             <step>
                 <cmd>Open the <uicontrol>Manage Users</uicontrol> page, by clicking the
-                        <uicontrol>Users</uicontrol> icon in the left navigation bar.    <image
+                        <uicontrol>Users</uicontrol> icon in the left navigation bar. <image
                         href="../_images/gui-screen-shots/icon_users.JPG" id="image_vgg_kln_jq"
-                    /></cmd>
+                        scale="50"/></cmd>
                 <info>
                     <fig id="fig_manage-users">
                         <image href="../_images/gui-screen-shots/users_manage-users.jpg"
@@ -42,7 +42,7 @@
                     by typing it in both the <uicontrol>Password</uicontrol> and the
                         <uicontrol>Confirm Password</uicontrol> fields. <xref
                         href="task_create-new-user.xml#task_create-new-user/choicetable_user-info"
-                        >Tell me about user information fields</xref></cmd>
+                        >What do these fields mean?</xref></cmd>
             </step>
             <step>
                 <cmd>Save the changes by clicking the <uicontrol>Save User</uicontrol> button. The

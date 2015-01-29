@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
-<task id="task_view-user-auths">
-    <title>View Defined User Authorizations</title>
-    <shortdesc/>
+<task id="modify-user-authorization">
+    <title>Modify Authorization Description</title>
+    <shortdesc>Modify the description for a user authorizations on the <wintitle>System
+            Configuration</wintitle> page. </shortdesc>
     <taskbody>
         <context>
-            <p>To view defined user authorizations:</p>
+            <p>Although you can't delete a user authorization or edit the authorization label,  you
+                can edit the description after the authorization has been created.</p>
+            <p>To edit a user authorization description:</p>
         </context>
         <steps id="steps_dwd_rnx_kq">
             <step>
@@ -21,12 +24,25 @@
             </step>
             <step>
                 <cmd>Click the <uicontrol>User Authorizations</uicontrol> tab.</cmd>
-                <info>The <wintitle>User Authorizations</wintitle> screen opens, showing you each
-                    authorization that has been defined, along with a brief description.<fig
+                <info>The <wintitle>User Authorizations</wintitle> screen opens.<fig
                         id="fig_user-authorizations">
                         <image href="../_images/gui-screen-shots/users_user-authorizations.jpg"
                             id="image_izt_dmx_wq" scale="50"/>
                     </fig></info>
+            </step>
+            <step>
+                <cmd>Location the description for the authorization you want to edit. Click the
+                        <uicontrol>Modify</uicontrol> button.</cmd>
+                <info>
+                    <p>The </p>
+                    <fig>
+                        <image href="../_images/gui-screen-shots/users_modify-user-auth.jpg"
+                            id="image_mbj_2rx_wq" scale="70"/>
+                    </fig>
+                </info>
+            </step>
+            <step>
+                <cmd>Save the change by clicking the <uicontrol>Modify</uicontrol> button. </cmd>
             </step>
         </steps>
     </taskbody>

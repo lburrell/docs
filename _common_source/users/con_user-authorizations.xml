@@ -19,10 +19,9 @@
       <li><keyword>ANALYST</keyword>: A user with <keyword>ANALYST</keyword> information might be
         restricted to accessing de-identified or nonidentified data.</li>
     </ul>
-    <p>A user can be assigned multiple authorizations. User authorizations are set during system
-      configuration. <xref
-        href="task_define-user-authorizations.xml#task_define-user-authorizations">How do I
-        configure user authorizations?</xref></p>
-    <note>Once defined, a user authorization may be neither edited nor deleted.</note>
+    <p>A user can be assigned multiple authorizations. User authorizations are set by the <ph
+        conkeyref="product-vars/admin"/> during system configuration. </p>
+    <note>Once defined, a user authorization label may be neither edited nor deleted. The
+      description may be subsequently edited.</note>
   </conbody>
 </concept>

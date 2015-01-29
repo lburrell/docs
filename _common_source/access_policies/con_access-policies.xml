@@ -11,13 +11,13 @@
       <li><keyword>Subject</keyword> specifies who may access the data. Access is characterized in
         terms of user authorizations. <xref
           href="../users/con_user-authorizations.xml#concept_user-authorizations">Tell me about user
-          authorizations</xref></li>
+          authorizations.</xref></li>
       <li><keyword>Action</keyword> specifies what action authorized users may take to interact with
         the data. </li>
       <li><keyword>Object</keyword> specifies the kind of data for which the access is being
         granted. The data is specified in terms of data visibility. <xref
           href="../data_visibilities/con_data-visibilities.xml#concept_data-visibilities">Tell me
-          about data visibilities</xref></li>
+          about data visibilities.</xref></li>
     </ul>
     <p> A rule is matched when the user making the request has an authorization matching at least
       one of those listed for <keyword>Subject</keyword>, and the data being requested has a

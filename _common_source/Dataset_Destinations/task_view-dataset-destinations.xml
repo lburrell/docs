@@ -11,15 +11,15 @@
         <steps>
             <step>
                 <cmd>Open the <uicontrol>System Configuration</uicontrol> page, by clicking the
-                        <uicontrol>System Configuration</uicontrol> icon. <image
-                        href="../_images/gui-screen-shots/icon_system-config.JPG"
-                        id="image_fmr_wzn_mq"/> in the left navigation bar.</cmd>
+                        <uicontrol>System Configuration</uicontrol> icon in the left navigation bar.
+                        <image href="../_images/gui-screen-shots/icon_system-config.JPG"
+                        id="image_fmr_wzn_mq" scale="50"/></cmd>
                 <info>
                     <p>The <wintitle>System Configuration</wintitle> page opens on the
                             <wintitle>Password Policy</wintitle> screen.</p>
                     <fig id="fig_password-policy">
                         <image href="../_images/gui-screen-shots/password-policy.jpg"
-                            id="image_j4l_xkn_jq"/>
+                            id="image_j4l_xkn_jq" scale="50"/>
                     </fig>
                 </info>
             </step>
@@ -29,7 +29,7 @@
                     <p>The <wintitle>Dataset Destinations</wintitle> screen opens.</p>
                     <fig id="fig_dataset-destinations">
                         <image href="../_images/gui-screen-shots/dataset-destinations.jpg"
-                            id="image_s2y_vfm_qq"/>
+                            id="image_s2y_vfm_qq" scale="50"/>
                     </fig>
                 </info>
             </step>
@@ -39,7 +39,7 @@
                 <info>
                     <fig id="fig_view-dataset-destinations">
                         <image href="../_images/gui-screen-shots/dataset-destinations_view.jpg"
-                            id="image_p2y_zvl_sq"/>
+                            id="image_p2y_zvl_sq" scale="50"/>
                     </fig>
                 </info>
             </step>

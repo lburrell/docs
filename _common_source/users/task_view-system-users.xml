@@ -11,7 +11,8 @@
             <step>
                 <cmd>Open the <uicontrol>Manage Users</uicontrol> page, by clicking the
                         <uicontrol>Users</uicontrol> icon in the left navigation bar. <image
-                        href="../_images/gui-screen-shots/icon_users.JPG" id="image_lg1_skn_jq"/>
+                        href="../_images/gui-screen-shots/icon_users.JPG" id="image_lg1_skn_jq"
+                        scale="50"/>
                 </cmd>
                 <info>The <wintitle>Manage Users</wintitle> page lists all the users defined on the
                         system.<fig id="fig_manage-users">

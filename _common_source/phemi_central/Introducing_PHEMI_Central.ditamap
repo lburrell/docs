@@ -9,5 +9,9 @@
    <topicref href="../Data_in_PHEMI/con_curation.xml"/>
    <topicref href="../Data_in_PHEMI/con_consumption.xml"/>
   </topicref>
+  <mapref
+   href="../../_common_source/Privacy_Security_Governance/privacy-security-governance.ditamap"
+   format="ditamap"/>
+  <mapref href="../../_common_source/Data_Management/data-mgmt.ditamap" format="ditamap"/>
  </topicref>
 </map>

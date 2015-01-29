@@ -5,7 +5,8 @@
     <shortdesc>Create a new user on the <wintitle>Manage Users</wintitle> page. </shortdesc>
     <taskbody>
         <prereq>Before you can create users, you must configure user authorizations. <xref
-                href="task_define-user-authorizations.xml">How?</xref></prereq>
+                href="task_define-user-authorizations.xml">How do I configure user
+                authorizations?</xref></prereq>
         <context>
             <p>To create a new user:</p>
         </context>
@@ -13,7 +14,8 @@
             <step>
                 <cmd>Open the <uicontrol>Manage Users</uicontrol> page, by clicking the
                         <uicontrol>Users</uicontrol> icon in the left navigation bar. <image
-                        href="../_images/gui-screen-shots/icon_users.JPG" id="image_svp_vkn_jq"/>
+                        href="../_images/gui-screen-shots/icon_users.JPG" id="image_svp_vkn_jq"
+                        scale="50"/>
                 </cmd>
                 <info>The <wintitle>Manage Users</wintitle> page lists all users defined in the
                     system so far.<fig id="fig_manage-users">
@@ -63,8 +65,8 @@
                         <chdesc>Mandatory. The user's system role. Together with the user
                             authorization configured and the visibility set for data, the user role
                             determines what access the user will have to data. Each user has exactly
-                            one role.<xref href="con_user-roles.xml">Tell me about user
-                            roles</xref></chdesc>
+                            one role. <xref href="con_user-roles.xml">Tell me about user
+                                roles.</xref></chdesc>
                     </chrow>
                     <chrow>
                         <choption>Authorizations</choption>
@@ -72,14 +74,14 @@
                             either the <uicontrol>Shift</uicontrol> key or the
                                 <uicontrol>Ctrl</uicontrol> key to make multiple selections. <xref
                                 href="con_user-authorizations.xml">Tell me about user
-                                authorizations</xref></chdesc>
+                                authorizations.</xref></chdesc>
                     </chrow>
                     <chrow>
                         <choption>Password</choption>
                         <chdesc>Mandatory. Note that the password must comply with your
                             organization's password policy. <xref
                                 href="../Passwords/con_password-policies.xml#concept_password-policies"
-                                >Tell me about the password policy</xref></chdesc>
+                                >Tell me about the password policy.</xref></chdesc>
                     </chrow>
                 </choicetable>
             </step>

@@ -3,14 +3,8 @@
 <map>
  <title>System Configuration</title>
  <topicref href="con_system-config.xml">
-  <topicref href="../Passwords/con_config-password-policy.xml">
-   <topicref href="../Passwords/task_view-password-policy.xml"/>
-   <topicref href="../Passwords/task_set-password-policy.xml"/>
-  </topicref>
-  <topicref href="../Users/con_user-authorizations.xml">
-   <topicref href="../Users/task_define-user-authorizations.xml"/>
-   <topicref href="../Users/task_view-user-auths.xml"/>
-  </topicref>
+  <topicref href="../Passwords/Password-Policy.ditamap" format="ditamap"/>
+  <topicref href="../users/user-authorizations.ditamap" format="ditamap"/>
   <topicref href="../Dataset_Destinations/map_dataset-destinations.ditamap" format="ditamap"/>
   <topicref href="../Lifecycle_Management/con_data-retention-behavior.xml">
    <topicref href="../Lifecycle_Management/task_view-data-retention-behav.xml"/>

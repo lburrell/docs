@@ -11,7 +11,8 @@
             <step>
                 <cmd>Open the <uicontrol>Manage Users</uicontrol> screen, by clicking the
                         <uicontrol>Users</uicontrol> icon in the left navigation bar.<image
-                        href="../_images/gui-screen-shots/icon_users.JPG" id="image_i5h_1ln_jq"/>
+                        href="../_images/gui-screen-shots/icon_users.JPG" id="image_i5h_1ln_jq"
+                        scale="50"/>
                 </cmd>
                 <info>
                     <fig id="fig_manage-users">

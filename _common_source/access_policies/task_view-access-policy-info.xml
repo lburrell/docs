@@ -12,8 +12,8 @@
             <step>
                 <cmd>Open the <uicontrol>Access Policy Builder</uicontrol> page, by clicking the
                         <uicontrol>Access Policy Builder</uicontrol> icon in the left navigation
-                    bar.  <image href="../_images/gui-screen-shots/icon_access-policies.JPG"
-                        id="image_fmr_wzn_mq"/>
+                    bar. <image href="../_images/gui-screen-shots/icon_access-policies.JPG"
+                        id="image_fmr_wzn_mq" scale="70"/>
                 </cmd>
                 <info>
                     <p>The <wintitle>Access Policy Builder</wintitle> page opens.</p>

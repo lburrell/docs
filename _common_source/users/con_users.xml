@@ -10,12 +10,13 @@
                 conkeyref="product-vars/gui-name"/> you can use, and your user authorization
             together with data visibilities, are used in access policies that specify how user with
             your access authorizations are allowed to interact with data.</p>
-        <p><xref href="con_user-roles.xml#concept_users-roles">Tell me about user roles</xref></p>
-        <p><xref href="con_user-authorizations.xml#concept_user-authorizations">Tell me about user
-                authorizations</xref></p>
-        <p><xref href="../Data_Visibilities/con_data-visibilities.xml#concept_data-visibilities"
-                >Tell me about data visibilities</xref></p>
         <p>User information is set and modified on the <wintitle>Manage Users</wintitle> page.
-                <image href="../_images/gui-screen-shots/icon_users.JPG" id="image_jws_fhn_jq"/></p>
+                <image href="../_images/gui-screen-shots/icon_users.JPG" id="image_jws_fhn_jq"
+                scale="50"/></p>
+        <p>Tell me about <xref href="con_user-roles.xml#concept_users-roles">user roles</xref>,
+                <xref href="con_user-authorizations.xml#concept_user-authorizations">user
+                authorizations</xref>, and <xref
+                href="../data_visibilities/con_data-visibilities.xml#concept_data-visibilities">data
+                visibilities</xref>.</p>
     </conbody>
 </concept>
