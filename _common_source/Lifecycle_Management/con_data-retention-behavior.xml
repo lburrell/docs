@@ -4,6 +4,13 @@
  <title>Data Retention Behavior</title>
  <shortdesc/>
  <conbody>
-  <p/>
+  <p>Each data source has a data policy that specifies, among other things, how long data items
+   should be retained in the system. When the item's "time to live" expires, <ph
+    conkeyref="product-vars/product-name"/> deletes the item from the data store. The data retention
+   behavior, which is set in system configuration, specifies when <ph
+    conkeyref="product-vars/product-name"/> checks the data store to see what data, if any, is
+   expired and should be deleted from the data store.</p>
+  <p>You can configure <ph conkeyref="product-vars/product-name"/> to check on a schedule, or you
+   can manually initiate checking. </p>
  </conbody>
 </concept>

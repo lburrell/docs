@@ -5,9 +5,10 @@
  <shortdesc>Data visibilities identify the privacy requirements for data.</shortdesc>
  <conbody>
   <p conref="../_Glossary/con_glossary.xml#concept_glossary/visibilities"/>
-  <p>Data visibility should be defined in your organization's governance policy and is configured in
-    <ph conkeyref="product-vars/product-name"/> by the <ph conkeyref="product-vars/admin"/>.</p>
-  <p><ph conkeyref="product-vars/product-name"/> comes with three data visibilities predefined:</p>
+  <p>The visibility of data in your organization should be set out in your organization's governance
+   policy. Working from the governance policy,  the <ph conkeyref="product-vars/admin"/> and is
+   configured  as part of system configuration.</p>
+  <p><ph conkeyref="product-vars/product-name"/> comes with three data visibilities predefined.</p>
   <table frame="all" rowsep="1" colsep="1" id="table_zq5_hfw_kq">
    <title>Predefined Data Visibilities</title>
    <tgroup cols="2">
@@ -42,15 +43,20 @@
    level of access or certification to access, PII to identify Personally Identifiable Information,
    PHI to identify personal health information, or SECRET to identify especially sensitive
    material.</p>
-  <note>Once defined, a data visibility may be neither edited nor deleted.</note>
+  <note>Once defined, a data visibility may be neither edited nor deleted. The description for the
+   visibility can be modified subsequently.</note>
   <p>The data visibilities specified for a data source are referred to in access policies and
    matched against user authorizations to determine what actions, if any, a given user is allowed to
    perform on the data. The access policy can then be applied to a data source or dataset during
-   system configuration.</p>
-  <p>In addition,  any data visibility defined in the system can be used by a Data Processing
+   system configuration. <xref
+    href="../users/con_user-authorizations.xml#concept_user-authorizations">Tell me about user
+    authorizations.</xref>
+   <xref href="../access_policies/con_access-policies.xml#concept_access-policies">Tell me about
+    access policies.</xref></p>
+  <p>In addition, any data visibility defined in the system can be used by a Data Processing
    Function (DPF) to tag any derived data fields. These derived data elements can be assigned
    different privacy levels from the data source and from one another. For example, the Social
    Security Number extracted from a health record can be tagged CONFIDENTIAL if that data visibility
-   has been defined in the system. This mechanism provides "cell-level" privacy protection.</p>
+   has been defined in the system. This mechanism provides field-level privacy protection.</p>
  </conbody>
 </concept>

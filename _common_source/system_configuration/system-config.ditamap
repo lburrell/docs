@@ -6,19 +6,9 @@
   <topicref href="../Passwords/Password-Policy.ditamap" format="ditamap"/>
   <topicref href="../users/user-authorizations.ditamap" format="ditamap"/>
   <topicref href="../Dataset_Destinations/map_dataset-destinations.ditamap" format="ditamap"/>
-  <topicref href="../Lifecycle_Management/con_data-retention-behavior.xml">
-   <topicref href="../Lifecycle_Management/task_view-data-retention-behav.xml"/>
-   <topicref href="../Lifecycle_Management/task_set-data-retention-behav.xml"/>
-  </topicref>
-  <topicref href="../Data_Categories/con_data-categories.xml">
-   <topicref href="../Data_Categories/task_view-data-category-names.xml"/>
-   <topicref href="../Data_Categories/task_add-data-category.xml"/>
-   <topicref href="../Data_Categories/task_edit-data-category-name.xml"/>
-   <topicref href="../Data_Categories/task_delete-data-category.xml"/>
-  </topicref>
-  <topicref href="../Data_Visibilities/con_data-visibilities.xml">
-   <topicref href="../Data_Visibilities/task_view-data-visibilities.xml"/>
-   <topicref href="../Data_Visibilities/task_define-data-visibility.xml"/>
-  </topicref>
+  <mapref href="../../_common_source/Lifecycle_Management/Data-Retention-Behavior.ditamap"
+   format="ditamap"/>
+  <mapref href="../../_common_source/Data_Categories/Data-Categories.ditamap" format="ditamap"/>
+  <mapref href="../../_common_source/data_visibilities/Data-Visibilities.ditamap" format="ditamap"/>
  </topicref>
 </map>

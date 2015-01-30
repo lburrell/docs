@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
-<task id="task_view-data-retention-behav">
-    <title>View the Data Retention Schedule</title>
-    <shortdesc>View the schedule for data retention behavior on the <wintitle>System
+<task id="task_manuall-check-data-ret">
+    <title>Manually Check Data Retention</title>
+    <shortdesc>Trigger data retention checking at any time on the <wintitle>System
             Configuration</wintitle> page.</shortdesc>
     <taskbody>
         <context>
-            <p>To see the configured data retention schedule:</p>
+            <p>To manually initiate checking for expired data: </p>
         </context>
         <steps>
             <step>
@@ -22,12 +22,20 @@
             </step>
             <step>
                 <cmd>Click the <uicontrol>Data Retention</uicontrol> tab.</cmd>
-                <info>The <wintitle>Data Retention</wintitle> page opens, showing the schedule for
-                    automatic checking. <fig id="fig_data-retention">
+                <info>The <wintitle>Data Retention</wintitle> page opens. <fig
+                        id="fig_data-retention">
                         <image
                             href="../../_common_source/_images/gui-screen-shots/data-retention.jpg"
                             id="image_fdj_ktf_xq" scale="50"/>
                     </fig></info>
+            </step>
+            <step>
+                <cmd>In the <uicontrol>Data Sources</uicontrol> field, select all the data sources
+                    you want to check.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Enforce Retention Now</uicontrol> to check the selected data
+                    sources for expired data.</cmd>
             </step>
         </steps>
     </taskbody>

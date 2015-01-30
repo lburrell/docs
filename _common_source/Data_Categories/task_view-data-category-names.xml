@@ -3,8 +3,7 @@
 <task id="task_view-data-categories">
     <title>View Data Categories</title>
     <shortdesc>View the names of defined data categories on the<wintitle>Data Sources</wintitle>
-        page. <image href="../_images/gui-screen-shots/icon_datasources.JPG" id="image_nxk_fsr_3q"
-        /></shortdesc>
+        page. </shortdesc>
     <taskbody id="system-config_view-data-categories">
         <context>
             <p>To view data category names:</p>
@@ -12,21 +11,22 @@
         <steps>
             <step>
                 <cmd>Open the <uicontrol>Data Sources</uicontrol> screen, by clicking the
-                        <uicontrol>Data Sources</uicontrol> icon. <image
+                        <uicontrol>Data Sources</uicontrol> icon in the left navigation bar. <image
                         href="../_images/gui-screen-shots/icon_datasources.JPG"
-                        id="image_fmr_wzn_mq"/> in the left navigation bar.</cmd>
+                        id="image_fmr_wzn_mq" scale="50"/></cmd>
                 <info>
                     <p>The <wintitle>Data Sources</wintitle> page opens showing the defined data
                         categories.</p>
                     <fig id="fig_data-sources">
                         <image href="../_images/gui-screen-shots/data-sources.jpg"
-                            id="image_hmp_55r_3q"/>
+                            id="image_hmp_55r_3q" scale="70"/>
                     </fig>
                 </info>
             </step>
         </steps>
         <result>
-            <p>If you are an administrator, you can also view data category names from the <menucascade>
+            <p>If you are a <ph conkeyref="product-vars/admin"/>, you can also view data category
+                names from the <menucascade>
                     <uicontrol>System Configuration</uicontrol>
                     <uicontrol>Data Categories</uicontrol>
                 </menucascade> screen. </p>
@@ -37,7 +37,7 @@
                 field, click the drop-down list to see the list of defined data categories. </p>
             <fig id="data-category_sysconfig">
                 <image href="../_images/gui-screen-shots/data-categories_system-config.jpg"
-                    id="image_ptj_3c4_mq"/>
+                    id="image_ptj_3c4_mq" scale="50"/>
             </fig>
         </result>
     </taskbody>

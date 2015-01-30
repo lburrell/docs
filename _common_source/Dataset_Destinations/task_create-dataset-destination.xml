@@ -50,7 +50,7 @@
                     <chrow>
                         <choption>Name</choption>
                         <chdesc>
-                            <p>Mandatory. The name of the destination.</p>
+                            <p>Mandatory. Provide a name for the destination.</p>
                         </chdesc>
                     </chrow>
                     <chrow>

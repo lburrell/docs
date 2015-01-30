@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Data Visibilities</title>
+ <keydef keys="product-vars" href="../_Variables/PHEMI_Central/con_Product-Vars.xml"/>
+ <topicref href="con_data-visibilities.xml">
+  <topicref href="task_view-data-visibilities.xml"/>
+  <topicref href="task_define-data-visibility.xml"/>
+ </topicref>
+</map>
