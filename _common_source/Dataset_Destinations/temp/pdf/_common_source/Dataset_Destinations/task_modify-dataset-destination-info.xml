@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\temp\pdf\_common_source\Dataset_Destinations?><?workdir-uri file:/C:/PHEMI-docs/docs/_common_source/Dataset_Destinations/temp/pdf/_common_source/Dataset_Destinations/?><?path2project?><?path2project-uri ./?><task xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="task_modify-dataset-dest-info" ditaarch:DITAArchVersion="1.2" domains="(topic task)                            (topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic task strictTaskbody-c)    " class="- topic/topic task/task " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_modify-dataset-destination-info.xml" xtrc="task:1;3:42">
+    <title class="- topic/title " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_modify-dataset-destination-info.xml" xtrc="title:1;4:12">Modify Dataset Destination Information</title>
+    <shortdesc class="- topic/shortdesc " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_modify-dataset-destination-info.xml" xtrc="shortdesc:1;5:16">Modify information for a dataset destination on the <wintitle class="+ topic/keyword ui-d/wintitle " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_modify-dataset-destination-info.xml" xtrc="wintitle:1;5:78">Dataset
+            Destinations</wintitle> screen of the <wintitle class="+ topic/keyword ui-d/wintitle " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_modify-dataset-destination-info.xml" xtrc="wintitle:2;6:61">System Configuration</wintitle> page. </shortdesc>
+    <taskbody class="- topic/body task/taskbody " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_modify-dataset-destination-info.xml" xtrc="taskbody:1;7:15">
+        <context class="- topic/section task/context " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_modify-dataset-destination-info.xml" xtrc="context:1;8:18">
+            <p class="- topic/p " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_modify-dataset-destination-info.xml" xtrc="p:1;9:16">To modify information for a dataset destination:</p>
+        </context>
+        <steps class="- topic/ol task/steps " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_modify-dataset-destination-info.xml" xtrc="steps:1;11:16">
+            <step class="- topic/li task/step " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_modify-dataset-destination-info.xml" xtrc="step:1;12:19">
+                <cmd class="- topic/ph task/cmd " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_modify-dataset-destination-info.xml" xtrc="cmd:1;13:22">Open the <uicontrol class="+ topic/ph ui-d/uicontrol " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_modify-dataset-destination-info.xml" xtrc="uicontrol:1;13:42">System Configuration</uicontrol> page, by clicking the
+                        <uicontrol class="+ topic/ph ui-d/uicontrol " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_modify-dataset-destination-info.xml" xtrc="uicontrol:2;14:36">System Configuration</uicontrol> icon in the left navigation bar.
+                        <image href="../_images/gui-screen-shots/icon_system-config.JPG" id="image_fmr_wzn_mq" scale="50" placement="inline" class="- topic/image " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_modify-dataset-destination-info.xml" xtrc="image:1;16:59"/></cmd>
+                <info class="- topic/itemgroup task/info " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_modify-dataset-destination-info.xml" xtrc="info:1;17:23">
+                    <p class="- topic/p " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_modify-dataset-destination-info.xml" xtrc="p:2;18:24">The <wintitle class="+ topic/keyword ui-d/wintitle " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_modify-dataset-destination-info.xml" xtrc="wintitle:3;18:38">System Configuration</wintitle> page opens on the
+                            <wintitle class="+ topic/keyword ui-d/wintitle " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_modify-dataset-destination-info.xml" xtrc="wintitle:4;19:39">Password Policy</wintitle> screen.</p>
+                    <fig id="fig_password-policy" class="- topic/fig " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_modify-dataset-destination-info.xml" xtrc="fig:1;20:51">
+                        <image href="../_images/gui-screen-shots/password-policy.jpg" id="image_j4l_xkn_jq" scale="50" placement="inline" class="- topic/image " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_modify-dataset-destination-info.xml" xtrc="image:2;22:63"/>
+                    </fig>
+                </info>
+            </step>
+            <step class="- topic/li task/step " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_modify-dataset-destination-info.xml" xtrc="step:2;26:19">
+                <cmd class="- topic/ph task/cmd " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_modify-dataset-destination-info.xml" xtrc="cmd:2;27:22">Click the <uicontrol class="+ topic/ph ui-d/uicontrol " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_modify-dataset-destination-info.xml" xtrc="uicontrol:3;27:43">Dataset Destinations</uicontrol> tab. </cmd>
+                <info class="- topic/itemgroup task/info " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_modify-dataset-destination-info.xml" xtrc="info:2;28:23">
+                    <p class="- topic/p " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_modify-dataset-destination-info.xml" xtrc="p:3;29:24">The <wintitle class="+ topic/keyword ui-d/wintitle " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_modify-dataset-destination-info.xml" xtrc="wintitle:5;29:38">Dataset Destinations</wintitle> screen opens.</p>
+                    <fig id="fig_dataset-destinations" class="- topic/fig " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_modify-dataset-destination-info.xml" xtrc="fig:2;30:56">
+                        <image href="../_images/gui-screen-shots/dataset-destinations.jpg" id="image_s2y_vfm_qq" scale="50" placement="inline" class="- topic/image " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_modify-dataset-destination-info.xml" xtrc="image:3;32:63"/>
+                    </fig>
+                </info>
+            </step>
+            <step class="- topic/li task/step " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_modify-dataset-destination-info.xml" xtrc="step:3;36:19">
+                <cmd class="- topic/ph task/cmd " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_modify-dataset-destination-info.xml" xtrc="cmd:3;37:22">At the right of the <uicontrol class="+ topic/ph ui-d/uicontrol " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_modify-dataset-destination-info.xml" xtrc="uicontrol:4;37:53">Choose Destination to Edit</uicontrol> field,
+                    click the drop-down arrow to see configured dataset destinations. Select the
+                    destination you want to modify.</cmd>
+                <info class="- topic/itemgroup task/info " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_modify-dataset-destination-info.xml" xtrc="info:3;40:23">
+                    <fig id="fig_view-dataset-destinations" class="- topic/fig " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_modify-dataset-destination-info.xml" xtrc="fig:3;41:61">
+                        <image href="../_images/gui-screen-shots/dataset-destinations_view.jpg" id="image_p2y_zvl_sq" scale="50" placement="inline" class="- topic/image " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_modify-dataset-destination-info.xml" xtrc="image:4;43:63"/>
+                    </fig>
+                </info>
+            </step>
+            <step class="- topic/li task/step " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_modify-dataset-destination-info.xml" xtrc="step:4;47:19">
+                <cmd class="- topic/ph task/cmd " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_modify-dataset-destination-info.xml" xtrc="cmd:4;48:22">The <wintitle class="+ topic/keyword ui-d/wintitle " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_modify-dataset-destination-info.xml" xtrc="wintitle:6;48:36">Destination Details</wintitle> screen opens, showing information
+                    for the selected dataset. <xref href="task_create-dataset-destination.xml#task_create-dataset-destination" class="- topic/xref " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_modify-dataset-destination-info.xml" xtrc="xref:1;51:26" type="task"><?ditaot usertext?>What do these fields mean?<?ditaot genshortdesc?><desc class="- topic/desc ">Define a new dataset destination on the <wintitle class="+ topic/keyword ui-d/wintitle " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="wintitle:1;5:66">Dataset Destinations</wintitle>         screen of the <wintitle class="+ topic/keyword ui-d/wintitle " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="wintitle:2;6:33">System Configuration</wintitle> page. </desc></xref></cmd>
+                <info class="- topic/itemgroup task/info " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_modify-dataset-destination-info.xml" xtrc="info:4;52:23">
+                    <fig id="fig_dataset-dest-info" class="- topic/fig " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_modify-dataset-destination-info.xml" xtrc="fig:4;53:53">
+                        <image href="../_images/gui-screen-shots/dataset-dest_view-info.jpg" id="image_vzc_n2n_xq" scale="50" placement="inline" class="- topic/image " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_modify-dataset-destination-info.xml" xtrc="image:5;55:63"/>
+                    </fig>
+                </info>
+            </step>
+            <step class="- topic/li task/step " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_modify-dataset-destination-info.xml" xtrc="step:5;59:19">
+                <cmd class="- topic/ph task/cmd " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_modify-dataset-destination-info.xml" xtrc="cmd:5;60:22">Click the <uicontrol class="+ topic/ph ui-d/uicontrol " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_modify-dataset-destination-info.xml" xtrc="uicontrol:5;60:43">Edit Destination</uicontrol> button. The fields on the
+                        <wintitle class="+ topic/keyword ui-d/wintitle " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_modify-dataset-destination-info.xml" xtrc="wintitle:7;61:35">Destination Details</wintitle> screen become editable, and the
+                        <wintitle class="+ topic/keyword ui-d/wintitle " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_modify-dataset-destination-info.xml" xtrc="wintitle:8;62:35">Delete Destination</wintitle> buttons and <wintitle class="+ topic/keyword ui-d/wintitle " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_modify-dataset-destination-info.xml" xtrc="wintitle:9;62:87">Save
+                        Destination</wintitle> buttons appear.</cmd>
+                <info class="- topic/itemgroup task/info " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_modify-dataset-destination-info.xml" xtrc="info:5;64:23">
+                    <fig id="fig_dataset-dest-details" class="- topic/fig " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_modify-dataset-destination-info.xml" xtrc="fig:5;65:56">
+                        <image href="../../_common_source/_images/gui-screen-shots/dataset-destination_modify.jpg" id="image_cms_rgn_xq" scale="50" placement="inline" class="- topic/image " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_modify-dataset-destination-info.xml" xtrc="image:6;68:63"/>
+                    </fig>
+                </info>
+            </step>
+            <step class="- topic/li task/step " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_modify-dataset-destination-info.xml" xtrc="step:6;72:19">
+                <cmd class="- topic/ph task/cmd " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_modify-dataset-destination-info.xml" xtrc="cmd:6;73:22">Make your changes. If you need to change the destination password information,
+                    click the <uicontrol class="+ topic/ph ui-d/uicontrol " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_modify-dataset-destination-info.xml" xtrc="uicontrol:6;74:42">Modify Connection Password</uicontrol> button. </cmd>
+                <info class="- topic/itemgroup task/info " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_modify-dataset-destination-info.xml" xtrc="info:6;75:23">The <wintitle class="+ topic/keyword ui-d/wintitle " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_modify-dataset-destination-info.xml" xtrc="wintitle:10;75:37">Set Password</wintitle> pane opens underneath the other
+                    destination information. <fig id="fig_dataset-dest-set-pwd" class="- topic/fig " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_modify-dataset-destination-info.xml" xtrc="fig:6;76:81">
+                        <image href="../_images/gui-screen-shots/dataset-destination_set-password.jpg" id="image_wlg_yfn_xq" scale="50" placement="inline" class="- topic/image " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_modify-dataset-destination-info.xml" xtrc="image:7;79:63"/>
+                    </fig></info>
+            </step>
+            <step class="- topic/li task/step " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_modify-dataset-destination-info.xml" xtrc="step:7;82:19">
+                <cmd class="- topic/ph task/cmd " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_modify-dataset-destination-info.xml" xtrc="cmd:7;83:22">Complete your changes, then click the <uicontrol class="+ topic/ph ui-d/uicontrol " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_modify-dataset-destination-info.xml" xtrc="uicontrol:7;83:71">Save Destination</uicontrol>
+                    button to save the changed information.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

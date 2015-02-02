@@ -28,8 +28,8 @@
                 <info>
                     <p>The <wintitle>Dataset Destinations</wintitle> screen opens.</p>
                     <fig id="fig_system-config_dataset-destinations">
-                        <image href="../_images/gui-screen-shots/dataset-destinations.jpg"
-                            id="image_s2y_vfm_qq" scale="50"/>
+                        <image href="../_images/gui-screen-shots/dests.jpg" id="image_s2y_vfm_qq"
+                            scale="50"/>
                     </fig>
                 </info>
             </step>
@@ -39,7 +39,7 @@
                 <info>
                     <p>The <wintitle>Destination Details</wintitle> screen opens.</p>
                     <fig id="fig_create-dataset-dest">
-                        <image href="../_images/gui-screen-shots/dataset-destination_create.jpg"
+                        <image href="../_images/gui-screen-shots/dests_create.jpg"
                             id="image_jlc_hwl_sq" scale="50"/>
                     </fig>
                 </info>

@@ -28,8 +28,8 @@
                 <info>
                     <p>The <wintitle>Dataset Destinations</wintitle> screen opens.</p>
                     <fig id="fig_dataset-destinations">
-                        <image href="../_images/gui-screen-shots/dataset-destinations.jpg"
-                            id="image_s2y_vfm_qq" scale="50"/>
+                        <image href="../_images/gui-screen-shots/dests.jpg" id="image_s2y_vfm_qq"
+                            scale="50"/>
                     </fig>
                 </info>
             </step>
@@ -39,20 +39,19 @@
                     destination you want to modify.</cmd>
                 <info>
                     <fig id="fig_view-dataset-destinations">
-                        <image href="../_images/gui-screen-shots/dataset-destinations_view.jpg"
+                        <image href="../_images/gui-screen-shots/dests_view.jpg"
                             id="image_p2y_zvl_sq" scale="50"/>
                     </fig>
                 </info>
             </step>
             <step>
-                <cmd>The <wintitle>Dataset Destinations</wintitle> screen opens, showing information
+                <cmd>The <wintitle>Destination Details</wintitle> screen opens, showing information
                     for the selected dataset. <xref
                         href="task_create-dataset-destination.xml#task_create-dataset-destination"
                         >What do these fields mean?</xref></cmd>
                 <info>
                     <fig id="fig_dataset-dest-info">
-                        <image
-                            href="../../_common_source/_images/gui-screen-shots/dataset-destination_view-info.jpg"
+                        <image href="../_images/gui-screen-shots/dests_view-info.jpg"
                             id="image_vzc_n2n_xq" scale="50"/>
                     </fig>
                 </info>
@@ -64,8 +63,7 @@
                         Destination</wintitle> buttons appear.</cmd>
                 <info>
                     <fig id="fig_dataset-dest-details">
-                        <image
-                            href="../../_common_source/_images/gui-screen-shots/dataset-destination_modify.jpg"
+                        <image href="../_images/gui-screen-shots/dests_modify.jpg"
                             id="image_cms_rgn_xq" scale="50"/>
                     </fig>
                 </info>
@@ -75,8 +73,7 @@
                     click the <uicontrol>Modify Connection Password</uicontrol> button. </cmd>
                 <info>The <wintitle>Set Password</wintitle> pane opens underneath the other
                     destination information. <fig id="fig_dataset-dest-set-pwd">
-                        <image
-                            href="../_images/gui-screen-shots/dataset-destination_set-password.jpg"
+                        <image href="../_images/gui-screen-shots/dests_set-password.jpg"
                             id="image_wlg_yfn_xq" scale="50"/>
                     </fig></info>
             </step>

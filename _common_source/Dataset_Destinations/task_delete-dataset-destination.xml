@@ -45,13 +45,12 @@
                 </info>
             </step>
             <step>
-                <cmd>The <wintitle>Dataset Destinations</wintitle> screen opens, showing information
+                <cmd>The <wintitle>Destination Details</wintitle> screen opens, showing information
                     for the selected dataset. </cmd>
                 <info>
-                    <fig id="fig_jdg_m2n_xq">
-                        <image
-                            href="../../_common_source/_images/gui-screen-shots/dataset-destination_view-info.jpg"
-                            id="image_vzc_n2n_xq" scale="50"/>
+                    <fig id="fig_dest-details">
+                        <image href="../_images/gui-screen-shots/dataset-dest_view-info.jpg"
+                            id="image_ktv_h5h_yq" scale="50"/>
                     </fig>
                 </info>
             </step>
