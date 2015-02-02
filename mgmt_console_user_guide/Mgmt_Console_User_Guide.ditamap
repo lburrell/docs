@@ -9,5 +9,6 @@
  <topicref href="../_Common_Source/Mgmt_Console/Introducing_Mgmt_Console.ditamap" format="ditamap"/>
  <topicref href="../_Common_Source/Mgmt_Console/Mgmt_Console_Reference.ditamap" format="ditamap"/>
  <topicref href="../_Common_Source/Data_in_PHEMI/Submitting_Data.ditamap" format="ditamap"/>
+ <topicref href="../_common_source/Filter_Expressions/Filter-Expressions.ditamap" format="ditamap"/>
  <topicref href="../_Common_Source/_Glossary/glossary.ditamap" format="ditamap"/>
 </map>

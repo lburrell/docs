@@ -28,6 +28,9 @@
    exported to an application or analytics tool, PHEMI Central strictly enforces your organization’s
    privacy and security policies to ensure appropriate access to data.</p>
   <?oxy_custom_end?>
+  <p><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>Dataset destinations and
+   data source connections are configured initially based on the parameters of the connection type
+   (ODBC, FTP, and JSON-REST).<?oxy_custom_end?></p>
   <p>PHEMI Central integrates with your existing infrastructure, applications, and analytics tools
    to let you immediately take advantage of the Big Data Warehouse. Multiple users can concurrently
    interact with the system, accessing datasets via SQL, data exports, and using custom

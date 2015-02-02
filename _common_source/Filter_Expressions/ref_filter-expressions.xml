@@ -27,7 +27,7 @@
       <p>Metacharacters are characters that are not matched themselves, but indicate how a filter
         expression should be interpreted. </p>
     </section>
-    <properties id="properties_mdf_zxk_lq">
+    <properties id="properties_mdf_zxk_lq" relcolwidth="1* 5*">
       <prophead>
         <proptypehd>Character(s)</proptypehd>
         <propdeschd>Description</propdeschd>
@@ -73,8 +73,8 @@
       </property>
       <property>
         <proptype>$</proptype>
-        <propvalue>Matches the ending position of a string or line, or the position immediately
-          preceding the newline character.</propvalue>
+        <propdesc>Matches the ending position of a string or line, or the position immediately
+          preceding the newline character.</propdesc>
       </property>
       <property>
         <proptype>\</proptype>
@@ -93,18 +93,13 @@
               <userinput>[.at]</userinput> matches "." or "a" or "t". </p>
         </propdesc>
       </property>
-      <property/>
-      <property/>
-      <property/>
-      <property/>
-      <property/>
     </properties>
     <section>
       <title id="escape-sequences">Escape Sequences</title>
       <p>There are certain characters that take on a new meaning when they are preceded by the
         escape character, the backslash.</p>
     </section>
-    <properties id="properties_dhf_xjl_lq">
+    <properties id="properties_dhf_xjl_lq" relcolwidth="1* 5*">
       <prophead>
         <proptypehd>Escape Sequence</proptypehd>
         <propdeschd>Description</propdeschd>
@@ -118,7 +113,7 @@
       <property>
         <proptype>\r</proptype>
         <propdesc>
-          <p>Carraige return.</p>
+          <p>Carriage return.</p>
         </propdesc>
       </property>
       <property>
@@ -129,9 +124,9 @@
       </property>
       <property>
         <proptype>\x0B</proptype>
-        <propvalue>
+        <propdesc>
           <p>Vertical tab.</p>
-        </propvalue>
+        </propdesc>
       </property>
       <property>
         <proptype>\f</proptype>
@@ -165,17 +160,12 @@
       </property>
       <property>
         <proptype>\w</proptype>
-        <propvalue>A member of the word character class. Equivalent to [a-zA-Z_0-9]</propvalue>
+        <propdesc>A member of the word character class. Equivalent to [a-zA-Z_0-9].</propdesc>
       </property>
       <property>
         <proptype>\W</proptype>
-        <propvalue>A non-word character. Equivalent to [^\w]</propvalue>
+        <propdesc>A non-word character. Equivalent to [^\w].</propdesc>
       </property>
-      <property/>
-      <property/>
-      <property/>
-      <property/>
-      <property/>
     </properties>
   </refbody>
 </reference>

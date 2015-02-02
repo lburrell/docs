@@ -46,7 +46,7 @@
             </step>
             <step>
                 <cmd>Enter the destination details.</cmd>
-                <choicetable id="choicetable_h54_rtx_3q" relcolwidth="1* 3*">
+                <choicetable id="choicetable_h54_rtx_3q" relcolwidth="1* 4*">
                     <chrow>
                         <choption>Name</choption>
                         <chdesc>
@@ -58,8 +58,8 @@
                         <chdesc>
                             <p>Mandatory. The destination type. Supported values are as follows:</p>
                             <ul id="ul_rcd_s4m_qq">
-                                <li><keyword>MySQL</keyword>. The destination is a MySQL
-                                    database.</li>
+                                <li><keyword>MySQL</keyword>. The destination is a MySQL database.
+                                    Both ODBC and JDBC connection types are supported.</li>
                                 <li><keyword>HANA</keyword>. The destination is a SAP HANA
                                     database.</li>
                             </ul>
@@ -72,7 +72,7 @@
                     </chrow>
                     <chrow>
                         <choption>Port</choption>
-                        <chdesc>Mandatory. The port on the destination to send data to.</chdesc>
+                        <chdesc>Mandatory. The destination TCP port.</chdesc>
                     </chrow>
                     <chrow>
                         <choption>Database Name</choption>
@@ -80,18 +80,17 @@
                     </chrow>
                     <chrow>
                         <choption>Schema</choption>
-                        <chdesc>Mandatory. The schema being used in the destination
+                        <chdesc>Mandatory. The name of the schema being used in the destination
                             database.</chdesc>
                     </chrow>
                     <chrow>
                         <choption>User Name</choption>
-                        <chdesc>Mandatory. The user name to be used to log on to the database.
+                        <chdesc>Mandatory. The user name for logging on to the destination.
                         </chdesc>
                     </chrow>
                     <chrow>
                         <choption>Password</choption>
-                        <chdesc>Mandatory. The password to be used to log on to the
-                            database.</chdesc>
+                        <chdesc>Mandatory. The password for logging on to the destination.</chdesc>
                     </chrow>
                     <chrow>
                         <choption>Confirm Password</choption>

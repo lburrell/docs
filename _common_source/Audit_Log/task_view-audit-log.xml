@@ -10,22 +10,57 @@
         <steps id="steps_tkd_15t_qq">
             <step>
                 <cmd>Open the <uicontrol>Audit Log</uicontrol> page, by clicking the
-                        <uicontrol>Audit Log</uicontrol> icon in the left navigation bar.</cmd>
+                        <uicontrol>Audit Log</uicontrol> icon in the left navigation bar.   <image
+                        href="../../_common_source/_images/gui-screen-shots/icon_audit-log.jpg"
+                        id="image_qv4_qdg_xq" scale="50"/></cmd>
                 <info>
                     <p>The <wintitle>Audit Log</wintitle> page opens.</p>
-                    <fig id="fig_access-policies" scale="70"/>
+                    <fig id="fig_audit-log">
+                        <image href="../../_common_source/_images/gui-screen-shots/audit-log.jpg"
+                            id="image_vy1_ydg_xq" scale="50"/>
+                    </fig>
                 </info>
             </step>
             <step>
-                <cmd>If you want to see something in particular, set the filtering options.</cmd>
-                <choices id="choices_kv1_f35_qq">
-                    <choice>Specify a start time.</choice>
-                    <choice>Specify an end time.</choice>
-                    <choice>Specify a filter string. </choice>
-                </choices>
+                <cmd>Set your query options.</cmd>
+                <choicetable id="choicetable_f2p_f2g_xq" relcolwidth="1* 4*">
+                    <chrow>
+                        <choption>From</choption>
+                        <chdesc>Optional. The start time of log entries. The format for the date is
+                                <varname>yyyy-mm-dd</varname>. The format for the time is
+                                <varname>hh:mm</varname>, in 24-hour format. The default is the
+                            current date and time. Leaving the default <keyword>From</keyword> and
+                                <keyword>To</keyword> values shows the complete log file. </chdesc>
+                    </chrow>
+                    <chrow>
+                        <choption>To</choption>
+                        <chdesc>Optional. The stop time of log entries. Choose the current time by
+                            checking the <keyword>Now</keyword> checkbox,or uncheck the
+                                <keyword>Now</keyword> checkbox and specify a time using
+                                <varname>yyyy-mm-dd</varname> for the date and
+                                <varname>hh:mm</varname>, in 24-hour format, for the time. The
+                            default is <keyword>Now</keyword>. Leaving the default
+                                <keyword>From</keyword> and <keyword>To</keyword> values shows the
+                            complete log file. </chdesc>
+                    </chrow>
+                    <chrow>
+                        <choption>Filter</choption>
+                        <chdesc>Optional. Use a filtering expression to filter the log messages.
+                                <xref
+                                href="../../_common_source/Filter_Expressions/ref_filter-expressions.xml#reference_filter-expr"
+                                >What filtering expressions can I use?</xref></chdesc>
+                    </chrow>
+                    <chrow>
+                        <choption>Display Order</choption>
+                        <chdesc>Optional. The order in which log messages are displayed. Choose
+                            between  displaying the newest entries first or the oldest entries
+                            first. By default, newest entries are displayed first.</chdesc>
+                    </chrow>
+                </choicetable>
             </step>
             <step>
-                <cmd>Click the <uicontrol>Search</uicontrol> button.</cmd>
+                <cmd>Click <uicontrol>Load Records</uicontrol> to retrieve the specified log
+                    messages.</cmd>
             </step>
         </steps>
     </taskbody>

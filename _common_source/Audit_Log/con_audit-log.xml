@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_audit-log">
- <title>Audit Logs</title>
+ <title>Audit Log</title>
  <shortdesc>See how the PHEMI system has been accessed and used by viewing the <wintitle>Audit
-      Logs</wintitle>.</shortdesc>
+      Log</wintitle>.</shortdesc>
  <conbody>
-    <p>The log tracks all accesses to the PHEMI system: through the RESTful API or through the
-      Management Console.</p>
+    <p>The log tracks all accesses to the PHEMI system: through the <ph
+        conkeyref="product-vars/RESTful-API"/> or through the <ph
+        conkeyref="product-vars/product-name"/>.</p>
     <p><ph conkeyref="product-vars/product-name"/> maintains complete a complete audit log of system
-      and user operations. Log entries include all create, modify, and delete operations  performed
+      and user operations. Log entries include all create, modify, and delete operations performed
       through the <ph conkeyref="product-vars/gui-name"/>, along with a record of all queries made
-      to the system through the RESTful API. Audit Log files are completely tamperproof for all
-      users. </p>
+      to the system through the <ph conkeyref="product-vars/RESTful-API"/>. Audit Log files are
+      completely tamperproof for all users. </p>
     <p>Approved users can filter Audit Log files<ph audience="internal"> and export the information
         for downstream analysis and compliance reporting</ph>.</p>
   </conbody>
