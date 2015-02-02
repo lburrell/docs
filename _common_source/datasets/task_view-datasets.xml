@@ -2,14 +2,25 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="task_view-datasets">
     <title>View Defined Datasets</title>
-    <shortdesc/>
+    <shortdesc>View the list of defined datasets on the <wintitle>Manage Datasets</wintitle>
+        page.</shortdesc>
     <taskbody>
         <context>
-            <p/>
+            <p>To see what datasets are available:</p>
         </context>
         <steps>
             <step>
-                <cmd/>
+                <cmd>Open the <uicontrol>Manage Datasets</uicontrol> page, by clicking the
+                        <uicontrol>Datasets</uicontrol> icon in the left navigation bar. <image
+                        href="../_images/gui-screen-shots/icon_datasets.jpg" id="image_fmr_wzn_mq"
+                        scale="50"/></cmd>
+                <info>
+                    <p>The <wintitle>Manage Datasets</wintitle> page opens.</p>
+                    <fig id="fig_password-policy">
+                        <image href="../_images/gui-screen-shots/password-policy.jpg"
+                            id="image_j4l_xkn_jq" scale="50"/>
+                    </fig>
+                </info>
             </step>
         </steps>
     </taskbody>
