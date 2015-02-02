@@ -3,6 +3,7 @@
 <concept id="concept_corp-vars">
  <title>Corporate Variables</title>
  <conbody>
-  <p>Professional Services is called <ph id="prof-services">PHEMI Professional Services</ph>.</p>
+  <p>The Professional Services department is called <ph id="prof-services">PHEMI Professional
+    Services</ph>.</p>
  </conbody>
 </concept>
