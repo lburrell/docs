@@ -59,9 +59,9 @@
     <dd>
      <p audience="internal">One word (i.e., not "data set").</p>
      <p id="dataset">A dataset is a view, or map, of an underlying set of data. Data items in a
-      dataset can be selected from across multiple data sources and DPFs. The dataset is a view, or
-      map, to the underlying data. The actual content of the dataset (that is, the dataset's data)
-      is generated when the dataset is executed or when it is queried against.</p>
+            dataset can be selected from across multiple data sources. The dataset is a view, or
+            map, to the underlying data. The actual content of the dataset (that is, the dataset's
+            data) is generated when the dataset is executed or when it is queried against.</p>
     </dd>
    </dlentry>
    <dlentry>
@@ -72,13 +72,32 @@
       categories are "Research Reports," "X-Rays," and "Prescriptions."</p>
     </dd>
    </dlentry>
+      <dlentry>
+        <dt>Data Processing Function, DPF</dt>
+        <dd>
+          <p audience="internal">Capitalized.</p>
+          <p id="dpf"> A Data Processing Function, or DPF, is an executable piece of code that
+            supplies the instructions for processing raw data (for example, a log message or medical
+            report) to extract from heterogeneous data sources meaningful, context-specific
+            information (such as a temperature reading or blood glucose measurement) that can be
+            queried or exported for analysis. The code is executed by the <ph
+              conkeyref="product-vars/product-name"/>
+            <ph conkeyref="product-vars/dpf-engine"/>, which uses it to direct curation of the data.
+            The input to a DPF is the raw binary data ingested into the system. The output of a DPF
+            is a set of structured elements, each of which includes a type property (for example,
+            INT or STRING) and can specify data visibilities (for example, SECRET or IDENTIFIABLE)
+            on a per-field basis. The data elements output by a DPF are called derived data. The
+            collection of derived data produced by a DPF is automatically indexed in PHEMI Central.
+          </p>
+        </dd>
+      </dlentry>
    <dlentry>
     <dt>data source</dt>
     <dd>
      <p audience="internal">Two words (i.e., not "datasource").</p>
      <p id="data-source">In <ph conkeyref="product-vars/product-name"/>, a data source is a given
-            kind of data, such that the information is governed by a single set of management and
-            governance rules and policies. A data source configuration should be defined for any
+            collection of data, such that the information is governed by a single set of management
+            and governance rules and policies. A data source configuration should be defined for any
             collection of data to be stored in the system and managed by the same retention, legal,
             and governance rules. </p>
     </dd>
@@ -104,25 +123,6 @@
     </dd>
    </dlentry>
    <dlentry>
-    <dt>Data Processing Function, DPF</dt>
-    <dd>
-          <p audience="internal">Capitalized.</p>
-          <p id="dpf"> A Data Processing Function, or DPF, is an executable piece of code that
-            supplies the instructions for processing raw data (for example, a log message or medical
-            report) to extract from heterogeneous data sources meaningful, context-specific
-            information (such as a temperature reading or blood glucose measurement) that can be
-            queried or exported for analysis. The code is executed by the <ph
-              conkeyref="product-vars/product-name"/>
-            <ph conkeyref="product-vars/dpf-engine"/>, which uses it to direct curation of the data.
-            The input to a DPF is the raw binary data ingested into the system. The output of a DPF
-            is a set of structured elements, each of which includes a type property (for example,
-            INT or STRING) and can specify data visibilities (for example, SECRET or IDENTIFIABLE)
-            on a per-field basis. The data elements output by a DPF are called derived data. The
-            collection of derived data produced by a DPF is automatically indexed in PHEMI Central.
-          </p>
-        </dd>
-   </dlentry>
-   <dlentry>
     <dt>DPF archive</dt>
     <dd>
      <p audience="internal">Note that "archive" is lower case.</p>
@@ -138,16 +138,21 @@
      <p id="ingestion">Ingestion is the process by which data is brought into in <ph
               conkeyref="product-vars/product-name"/>. The sending system (the data source) submits
             the data to <ph conkeyref="product-vars/product-name"/>, which listens for the data
-            using a web service. The specific characteristics of data ingestion can be specified per
-            data source as part of the data source configuration. </p>
+            using a web service. Data can also be ingested manually, by using the <ph
+              conkeyref="product-vars/product-name"/>
+            <ph conkeyref="product-vars/gui-name"/>. The specific characteristics of data ingestion
+            can be specified per data source as part of the data source configuration. </p>
     </dd>
    </dlentry>
    <dlentry>
     <dt>JSON</dt>
     <dd>
      <p>JSON stands for JavaScript Object Notation. JSON is a lightweight data-interchange format
-      that is easy for humans to read and write and easy for machines to parse and generate. JSON is
-      used in the body of several REST requests in the PHEMI RESTful API.</p>
+            that is easy for humans to read and write and easy for machines to parse and generate.
+            JSON is used in the body of several REST requests in the PHEMI RESTful API. <ph
+              conkeyref="product-vars/product-name"/> also includes a system DPF that can create
+            derived data from JSON objects, providing the objects conform to PHEMI’s JSON
+            specification.</p>
     </dd>
    </dlentry>
    <dlentry>

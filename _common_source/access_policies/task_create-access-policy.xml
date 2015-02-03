@@ -57,7 +57,7 @@
                             <ul id="ul_e2n_tmn_qq">
                                 <li><keyword>Read</keyword>. The user may view the data.</li>
                                 <li><keyword>Export</keyword>. The user may export the data to a
-                                    destination, such as a SAP system.</li>
+                                    destination, such as a local computer for analysis.</li>
                             </ul>
                         </chdesc>
                     </chrow>

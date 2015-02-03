@@ -16,11 +16,13 @@
       <li><keyword>DOCTOR</keyword>: A user with <keyword>DOCTOR</keyword> authorization might, for
         example, be permitted to read any information, including personally identifiable information
         or personal health information.</li>
-      <li><keyword>ANALYST</keyword>: A user with <keyword>ANALYST</keyword> information might be
-        restricted to accessing de-identified or nonidentified data.</li>
+      <li><keyword>ANALYST</keyword>: A user with <keyword>ANALYST</keyword> authorization might be
+        restricted to accessing only the de-identified or nonidentified data.</li>
     </ul>
     <p>A user can be assigned multiple authorizations. User authorizations are set by the <ph
         conkeyref="product-vars/admin"/> during system configuration. </p>
+    <p>All users are assigned the predefined PUBLIC authorization by default. The PUBLIC
+      authorization can subsequently be removed by the <ph conkeyref="product-vars/admin"/>.</p>
     <note>Once defined, a user authorization label may be neither edited nor deleted. The
       description may be subsequently edited.</note>
   </conbody>

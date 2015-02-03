@@ -7,9 +7,10 @@
  <conbody>
         <p><ph conkeyref="product-vars/product-name"/> user management is organized around user
             roles and user authorizations. Your user role defines what parts of the <ph
-                conkeyref="product-vars/gui-name"/> you can use, and your user authorization
-            together with data visibilities, are used in access policies that specify how user with
-            your access authorizations are allowed to interact with data.</p>
+                conkeyref="product-vars/gui-name"/> and <ph conkeyref="product-vars/RESTful-API"/>
+            you can use, and your user authorization together with data visibilities, are used in
+            access policies that specify how user with your access authorizations are allowed to
+            interact with data.</p>
         <p>User information is set and modified on the <wintitle>Manage Users</wintitle> page.
                 <image href="../_images/gui-screen-shots/icon_users.JPG" id="image_jws_fhn_jq"
                 scale="50"/></p>

@@ -50,7 +50,7 @@
       <entry>Submits data for ingestion and consumes data.</entry>
       <entry>
        <ul id="ul_ybw_ytp_kq">
-        <li>Manually ingest data</li>
+        <li>Ingest data</li>
         <li>Build and execute datasets</li>
        </ul>
       </entry>

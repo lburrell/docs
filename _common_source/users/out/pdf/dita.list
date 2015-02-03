@@ -1,9 +1,9 @@
-#Wed Jan 28 13:01:41 PST 2015
+#Tue Feb 03 09:52:31 PST 2015
 relflagimagelist=
 user.input.dir=/Users/lindsayburrell/Documents/_PHEMI/Docs/r1.0/_common_source
 copytotarget2sourcemaplist=
 uplevels=../
-user.input.file=users/user-authorizations.ditamap
+user.input.file=users/users.ditamap
 user.input.file.listfile=usr.input.file.list
 tempdirToinputmapdir.relative.value=users/
 relflagimagefile=relflagimage.list

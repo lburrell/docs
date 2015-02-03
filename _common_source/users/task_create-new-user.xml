@@ -64,9 +64,9 @@
                         <choption>Role</choption>
                         <chdesc>Mandatory. The user's system role. Together with the user
                             authorization configured and the visibility set for data, the user role
-                            determines what access the user will have to data. Each user has exactly
-                            one role. <xref href="con_user-roles.xml">Tell me about user
-                                roles.</xref></chdesc>
+                            determines what access the user will have to data. A user can be
+                            assigned more than one role. <xref href="con_user-roles.xml">Tell me
+                                about user roles.</xref></chdesc>
                     </chrow>
                     <chrow>
                         <choption>Authorizations</choption>

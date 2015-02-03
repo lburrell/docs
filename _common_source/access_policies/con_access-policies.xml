@@ -24,9 +24,9 @@
       visibility matching at least one of those listed for <keyword>Object</keyword>. When there is
       a match, the user may take the specified action(s) on the data.</p>
     <p>If there is more than one rule in an access policy, the rules are related by OR logic.</p>
-    <p>The rules in a given access policy are intended to implement specific controls over a
-      dataset. Depending on the number and kinds of datasets your organization works with, you may
-      need just one access policy or multiple access policies. </p>
+    <p>The rules in a given access policy are intended to implement specific controls over data.
+      Depending on the number and kinds of datasets your organization works with, you may need just
+      one access policy or multiple access policies. </p>
     <p>If you have multiple access policies, it is possible for policies to conflict with one
       another and still represent a consistent governance policy, provided that each access policy
       is used to control different data sources or datasets. For example, one access policy may
