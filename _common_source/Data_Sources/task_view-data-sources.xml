@@ -5,20 +5,22 @@
     <shortdesc>View data sources on the<wintitle>Data Sources</wintitle> page. </shortdesc>
     <taskbody>
         <context>
-            <p>To view the data sources:</p>
+            <p>To view defined data sources:</p>
         </context>
         <steps>
             <step>
                 <cmd>Open the <uicontrol>Data Sources</uicontrol> screen, by clicking the
-                        <uicontrol>Data Sources</uicontrol> icon. <image
+                        <uicontrol>Data Sources</uicontrol> icon in the left navigation bar. <image
                         href="../_images/gui-screen-shots/icon_datasources.JPG"
-                        id="image_fmr_wzn_mq"/> in the left navigation bar.</cmd>
+                        id="image_fmr_wzn_mq" scale="50"/></cmd>
                 <info>
                     <p>The <wintitle>Data Sources</wintitle> page opens showing defined data
-                        categories.</p>
+                        categories. <xref
+                            href="../Data_Categories/con_data-categories.xml#concept_data-categories"
+                            >Tell me about data categories.</xref></p>
                     <fig id="fig_data-categories">
                         <image href="../_images/gui-screen-shots/data-sources.jpg"
-                            id="image_hmp_55r_3q"/>
+                            id="image_hmp_55r_3q" scale="50"/>
                     </fig>
                 </info>
             </step>

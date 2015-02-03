@@ -1,15 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
-<task id="task_modify-dataset-info">
-    <title>Modify Dataset Information</title>
-    <shortdesc/>
+<task id="task_modify-dataset">
+    <title>Modify a Dataset</title>
+    <shortdesc>Modify information for a dataset on the <wintitle>Manage Datasets</wintitle>
+        page.</shortdesc>
     <taskbody>
+        <prereq>
+            <note> Only users with a role of <ph conkeyref="product-vars/admin"/> can modify a
+                dataset definition. </note>
+        </prereq>
         <context>
-            <p/>
+            <p>To see information for a dataset:</p>
         </context>
         <steps>
             <step>
-                <cmd/>
+                <cmd>Open the <uicontrol>Manage Datasets</uicontrol> page, by clicking the
+                        <uicontrol>Datasets</uicontrol> icon in the left navigation bar. <image
+                        href="../_images/gui-screen-shots/icon_datasets.jpg" id="image_fmr_wzn_mq"
+                        scale="50"/></cmd>
+                <info>
+                    <p>The <wintitle>Manage Datasets</wintitle> page opens, listing the datasets
+                        that have already been defined.</p>
+                    <fig id="fig_manage-datasets">
+                        <image href="../_images/gui-screen-shots/datasets_view.png"
+                            id="image_j4l_xkn_jq" scale="60"/>
+                    </fig>
+                </info>
+            </step>
+            <step>
+                <cmd>Click the name of the dataset you want to view. </cmd>
+                <info>The information screen for the dataset opens. <fig id="fig_dataset-info">
+                        <image href="../_images/gui-screen-shots/datasets_view-info.png"
+                            id="image_vg1_ccp_yq" scale="50"/>
+                    </fig></info>
+            </step>
+            <step>
+                <cmd>Make your changes. <xref
+                        href="task_define-dataset.xml#task_define-new-dataset/choicetable_define-dataset"
+                        >What do these fields mean?</xref>
+                    <xref
+                        href="task_define-dataset.xml#task_define-new-dataset/choose-dataset-fields"
+                        >How do I choose fields for the dataset?</xref>
+                </cmd>
+                <info>Click <uicontrol>Save Dataset</uicontrol> to save your changes. The system
+                    confirms when the dataset has been successfully saved. Click
+                        <uicontrol>Close</uicontrol> to dismiss the dataset information
+                    screen.</info>
             </step>
         </steps>
     </taskbody>

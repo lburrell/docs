@@ -1,15 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
-<task id="task_view-dataset-information">
+<task id="task_view-dataset-info">
     <title>View Dataset Information</title>
-    <shortdesc/>
+    <shortdesc>View information for a dataset on the <wintitle>Manage Datasets</wintitle>
+        page.</shortdesc>
     <taskbody>
+        <prereq>
+            <note> Only users with a role of <ph conkeyref="product-vars/admin"/> can view dataset
+                information. </note>
+        </prereq>
         <context>
-            <p/>
+            <p>To see information for a dataset:</p>
         </context>
         <steps>
             <step>
-                <cmd/>
+                <cmd>Open the <uicontrol>Manage Datasets</uicontrol> page, by clicking the
+                        <uicontrol>Datasets</uicontrol> icon in the left navigation bar. <image
+                        href="../_images/gui-screen-shots/icon_datasets.jpg" id="image_fmr_wzn_mq"
+                        scale="50"/></cmd>
+                <info>
+                    <p>The <wintitle>Manage Datasets</wintitle> page opens, listing the datasets
+                        that have already been defined.</p>
+                    <fig id="fig_manage-datasets">
+                        <image href="../_images/gui-screen-shots/datasets_view.png"
+                            id="image_j4l_xkn_jq" scale="60"/>
+                    </fig>
+                </info>
+            </step>
+            <step>
+                <cmd>Click the name of the dataset you want to view. </cmd>
+                <info>The information screen for the dataset opens. <fig id="fig_dataset-info">
+                        <image href="../_images/gui-screen-shots/datasets_view-info.png"
+                            id="image_vg1_ccp_yq" scale="50"/>
+                    </fig></info>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Close</uicontrol> to dismiss the screen.</cmd>
             </step>
         </steps>
     </taskbody>

@@ -2,23 +2,41 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="task_execute-dataset">
     <title>Execute a Dataset</title>
-    <shortdesc/>
+    <shortdesc>View the list of defined datasets on the <wintitle>Manage Datasets</wintitle>
+        page.</shortdesc>
     <taskbody>
         <prereq>
-            <note> Datasets are defined (built) by the <ph conkeyref="product-vars/admin"/>, but
-                only users with a Data Analyst role are permitted to execute datasets and
-                download/export datasets.</note>
+            <note> Only users with a role of <ph conkeyref="product-vars/data-analyst"/> can execute
+                a dataset. </note>
         </prereq>
         <context>
-            <p><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>A subset of the
-                elements produced by Data Processing Functions are selected to define a dataset that
-                will be materialized in HANA. The chosen Access Policies determine the data
-                representation (e.g. identified or de-identified) that is persisted in
-                HANA.<?oxy_custom_end?></p>
+            <p>To see what datasets are available:</p>
         </context>
         <steps>
             <step>
-                <cmd/>
+                <cmd>Open the <uicontrol>Manage Datasets</uicontrol> page, by clicking the
+                        <uicontrol>Datasets</uicontrol> icon in the left navigation bar. <image
+                        href="../_images/gui-screen-shots/icon_datasets.jpg" id="image_fmr_wzn_mq"
+                        scale="50"/></cmd>
+                <info>
+                    <p>The <wintitle>Manage Datasets</wintitle> page opens, listing the defined
+                        datasets.</p>
+                    <fig id="fig_manage-datasets">
+                        <image href="../_images/gui-screen-shots/datasets_view.png"
+                            id="image_j4l_xkn_jq" scale="60"/>
+                    </fig>
+                </info>
+            </step>
+            <step>
+                <cmd>Check the checkbox next to the datasets you want to execute, or check
+                        <uicontrol>Select/Deselect All</uicontrol> to select all the datasets.</cmd>
+                <info>You will only be able to select datasets that the <ph
+                        conkeyref="product-vars/admin"/> has designated as available to you in the
+                    dataset definition.</info>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Execute Selected Datasets</uicontrol>.</cmd>
+                <info>The dataset executes.</info>
             </step>
         </steps>
     </taskbody>

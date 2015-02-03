@@ -5,9 +5,8 @@
     <shortdesc>Define a new dataset on the <wintitle>Manage Datasets</wintitle> page.</shortdesc>
     <taskbody>
         <prereq>
-            <note> Datasets are defined (built) by the <ph conkeyref="product-vars/admin"/>, but
-                only users with a Data Analyst role are permitted to execute datasets and
-                download/export datasets.</note>
+            <note> Only users with a role of <ph conkeyref="product-vars/admin"/> can define
+                datasets. </note>
         </prereq>
         <context>
             <p>To define a dataset:</p>
@@ -36,7 +35,7 @@
             </step>
             <step>
                 <cmd>Describe the dataset.</cmd>
-                <choicetable id="choicetable_vdk_12j_yq" relcolwidth="1* 4*">
+                <choicetable id="choicetable_define-dataset" relcolwidth="1* 4*">
                     <chrow>
                         <choption>Name</choption>
                         <chdesc>
@@ -62,8 +61,10 @@
                             </ul>
                             <p>The default is <keyword>Hive-MR</keyword>.</p>
                             <p>If you choose <keyword>JDBC</keyword> as the format, you have the
-                                option of selecting one of the dataset destinations configured for
-                                the system.</p>
+                                option of selecting one of the dataset destinations that has been
+                                configured for the system. <xref
+                                    href="../Dataset_Destinations/con_dataset-destinations.xml#concept_dataset-destinations"
+                                    >Tell me about dataset destinations.</xref></p>
                         </chdesc>
                     </chrow>
                     <chrow>
@@ -87,9 +88,44 @@
                     </chrow>
                     <chrow>
                         <choption>Expires</choption>
-                        <chdesc>Mandatory. The </chdesc>
+                        <chdesc>Mandatory. An expiry date for the dataset. When this date is
+                            reached, <ph conkeyref="product-vars/product-name"/> deletes the dataset
+                            from the system. </chdesc>
                     </chrow>
                 </choicetable>
+            </step>
+            <step id="choose-dataset-fields">
+                <cmd>Choose the fields you want in the dataset.</cmd>
+                <info>
+                    <p>You select the fields for the dataset in the <uicontrol>Dataset
+                            Contents</uicontrol> pane. This pane will show a number of tabs; these
+                        tabs reflect the data categories configured for your data. Clicking a tab
+                        will list all the fields extracted from all the data sources within the
+                        category, where each data source is represented by a column. Each data
+                        source and each field has a checkbox. </p>
+                    <fig id="fig_select-fields">
+                        <image href="../_images/gui-screen-shots/datasets_choose-fields.png"
+                            id="image_nfl_mx4_yq" scale="50"/>
+                    </fig>
+                    <ul id="ul_zxz_cx4_yq">
+                        <li>Select an entire data source by checking the checkbox for the
+                            column.</li>
+                        <li>Select any number of individual fields. </li>
+                    </ul>
+                    <p>Continue for each data category you want to include in the dataset.</p>
+                    <p>As you select fields, a preview of your selections appears in
+                            <uicontrol>Export Preview</uicontrol> pane.</p>
+                    <fig id="fig_export-preview">
+                        <image href="../_images/gui-screen-shots/datasets_export-preview.png"
+                            id="image_yg1_5x4_yq" scale="50"/>
+                    </fig>
+                </info>
+            </step>
+            <step>
+                <cmd>When your dataset is complete, click the <uicontrol>Save Dataset</uicontrol>
+                    button. The system confirms when the dataset has been successfully saved. Click
+                        <uicontrol>Close</uicontrol> to dismiss the <wintitle>Build New
+                        Dataset</wintitle> screen.</cmd>
             </step>
         </steps>
     </taskbody>
