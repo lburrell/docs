@@ -1,15 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="task_define-new-dataset">
-    <title>Build a Dataset</title>
-    <shortdesc/>
+    <title>Define a Dataset</title>
+    <shortdesc>Define a new dataset on the <wintitle>Manage Datasets</wintitle> page.</shortdesc>
     <taskbody>
+        <prereq>
+            <note> Datasets are defined (built) by the <ph conkeyref="product-vars/admin"/>, but
+                only users with a Data Analyst role are permitted to execute datasets and
+                download/export datasets.</note>
+        </prereq>
         <context>
-            <p/>
+            <p>To define a dataset:</p>
         </context>
         <steps>
             <step>
-                <cmd/>
+                <cmd>Open the <uicontrol>Manage Datasets</uicontrol> page, by clicking the
+                        <uicontrol>Datasets</uicontrol> icon in the left navigation bar. <image
+                        href="../_images/gui-screen-shots/icon_datasets.jpg" id="image_fmr_wzn_mq"
+                        scale="50"/></cmd>
+                <info>
+                    <p>The <wintitle>Manage Datasets</wintitle> page opens, listing the datasets
+                        that have already been defined.</p>
+                    <fig id="fig_manage-datasets">
+                        <image href="../_images/gui-screen-shots/datasets_view.png"
+                            id="image_j4l_xkn_jq" scale="60"/>
+                    </fig>
+                </info>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>Define New Dataset</uicontrol> button.</cmd>
+                <info>The Build New Dataset screen opens. <fig id="fig_build-new-dataset">
+                        <image href="../_images/gui-screen-shots/dataset_build-new.png"
+                            id="image_jn2_z1j_yq" scale="80"/>
+                    </fig></info>
+            </step>
+            <step>
+                <cmd>Describe the dataset.</cmd>
+                <choicetable id="choicetable_vdk_12j_yq" relcolwidth="1* 4*">
+                    <chrow>
+                        <choption>Name</choption>
+                        <chdesc>
+                            <p>Mandatory. A name for the dataset.</p>
+                        </chdesc>
+                    </chrow>
+                    <chrow>
+                        <choption>Description</choption>
+                        <chdesc>
+                            <p>Mandatory. A brief description of the dataset.</p>
+                        </chdesc>
+                    </chrow>
+                    <chrow>
+                        <choption>Export Target</choption>
+                        <chdesc>
+                            <p>Optional. The format required by the system to receive the dataset.
+                                Supported values are as follows: </p>
+                            <ul id="ul_ycd_m2j_yq">
+                                <li>Hive-MR. Apache Hive MapReduce format.</li>
+                                <li>JDBC. Java Database Connectivity format.</li>
+                                <li>CSV. Comma-separated values format.</li>
+                                <li>TSV. Tab-separated values format.</li>
+                            </ul>
+                            <p>The default is <keyword>Hive-MR</keyword>.</p>
+                            <p>If you choose <keyword>JDBC</keyword> as the format, you have the
+                                option of selecting one of the dataset destinations configured for
+                                the system.</p>
+                        </chdesc>
+                    </chrow>
+                    <chrow>
+                        <choption>Access Policy</choption>
+                        <chdesc>Optional. The access policy to protect the dataset. The access
+                            policy selected for the dataset may match or may be different from any
+                            applied to the constituent data source(s). By default, the first
+                            configured access policy is applied.</chdesc>
+                    </chrow>
+                    <chrow>
+                        <choption>Status</choption>
+                        <chdesc>Optional. The availability of the dataset. The only supported value
+                            is <keyword>Available</keyword>.</chdesc>
+                    </chrow>
+                    <chrow>
+                        <choption>Available To</choption>
+                        <chdesc>Mandatory. The users who are allowed to access this dataset. Select
+                            one or more users from the drop-down list; only users with a role of
+                            Data Analyst appear on the list. By default, no users are allowed to
+                            access the dataset.</chdesc>
+                    </chrow>
+                    <chrow>
+                        <choption>Expires</choption>
+                        <chdesc>Mandatory. The </chdesc>
+                    </chrow>
+                </choicetable>
             </step>
         </steps>
     </taskbody>

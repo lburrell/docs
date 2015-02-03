@@ -4,16 +4,25 @@
  <title>Datasets</title>
  <shortdesc/>
  <conbody>
-  <p>A dataset is a specific view of data in the PHEMI system that is accessible to some limited set
-   of users. The view can be across multiple data sources.</p>
-  <p>Data sets are typically created for a research or exploratory data use falling outside the
-   bounds of governance and controls protecting the source data. A dataset often consists of a
-   subset of the fields produced by the Data Processing Function (DPF) that parses and processes the
-   raw data. Access for fields within the dataset may vary, depending on the data visibilities
-   applied to the original data source and those applied by the DPF.</p>
-  <p>Each dataset must be associated with an access policy, to ensure that all access complies with
-   the governance applicable to the data.</p>
-  <p> You can define any number of datasets. Defining a dataset has no impact on configuration for
-   data sources or protections to data. </p>
+  <p>A dataset is a specific view of data in <ph conkeyref="product-vars/product-name"/> that is
+   accessible to some limited set of users. The view provided by the dataset can be across multiple
+   data sources.</p>
+  <p>The data elements available for building a dataset includes the derived data elements from all
+   data sources across the data stored in <ph conkeyref="product-vars/product-name"/>. You build a
+   dataset by selecting data elements from among all those available. You can define any number of
+   datasets from the fields available within <ph conkeyref="product-vars/product-name"/>. Defining a
+   dataset does not impact configuration for data sources or protections to data. </p>
+  <p>Datasets are typically created for research or exploratory data use, and the intended use for
+   datasets may differ from the intended use of an individual data source. In particular, the
+   governance and controls required for a dataset may differ from those specified its constituent
+   data sources. For this reason, you can attach an access policy to a dataset independent of the
+   access policies attached to the consistuent data sources.</p>
+  <p>Once a dataset is built, it can be executed by multiple users--even by users with different
+   authorizations. A given user's actual view into the data in an executed dataset is restricted by
+   his or her authorization. Thus, two users with different authorizations might execute the same
+   dataset but end up with a different set of data.</p>
+  <note> Datasets are defined (built) by the <ph conkeyref="product-vars/admin"/>. However, only
+   users with a role of Data Analyst are permitted to execute datasets and download/export
+   datasets.</note>
  </conbody>
 </concept>

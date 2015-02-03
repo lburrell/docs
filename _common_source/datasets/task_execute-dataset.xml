@@ -4,6 +4,11 @@
     <title>Execute a Dataset</title>
     <shortdesc/>
     <taskbody>
+        <prereq>
+            <note> Datasets are defined (built) by the <ph conkeyref="product-vars/admin"/>, but
+                only users with a Data Analyst role are permitted to execute datasets and
+                download/export datasets.</note>
+        </prereq>
         <context>
             <p><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>A subset of the
                 elements produced by Data Processing Functions are selected to define a dataset that

@@ -58,11 +58,12 @@
                         <chdesc>
                             <p>Mandatory. The destination type. Supported values are as follows:</p>
                             <ul id="ul_rcd_s4m_qq">
-                                <li><keyword>MySQL</keyword>. The destination is a MySQL database.
-                                    Both ODBC and JDBC connection types are supported.</li>
+                                <li><keyword>MySQL</keyword>. The destination is a MySQL database. </li>
                                 <li><keyword>HANA</keyword>. The destination is a SAP HANA
                                     database.</li>
                             </ul>
+                            <p>Both MySQL and HANA destination types use a Jave Database
+                                Connectivity (JDBC) connection.</p>
                         </chdesc>
                     </chrow>
                     <chrow>

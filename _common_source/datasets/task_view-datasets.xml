@@ -15,10 +15,11 @@
                         href="../_images/gui-screen-shots/icon_datasets.jpg" id="image_fmr_wzn_mq"
                         scale="50"/></cmd>
                 <info>
-                    <p>The <wintitle>Manage Datasets</wintitle> page opens.</p>
-                    <fig id="fig_password-policy">
-                        <image href="../_images/gui-screen-shots/password-policy.jpg"
-                            id="image_j4l_xkn_jq" scale="50"/>
+                    <p>The <wintitle>Manage Datasets</wintitle> page opens, listing the datasets
+                        that have already been defined.</p>
+                    <fig id="fig_manage-datasets">
+                        <image href="../_images/gui-screen-shots/datasets_view.png"
+                            id="image_j4l_xkn_jq" scale="60"/>
                     </fig>
                 </info>
             </step>

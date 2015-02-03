@@ -6,43 +6,20 @@
   configuration.</shortdesc>
  <conbody>
   <p conref="../_Glossary/con_glossary.xml#concept_glossary/dpf"/>
+  <p>The DPF instructs the system how to parse the raw data, extract key content and perform data
+   cleansing, ontology matching, enhanced indexing and cataloging, and structuring data according to
+   the organization’s needs. Standard PHEMI DPFs are included to index and describe structured data,
+   such as database records or strongly typed XML/JSON, for consumption of the data through a REST
+   or SQL interface.</p>
+  <p>A DPF is associated with a data source as part of data source configuration. Association
+   consists of uploading the DPF archive.</p>
   <p conref="../_Glossary/con_glossary.xml#concept_glossary/dpf-archive"/>
-  <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
-  <p><b>process data once it's stored in PHEMI Central?</b></p>
-  <p>PHEMI Central is designed to store any data, regardless of schema, reducing the time and cost
-   of aggregating and storing heterogeneous data sources. To query and analyse this data, we require
-   a method for extracting context specific information from the raw data being stored, so we can
-   query for it or create datasets (i.e. relational views) for analysis using conventional
-   tools.</p>
-  <p> </p>
-  <p>PHEMI Central provides a powerful framework for users to write Data Processing Functions (DPFs)
-   which are short computer programs that map raw data objects to meaningful derived data that can
-   be queried or exported for analysis. The input to a DPF is a raw blob of bytes and the output is
-   a list of tuples which contain the fields name (e.g. SSN) and the value (e.g. 12345678) [there's
-   more powerful capabilities around privacy protection that we'll explain in the next section
-   around cell-level security]. The collection of derived data produced is automatically indexed in
-   PHEMI Central using our indexing scheme which facilitates constant time lookups for any values in
-   the system (e.g. find all data that has SSN==12345678). </p>
-  <p> </p>
-  <p>DPFs in Java and Python are currently supported; however, the system can be extended to support
-   any modern programming language that runs on a Linux OS. PHEMI Central comes with a library of
-   helper functions to simplify the development of DPFs. A 2 day training course in DPF development
-   is also available.</p>
-  <p> </p>
-  <p>PHEMI Central system DPFs which can process raw data that is structured according to the PHEMI
-   object specification (see documentation) are also available. This eliminates the need for DPF
-   coding provided the raw data being consumed from data sources abides by this structure. </p>
-  <p>A data processing function (DPF) is an executable piece of code that transforms the original
-   raw data (for example, a log message or medical report) into analyticsready, governance-compliant
-   digital assets specifically targeted at your organization’s needs (such as a temperature reading
-   or blood glucose measurement). The DPF is uploaded as a code archive into PHEMI Central using the
-   Data Management and Governance Console. The code is executed by the PHEMI Central DPF Engine,
-   which uses it to direct curation of the data. The DPF supplies the instructions for parsing the
-   raw data, extracting key content and performing data cleansing, ontology matching, enhanced
-   indexing and cataloging, and structuring data according to the organization’s needs. Standard
-   PHEMI DPFs are included to index and describe structured data, such as database records or
-   strongly typed XML/JSON, for consumption of the data through a REST or SQL interface.
-   User-defined DPFs can also be developed for advanced needs, such as analysing semi-structured
+  <p><ph conkeyref="product-vars/product-name"/> supports native DPF development in both Java and
+   Python; however, the system can be extended to support DPF development in any modern programming
+   language that runs on a Linux OS. <ph conkeyref="product-vars/product-name"/> includes a library
+   of helper functions to simplify DPF development training in DPF development is also available
+   from PHEMI.</p>
+  <p>User-defined DPFs can also be developed for advanced needs, such as analysing semi-structured
    data or performing natural language processing on free text. Or, DPFs can catalog data and
    standardize it into ontologies such as SNOMED or LOINC, making it easier for data analysts to
    find the right information in the right format. DPFs can also analyze streams of machine data to
@@ -56,6 +33,7 @@
    X-rays, the DPF can include specialized parsing functions such as OCR or image parsing. Your DPF
    can be written by PHEMI, by your organization’s in-house programmers, or by third- party
    developers.</p>
+  <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
   <p>Excel Reader VCF Reader Ingested Microsoft Excel spreadsheets and comma-separated value (CSV)
    files are converted into fine-grained analytics-ready digital assets, with each cell governed by
    the parent file’s data sharing agreement. Ingested genomic Variant Call Format (VCF) files are

@@ -30,6 +30,8 @@
   <p>PHEMI Central system DPFs which can process raw data that is structured according to the PHEMI
    object specification (see documentation) are also available. This eliminates the need for DPF
    coding provided the raw data being consumed from data sources abides by this structure. </p>
+  <p>using our indexing scheme which facilitates constant time lookups for any values in the system
+   (e.g. find all data that has SSN==12345678). </p>
   <p>PHEMI Central’s powerful data store automatically indexes and catalogs all ingested data, so
    that even the raw data becomes a digital asset. Then PHEMI Central executes user-specifiable data
    processing functions to cleanse, parse, and structure the data—transforming the raw data into

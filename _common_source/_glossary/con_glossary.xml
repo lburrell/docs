@@ -76,11 +76,11 @@
     <dt>data source</dt>
     <dd>
      <p audience="internal">Two words (i.e., not "datasource").</p>
-     <p id="data-source">In <ph conkeyref="product-vars/product-name"/>, configuration for a data
-            source is the set of information defining the rules and policies for managing and
-            governing a given kind of data, thereby controlling consumption and access to the data.
-            A data source should be created for any collection of data to be stored in the system
-            and managed by the same retention, legal, and governance rules. </p>
+     <p id="data-source">In <ph conkeyref="product-vars/product-name"/>, a data source is a given
+            kind of data, such that the information is governed by a single set of management and
+            governance rules and policies. A data source configuration should be defined for any
+            collection of data to be stored in the system and managed by the same retention, legal,
+            and governance rules. </p>
     </dd>
    </dlentry>
    <dlentry>
@@ -106,14 +106,21 @@
    <dlentry>
     <dt>Data Processing Function, DPF</dt>
     <dd>
-     <p audience="internal">Capitalized.</p>
-     <p id="dpf"> A Data Processing Function, or DPF, is an executable piece of code that supplies
-      the instructions for parsing raw data (for example, a log message or medical report) into
-      derived data (such as a temperature reading or blood glucose measurement). The output of a DPF
-      is structured elements, which includes a type property (for example, INT or STRING) and can
-      include other attributes (for example, SECRET or IDENTIFIABLE). A DPF is associated with a
-      data source as part of data source configuration.</p>
-    </dd>
+          <p audience="internal">Capitalized.</p>
+          <p id="dpf"> A Data Processing Function, or DPF, is an executable piece of code that
+            supplies the instructions for processing raw data (for example, a log message or medical
+            report) to extract from heterogeneous data sources meaningful, context-specific
+            information (such as a temperature reading or blood glucose measurement) that can be
+            queried or exported for analysis. The code is executed by the <ph
+              conkeyref="product-vars/product-name"/>
+            <ph conkeyref="product-vars/dpf-engine"/>, which uses it to direct curation of the data.
+            The input to a DPF is the raw binary data ingested into the system. The output of a DPF
+            is a set of structured elements, each of which includes a type property (for example,
+            INT or STRING) and can specify data visibilities (for example, SECRET or IDENTIFIABLE)
+            on a per-field basis. The data elements output by a DPF are called derived data. The
+            collection of derived data produced by a DPF is automatically indexed in PHEMI Central.
+          </p>
+        </dd>
    </dlentry>
    <dlentry>
     <dt>DPF archive</dt>
