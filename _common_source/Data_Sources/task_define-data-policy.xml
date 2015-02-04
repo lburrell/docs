@@ -25,12 +25,18 @@
                 <cmd>Click the <uicontrol>New Data Source</uicontrol> button.</cmd>
                 <info>The <wintitle>New Data Source</wintitle> screen opens with the <wintitle>Data
                         Policy</wintitle> tab showing. <fig id="fig_new-data-source">
-                        <image href="../_images/gui-screen-shots/data-sources_new-policy-1.png"
-                            id="image_w3g_hwr_3q" scale="70"/>
+                        <image href="../_images/gui-screen-shots/data-sources_policy-tab.png"
+                            id="image_w3g_hwr_3q" scale="50"/>
                     </fig></info>
             </step>
             <step>
                 <cmd>Describe the data source.</cmd>
+                <info>
+                    <fig id="fig_data-source_src-desc">
+                        <image href="../_images/gui-screen-shots/data-sources_src-desc.png"
+                            id="image_eks_xmq_yq" scale="50"/>
+                    </fig>
+                </info>
                 <choicetable id="choicetable_gf2_d1p_mq" relcolwidth="1* 3.5*">
                     <chrow>
                         <choption>Name</choption>
@@ -95,24 +101,33 @@
                 </choicetable>
             </step>
             <step>
-                <cmd>Upload the data sharing agreement.</cmd>
-                <info><p>The data sharing agreement records permission for this data to reside on
-                            <ph conkeyref="product-vars/product-name"/>. Click the <uicontrol>Choose
-                            File</uicontrol> button and navigate to the document. Select the
-                        document and click <uicontrol>Choose</uicontrol>. The system uploads the
-                        document.</p>Specify tperiod during which this data sharing agreement is in
-                    effect. The format for the start and end dates is
-                    <varname>mm-dd-yyyy</varname>.</info>
+                <cmd>Upload the data sharing agreement. The data sharing agreement records
+                    permission for this data to reside on <ph conkeyref="product-vars/product-name"
+                    />. </cmd>
+                <info><fig id="fig_sharing-agreemt">
+                        <image href="../_images/gui-screen-shots/data-sources_sharing-agreemt.png"
+                            id="image_orh_hnq_yq" scale="50"/>
+                    </fig><p>Click the <uicontrol>Choose File</uicontrol> button and navigate to the
+                        document in your local file system. Double-click the file to select it. The
+                        system uploads the document.</p>Specify the period during which this data
+                    sharing agreement is in effect. The format for the start and end dates is
+                        <varname>mm-dd-yyyy</varname>.</info>
             </step>
             <step>
                 <cmd>Specify the retention rules. These rules are used to determine how long each
                     item from this data source can remain in the system.</cmd>
+                <info>
+                    <fig id="fig_retention-rules">
+                        <image href="../_images/gui-screen-shots/data-sources_sharing-agreemt.png"
+                            id="image_oq2_h4q_yq" scale="50"/>
+                    </fig>
+                </info>
                 <choicetable id="choicetable_g4p_wyp_yq">
                     <chrow>
                         <choption>Please choose...</choption>
                         <chdesc>
-                            <p>Specifies how the retention period is calculated. Supported values
-                                are as follows:</p>
+                            <p>Mandatory. Specifies when data should be erased from the system.
+                                Supported values are as follows:</p>
                             <ul id="ul_nbm_4cq_yq">
                                 <li><keyword>Retain for a time period.</keyword> Keeps the data for
                                     the period specified. Specify some number of minutes, hours,
@@ -120,9 +135,20 @@
                                 <li><keyword>Delete after time period.</keyword> Erases the data
                                     after the specified time period. Specify some number of minutes,
                                     hours, days, weeks or years.</li>
-                                <li/>
+                                <li><keyword>Do not delete.</keyword> The data is never
+                                    deleted.</li>
+                                <li><keyword>Delete oldest data once capacity is reached.</keyword>
+                                    Deletes data items with the oldest timestamp after the specified
+                                    capacity is reached. Specify the capacity as some number of
+                                    Kilobytes, Megabytes, or Gigabytes.</li>
                             </ul>
                         </chdesc>
+                    </chrow>
+                    <chrow>
+                        <choption>Version control</choption>
+                        <chdesc>Optional. Maintains version control over data. Check to enable
+                            version control; uncheck to disable version control. By default, version
+                            controls is disabled.</chdesc>
                     </chrow>
                 </choicetable>
             </step>
