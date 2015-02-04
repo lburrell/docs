@@ -28,8 +28,8 @@
                 <cmd>Click any data category to expand the category and see the data sources
                     included in the category.</cmd>
                 <info><fig id="fig_data-sources_data-sources">
-                        <image href="../_images/gui-screen-shots/data-sources_data-sources.jpg"
-                            id="image_wpx_pd4_mq"/>
+                        <image href="../_images/gui-screen-shots/data-sources_data-sources.png"
+                            id="image_wpx_pd4_mq" scale="50"/>
                     </fig>Click the data category a second time to collapse the category
                     again.</info>
             </step>
