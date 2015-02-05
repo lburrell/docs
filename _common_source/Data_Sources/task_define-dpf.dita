@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
 <task id="task_define-dpf">
-    <title>Define the Data Processing Function</title>
+    <title>Specify the Data Processing Function</title>
     <shortdesc/>
     <taskbody>
         <context>
-            <p/>
+            <p>When you first define a data source, no Data Processing Function (DPF) is associated
+                with it. To associate a DPF with a data source, you upload the DPF archive. <xref
+                    href="../DPFs/con_dpfs.xml#concept_dpfs">Tell me about DPFs and DPF
+                    archives.</xref></p>
+            <p>To specify the Data Processing Function:</p>
         </context>
+        <steps id="steps_qxv_jfq_yq">
+            <step>
+                <cmd>On the data source <wintitle>Data Policy</wintitle> page, click the
+                        <uicontrol>Data Processing Function</uicontrol> tab.</cmd>
+                <info>The <wintitle>Data Processing Function</wintitle> screen opens. <fig
+                        id="fig_data-source-dpf"/></info>
+            </step>
+        </steps>
     </taskbody>
 </task>
