@@ -7,9 +7,9 @@
   <topicref href="con_data-policies.xml"/>
   <topicref href="../DPFs/con_dpfs.xml"/>
   <topicref href="task_view-data-sources.xml"/>
-  <topicref href="task_define-data-source.xml">
+  <topicref href="con_define-data-source.xml">
    <topicref href="task_define-data-policy.xml"/>
-   <topicref href="task_associate-dpf.xml"/>
+   <topicref href="task_define-dpf.dita"/>
   </topicref>
   <topicref href="task_view-data-source-info.xml"/>
   <topicref href="task_modify-data-source.xml"/>

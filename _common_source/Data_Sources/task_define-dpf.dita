@@ -6,8 +6,8 @@
     <taskbody>
         <context>
             <p>When you first define a data source, no Data Processing Function (DPF) is associated
-                with it. To associate a DPF with a data source, you upload the DPF archive. <xref
-                    href="../DPFs/con_dpfs.xml#concept_dpfs">Tell me about DPFs and DPF
+                with it. To associate a DPF with a data source, you upload the DPF archive onto the
+                . <xref href="../DPFs/con_dpfs.xml#concept_dpfs">Tell me about DPFs and DPF
                     archives.</xref></p>
             <p>To specify the Data Processing Function:</p>
         </context>

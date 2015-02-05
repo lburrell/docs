@@ -156,7 +156,7 @@
                 <cmd>Click the <uicontrol>Save Data Source</uicontrol> button to save the data
                     policy. When the data policy has been successfully saved, the <wintitle>Data
                         Processing Function</wintitle> and <wintitle>Ingest Data</wintitle> tabs
-                    appear on the data source information screen.</cmd>
+                    appear on the <wintitle>Data Source</wintitle> information screen.</cmd>
             </step>
         </steps>
     </taskbody>
