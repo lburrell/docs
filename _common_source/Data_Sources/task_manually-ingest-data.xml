@@ -2,25 +2,54 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="task_manually-ingest-data">
     <title>Manually Ingest Data</title>
-    <shortdesc/>
+    <shortdesc>You can quickly manually ingest files from a data source into <ph
+            conkeyref="product-vars/product-name"/> from the <wintitle>Data Sources</wintitle>
+        page.</shortdesc>
     <taskbody>
         <context>
-            <p><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>Data source
-                connections are configured initially based on the parameters of the connection type
-                (ODBC, FTP, and JSON-REST).<?oxy_custom_end?></p>
-            <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
-            <p>A Source Connection defines the technology/system that is the source of data, such as
-                a production database system that collects data. A manual option is available for
-                selecting data to be stored under this Data Source as well. Additionally, if the
-                external source system is able to publish data, then it can be pointed at PHEMI's
-                REST API to submit data for the Data Source programmatically.</p>
-            <?oxy_custom_end?>
+            <p><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>At any point,
+                manual ingest of files for a Data Source can be performed or scheduled triggers can
+                be adjusted.<?oxy_custom_end?></p>
         </context>
-        <steps>
+        <steps id="steps_bh4_2h4_1r">
             <step>
-                <cmd><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>At any
-                    point, manual ingest of files for a Data Source can be performed or scheduled
-                    triggers can be adjusted. <?oxy_custom_end?></cmd>
+                <cmd>Open the <uicontrol>Data Sources</uicontrol> screen, by clicking the
+                        <uicontrol>Data Sources</uicontrol> icon in the left navigation bar. <image
+                        href="../_images/gui-screen-shots/icon_datasources.JPG"
+                        id="image_fmr_wzn_mq" scale="50"/></cmd>
+                <info>
+                    <p>The <wintitle>Data Sources</wintitle> page opens showing defined data
+                        categories. <xref
+                            href="../Data_Categories/con_data-categories.xml#concept_data-categories"
+                            >Tell me about data categories.</xref></p>
+                    <fig id="fig_data-sources">
+                        <image href="../_images/gui-screen-shots/data-sources.png"
+                            id="image_hmp_55r_3q" scale="50"/>
+                    </fig>
+                </info>
+            </step>
+            <step>
+                <cmd>Click any data category to expand the category and see the data sources
+                    included in the category.</cmd>
+                <info>
+                    <fig id="fig_data-sources_data-sources">
+                        <image href="../_images/gui-screen-shots/data-sources_data-sources.png"
+                            id="image_wpx_pd4_mq" scale="50"/>
+                    </fig>
+                </info>
+            </step>
+            <step>
+                <cmd>Click the data source name. The <wintitle>Data Policy</wintitle> screen for the
+                    data source opens.</cmd>
+                <info>
+                    <fig id="fig_data-policy-cmplt">
+                        <image href="../_images/gui-screen-shots/data-sources_data-policy_cmplt.png"
+                            id="image_i2r_ck4_1r" scale="50"/>
+                    </fig>
+                </info>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>Ingest Data</uicontrol> tab.</cmd>
             </step>
         </steps>
     </taskbody>

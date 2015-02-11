@@ -2,7 +2,7 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="task_view-data-sources">
     <title>View Data Sources</title>
-    <shortdesc>View data sources on the<wintitle>Data Sources</wintitle> page. </shortdesc>
+    <shortdesc>View data sources on the <wintitle>Data Sources</wintitle> page. </shortdesc>
     <taskbody>
         <context>
             <p>To view defined data sources:</p>
@@ -18,8 +18,8 @@
                         categories. <xref
                             href="../Data_Categories/con_data-categories.xml#concept_data-categories"
                             >Tell me about data categories.</xref></p>
-                    <fig id="fig_data-categories">
-                        <image href="../_images/gui-screen-shots/data-sources.jpg"
+                    <fig id="fig_data-sources">
+                        <image href="../_images/gui-screen-shots/data-sources.png"
                             id="image_hmp_55r_3q" scale="50"/>
                     </fig>
                 </info>

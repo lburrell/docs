@@ -27,11 +27,11 @@
    functions such as OCR or image parsing. </p>
   <p>  As your organization’s needs evolve and as knowledge advances, DPFs can be updated and
    re-executed, to leverage the value of the organization's historical data in new ways. </p>
-  <p>DPFs can be  developed in either Java or Python; or, the system can be extended to support DPF
-   development in any modern programming language that runs on a Linux OS. MapReduce or YARN
-   knowledge is not necessary. Your DPF can be written by PHEMI, by your organization’s in-house
-   programmers, or by third-party developers.<ph conkeyref="product-vars/product-name"/> includes a
-   library of helper functions to simplify DPF development. Training in DPF development is also
-   available from PHEMI.</p>
+  <p><ph conkeyref="product-vars/product-name"/> includes a library of helper functions to simplify
+   DPF development. DPFs can be developed in either Java or Python, or <ph
+    conkeyref="product-vars/product-name"/> can be extended to support DPF development in any modern
+   programming language that runs on a Linux OS. MapReduce or YARN knowledge is not necessary. Your
+   DPF can be written by PHEMI, by your organization’s in-house programmers, or by third-party
+   developers. Training in DPF development is also available from PHEMI.</p>
  </conbody>
 </concept>

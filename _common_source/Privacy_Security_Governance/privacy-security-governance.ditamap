@@ -5,9 +5,6 @@
  <topicref href="con_psg.xml">
   <topicref href="con_privacy.xml"/>
   <topicref href="con_security.xml"/>
-  <topicref href="con_governance.xml">
-   <topicref href="con_governance-policies.xml"/>
-   <topicref href="task_define-governance-policy.xml"/>
-  </topicref>
+  <mapref href="governance.ditamap" format="ditamap"/>
  </topicref>
 </map>

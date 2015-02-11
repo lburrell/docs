@@ -95,11 +95,10 @@
     <dt>data source</dt>
     <dd>
      <p audience="internal">Two words (i.e., not "datasource").</p>
-     <p id="data-source">In <ph conkeyref="product-vars/product-name"/>, a data source is a given
-            collection of data, such that the information is governed by a single set of management
-            and governance rules and policies. A data source configuration should be defined for any
-            collection of data to be stored in the system and managed by the same retention, legal,
-            and governance rules. </p>
+     <p id="data-source">In <ph conkeyref="product-vars/product-name"/>, a data source is the set of
+            management and governance rules and policies that will be applied to a collection of
+            data. A data source configuration should be defined for each collection of data to be
+            stored and managed according to the same retention, legal, and governance rules. </p>
     </dd>
    </dlentry>
    <dlentry>

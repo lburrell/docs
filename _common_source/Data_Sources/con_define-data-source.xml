@@ -8,19 +8,19 @@
   <ul id="ul_yyz_3xn_mq">
    <li>Data categories </li>
    <li>Data visibilities </li>
-   <li>Users </li>
+   <li>Users</li>
   </ul>
-  <p>Your users must include at least one <ph conkeyref="product-vars/admin"/> and at least one user
-   with a role of <ph conkeyref="product-vars/privacy-officer"/>. </p>
-  <p>To be able to configure users, you must first configure <xref
-    href="../Users/con_user-authorizations.xml#concept_user-authorizations">user
-    authorizations</xref>. If you are applying an access policy to the data source, you must first
-   configure the <xref
-    href="../Access_Policies/task_create-access-policy.xml#task_create-access-policy">access
-    policies</xref>.</p>
-  <p>You first define a data source, only the <wintitle>Data Policy</wintitle> screen is available
-   to you. Define the data policy and save it. When you re-open the data source information, the
-    <wintitle>Data Processing Function</wintitle> and <wintitle>Ingest Data</wintitle> tabs become
-   available to you. </p>
+    <p>To be able to configure users, you must first configure <xref
+        href="../Users/con_user-authorizations.xml#concept_user-authorizations">user
+        authorizations</xref>. Your users must include at least one user with a role of <ph
+        conkeyref="product-vars/admin"/> and at least one user with a role of <ph
+        conkeyref="product-vars/privacy-officer"/>. </p>
+    <p>If you are applying an access policy to the data source, you must first configure the <xref
+        href="../Access_Policies/task_create-access-policy.xml#task_create-access-policy">access
+        policies</xref>.</p>
+  <p>When you first define a data source, only the <wintitle>Data Policy</wintitle> screen is
+      available to you. Configure the data policy and save it. After saving the data policy
+      information, the <wintitle>Data Processing Function</wintitle> and <wintitle>Ingest
+        Data</wintitle> tabs become available to you. </p>
  </conbody>
 </concept>

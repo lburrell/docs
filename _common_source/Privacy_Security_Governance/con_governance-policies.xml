@@ -4,9 +4,16 @@
  <title>Governance Policies</title>
  <shortdesc/>
  <conbody>
-        <p>A governance policy is a coordinated approach to protecting data and assigning privileges
-            to users. To protect your data and the privacy of your data, your organization should
-            have a clearly defined policy governing data. </p>
+        <p>Information governance is about controlling an organization’s data. The data may be
+            sensitive; or perhaps it is important that the data be absolutely accurate; or perhaps
+            the organization must achieve legislative and compliance targets. Data governance
+            includes the process and policies around the protection, curation, and access to data
+            and encompasses all of privacy protection, data security, and data audit.</p>
+        <p><ph conkeyref="product-vars/product-name"/> enforces governance policies for privacy and
+            security within the data warehouse, rather than at the application layer. In-system
+            governance ensures that data custodians, not application developers, retain control over
+            privacy and security. Managing privacy and security within the data store also
+            simplifies application development and the use of analytics tools.</p>
         <p>Your governance policies will drive how you configure <ph
                 conkeyref="product-vars/product-name"/>. Therefore, before configuring <ph
                 conkeyref="product-vars/product-name"/>, you should make sure you have your
@@ -14,7 +21,5 @@
             appropriate data visibilities, user authorizations, or access policies to define for
             your organization, consult with your Information Officer, Privacy Officer, or with
             someone in a comparable role.</p>
-        <p>Includes the data sharing agreement that allows the organization's data to be stored on
-            PHEMI Central.</p>
     </conbody>
 </concept>

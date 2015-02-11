@@ -1,47 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
-<task id="task_view-data-sources">
+<task id="task_view-data-source-info">
     <title>View Data Source Information</title>
-    <shortdesc>View data source information on the<wintitle>Data Sources</wintitle> page. </shortdesc>
+    <shortdesc>View data source information from the <wintitle>Data Sources</wintitle> page. </shortdesc>
     <taskbody>
         <context>
-            <p>To view the data source information:</p>
+            <p>To view information about a particular data source:</p>
         </context>
         <steps>
             <step>
                 <cmd>Open the <uicontrol>Data Sources</uicontrol> screen, by clicking the
                         <uicontrol>Data Sources</uicontrol> icon. <image
                         href="../_images/gui-screen-shots/icon_datasources.JPG"
-                        id="image_fmr_wzn_mq"/> in the left navigation bar.</cmd>
+                        id="image_fmr_wzn_mq" scale="50"/> in the left navigation bar.</cmd>
                 <info>
                     <p>The <wintitle>Data Sources</wintitle> page opens showing defined data
                         categories.</p>
                     <fig id="fig_data-sources">
-                        <image href="../_images/gui-screen-shots/data-sources.jpg"
-                            id="image_hmp_55r_3q"/>
+                        <image href="../_images/gui-screen-shots/data-sources.png"
+                            id="image_hmp_55r_3q" scale="50"/>
                     </fig>
                 </info>
             </step>
             <step>
                 <cmd>Click the data category that contains the data source, so that it expands and
-                    shows the data source.</cmd>
+                    shows the data sources in the category.</cmd>
                 <info>
                     <fig id="fig_data-sources_data-sources">
-                        <image href="../_images/gui-screen-shots/data-sources_data-sources.jpg"
-                            id="image_wpx_pd4_mq"/>
+                        <image href="../_images/gui-screen-shots/data-sources_data-sources.png"
+                            id="image_wpx_pd4_mq" scale="50"/>
                     </fig>
                 </info>
             </step>
             <step>
                 <cmd>Click the data source name. The page for the data source opens on the
-                        <wintitle>Data Policy</wintitle> screen. Do any of the following:</cmd>
+                        <wintitle>Data Policy</wintitle> screen. </cmd>
+                <info>
+                    <fig id="fig_data-policy-cmplt">
+                        <image href="../_images/gui-screen-shots/data-sources_data-policy_cmplt.png"
+                            id="image_i2r_ck4_1r" scale="50"/>
+                    </fig>
+                </info>
+            </step>
+            <step>
+                <cmd>Do any of the following:</cmd>
                 <choices id="choices_vbd_p24_mq">
                     <choice>View data policy information on the <wintitle>Data Policy</wintitle>
-                        screen.</choice>
-                    <choice>Click the <uicontrol>Ingest Data</uicontrol> tab to see data ingest
-                        settings.</choice>
+                        tab.</choice>
                     <choice>Click the <uicontrol>Data Processing Function</uicontrol> tab to see the
                         DPF associated with this data source.</choice>
+                    <choice>Click the <uicontrol>Ingest Data</uicontrol> tab to access a screen
+                        where you can manually ingest files. <xref
+                            href="task_manually-ingest-data.xml#task_manually-ingest-data">How do I
+                            manually ingest files?</xref></choice>
                 </choices>
             </step>
         </steps>
