@@ -2,14 +2,48 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="task_delete-data-source">
     <title>Delete a Data Source</title>
-    <shortdesc/>
+    <shortdesc>Delete a data source from the <wintitle>Data Sources</wintitle> page. </shortdesc>
     <taskbody>
         <context>
-            <p/>
+            <p>To delete a data source:</p>
         </context>
         <steps>
             <step>
-                <cmd/>
+                <cmd>Open the <uicontrol>Data Sources</uicontrol> screen, by clicking the
+                        <uicontrol>Data Sources</uicontrol> icon. <image
+                        href="../_images/gui-screen-shots/icon_datasources.JPG"
+                        id="image_fmr_wzn_mq" scale="50"/> in the left navigation bar.</cmd>
+                <info>
+                    <p>The <wintitle>Data Sources</wintitle> page opens showing defined data
+                        categories.</p>
+                    <fig id="fig_data-sources">
+                        <image href="../_images/gui-screen-shots/data-sources.png"
+                            id="image_hmp_55r_3q" scale="50"/>
+                    </fig>
+                </info>
+            </step>
+            <step>
+                <cmd>Click the data category that contains the data source, so that it expands and
+                    shows the data sources in the category.</cmd>
+                <info>
+                    <fig id="fig_data-sources_data-sources">
+                        <image href="../_images/gui-screen-shots/data-sources_data-sources.png"
+                            id="image_wpx_pd4_mq" scale="50"/>
+                    </fig>
+                </info>
+            </step>
+            <step>
+                <cmd>Click the data source name. </cmd>
+                <info>The page for the data source opens on the <wintitle>Data Policy</wintitle>
+                    screen. <fig id="fig_data-policy-cmplt">
+                        <image href="../_images/gui-screen-shots/data-sources_data-policy_cmplt.png"
+                            id="image_i2r_ck4_1r" scale="50"/>
+                    </fig></info>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>Delete Data Source</uicontrol> button.</cmd>
+                <info>The system asks you to confirm permanent deletion of the data source. Click
+                        <uicontrol>Delete</uicontrol>.</info>
             </step>
         </steps>
     </taskbody>

@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="task_manually-ingest-data">
-    <title>Manually Ingest Files</title>
-    <shortdesc>You can quickly manually ingest data files from a data source into <ph
+    <title>Manually Ingest Data</title>
+    <shortdesc>You can quickly manually ingest files from a data source into <ph
             conkeyref="product-vars/product-name"/> from the <wintitle>Data Sources</wintitle>
         page.</shortdesc>
     <taskbody>
-        <context>To manually ingest files:</context>
+        <context>
+            <p><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>At any point,
+                manual ingest of files for a Data Source can be performed or scheduled triggers can
+                be adjusted.<?oxy_custom_end?></p>
+        </context>
         <steps id="steps_bh4_2h4_1r">
             <step>
                 <cmd>Open the <uicontrol>Data Sources</uicontrol> screen, by clicking the
@@ -60,13 +64,9 @@
                     your selection.</cmd>
             </step>
             <step>
-                <cmd>For structured or composite file such as a ZIP files or CSV files, if you want
-                    the PHEMI system DPFs to automatically process the file on ingest, click the
+                <cmd>If your file is a composite file such as a ZIP file or CSV file, click
                     drop-down arrow in the <uicontrol>Ingest Composite Data</uicontrol> field and
-                    select the file type from the list. If you want <ph
-                        conkeyref="product-vars/product-name"/> to store the original data along
-                    with the derived data items, check the <uicontrol>Store Original
-                        File</uicontrol> checkbox.</cmd>
+                    select the file type from the list.</cmd>
             </step>
             <step>
                 <cmd>Click the <uicontrol>Ingest Files</uicontrol> button.</cmd>

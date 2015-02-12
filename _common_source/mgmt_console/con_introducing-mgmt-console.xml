@@ -5,8 +5,8 @@
  <shortdesc>The <ph conkeyref="product-vars/gui-name"/> is a web-based interface for configuring and
   monitoring <ph conkeyref="product-vars/product-name"/>.</shortdesc>
  <conbody>
-  <note>Use either Mozilla Firefox or Google Chrome to access the <ph
-    conkeyref="product-vars/product-name"/>
-   <ph conkeyref="product-vars/gui-name"/>. Microsoft Internet Explorer is not supported.</note>
+  <note>Use either Apple Safari, Mozilla Firefox or Google Chrome to access the <ph
+        conkeyref="product-vars/product-name"/>
+      <ph conkeyref="product-vars/gui-name"/>. Microsoft Internet Explorer is not supported.</note>
  </conbody>
 </concept>

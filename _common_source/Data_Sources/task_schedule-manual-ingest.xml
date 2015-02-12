@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
-<task id="task_manually-ingest-data">
-    <title>Manually Ingest Files</title>
-    <shortdesc>You can quickly manually ingest data files from a data source into <ph
-            conkeyref="product-vars/product-name"/> from the <wintitle>Data Sources</wintitle>
-        page.</shortdesc>
+<task id="task_schedule-file-ingest">
+    <title>Schedule File Ingest</title>
+    <shortdesc>You can have the <ph conkeyref="product-vars/gui-name"/> ingest files on a schedule
+        from the <wintitle>Data Sources</wintitle> page.</shortdesc>
     <taskbody>
-        <context>To manually ingest files:</context>
+        <context>To schedule file ingest:</context>
         <steps id="steps_bh4_2h4_1r">
             <step>
                 <cmd>Open the <uicontrol>Data Sources</uicontrol> screen, by clicking the
@@ -69,7 +68,22 @@
                         File</uicontrol> checkbox.</cmd>
             </step>
             <step>
+                <cmd>In the <uicontrol>Scheduled</uicontrol> pane, choose from
+                        <uicontrol>Hourly</uicontrol>, <uicontrol>Daily</uicontrol>, or
+                        <uicontrol>Weekly</uicontrol> ingest schedule.</cmd>
+            </step>
+            <step>
+                <cmd>Select one of <uicontrol>API-JSON</uicontrol>, <uicontrol>SFTP</uicontrol>,
+                        <uicontrol>SMB/Samba</uicontrol>, or <uicontrol>ODBC</uicontrol> as the
+                    format of the ingested files.</cmd>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>Configure</uicontrol> button.</cmd>
+            </step>
+            <step>
                 <cmd>Click the <uicontrol>Ingest Files</uicontrol> button.</cmd>
+                <info><ph conkeyref="product-vars/product-name"/> ingests the files and continues to
+                    ingest files automatically on the specified schedule.</info>
             </step>
         </steps>
     </taskbody>

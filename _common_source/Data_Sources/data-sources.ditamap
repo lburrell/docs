@@ -13,7 +13,8 @@
   </topicref>
   <topicref href="task_view-data-source-info.xml"/>
   <topicref href="task_modify-data-source.xml"/>
-  <topicref href="task_manually-ingest-data.xml"/>
   <topicref href="task_delete-data-source.xml"/>
+  <topicref href="task_manually-ingest-data.xml"/>
+  <topicref href="task_schedule-manual-ingest.xml"/>
  </topicref>
 </map>

@@ -4,31 +4,95 @@
  <title>Quick Tour of the <ph conkeyref="product-vars/gui-name"/></title>
  <shortdesc/>
  <conbody>
-  <p/>
-  <table frame="all" rowsep="1" colsep="1" id="table_p5b_rlj_wq">
+  <p>The <ph conkeyref="product-vars/gui-name"/> consists of a set of main pages. Each main page
+   includes screens where you can perform a set of related functions.</p>
+  <p>Note that your user role determines what part of the <ph conkeyref="product-vars/product-name"/>
+   <ph conkeyref="product-vars/gui-name"/> you can access. Different roles have access to different
+   parts of the <ph conkeyref="product-vars/gui-name"/>.</p>
+  <p>Note that <ph conkeyref="product-vars/privacy-officer"/>s do not have any functional
+   capabilities in the <ph conkeyref="product-vars/gui-name"/>. However, you must configure at least
+   one <ph conkeyref="product-vars/privacy-officer"/> in order to be able to define data
+   sources.</p>
+  <table frame="all" rowsep="1" colsep="1" id="table_z34_pfw_1r">
    <title/>
-   <tgroup cols="2">
-    <colspec colname="c1" colnum="1" colwidth="1*"/>
-    <colspec colname="c2" colnum="2" colwidth="1.9*"/>
+   <tgroup cols="3">
+    <colspec colname="c1" colnum="1" colwidth="1.0*"/>
+    <colspec colname="c2" colnum="2" colwidth="1.0*"/>
+    <colspec colname="newCol3" colnum="3" colwidth="1*"/>
     <thead>
      <row>
-      <entry>Icon</entry>
-      <entry>Page</entry>
+      <entry>
+       <p>Page</p>
+      </entry>
+      <entry>What you can do there</entry>
+      <entry>You must be a:</entry>
      </row>
     </thead>
     <tbody>
      <row>
-      <entry><image href="../../_common_source/_images/gui-screen-shots/icon_datasources.JPG"
-        id="image_z3y_pxj_wq"/></entry>
-      <entry>Data Sources</entry>
+      <entry><image href="../_images/gui-screen-shots/icon_datasources.JPG" id="image_gbs_yfw_1r"
+        /><p>Data Sources</p></entry>
+      <entry>Manage data sources; manually ingest files; schedule file ingest.</entry>
+      <entry>
+       <p><ph conkeyref="product-vars/admin"/></p>
+      </entry>
      </row>
      <row>
-      <entry/>
-      <entry/>
+      <entry><image href="../_images/gui-screen-shots/icon_datasets.jpg" id="image_ak1_1gw_1r"/>
+       <p>Datasets</p></entry>
+      <entry>Build datasets; execute datasets; export datasets.</entry>
+      <entry>
+       <p><ph conkeyref="product-vars/admin"/> to define datasets.</p>
+       <p><ph conkeyref="product-vars/data-analyst"/> to execute and export datasets.</p>
+      </entry>
      </row>
      <row>
-      <entry/>
-      <entry/>
+      <entry><image href="../_images/gui-screen-shots/icon_access-policies.JPG"
+        id="image_ksc_1gw_1r"/><p>Access Policy Builder</p></entry>
+      <entry>Define access policies.</entry>
+      <entry>
+       <p><ph conkeyref="product-vars/admin"/></p>
+      </entry>
+     </row>
+     <row>
+      <entry><image href="../_images/gui-screen-shots/icon_system-metrics.png" id="image_hr2_1gw_1r"/>
+       <p>System Metrics</p></entry>
+      <entry>View metrics about data sources, system performance, and tasks.</entry>
+      <entry>
+       <p><ph conkeyref="product-vars/admin"/></p>
+      </entry>
+     </row>
+     <row>
+      <entry><image href="../_images/gui-screen-shots/icon_users.JPG" id="image_ukj_1gw_1r"
+        /><p>Users</p></entry>
+      <entry>Manage <ph conkeyref="product-vars/product-name"/> users.</entry>
+      <entry>
+       <p><ph conkeyref="product-vars/admin"/></p>
+      </entry>
+     </row>
+     <row>
+      <entry><image href="../_images/gui-screen-shots/icon_system-maint.png" id="image_ill_1gw_1r"
+        /><p>System Maintenance</p></entry>
+      <entry>Run system tests.</entry>
+      <entry>
+       <p><ph conkeyref="product-vars/admin"/></p>
+      </entry>
+     </row>
+     <row>
+      <entry><image href="../_images/gui-screen-shots/icon_object-browser.png" id="image_bln_1gw_1r"
+        /><p>Object Browser</p></entry>
+      <entry>View or delete individual files stored in <ph conkeyref="product-vars/product-name"
+       />.</entry>
+      <entry><ph conkeyref="product-vars/admin"/></entry>
+     </row>
+     <row>
+      <entry><image href="../_images/gui-screen-shots/icon_audit-log.jpg" id="image_bfr_1gw_1r"
+        /><p>Audit log</p></entry>
+      <entry>Monitor what operations have been performed from and what requests have been made to
+        <ph conkeyref="product-vars/product-name"/>. </entry>
+      <entry>
+       <p><ph conkeyref="product-vars/admin"/></p>
+      </entry>
      </row>
     </tbody>
    </tgroup>
