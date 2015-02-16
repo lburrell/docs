@@ -2,14 +2,34 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="task_view-global-metrics">
     <title>View Global Metrics</title>
-    <shortdesc/>
+    <shortdesc> View summary information about users and the content residing on your system in the
+            <wintitle>Global Metrics</wintitle> pane of the <wintitle>System Metrics</wintitle>
+        page.</shortdesc>
     <taskbody>
         <context>
-            <p/>
+            <p>To view global metrics:</p>
         </context>
-        <steps>
+        <steps id="steps_jrp_dwf_cr">
             <step>
-                <cmd/>
+                <cmd>Open the <uicontrol>System Metrics</uicontrol> screen, by clicking the
+                        <uicontrol>System Metrics</uicontrol> icon in the left navigation bar.
+                        <image href="../_images/gui-screen-shots/icon_system-metrics.png"
+                        id="image_fmr_wzn_mq" scale="50"/></cmd>
+                <info>
+                    <p>The <wintitle>System Metrics</wintitle> page opens showing the
+                            <wintitle>Global Metrics</wintitle> pane and the <wintitle>Data Source
+                            Metrics</wintitle> tab. </p>
+                    <fig id="fig_system-metrics">
+                        <image href="../_images/gui-screen-shots/system-metrics.png"
+                            id="image_hmp_55r_3q" scale="50"/>
+                    </fig>
+                    <p>In the <wintitle>Users</wintitle> column, you can see how many users are
+                        currently created for the system, sorted by user role. In the
+                            <wintitle>Content</wintitle> column, you can see how much used and free
+                        space there is on the system, as well as the number of objects the system is
+                        currently storing and the number of data sources that have been
+                        configured.</p>
+                </info>
             </step>
         </steps>
     </taskbody>

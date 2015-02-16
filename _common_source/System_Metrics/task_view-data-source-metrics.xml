@@ -2,14 +2,44 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="task_view-data-source-metrics">
     <title>View Data Source Metrics</title>
-    <shortdesc/>
+    <shortdesc> View statistics about data sources on the <wintitle>Data Source Metrics</wintitle>
+        tab of the  <wintitle>System Metrics</wintitle> page.</shortdesc>
     <taskbody>
         <context>
-            <p/>
+            <p>To view data source metrics:</p>
         </context>
-        <steps>
+        <steps id="steps_jrp_dwf_cr">
             <step>
-                <cmd/>
+                <cmd>Open the <uicontrol>System Metrics</uicontrol> screen, by clicking the
+                        <uicontrol>System Metrics</uicontrol> icon in the left navigation bar.
+                        <image href="../_images/gui-screen-shots/icon_system-metrics.png"
+                        id="image_fmr_wzn_mq" scale="50"/></cmd>
+                <info>
+                    <p>The <wintitle>System Metrics</wintitle> page opens showing the
+                            <wintitle>Global Metrics</wintitle> pane and the <wintitle>Data Source
+                            Metrics</wintitle> tab. </p>
+                    <fig id="fig_system-metrics">
+                        <image href="../_images/gui-screen-shots/system-metrics.png"
+                            id="image_hmp_55r_3q" scale="50"/>
+                    </fig>
+                </info>
+            </step>
+            <step>
+                <cmd>By default, the <wintitle>Data Source Metrics</wintitle> pane shows metrics for
+                    all data sources. To view information for some other set of data sources, click
+                    the drop-down arrow in the <wintitle>Data Sources</wintitle> field and check
+                    each data source you want included in the metrics. If you want to include all
+                    data sources, you can check <wintitle>All</wintitle>.</cmd>
+            </step>
+            <step>
+                <cmd>Choose the query period: select <wintitle>Now</wintitle> to see a current
+                    snapshot, or select <wintitle>Date Range</wintitle> to specify a range of dates.
+                    The format for dates is
+                        <varname>yyyy</varname><keyword>-</keyword><varname>mm</varname><keyword>-</keyword><varname>dd</varname>.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Query</uicontrol>.</cmd>
+                <info>The results of your query are displayed below the selection parameters.</info>
             </step>
         </steps>
     </taskbody>

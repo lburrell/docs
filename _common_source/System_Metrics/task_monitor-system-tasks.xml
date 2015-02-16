@@ -1,15 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
-<task id="task_monitor-sys-tasks">
+<task id="task_monitor-system-tasks">
     <title>Monitor System Tasks</title>
-    <shortdesc/>
+    <shortdesc> Monitor <ph conkeyref="product-vars/product-name"/> system tasks on the
+            <wintitle>Task Monitoring</wintitle> tab of the <wintitle>System Metrics</wintitle>
+        page.</shortdesc>
     <taskbody>
         <context>
-            <p/>
+            <p>To monitor system tasks:</p>
         </context>
-        <steps>
+        <steps id="steps_jrp_dwf_cr">
             <step>
-                <cmd/>
+                <cmd>Open the <uicontrol>System Metrics</uicontrol> screen, by clicking the
+                        <uicontrol>System Metrics</uicontrol> icon in the left navigation bar.
+                        <image href="../_images/gui-screen-shots/icon_system-metrics.png"
+                        id="image_fmr_wzn_mq" scale="50"/></cmd>
+                <info>
+                    <p>The <wintitle>System Metrics</wintitle> page opens showing the
+                            <wintitle>Global Metrics</wintitle> pane and the <wintitle>Data Source
+                            Metrics</wintitle> tab. </p>
+                    <fig id="fig_system-metrics">
+                        <image href="../_images/gui-screen-shots/system-metrics.png"
+                            id="image_hmp_55r_3q" scale="50"/>
+                    </fig>
+                </info>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>Task Monitoring</uicontrol> tab.</cmd>
+                <info>The <wintitle>Task Monitoring</wintitle> tab opens, showing system tasks with
+                    most recently executed tasks shown first.<fig id="fig_task-monitoring">
+                        <image href="../_images/gui-screen-shots/system-metrics_task-monitoring.png"
+                            id="image_lqt_j1g_cr" scale="50"/>
+                    </fig></info>
+            </step>
+            <step>
+                <cmd>By default, the <wintitle>Task Monitoring</wintitle> pane shows all task types.
+                    You can focus on a single task type by clicking the drop-down arrow in the
+                        <wintitle>Filter by Task</wintitle> field and checking the task type you
+                    want included in the list. If you want to include all task types, you can check
+                        <wintitle>All</wintitle>.</cmd>
+                <choicetable id="choicetable_xhd_vhg_cr" relcolwidth="1* 4.5*">
+                    <chrow>
+                        <choption>chained</choption>
+                        <chdesc>The system has ingested raw data for which a system DPF exists and
+                            executed the DPF in conjunction with ingest.</chdesc>
+                    </chrow>
+                    <chrow>
+                        <choption>cleanup</choption>
+                        <chdesc>The system has checked retention rules for a data source and deleted
+                            data in accordance to the retention policy.</chdesc>
+                    </chrow>
+                    <chrow>
+                        <choption>derive</choption>
+                        <chdesc>The system has run a custom DPF against raw data.</chdesc>
+                    </chrow>
+                    <chrow>
+                        <choption>download</choption>
+                        <chdesc>?? <i>No guess here.</i></chdesc>
+                    </chrow>
+                    <chrow>
+                        <choption>execute</choption>
+                        <chdesc>?? <i>No guess here.</i></chdesc>
+                    </chrow>
+                    <chrow>
+                        <choption>ingest</choption>
+                        <chdesc>The system has ingested data from the specified data
+                            source.</chdesc>
+                    </chrow>
+                    <chrow>
+                        <choption>snapshot</choption>
+                        <chdesc>The system has taken a snapshot of information for system
+                            metrics.</chdesc>
+                    </chrow>
+                </choicetable>
+                <info>When you make your selection, the results display from most recent to less
+                    recent below the selection parameters.</info>
             </step>
         </steps>
     </taskbody>

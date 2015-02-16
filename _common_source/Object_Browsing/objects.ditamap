@@ -2,7 +2,7 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
  <title>Object Browsing</title>
- <keydef keys="product-vars" href="../_Branded_Terms/con_PHEMI_Central.xml"/>
+ <keydef keys="product-vars" href="../_Variables/PHEMI_Central/con_Product-Vars.xml"/>
  <topicref href="con_object-browsing.xml">
   <topicref href="task_locate-object.xml"/>
   <topicref href="task_delete-object.xml"/>

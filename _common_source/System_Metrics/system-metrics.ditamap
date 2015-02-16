@@ -2,6 +2,7 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
  <title>System Metrics</title>
+ <keydef keys="product-vars" href="../_Variables/PHEMI_Central/con_Product-Vars.xml"/>
  <topicref href="con_system-metrics.xml">
   <topicref href="task_view-global-metrics.xml"/>
   <topicref href="task_view-data-source-metrics.xml"/>
