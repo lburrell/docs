@@ -11,7 +11,7 @@
         </context>
         <steps id="steps_jrp_dwf_cr">
             <step>
-                <cmd>Open the <uicontrol>System Metrics</uicontrol> screen, by clicking the
+                <cmd>Open the <uicontrol>System Metrics</uicontrol> page, by clicking the
                         <uicontrol>System Metrics</uicontrol> icon in the left navigation bar.
                         <image href="../_images/gui-screen-shots/icon_system-metrics.png"
                         id="image_fmr_wzn_mq" scale="50"/></cmd>
@@ -34,37 +34,37 @@
                     </fig></info>
             </step>
             <step>
-                <cmd>By default, the <wintitle>Task Monitoring</wintitle> pane shows all task types.
-                    You can focus on a single task type by clicking the drop-down arrow in the
-                        <wintitle>Filter by Task</wintitle> field and checking the task type you
-                    want included in the list. If you want to include all task types, you can check
+                <cmd>By default, the <wintitle>Task Monitoring</wintitle> pane lists tasks of all
+                    task types. You can focus on a single task type by clicking the drop-down arrow
+                    in the <wintitle>Filter by Task</wintitle> field and checking the task type you
+                    want to see. If you want to see all task types, you can check
                         <wintitle>All</wintitle>.</cmd>
                 <choicetable id="choicetable_xhd_vhg_cr" relcolwidth="1* 4.5*">
                     <chrow>
                         <choption>chained</choption>
-                        <chdesc>The system has ingested raw data for which a system DPF exists and
-                            executed the DPF in conjunction with ingest.</chdesc>
+                        <chdesc>The system has ingested raw data and executed a DPF on the
+                            data.</chdesc>
                     </chrow>
                     <chrow>
                         <choption>cleanup</choption>
-                        <chdesc>The system has checked retention rules for a data source and deleted
-                            data in accordance to the retention policy.</chdesc>
+                        <chdesc>The system has checked retention rules for a data source and expired
+                            deleted data.</chdesc>
                     </chrow>
                     <chrow>
                         <choption>derive</choption>
-                        <chdesc>The system has run a custom DPF against raw data.</chdesc>
+                        <chdesc>The system has executed a DPF against ingested data.</chdesc>
                     </chrow>
                     <chrow>
                         <choption>download</choption>
-                        <chdesc>?? <i>No guess here.</i></chdesc>
+                        <chdesc>The system has exported a dataset.</chdesc>
                     </chrow>
                     <chrow>
                         <choption>execute</choption>
-                        <chdesc>?? <i>No guess here.</i></chdesc>
+                        <chdesc>The system has executed a dataset.</chdesc>
                     </chrow>
                     <chrow>
                         <choption>ingest</choption>
-                        <chdesc>The system has ingested data from the specified data
+                        <chdesc>The system has ingested data from the indicated data
                             source.</chdesc>
                     </chrow>
                     <chrow>

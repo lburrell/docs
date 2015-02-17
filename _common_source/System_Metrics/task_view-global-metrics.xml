@@ -11,7 +11,7 @@
         </context>
         <steps id="steps_jrp_dwf_cr">
             <step>
-                <cmd>Open the <uicontrol>System Metrics</uicontrol> screen, by clicking the
+                <cmd>Open the <uicontrol>System Metrics</uicontrol> page, by clicking the
                         <uicontrol>System Metrics</uicontrol> icon in the left navigation bar.
                         <image href="../_images/gui-screen-shots/icon_system-metrics.png"
                         id="image_fmr_wzn_mq" scale="50"/></cmd>

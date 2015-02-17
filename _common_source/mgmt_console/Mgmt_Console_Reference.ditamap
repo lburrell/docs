@@ -10,7 +10,7 @@
   <mapref href="../System_Metrics/system-metrics.ditamap" format="ditamap"/>
   <mapref href="../Users/users.ditamap" format="ditamap"/>
   <topicref href="../System_Maintenance/system-maintenance.ditamap" format="ditamap"/>
-  <topicref href="../Object_Browsing/objects.ditamap" format="ditamap"/>
+  <mapref href="../../_common_source/Object_Browsing/object-browser.ditamap" format="ditamap"/>
   <topicref href="../Audit_Log/audit-log.ditamap" format="ditamap"/>
   <topicref href="../System_Configuration/system-config.ditamap" format="ditamap"/>
  </topicref>

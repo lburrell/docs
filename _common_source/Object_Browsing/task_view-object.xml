@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
-<task id="task_delete-object">
-    <title>Delete an Object</title>
-    <shortdesc>Delete an individual object from the system from the <wintitle>Object
+<task id="task_view-object">
+    <title>View an Object</title>
+    <shortdesc>View individual objects stored in the system from the <wintitle>Object
             Browser</wintitle> page.</shortdesc>
     <taskbody>
         <context>
-            <p>To delete an object:</p>
+            <p>To view an object:</p>
         </context>
         <steps id="steps_jrp_dwf_cr">
             <step>
@@ -36,17 +36,21 @@
             <step>
                 <cmd>Select the object you want to view, scrolling through the list as necessary. </cmd>
                 <info>Once selected, the object's information is retrieved and displays with the
-                        <wintitle>Metadata</wintitle> tab showing, and the
-                        <uicontrol>Delete</uicontrol> button appears.<fig id="fig_object-info">
+                        <wintitle>Metadata</wintitle> tab initially showing.<fig
+                        id="fig_object-info">
                         <image href="../_images/gui-screen-shots/object-browser_metadata.png"
                             id="image_vqb_pfh_cr" scale="50"/>
                     </fig></info>
-            </step>
-            <step>
-                <cmd>To delete the original object, click the <uicontrol>Delete</uicontrol> button.
-                    The system asks you to confirm permanent deletion of the object. If you want to
-                    delete the derived data items in addition to the original object, check the
-                    checkbox. Click <uicontrol>Delete</uicontrol>.</cmd>
+                <choices id="choices_jvm_tfh_cr">
+                    <choice>View the object's metadata on the <uicontrol>Metadata</uicontrol>
+                        tab.</choice>
+                </choices>
+                <choices id="choices_gcy_5fh_cr">
+                    <choice>View any data elements derived by executing a DPF on the original data
+                        by clicking the <uicontrol>Digital Assets</uicontrol> tab.</choice>
+                    <choice>View a hexadecimal and ASCII representation of the original data object
+                        by clicking the <uicontrol>Raw Data</uicontrol> tab.</choice>
+                </choices>
             </step>
         </steps>
     </taskbody>
