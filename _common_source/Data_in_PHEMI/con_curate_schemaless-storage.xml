@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_indexing-cataloging">
+ <title>Schemaless Storage</title>
+ <shortdesc><ph conkeyref="product-vars/product-name"/> is a key-value store that's graph-based and
+  schemaless. </shortdesc>
+ <conbody>
+  <p>In a traditional system, data is designed into a file system hierarchy or a database schema. So
+   long as the schema or file system is deployed, data must comply with it. If the design does not
+   scale or the requirements change, migration can be complex and costly. </p>
+  <p>Unlike schema-based data stores, data in <ph conkeyref="product-vars/product-name"/>'s store is
+   distributed and based on key-value pairings.  Data is stored in a binary format that is
+   unaffected by any schema in source or destination systems. Schemaless storage can offer benefits
+   in several situations:</p>
+  <ul id="ul_wpn_xwn_cr">
+   <li>If the schema of the source or destination system changes</li>
+   <li>If the characteristics of your data change</li>
+   <li>If the requirements of a user or an application change</li>
+   <li>If a new, disparate data source needs to be brought online</li>
+  </ul>
+ </conbody>
+</concept>

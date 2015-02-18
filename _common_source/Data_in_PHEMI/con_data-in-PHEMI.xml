@@ -2,12 +2,14 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_data-in-PHEMI">
  <title>Data in <ph conkeyref="product-vars/product-name"/></title>
- <shortdesc/>
+ <shortdesc>Data in <ph conkeyref="product-vars/product-name"/> follows a lifecycle of collect,
+        curate, and consume. Throughout the data lifecycle, data is managed according to the
+        organization's governance policies.</shortdesc>
  <conbody>
-  <p><i>To be written.</i></p>
-  <p>This topic will follow an item of data as it traverses <ph
-                conkeyref="product-vars/product-name"/>. It will include diagrams. It will start at
-            the data source, through collect, through curate, and through consumption by users,
-            machine destinations, applications, and so on.</p>
+        <fig id="fig_PHEMI-Central-arch">
+            <image
+                href="../_images/marketing-diagrams/Overview_Architecture/Overview-architecture.png"
+                id="image_bxb_5hn_cr" scale="60"/>
+        </fig>
  </conbody>
 </concept>

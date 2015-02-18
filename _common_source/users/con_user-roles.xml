@@ -5,7 +5,7 @@
  <conbody>
   <p>User roles define what you are allowed to do within the <ph
     conkeyref="product-vars/product-name"/>
-   <ph conkeyref="product-vars/gui-name"/>. Users can be assigned one of three roles.</p>
+   <ph conkeyref="product-vars/gui-name"/>. Users can be assigned any or all of three roles.</p>
   <table frame="all" rowsep="1" colsep="1" id="table_krh_mnn_hq">
    <title>User Roles</title>
    <tgroup cols="3">

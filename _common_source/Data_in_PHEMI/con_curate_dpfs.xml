@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_curate-dpfs">
+ <title>DPF Framework</title>
+ <shortdesc/>
+ <conbody>
+  <p>A Data Processing Function (DPF) is an executable piece of code, written in any modern
+   programming language, that transforms the original raw data (for example, a log message or
+   medical report) into analytics-ready digital assets specifically targeted for your organization’s
+   needs (such as a temperature reading or blood glucose measurement). </p>
+  <p>The DPF supplies the instructions for parsing the raw data, extracting key content and
+   performing data cleansing and enhanced indexing and cataloging. The DPF also structures data
+   according to the organization’s needs. The result is data description at the element level
+   embedding the rules and policies governing the data collection, as well as configured properties
+   such as the data source ownership, retention policy (time to live), and what visibility the
+   element should have. For example, de-identification, encryption, and masking, along with other
+   privacy restrictions.</p>
+  <p>Standard PHEMI DPFs libraries are included that index and describe structured data, such as
+   spreadsheet files, database records, or XML/ JSON documents. User-defined DPFs can also be
+   developed for advanced needs, such as analysing semi-structured data or performing natural
+   language processing on free text. Or, DPFs can catalog and standardize data into ontologies such
+   as SNOMED or LOINC, making it easier for data analysts to find the right information in the right
+   format. </p>
+  <p>DPFs can also analyze streams of machine data to find patterns and exceptions, calculating
+   aggregates and converting streaming data for trending and predictive analysis. For parsing
+   unstructured documents such as scans or X-rays, the DPF can include specialized parsing
+   functions, like Optical Character Recognition (OCR) or image parsing. As the organization’s needs
+   evolve and as knowledge advances, DPFs can be updated or redeveloped and re-executed on existing
+   or historical data to extract new or different information.</p>
+  <p><ph conkeyref="product-vars/product-name"/>'s DPF framework manages DPF deployment and
+   execution across the entire system. A DPF code library is associated with a data collection by
+   uploading it into PHEMI Central. The code is executed by the PHEMI Central DPF Engine.  <ph
+    conkeyref="product-vars/product-name"/> manages DPF execution across all datasets and all data
+   elements within the system. </p>
+ </conbody>
+</concept>

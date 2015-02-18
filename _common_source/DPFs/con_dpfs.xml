@@ -1,36 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_dpfs">
- <title>Data Processing Functions</title>
+ <title>Associating DPFs with Data Collections</title>
  <shortdesc>Data Processing Functions are associated with a data source during data source
   configuration.</shortdesc>
  <conbody>
   <p conref="../_Glossary/con_glossary.xml#concept_glossary/dpf"/>
-  <p>DPFs converted ingested raw data into analytics-ready digital assets. The DPF instructs the
-   system how to parse the raw data, extract key content and perform data cleansing, ontology
-   matching, enhanced indexing and cataloging, and structuring data according to the organization’s
-   needs. Standard PHEMI DPFs are included to index and describe structured data, such as Microsoft
-   Excel spreadsheets, comma-separated value (CSV) files, database records, or strongly typed
-   XML/JSON, for consumption of the data through a REST or SQL interface. Ingested genomic Variant
-   Call Format (VCF) files are converted into a series of variants, with each variant governed by
-   the parent file’s privacy specifications. </p>
-  <p>A DPF is associated with a data source as part of data source configuration. Association
-   consists of uploading the DPF archive.</p>
+  <p><xref href="../Data_in_PHEMI/con_curate_dpfs.xml#concept_curate-dpfs">Tell me more about
+    DPFs.</xref></p>
   <p conref="../_Glossary/con_glossary.xml#concept_glossary/dpf-archive"/>
-  <p>User-defined DPFs can also be developed for <ph conkeyref="product-vars/product-name"/> for
-   specific needs, such as analyzing semi-structured data or performing natural language processing
-   on free text. DPFs can catalog data and standardize it into ontologies such as SNOMED or LOINC,
-   so that data analysts to find the right information in the required format. DPFs can also analyze
-   streams of machine data to find patterns and exceptions, calculating aggregates and converting
-   the telemetry into an analytics-ready state for trending and predictive analysis. For parsing
-   unstructured documents, such as scans or X-rays, the DPF can include specialized parsing
-   functions such as OCR or image parsing. </p>
-  <p>  As your organization’s needs evolve and as knowledge advances, DPFs can be updated and
-   re-executed, to leverage the value of the organization's historical data in new ways. </p>
+  <p>A DPF is associated with a data source as part of data collection configuration. To associate
+   the DPF with the data collection you upload the DPF archive on the data collection configuration
+   page.</p>
   <p><ph conkeyref="product-vars/product-name"/> includes a library of helper functions to simplify
    DPF development. DPFs can be developed in either Java or Python, or <ph
     conkeyref="product-vars/product-name"/> can be extended to support DPF development in any modern
-   programming language that runs on a Linux OS. MapReduce or YARN knowledge is not necessary. Your
+   programming language that runs on a Linux OS. No MapReduce or YARN knowledge is  necessary. Your
    DPF can be written by PHEMI, by your organization’s in-house programmers, or by third-party
    developers. Training in DPF development is also available from PHEMI.</p>
  </conbody>

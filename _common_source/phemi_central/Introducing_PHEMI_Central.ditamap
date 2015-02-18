@@ -2,11 +2,18 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
  <title>Introducing PHEMI Central</title>
+ <keydef keys="product-vars" href="../_Variables/PHEMI_Central/con_Product-Vars.xml"/>
  <topicref href="con_introducing-PHEMI-Central.xml">
   <topicref href="con_PHEMI-Central-ovw.xml"/>
   <topicref href="../Data_in_PHEMI/con_data-in-PHEMI.xml">
    <topicref href="../Data_in_PHEMI/con_collection.xml"/>
-   <topicref href="../Data_in_PHEMI/con_curation.xml"/>
+   <topicref href="../Data_in_PHEMI/con_curation.xml">
+    <topicref href="../Data_in_PHEMI/con_curate_schemaless-storage.xml"/>
+    <topicref href="../Data_in_PHEMI/con_curate_dpfs.xml"/>
+    <topicref href="../Data_in_PHEMI/con_curate_index-catalog.xml"/>
+    <topicref href="../Data_in_PHEMI/con_curate_data-linking.xml"/>
+    <topicref href="../Data_in_PHEMI/con_curate_data-dictionary.xml"/>
+   </topicref>
    <topicref href="../Data_in_PHEMI/con_consumption.xml"/>
   </topicref>
   <mapref

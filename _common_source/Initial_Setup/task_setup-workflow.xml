@@ -12,37 +12,61 @@
                 defined user authorizations. Likewise, you cannot create access policies without
                 defining both user authorizations and data visibilities.</stepsection>
             <step>
-                <cmd>Log on to the <ph conkeyref="product-vars/product-name"/>
-                    <ph conkeyref="product-vars/gui-name"/>.</cmd>
+                <cmd><xref
+                        href="../../_common_source/mgmt_console/task_logging-on.xml#task_logging-on"
+                        >Log on to the <ph conkeyref="product-vars/product-name"/>
+                        <ph conkeyref="product-vars/gui-name"/></xref>.</cmd>
             </step>
             <step>
-                <cmd>Define user authorizations.</cmd>
+                <cmd><xref href="../../_common_source/users/con_user-authorizations.xml">Define user
+                        authorizations.</xref></cmd>
             </step>
             <step>
-                <cmd>Create users. Create at least one <ph conkeyref="product-vars/admin"/>, at
-                    least one privacy officer, and at least one data analyst.</cmd>
+                <cmd><xref href="../../_common_source/users/con_users.xml">Create users.</xref>
+                    Create at least one user with a role of <ph conkeyref="product-vars/admin"/>, at
+                    least one user with a role of <ph conkeyref="product-vars/privacy-officer"/>,
+                    and at least one user with a role of <ph conkeyref="product-vars/data-analyst"
+                    />. </cmd>
             </step>
             <step>
-                <cmd>Define data visibilities.</cmd>
+                <cmd><xref href="../../_common_source/data_visibilities/con_data-visibilities.xml"
+                        >Define data visibilities.</xref></cmd>
             </step>
-            <stepsection>Data categories must be added before you can define data sources. Access
-                policies are optional for data source configuration. If you are using a Data
-                Processing Function (DPF) to create derived data from raw data, you upload the DPF
-                archive as part of data source configuration.</stepsection>
+            <stepsection>
+                <p>Data categories must be added before you can define data sources. Access policies
+                    are optional for data source configuration, but if you are using access
+                    policies, you must configure the policies before configuring the data sources. </p>
+                <p>If you are using a Data Processing Function (DPF) to generate derived data from
+                    raw data, you must prepare the DPF code archive before configuring the data
+                    source and upload the DPF archive during data source configuration.</p>
+            </stepsection>
             <step>
-                <cmd>Add data categories.</cmd>
+                <cmd><xref href="../../_common_source/Data_Categories/con_data-categories.xml">Add
+                        data categories.</xref></cmd>
             </step>
             <step>
-                <cmd>Create access policies.</cmd>
+                <cmd><xref
+                        href="../../_common_source/Data_Categories/con_data-categories.xml#concept_data-categories"
+                        >Create access policies.</xref></cmd>
             </step>
             <step>
-                <cmd>Define data sources.</cmd>
+                <cmd><xref
+                        href="../../_common_source/Data_Sources/con_data-sources.xml#concept_about-data-sources"
+                        >Define data sources.</xref></cmd>
             </step>
-            <stepsection>In general, it is the data analyst, not the <ph
-                    conkeyref="product-vars/admin"/>, who builds and executes datasets. However,
-                configuring dataset destinations is part of system configuration.</stepsection>
+            <stepsection>It is the <ph conkeyref="product-vars/data-analyst"/>, not the <ph
+                    conkeyref="product-vars/admin"/>, who executes and exports datasets. However,
+                constructing datasets from available data elements and configuring dataset export
+                destinations is part of system configuration, and these tasks are performed by the
+                    <ph conkeyref="product-vars/admin"/>.</stepsection>
             <step>
-                <cmd>Configure dataset destinations.</cmd>
+                <cmd><xref href="../../_common_source/datasets/con_datasets.xml#concept_datasets"
+                        >Build datasets.</xref></cmd>
+            </step>
+            <step>
+                <cmd><xref
+                        href="../../_common_source/Dataset_Destinations/con_dataset-destinations.xml#concept_dataset-destinations"
+                        >Configure dataset destinations.</xref></cmd>
             </step>
         </steps>
     </taskbody>

@@ -125,12 +125,18 @@
     <dt>DPF archive</dt>
     <dd>
      <p audience="internal">Note that "archive" is lower case.</p>
-     <p id="dpf-archive">A DPF archive is the set of code that makes up a DPF. A DPF archive is
-      delivered as a ZIP file archive. It consists of two parts: a manifest file and a code library.
-      To associate a DPF with a data source, the DPF archive is ``registered`` with the data source
-      by uploading the archive during data source configuration.</p>
+     <p id="dpf-archive">The set of code that makes up a DPF is called a DPF archive. A DPF archive
+            is delivered as a ZIP file archive. It consists of two parts: a manifest file and a code
+            library. To associate a DPF with a data source, the DPF archive is ``registered`` with
+            the data source by uploading the archive during data source configuration.</p>
     </dd>
    </dlentry>
+      <dlentry>
+        <dt>ETL</dt>
+        <dd>Extract, transform, and load. In databases, a set of tools or processes that extracts
+          data from sources, transforms the format or structure for storage, query, and analysis,
+          and loads it into the receiving or consuming system. </dd>
+      </dlentry>
    <dlentry>
     <dt>ingestion</dt>
     <dd>

@@ -1,55 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_data-collection">
- <title>Collection</title>
- <shortdesc/>
+ <title>Collect</title>
+ <shortdesc><ph conkeyref="product-vars/product-name"/> can collect, or "ingest," any type of
+  data.</shortdesc>
  <conbody>
-  <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
-  <p>PHEMI Central has a rich REST API for expressing queries to search for and retrieve data stored
-   in the system. Our API supports standard operators, such as:</p>
-  <p>Multiple criteria can be combined to create a more restrictive query. Furthermore, PHEMI
-   Central supports common data types for these operands, such as INT, DOUBLE, DATE, and TIMESTAMPS.
-   The fields queried against (e.g. in the above table <b>ssn </b>or <b>age</b>) are the derived
-   data values that are extracted by DPFs, all of which are automatically indexed, making querying
-   of the system very efficient. Additionally, all values are tagged with the data attributes,
-   preventing users from finding data they are not permitted to see.</p>
-  <p> </p>
-  <p>For users or analytics tools that use SQL to query a system, PHEMI Central provides an SQL-like
-   interface for querying against configured datasets. First, an Administrator defines a dataset by
-   selecting the derived data fields that are present in it, such as <b>ssn</b> and <b>age</b>. They
-   then assign an Access Policy which determines whether data is filtered (such as the <b>ssn</b>
-   field) when a user issues a SQL command against the system.</p>
-  <p> </p>
-  <p>Currently, PHEMI supports HiveQL which is a SQL dialect that closely resembles standard SQL. In
-   the future, PHEMI will support complete ANSI-92 SQL in the system.</p>
-  <p>PHEMI Central can collect virtually any kind of data—structured (such as database records),
-   semi-structured (such as Microsoft Excel or genomic files) or unstructured (such as images,
-   machine-collected data, or documents). Data can be ingested and aggregated from multiple
-   disparate sources. During collection, PHEMI Central tags each raw data item with user-defined
-   metadata, then stores the tagged raw data in PHEMI’s fast, powerful data store. The data store is
-   key-value–based and schemaless, so data can be ingested without complex or brittle schemamapping
-   exercises.</p>
-  <?oxy_custom_end?>
-  <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
-  <p>Data Sources PHEMI Central can ingest virtually any kind of data, so organizations can
-   consolidate their data silos. Data sources can include any data type from small kilobyte messages
-   to large terabyte files: • Database Records — Data extracted from information systems, databases,
-   etc. • Structured Non-Relational Data — Spreadsheets, GIS datasets, genomics, machine data, XML,
-   JSON, HL7, PHEMI Clinical, PHEMI Forms Server, etc. • Semi-structured — ECGs, tabular documents,
-   etc. • Unstructured files &amp; datasets — Images, consult letters, reports, emails, customer
-   feedback, social media, etc.</p>
-  <p>Data Import PHEMI Central can import data in a variety of ways: </p>
-  <p>• Streaming – Machine-to-machine data sources, such as telemetry and hospital bedside monitors,
-   can stream data to PHEMI Central by means of the PHEMI REST interface. </p>
-  <p>• Push — Data sources can publish to PHEMI Central using either JDBC or the PHEMI REST
-   interface. </p>
-  <p>• Pull — Custom connectors based on PHEMI’s REST can be developed to allow PHEMI Central to
-   fetch source data from sources. </p>
-  <p>• Manual — Files can be manually uploaded to PHEMI Central from a standard browser window. </p>
-  <p>• Store by Reference and Action PHEMI Central can reference remote data or a remote dataset
-   through a URL, stored procedure, SQL query or REST API. Store by Reference and Store by Action
-   operations are ideal for collaboration projects between organizations or when accessing
-   third-party datasets where data sharing agreements restrict data from being replicated.</p>
-  <?oxy_custom_end?>
+  <p>Data collections can include any data type from small kilobyte messages to large terabyte
+   files. </p>
+  <ul id="ul_mh4_q3n_cr">
+   <li>
+    <p><b>Database records</b>—Data extracted from information systems, databases, and so on. </p>
+   </li>
+   <li>
+    <p><b>Structured non-relational data</b>—Spreadsheets, GIS datasets, genomics, machine data,
+     XML, JSON, HL7, and so on.</p>
+   </li>
+   <li>
+    <p><b>Semi-structured files</b>—ECGs, tabular documents, and so on.</p>
+   </li>
+   <li>
+    <p><b>Unstructured files and datasets</b>—Images, consult letters, eports, e-mails, customer
+     feedback, social media, and so on. </p>
+   </li>
+  </ul>
+  <p>Data can be ingested and aggregated from multiple disparate sources, bringing together and
+   consolidating data silos. Data can be imported in a variety of ways:</p>
+  <ul id="ul_o1m_wjn_cr">
+   <li><b>Streaming</b>—Machine-to-machine data sources, such as telemetry and hospital bedside
+    monitors, can stream data to <ph conkeyref="product-vars/product-name"/> by means of the PHEMI
+     <ph conkeyref="product-vars/RESTful-API"/>.</li>
+   <li>
+    <p><b>Push</b>—Data sources and exract, transform, and load (ETL) tools can publish to <ph
+      conkeyref="product-vars/product-name"/> using either JDBC or the PHEMI <ph
+      conkeyref="product-vars/RESTful-API"/>. </p>
+   </li>
+   <li>
+    <p><b>Pull</b>—Custom connectors based on the PHEMI <ph conkeyref="product-vars/RESTful-API"/>
+     can be deployed to allow <ph conkeyref="product-vars/product-name"/> to fetch data from
+     sources. </p>
+   </li>
+   <li>
+    <p><b>Manually</b>—Files can be manually uploaded to <ph conkeyref="product-vars/product-name"/>
+     from a standard browser window. </p>
+   </li>
+   <li>
+    <p><b>Store by Reference and Action</b>—<ph conkeyref="product-vars/product-name"/> can
+     reference remote data or a remote dataset through a URL, stored procedure, SQL query, external
+     table, or the <ph conkeyref="product-vars/RESTful-API"/>. Applications can also be stored and
+     executed, causing external tables or external data to be accessed and pre-processed.  </p>
+   </li>
+  </ul>
+  <fig id="fig_collect">
+   <image href="../_images/marketing-diagrams/Collect/collect_focus_architecture.png"
+    id="image_s44_jmn_cr" scale="60"/>
+  </fig>
+  <p>During ingest, <ph conkeyref="product-vars/product-name"/> tags each raw data object with
+      metadata that describes the data. Metadata governing digital rights management, retention
+      rules, data sharing agreements, and privacy policies is applied and enforced. Describing
+      information with metadata means that users and applications can query and analyze data based
+      the data’s properties, instead of having to navigate complex directories or schemas to find
+      information.  <ph conkeyref="product-vars/product-name"/> then places the tagged digital asset
+      into the data store for curation.</p>
  </conbody>
 </concept>

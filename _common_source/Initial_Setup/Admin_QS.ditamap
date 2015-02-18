@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Administrator Quick Start</title>
+ <keydef keys="product-vars" href="../_Variables/PHEMI_Central/con_Product-Vars.xml"/>
+ <keydef keys="corp-vars" href="../_Variables/PHEMI_Central/con_Corporate_Vars.xml"/>
+ <topicref href="../../_Common_Source/Initial_Setup/con_before-configuring.xml">
+  <topicref href="../../_Common_Source/Installation/con_installation.xml"/>
+  <topicref href="../Privacy_Security_Governance/task_define-governance-policy.xml"/>
+ </topicref>
+ <topicref href="../../_Common_Source/Initial_Setup/task_setup-workflow.xml"/>
+</map>

@@ -3,10 +3,16 @@
 <concept id="concept_foundations">
  <title>Introducing <ph conkeyref="product-vars/product-name"/></title>
  <shortdesc><ph conkeyref="product-vars/product-name"/> is a big data warehouse that offers big data
-  capability with advanced data management functionality. </shortdesc>
+  capability with fully integrated privacy, security, and governance and advanced data management
+  functionality. </shortdesc>
  <conbody>
   <p><ph conkeyref="product-vars/product-name"/> allows organizations that need to protect and
    govern the use of their information to take advantage of big data technology to access,
-   catalogue, and analyze their digital assets at scale.</p>
+   catalogue, and analyze their digital assets at speed and scale.</p>
+  <fig id="fig_intro-PHEMI-Central">
+   <image
+    href="../_images/marketing-diagrams/Introducing_PHEMI_Central/Introducing_PHEMI_Central.png"
+    id="image_vct_fgn_cr" scale="60"/>
+  </fig>
  </conbody>
 </concept>

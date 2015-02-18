@@ -1,19 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="task_define-governance-policy">
-    <title>Defining a Governance Policy</title>
+    <title>Define a Governance Policy</title>
     <shortdesc>Make sure your organization's governance policy is defined before you begin
         configuration.</shortdesc>
     <taskbody>
-        <context/>
+        <context>
+            <p>Your governance policies will drive how you configure PHEMI Central. Therefore,
+                before configuring PHEMI Central, you should make sure you have your organization's
+                governance policy available to you. If you are uncertain as to the appropriate data
+                visibilities, user authorizations, or access policies to define for your
+                organization, consult with your Information Officer, Privacy Officer, or with
+                someone in a comparable role.</p>
+            <p>To define your organization's governance policy:</p>
+        </context>
         <steps>
             <step>
                 <cmd>Identify the different sensitivity levels of the data you will be storing in
-                        <ph conkeyref="product-vars/product-name"/>. </cmd>
-                <info>In <ph conkeyref="product-vars/product-name"/>, these sensitivity levels are
-                    called data visibilities, and are used to tag ingested data for purposes of
-                    privacy and access control. Examples of  data visibilities are "CONFIDENTIAL,"
-                    "SECRET," or "PII" (Personally Identifiable Information).</info>
+                    PHEMI Central. </cmd>
+                <info>In PHEMI Central, these sensitivity levels are called data visibilities, and
+                    are used to tag ingested data for purposes of privacy and access control.
+                    Examples of data visibilities are "CONFIDENTIAL," "SECRET," or "PII" (Personally
+                    Identifiable Information).</info>
             </step>
             <step>
                 <cmd>Identify what authorizations your organization assigns to different users to
@@ -30,8 +38,8 @@
                     CTO) might be permitted to access CONFIDENTIAL data, a user with RESEARCH
                     authorization might only be permitted to access only DE-IDENTIFIED data, and a
                     user with DOCTOR authorization might be allowed to see data of all sensitivity.
-                    In <ph conkeyref="product-vars/product-name"/>, the allowed access combinations
-                    are implemented as access policies.</info>
+                    In PHEMI Central, the allowed access combinations are implemented as access
+                    policies.</info>
             </step>
         </steps>
     </taskbody>

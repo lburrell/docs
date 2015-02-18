@@ -2,35 +2,17 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_PHEMI-Central-ovw">
  <title><ph conkeyref="product-vars/product-name"/> Overview</title>
- <shortdesc><ph conkeyref="product-vars/product-name"/> uses powerful big data technologies with
-    advanced data management capabilities to reliably store data at scale.</shortdesc>
  <conbody>
-    <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
     <p>
       <ph conkeyref="product-vars/product-name"/> draws on the Hadoop ecosystem for linear scale and
-      reliable distributed data storage across large clusters of low-cost commodity servers. In
-      contrast to conventional Hadoop-based systems, though, PHEMI Central is a fully integrated
-      enterprise-grade system. </p>
-    <p> However, PHEMI Central adds significantly more functionality. Ussers don’t need to worry
-      about digging deep into the world of Hadoop, MapReduce, YARN, Pig, HIVE, Sqoop, HBase,
-      Zookeeper, Accumulo, and so on. Commodity Hardware PHEMI Central eliminates the cost and
-      performance bottlenecks associated with expensive Storage Area Network (SAN) or Network
-      Attached Storage (NAS) architectures. The system uses low cost, commodity hardware components
-      and direct attached disk drives to significantly lower the cost of ownership compared to
-      traditional enterprise data warehouse systems. Scalability and Performance PHEMI Central can
-      easily aggregate structured and unstructured data, scaling storage and compute linearly from
-      terabytes to petabytes with each additional hard drive and node. Reliability and Availability
-      All data stored in PHEMI Central is replicated three times across the system to ensure high
-      availability and resiliency in the event of a hardware failure. Direct attached hard drives
-      can be hot swapped without impacting performance or data availability while larger or faster
-      drives and nodes can are absorbed into the system and load balanced automatically. LDAP
-      integration PHEMI Central can operate with your existing LDAP or Active Directory identity
-      management systems or via internally managed PHEMI Central user accounts. Maintenance and
-      Support PHEMI Central provides clear visibility into overall system health, diagnostics,
-      troubleshooting, capacity and digital assets under management so that IT administrators can
-      quickly configure and test all nodes. Additionally, with Apache Ambari, system management
-      capabilities can be integrated with IT infrastructure monitoring tools such as Microsoft
-      System Center, Teradata Viewpoint, Nagios and Ganglia.</p>
-    <?oxy_custom_end?>
+      reliable distributed data storage across large clusters of commodity servers. In contrast to
+      conventional Hadoop-based systems, though, <ph conkeyref="product-vars/product-name"/> is a
+      fully integrated enterprise-grade data management system. At the same time, in contrast to
+      traditional data warehouses, <ph conkeyref="product-vars/product-name"/> can handle any
+      volume, variety, and velocity of data.</p>
+    <fig id="fig_beach-balls">
+      <image href="../_images/marketing-diagrams/Beyond_the_Data_Lake/Beyond_the_Data_Lake.png"
+        id="image_c41_lhn_cr" scale="60"/>
+    </fig>
   </conbody>
 </concept>
