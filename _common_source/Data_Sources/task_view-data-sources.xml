@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="task_view-data-sources">
-    <title>View Data Sources</title>
-    <shortdesc>View data sources on the <wintitle>Data Sources</wintitle> page. </shortdesc>
+    <title>View Data Collections</title>
+    <shortdesc>View data collections on the <wintitle>Data Collections</wintitle> page. </shortdesc>
     <taskbody>
         <context>
-            <p>To view defined data sources:</p>
+            <p>To view defined data collections:</p>
         </context>
         <steps>
             <step>
-                <cmd>Open the <uicontrol>Data Sources</uicontrol> screen, by clicking the
-                        <uicontrol>Data Sources</uicontrol> icon in the left navigation bar. <image
+                <cmd>Open the <uicontrol>Data Collections</uicontrol> screen, by clicking the
+                    <uicontrol>Data Collections</uicontrol> icon in the left navigation bar. <image
                         href="../_images/gui-screen-shots/icon_datasources.JPG"
                         id="image_fmr_wzn_mq" scale="50"/></cmd>
                 <info>
-                    <p>The <wintitle>Data Sources</wintitle> page opens showing defined data
+                    <p>The <wintitle>Data Collections</wintitle> page opens showing defined data
                         categories. <xref
                             href="../Data_Categories/con_data-categories.xml#concept_data-categories"
                             >Tell me about data categories.</xref></p>
@@ -25,7 +25,7 @@
                 </info>
             </step>
             <step>
-                <cmd>Click any data category to expand the category and see the data sources
+                <cmd>Click any data category to expand the category and see the data collections
                     included in the category.</cmd>
                 <info><fig id="fig_data-sources_data-sources">
                         <image href="../_images/gui-screen-shots/data-sources_data-sources.png"

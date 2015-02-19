@@ -8,12 +8,12 @@
         </context>
         <steps>
             <step>
-                <cmd>Open the <uicontrol>Data Sources</uicontrol> page, by clicking the
-                        <uicontrol>Data Sources</uicontrol> icon in the left navigation bar. <image
+                <cmd>Open the <uicontrol>Data Collections</uicontrol> page, by clicking the
+                        <uicontrol>Data Collections</uicontrol> icon in the left navigation bar. <image
                         href="../_images/gui-screen-shots/icon_datasources.JPG"
                         id="image_fmr_wzn_mq" scale="50"/></cmd>
                 <info>
-                    <p>The <wintitle>Data Sources</wintitle> page opens showing all defined data
+                    <p>The <wintitle>Data Collections</wintitle> page opens showing all defined data
                         categories.</p>
                     <fig id="fig_data-sources">
                         <image href="../_images/gui-screen-shots/data-sources.png"
@@ -22,15 +22,15 @@
                 </info>
             </step>
             <step>
-                <cmd>Click the <uicontrol>New Data Source</uicontrol> button.</cmd>
-                <info>The <wintitle>New Data Source</wintitle> screen opens with only the
+                <cmd>Click the <uicontrol>New Data Collection</uicontrol> button.</cmd>
+                <info>The <wintitle>New Data Collection</wintitle> screen opens with only the
                         <wintitle>Data Policy</wintitle> tab showing. <fig id="fig_new-data-source">
                         <image href="../_images/gui-screen-shots/data-sources_policy-tab.png"
                             id="image_w3g_hwr_3q" scale="50"/>
                     </fig></info>
             </step>
             <step>
-                <cmd>Describe the data source.</cmd>
+                <cmd>Describe the data collection.</cmd>
                 <info>
                     <fig id="fig_data-source_src-desc">
                         <image href="../_images/gui-screen-shots/data-sources_src-desc.png"
@@ -41,16 +41,16 @@
                     <chrow>
                         <choption>Name</choption>
                         <chdesc>
-                            <p>Mandatory. A name for the data source. Numbers, letters, spaces,
+                            <p>Mandatory. A name for the data collection. Numbers, letters, spaces,
                                 hyphens, and the underscore character are supported.</p>
-                            <note>Once you save a data source, the name cannot be edited. To change
-                                the name, you must delete the whole data source and reconfigure it
+                            <note>Once you save a data collection, the name cannot be edited. To change
+                                the name, you must delete the whole data collection and reconfigure it
                                 with the new name. </note>
                         </chdesc>
                     </chrow>
                     <chrow>
                         <choption>Source Category</choption>
-                        <chdesc>Mandatory. The data category of the data source. Choose from the
+                        <chdesc>Mandatory. The data category of the data collection. Choose from the
                             drop-down list of data categories. <xref
                                 href="../Data_Categories/task_add-data-category.xml#task_add-data-category"
                                 >How do I define data categories?</xref></chdesc>
@@ -72,31 +72,31 @@
                     <chrow>
                         <choption>Source Owner</choption>
                         <chdesc>Mandatory. The individual responsible for approving dataset requests
-                            involving this data source. Only users with a role of <ph
+                            involving this data collection. Only users with a role of <ph
                                 conkeyref="product-vars/admin"/> are eligible. Choose from the
                             drop-down list of eligible users.</chdesc>
                     </chrow>
                     <chrow>
                         <choption>Data Visibilities</choption>
                         <chdesc>Optional. The data visibility (privacy tag) to be associated with
-                            this data source. Select from the list of configured data visibilities.
+                            this data collection. Select from the list of configured data visibilities.
                             You can select multiple items by holding down the
                                 <keyword>Shift</keyword> key.</chdesc>
                     </chrow>
                     <chrow>
                         <choption>Document Format</choption>
-                        <chdesc>Optional. The kinds of document expected from this data source.
+                        <chdesc>Optional. The kinds of document expected from this data collection.
                             Examples are <keyword>Microsoft Word</keyword>,
                             <keyword>Excel</keyword>, or <keyword>JSON</keyword>.</chdesc>
                     </chrow>
                     <chrow>
                         <choption>Definition</choption>
                         <chdesc>Optional. A brief description of the kinds of documents expected
-                            from this data source. </chdesc>
+                            from this data collection. </chdesc>
                     </chrow>
                     <chrow>
                         <choption>Notes</choption>
-                        <chdesc>Optional. Any additional notes for the data source.</chdesc>
+                        <chdesc>Optional. Any additional notes for the data collection.</chdesc>
                     </chrow>
                 </choicetable>
             </step>
@@ -115,7 +115,7 @@
             </step>
             <step>
                 <cmd>Specify the retention rules. These rules are used to determine how long each
-                    item from this data source can remain in the system.</cmd>
+                    item from this data collection can remain in the system.</cmd>
                 <info>
                     <fig id="fig_retention-rules">
                         <image href="../_images/gui-screen-shots/data-sources_sharing-agreemt.png"
@@ -153,7 +153,7 @@
                 </choicetable>
             </step>
             <step>
-                <cmd>Click the <uicontrol>Save Data Source</uicontrol> button to save the data
+                <cmd>Click the <uicontrol>Save Data Collection</uicontrol> button to save the data
                     policy. When the data policy has been successfully saved, the <wintitle>Data
                         Processing Function</wintitle> and <wintitle>Ingest Data</wintitle> tabs
                     appear as available on the screen.</cmd>

@@ -3,17 +3,17 @@
 <task id="task_schedule-file-ingest">
     <title>Schedule File Ingest</title>
     <shortdesc>You can have the <ph conkeyref="product-vars/gui-name"/> ingest files on a schedule
-        from the <wintitle>Data Sources</wintitle> page.</shortdesc>
+        from the <wintitle>Data Collections</wintitle> page.</shortdesc>
     <taskbody>
         <context>To schedule file ingest:</context>
         <steps id="steps_bh4_2h4_1r">
             <step>
-                <cmd>Open the <uicontrol>Data Sources</uicontrol> screen, by clicking the
-                        <uicontrol>Data Sources</uicontrol> icon in the left navigation bar. <image
+                <cmd>Open the <uicontrol>Data Collections</uicontrol> screen, by clicking the
+                    <uicontrol>Data Collections</uicontrol> icon in the left navigation bar. <image
                         href="../_images/gui-screen-shots/icon_datasources.JPG"
                         id="image_fmr_wzn_mq" scale="50"/></cmd>
                 <info>
-                    <p>The <wintitle>Data Sources</wintitle> page opens showing defined data
+                    <p>The <wintitle>Data Collections</wintitle> page opens showing defined data
                         categories. <xref
                             href="../Data_Categories/con_data-categories.xml#concept_data-categories"
                             >Tell me about data categories.</xref></p>
@@ -24,7 +24,7 @@
                 </info>
             </step>
             <step>
-                <cmd>Click any data category to expand the category and see the data sources
+                <cmd>Click any data category to expand the category and see the data collections
                     included in the category.</cmd>
                 <info>
                     <fig id="fig_data-sources_data-sources">
@@ -34,8 +34,8 @@
                 </info>
             </step>
             <step>
-                <cmd>Click the data source name. The <wintitle>Data Policy</wintitle> screen for the
-                    data source opens.</cmd>
+                <cmd>Click the data collection name. The <wintitle>Data Policy</wintitle> screen for the
+                    data collection opens.</cmd>
                 <info>
                     <fig id="fig_data-policy-cmplt">
                         <image href="../_images/gui-screen-shots/data-sources_data-policy_cmplt.png"

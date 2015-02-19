@@ -26,11 +26,11 @@
   <p>Data can be ingested and aggregated from multiple disparate sources, bringing together and
    consolidating data silos. Data can be imported in a variety of ways:</p>
   <ul id="ul_o1m_wjn_cr">
-   <li><b>Streaming</b>—Machine-to-machine data sources, such as telemetry and hospital bedside
+    <li><b>Streaming</b>—Machine-to-machine data collections, such as telemetry and hospital bedside
     monitors, can stream data to <ph conkeyref="product-vars/product-name"/> by means of the PHEMI
      <ph conkeyref="product-vars/RESTful-API"/>.</li>
    <li>
-    <p><b>Push</b>—Data sources and exract, transform, and load (ETL) tools can publish to <ph
+     <p><b>Push</b>—Data collections and extract, transform, and load (ETL) tools can publish to <ph
       conkeyref="product-vars/product-name"/> using either JDBC or the PHEMI <ph
       conkeyref="product-vars/RESTful-API"/>. </p>
    </li>

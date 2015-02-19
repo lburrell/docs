@@ -16,7 +16,7 @@
    capability arises from its powerful metadata framework, which extends from end to end across the
    system. Metadata is applied on ingestion and enriched by cataloging, indexing, and invoking data
    processing functions. The result is data description at the element level embedding the rules and
-   policies governing the element, as well as configured properties such as the data source
+   policies governing the element, as well as configured properties such as the data collection
    ownership, retention time (time to live), and what visibility the element should have. For
    example, de-identification, encryption, and masking, along with other privacy restrictions can be
    enforced per data item, at the cell level. </p>
@@ -36,7 +36,7 @@
    Console. PHEMI Central manages and enforces data sharing agreements by flagging the sensitivity
    of individual digital assets, tracking the retention period, recording rules around version
    control, and specifying de-identification, encryption, and data access permissions. Automating
-   this function at scale across a variety of data sources and types is critical to managing
+   this function at scale across a variety of data collections and types is critical to managing
    privacy, security, and governance. Flexible, Attribute-Based Access Policies: Decoupling Data
    Protection from Data Use PHEMI Central can automatically de-identify, encrypt, or mask personal
    information and enforce privacy based on sophisticated user access privileges and fine-grained

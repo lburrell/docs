@@ -14,7 +14,7 @@
        <property>
         <proptype>datasource</proptype>
         <propvalue>admin</propvalue>
-        <propdesc>The identifier of the data source.</propdesc>
+        <propdesc>The identifier of the data collection.</propdesc>
       </property>
       <property>
         <proptype>document_status</proptype>

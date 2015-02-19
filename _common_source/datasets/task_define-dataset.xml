@@ -71,7 +71,7 @@
                         <choption>Access Policy</choption>
                         <chdesc>Optional. The access policy to protect the dataset. The access
                             policy selected for the dataset may match or may be different from any
-                            applied to the constituent data source(s). By default, the first
+                            applied to the constituent data collection(s). By default, the first
                             configured access policy is applied.</chdesc>
                     </chrow>
                     <chrow>
@@ -100,15 +100,15 @@
                     <p>You select the fields for the dataset in the <uicontrol>Dataset
                             Contents</uicontrol> pane. This pane will show a number of tabs; these
                         tabs reflect the data categories configured for your data. Clicking a tab
-                        will list all the fields extracted from all the data sources within the
-                        category, where each data source is represented by a column. Each data
+                        will list all the fields extracted from all the data collections within the
+                        category, where each data collection is represented by a column. Each data
                         source and each field has a checkbox. </p>
                     <fig id="fig_select-fields">
                         <image href="../_images/gui-screen-shots/datasets_choose-fields.png"
                             id="image_nfl_mx4_yq" scale="50"/>
                     </fig>
                     <ul id="ul_zxz_cx4_yq">
-                        <li>Select an entire data source by checking the checkbox for the
+                        <li>Select an entire data collection by checking the checkbox for the
                             column.</li>
                         <li>Select any number of individual fields. </li>
                     </ul>

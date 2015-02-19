@@ -14,9 +14,9 @@
    personal health information, or SECRET to identify especially sensitive material.</p>
   <note>Once defined, a data visibility may be neither edited nor deleted. The description for the
    visibility can be modified subsequently.</note>
-  <p>The data visibilities specified for a data source are referred to in access policies and
+  <p>The data visibilities specified for a data collection are referred to in access policies and
    matched against user authorizations to determine what actions, if any, a given user is allowed to
-   perform on the data. The access policy can then be applied to a data source or dataset during
+   perform on the data. The access policy can then be applied to a data collection or dataset during
    system configuration. <xref
     href="../users/con_user-authorizations.xml#concept_user-authorizations">Tell me about user
     authorizations.</xref>
@@ -24,7 +24,7 @@
     access policies.</xref></p>
   <p>In addition, any data visibility defined in the system can be used by a Data Processing
    Function (DPF) to tag any derived data fields. These derived data elements can be assigned
-   different privacy levels from the data source and from one another. For example, the Social
+   different privacy levels from the data collection and from one another. For example, the Social
    Security Number extracted from a health record can be tagged CONFIDENTIAL if that data visibility
    has been defined in the system. This mechanism provides field-level privacy protection.</p>
  </conbody>

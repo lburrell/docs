@@ -17,7 +17,7 @@
                         id="image_fmr_wzn_mq" scale="50"/></cmd>
                 <info>
                     <p>The <wintitle>System Metrics</wintitle> page opens showing the
-                            <wintitle>Global Metrics</wintitle> pane and the <wintitle>Data Source
+                            <wintitle>Global Metrics</wintitle> pane and the <wintitle>Data Collection
                             Metrics</wintitle> tab. </p>
                     <fig id="fig_system-metrics">
                         <image href="../_images/gui-screen-shots/system-metrics.png"
@@ -27,7 +27,7 @@
                         currently created for the system, sorted by user role. In the
                             <wintitle>Content</wintitle> column, you can see how much used and free
                         space there is on the system, as well as the number of objects the system is
-                        currently storing and the number of data sources that have been
+                        currently storing and the number of data collections that have been
                         configured.</p>
                 </info>
             </step>

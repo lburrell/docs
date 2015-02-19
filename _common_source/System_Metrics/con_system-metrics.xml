@@ -5,7 +5,7 @@
  <shortdesc>Monitor system status and health at a glance on the System Metrics page. </shortdesc>
  <conbody>
   <p>The <wintitle>System Metrics</wintitle> page of the <ph conkeyref="product-vars/gui-name"/>
-   reports information about users and system usage, as well as tracking data source statistics,
+    reports information about users and system usage, as well as tracking data collection statistics,
    system performance, and the status of systems tasks. </p>
  </conbody>
 </concept>

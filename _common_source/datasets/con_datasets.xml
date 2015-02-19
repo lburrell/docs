@@ -7,14 +7,14 @@
   <p>A dataset is a specific view of data in <ph conkeyref="product-vars/product-name"/> that is
    accessible toa given set of users. The users working with the dataset must have a role of <ph
     conkeyref="product-vars/data-analyst"/>. The view provided by the dataset can be across multiple
-   data sources.</p>
-  <p>Any data elements from any data source may be included in a dataset. Defining a dataset does
-   not modify configuration for data sources or impact protections to data. </p>
+  data collections.</p>
+  <p>Any data elements from any data collection may be included in a dataset. Defining a dataset does
+   not modify configuration for data collections or impact protections to data. </p>
   <p>Datasets are typically created for research or exploratory data use, and the intended use for
-   datasets may differ from the intended use of an individual data source. In particular, the
+   datasets may differ from the intended use of an individual data collection. In particular, the
    governance and controls required for a dataset may differ from those specified its constituent
-   data sources. For this reason, you can attach an access policy to a dataset that is independent
-   of the access policies attached to the consistuent data sources.</p>
+   data collections. For this reason, you can attach an access policy to a dataset that is independent
+   of the access policies attached to the consistuent data collections.</p>
   <p>Once a dataset is built by a <ph conkeyref="product-vars/admin"/>, it can be executed by users
    with a role of <ph conkeyref="product-vars/data-analyst"/>. A single dataset can be executed by
    multiple users--even by users with different authorizations. A given user's actual view into the

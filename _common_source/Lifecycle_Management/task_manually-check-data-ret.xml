@@ -30,7 +30,7 @@
                     </fig></info>
             </step>
             <step>
-                <cmd>In the <uicontrol>Data Sources</uicontrol> field, select all the data sources
+                <cmd>In the <uicontrol>Data Collections</uicontrol> field, select all the data collections
                     you want to check.</cmd>
             </step>
             <step>

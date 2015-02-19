@@ -26,10 +26,10 @@
                         href="../Data_Visibilities/task_define-data-visibility.xml#task_define-data-visibilities"
                         >Define data visibilities.</xref></cmd>
             </step>
-            <stepsection>Data categories must be added before you can define data sources. Access
-                policies are optional for data source configuration. If you are using a Data
+            <stepsection>Data categories must be added before you can define data collections. Access
+                policies are optional for data collection configuration. If you are using a Data
                 Processing Function (DPF) to create derived data from raw data, you upload the DPF
-                archive as part of data source configuration.</stepsection>
+                archive as part of data collection configuration.</stepsection>
             <step>
                 <cmd><xref
                         href="../Data_Categories/task_add-data-category.xml#task_add-data-category"
@@ -43,7 +43,7 @@
             <step>
                 <cmd><xref
                         href="../Data_Sources/task_define-data-source.xml#task_define-data-source"
-                        >Define data sources.</xref></cmd>
+                    >Define data collections.</xref></cmd>
             </step>
             <stepsection>Configuring datasets and dataset destinations is optional.</stepsection>
             <step>

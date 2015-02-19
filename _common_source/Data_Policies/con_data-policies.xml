@@ -4,9 +4,9 @@
   <title>Data Policies</title>
   <shortdesc/>
   <conbody>
-    <p>Data source information is set and modified on the Data Sources page. <image
+    <p>Data collection information is set and modified on the Data Collections page. <image
         href="../_images/gui-screen-shots/icon_datasources.JPG" id="image_zkg_pkr_3q"/></p>
-    <p>Each data source has a data policy that specifies, among other things, how long data should
+    <p>Each data collection has a data policy that specifies, among other things, how long data should
       be retained in the system. For each data item ingested into the system, <ph
         conkeyref="product-vars/product-name"/> calculates a "time to live" period based on the
       ingestion timestamp and the data retention period specified in the data policy. When the </p>

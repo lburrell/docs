@@ -71,7 +71,7 @@
         <plentry>
           <pt>404 Not Found</pt>
           <pd>
-            <p>The data source does not exist.</p>
+            <p>The data collection does not exist.</p>
           </pd>
         </plentry>
         <plentry>
@@ -98,7 +98,7 @@
        ],
        "ph:task_history": {
           "href": "/rest/tms/task_histories/54108814e779891b9b1a1eb4",
-          "title": "Ingest and Derive for Data Source ECG"
+          "title": "Ingest and Derive for Data Collection ECG"
        },
        "self": {
           "href": "/rest/tms/ingest_statuses/54108814e779891b9b1a1eb4"
@@ -177,11 +177,11 @@
       ]
    },
    "finished": "2014-10-21T16:37:19.686Z",
-   "name": "Ingest and Derive for Data Source Semios Sensors",
+   "name": "Ingest and Derive for Data Collection Semios Sensors",
    "queued": "2014-10-21T16:37:04.491Z",
    "started": "2014-10-21T16:37:04.494Z",
    "status": "finished",
-   "uniquename": "Ingest and Derive for Data Source Semios Sensors",
+   "uniquename": "Ingest and Derive for Data Collection Semios Sensors",
    "username": "admin"
 }</codeblock>
       <p>Notice that the task status is set to “finished” and the time the task finished is also

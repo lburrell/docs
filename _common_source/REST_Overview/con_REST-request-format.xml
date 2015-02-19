@@ -3,8 +3,8 @@
 <concept id="concept_REST-request-format">
  <title>REST Request Format</title>
  <conbody>
-  <p>All API requests start with the same URI prefix containing the data source identifier. The
-   following is the API request that generates the URI prefix for a specific data source name:</p>
+    <p>All API requests start with the same URI prefix containing the data collection identifier. The
+       following is the API request that generates the URI prefix for a specific data collection name:</p>
   <codeblock>GET /rest/data_sources?name=Semios</codeblock>
   <p>An HTTP response of 200 OK indicates success and contains the following JSON:</p>
   <codeblock>

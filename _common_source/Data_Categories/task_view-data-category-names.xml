@@ -2,7 +2,7 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="task_view-data-categories">
     <title>View Data Categories</title>
-    <shortdesc>View the names of defined data categories on the<wintitle>Data Sources</wintitle>
+    <shortdesc>View the names of defined data categories on the<wintitle>Data Collections</wintitle>
         page. </shortdesc>
     <taskbody id="system-config_view-data-categories">
         <context>
@@ -10,12 +10,12 @@
         </context>
         <steps>
             <step>
-                <cmd>Open the <uicontrol>Data Sources</uicontrol> screen, by clicking the
-                        <uicontrol>Data Sources</uicontrol> icon in the left navigation bar. <image
+                <cmd>Open the <uicontrol>Data Collections</uicontrol> screen, by clicking the
+                        <uicontrol>Data Collections</uicontrol> icon in the left navigation bar. <image
                         href="../_images/gui-screen-shots/icon_datasources.JPG"
                         id="image_fmr_wzn_mq" scale="50"/></cmd>
                 <info>
-                    <p>The <wintitle>Data Sources</wintitle> page opens showing the defined data
+                    <p>The <wintitle>Data Collections</wintitle> page opens showing the defined data
                         categories.</p>
                     <fig id="fig_data-sources">
                         <image href="../_images/gui-screen-shots/data-sources.jpg"

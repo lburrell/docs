@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="task_modify-data-source">
-    <title>Modify Data Source Information</title>
-    <shortdesc>Modify data source information from the <wintitle>Data Sources</wintitle> page. </shortdesc>
+    <title>Modify Data Collection Information</title>
+    <shortdesc>Modify data collection information from the <wintitle>Data Collections</wintitle> page. </shortdesc>
     <taskbody>
         <context>
-            <p>To modify information for a particular data source:</p>
+            <p>To modify information for a particular data collection:</p>
         </context>
         <steps>
             <step>
-                <cmd>Open the <uicontrol>Data Sources</uicontrol> screen, by clicking the
-                        <uicontrol>Data Sources</uicontrol> icon. <image
+                <cmd>Open the <uicontrol>Data Collections</uicontrol> screen, by clicking the
+                    <uicontrol>Data Collections</uicontrol> icon. <image
                         href="../_images/gui-screen-shots/icon_datasources.JPG"
                         id="image_fmr_wzn_mq" scale="50"/> in the left navigation bar.</cmd>
                 <info>
-                    <p>The <wintitle>Data Sources</wintitle> page opens showing defined data
+                    <p>The <wintitle>Data Collections</wintitle> page opens showing defined data
                         categories.</p>
                     <fig id="fig_data-sources">
                         <image href="../_images/gui-screen-shots/data-sources.png"
@@ -23,8 +23,8 @@
                 </info>
             </step>
             <step>
-                <cmd>Click the data category that contains the data source, so that it expands and
-                    shows the data sources in the category.</cmd>
+                <cmd>Click the data category that contains the data collection, so that it expands and
+                    shows the data collection in the category.</cmd>
                 <info>
                     <fig id="fig_data-sources_data-sources">
                         <image href="../_images/gui-screen-shots/data-sources_data-sources.png"
@@ -33,8 +33,8 @@
                 </info>
             </step>
             <step>
-                <cmd>Click the data source name. </cmd>
-                <info>The page for the data source opens on the <wintitle>Data Policy</wintitle>
+                <cmd>Click the data collection name. </cmd>
+                <info>The page for the data collection opens on the <wintitle>Data Policy</wintitle>
                     screen. <fig id="fig_data-policy-cmplt">
                         <image href="../_images/gui-screen-shots/data-sources_data-policy_cmplt.png"
                             id="image_i2r_ck4_1r" scale="50"/>
@@ -47,7 +47,7 @@
                         screen. <xref href="task_define-data-policy.xml#task_define-data-policy">How
                             do I define a data policy?</xref></choice>
                     <choice>Click the <uicontrol>Data Processing Function</uicontrol> tab to change
-                        the DPF associated with this data source. <xref
+                        the DPF associated with this data collection. <xref
                             href="task_define-dpf.xml#task_define-dpf">How do I define the
                             DPF?</xref></choice>
                     <choice>Click the <uicontrol>Ingest Data</uicontrol> tab to access a screen

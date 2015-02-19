@@ -2,23 +2,23 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="task_manually-ingest-data">
     <title>Manually Ingest Data</title>
-    <shortdesc>You can quickly manually ingest files from a data source into <ph
-            conkeyref="product-vars/product-name"/> from the <wintitle>Data Sources</wintitle>
+    <shortdesc>You can quickly manually ingest files from a data collection into <ph
+            conkeyref="product-vars/product-name"/> from the <wintitle>Data Collections</wintitle>
         page.</shortdesc>
     <taskbody>
         <context>
             <p><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>At any point,
-                manual ingest of files for a Data Source can be performed or scheduled triggers can
+                manual ingest of files for a data collection can be performed or scheduled triggers can
                 be adjusted.<?oxy_custom_end?></p>
         </context>
         <steps id="steps_bh4_2h4_1r">
             <step>
-                <cmd>Open the <uicontrol>Data Sources</uicontrol> screen, by clicking the
-                        <uicontrol>Data Sources</uicontrol> icon in the left navigation bar. <image
+                <cmd>Open the <uicontrol>Data Collections</uicontrol> page, by clicking the
+                    <uicontrol>Data Collections</uicontrol> icon in the left navigation bar. <image
                         href="../_images/gui-screen-shots/icon_datasources.JPG"
                         id="image_fmr_wzn_mq" scale="50"/></cmd>
                 <info>
-                    <p>The <wintitle>Data Sources</wintitle> page opens showing defined data
+                    <p>The <wintitle>Data Collections</wintitle> page opens showing defined data
                         categories. <xref
                             href="../Data_Categories/con_data-categories.xml#concept_data-categories"
                             >Tell me about data categories.</xref></p>
@@ -29,7 +29,7 @@
                 </info>
             </step>
             <step>
-                <cmd>Click any data category to expand the category and see the data sources
+                <cmd>Click any data category to expand the category and see the data collection
                     included in the category.</cmd>
                 <info>
                     <fig id="fig_data-sources_data-sources">
@@ -39,8 +39,8 @@
                 </info>
             </step>
             <step>
-                <cmd>Click the data source name. The <wintitle>Data Policy</wintitle> screen for the
-                    data source opens.</cmd>
+                <cmd>Click the data collection name. The <wintitle>Data Policy</wintitle> screen for the
+                    data collection opens.</cmd>
                 <info>
                     <fig id="fig_data-policy-cmplt">
                         <image href="../_images/gui-screen-shots/data-sources_data-policy_cmplt.png"

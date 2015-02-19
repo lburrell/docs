@@ -5,7 +5,7 @@
  <shortdesc>High-level data categories help you classify the data that will be stored in <ph
    conkeyref="product-vars/product-name"/>. </shortdesc>
  <conbody>
-  <p>Each data category can include multiple data sources, data systems (such as different
+  <p>Each data category can include multiple collections, data systems (such as different
    databases), or data collections. For example, an organization might have a category BILLING,
    which could include data from several different billing systems in the organization. Another
    might have a category EKG, which might contain electrocardiograms from different data

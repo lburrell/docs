@@ -29,7 +29,7 @@
       one access policy or multiple access policies. </p>
     <p>If you have multiple access policies, it is possible for policies to conflict with one
       another and still represent a consistent governance policy, provided that each access policy
-      is used to control different data sources or datasets. For example, one access policy may
+      is used to control different data collections or datasets. For example, one access policy may
       allow users with <keyword>Researcher</keyword> authority to read
         <keyword>CONFIDENTIAL</keyword> data while another access policy does not. This can be
       perfectly consistent, given the policies control different data.</p>

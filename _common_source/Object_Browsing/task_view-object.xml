@@ -23,8 +23,8 @@
                 </info>
             </step>
             <step>
-                <cmd>Click the drop-down arrow on the <uicontrol>Data Source</uicontrol> field and
-                    select the data source containing the object.</cmd>
+                <cmd>Click the drop-down arrow on the <uicontrol>Data Collection</uicontrol> field and
+                    select the data collection containing the object.</cmd>
                 <info>The available objects are listed in the <wintitle>Objects</wintitle> text box.
                     Each object has the original file name it had on ingest, prepended with the
                     system key that <ph conkeyref="product-vars/product-name"/> has assigned.<fig

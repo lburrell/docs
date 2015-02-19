@@ -12,7 +12,7 @@
    performing data cleansing and enhanced indexing and cataloging. The DPF also structures data
    according to the organization’s needs. The result is data description at the element level
    embedding the rules and policies governing the data collection, as well as configured properties
-   such as the data source ownership, retention policy (time to live), and what visibility the
+   such as the data collection ownership, retention policy (time to live), and what visibility the
    element should have. For example, de-identification, encryption, and masking, along with other
    privacy restrictions.</p>
   <p>Standard PHEMI DPFs libraries are included that index and describe structured data, such as

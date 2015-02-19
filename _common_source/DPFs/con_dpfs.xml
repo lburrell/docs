@@ -2,14 +2,14 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_dpfs">
  <title>Associating DPFs with Data Collections</title>
- <shortdesc>Data Processing Functions are associated with a data source during data source
+ <shortdesc>Data Processing Functions are associated with a data collection during data collection
   configuration.</shortdesc>
  <conbody>
   <p conref="../_Glossary/con_glossary.xml#concept_glossary/dpf"/>
   <p><xref href="../Data_in_PHEMI/con_curate_dpfs.xml#concept_curate-dpfs">Tell me more about
     DPFs.</xref></p>
   <p conref="../_Glossary/con_glossary.xml#concept_glossary/dpf-archive"/>
-  <p>A DPF is associated with a data source as part of data collection configuration. To associate
+  <p>A DPF is associated with a data collection as part of data collection configuration. To associate
    the DPF with the data collection you upload the DPF archive on the data collection configuration
    page.</p>
   <p><ph conkeyref="product-vars/product-name"/> includes a library of helper functions to simplify

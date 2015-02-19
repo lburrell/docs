@@ -2,7 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="reference_query-sensor-data">
   <title>Query Sensor Data</title>
-  <shortdesc>Query data from a data source.</shortdesc>
+  <shortdesc>Query data from a data collection.</shortdesc>
   <refbody>
     <section>
       <title>URI</title>
@@ -10,17 +10,17 @@
     </section>
     <section>
       <title>Request Parameters</title>
-      <p>This request allows you to query data from a given data source based on various criteria
+      <p>This request allows you to query data from a given data collection based on various criteria
         such as attribute values and ranges. Query parameters or values must be correctly escaped
         for URLs as necessary.</p>
       <p>This request supports the following parameters.</p>
       <parml>
         <plentry>
           <pt><codeph><varname>attribute-name</varname>__<varname>operator</varname>=<varname>lexicoder</varname>:<varname>filter-value</varname></codeph></pt>
-          <pd>Queries the specified data source for the specified data. In this parameter:<ul
+          <pd>Queries the specified data collection for the specified data. In this parameter:<ul
               id="ul_gh3_tpr_gq">
               <li><codeph><varname>attribute-name</varname></codeph>: The raw-data attribute being
-                queried. The attribute name is defined in the DPF for the data source. </li>
+                queried. The attribute name is defined in the DPF for the data collection. </li>
               <li><codeph>__<varname>operator</varname></codeph>: The comparison operator specifying
                 how the query should be performed. Supported operators are listed in   <xref
                   href="../Overview/con_REST-query-operators.xml#concept_REST-query-operators"
@@ -246,7 +246,7 @@ order_by=-derived:id</codeblock><p>If
         <plentry>
           <pt>404 Not Found</pt>
           <pd>
-            <p>A resource associated with the query (for example, a data source) does not exist.</p>
+            <p>A resource associated with the query (for example, a data collection) does not exist.</p>
           </pd>
         </plentry>
         <plentry>
@@ -261,7 +261,7 @@ order_by=-derived:id</codeblock><p>If
       <title>Usage Guidelines </title>
       <p>In the following example:</p>
       <ul id="ul_wbl_zqz_gq">
-        <li>The data source ID is <codeph>540e5056e77989182bd5aad0</codeph>.</li>
+        <li>The data collection ID is <codeph>540e5056e77989182bd5aad0</codeph>.</li>
         <li>The ID of each derived data item takes the form
             <codeph>sensor_<varname>n</varname></codeph></li>
         <li>Data is to be returned for <codeph>sensor_1130</codeph> up to but not including

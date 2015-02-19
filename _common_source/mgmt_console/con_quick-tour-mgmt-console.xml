@@ -31,8 +31,8 @@
     <tbody>
      <row>
       <entry><image href="../_images/gui-screen-shots/icon_datasources.JPG" id="image_gbs_yfw_1r"
-        /><p>Data Sources</p></entry>
-      <entry>Manage data sources; manually ingest files; schedule file ingest.</entry>
+        /><p>Data Collections</p></entry>
+      <entry>Manage data collections; manually ingest files; schedule file ingest.</entry>
       <entry>
        <p><ph conkeyref="product-vars/admin"/></p>
       </entry>
@@ -57,7 +57,7 @@
      <row>
       <entry><image href="../_images/gui-screen-shots/icon_system-metrics.png" id="image_hr2_1gw_1r"/>
        <p>System Metrics</p></entry>
-      <entry>View metrics about data sources, system performance, and tasks.</entry>
+      <entry>View metrics about data collections, system performance, and tasks.</entry>
       <entry>
        <p><ph conkeyref="product-vars/admin"/></p>
       </entry>
@@ -66,14 +66,6 @@
       <entry><image href="../_images/gui-screen-shots/icon_users.JPG" id="image_ukj_1gw_1r"
         /><p>Users</p></entry>
       <entry>Manage <ph conkeyref="product-vars/product-name"/> users.</entry>
-      <entry>
-       <p><ph conkeyref="product-vars/admin"/></p>
-      </entry>
-     </row>
-     <row>
-      <entry><image href="../_images/gui-screen-shots/icon_system-maint.png" id="image_ill_1gw_1r"
-        /><p>System Maintenance</p></entry>
-      <entry>Run system tests.</entry>
       <entry>
        <p><ph conkeyref="product-vars/admin"/></p>
       </entry>

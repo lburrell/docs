@@ -33,12 +33,12 @@
                         >Define data visibilities.</xref></cmd>
             </step>
             <stepsection>
-                <p>Data categories must be added before you can define data sources. Access policies
-                    are optional for data source configuration, but if you are using access
-                    policies, you must configure the policies before configuring the data sources. </p>
+                <p>Data categories must be added before you can define data collections. Access policies
+                    are optional for data collection configuration, but if you are using access
+                    policies, you must configure the policies before configuring the data collections. </p>
                 <p>If you are using a Data Processing Function (DPF) to generate derived data from
                     raw data, you must prepare the DPF code archive before configuring the data
-                    source and upload the DPF archive during data source configuration.</p>
+                    source and upload the DPF archive during data collection configuration.</p>
             </stepsection>
             <step>
                 <cmd><xref href="../../_common_source/Data_Categories/con_data-categories.xml">Add
@@ -52,7 +52,7 @@
             <step>
                 <cmd><xref
                         href="../../_common_source/Data_Sources/con_data-sources.xml#concept_about-data-sources"
-                        >Define data sources.</xref></cmd>
+                    >Define data collections.</xref></cmd>
             </step>
             <stepsection>It is the <ph conkeyref="product-vars/data-analyst"/>, not the <ph
                     conkeyref="product-vars/admin"/>, who executes and exports datasets. However,

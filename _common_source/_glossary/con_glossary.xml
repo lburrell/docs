@@ -12,7 +12,7 @@
      <p id="access-policy">An access policy is a set of logical rules that determines how users can
       consume data stored in <ph conkeyref="product-vars/product-name"/>.  The access policy
       specifies what user authorizations are required to interact with data tagged with specified
-      sensitivity, or visibility. Access policies can be applied to data sources and datasets. </p>
+      sensitivity, or visibility. Access policies can be applied to data collections and datasets. </p>
     </dd>
    </dlentry>
    <dlentry>
@@ -41,7 +41,7 @@
             data (transformed from the raw data) are also each stored individually in cells. Any
             cell can be protected by applying data visibilities.For derived data, each derived item
             can be individually assigned a visibility (which may be different than that configured
-            for the data source) by the DPF performing the processing.</p>
+            for the data collection) by the DPF performing the processing.</p>
     </dd>
    </dlentry>
    <dlentry>
@@ -59,7 +59,7 @@
     <dd>
      <p audience="internal">One word (i.e., not "data set").</p>
      <p id="dataset">A dataset is a view, or map, of an underlying set of data. Data items in a
-            dataset can be selected from across multiple data sources. The dataset is a view, or
+       dataset can be selected from across multiple data collections. The dataset is a view, or
             map, to the underlying data. The actual content of the dataset (that is, the dataset's
             data) is generated when the dataset is executed or when it is queried against.</p>
     </dd>
@@ -67,7 +67,7 @@
    <dlentry>
     <dt>data category</dt>
     <dd>
-     <p audience="internal">Not "data source category" or "datasource category."</p>
+      <p audience="internal">Not "data collection category."</p>
      <p>Data categories are a way to classify data into broader groupings. Examples of data
       categories are "Research Reports," "X-Rays," and "Prescriptions."</p>
     </dd>
@@ -78,7 +78,7 @@
           <p audience="internal">Capitalized.</p>
           <p id="dpf"> A Data Processing Function, or DPF, is an executable piece of code that
             supplies the instructions for processing raw data (for example, a log message or medical
-            report) to extract from heterogeneous data sources meaningful, context-specific
+            report) to extract from heterogeneous data collections meaningful, context-specific
             information (such as a temperature reading or blood glucose measurement) that can be
             queried or exported for analysis. The code is executed by the <ph
               conkeyref="product-vars/product-name"/>
@@ -92,12 +92,12 @@
         </dd>
       </dlentry>
    <dlentry>
-    <dt>data source</dt>
+    <dt>data collection</dt>
     <dd>
      <p audience="internal">Two words (i.e., not "datasource").</p>
-     <p id="data-source">In <ph conkeyref="product-vars/product-name"/>, a data source is the set of
+      <p id="data-source">In <ph conkeyref="product-vars/product-name"/>, a data collection is the set of
             management and governance rules and policies that will be applied to a collection of
-            data. A data source configuration should be defined for each collection of data to be
+            data. A data collection configuration should be defined for each collection of data to be
             stored and managed according to the same retention, legal, and governance rules. </p>
     </dd>
    </dlentry>
@@ -127,8 +127,8 @@
      <p audience="internal">Note that "archive" is lower case.</p>
      <p id="dpf-archive">The set of code that makes up a DPF is called a DPF archive. A DPF archive
             is delivered as a ZIP file archive. It consists of two parts: a manifest file and a code
-            library. To associate a DPF with a data source, the DPF archive is ``registered`` with
-            the data source by uploading the archive during data source configuration.</p>
+            library. To associate a DPF with a data collection, the DPF archive is ``registered`` with
+            the data collection by uploading the archive during data collection configuration.</p>
     </dd>
    </dlentry>
       <dlentry>
@@ -141,12 +141,12 @@
     <dt>ingestion</dt>
     <dd>
      <p id="ingestion">Ingestion is the process by which data is brought into in <ph
-              conkeyref="product-vars/product-name"/>. The sending system (the data source) submits
+       conkeyref="product-vars/product-name"/>. The sending system (the data source) submits
             the data to <ph conkeyref="product-vars/product-name"/>, which listens for the data
             using a web service. Data can also be ingested manually, by using the <ph
               conkeyref="product-vars/product-name"/>
             <ph conkeyref="product-vars/gui-name"/>. The specific characteristics of data ingestion
-            can be specified per data source as part of the data source configuration. </p>
+       can be specified per data collection as part of the data collection configuration. </p>
     </dd>
    </dlentry>
    <dlentry>
@@ -180,7 +180,7 @@
     <dd>
      <p id="manifest-file">A manifest file is a JSON file that specifies the output of a DPF. With
       the code library, the manifest file makes up the DPF archive that is uploaded to register the
-      DPF with a data source. The manifest file should include the properties of the DPF along with
+      DPF with a data collection. The manifest file should include the properties of the DPF along with
       the details of each derived data item to be generated. </p>
     </dd>
    </dlentry>
@@ -192,7 +192,7 @@
               conkeyref="product-vars/product-name"/>, metadata is information about how a given
             piece of data is to be managed. When a piece of raw data is ingested into <ph
               conkeyref="product-vars/product-name"/>, information from the connection (for example,
-            the timestamp) together with policy information configured for the data source (for
+       the timestamp) together with policy information configured for the data collection (for
             example, the data visibility) and some derived information (for example, a "time to
             live," as derived from the timestamp and the data retention policy) is used to create
             metadata properties that are stored with the data. Further, <ph

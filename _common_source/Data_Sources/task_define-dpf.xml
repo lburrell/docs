@@ -2,14 +2,14 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
 <task id="task_define-dpf">
     <title>Specify the Data Processing Function</title>
-    <shortdesc>To associate a DPF with a data source, you upload the DPF archive onto the Data
-        Processing Function screen of the Data Sources page.</shortdesc>
+    <shortdesc>To associate a DPF with a data collection, you upload the DPF archive onto the Data
+        Processing Function screen of the Data Collections page.</shortdesc>
     <taskbody>
         <context>
             <p>
                 <xref href="../DPFs/con_dpfs.xml#concept_dpfs">Tell me about DPFs and DPF
                     archives.</xref></p>
-            <p>To associate a DPF with a data source:</p>
+            <p>To associate a DPF with a data collection:</p>
         </context>
         <steps id="steps_qxv_jfq_yq">
             <step>
@@ -17,7 +17,7 @@
                         Sources</wintitle> page, click the <uicontrol>Data Processing
                         Function</uicontrol> tab.</cmd>
                 <info>The <wintitle>Data Processing Function</wintitle> screen opens. When you first
-                    define a data source, no Data Processing Function (DPF) is associated with it.
+                    define a data collection, no Data Processing Function (DPF) is associated with it.
                         <fig id="fig_data-source-no-dpf">
                         <image href="../_images/gui-screen-shots/data-sources_no-dpf.png"
                             id="image_cfz_r14_1r" scale="50"/>

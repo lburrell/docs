@@ -27,7 +27,7 @@
        <ul id="ul_b5r_4tp_kq">
         <li>System configuration: password policy, dataset destinations, data retention behavior,
          data categories, data visibilities, and user authorizations</li>
-        <li>Configure data sources, including deploying DPFs</li>
+        <li>Configure data collections, including deploying DPFs</li>
         <li>Create access policies</li>
         <li>Monitor system metrics</li>
         <li>Manage users</li>

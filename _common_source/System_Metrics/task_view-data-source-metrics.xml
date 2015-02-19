@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="task_view-data-source-metrics">
-    <title>View Data Source Metrics</title>
-    <shortdesc> View statistics about data sources on the <wintitle>Data Source Metrics</wintitle>
+    <title>View Data Collection Metrics</title>
+    <shortdesc> View statistics about data collections on the <wintitle>Data Collections Metrics</wintitle>
         tab of the  <wintitle>System Metrics</wintitle> page.</shortdesc>
     <taskbody>
         <context>
-            <p>To view data source metrics:</p>
+            <p>To view data collection metrics:</p>
         </context>
         <steps id="steps_jrp_dwf_cr">
             <step>
@@ -16,7 +16,7 @@
                         id="image_fmr_wzn_mq" scale="50"/></cmd>
                 <info>
                     <p>The <wintitle>System Metrics</wintitle> page opens showing the
-                            <wintitle>Global Metrics</wintitle> pane and the <wintitle>Data Source
+                        <wintitle>Global Metrics</wintitle> pane and the <wintitle>Data Collection
                             Metrics</wintitle> tab. </p>
                     <fig id="fig_system-metrics">
                         <image href="../_images/gui-screen-shots/system-metrics.png"
@@ -25,11 +25,11 @@
                 </info>
             </step>
             <step>
-                <cmd>By default, the <wintitle>Data Source Metrics</wintitle> pane shows metrics for
-                    all data sources. To view information for some other set of data sources, click
-                    the drop-down arrow in the <wintitle>Data Sources</wintitle> field and check
-                    each data source you want included in the metrics. If you want to include all
-                    data sources, you can check <wintitle>All</wintitle>.</cmd>
+                <cmd>By default, the <wintitle>Data Collection Metrics</wintitle> pane shows metrics for
+                    all data collections. To view information for some other set of data collections, click
+                    the drop-down arrow in the <wintitle>Data Collections</wintitle> field and check
+                    each data collection you want included in the metrics. If you want to include all
+                    data collections, you can check <wintitle>All</wintitle>.</cmd>
             </step>
             <step>
                 <cmd>Choose the query period: select <wintitle>Now</wintitle> to see a current

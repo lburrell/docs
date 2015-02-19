@@ -17,7 +17,7 @@
                         id="image_fmr_wzn_mq" scale="50"/></cmd>
                 <info>
                     <p>The <wintitle>System Metrics</wintitle> page opens showing the
-                            <wintitle>Global Metrics</wintitle> pane and the <wintitle>Data Source
+                            <wintitle>Global Metrics</wintitle> pane and the <wintitle>Data Collection
                             Metrics</wintitle> tab. </p>
                     <fig id="fig_system-metrics">
                         <image href="../_images/gui-screen-shots/system-metrics.png"

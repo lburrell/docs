@@ -16,7 +16,7 @@
    <li>If the schema of the source or destination system changes</li>
    <li>If the characteristics of your data change</li>
    <li>If the requirements of a user or an application change</li>
-   <li>If a new, disparate data source needs to be brought online</li>
+   <li>If a new, disparate data collection needs to be brought online</li>
   </ul>
  </conbody>
 </concept>
