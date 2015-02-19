@@ -2,17 +2,36 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_security">
  <title>Security</title>
- <shortdesc/>
+ <shortdesc>Security is the means by which you maintain privacy and protect information
+  assets.</shortdesc>
  <conbody>
-  <p/>
-  <p>data encryption, audit logs, and data validation</p>
-  <p>Role-Based Access Control User roles determine what operations a user can perform. For example,
-   only users with a role of administrator can configure the system, while only users with a role of
-   data analyst can execute or export a dataset.</p>
-  <p>Configurable Password Policy</p>
-  <p>An audit log</p>
-  <p>Data encryption. Encryption in motion</p>
-  <p>Encryption at rest</p>
-  <p>PHEMI assumes you are in a trusted network</p>
+  <p><ph conkeyref="product-vars/product-name"/> includes a number of security mechanisms:</p>
+  <ul id="ul_syt_3lb_dr">
+   <li>
+    <p><b>Role-Based Access Control</b>—User roles determine what operations a user can perform. For
+     example, only users with a role of <ph conkeyref="product-vars/admin"/> can configure the
+     system, while only users with a role of <ph conkeyref="product-vars/data-analyst"/> can query
+     data and execute or export a dataset. <xref
+      href="../users/con_user-roles.xml#concept_users-roles">Tell me about user roles.</xref></p>
+   </li>
+   <li>
+    <p><b>Configurable Password Policy</b>—<ph conkeyref="product-vars/product-name"/> allows you to
+     configure the password policy that defines how strong user passwords have to be. <xref
+      href="../Passwords/con_password-policy.xml#concept_password-policies">Tell me about the
+      password policy.</xref></p>
+   </li>
+   <li>
+    <p><b>Audit Log</b>—<ph conkeyref="product-vars/product-name"/> maintains complete audit logs of
+     system and user operations. They include all create, modify, and delete operations, and a
+     record of all queries made to the system through the <ph conkeyref="product-vars/RESTful-API"
+     />. The audit log files are completely tamperproof for all users. </p>
+   </li>
+   <li>
+    <p><b>Encryption in motion</b>—<ph conkeyref="product-vars/product-name"/> assumes your system
+     is deployed on a trusted network. However, you can encrypt links from data sources and to
+     consuming applications and analytics tools using either Secure Sockets Layer (SSL) or Transport
+     Layer Security (TLS).</p>
+   </li>
+  </ul>
  </conbody>
 </concept>

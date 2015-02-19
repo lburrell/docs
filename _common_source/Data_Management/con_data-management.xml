@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
-<concept id="concept_wnl_hbs_5q">
+<concept id="concept_data-mgmt">
  <title>Data Management</title>
- <shortdesc></shortdesc>
+ <shortdesc>Proper management of data through its lifecycle is critical as volumes grow and variety
+  increases. </shortdesc>
  <conbody>
-  <p>PHEMI Central’s data management features allow you to manage your organization’s data according
-   to the privacy and access policies that govern digital assets being managed within PHEMI
-   Central.</p>
-  <p/>
+  <p><ph conkeyref="product-vars/product-name"/> includes advanced data management features such as
+   version control, rollback, and retention rules. A sophisticated metadata framework allows
+   information to be managed at the field level throughout its lifecycle. This family of features
+   brings the data management capabilities of enterprise-grade traditional data warehouses to big
+   data. </p>
  </conbody>
 </concept>

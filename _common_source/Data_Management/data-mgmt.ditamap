@@ -5,7 +5,6 @@
  <topicref href="con_data-management.xml">
   <topicref href="con_metadata-framework.xml"/>
   <topicref href="../DPFs/con_dpf-framework.xml"/>
-  <topicref href="con_indexing-cataloging.xml"/>
   <topicref href="con_data-immutability.xml"/>
   <topicref href="con_version-control.xml"/>
   <topicref href="../Lifecycle_Management/con_lifecycle-mgmt.xml"/>

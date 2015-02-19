@@ -10,10 +10,15 @@
    <li>Privacy is restricting information access to those who have the right to access it. </li>
    <li>Security is the means by which you maintain privacy and protect information assets.</li>
    <li>Governance is the set of processes, roles, policies, controls, and metrics that an
-    organization develops and places around information to manage its security and privacy. </li>
+    organization develops and implements around information to manage its security and privacy.
+   </li>
   </ul>
+  <fig id="fig_psg">
+   <image href="../_images/marketing-diagrams/Privacy_Security_Governance/psg.png"
+    id="image_t3f_fkb_dr"/>
+  </fig>
   <p><ph conkeyref="product-vars/product-name"/> is designed from the ground up to be able to manage
-   crucia aspects of privacy and security, and to accurately reflect your organization's governance
-   policies.</p>
+   crucia aspects of privacy and security, and to be able to accurately reflect your organization's
+   governance policies.</p>
  </conbody>
 </concept>

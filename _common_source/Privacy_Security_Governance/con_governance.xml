@@ -2,29 +2,18 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_governance">
  <title>Governance</title>
- <shortdesc> Information governance is about controlling an organization’s data. </shortdesc>
+ <shortdesc> Governance is the set of processes, roles, policies, controls, and metrics that an
+  organization develops and implements around information to manage its security and privacy. </shortdesc>
  <conbody>
-  <p>The data may be sensitive; or perhaps it is important that the data be absolutely accurate; or
-   perhaps the organization must achieve legislative and compliance targets. Data governance
-   includes the process and policies around the protection, curation, and access to data and
-   encompasses all of privacy protection, data security, and data audit.</p>
-  <p>Information governance is about controlling an organization’s data. The data may be sensitive;
-   or perhaps it is important that the data be absolutely accurate; or perhaps the organization must
-   achieve legislative and compliance targets. Data governance includes the process and policies
-   around the protection, curation, and access to data. Data governance encompasses all of privacy
-   protection, data security, and data audit. </p>
-  <p>PHEMI Central helps organizations achieve compliance objectives by providing an
-   industry-pioneering set of capabilities to manage the privacy, security, and governance of data.
-   These capabilities are fully configurable and are automatically enforced throughout the data
-   lifecycle.</p>
+  <p> Information governance is about controlling and protecting an organization’s data. The data
+   may be sensitive, or perhaps it is important that the data be absolutely accurate, or perhaps the
+   organization must achieve legislative and compliance targets. Data governance includes the
+   process and policies around the protection, curation, and access to data and encompasses all of
+   privacy protection, data security, lifecycle management, and data audit.</p>
   <p>A governance policy is a coordinated approach to protecting data and assigning privileges to
    users. To control and protect your data, your organization should have a clearly defined policy
    governing data.</p>
-  <p><ph conkeyref="product-vars/product-name"/> enforces governance policies for privacy and
-   security within the data warehouse, rather than at the application layer. In-system governance
-   ensures that data custodians, not application developers, retain control over privacy and
-   security. Managing privacy and security within the data store also simplifies application
-   development and the use of analytics tools.</p>
-  <p/>
+  <p><xref href="task_define-governance-policy.xml#task_define-governance-policy">How do I define a
+    governance policy?</xref></p>
  </conbody>
 </concept>
