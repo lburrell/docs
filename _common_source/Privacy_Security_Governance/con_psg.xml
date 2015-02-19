@@ -2,21 +2,19 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_psg-in-PHEMI">
  <title>Privacy, Security, and Governance </title>
- <shortdesc/>
+ <shortdesc>The intention of privacy, security, and governance is to protect informaton and ensure
+  rightful access.</shortdesc>
  <conbody>
+  <p>Privacy, security, and governance are not all the same thing.</p>
+  <ul id="ul_ivp_5db_dr">
+   <li>Privacy is maintaining rightful access to data, so that only those users who should access
+    data are able to. </li>
+   <li>Security is the means by which privacy is maintained.</li>
+  </ul>
   <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
-  <p>Protect information and ensure rightful access at scale</p>
   <p>PHEMI Central manages crucial aspects of privacy and security such as data encryption, audit
    logs, and data validation. Privacy and security are designed in from the ground up to be able to
    accurately reflect your organization’s governance policies.</p>
   <?oxy_custom_end?>
-  <p>Information governance is about controlling an organization’s data. The data may be sensitive;
-   or perhaps it is important that the data be absolutely accurate; or perhaps the organization must
-   achieve legislative and compliance targets. Data governance includes the process and policies
-   around the protection, curation, and access to data. Data governance encompasses all of privacy
-   protection, data security, and data audit. PHEMI Central helps organizations achieve compliance
-   objectives by providing an industry-pioneering set of capabilities to manage the privacy,
-   security, and governance of data. These capabilities are fully configurable and are automatically
-   enforced throughout the data lifecycle.</p>
  </conbody>
 </concept>

@@ -5,6 +5,7 @@
  <shortdesc/>
  <conbody>
   <p/>
+  <p>data encryption, audit logs, and data validation</p>
   <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
   <p>At the same time, at no time can users, applications or external systems bypass the PHEMI
    policy enforcement engine to access data directly. </p>

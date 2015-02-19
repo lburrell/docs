@@ -10,9 +10,9 @@
     </section>
     <section>
       <title>Request Parameters</title>
-      <p>This request allows you to query data from a given data collection based on various criteria
-        such as attribute values and ranges. Query parameters or values must be correctly escaped
-        for URLs as necessary.</p>
+      <p>This request allows you to query raw data from a given data collection based on various
+        criteria such as attribute values and ranges. Query parameters or values must be correctly
+        escaped for URLs as necessary.</p>
       <p>This request supports the following parameters.</p>
       <parml>
         <plentry>

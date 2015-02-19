@@ -4,38 +4,34 @@
  <title>Consume</title>
  <shortdesc/>
  <conbody>
-  <p>The data elements stored in <ph conkeyref="product-vars/product-name"/> can be queried in a
-   number of ways. You can contructs datasets using any available data element,  across multiple and
-   disparate data collections. </p>
-  <p>Datasets are virtual constructs that can be created in advance or on demand and altered
-   whenever circumstances demand. Datasets are instantiated only when executed. It is not necessary
-   to predefine the data needed or to navigate a complex database schema. Datasets can bring
-   together any subset of the digital assets in the system, across any data collection of any format
-   or type. Because all data is indexed and cataloged in advance, dataset execution is fast.</p>
-  <p>The <ph conkeyref="product-vars/product-name"/> Policy Enforcement Engine mediates all requests
-   for data. Users or exporters can only access data based on data privacy tags, user
-   authorizations, and access policies, so access to data remains governance-compliant at all times.  </p>
+  <p>The data elements stored in <ph conkeyref="product-vars/product-name"/> is accessed by querying
+   the system. Queries can be made in a number of ways.</p>
+  <ul id="ul_esb_pv1_dr">
+   <li>You can locate and download the original data object using the <ph
+     conkeyref="product-vars/product-name"/>
+    <ph conkeyref="product-vars/gui-name"/> Object Browser.</li>
+   <li>
+    <p>You can query a data collection or dataset using the PHEMI <ph
+      conkeyref="product-vars/RESTful-API"/>.</p>
+   </li>
+   <li>
+    <p>You can download data from a dataset into Excel, CSV, or TSV format.</p>
+   </li>
+   <li>
+    <p>You can export a dataset to a portal, tool, or application, using the <ph
+      conkeyref="product-vars/RESTful-API"/> or a JDBC/ODBC connector.</p>
+   </li>
+   <li>
+    <p>You can export a dataset to SAP HANA using the SAP Smart Data Access connector.</p>
+   </li>
+  </ul>
+  <p>In all cases, <ph conkeyref="product-vars/product-name"/>'s Policy Enforcement Engine strictly
+   enforces your organization’s privacy and security policies to enforce rightful access to
+   data.</p>
+  <p><xref href="../datasets/con_datasets.xml#concept_datasets">Tell me about datasets.</xref></p>
   <fig id="fig_consume">
    <image href="../_images/marketing-diagrams/Consume/consume_focus_architecture.png"
     id="image_dnw_vf4_cr" scale="60"/>
   </fig>
-  <p>Datasets can be be executed directly by users and downloaded or exported to spreadsheets,
-   applications, or analytics tools. Export can occur in a variety of ways: </p>
-  <ul id="ul_m5w_2f4_cr">
-   <li>
-    <p>To a Microsoft Excel spreadsheet or to a Comma Separated Value (CSV) file </p>
-   </li>
-   <li>
-    <p>To a custom application via the PHEMI <ph conkeyref="product-vars/RESTful-API"/></p>
-   </li>
-   <li>
-    <p>To applications and analytics tools via ODBC/JDBC connectors </p>
-   </li>
-   <li>
-    <p>To SAP HANA via the SAP Smart Data Access connector </p>
-   </li>
-  </ul>
-  <p>In all cases, <ph conkeyref="product-vars/product-name"/> strictly enforces your organization’s
-   privacy and security policies to enforce rightful access to data.</p>
  </conbody>
 </concept>

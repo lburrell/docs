@@ -2,24 +2,37 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_datasets">
  <title>Datasets</title>
- <shortdesc/>
+ <shortdesc>A dataset is a specific view of data in <ph conkeyref="product-vars/product-name"/> that
+  is accessible toa given set of users.</shortdesc>
  <conbody>
-  <p>A dataset is a specific view of data in <ph conkeyref="product-vars/product-name"/> that is
-   accessible toa given set of users. The users working with the dataset must have a role of <ph
-    conkeyref="product-vars/data-analyst"/>. The view provided by the dataset can be across multiple
-  data collections.</p>
-  <p>Any data elements from any data collection may be included in a dataset. Defining a dataset does
-   not modify configuration for data collections or impact protections to data. </p>
-  <p>Datasets are typically created for research or exploratory data use, and the intended use for
-   datasets may differ from the intended use of an individual data collection. In particular, the
-   governance and controls required for a dataset may differ from those specified its constituent
-   data collections. For this reason, you can attach an access policy to a dataset that is independent
-   of the access policies attached to the consistuent data collections.</p>
-  <p>Once a dataset is built by a <ph conkeyref="product-vars/admin"/>, it can be executed by users
-   with a role of <ph conkeyref="product-vars/data-analyst"/>. A single dataset can be executed by
-   multiple users--even by users with different authorizations. A given user's actual view into the
-   data in an executed dataset is restricted by his or her authorization. Thus, two users with
-   different authorizations might execute the same dataset but end up with a different set of
-   data.</p>
+  <p>Datasets are virtual constructs, created by selecting data elements from across all of the
+   digital assets data collections stored in <ph conkeyref="product-vars/product-name"/>.  You can
+   contsruct dataset using any available data elements, across multiple and disparate data
+   collections.  They can be created in advance or on demand, and they can be altered whenever
+   circumstances demand. You don't have to predefine the data, and you don't have to navigate a
+   complex database schema.  </p>
+  <p> To be able to define a dataset, a user must have a role of <ph conkeyref="product-vars/admin"
+   />. To be able to execute or export a dataset, a user must have a role of <ph
+    conkeyref="product-vars/data-analyst"/>. </p>
+  <p>Datasets are instantiated only when they are executed. Datasets can be be executed directly by
+   users and downloaded or exported to spreadsheets, applications, or analytics tools.  It is not
+   necessary to predefine the data needed or to navigate a complex database schema.  Because all
+   data is indexed and cataloged in advance, dataset execution is fast.</p>
+  <p>Defining a dataset does not modify any configuration for data collections or impact any
+   protections to data, because the <ph conkeyref="product-vars/product-name"/> Policy Enforcement
+   Engine mediates all requests for data. Users can only access and export data based on data
+   visibility tags, user authorizations, and access policies, so access to data remains
+   governance-compliant at all times.  </p>
+  <p>Datasets are often created for research or exploratory data use. As such, the intended use for
+   a given dataset may be different from the intended use of the original data collections. In
+   particular, the governance and controls intended for the data in a dataset may differ from the
+   governance of the original data collections. In <ph conkeyref="product-vars/product-name"/>, you
+   can attach an access policy to a dataset that is different from, and independent of, the access
+   rules applied to the consistuent data collections.</p>
+  <p>Similarly, a single dataset can be executed by multiple users—even by users with different
+   authorizations. A given user's actual view into the data in an executed dataset is always
+   mediated by the Policy Enforcement Engine, and is therefore restricted by the data visibility and
+   the user authorizations, as experssed in an access policy. Thus, two users with different
+   authorizations might execute the same dataset but end up with a different view of data.</p>
  </conbody>
 </concept>

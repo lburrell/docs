@@ -5,6 +5,33 @@
  <shortdesc>Data can be submitted to PHEMI using a REST API, using FTP or SSH batch ingestion, or
   using ETL tools.</shortdesc>
  <conbody>
+  <p>Data can be ingested and aggregated from multiple disparate sources, bringing together and
+   consolidating data silos. Data can be imported in a variety of ways:</p>
+  <ul id="ul_o1m_wjn_cr">
+   <li><b>Streaming</b>—Machine-to-machine data collections, such as telemetry and hospital bedside
+    monitors, can stream data to <ph conkeyref="product-vars/product-name"/> by means of the PHEMI
+     <ph conkeyref="product-vars/RESTful-API"/>.</li>
+   <li>
+    <p><b>Push</b>—Data collections and extract, transform, and load (ETL) tools can publish to <ph
+      conkeyref="product-vars/product-name"/> using either JDBC or the PHEMI <ph
+      conkeyref="product-vars/RESTful-API"/>. </p>
+   </li>
+   <li>
+    <p><b>Pull</b>—Custom connectors based on the PHEMI <ph conkeyref="product-vars/RESTful-API"/>
+     can be deployed to allow <ph conkeyref="product-vars/product-name"/> to fetch data from
+     sources. </p>
+   </li>
+   <li>
+    <p><b>Manually</b>—Files can be manually uploaded to <ph conkeyref="product-vars/product-name"/>
+     from a standard browser window. </p>
+   </li>
+   <li>
+    <p><b>Store by Reference and Action</b>—<ph conkeyref="product-vars/product-name"/> can
+     reference remote data or a remote dataset through a URL, stored procedure, SQL query, external
+     table, or the <ph conkeyref="product-vars/RESTful-API"/>. Applications can also be stored and
+     executed, causing external tables or external data to be accessed and pre-processed. </p>
+   </li>
+  </ul>
   <p/>
  </conbody>
 </concept>
