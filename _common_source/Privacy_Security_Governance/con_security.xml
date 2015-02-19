@@ -6,16 +6,12 @@
  <conbody>
   <p/>
   <p>data encryption, audit logs, and data validation</p>
-  <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
-  <p>At the same time, at no time can users, applications or external systems bypass the PHEMI
-   policy enforcement engine to access data directly. </p>
-  <?oxy_custom_end?>
   <p>Role-Based Access Control User roles determine what operations a user can perform. For example,
    only users with a role of administrator can configure the system, while only users with a role of
    data analyst can execute or export a dataset.</p>
   <p>Configurable Password Policy</p>
   <p>An audit log</p>
-  <p>Encryption in motion</p>
+  <p>Data encryption. Encryption in motion</p>
   <p>Encryption at rest</p>
   <p>PHEMI assumes you are in a trusted network</p>
  </conbody>
