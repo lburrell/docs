@@ -2,45 +2,22 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_metadata-framework">
  <title>Metadata Framework</title>
- <shortdesc/>
+ <shortdesc>The power and sophistication of <ph conkeyref="product-vars/product-name"/>’s data
+  management capability arises from its powerful metadata framework, which extends across the
+  system.</shortdesc>
  <conbody>
-  <p>Powerful Metadata Framework The power and sophistication of PHEMI Central’s data management
-   capability arises from its powerful metadata framework, which extends from end to end across the
-   system. Metadata is applied on ingestion and enriched by cataloging, indexing, and invoking data
-   processing functions. The result is data description at the element level embedding the rules and
-   policies governing the element, as well as configured properties such as the data collection
-   ownership, retention time (time to live), and what visibility the element should have. For
-   example, de-identification, encryption, and masking, along with other privacy restrictions can be
-   enforced per data item, at the cell level. In a traditional system, a user would have to plan a
-   file-system hierarchy or a database schema. Data would be forced to comply with this rigid
-   hierarchy, and everyone just has to hope that the design scales and that requirements do not
-   change. When PHEMI Central’s metadata framework is deployed with its scalable distributed
-   key-value store (based on Accumulo), users no longer need worry about how to structure the
-   system. PHEMI Central structures data automatically, on the fly. Data scales to large volumes at
-   minimal cost while still providing fast access, and changes to requirements do not necessitate
-   changes to design of the data store.</p>
-  <p>Users and integrated applications benefit from the metadata because they can use simple
-   web-service calls based on the properties of the data, rather than having to navigate complex
-   directories or schemas to find the data they seek.</p>
-  <p>Governance Rule Enforcement Most organizations have governance rules and data sharing
-   agreements that stipulate how data may be used and shared. Governance rules are instantiated in
-   PHEMI Central through configuration, using the PHEMI Central Data Management and Governance
-   Console. PHEMI Central manages and enforces data sharing agreements by flagging the sensitivity
-   of individual digital assets, tracking the retention period, recording rules around version
-   control, and specifying de-identification, encryption, and data access permissions. Automating
-   this function at scale across a variety of data collections and types is critical to managing
-   privacy, security, and governance.</p>
-  <p>Flexible, Attribute-Based Access Policies: Decoupling Data Protection from Data Use PHEMI
-   Central can automatically de-identify, encrypt, or mask personal information and enforce privacy
-   based on sophisticated user access privileges and fine-grained sharing and consent rules. PHEMI
-   Central stores the fully identified data but strictly controls the rightful use of all digital
-   assets. When the user’s access privileges and the recorded data sharing agreements dictate, PHEMI
-   Central can invoke a data processing function to de-identify or anonymize any information
-   information. Anonymization and deidentification may include disallowing access to personally
-   identifiable information, masking certain information, redacting content, or may involve more
-   sophisticated data dependency algorithms to reduce the risk of reidentification. Centralizing
-   anonymization and de-identification helps reduce data sprawl and reduces the risk of data
-   consistency errors.</p>
-  <p/>
+  <p>Metadata is applied on ingestion and enriched by cataloging, indexing, and invoking Data
+   Processing Functions. The result is data description at the element level that embeds the rules
+   and policies governing the element, as well as configured properties such as the data collection
+   ownership, retention time (time to live), and what visibility the element should have. This means
+   that de-identification, encryption, and masking, and other privacy restrictions can be enforced
+   per data item, at the cell level. </p>
+  <p><ph conkeyref="product-vars/product-name"/>’s metadata framework, with its distributed
+   key-value store means that system designers do not have to worry how to structure the system.<ph
+    conkeyref="product-vars/product-name"/> structures data automatically, on the fly. Data scales
+   to large volumes while still providing fast access, and changes to requirements do not
+   necessitate changes to design of the data store. Users and integrated applications benefit from
+   the metadata because they can use simple queries based on the properties of the data, rather than
+   having to navigate complex directories or schemas to find the data they seek.</p>
  </conbody>
 </concept>

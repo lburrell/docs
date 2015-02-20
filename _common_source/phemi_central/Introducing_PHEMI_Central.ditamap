@@ -5,20 +5,8 @@
  <keydef keys="product-vars" href="../_Variables/PHEMI_Central/con_Product-Vars.xml"/>
  <topicref href="con_introducing-PHEMI-Central.xml">
   <topicref href="con_PHEMI-Central-ovw.xml"/>
-  <topicref href="../Data_in_PHEMI/con_data-in-PHEMI.xml">
-   <topicref href="../Data_in_PHEMI/con_collection.xml"/>
-   <topicref href="../Data_in_PHEMI/con_curation.xml">
-    <topicref href="../Data_in_PHEMI/con_curate_schemaless-storage.xml"/>
-    <topicref href="../Data_in_PHEMI/con_curate_dpfs.xml"/>
-    <topicref href="../Data_in_PHEMI/con_curate_index-catalog.xml"/>
-    <topicref href="../Data_in_PHEMI/con_curate_data-linking.xml"/>
-    <topicref href="../Data_in_PHEMI/con_curate_data-dictionary.xml"/>
-   </topicref>
-   <topicref href="../Data_in_PHEMI/con_consumption.xml"/>
-  </topicref>
-  <mapref
-   href="../../_common_source/Privacy_Security_Governance/privacy-security-governance.ditamap"
-   format="ditamap"/>
-  <mapref href="../../_common_source/Data_Management/data-mgmt.ditamap" format="ditamap"/>
+  <mapref href="../Data_in_PHEMI/Data-in-PHEMI.ditamap" format="ditamap"/>
+  <mapref href="../Privacy_Security_Governance/privacy-security-governance.ditamap" format="ditamap"/>
+  <mapref href="../Data_Management/data-mgmt.ditamap" format="ditamap"/>
  </topicref>
 </map>

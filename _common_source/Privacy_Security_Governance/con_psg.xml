@@ -2,9 +2,15 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_psg-in-PHEMI">
  <title>Privacy, Security, and Governance </title>
- <shortdesc>The intention of privacy, security, and governance is to protect informaton and ensure
+ <shortdesc>The intention of privacy, security, and governance is to protect information and ensure
   rightful access.</shortdesc>
  <conbody>
+  <p><ph conkeyref="product-vars/product-name"/> is designed from the ground up to be able to manage
+   crucial aspects of privacy and security, and to be able to accurately reflect your organization's
+   governance policies.</p>
+  <fig id="fig_priv-sec-gov">
+   <image href="../_images/mktg/priv_sec_gov.png" id="image_dbz_rdc_dr"/>
+  </fig>
   <p>Privacy, security, and governance are not all the same thing.</p>
   <ul id="ul_ivp_5db_dr">
    <li>Privacy is restricting information access to those who have the right to access it. </li>
@@ -14,11 +20,7 @@
    </li>
   </ul>
   <fig id="fig_psg">
-   <image href="../_images/marketing-diagrams/Privacy_Security_Governance/psg.png"
-    id="image_t3f_fkb_dr"/>
+   <image href="../_images/mktg/psg.png" id="image_t3f_fkb_dr"/>
   </fig>
-  <p><ph conkeyref="product-vars/product-name"/> is designed from the ground up to be able to manage
-   crucia aspects of privacy and security, and to be able to accurately reflect your organization's
-   governance policies.</p>
  </conbody>
 </concept>

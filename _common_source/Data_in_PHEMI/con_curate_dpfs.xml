@@ -2,13 +2,12 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_curate-dpfs">
  <title>DPF Framework</title>
- <shortdesc/>
+ <shortdesc>A Data Processing Function (DPF) is an executable piece of code, written in any modern
+  programming language, that transforms the original raw data  into analytics-ready digital assets
+  specifically targeted for your organization’s needs. </shortdesc>
  <conbody>
-  <p>A Data Processing Function (DPF) is an executable piece of code, written in any modern
-   programming language, that transforms the original raw data (for example, a log message or
-   medical report) into analytics-ready digital assets specifically targeted for your organization’s
-   needs (such as a temperature reading or blood glucose measurement). </p>
-  <p>The DPF supplies the instructions for parsing the raw data, extracting key content and
+  <p>The DPF supplies the instructions for parsing the raw data (for example, a log message or
+   medical report), extracting key content (for example, a log message or medical report) and
    performing data cleansing and enhanced indexing and cataloging. The DPF also structures data
    according to the organization’s needs. The result is data description at the element level
    embedding the rules and policies governing the data collection, as well as configured properties

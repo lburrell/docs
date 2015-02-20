@@ -2,11 +2,11 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
  <title>Data Management</title>
+ <keydef keys="product-vars" href="../_Variables/PHEMI_Central/con_Product-Vars.xml"/>
  <topicref href="con_data-management.xml">
   <topicref href="con_metadata-framework.xml"/>
-  <topicref href="../DPFs/con_dpf-framework.xml"/>
+  <topicref href="../Lifecycle_Management/con_lifecycle-mgmt.xml"/>
   <topicref href="con_data-immutability.xml"/>
   <topicref href="con_version-control.xml"/>
-  <topicref href="../Lifecycle_Management/con_lifecycle-mgmt.xml"/>
  </topicref>
 </map>

@@ -2,13 +2,11 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_data-immutability">
  <title>Data Immutability</title>
- <shortdesc/>
+ <shortdesc>PHEMI Central stores all data in a write-only data system that is never
+  modified.</shortdesc>
  <conbody>
-  <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
-  <p>Data Immutability PHEMI Central stores all data in a write-only data system that is never
-   modified. Data may only be deleted at when its predetermined “time to live” expires, as specified
-   by the organization’s retention policy. This approach provides assurance of data integrity for
-   audit and compliance requirements.</p>
-  <?oxy_custom_end?>
+  <p>Data is only deleted when its precalculated time to live expires, as derived from the
+   organization’s retention policy. This approach provides assurance of data integrity for audit and
+   compliance requirements.</p>
  </conbody>
 </concept>

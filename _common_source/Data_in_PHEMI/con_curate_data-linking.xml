@@ -2,15 +2,15 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_indexing-cataloging">
  <title>Data Linking</title>
- <shortdesc/>
+ <shortdesc>The indexing, cataloging, and graph relationships <ph
+   conkeyref="product-vars/product-name"/> generates allow you to make connections, or links, among
+  data items. </shortdesc>
  <conbody>
-  <p>The indexing, cataloging, and graph relationships <ph conkeyref="product-vars/product-name"/>
-   generates allow you to make connections, or links, among data items. Data linking allows you to
-   connect disparate data and data that might have been isolated in silos. For example, imagine you
-   ingest patient data from a family doctor, scans of prescription information from a pharmacy,
-   Medical Resonance Images (MRIs) from a hospital, and X-ray images from a medical laboratory. If
-   data elements are tagged with appropriate metadata, you can link all this disparate data for use
-   in various ways.</p>
+  <p>Data linking allows you to connect disparate data and data that might have been isolated in
+   silos. For example, imagine you ingest a  patient history from a family doctor, a scan of
+   prescription information from a pharmacy, Medical Resonance Images (MRIs) from a hospital, and
+   X-ray images from a medical laboratory. If data elements are tagged with appropriate metadata,
+   you can link all this disparate data for use in various ways.</p>
   <p>Graph-based data linking means that you can query and analyze a more complete picture of your
    data so that you can see, at scale and efficiently, relationships between objects in the system. </p>
  </conbody>

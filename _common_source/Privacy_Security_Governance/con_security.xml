@@ -11,14 +11,11 @@
     <p><b>Role-Based Access Control</b>—User roles determine what operations a user can perform. For
      example, only users with a role of <ph conkeyref="product-vars/admin"/> can configure the
      system, while only users with a role of <ph conkeyref="product-vars/data-analyst"/> can query
-     data and execute or export a dataset. <xref
-      href="../users/con_user-roles.xml#concept_users-roles">Tell me about user roles.</xref></p>
+     data and execute or export a dataset. </p>
    </li>
    <li>
     <p><b>Configurable Password Policy</b>—<ph conkeyref="product-vars/product-name"/> allows you to
-     configure the password policy that defines how strong user passwords have to be. <xref
-      href="../Passwords/con_password-policy.xml#concept_password-policies">Tell me about the
-      password policy.</xref></p>
+     configure the password policy that defines how strong user passwords have to be. </p>
    </li>
    <li>
     <p><b>Audit Log</b>—<ph conkeyref="product-vars/product-name"/> maintains complete audit logs of

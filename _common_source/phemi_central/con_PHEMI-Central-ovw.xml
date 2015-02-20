@@ -11,8 +11,7 @@
       traditional data warehouses, <ph conkeyref="product-vars/product-name"/> can handle any
       volume, variety, and velocity of data.</p>
     <fig id="fig_beach-balls">
-      <image href="../_images/marketing-diagrams/Beyond_the_Data_Lake/Beyond_the_Data_Lake.png"
-        id="image_c41_lhn_cr" scale="60"/>
+      <image href="../../_common_source/_images/mktg/Beyond.png" id="image_c41_lhn_cr" scale="60"/>
     </fig>
   </conbody>
 </concept>

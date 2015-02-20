@@ -10,5 +10,8 @@
    information to be managed at the field level throughout its lifecycle. This family of features
    brings the data management capabilities of enterprise-grade traditional data warehouses to big
    data. </p>
+  <fig id="fig_data-mgmt">
+   <image href="../_images/mktg/data_mgmt.png" id="image_tcl_xdc_dr"/>
+  </fig>
  </conbody>
 </concept>

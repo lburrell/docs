@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_test">
+ <title>Test</title>
+ <shortdesc/>
+ <conbody>
+  <p>
+   <fig id="fig_h4w_sjc_dr">
+    <image href="../_images/mktg/Ovw-arch.png" id="image_dkf_5jc_dr" scale="60"/>
+   </fig>
+  </p>
+ </conbody>
+</concept>

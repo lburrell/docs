@@ -3,13 +3,12 @@
 <concept id="concept_data-in-PHEMI">
  <title>Data in <ph conkeyref="product-vars/product-name"/></title>
  <shortdesc>Data in <ph conkeyref="product-vars/product-name"/> follows a lifecycle of collect,
-        curate, and consume. Throughout the data lifecycle, data is managed according to the
-        organization's governance policies.</shortdesc>
+        curate, and consume. </shortdesc>
  <conbody>
-        <fig id="fig_PHEMI-Central-arch">
-            <image
-                href="../_images/marketing-diagrams/Overview_Architecture/Overview-architecture.png"
-                id="image_bxb_5hn_cr" scale="60"/>
+        <p>Throughout the data lifecycle, data is managed according to the organization's governance
+            policies.</p>
+        <fig id="fig_arch">
+            <image href="../_images/mktg/Ovw-arch.png" id="image_dyn_g3c_dr" scale="70"/>
         </fig>
- </conbody>
+    </conbody>
 </concept>

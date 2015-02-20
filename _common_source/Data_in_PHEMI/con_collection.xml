@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_data-collection">
- <title>Collect</title>
+ <title>Collection</title>
  <shortdesc><ph conkeyref="product-vars/product-name"/> can collect, or "ingest," any type of
   data.</shortdesc>
  <conbody>
@@ -24,8 +24,7 @@
    </li>
   </ul>
   <fig id="fig_collect">
-   <image href="../_images/marketing-diagrams/Collect/collect_focus_architecture.png"
-    id="image_s44_jmn_cr" scale="60"/>
+   <image href="../../_common_source/_images/mktg/collect.png" id="image_kw4_dhc_dr"/>
   </fig>
   <p>During ingest, <ph conkeyref="product-vars/product-name"/> tags each raw data object with
       metadata that describes the data. Metadata governing digital rights management, retention

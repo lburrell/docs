@@ -2,15 +2,14 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_lifecycle-mgmt">
  <title>Lifecycle Management</title>
- <shortdesc/>
+ <shortdesc>PHEMI Central uses organization-specific retention rules to manage digital assets
+  throughout their entire life cycle, from data creation through curation, usage, and end of
+  life.</shortdesc>
  <conbody>
-  <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
-  <p>PHEMI Central uses organization-specific retention rules to manage digital assets throughout
-   their entire life cycle, from data creation through curation, usage, and end-oflife. Retention
-   rules are captured in the Data Management and Governance Console, and the system calculates a
-   time to time for every data element based on the retention policy and the time of ingestion. It
-   also prevents users from deleting data during a configured retention period and automatically
-   de-identify, delete or otherwise process information when the retention period expires.</p>
-  <?oxy_custom_end?>
+  <p>Retention rules are captured in the <ph conkeyref="product-vars/gui-name"/>, and from that
+   information together with the time of ingestion, the system calculates a time to live for every
+   data element. Retention rules also prevent users from deleting data during the configured
+   retention period and helps automatically de-identify, delete, or otherwise process information
+   when the retention period does expire.</p>
  </conbody>
 </concept>

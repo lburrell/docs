@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_data-consumption">
- <title>Consume</title>
+ <title>Consumption</title>
  <shortdesc/>
  <conbody>
   <p>The data elements stored in <ph conkeyref="product-vars/product-name"/> is accessed by querying
@@ -25,13 +25,11 @@
     <p>You can export a dataset to SAP HANA using the SAP Smart Data Access connector.</p>
    </li>
   </ul>
+  <fig id="fig_consume">
+   <image href="../../_common_source/_images/mktg/consume.png" id="image_dnw_vf4_cr"/>
+  </fig>
   <p>In all cases, <ph conkeyref="product-vars/product-name"/>'s Policy Enforcement Engine strictly
    enforces your organization’s privacy and security policies to enforce rightful access to
    data.</p>
-  <p><xref href="../datasets/con_datasets.xml#concept_datasets">Tell me about datasets.</xref></p>
-  <fig id="fig_consume">
-   <image href="../_images/marketing-diagrams/Consume/consume_focus_architecture.png"
-    id="image_dnw_vf4_cr" scale="60"/>
-  </fig>
  </conbody>
 </concept>
