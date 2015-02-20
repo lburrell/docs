@@ -4,16 +4,9 @@
  <title>Using ETL Tools</title>
  <shortdesc/>
  <conbody>
-  <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>
-  <p>For data collections that can not submit data to PHEMI Central (such as a database), ETL tools are
-   used to extract data from the source system and then use either the event based ingest method or
-   bulk ingestion method, depending on the client's requirements.</p>
-  <p>A Source Connection defines the technology/system that is the source of data, such as a
-   production database system that collects data. A manual option is available for selecting data to
-   be stored under this collection as well. Additionally, if the external source system is able to
-   publish data, then it can be pointed at PHEMI's REST API to submit data for the data collection
-   programmatically.</p>
-  <?oxy_custom_end?>
-  <p/>
+  <p>Some data collections (for example, some databases) are not able to submit data directly to <ph
+    conkeyref="product-vars/product-name"/>. For such systems, Extract, Transform, and Load (ETL)
+   tools can be used to extract data from the source system and then use either REST-based ingestion
+   or bulk ingestion, depending on the requirements.</p>
  </conbody>
 </concept>

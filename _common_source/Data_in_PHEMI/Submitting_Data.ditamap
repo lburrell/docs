@@ -2,6 +2,8 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
  <title>Submitting Data to PHEMI Central</title>
+ <keydef keys="product-vars" href="../_Variables/PHEMI_Central/con_Product-Vars.xml"/>
+ <keydef keys="corp-vars" href="../_Variables/PHEMI_Central/con_Corporate_Vars.xml"/>
  <topicref href="con_submit-data.xml">
   <topicref href="con_submit-via-REST.xml"/>
   <topicref href="con_using-manual-upload.xml"/>

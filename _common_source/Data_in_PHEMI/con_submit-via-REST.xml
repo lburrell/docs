@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_submit-via-REST">
- <title>Using REST</title>
+ <title>Using the <ph conkeyref="product-vars/RESTful-API"/></title>
+ <shortdesc>If the data source is able to publish data, the system can be programmed to publish to
+   <ph conkeyref="product-vars/product-name"/> using the PHEMI <ph
+   conkeyref="product-vars/RESTful-API"/>.</shortdesc>
  <conbody>
-  <p>In REST-based ingestion, the client (that is, the submitting system) initiates an HTTP or HTTPS
-   session with a series of REST requests. <ph conkeyref="product-vars/product-name"/> listens for
-   REST queries on port 80 (for HTTP) and port 443 (for HTTPS). Once the session is established, the
-   client can POST data to the appropriate data collection by including the data collection ID returned as a
-   token by <ph conkeyref="product-vars/product-name"/>.</p>
+  <p>In REST-based ingestion, the client (that is, the data source or submitting system) sends an
+   HTTP or HTTPS POST request. The POST request contains valid user credentials in JSON format in
+   the payload body. </p>
+  <p>When the credentials are authenticated, <ph conkeyref="product-vars/product-name"/> returns the
+   session ID and URI for the session, as well as a session cookie.  Once the session is
+   established, the client can POST data to the appropriate data collection by including the data
+   collection ID .</p>
+  <p><ph conkeyref="product-vars/product-name"/> listens for REST queries on port 80 (for HTTP) and
+   port 443 (for HTTPS).</p>
   <p>REST-based ingestion is useful in situations where a system submits smaller pieces of data very
    frequently. Since <ph conkeyref="product-vars/product-name"/> always listens on the port, the
    client system can be set up with a scheduled task to submit the data as often as needed.</p>
