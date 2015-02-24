@@ -4,15 +4,19 @@
  <title>Quick Tour of the <ph conkeyref="product-vars/gui-name"/></title>
  <shortdesc/>
  <conbody>
-  <p>The <ph conkeyref="product-vars/gui-name"/> consists of a set of main pages. Each main page
-   includes screens where you can perform a set of related functions.</p>
+  <p>The <ph conkeyref="product-vars/product-name"/>
+   <ph conkeyref="product-vars/gui-name"/> consists of a set of main pages. Each main page includes
+   screens where you can perform a set of related functions.</p>
   <p>Note that your user role determines what part of the <ph conkeyref="product-vars/product-name"/>
-   <ph conkeyref="product-vars/gui-name"/> you can access. Different roles have access to different
-   parts of the <ph conkeyref="product-vars/gui-name"/>.</p>
-  <p>Note that <ph conkeyref="product-vars/privacy-officer"/>s do not have any functional
-   capabilities in the <ph conkeyref="product-vars/gui-name"/>. However, you must configure at least
-   one <ph conkeyref="product-vars/privacy-officer"/> in order to be able to define data
-   sources.</p>
+   <ph conkeyref="product-vars/gui-name"/> you can access, and therefore what icons appear in the
+   left navigation bar. Different roles have access to different parts of the <ph
+    conkeyref="product-vars/gui-name"/>.</p>
+  <p>Note also that <ph conkeyref="product-vars/privacy-officer"/>s do not have any functional
+   capabilities in the <ph conkeyref="product-vars/gui-name"/>. However, <ph
+    conkeyref="product-vars/privacy-officer"/>s are considered to have some ownership responsibility
+   for data, and are therefore named as one of the "owners" of a data collection. For this reason,
+   you must configure at least one <ph conkeyref="product-vars/privacy-officer"/> in order to be
+   able to define a data collection.</p>
   <table frame="all" rowsep="1" colsep="1" id="table_z34_pfw_1r">
    <title/>
    <tgroup cols="3">
@@ -22,17 +26,21 @@
     <thead>
      <row>
       <entry>
-       <p>Page</p>
+       <p>Main Page:</p>
       </entry>
-      <entry>What you can do there</entry>
-      <entry>You must be a:</entry>
+      <entry>
+       <p>What you can do there:</p>
+      </entry>
+      <entry>
+       <p>You must be a:</p>
+      </entry>
      </row>
     </thead>
     <tbody>
      <row>
-      <entry><image href="../_images/gui-screen-shots/icon_datasources.JPG" id="image_gbs_yfw_1r"
-        /><p>Data Collections</p></entry>
-      <entry>Manage data collections; manually ingest files; schedule file ingest.</entry>
+      <entry><image href="../../_common_source/_images/gui-screen-shots/icon_data-collections.png"
+        id="image_gbs_yfw_1r"/><p>Data Collections</p></entry>
+      <entry>Manage data collections; manually ingest files.</entry>
       <entry>
        <p><ph conkeyref="product-vars/admin"/></p>
       </entry>
@@ -73,15 +81,15 @@
      <row>
       <entry><image href="../_images/gui-screen-shots/icon_object-browser.png" id="image_bln_1gw_1r"
         /><p>Object Browser</p></entry>
-      <entry>View or delete individual files stored in <ph conkeyref="product-vars/product-name"
+      <entry>View or delete individual objects stored in <ph conkeyref="product-vars/product-name"
        />.</entry>
       <entry><ph conkeyref="product-vars/admin"/></entry>
      </row>
      <row>
       <entry><image href="../_images/gui-screen-shots/icon_audit-log.jpg" id="image_bfr_1gw_1r"
         /><p>Audit log</p></entry>
-      <entry>Monitor what operations have been performed from and what requests have been made to
-        <ph conkeyref="product-vars/product-name"/>. </entry>
+      <entry>Monitor what operations have been performed from and what data requests have been made
+       of <ph conkeyref="product-vars/product-name"/>. </entry>
       <entry>
        <p><ph conkeyref="product-vars/admin"/></p>
       </entry>

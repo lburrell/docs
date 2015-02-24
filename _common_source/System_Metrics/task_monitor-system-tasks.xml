@@ -47,8 +47,8 @@
                     </chrow>
                     <chrow>
                         <choption>cleanup</choption>
-                        <chdesc>The system has checked retention rules for a data collection and expired
-                            deleted data.</chdesc>
+                        <chdesc>The system has checked retention rules for a data collection and
+                            deleted expired data.</chdesc>
                     </chrow>
                     <chrow>
                         <choption>derive</choption>
@@ -65,7 +65,7 @@
                     <chrow>
                         <choption>ingest</choption>
                         <chdesc>The system has ingested data from the indicated data
-                            source.</chdesc>
+                            collection.</chdesc>
                     </chrow>
                     <chrow>
                         <choption>snapshot</choption>

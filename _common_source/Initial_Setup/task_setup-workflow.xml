@@ -2,9 +2,9 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="task_initial-config-workflow">
     <title>Initial Configuration Workflow</title>
-    <shortdesc>Since some configuration tasks must be completed before others can be performed, <ph
-            conkeyref="product-vars/admin"/>s can use this workflow to configure <ph
-            conkeyref="product-vars/product-name"/>.</shortdesc>
+    <shortdesc>Since some configuration tasks must be completed before others can be performed, the
+            <ph conkeyref="product-vars/admin"/> can use the workflow in this section to configure
+            <ph conkeyref="product-vars/product-name"/>.</shortdesc>
     <taskbody>
         <prereq/>
         <steps>
@@ -38,7 +38,7 @@
                     policies, you must configure the policies before configuring the data collections. </p>
                 <p>If you are using a Data Processing Function (DPF) to generate derived data from
                     raw data, you must prepare the DPF code archive before configuring the data
-                    source and upload the DPF archive during data collection configuration.</p>
+                    collection and upload the DPF archive during data collection configuration.</p>
             </stepsection>
             <step>
                 <cmd><xref href="../../_common_source/Data_Categories/con_data-categories.xml">Add
@@ -51,8 +51,8 @@
             </step>
             <step>
                 <cmd><xref
-                        href="../../_common_source/Data_Sources/con_data-sources.xml#concept_about-data-sources"
-                    >Define data collections.</xref></cmd>
+                        href="../../_common_source/Data_Collections/con_data-collections.xml#concept_data-collections"
+                        >Set up your data collections.</xref></cmd>
             </step>
             <stepsection>It is the <ph conkeyref="product-vars/data-analyst"/>, not the <ph
                     conkeyref="product-vars/admin"/>, who executes and exports datasets. However,

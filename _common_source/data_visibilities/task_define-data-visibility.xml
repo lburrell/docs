@@ -2,7 +2,8 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="task_define-data-visibilities">
     <title>Define Data Visibilities</title>
-    <shortdesc>Define data visibilities on the <wintitle>System Configuration</wintitle> page. </shortdesc>
+    <shortdesc>Define a data visibility on the <wintitle>Data Visibilities</wintitle> screen of the
+            <wintitle>System Configuration</wintitle> page.</shortdesc>
     <taskbody>
         <context>
             <note>Once defined, a data visibility may be neither edited nor deleted. The description
@@ -13,7 +14,7 @@
             <step>
                 <cmd>Open the <uicontrol>System Configuration</uicontrol> page, by clicking the
                         <uicontrol>System Configuration</uicontrol> icon in the left navigation bar.
-                        <image href="../_images/gui-screen-shots/icon_system-config.JPG"
+                        <image href="../_images/gui-screen-shots/icon_system-config.png"
                         id="image_svp_vkn_jq" scale="50"/>
                 </cmd>
                 <info>The <wintitle>System Configuration</wintitle> page opens on the<wintitle>
@@ -23,16 +24,16 @@
                     </fig></info>
             </step>
             <step>
-                <cmd>Click the <uicontrol>Data Attributes</uicontrol> tab.</cmd>
-                <info>The <wintitle>Data Attributes</wintitle> screen opens.<fig
+                <cmd>Click the <uicontrol>Data Visibilities</uicontrol> tab.</cmd>
+                <info>The <wintitle>Data Visibilities</wintitle> screen opens.<fig
                         id="fig_system-config_manage-visibilities">
                         <image href="../_images/gui-screen-shots/data-visibilities.jpg"
                             id="image_snr_ypm_lq" scale="50"/>
                     </fig></info>
             </step>
             <step>
-                <cmd>Click the <uicontrol>Create Attribute</uicontrol> button. The <wintitle>Create
-                        Attribute</wintitle> screen opens.</cmd>
+                <cmd>Click the <uicontrol>Create Visibility</uicontrol> button. The <wintitle>Create
+                        Visibility</wintitle> screen opens.</cmd>
                 <info/>
             </step>
             <step>
@@ -54,7 +55,7 @@
             </step>
             <step>
                 <cmd>Save the visibility information by clicking the <uicontrol>Create
-                        Attribute</uicontrol> button. </cmd>
+                        Visibility</uicontrol> button. </cmd>
             </step>
         </steps>
     </taskbody>

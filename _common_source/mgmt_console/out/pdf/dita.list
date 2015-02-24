@@ -1,9 +1,9 @@
-#Wed Feb 11 15:44:59 PST 2015
+#Mon Feb 23 13:46:40 PST 2015
 relflagimagelist=
-user.input.dir=C\:\\PHEMI-docs\\docs\\_common_source
+user.input.dir=/Users/lindsayburrell/Documents/_PHEMI/Docs/r1.0
 copytotarget2sourcemaplist=
-uplevels=..\\
-user.input.file=mgmt_console\\Introducing_Mgmt_Console.ditamap
+uplevels=../../
+user.input.file=_common_source/mgmt_console/Introducing_Mgmt_Console.ditamap
 user.input.file.listfile=usr.input.file.list
-tempdirToinputmapdir.relative.value=mgmt_console[\\\\|/]
+tempdirToinputmapdir.relative.value=_common_source/mgmt_console/
 relflagimagefile=relflagimage.list

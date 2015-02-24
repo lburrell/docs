@@ -2,7 +2,7 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_system-metrics-intro">
  <title>System Metrics</title>
- <shortdesc>Monitor system status and health at a glance on the System Metrics page. </shortdesc>
+ <shortdesc>Monitor system status and health on the <wintitle>System Metrics</wintitle> page. </shortdesc>
  <conbody>
   <p>The <wintitle>System Metrics</wintitle> page of the <ph conkeyref="product-vars/gui-name"/>
     reports information about users and system usage, as well as tracking data collection statistics,

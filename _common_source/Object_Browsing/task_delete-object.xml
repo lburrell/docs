@@ -2,7 +2,7 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="task_delete-object">
     <title>Delete an Object</title>
-    <shortdesc>Delete an individual object from the system from the <wintitle>Object
+    <shortdesc>Delete an individual object from the system using the <wintitle>Object
             Browser</wintitle> page.</shortdesc>
     <taskbody>
         <context>

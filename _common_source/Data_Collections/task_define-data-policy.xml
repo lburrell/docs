@@ -9,14 +9,14 @@
         <steps>
             <step>
                 <cmd>Open the <uicontrol>Data Collections</uicontrol> page, by clicking the
-                        <uicontrol>Data Collections</uicontrol> icon in the left navigation bar. <image
-                        href="../_images/gui-screen-shots/icon_datasources.JPG"
+                        <uicontrol>Data Collections</uicontrol> icon in the left navigation bar.
+                        <image href="../_images/gui-screen-shots/icon_data-collections.png"
                         id="image_fmr_wzn_mq" scale="50"/></cmd>
                 <info>
                     <p>The <wintitle>Data Collections</wintitle> page opens showing all defined data
                         categories.</p>
-                    <fig id="fig_data-sources">
-                        <image href="../_images/gui-screen-shots/data-sources.png"
+                    <fig id="fig_data-collections">
+                        <image href="../_images/gui-screen-shots/data-collections.png"
                             id="image_hmp_55r_3q" scale="50"/>
                     </fig>
                 </info>
@@ -24,16 +24,17 @@
             <step>
                 <cmd>Click the <uicontrol>New Data Collection</uicontrol> button.</cmd>
                 <info>The <wintitle>New Data Collection</wintitle> screen opens with only the
-                        <wintitle>Data Policy</wintitle> tab showing. <fig id="fig_new-data-source">
-                        <image href="../_images/gui-screen-shots/data-sources_policy-tab.png"
+                        <wintitle>Data Policy</wintitle> tab showing. <fig
+                        id="fig_new-data-collection">
+                        <image href="../_images/gui-screen-shots/data-collections_policy-tab.png"
                             id="image_w3g_hwr_3q" scale="50"/>
                     </fig></info>
             </step>
             <step>
                 <cmd>Describe the data collection.</cmd>
                 <info>
-                    <fig id="fig_data-source_src-desc">
-                        <image href="../_images/gui-screen-shots/data-sources_src-desc.png"
+                    <fig id="fig_data-collection_src-desc">
+                        <image href="../_images/gui-screen-shots/data-collections_coll-desc.png"
                             id="image_eks_xmq_yq" scale="50"/>
                     </fig>
                 </info>
@@ -105,7 +106,8 @@
                     permission for this data to reside on <ph conkeyref="product-vars/product-name"
                     />. </cmd>
                 <info><fig id="fig_sharing-agreemt">
-                        <image href="../_images/gui-screen-shots/data-sources_sharing-agreemt.png"
+                        <image
+                            href="../_images/gui-screen-shots/data-collections_sharing-agreemt.png"
                             id="image_orh_hnq_yq" scale="50"/>
                     </fig><p>Click the <uicontrol>Choose File</uicontrol> button and navigate to the
                         document in your local file system. Double-click the file to select it. The
@@ -118,7 +120,8 @@
                     item from this data collection can remain in the system.</cmd>
                 <info>
                     <fig id="fig_retention-rules">
-                        <image href="../_images/gui-screen-shots/data-sources_sharing-agreemt.png"
+                        <image
+                            href="../_images/gui-screen-shots/data-collections_retention-rules.png"
                             id="image_oq2_h4q_yq" scale="50"/>
                     </fig>
                 </info>

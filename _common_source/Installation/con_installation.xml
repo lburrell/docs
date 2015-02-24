@@ -6,15 +6,15 @@
  <conbody>
   <p><ph conkeyref="product-vars/product-name"/> may be shipped as an appliance, deployed on Amazon
       Web Services (AWS), or deployed on your organization's VMware environment. Regardless of the
-      deployment type,  will install and set up the base system of cluster nodes with a management
-      node and will install the <ph conkeyref="product-vars/product-name"/> software on the cluster.
-      Installation may include populating your system with some of your organization's pre-existing
-      data.</p>
+      deployment type, <ph conkeyref="corp-vars/prof-services"/> will install and set up your base
+      system of cluster nodes and your management node, and will install the <ph
+        conkeyref="product-vars/product-name"/> software on the cluster. Installation may include
+      populating your system with some of your organization's pre-existing data.</p>
   <p>
-      <ph conkeyref="corp-vars/prof-services"/> will create an administrator account for you on <ph
-        conkeyref="product-vars/product-name"/>, and will provide you with the user name and
-      password for the account, together with the URL of the <ph
-        conkeyref="product-vars/product-name"/>
+      <ph conkeyref="corp-vars/prof-services"/> will create the first  <ph
+        conkeyref="product-vars/admin"/> account for you on <ph
+        conkeyref="product-vars/product-name"/> and will provide you with the user name and password
+      for the account, together with the URL of the <ph conkeyref="product-vars/product-name"/>
       <ph conkeyref="product-vars/gui-name"/>. At that point, you can log on to the <ph
         conkeyref="product-vars/gui-name"/>.</p>
  </conbody>

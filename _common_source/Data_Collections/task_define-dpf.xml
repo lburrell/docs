@@ -2,8 +2,9 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
 <task id="task_define-dpf">
     <title>Specify the Data Processing Function</title>
-    <shortdesc>To associate a DPF with a data collection, you upload the DPF archive onto the Data
-        Processing Function screen of the Data Collections page.</shortdesc>
+    <shortdesc>To associate a DPF with a data collection, you upload the DPF archive onto the
+            <uicontrol>Data Processing Function</uicontrol> screen of the <wintitle>Data
+            Collections</wintitle> page.</shortdesc>
     <taskbody>
         <context>
             <p>
@@ -14,20 +15,20 @@
         <steps id="steps_qxv_jfq_yq">
             <step>
                 <cmd>From the <wintitle>Data Policy</wintitle> screen of the <wintitle>Data
-                        Sources</wintitle> page, click the <uicontrol>Data Processing
+                        Collections</wintitle> page, click the <uicontrol>Data Processing
                         Function</uicontrol> tab.</cmd>
                 <info>The <wintitle>Data Processing Function</wintitle> screen opens. When you first
-                    define a data collection, no Data Processing Function (DPF) is associated with it.
-                        <fig id="fig_data-source-no-dpf">
-                        <image href="../_images/gui-screen-shots/data-sources_no-dpf.png"
+                    define a data collection, no Data Processing Function (DPF) is associated with
+                    it. <fig id="fig_data-source-no-dpf">
+                        <image href="../_images/gui-screen-shots/data-collections_no-dpf.png"
                             id="image_cfz_r14_1r" scale="50"/>
                     </fig></info>
             </step>
             <step>
                 <cmd>Click the <uicontrol>Add a DPF</uicontrol> button. </cmd>
-                <info>The <wintitle>Apply DPF for this Datasource</wintitle> screen opens. <fig
+                <info>The <wintitle>Apply DPF for this Data Collection</wintitle> screen opens. <fig
                         id="fig_apply-dpf">
-                        <image href="../_images/gui-screen-shots/data-sources_apply-dpf.png"
+                        <image href="../_images/gui-screen-shots/data-collections_apply-dpf.png"
                             id="image_gsj_hd4_1r" scale="50"/>
                     </fig></info>
             </step>
@@ -35,8 +36,8 @@
                 <cmd>Choose to use either a <uicontrol>System DPF</uicontrol> or a <uicontrol>Custom
                         DPF</uicontrol>.</cmd>
                 <choices id="choices_zrx_2b4_1r">
-                    <choice>If you choose <wintitle>System DPF</wintitle>, select which PHEMI system
-                        DPF you want to use from the drop-down menu. Choose between a DPF for
+                    <choice>If you choose <wintitle>System DPF</wintitle>, use the drop-down arrow
+                        to select which PHEMI system DPF you want to use. Choose between a DPF for
                         processing <uicontrol>Variant Call Format (VCF) data</uicontrol> and a DPF
                         for processing <uicontrol>Microsoft Excel workbook</uicontrol> data. Once
                         the system DPF is selected, click the <uicontrol>Apply System
@@ -45,8 +46,8 @@
                             <uicontrol>Select File</uicontrol> button, navigate to the DPF archive
                         and double-click the ZIP file. Or, drag and drop the DPF archive from your
                         file manager oto the target area on the <ph
-                            conkeyref="product-vars/gui-name"/> screen.Click the<uicontrol> Apply
-                            Custom DPF</uicontrol> button to upload the ZIP file and apply the
+                            conkeyref="product-vars/gui-name"/> screen. Click the <uicontrol>Apply
+                            Custom DPF</uicontrol> button to upload the archive file and apply the
                         DPF.</choice>
                 </choices>
             </step>

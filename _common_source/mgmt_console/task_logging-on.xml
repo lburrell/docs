@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="task_logging-on">
-    <title>Logging On to the <ph conkeyref="product-vars/gui-name"/></title>
+    <title>Logging On and Off</title>
     <shortdesc/>
     <taskbody>
         <prereq>
             <p>The URL for the <ph conkeyref="product-vars/product-name"/>
                 <ph conkeyref="product-vars/gui-name"/> is configured during physical installation
-                of <ph conkeyref="product-vars/product-name"/>. Your PHEMI representative will
-                provide you with the URL. </p>
+                of <ph conkeyref="product-vars/product-name"/>. <ph
+                    conkeyref="corp-vars/prof-services"/> will provide you with the URL. </p>
         </prereq>
         <context>
-            <p>To access the <ph conkeyref="product-vars/product-name"/>
+            <p>To log on to the <ph conkeyref="product-vars/product-name"/>
                 <ph conkeyref="product-vars/gui-name"/>:</p>
         </context>
         <steps>
@@ -32,9 +32,14 @@
                 <cmd>Enter your user name and password. Click <uicontrol>Login</uicontrol>.</cmd>
                 <stepresult>The <ph conkeyref="product-vars/product-name"/>
                     <ph conkeyref="product-vars/gui-name"/> launches.The <ph
-                        conkeyref="product-vars/gui-name"/> initially opens on the Data Collections
-                    page. Subsequently, the system remembers the last page you viewed and opens on
-                    that page.</stepresult>
+                        conkeyref="product-vars/gui-name"/> initially opens on the <wintitle>Data
+                        Collections</wintitle> page. Subsequently, the system remembers the last
+                    page you viewed and opens on that page.</stepresult>
+            </step>
+            <step>
+                <cmd>Logging off the <ph conkeyref="product-vars/gui-name"/> is described <xref
+                        href="../../_common_source/quick_tasks/task_log-off.xml#task_log-off"
+                        >here</xref>.</cmd>
             </step>
         </steps>
     </taskbody>

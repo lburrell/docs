@@ -4,9 +4,9 @@
  <title>User Authorizations</title>
  <conbody>
     <p conref="../_Glossary/con_glossary.xml#concept_glossary/user-authorizations"/>
-    <p>Authorizations are used in access policies together with data visibilities that have been
-      applied to data sources. The access policy matches the authorization against the data
-      visibility to determine what action, if any, a user may take with respect to the data. </p>
+    <p>User authorizations are used together with data visibilities to create access policies. The
+      access policy matches the authorization against the data visibility to determine what action,
+      if any, a user may take with respect to accessing the data. </p>
     <p>Some examples of possible user authorizations are as follows: </p>
     <ul id="ul_lsz_53w_kq">
       <li><keyword>C_LEVEL</keyword>: The user is a C-Level individual (for example, CEO, COO, CIO,
@@ -23,7 +23,7 @@
         conkeyref="product-vars/admin"/> during system configuration. </p>
     <p>All users are assigned the predefined PUBLIC authorization by default. The PUBLIC
       authorization can subsequently be removed by the <ph conkeyref="product-vars/admin"/>.</p>
-    <note>Once defined, a user authorization label may be neither edited nor deleted. The
+    <note>Once defined, a user authorization setting may be neither edited nor deleted. The
       description may be subsequently edited.</note>
   </conbody>
 </concept>

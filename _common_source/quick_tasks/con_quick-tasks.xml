@@ -4,10 +4,11 @@
   <title>Quick Tasks</title>
   <shortdesc/>
   <conbody>
-    <p>At the top right corner of the screen, a few tasks are always available as quick task
-      buttons. The quick task buttons display just to the right of your username.</p>
+    <p>At the top right corner of the screen, a few tasks are always from the quick task button. The
+      quick task button is labeled with your username.</p>
     <fig id="fig_quick-tasks">
-      <image href="../_images/gui-screen-shots/quick-tasks.JPG" id="image_pcf_gfs_3q" scale="70"/>
+      <image href="../../_common_source/_images/gui-screen-shots/quick-tasks.png"
+        id="image_pcf_gfs_3q" scale="70"/>
     </fig>
     <p>You can quickly:</p>
     <ul id="ul_iqj_vlr_3q">

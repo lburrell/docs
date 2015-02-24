@@ -28,7 +28,8 @@
             </step>
             <step>
                 <cmd>Click the <uicontrol>Define New Dataset</uicontrol> button.</cmd>
-                <info>The Build New Dataset screen opens. <fig id="fig_build-new-dataset">
+                <info>The <wintitle>Build New Dataset</wintitle> screen opens. <fig
+                        id="fig_build-new-dataset">
                         <image href="../_images/gui-screen-shots/dataset_build-new.png"
                             id="image_jn2_z1j_yq" scale="80"/>
                     </fig></info>
@@ -37,19 +38,25 @@
                 <cmd>Describe the dataset.</cmd>
                 <choicetable id="choicetable_define-dataset" relcolwidth="1* 4*">
                     <chrow>
-                        <choption>Name</choption>
+                        <choption>
+                            <p>Name</p>
+                        </choption>
                         <chdesc>
                             <p>Mandatory. A name for the dataset.</p>
                         </chdesc>
                     </chrow>
                     <chrow>
-                        <choption>Description</choption>
+                        <choption>
+                            <p>Description</p>
+                        </choption>
                         <chdesc>
                             <p>Mandatory. A brief description of the dataset.</p>
                         </chdesc>
                     </chrow>
                     <chrow>
-                        <choption>Export Target</choption>
+                        <choption>
+                            <p>Export Target</p>
+                        </choption>
                         <chdesc>
                             <p>Optional. The format required by the system to receive the dataset.
                                 Supported values are as follows: </p>
@@ -68,26 +75,34 @@
                         </chdesc>
                     </chrow>
                     <chrow>
-                        <choption>Access Policy</choption>
+                        <choption>
+                            <p>Access Policy</p>
+                        </choption>
                         <chdesc>Optional. The access policy to protect the dataset. The access
                             policy selected for the dataset may match or may be different from any
                             applied to the constituent data collection(s). By default, the first
                             configured access policy is applied.</chdesc>
                     </chrow>
                     <chrow>
-                        <choption>Status</choption>
+                        <choption>
+                            <p>Status</p>
+                        </choption>
                         <chdesc>Optional. The availability of the dataset. The only supported value
                             is <keyword>Available</keyword>.</chdesc>
                     </chrow>
                     <chrow>
-                        <choption>Available To</choption>
+                        <choption>
+                            <p>Available To</p>
+                        </choption>
                         <chdesc>Mandatory. The users who are allowed to access this dataset. Select
                             one or more users from the drop-down list; only users with a role of
                             Data Analyst appear on the list. By default, no users are allowed to
                             access the dataset.</chdesc>
                     </chrow>
                     <chrow>
-                        <choption>Expires</choption>
+                        <choption>
+                            <p>Expires</p>
+                        </choption>
                         <chdesc>Mandatory. An expiry date for the dataset. When this date is
                             reached, <ph conkeyref="product-vars/product-name"/> deletes the dataset
                             from the system. </chdesc>

@@ -28,7 +28,7 @@
                 </info>
             </step>
             <step>
-                <cmd>Click the name of the dataset you want to view. </cmd>
+                <cmd>Click the name of the dataset you want to modify. </cmd>
                 <info>The information screen for the dataset opens. <fig id="fig_dataset-info">
                         <image href="../_images/gui-screen-shots/datasets_view-info.png"
                             id="image_vg1_ccp_yq" scale="50"/>
@@ -40,7 +40,7 @@
                         >What do these fields mean?</xref>
                     <xref
                         href="task_define-dataset.xml#task_define-new-dataset/choose-dataset-fields"
-                        >How do I choose fields for the dataset?</xref>
+                        >How do I change the fields in the dataset?</xref>
                 </cmd>
                 <info>Click <uicontrol>Save Dataset</uicontrol> to save your changes. The system
                     confirms when the dataset has been successfully saved. Click

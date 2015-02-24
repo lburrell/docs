@@ -5,8 +5,8 @@
   <shortdesc>Filter data in reports, logs, and lists of objects using simple regular expressions. </shortdesc>
   <refbody>
     <section>
-      <p>Regular expressions used to filter information in the PHEMI must be compatible with both
-        the Java and the Python programming languages.</p>
+      <p>Regular expressions used to filter information in <ph conkeyref="product-vars/product-name"
+        /> must be compatible with both the Java and the Python programming languages.</p>
       <p>The simple regular expressions described in this section are supported by the system. More
         complicated regular expressions may succeed, but are not guaranteed to succeed.</p>
     </section>

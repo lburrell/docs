@@ -2,11 +2,17 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="task_define-user-authorizations">
     <title>Define User Authorizations</title>
-    <shortdesc>Define user authorizations on the <wintitle>System Configuration</wintitle> page. </shortdesc>
+    <shortdesc>Define user authorizations on the <wintitle>User Authorizations</wintitle> screen of
+        the <wintitle>System Configuration</wintitle> page.</shortdesc>
     <taskbody>
-        <prereq>The user authorizations you define should reflect your organization's governance
-            policies. Consult your privacy officer, or a person in a similar role, to understand
-            what user authorizations your organization recognizes.</prereq>
+        <prereq>
+            <p>The user authorizations you define should reflect your organization's governance
+                policies. Consult your privacy officer, or a person in a similar role, to understand
+                what user authorizations your organization recognizes.</p>
+            <p><xref
+                    href="../../_common_source/Privacy_Security_Governance/task_define-governance-policy.xml#task_define-governance-policy"
+                    >How do I define a governance policy?</xref></p>
+        </prereq>
         <context>
             <note>Once defined, a user authorization label may be neither edited nor deleted. The
                 description may be subsequently edited.</note>
@@ -16,7 +22,8 @@
             <step>
                 <cmd>Open the <uicontrol>System Configuration</uicontrol> page, by clicking the
                         <uicontrol>System Configuration</uicontrol> icon in the left navigation bar.
-                        <image href="../_images/gui-screen-shots/icon_system-config.JPG"
+                        <image
+                        href="../../_common_source/_images/gui-screen-shots/icon_system-config.png"
                         id="image_svp_vkn_jq" scale="50"/></cmd>
                 <info>The <wintitle>System Configuration</wintitle> page opens on the<wintitle>
                         Password Policy</wintitle> screen.<fig id="fig_password-policy">

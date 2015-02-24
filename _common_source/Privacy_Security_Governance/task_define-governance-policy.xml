@@ -6,21 +6,22 @@
         configuration.</shortdesc>
     <taskbody>
         <context>
-            <p>Your governance policies will drive how you configure PHEMI Central. Therefore,
-                before configuring PHEMI Central, you should make sure you have your organization's
-                governance policy available to you. If you are uncertain as to the appropriate data
-                visibilities, user authorizations, or access policies to define for your
-                organization, consult with your Information Officer, Privacy Officer, or with
+            <p>Your governance policies will drive how you configure <ph
+                    conkeyref="product-vars/product-name"/>. Therefore, before configuring <ph
+                    conkeyref="product-vars/product-name"/>, you should make sure you have your
+                organization's governance policy available to you. If you are uncertain as to the
+                appropriate data visibilities, user authorizations, or access policies to define for
+                your organization, consult with your Information Officer, Privacy Officer, or with
                 someone in a comparable role.</p>
             <p>To define your organization's governance policy:</p>
         </context>
         <steps>
             <step>
                 <cmd>Identify the different sensitivity levels of the data you will be storing in
-                    PHEMI Central. </cmd>
-                <info>In PHEMI Central, these sensitivity levels are called data visibilities, and
-                    are used to tag ingested data for purposes of privacy and access control.
-                    Examples of data visibilities are "CONFIDENTIAL," "SECRET," or "PII" (Personally
+                        <ph conkeyref="product-vars/product-name"/>. </cmd>
+                <info>You'll configure these as data visibilities. Data visibilities are attributes
+                    used to tag ingested data for purposes of privacy and access control. Examples
+                    of data visibilities are "CONFIDENTIAL," "SECRET," and "PII" (Personally
                     Identifiable Information).</info>
             </step>
             <step>
@@ -28,7 +29,7 @@
                     allow them to access data. </cmd>
                 <info>
                     <p>Your user authorizations should reflect the actual permissions your personnel
-                        are granted to interact with data of different visibility. </p>
+                        are granted to interact with data with different visibility. </p>
                 </info>
             </step>
             <step>
@@ -38,8 +39,8 @@
                     CTO) might be permitted to access CONFIDENTIAL data, a user with RESEARCH
                     authorization might only be permitted to access only DE-IDENTIFIED data, and a
                     user with DOCTOR authorization might be allowed to see data of all sensitivity.
-                    In PHEMI Central, the allowed access combinations are implemented as access
-                    policies.</info>
+                    In You'll configure these as data visibilities., the allowed access combinations
+                    are implemented as access policies.</info>
             </step>
         </steps>
     </taskbody>

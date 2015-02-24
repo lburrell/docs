@@ -12,8 +12,8 @@
    ownership, retention time (time to live), and what visibility the element should have. This means
    that de-identification, encryption, and masking, and other privacy restrictions can be enforced
    per data item, at the cell level. </p>
-  <p><ph conkeyref="product-vars/product-name"/>’s metadata framework, with its distributed
-   key-value store means that system designers do not have to worry how to structure the system.<ph
+  <p><ph conkeyref="product-vars/product-name"/>’s metadata framework, with its flexible distributed
+   key-value store, means that system designers do not have to worry how to structure the system.<ph
     conkeyref="product-vars/product-name"/> structures data automatically, on the fly. Data scales
    to large volumes while still providing fast access, and changes to requirements do not
    necessitate changes to design of the data store. Users and integrated applications benefit from

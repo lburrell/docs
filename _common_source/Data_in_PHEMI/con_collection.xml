@@ -29,7 +29,7 @@
   <p>Data can be ingested and aggregated from multiple disparate sources, bringing together and
    consolidating data silos. Data can be ingested into in a variety of ways:</p>
   <ul id="ul_o1m_wjn_cr">
-   <li><b>Streaming</b>—Machine-to-machine data collections, such as telemetry and hospital bedside
+   <li><b>Stream</b>—Machine-to-machine data collections, such as telemetry and hospital bedside
     monitors, can stream data to <ph conkeyref="product-vars/product-name"/> by means of the PHEMI
      <ph conkeyref="product-vars/RESTful-API"/>.</li>
    <li>
@@ -43,8 +43,8 @@
      sources. </p>
    </li>
    <li>
-    <p><b>Manually</b>—Files can be manually uploaded to <ph conkeyref="product-vars/product-name"/>
-     from a standard browser window. </p>
+    <p><b>Manually Ingest</b>—Files can be manually uploaded to <ph
+      conkeyref="product-vars/product-name"/> from a standard browser window. </p>
    </li>
    <li>
     <p><b>Store by Reference and Action</b>—<ph conkeyref="product-vars/product-name"/> can

@@ -20,15 +20,15 @@
                             <wintitle>Global Metrics</wintitle> pane and the <wintitle>Data Collection
                             Metrics</wintitle> tab. </p>
                     <fig id="fig_system-metrics">
-                        <image href="../_images/gui-screen-shots/system-metrics.png"
+                        <image
+                            href="../../_common_source/_images/gui-screen-shots/system-metrics.png"
                             id="image_hmp_55r_3q" scale="50"/>
                     </fig>
                     <p>In the <wintitle>Users</wintitle> column, you can see how many users are
-                        currently created for the system, sorted by user role. In the
-                            <wintitle>Content</wintitle> column, you can see how much used and free
-                        space there is on the system, as well as the number of objects the system is
-                        currently storing and the number of data collections that have been
-                        configured.</p>
+                        currently created each user role. In the <wintitle>Content</wintitle>
+                        column, you can see how much used and free space there is on the system, as
+                        well as the number of objects the system is currently storing and the number
+                        of data collections that have been configured.</p>
                 </info>
             </step>
         </steps>

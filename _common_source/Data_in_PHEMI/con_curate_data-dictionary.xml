@@ -5,12 +5,12 @@
  <shortdesc>A data dictionary cleanses data by identifying and saving a common interpretation of
   these types or fields.</shortdesc>
  <conbody>
-  <p>Disparate data collections may have fields that occur in common but are named differently or use
-   different format conventions. For example, one data collection might have a field called "Sex" with
-   values "M" and "F," while another might have a field called "Gender" with values "Male" and
-   "Female." Similarly, different medical imaging can use different terminology and conventions for
-   the same concepts and measurements. </p>
-  <p>You can develop a DPF for your data that acts as a data dictionary. Cleansing data with a data
-   dictionary greatly simplifies query and analysis. </p>
+  <p>Disparate data collections may have fields that occur in common but are named differently or
+   use different format conventions. For example, one data collection might have a field called
+   "Sex" with values "M" and "F," while another might have a field called "Gender" with values
+   "Male" and "Female." Similarly, different medical imaging systems use different terminology and
+   conventions for the same concepts and measurements. </p>
+  <p>You can develop a DPF for your data that acts as a data dictionary, to standardize and cleanse
+   data. Cleansing data with a data dictionary greatly simplifies query and analysis. </p>
  </conbody>
 </concept>

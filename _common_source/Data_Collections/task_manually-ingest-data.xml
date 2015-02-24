@@ -9,9 +9,9 @@
         <context>To manually ingest files:</context>
         <steps id="steps_bh4_2h4_1r">
             <step>
-                <cmd>Open the <uicontrol>Data Collections</uicontrol> screen, by clicking the
-                    <uicontrol>Data Collections</uicontrol> icon in the left navigation bar. <image
-                        href="../_images/gui-screen-shots/icon_datasources.JPG"
+                <cmd>Open the <uicontrol>Data Collections</uicontrol> page, by clicking the
+                        <uicontrol>Data Collections</uicontrol> icon in the left navigation bar.
+                        <image href="../_images/gui-screen-shots/icon_data-collections.png"
                         id="image_fmr_wzn_mq" scale="50"/></cmd>
                 <info>
                     <p>The <wintitle>Data Collections</wintitle> page opens showing defined data
@@ -19,7 +19,7 @@
                             href="../Data_Categories/con_data-categories.xml#concept_data-categories"
                             >Tell me about data categories.</xref></p>
                     <fig id="fig_data-sources">
-                        <image href="../_images/gui-screen-shots/data-sources.png"
+                        <image href="../_images/gui-screen-shots/data-collections.png"
                             id="image_hmp_55r_3q" scale="50"/>
                     </fig>
                 </info>
@@ -29,7 +29,8 @@
                     included in the category.</cmd>
                 <info>
                     <fig id="fig_data-sources_data-sources">
-                        <image href="../_images/gui-screen-shots/data-sources_data-sources.png"
+                        <image
+                            href="../_images/gui-screen-shots/data-collections_data-collections.png"
                             id="image_wpx_pd4_mq" scale="50"/>
                     </fig>
                 </info>
@@ -39,7 +40,8 @@
                     data collection opens.</cmd>
                 <info>
                     <fig id="fig_data-policy-cmplt">
-                        <image href="../_images/gui-screen-shots/data-sources_data-policy_cmplt.png"
+                        <image
+                            href="../_images/gui-screen-shots/data-collections_data-policy_cmplt.png"
                             id="image_i2r_ck4_1r" scale="50"/>
                     </fig>
                 </info>
@@ -48,7 +50,7 @@
                 <cmd>Click the <uicontrol>Ingest Data</uicontrol> tab.</cmd>
                 <info/>
                 <info>The <wintitle>Ingest Data</wintitle> screen opens.<fig id="fig_ingest-data">
-                        <image href="../_images/gui-screen-shots/data-sources_ingest-data.png"
+                        <image href="../_images/gui-screen-shots/data-collections_ingest-data.png"
                             id="image_bnx_xzv_1r" scale="50"/>
                     </fig></info>
             </step>

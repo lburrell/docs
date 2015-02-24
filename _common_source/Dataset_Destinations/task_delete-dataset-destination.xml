@@ -12,7 +12,8 @@
             <step>
                 <cmd>Open the <uicontrol>System Configuration</uicontrol> page, by clicking the
                         <uicontrol>System Configuration</uicontrol> icon in the left navigation bar.
-                        <image href="../_images/gui-screen-shots/icon_system-config.JPG"
+                        <image
+                        href="../../_common_source/_images/gui-screen-shots/icon_system-config.png"
                         id="image_fmr_wzn_mq" scale="50"/></cmd>
                 <info>
                     <p>The <wintitle>System Configuration</wintitle> page opens on the
@@ -28,18 +29,18 @@
                 <info>
                     <p>The <wintitle>Dataset Destinations</wintitle> screen opens.</p>
                     <fig id="fig_dataset-destinations">
-                        <image href="../_images/gui-screen-shots/dataset-destinations.jpg"
-                            id="image_s2y_vfm_qq" scale="50"/>
+                        <image href="../_images/gui-screen-shots/dests.jpg" id="image_s2y_vfm_qq"
+                            scale="50"/>
                     </fig>
                 </info>
             </step>
             <step>
-                <cmd>At the right of the <uicontrol>Choose Destination to Edit</uicontrol> field,
-                    click the drop-down arrow to see configured dataset destinations. Select the
+                <cmd>Click the drop-down arrow at the right of the <uicontrol>Choose Destination to
+                        Edit</uicontrol> field to see configured dataset destinations. Select the
                     destination you want to delete.</cmd>
                 <info>
                     <fig id="fig_view-dataset-destinations">
-                        <image href="../_images/gui-screen-shots/dataset-destinations_view.jpg"
+                        <image href="../../_common_source/_images/gui-screen-shots/dests_view.jpg"
                             id="image_p2y_zvl_sq" scale="50"/>
                     </fig>
                 </info>
@@ -49,7 +50,8 @@
                     for the selected dataset. </cmd>
                 <info>
                     <fig id="fig_dest-details">
-                        <image href="../_images/gui-screen-shots/dataset-dest_view-info.jpg"
+                        <image
+                            href="../../_common_source/_images/gui-screen-shots/dests_view-info.png"
                             id="image_ktv_h5h_yq" scale="50"/>
                     </fig>
                 </info>
@@ -61,8 +63,7 @@
                         Destination</wintitle> buttons appear.</cmd>
                 <info>
                     <fig id="fig_yls_rgn_xq">
-                        <image
-                            href="../../_common_source/_images/gui-screen-shots/dataset-destination_modify.jpg"
+                        <image href="../../_common_source/_images/gui-screen-shots/dests_modify.jpg"
                             scale="50" id="image_cms_rgn_xq"/>
                     </fig>
                 </info>

@@ -4,12 +4,11 @@
  <title>Management Console Reference</title>
  <topicref href="con_mgmt-console-ref.xml">
   <topicref href="../Quick_Tasks/quick-tasks.ditamap" format="ditamap"/>
-  <topicref href="../Data_Sources/data-sources.ditamap" format="ditamap"/>
+  <mapref href="../../_common_source/Data_Collections/data-collections.ditamap" format="ditamap"/>
   <mapref href="../Datasets/datasets.ditamap" format="ditamap"/>
   <mapref href="../Access_Policies/map_access-policies.ditamap" format="ditamap"/>
   <mapref href="../System_Metrics/system-metrics.ditamap" format="ditamap"/>
   <mapref href="../Users/users.ditamap" format="ditamap"/>
-  <topicref href="../System_Maintenance/system-maintenance.ditamap" format="ditamap"/>
   <mapref href="../../_common_source/Object_Browsing/object-browser.ditamap" format="ditamap"/>
   <topicref href="../Audit_Log/audit-log.ditamap" format="ditamap"/>
   <topicref href="../System_Configuration/system-config.ditamap" format="ditamap"/>

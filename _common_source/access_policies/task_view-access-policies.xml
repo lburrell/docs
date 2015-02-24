@@ -24,7 +24,7 @@
             </step>
             <step>
                 <cmd>At the right of the <uicontrol>Choose Policy to Edit</uicontrol> field, click
-                    the drop-down arrow to see the list of configured access policies.</cmd>
+                    the drop-down arrow. The list of configured access policies display.</cmd>
                 <info>
                     <fig id="fig_access-policies_view">
                         <image href="../_images/gui-screen-shots/access-policy_view.jpg"

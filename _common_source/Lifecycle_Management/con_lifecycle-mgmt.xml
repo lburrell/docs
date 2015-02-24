@@ -6,9 +6,9 @@
   throughout their entire life cycle, from data creation through curation, usage, and end of
   life.</shortdesc>
  <conbody>
-  <p>Retention rules are captured in the <ph conkeyref="product-vars/gui-name"/>, and from that
-   information together with the time of ingestion, the system calculates a time to live for every
-   data element. Retention rules also prevent users from deleting data during the configured
+  <p>Retention rules are captured in the <ph conkeyref="product-vars/gui-name"/>, and from the
+   rentention rules together with the ingestion timestamp, the system calculates a time to live for
+   every data element. Retention rules also prevent users from deleting data during the configured
    retention period and helps automatically de-identify, delete, or otherwise process information
    when the retention period does expire.</p>
  </conbody>

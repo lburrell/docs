@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_data-policies">
+ <title>Data Policies</title>
+ <shortdesc>The data policy provides several key items of information about a data collection. </shortdesc>
+ <conbody>
+  <p>The data policy describes what type and format of data is expected from the data source and
+   classifies the data collection into one of the configured data categories. The data policy also
+   lists the users who "own," or are responsible for, various aspects of the information.</p>
+  <p>The data policy also specifies the privacy settings for the data collection. It specifies which
+   of the configured data visibilities to attach to data belonging to this collection. The data
+   policy also specifies which access policy (if any) will be used to enforce rightful access to the
+   information. All raw data ingested from this data collection, as well as every item of data
+   derived from processing this data collection, will be tagged with the specified data visibility
+   and access policy to protect privacy.</p>
+  <p>The data policy is also where the data sharing agreement is stored for reference. In this
+   context, the data sharing agreement is the document recording permission for this data collection
+   to be stored in <ph conkeyref="product-vars/product-name"/>. You upload the agreement document
+   and specify the time period for which the agreement is valid.</p>
+  <p>The data policy also records the retention rules to be applied to information from this data
+   source. The system uses the retention rules and looks at the ingest timestamp to calculate a time
+   to live for each data element. When the time to live expires, <ph
+    conkeyref="product-vars/product-name"/> deletes the raw data and all associated derived data
+   items from its data store.</p>
+  <p>If you want your information to be version-controlled, the data policy is the place where you
+   enable version control.</p>
+ </conbody>
+</concept>

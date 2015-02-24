@@ -10,9 +10,9 @@
    HTTP or HTTPS POST request. The POST request contains valid user credentials in JSON format in
    the payload body. </p>
   <p>When the credentials are authenticated, <ph conkeyref="product-vars/product-name"/> returns the
-   session ID and URI for the session, as well as a session cookie.  Once the session is
-   established, the client can POST data to the appropriate data collection by including the data
-   collection ID .</p>
+      session ID and URI for the session, as well as a session cookie. Once the session is
+      established, the client can POST data to the appropriate data collection by referencing the
+      data collection ID .</p>
   <p><ph conkeyref="product-vars/product-name"/> listens for REST queries on port 80 (for HTTP) and
    port 443 (for HTTPS).</p>
   <p>REST-based ingestion is useful in situations where a system submits smaller pieces of data very

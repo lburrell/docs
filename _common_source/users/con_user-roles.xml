@@ -31,7 +31,6 @@
         <li>Create access policies</li>
         <li>Monitor system metrics</li>
         <li>Manage users</li>
-        <li>Perform system maintenance</li>
         <li>Monitor audit logs</li>
        </ul>
       </entry>
@@ -42,7 +41,7 @@
        safeguarding data and assigning privileges to users. </entry>
       <entry>The privacy officer has no functional ability within the <ph
         conkeyref="product-vars/product-name"/>
-       <ph conkeyref="product-vars/gui-name"/>. The privacy officer elucidates the goernance
+       <ph conkeyref="product-vars/gui-name"/>. The privacy officer elucidates the governance
        policies prior to system configuration.</entry>
      </row>
      <row>
@@ -51,7 +50,7 @@
       <entry>
        <ul id="ul_ybw_ytp_kq">
         <li>Ingest data</li>
-        <li>Build and execute datasets</li>
+        <li>Execute and export datasets</li>
        </ul>
       </entry>
      </row>

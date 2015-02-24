@@ -2,8 +2,9 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_submit-data">
  <title>Submitting Data to <ph conkeyref="product-vars/product-name"/></title>
- <shortdesc>Data can be submitted to PHEMI using a REST API, by manually ingesting it, by using FTP
-    or SSH batch ingestion, or by using ETL tools.</shortdesc>
+ <shortdesc>Data can be submitted to <ph conkeyref="product-vars/product-name"/> using the PHEMI <ph
+         conkeyref="product-vars/RESTful-API"/>, by manually ingesting it, by using FTP or SSH batch
+      ingestion, or by using extract, transform, and load (ETL) tools.</shortdesc>
  <conbody>
   <p/>
  </conbody>

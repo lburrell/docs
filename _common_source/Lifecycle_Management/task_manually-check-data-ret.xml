@@ -2,8 +2,9 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="task_manuall-check-data-ret">
     <title>Manually Check Data Retention</title>
-    <shortdesc>Trigger data retention checking at any time on the <wintitle>System
-            Configuration</wintitle> page.</shortdesc>
+    <shortdesc>Trigger data retention checking at any time on the <wintitle>Data
+            Retention</wintitle> screen of the <wintitle>System Configuration</wintitle>
+        page.</shortdesc>
     <taskbody>
         <context>
             <p>To manually initiate checking for expired data: </p>
@@ -12,7 +13,7 @@
             <step>
                 <cmd>Open the <uicontrol>System Configuration</uicontrol> page, by clicking the
                         <uicontrol>System Configuration</uicontrol> icon in the left navigation bar.
-                        <image href="../_images/gui-screen-shots/icon_system-config.JPG"
+                        <image href="../_images/gui-screen-shots/icon_system-config.png"
                         id="image_svp_vkn_jq" scale="50"/></cmd>
                 <info>The <wintitle>System Configuration</wintitle> page opens on the<wintitle>
                         Password Policy</wintitle> screen. <fig id="fig_password-policy">
@@ -34,8 +35,9 @@
                     you want to check.</cmd>
             </step>
             <step>
-                <cmd>Click <uicontrol>Enforce Retention Now</uicontrol> to check the selected data
-                    sources for expired data.</cmd>
+                <cmd>Click <uicontrol>Enforce Retention Now</uicontrol>. <ph
+                        conkeyref="product-vars/product-name"/> checks the selected data collections
+                    for expired data.</cmd>
             </step>
         </steps>
     </taskbody>

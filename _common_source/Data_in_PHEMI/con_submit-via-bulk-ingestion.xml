@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_submit-bulk-ingest">
- <title>Using Bulk Ingestion</title>
+ <title>Using Bulk Ingest</title>
  <shortdesc/>
  <conbody>
-  <p>Batch ingest of data is extremely fast.  Configure secure FTP or an SSH connection to allow a
+  <p>Batch ingest of data is extremely fast. Configure a secure FTP or an SSH connection to allow a
    system to write data to a temporary landing space within <ph
-    conkeyref="product-vars/product-name"/>. PHEMI <ph conkeyref="corp-vars/prof-services"/> will
-   help you get this set up.</p>
-  <p>You can trigger the bulk ingest process remotely or using a scheduled task. This launches a
-   MapReduce job that inserts the bulk data into <ph conkeyref="product-vars/product-name"/> at a
-   very fast rate. The temporary files are then purged from the system.</p>
+    conkeyref="product-vars/product-name"/>. <ph conkeyref="corp-vars/prof-services"/> will help you
+   get this set up.</p>
+  <p>You can trigger the bulk ingest process remotely or you can use a scheduled task such as a cron
+   job. Triggering the process launches a MapReduce job that inserts the bulk data into <ph
+    conkeyref="product-vars/product-name"/> at a very fast rate. The temporary files are then purged
+   from the system.</p>
  </conbody>
 </concept>

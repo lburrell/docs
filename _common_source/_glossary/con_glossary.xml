@@ -19,11 +19,10 @@
     <dt>authorizations</dt>
     <dd>
      <p audience="internal">Lowercase (i.e., not "Authorizations").</p>
-     <p id="user-authorizations">User authorizations are configurable labels you can assign to <ph
-              conkeyref="product-vars/product-name"/> users. Authorization definitions are
-            configured in <ph conkeyref="product-vars/product-name"/> by the <ph
-              conkeyref="product-vars/admin"/> in accordance with the organization's governance
-            policies. </p>
+     <p id="user-authorizations">User authorizations are configurable attributes you can assign to
+              <ph conkeyref="product-vars/product-name"/> users. Authorizations are defined in <ph
+              conkeyref="product-vars/product-name"/> by the <ph conkeyref="product-vars/admin"/>,
+            who sets them in accordance with the organization's governance policies. </p>
     </dd>
    </dlentry>
    <dlentry audience="internal">
@@ -95,10 +94,10 @@
     <dt>data collection</dt>
     <dd>
      <p audience="internal">Two words (i.e., not "datasource").</p>
-      <p id="data-source">In <ph conkeyref="product-vars/product-name"/>, a data collection is the set of
-            management and governance rules and policies that will be applied to a collection of
-            data. A data collection configuration should be defined for each collection of data to be
-            stored and managed according to the same retention, legal, and governance rules. </p>
+      <p id="data-source">In <ph conkeyref="product-vars/product-name"/>, a data collection is the
+            set of management and governance rules and policies that will be applied to a collection
+            of data. A data collection configuration should be defined for each set of data that is
+            to be stored and managed according to the same retention, legal, and governance rules. </p>
     </dd>
    </dlentry>
    <dlentry>

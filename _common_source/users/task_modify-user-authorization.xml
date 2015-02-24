@@ -2,8 +2,8 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="modify-user-authorization">
     <title>Modify Authorization Description</title>
-    <shortdesc>Modify the description for a user authorizations on the <wintitle>System
-            Configuration</wintitle> page. </shortdesc>
+    <shortdesc>Modify user authorizations on the <wintitle>User Authorizations</wintitle> screen of
+        the <wintitle>System Configuration</wintitle> page.</shortdesc>
     <taskbody>
         <context>
             <p>Although you can't delete a user authorization or edit the authorization label,  you
@@ -14,7 +14,8 @@
             <step>
                 <cmd>Open the <uicontrol>System Configuration</uicontrol> page, by clicking the
                         <uicontrol>System Configuration</uicontrol> icon in the left navigation bar.
-                        <image href="../_images/gui-screen-shots/icon_system-config.JPG"
+                        <image
+                        href="../../_common_source/_images/gui-screen-shots/icon_system-config.png"
                         id="image_svp_vkn_jq" scale="50"/></cmd>
                 <info>The <wintitle>System Configuration</wintitle> page opens on the<wintitle>
                         Password Policy</wintitle> screen.<fig id="fig_password-policy">

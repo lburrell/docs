@@ -5,8 +5,8 @@
  <shortdesc/>
  <conbody>
   <p>Some data collections (for example, some databases) are not able to submit data directly to <ph
-    conkeyref="product-vars/product-name"/>. For such systems, Extract, Transform, and Load (ETL)
-   tools can be used to extract data from the source system and then use either REST-based ingestion
-   or bulk ingestion, depending on the requirements.</p>
+        conkeyref="product-vars/product-name"/>. For such systems, extract, transform, and load
+      (ETL) tools can be used to extract data from the source system and then use either REST-based
+      ingest or bulk ingest, depending on the requirements.</p>
  </conbody>
 </concept>

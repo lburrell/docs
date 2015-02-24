@@ -12,7 +12,8 @@
             <step>
                 <cmd>Open the <uicontrol>System Configuration</uicontrol> page, by clicking the
                         <uicontrol>System Configuration</uicontrol> icon in the left navigation bar.
-                        <image href="../_images/gui-screen-shots/icon_system-config.JPG"
+                        <image
+                        href="../../_common_source/_images/gui-screen-shots/icon_system-config.png"
                         id="image_fmr_wzn_mq" scale="50"/></cmd>
                 <info>
                     <p>The <wintitle>System Configuration</wintitle> page opens on the

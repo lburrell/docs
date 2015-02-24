@@ -2,8 +2,8 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="task_delete-data-category-name">
     <title> Delete a Data Category</title>
-    <shortdesc>Use the <wintitle>Datasource Categories</wintitle> screen of the <wintitle>System
-            Configuration</wintitle> page to delete a data category.</shortdesc>
+    <shortdesc>Delete a data category on the <wintitle>Data Categories</wintitle> screen of the
+            <wintitle>System Configuration</wintitle> page.</shortdesc>
     <taskbody>
         <context>
             <p> To delete a data category:</p>
@@ -12,7 +12,7 @@
             <step>
                 <cmd>Open the <uicontrol>System Configuration</uicontrol> page, by clicking the
                         <uicontrol>System Configuration</uicontrol> icon in the left navigation bar.
-                        <image href="../_images/gui-screen-shots/icon_system-config.JPG"
+                        <image href="../_images/gui-screen-shots/icon_system-config.png"
                         id="image_svp_vkn_jq" scale="50"/></cmd>
                 <info>The <wintitle>System Configuration</wintitle> page opens on the
                         <wintitle>Password Policy</wintitle> screen.<fig
@@ -22,8 +22,8 @@
                     </fig></info>
             </step>
             <step>
-                <cmd>Click the <uicontrol>Datasource Categories</uicontrol> tab.</cmd>
-                <info>The <wintitle>Datasource Categories</wintitle> screen opens. <fig
+                <cmd>Click the <uicontrol>Data Categories</uicontrol> tab.</cmd>
+                <info>The <wintitle>Data Categories</wintitle> screen opens. <fig
                         id="fig_data-categories">
                         <image href="../_images/gui-screen-shots/data-categories.jpg"
                             id="image_mc5_xg4_mq" scale="50"/>
@@ -35,7 +35,8 @@
                 <info><fig id="fig_data-categories_system-config">
                         <image href="../_images/gui-screen-shots/data-categories_system-config.jpg"
                             id="image_ptj_3c4_mq" scale="50"/>
-                    </fig>The Category Details screen open. <fig id="fig_category-details">
+                    </fig>The <wintitle>Category Details</wintitle> screen opens. <fig
+                        id="fig_category-details">
                         <image href="../_images/gui-screen-shots/data-category_details.jpg"
                             id="image_fyk_hbm_sq" scale="50"/>
                     </fig></info>

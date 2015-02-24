@@ -3,18 +3,17 @@
 <map>
  <title>Data Collections</title>
  <keydef keys="product-vars" href="../_Variables/PHEMI_Central/con_Product-Vars.xml"/>
- <topicref href="con_data-sources.xml">
+ <topicref href="con_data-collections.xml">
   <topicref href="con_data-policies.xml"/>
   <topicref href="../DPFs/con_dpfs.xml"/>
-  <topicref href="task_view-data-sources.xml"/>
-  <topicref href="con_define-data-source.xml">
+  <topicref href="task_view-data-collections.xml"/>
+  <topicref href="con_define-data-collection.xml">
    <topicref href="task_define-data-policy.xml"/>
    <topicref href="task_define-dpf.xml"/>
   </topicref>
-  <topicref href="task_view-data-source-info.xml"/>
-  <topicref href="task_modify-data-source.xml"/>
-  <topicref href="task_delete-data-source.xml"/>
+  <topicref href="task_view-data-collection-info.xml"/>
+  <topicref href="task_modify-data-collection.xml"/>
+  <topicref href="task_delete-data-collection.xml"/>
   <topicref href="task_manually-ingest-data.xml"/>
-  <topicref href="task_schedule-manual-ingest.xml"/>
  </topicref>
 </map>

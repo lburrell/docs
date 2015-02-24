@@ -2,8 +2,9 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="task_view-data-retention-behav">
     <title>View the Data Retention Schedule</title>
-    <shortdesc>View the schedule for data retention behavior on the <wintitle>System
-            Configuration</wintitle> page.</shortdesc>
+    <shortdesc>View the schedule for data retention behavior on the <wintitle>Data
+            Retention</wintitle> screen of the <wintitle>System Configuration</wintitle>
+        page.</shortdesc>
     <taskbody>
         <context>
             <p>To see the configured data retention schedule:</p>
@@ -12,7 +13,8 @@
             <step>
                 <cmd>Open the <uicontrol>System Configuration</uicontrol> page, by clicking the
                         <uicontrol>System Configuration</uicontrol> icon in the left navigation bar.
-                        <image href="../_images/gui-screen-shots/icon_system-config.JPG"
+                        <image
+                        href="../../_common_source/_images/gui-screen-shots/icon_system-config.png"
                         id="image_svp_vkn_jq" scale="50"/></cmd>
                 <info>The <wintitle>System Configuration</wintitle> page opens on the<wintitle>
                         Password Policy</wintitle> screen. <fig id="fig_password-policy">

@@ -6,9 +6,9 @@
  <conbody>
   <p><xref href="../../_common_source/datasets/con_datasets.xml#concept_datasets">Tell me about
     datasets.</xref></p>
-  <p>Datasets can be consumed by querying them through the <ph conkeyref="product-vars/product-name"/>
-   <ph conkeyref="product-vars/RESTful-API"/> or by configuring a "destination" in the <ph
-    conkeyref="product-vars/gui-name"/>.  </p>
+  <p>Datasets can be consumed by querying them through the PHEMI <ph
+        conkeyref="product-vars/RESTful-API"/> or by configuring a dataset export target as a
+      "destination" in the <ph conkeyref="product-vars/gui-name"/>. </p>
   <p>Dataset destinations are configured by the <ph conkeyref="product-vars/admin"/>. The
       destination is characterized in terms of the connection type, the network parameters, the
       destination database and schema names, and the user credentials for logging on to the

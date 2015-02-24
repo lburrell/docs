@@ -12,7 +12,8 @@
    privacy protection, data security, lifecycle management, and data audit.</p>
   <p>A governance policy is a coordinated approach to protecting data and assigning privileges to
    users. To control and protect your data, your organization should have a clearly defined policy
-   governing data.</p>
+   governing data. The governance policy will drive how the <ph conkeyref="product-vars/admin"/>
+   configured <ph conkeyref="product-vars/product-name"/>.</p>
   <p><xref href="task_define-governance-policy.xml#task_define-governance-policy">How do I define a
     governance policy?</xref></p>
  </conbody>

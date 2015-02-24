@@ -2,7 +2,7 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="task_view-object">
     <title>View an Object</title>
-    <shortdesc>View individual objects stored in the system from the <wintitle>Object
+    <shortdesc>View individual objects stored in the system using the <wintitle>Object
             Browser</wintitle> page.</shortdesc>
     <taskbody>
         <context>
@@ -46,8 +46,8 @@
                         tab.</choice>
                 </choices>
                 <choices id="choices_gcy_5fh_cr">
-                    <choice>View any data elements derived by executing a DPF on the original data
-                        by clicking the <uicontrol>Digital Assets</uicontrol> tab.</choice>
+                    <choice>View any data elements derived by executing a DPF by clicking the
+                            <uicontrol>Digital Assets</uicontrol> tab.</choice>
                     <choice>View a hexadecimal and ASCII representation of the original data object
                         by clicking the <uicontrol>Raw Data</uicontrol> tab.</choice>
                 </choices>

@@ -9,15 +9,15 @@
         </context>
         <steps>
             <step>
-                <cmd>Open the <uicontrol>Data Collections</uicontrol> screen, by clicking the
-                    <uicontrol>Data Collections</uicontrol> icon. <image
-                        href="../_images/gui-screen-shots/icon_datasources.JPG"
+                <cmd>Open the <uicontrol>Data Collections</uicontrol> page, by clicking the
+                        <uicontrol>Data Collections</uicontrol> icon. <image
+                        href="../_images/gui-screen-shots/icon_data-collections.png"
                         id="image_fmr_wzn_mq" scale="50"/> in the left navigation bar.</cmd>
                 <info>
                     <p>The <wintitle>Data Collections</wintitle> page opens showing defined data
                         categories.</p>
                     <fig id="fig_data-sources">
-                        <image href="../_images/gui-screen-shots/data-sources.png"
+                        <image href="../_images/gui-screen-shots/data-collections.png"
                             id="image_hmp_55r_3q" scale="50"/>
                     </fig>
                 </info>
@@ -27,7 +27,8 @@
                     shows the data collections in the category.</cmd>
                 <info>
                     <fig id="fig_data-sources_data-sources">
-                        <image href="../_images/gui-screen-shots/data-sources_data-sources.png"
+                        <image
+                            href="../_images/gui-screen-shots/data-collections_data-collections.png"
                             id="image_wpx_pd4_mq" scale="50"/>
                     </fig>
                 </info>
@@ -37,7 +38,8 @@
                         <wintitle>Data Policy</wintitle> screen. </cmd>
                 <info>
                     <fig id="fig_data-policy-cmplt">
-                        <image href="../_images/gui-screen-shots/data-sources_data-policy_cmplt.png"
+                        <image
+                            href="../_images/gui-screen-shots/data-collections_data-policy_cmplt.png"
                             id="image_i2r_ck4_1r" scale="50"/>
                     </fig>
                 </info>
@@ -47,10 +49,10 @@
                 <choices id="choices_vbd_p24_mq">
                     <choice>View data policy information on the <wintitle>Data Policy</wintitle>
                         tab.</choice>
-                    <choice>Click the <uicontrol>Data Processing Function</uicontrol> tab to see the
-                        DPF associated with this data collection.</choice>
-                    <choice>Click the <uicontrol>Ingest Data</uicontrol> tab to access a screen
-                        where you can manually ingest files. <xref
+                    <choice>See the DPF associated with this data collection by clicking the
+                            <uicontrol>Data Processing Function</uicontrol> tab to .</choice>
+                    <choice>Access a screen where you can manually ingest files by clicking the
+                            <uicontrol>Ingest Data</uicontrol> tab. <xref
                             href="task_manually-ingest-data.xml#task_manually-ingest-data">How do I
                             manually ingest files?</xref></choice>
                 </choices>

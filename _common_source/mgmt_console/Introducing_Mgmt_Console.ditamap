@@ -3,9 +3,10 @@
 <map>
  <title>Introducing the Management Console</title>
  <keydef keys="product-vars" href="../_Variables/PHEMI_Central/con_Product-Vars.xml"/>
+ <keydef keys="corp-vars"
+  href="../../_common_source/_Variables/PHEMI_Central/con_Corporate_Vars.xml"/>
  <topicref href="con_introducing-mgmt-console.xml">
   <topicref href="task_logging-on.xml"/>
   <topicref href="con_quick-tour-mgmt-console.xml"/>
-  <topicref href="../Initial_Setup/task_setup-workflow.xml"/>
  </topicref>
 </map>

@@ -4,43 +4,47 @@
  <title>Privacy</title>
  <shortdesc>Privacy is restricting information access to those who have the right to access it. </shortdesc>
  <conbody>
-  <p><ph conkeyref="product-vars/product-name"/>'s innovative Privacy by Design framework was
-   designed from the ground up to define, manage, and enforce data sharing agreements and privacy
-   policies. </p>
+  <p><ph conkeyref="product-vars/product-name"/>'s Privacy by Design framework was designed from the
+      ground up to define, manage, and enforce data sharing agreements and privacy policies.  This
+      framework includes the following mechanisms:</p>
   <ul id="ul_if1_npb_dr">
    <li>
-    <p><b>Attribute-based access control</b>—Users are tagged with attributes that describe their
-     level of authorization. Data is tagged with attributes that describe its visibility. These two
-     attributes can be used in access policies that are applied to data collections and datasets to
-     enforce rightful access privileges. For example, a data analyst with Level 1 clearance might be
-     able to export fully identified data, an analyst with Level 2 clearance might only have access
-     to de-identified data. Attribute based access control reduces complexity and reduces the risk
-     of data breach. Also, an attributed-based approach to privacy is helpful when not all uses or
-     access requirements for data are understood up-front, or when new types of data are frequently
-     introduced into the system—both common scenarios in health care, for example. </p>
+    <p><b>Attribute-based access control (ABAC)</b>—Users are tagged with attributes that describe
+          their authorizations to access data. Data is tagged with attributes that describe what its
+          visibility should be. These two attributes are used in access policies that are applied to
+          data collections and datasets to enforce rightful access privileges. For example, a data
+          analyst with CONFIDENTIAL authorization might be able to export fully identified data, an
+          analyst with RESEARCHER authorization might only have access to de-identified data. </p>
+        <p>Attribute based access control reduces complexity and reduces the risk of data breach. An
+          attributed-based approach to privacy is also especially helpful when not all uses or
+          access requirements for data are understood up-front, or when new types of data are
+          frequently introduced into the system  (both common scenarios in health care, for
+          example). </p>
    </li>
    <li>
-    <p><b>Selective data tagging</b>—Configured attribute-based access can be enriched and extended
-     with context-specific protections by using the Data Processing Function framework to extract
-     and re-tag information. For example, a Social Security or Social Insurance Number extracted
-     from a health scan generally marked confidential can be selectively retagged as personally
-     identifiable.</p>
+    <p><b>Selective data tagging</b>—The attribute-based access configured in the system can be
+          enriched and extpanded with context-specific protections by using the Data Processing
+          Function framework to extract and re-tag information. For example, scans of patient
+          reports can be recognized and extracted by a DPF and fields selectively marked as PII
+          (personally identifying information, as in a Social Security or Social Insurance Number)
+          or NON_IDENTIFYING (as in a blood glucose measurement).</p>
    </li>
    <li>
     <p><b>Automatic anonymization and de-identification</b>—<ph
-      conkeyref="product-vars/product-name"/> can be set to automatically invoke a Data Processing
-     Function that can de-identify, encrypt, redact, or mask any data element. A DPF can even
-     include sophisticated data dependency algorithms to reduce the risk of re-identification. A <ph
-      conkeyref="product-vars/admin"/> can also construct datasets that strip out identifying data
-     elements. Centralizing anonymization and de-identification helps reduce data sprawl and reduces
-     the risk of data consistency errors. </p>
+            conkeyref="product-vars/product-name"/> can be set to automatically invoke a Data
+          Processing Function that can de-identify, encrypt, redact, or mask any data element. A DPF
+          can even include sophisticated data dependency algorithms to reduce the risk of
+          re-identification. </p>
+        <p>A <ph conkeyref="product-vars/admin"/> can also construct datasets that strip out
+          identifying data elements. Centralizing anonymization and de-identification helps reduce
+          data sprawl and reduces the risk of data consistency errors. </p>
    </li>
    <li>
     <p><b>End to end access policy enforcement</b>—Every query for data to <ph
-      conkeyref="product-vars/product-name"/> is mediated by the PHEMI Policy Enforcement Engine,
-     which compares the request against the privacy protections that have been placed on the data.
-     At no time can users, applications, or external systems bypass the Policy Enforcement Engine to
-     access data directly. </p>
+            conkeyref="product-vars/product-name"/> is mediated by the PHEMI Policy Enforcement
+          Engine, which compares the access request aginst the privacy protections that have been
+          placed on the data. At no time can users, applications, or external systems bypass the
+          Policy Enforcement Engine to access data directly. </p>
    </li>
   </ul>
  </conbody>

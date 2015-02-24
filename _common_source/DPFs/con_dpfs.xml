@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_dpfs">
- <title>Associating DPFs with Data Collections</title>
- <shortdesc>Data Processing Functions are associated with a data collection during data collection
-  configuration.</shortdesc>
+ <title>Data Processing Functions</title>
+ <shortdesc>Data Processing Functions allow data items to be parsed, data elements to be recognized
+    and extracted, and the derived data to selectively tagged with metadata.</shortdesc>
  <conbody>
   <p conref="../_Glossary/con_glossary.xml#concept_glossary/dpf"/>
   <p><xref href="../Data_in_PHEMI/con_curate_dpfs.xml#concept_curate-dpfs">Tell me more about

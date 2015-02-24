@@ -8,20 +8,21 @@
   <p><ph conkeyref="product-vars/product-name"/> includes a number of security mechanisms:</p>
   <ul id="ul_syt_3lb_dr">
    <li>
-    <p><b>Role-Based Access Control</b>—User roles determine what operations a user can perform. For
-     example, only users with a role of <ph conkeyref="product-vars/admin"/> can configure the
-     system, while only users with a role of <ph conkeyref="product-vars/data-analyst"/> can query
-     data and execute or export a dataset. </p>
+    <p><b>Role Based Access Control (RBAC)</b>—User roles determine what operations a user can
+          perform. For example, only users with a role of <ph conkeyref="product-vars/admin"/> can
+          configure the system and construct datasets, while only users with a role of <ph
+            conkeyref="product-vars/data-analyst"/> can query data and execute or export a dataset. </p>
    </li>
    <li>
     <p><b>Configurable Password Policy</b>—<ph conkeyref="product-vars/product-name"/> allows you to
-     configure the password policy that defines how strong user passwords have to be. </p>
+          configure the password policy that defines how strong user passwords have to be and how
+          they must be changed. </p>
    </li>
    <li>
-    <p><b>Audit Log</b>—<ph conkeyref="product-vars/product-name"/> maintains complete audit logs of
-     system and user operations. They include all create, modify, and delete operations, and a
-     record of all queries made to the system through the <ph conkeyref="product-vars/RESTful-API"
-     />. The audit log files are completely tamperproof for all users. </p>
+    <p><b>Audit Log</b>—<ph conkeyref="product-vars/product-name"/> maintains complete a audit log
+          of system and user operations. The log includes all create, modify, and delete operations,
+          plus a record of all queries for made to the system. The audit log file is completely
+          tamperproof for all users. </p>
    </li>
    <li>
     <p><b>Encryption in motion</b>—<ph conkeyref="product-vars/product-name"/> assumes your system

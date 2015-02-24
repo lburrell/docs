@@ -2,8 +2,8 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="task_set-data-retention-sched">
     <title>Set the Data Retention Schedule</title>
-    <shortdesc>Set the schedule for data retention behavior on the <wintitle>System
-            Configuration</wintitle> page.</shortdesc>
+    <shortdesc>Set the schedule for data retention on the <wintitle>Data Retention</wintitle> screen
+        of the <wintitle>System Configuration</wintitle> page.</shortdesc>
     <taskbody>
         <context>
             <p>To set how often the system checks for expired data:</p>
@@ -12,7 +12,7 @@
             <step>
                 <cmd>Open the <uicontrol>System Configuration</uicontrol> page, by clicking the
                         <uicontrol>System Configuration</uicontrol> icon in the left navigation bar.
-                        <image href="../_images/gui-screen-shots/icon_system-config.JPG"
+                        <image href="../_images/gui-screen-shots/icon_system-config.png"
                         id="image_svp_vkn_jq" scale="50"/></cmd>
                 <info>The <wintitle>System Configuration</wintitle> page opens on the<wintitle>
                         Password Policy</wintitle> screen. <fig id="fig_password-policy">
@@ -30,8 +30,10 @@
                     </fig></info>
             </step>
             <step>
-                <cmd>In the <uicontrol>Frequency</uicontrol> field, choose between hourly, daily, or
-                    weekly, or specify the number of minutes between checks.</cmd>
+                <cmd>In the <uicontrol>Frequency</uicontrol> field, choose between
+                        <uicontrol>hourly</uicontrol>, <uicontrol>daily</uicontrol>, or
+                        <uicontrol>weekly</uicontrol>, or specify the number of minutes between
+                    checks.</cmd>
             </step>
             <step>
                 <cmd>Click <uicontrol>Save</uicontrol> to save the changes.</cmd>

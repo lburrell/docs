@@ -6,11 +6,10 @@
    <wintitle>Object Browser</wintitle>.</shortdesc>
  <conbody>
   <p>The Object Browser lets you view individual objects that have been stored in PHEMI Central. You
-   can see the metadata that has been applied to the object, the data elements (if any) that were
-   derived by running a DPF on the ingested data, and the binary data that makes up the object,
-   shown as hexadecimal and ASCII.</p>
-    <p>Only a <ph conkeyref="product-vars/admin"/> can access the Object Browser.  As for all other
-      data, access to data is governed by administrator access to data is restricted by the
-      governance placed around the data.</p>
+      can see the metadata that has been applied to the object, the data elements (if any) that have
+      been derived by running a DPF on the data, and the binary data that makes up the object, shown
+      as hexadecimal with an ASCII interpretation.</p>
+    <p>Only a <ph conkeyref="product-vars/admin"/> can access the Object Browser. As with all other
+      data, access to data is restricted by the governance placed around the data.</p>
  </conbody>
 </concept>

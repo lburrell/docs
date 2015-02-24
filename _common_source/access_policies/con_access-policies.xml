@@ -3,7 +3,7 @@
 <concept id="concept_access-policies">
  <title>Access Policies</title>
  <shortdesc>Access policies let you characterize rightful access in terms of user authorizations and
-    data sensitivity, or visibility.</shortdesc>
+    data visibility.</shortdesc>
  <conbody>
     <p conref="../_Glossary/con_glossary.xml#concept_glossary/access-policy"/>
     <p>To create an access policy, you define one or more access rules. Each rule has three parts. </p>
@@ -14,19 +14,19 @@
           authorizations.</xref></li>
       <li><keyword>Action</keyword> specifies what action authorized users may take to interact with
         the data. </li>
-      <li><keyword>Object</keyword> specifies the kind of data for which the access is being
+      <li><keyword>Object</keyword> specifies what kind of data for which the access is being
         granted. The data is specified in terms of data visibility. <xref
           href="../data_visibilities/con_data-visibilities.xml#concept_data-visibilities">Tell me
           about data visibilities.</xref></li>
     </ul>
-    <p> A rule is matched when the user making the request has an authorization matching at least
-      one of those listed for <keyword>Subject</keyword>, and the data being requested has a
-      visibility matching at least one of those listed for <keyword>Object</keyword>. When there is
-      a match, the user may take the specified action(s) on the data.</p>
-    <p>If there is more than one rule in an access policy, the rules are related by OR logic.</p>
+    <p> A access policy is matched when the request satisfies at least one access rule in the
+      policy. A rule is satisfied if the user making the request has one of the authorizations
+      listed for <keyword>Subject</keyword>, and the data being requested one of the visibilities
+      listed for <keyword>Object</keyword>. When there is a match, the user may take the specified
+      action(s) on the data.</p>
     <p>The rules in a given access policy are intended to implement specific controls over data.
       Depending on the number and kinds of datasets your organization works with, you may need just
-      one access policy or multiple access policies. </p>
+      one access policy or you may need multiple access policies. </p>
     <p>If you have multiple access policies, it is possible for policies to conflict with one
       another and still represent a consistent governance policy, provided that each access policy
       is used to control different data collections or datasets. For example, one access policy may
