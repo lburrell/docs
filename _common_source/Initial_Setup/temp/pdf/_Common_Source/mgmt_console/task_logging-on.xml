@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?workdir /C:\PHEMI-docs\docs\_common_source\Initial_Setup\temp\pdf\_Common_Source\mgmt_console?><?workdir-uri file:/C:/PHEMI-docs/docs/_common_source/Initial_Setup/temp/pdf/_common_source/mgmt_console/?><?path2project ..\pdf\?><?path2project-uri ../pdf/?><task xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="task_logging-on" ditaarch:DITAArchVersion="1.2" domains="(topic task)                            (topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic task strictTaskbody-c)    " class="- topic/topic task/task " xtrf="C:\PHEMI-docs\docs\_common_source\mgmt_console\task_logging-on.xml" xtrc="task:1;3:28">
+    <title class="- topic/title " xtrf="C:\PHEMI-docs\docs\_common_source\mgmt_console\task_logging-on.xml" xtrc="title:1;4:12">Logging On and Off</title>
+    <shortdesc class="- topic/shortdesc " xtrf="C:\PHEMI-docs\docs\_common_source\mgmt_console\task_logging-on.xml" xtrc="shortdesc:1;5:17"></shortdesc>
+    <taskbody class="- topic/body task/taskbody " xtrf="C:\PHEMI-docs\docs\_common_source\mgmt_console\task_logging-on.xml" xtrc="taskbody:1;6:15">
+        <prereq class="- topic/section task/prereq " xtrf="C:\PHEMI-docs\docs\_common_source\mgmt_console\task_logging-on.xml" xtrc="prereq:1;7:17">
+            <p class="- topic/p " xtrf="C:\PHEMI-docs\docs\_common_source\mgmt_console\task_logging-on.xml" xtrc="p:1;8:16">The URL for the <ph conref="../_Variables/PHEMI_Central/con_Product-Vars.xml#product-name" class="- topic/ph " xtrf="C:\PHEMI-docs\docs\_common_source\mgmt_console\task_logging-on.xml" xtrc="ph:1;8:75"></ph>
+                <ph conref="../_Variables/PHEMI_Central/con_Product-Vars.xml#gui-name" class="- topic/ph " xtrf="C:\PHEMI-docs\docs\_common_source\mgmt_console\task_logging-on.xml" xtrc="ph:2;9:56"></ph> is configured during physical installation
+                of <ph conref="../_Variables/PHEMI_Central/con_Product-Vars.xml#product-name" class="- topic/ph " xtrf="C:\PHEMI-docs\docs\_common_source\mgmt_console\task_logging-on.xml" xtrc="ph:3;10:63"></ph>. <ph conref="../_Variables/PHEMI_Central/con_Corporate_Vars.xml#prof-services" class="- topic/ph " xtrf="C:\PHEMI-docs\docs\_common_source\mgmt_console\task_logging-on.xml" xtrc="ph:4;11:58"></ph> will provide you with the URL. </p>
+        </prereq>
+        <context class="- topic/section task/context " xtrf="C:\PHEMI-docs\docs\_common_source\mgmt_console\task_logging-on.xml" xtrc="context:1;13:18">
+            <p class="- topic/p " xtrf="C:\PHEMI-docs\docs\_common_source\mgmt_console\task_logging-on.xml" xtrc="p:2;14:16">To log on to the <ph conref="../_Variables/PHEMI_Central/con_Product-Vars.xml#product-name" class="- topic/ph " xtrf="C:\PHEMI-docs\docs\_common_source\mgmt_console\task_logging-on.xml" xtrc="ph:5;14:76"></ph>
+                <ph conref="../_Variables/PHEMI_Central/con_Product-Vars.xml#gui-name" class="- topic/ph " xtrf="C:\PHEMI-docs\docs\_common_source\mgmt_console\task_logging-on.xml" xtrc="ph:6;15:56"></ph>:</p>
+        </context>
+        <steps class="- topic/ol task/steps " xtrf="C:\PHEMI-docs\docs\_common_source\mgmt_console\task_logging-on.xml" xtrc="steps:1;17:16">
+            <step class="- topic/li task/step " xtrf="C:\PHEMI-docs\docs\_common_source\mgmt_console\task_logging-on.xml" xtrc="step:1;18:19">
+                <cmd class="- topic/ph task/cmd " xtrf="C:\PHEMI-docs\docs\_common_source\mgmt_console\task_logging-on.xml" xtrc="cmd:1;19:22">In the address bar of the browser, enter the URL configured for the <ph conref="../_Variables/PHEMI_Central/con_Product-Vars.xml#product-name" class="- topic/ph " xtrf="C:\PHEMI-docs\docs\_common_source\mgmt_console\task_logging-on.xml" xtrc="ph:7;20:64"></ph>
+                    <ph conref="../_Variables/PHEMI_Central/con_Product-Vars.xml#gui-name" class="- topic/ph " xtrf="C:\PHEMI-docs\docs\_common_source\mgmt_console\task_logging-on.xml" xtrc="ph:8;21:60"></ph>.</cmd>
+                <info class="- topic/itemgroup task/info " xtrf="C:\PHEMI-docs\docs\_common_source\mgmt_console\task_logging-on.xml" xtrc="info:1;22:24"></info>
+                <stepresult class="- topic/itemgroup task/stepresult " xtrf="C:\PHEMI-docs\docs\_common_source\mgmt_console\task_logging-on.xml" xtrc="stepresult:1;23:29">
+                    <p class="- topic/p " xtrf="C:\PHEMI-docs\docs\_common_source\mgmt_console\task_logging-on.xml" xtrc="p:3;24:24">The <ph conref="../_Variables/PHEMI_Central/con_Product-Vars.xml#product-name" class="- topic/ph " xtrf="C:\PHEMI-docs\docs\_common_source\mgmt_console\task_logging-on.xml" xtrc="ph:9;24:71"></ph> login screen appears.</p>
+                    <fig id="fig_login-screen" class="- topic/fig " xtrf="C:\PHEMI-docs\docs\_common_source\mgmt_console\task_logging-on.xml" xtrc="fig:1;25:48">
+                        <image href="../_images/gui-screen-shots/login-screen.JPG" id="image_kym_blr_3q" placement="inline" class="- topic/image " xtrf="C:\PHEMI-docs\docs\_common_source\mgmt_console\task_logging-on.xml" xtrc="image:1;27:52"></image>
+                    </fig>
+                </stepresult>
+            </step>
+            <step class="- topic/li task/step " xtrf="C:\PHEMI-docs\docs\_common_source\mgmt_console\task_logging-on.xml" xtrc="step:2;31:19">
+                <cmd class="- topic/ph task/cmd " xtrf="C:\PHEMI-docs\docs\_common_source\mgmt_console\task_logging-on.xml" xtrc="cmd:2;32:22">Enter your user name and password. Click <uicontrol class="+ topic/ph ui-d/uicontrol " xtrf="C:\PHEMI-docs\docs\_common_source\mgmt_console\task_logging-on.xml" xtrc="uicontrol:1;32:74">Login</uicontrol>.</cmd>
+                <stepresult class="- topic/itemgroup task/stepresult " xtrf="C:\PHEMI-docs\docs\_common_source\mgmt_console\task_logging-on.xml" xtrc="stepresult:2;33:29">The <ph conref="../_Variables/PHEMI_Central/con_Product-Vars.xml#product-name" class="- topic/ph " xtrf="C:\PHEMI-docs\docs\_common_source\mgmt_console\task_logging-on.xml" xtrc="ph:10;33:76"></ph>
+                    <ph conref="../_Variables/PHEMI_Central/con_Product-Vars.xml#gui-name" class="- topic/ph " xtrf="C:\PHEMI-docs\docs\_common_source\mgmt_console\task_logging-on.xml" xtrc="ph:11;34:60"></ph> launches.The <ph conref="../_Variables/PHEMI_Central/con_Product-Vars.xml#gui-name" class="- topic/ph " xtrf="C:\PHEMI-docs\docs\_common_source\mgmt_console\task_logging-on.xml" xtrc="ph:12;35:60"></ph> initially opens on the <wintitle class="+ topic/keyword ui-d/wintitle " xtrf="C:\PHEMI-docs\docs\_common_source\mgmt_console\task_logging-on.xml" xtrc="wintitle:1;35:94">Data
+                        Collections</wintitle> page. Subsequently, the system remembers the last
+                    page you viewed and opens on that page.</stepresult>
+            </step>
+            <step class="- topic/li task/step " xtrf="C:\PHEMI-docs\docs\_common_source\mgmt_console\task_logging-on.xml" xtrc="step:3;39:19">
+                <cmd class="- topic/ph task/cmd " xtrf="C:\PHEMI-docs\docs\_common_source\mgmt_console\task_logging-on.xml" xtrc="cmd:3;40:22">Logging off the <ph conref="../_Variables/PHEMI_Central/con_Product-Vars.xml#gui-name" class="- topic/ph " xtrf="C:\PHEMI-docs\docs\_common_source\mgmt_console\task_logging-on.xml" xtrc="ph:13;40:77"></ph> is described <xref href="../../_common_source/quick_tasks/task_log-off.xml#task_log-off" class="- topic/xref " xtrf="C:\PHEMI-docs\docs\_common_source\mgmt_console\task_logging-on.xml" xtrc="xref:1;42:26">here</xref>.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

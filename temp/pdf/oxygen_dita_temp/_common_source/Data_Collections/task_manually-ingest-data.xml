@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\PHEMI-docs\docs\temp\pdf\oxygen_dita_temp\_common_source\Data_Collections?><?workdir-uri file:/C:/PHEMI-docs/docs/temp/pdf/oxygen_dita_temp/_common_source/Data_Collections/?><?path2project ..\..\?><?path2project-uri ../../?><task xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="task_manually-ingest-data" ditaarch:DITAArchVersion="1.2" domains="(topic task)                            (topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic task strictTaskbody-c)    " class="- topic/topic task/task " xtrf="C:\PHEMI-docs\docs\_common_source\Data_Collections\task_manually-ingest-data.xml" xtrc="task:1;3:38">
+    <title class="- topic/title " xtrf="C:\PHEMI-docs\docs\_common_source\Data_Collections\task_manually-ingest-data.xml" xtrc="title:1;4:12">Manually Ingest Files</title>
+    <shortdesc class="- topic/shortdesc " xtrf="C:\PHEMI-docs\docs\_common_source\Data_Collections\task_manually-ingest-data.xml" xtrc="shortdesc:1;5:16">You can quickly manually ingest data files from a data collection into <ph class="- topic/ph " xtrf="C:\PHEMI-docs\docs\_common_source\_Variables\PHEMI_Central\con_Product-Vars.xml" xtrc="ph:1;6:48">PHEMI Central</ph> from the <wintitle class="+ topic/keyword ui-d/wintitle " xtrf="C:\PHEMI-docs\docs\_common_source\Data_Collections\task_manually-ingest-data.xml" xtrc="wintitle:1;6:72">Data Collections</wintitle>
+        page.</shortdesc>
+    <taskbody class="- topic/body task/taskbody " xtrf="C:\PHEMI-docs\docs\_common_source\Data_Collections\task_manually-ingest-data.xml" xtrc="taskbody:1;8:15">
+        <context class="- topic/section task/context " xtrf="C:\PHEMI-docs\docs\_common_source\Data_Collections\task_manually-ingest-data.xml" xtrc="context:1;9:18">To manually ingest files:</context>
+        <steps id="steps_bh4_2h4_1r" class="- topic/ol task/steps " xtrf="C:\PHEMI-docs\docs\_common_source\Data_Collections\task_manually-ingest-data.xml" xtrc="steps:1;10:38">
+            <step class="- topic/li task/step " xtrf="C:\PHEMI-docs\docs\_common_source\Data_Collections\task_manually-ingest-data.xml" xtrc="step:1;11:19">
+                <cmd class="- topic/ph task/cmd " xtrf="C:\PHEMI-docs\docs\_common_source\Data_Collections\task_manually-ingest-data.xml" xtrc="cmd:1;12:22">Open the <uicontrol class="+ topic/ph ui-d/uicontrol " xtrf="C:\PHEMI-docs\docs\_common_source\Data_Collections\task_manually-ingest-data.xml" xtrc="uicontrol:1;12:42">Data Collections</uicontrol> page, by clicking the
+                        <uicontrol class="+ topic/ph ui-d/uicontrol " xtrf="C:\PHEMI-docs\docs\_common_source\Data_Collections\task_manually-ingest-data.xml" xtrc="uicontrol:2;13:36">Data Collections</uicontrol> icon in the left navigation bar.
+                        <image href="../_images/gui-screen-shots/icon_data-collections.png" id="image_fmr_wzn_mq" scale="50" placement="inline" class="- topic/image " xtrf="C:\PHEMI-docs\docs\_common_source\Data_Collections\task_manually-ingest-data.xml" xtrc="image:1;15:59"/></cmd>
+                <info class="- topic/itemgroup task/info " xtrf="C:\PHEMI-docs\docs\_common_source\Data_Collections\task_manually-ingest-data.xml" xtrc="info:1;16:23">
+                    <p class="- topic/p " xtrf="C:\PHEMI-docs\docs\_common_source\Data_Collections\task_manually-ingest-data.xml" xtrc="p:1;17:24">The <wintitle class="+ topic/keyword ui-d/wintitle " xtrf="C:\PHEMI-docs\docs\_common_source\Data_Collections\task_manually-ingest-data.xml" xtrc="wintitle:2;17:38">Data Collections</wintitle> page opens showing defined data
+                        categories. <xref href="../Data_Categories/con_data-categories.xml#concept_data-categories" class="- topic/xref " xtrf="C:\PHEMI-docs\docs\_common_source\Data_Collections\task_manually-ingest-data.xml" xtrc="xref:1;20:30" type="concept"><?ditaot usertext?>Tell me about data categories.<?ditaot genshortdesc?><desc class="- topic/desc ">High-level data categories help you classify the data that will be stored in <ph class="- topic/ph " xtrf="C:\PHEMI-docs\docs\_common_source\_Variables\PHEMI_Central\con_Product-Vars.xml" xtrc="ph:1;6:48">PHEMI Central</ph>. </desc></xref></p>
+                    <fig id="fig_data-sources" class="- topic/fig " xtrf="C:\PHEMI-docs\docs\_common_source\Data_Collections\task_manually-ingest-data.xml" xtrc="fig:1;21:48">
+                        <image href="../_images/gui-screen-shots/data-collections.png" id="image_hmp_55r_3q" scale="50" placement="inline" class="- topic/image " xtrf="C:\PHEMI-docs\docs\_common_source\Data_Collections\task_manually-ingest-data.xml" xtrc="image:2;23:63"/>
+                    </fig>
+                </info>
+            </step>
+            <step class="- topic/li task/step " xtrf="C:\PHEMI-docs\docs\_common_source\Data_Collections\task_manually-ingest-data.xml" xtrc="step:2;27:19">
+                <cmd class="- topic/ph task/cmd " xtrf="C:\PHEMI-docs\docs\_common_source\Data_Collections\task_manually-ingest-data.xml" xtrc="cmd:2;28:22">Click any data category to expand the category and see the data collection
+                    included in the category.</cmd>
+                <info class="- topic/itemgroup task/info " xtrf="C:\PHEMI-docs\docs\_common_source\Data_Collections\task_manually-ingest-data.xml" xtrc="info:2;30:23">
+                    <fig id="fig_data-sources_data-sources" class="- topic/fig " xtrf="C:\PHEMI-docs\docs\_common_source\Data_Collections\task_manually-ingest-data.xml" xtrc="fig:2;31:61">
+                        <image href="../_images/gui-screen-shots/data-collections_data-collections.png" id="image_wpx_pd4_mq" scale="50" placement="inline" class="- topic/image " xtrf="C:\PHEMI-docs\docs\_common_source\Data_Collections\task_manually-ingest-data.xml" xtrc="image:3;34:63"/>
+                    </fig>
+                </info>
+            </step>
+            <step class="- topic/li task/step " xtrf="C:\PHEMI-docs\docs\_common_source\Data_Collections\task_manually-ingest-data.xml" xtrc="step:3;38:19">
+                <cmd class="- topic/ph task/cmd " xtrf="C:\PHEMI-docs\docs\_common_source\Data_Collections\task_manually-ingest-data.xml" xtrc="cmd:3;39:22">Click the data collection name. The <wintitle class="+ topic/keyword ui-d/wintitle " xtrf="C:\PHEMI-docs\docs\_common_source\Data_Collections\task_manually-ingest-data.xml" xtrc="wintitle:3;39:68">Data Policy</wintitle> screen for the
+                    data collection opens.</cmd>
+                <info class="- topic/itemgroup task/info " xtrf="C:\PHEMI-docs\docs\_common_source\Data_Collections\task_manually-ingest-data.xml" xtrc="info:3;41:23">
+                    <fig id="fig_data-policy-cmplt" class="- topic/fig " xtrf="C:\PHEMI-docs\docs\_common_source\Data_Collections\task_manually-ingest-data.xml" xtrc="fig:3;42:53">
+                        <image href="../_images/gui-screen-shots/data-collections_data-policy_cmplt.png" id="image_i2r_ck4_1r" scale="50" placement="inline" class="- topic/image " xtrf="C:\PHEMI-docs\docs\_common_source\Data_Collections\task_manually-ingest-data.xml" xtrc="image:4;45:63"/>
+                    </fig>
+                </info>
+            </step>
+            <step class="- topic/li task/step " xtrf="C:\PHEMI-docs\docs\_common_source\Data_Collections\task_manually-ingest-data.xml" xtrc="step:4;49:19">
+                <cmd class="- topic/ph task/cmd " xtrf="C:\PHEMI-docs\docs\_common_source\Data_Collections\task_manually-ingest-data.xml" xtrc="cmd:4;50:22">Click the <uicontrol class="+ topic/ph ui-d/uicontrol " xtrf="C:\PHEMI-docs\docs\_common_source\Data_Collections\task_manually-ingest-data.xml" xtrc="uicontrol:3;50:43">Ingest Data</uicontrol> tab.</cmd>
+                <info class="- topic/itemgroup task/info " xtrf="C:\PHEMI-docs\docs\_common_source\Data_Collections\task_manually-ingest-data.xml" xtrc="info:4;51:24"/>
+                <info class="- topic/itemgroup task/info " xtrf="C:\PHEMI-docs\docs\_common_source\Data_Collections\task_manually-ingest-data.xml" xtrc="info:5;52:23">The <wintitle class="+ topic/keyword ui-d/wintitle " xtrf="C:\PHEMI-docs\docs\_common_source\Data_Collections\task_manually-ingest-data.xml" xtrc="wintitle:4;52:37">Ingest Data</wintitle> screen opens.<fig id="fig_ingest-data" class="- topic/fig " xtrf="C:\PHEMI-docs\docs\_common_source\Data_Collections\task_manually-ingest-data.xml" xtrc="fig:4;52:99">
+                        <image href="../_images/gui-screen-shots/data-collections_ingest-data.png" id="image_bnx_xzv_1r" scale="50" placement="inline" class="- topic/image " xtrf="C:\PHEMI-docs\docs\_common_source\Data_Collections\task_manually-ingest-data.xml" xtrc="image:5;54:63"/>
+                    </fig></info>
+            </step>
+            <step class="- topic/li task/step " xtrf="C:\PHEMI-docs\docs\_common_source\Data_Collections\task_manually-ingest-data.xml" xtrc="step:5;57:19">
+                <cmd class="- topic/ph task/cmd " xtrf="C:\PHEMI-docs\docs\_common_source\Data_Collections\task_manually-ingest-data.xml" xtrc="cmd:5;58:22">Click the <uicontrol class="+ topic/ph ui-d/uicontrol " xtrf="C:\PHEMI-docs\docs\_common_source\Data_Collections\task_manually-ingest-data.xml" xtrc="uicontrol:4;58:43">Choose File</uicontrol> button (or
+                        <uicontrol class="+ topic/ph ui-d/uicontrol " xtrf="C:\PHEMI-docs\docs\_common_source\Data_Collections\task_manually-ingest-data.xml" xtrc="uicontrol:5;59:36">Browse</uicontrol> button, depending on your browser). Navigate
+                    to the folder and select the file or files you want to ingest. Click the
+                        <uicontrol class="+ topic/ph ui-d/uicontrol " xtrf="C:\PHEMI-docs\docs\_common_source\Data_Collections\task_manually-ingest-data.xml" xtrc="uicontrol:6;61:36">Choose</uicontrol> or <uicontrol class="+ topic/ph ui-d/uicontrol " xtrf="C:\PHEMI-docs\docs\_common_source\Data_Collections\task_manually-ingest-data.xml" xtrc="uicontrol:7;61:69">Open</uicontrol> button to set
+                    your selection.</cmd>
+            </step>
+            <step class="- topic/li task/step " xtrf="C:\PHEMI-docs\docs\_common_source\Data_Collections\task_manually-ingest-data.xml" xtrc="step:6;64:19">
+                <cmd class="- topic/ph task/cmd " xtrf="C:\PHEMI-docs\docs\_common_source\Data_Collections\task_manually-ingest-data.xml" xtrc="cmd:6;65:22">For structured or composite file such as a ZIP files or CSV files, if you want
+                    the PHEMI system DPFs to automatically process the file on ingest, click the
+                    drop-down arrow in the <uicontrol class="+ topic/ph ui-d/uicontrol " xtrf="C:\PHEMI-docs\docs\_common_source\Data_Collections\task_manually-ingest-data.xml" xtrc="uicontrol:8;67:55">Ingest Composite Data</uicontrol> field and
+                    select the file type from the list. If you want <ph class="- topic/ph " xtrf="C:\PHEMI-docs\docs\_common_source\_Variables\PHEMI_Central\con_Product-Vars.xml" xtrc="ph:1;6:48">PHEMI Central</ph> to store the original data along
+                    with the derived data items, check the <uicontrol class="+ topic/ph ui-d/uicontrol " xtrf="C:\PHEMI-docs\docs\_common_source\Data_Collections\task_manually-ingest-data.xml" xtrc="uicontrol:9;70:71">Store Original
+                        File</uicontrol> checkbox.</cmd>
+            </step>
+            <step class="- topic/li task/step " xtrf="C:\PHEMI-docs\docs\_common_source\Data_Collections\task_manually-ingest-data.xml" xtrc="step:7;73:19">
+                <cmd class="- topic/ph task/cmd " xtrf="C:\PHEMI-docs\docs\_common_source\Data_Collections\task_manually-ingest-data.xml" xtrc="cmd:7;74:22">Click the <uicontrol class="+ topic/ph ui-d/uicontrol " xtrf="C:\PHEMI-docs\docs\_common_source\Data_Collections\task_manually-ingest-data.xml" xtrc="uicontrol:10;74:43">Ingest Files</uicontrol> button.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

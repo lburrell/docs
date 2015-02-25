@@ -2,7 +2,6 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
  <title>Quick Tasks</title>
- <keydef keys="product-vars" href="../_Variables/PHEMI_Central/con_Product-Vars.xml"/>
  <topicref href="con_quick-tasks.xml">
   <topicref href="task_change-your-password.xml"/>
   <topicref href="task_get-system-version-info.xml"/>

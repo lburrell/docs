@@ -5,7 +5,7 @@
  <shortdesc>Access policies let you characterize rightful access in terms of user authorizations and
     data visibility.</shortdesc>
  <conbody>
-    <p conref="../_Glossary/con_glossary.xml#concept_glossary/access-policy"/>
+    <p conref="../_glossary/con_glossary.xml#concept_glossary/access-policy"/>
     <p>To create an access policy, you define one or more access rules. Each rule has three parts. </p>
     <ul id="ul_l4z_2dm_lq">
       <li><keyword>Subject</keyword> specifies who may access the data. Access is characterized in

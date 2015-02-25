@@ -5,10 +5,8 @@
  <shortdesc>Data Processing Functions allow data items to be parsed, data elements to be recognized
     and extracted, and the derived data to selectively tagged with metadata.</shortdesc>
  <conbody>
-  <p conref="../_Glossary/con_glossary.xml#concept_glossary/dpf"/>
-  <p><xref href="../Data_in_PHEMI/con_curate_dpfs.xml#concept_curate-dpfs">Tell me more about
-    DPFs.</xref></p>
-  <p conref="../_Glossary/con_glossary.xml#concept_glossary/dpf-archive"/>
+    <p conref="../_glossary/con_glossary.xml#concept_glossary/dpf"/>
+    <p conref="../_glossary/con_glossary.xml#concept_glossary/dpf-archive"/>
   <p>A DPF is associated with a data collection as part of data collection configuration. To associate
    the DPF with the data collection you upload the DPF archive on the data collection configuration
    page.</p>

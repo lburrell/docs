@@ -4,7 +4,7 @@
  <title>Data Visibilities</title>
  <shortdesc>Data visibilities identify the privacy requirements for data.</shortdesc>
  <conbody>
-  <p conref="../_Glossary/con_glossary.xml#concept_glossary/visibilities"/>
+  <p conref="../_glossary/con_glossary.xml#concept_glossary/visibilities"/>
   <p>The visibility of data in your organization should be set out in your organization's governance
    policy. Working from the governance policy,  the <ph conkeyref="product-vars/admin"/> and is
    configured  as part of system configuration.</p>

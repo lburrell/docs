@@ -2,9 +2,8 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
  <title>Data Retention Behavior</title>
- <keydef keys="product-vars" href="../_Variables/PHEMI_Central/con_Product-Vars.xml"/>
- <topicref href="../../_Common_Source/Lifecycle_Management/con_data-retention-behavior.xml">
-  <topicref href="../../_Common_Source/Lifecycle_Management/task_view-data-retention-behav.xml"/>
+ <topicref href="con_data-retention-behavior.xml">
+  <topicref href="task_view-data-retention-behav.xml"/>
   <topicref href="task_set-data-retention-sched.xml"/>
   <topicref href="task_manually-check-data-ret.xml"/>
  </topicref>

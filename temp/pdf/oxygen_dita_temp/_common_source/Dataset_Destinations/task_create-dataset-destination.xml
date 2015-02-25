@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\PHEMI-docs\docs\temp\pdf\oxygen_dita_temp\_common_source\Dataset_Destinations?><?workdir-uri file:/C:/PHEMI-docs/docs/temp/pdf/oxygen_dita_temp/_common_source/Dataset_Destinations/?><?path2project ..\..\?><?path2project-uri ../../?><task xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="task_create-dataset-destination" ditaarch:DITAArchVersion="1.2" domains="(topic task)                            (topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic task strictTaskbody-c)    " class="- topic/topic task/task " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="task:1;3:44">
+    <title class="- topic/title " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="title:1;4:12">Create a Dataset Destination</title>
+    <shortdesc class="- topic/shortdesc " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="shortdesc:1;5:16">Define a new dataset destination on the <wintitle class="+ topic/keyword ui-d/wintitle " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="wintitle:1;5:66">Dataset Destinations</wintitle>
+        screen of the <wintitle class="+ topic/keyword ui-d/wintitle " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="wintitle:2;6:33">System Configuration</wintitle> page. </shortdesc>
+    <taskbody class="- topic/body task/taskbody " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="taskbody:1;7:15">
+        <context class="- topic/section task/context " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="context:1;8:18">
+            <p class="- topic/p " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="p:1;9:16">To create a new dataset destination:</p>
+        </context>
+        <steps class="- topic/ol task/steps " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="steps:1;11:16">
+            <step class="- topic/li task/step " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="step:1;12:19">
+                <cmd class="- topic/ph task/cmd " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="cmd:1;13:22">Open the <uicontrol class="+ topic/ph ui-d/uicontrol " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="uicontrol:1;13:42">System Configuration</uicontrol> page, by clicking the
+                        <uicontrol class="+ topic/ph ui-d/uicontrol " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="uicontrol:2;14:36">System Configuration</uicontrol> icon in the left navigation bar.
+                        <image href="../../_common_source/_images/gui-screen-shots/icon_system-config.png" id="image_fmr_wzn_mq" scale="50" placement="inline" class="- topic/image " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="image:1;17:59"/></cmd>
+                <info class="- topic/itemgroup task/info " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="info:1;18:23">
+                    <p class="- topic/p " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="p:2;19:24">The <wintitle class="+ topic/keyword ui-d/wintitle " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="wintitle:3;19:38">System Configuration</wintitle> page opens on the
+                            <wintitle class="+ topic/keyword ui-d/wintitle " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="wintitle:4;20:39">Password Policy</wintitle> screen.</p>
+                    <fig id="fig_system-config" class="- topic/fig " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="fig:1;21:49">
+                        <image href="../_images/gui-screen-shots/password-policy.jpg" id="image_j4l_xkn_jq" scale="50" placement="inline" class="- topic/image " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="image:2;23:63"/>
+                    </fig>
+                </info>
+            </step>
+            <step class="- topic/li task/step " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="step:2;27:19">
+                <cmd class="- topic/ph task/cmd " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="cmd:2;28:22">Click the <uicontrol class="+ topic/ph ui-d/uicontrol " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="uicontrol:3;28:43">Dataset Destinations</uicontrol> tab. </cmd>
+                <info class="- topic/itemgroup task/info " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="info:2;29:23">
+                    <p class="- topic/p " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="p:3;30:24">The <wintitle class="+ topic/keyword ui-d/wintitle " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="wintitle:5;30:38">Dataset Destinations</wintitle> screen opens.</p>
+                    <fig id="fig_system-config_dataset-destinations" class="- topic/fig " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="fig:2;31:70">
+                        <image href="../_images/gui-screen-shots/dests.jpg" id="image_s2y_vfm_qq" scale="50" placement="inline" class="- topic/image " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="image:3;33:41"/>
+                    </fig>
+                </info>
+            </step>
+            <step class="- topic/li task/step " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="step:3;37:19">
+                <cmd class="- topic/ph task/cmd " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="cmd:3;38:22">Click the <uicontrol class="+ topic/ph ui-d/uicontrol " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="uicontrol:4;38:43">New Destination</uicontrol> button to the right of the
+                        <uicontrol class="+ topic/ph ui-d/uicontrol " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="uicontrol:5;39:36">Choose Destination to Edit</uicontrol> field.</cmd>
+                <info class="- topic/itemgroup task/info " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="info:3;40:23">
+                    <p class="- topic/p " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="p:4;41:24">The <wintitle class="+ topic/keyword ui-d/wintitle " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="wintitle:6;41:38">Destination Details</wintitle> screen opens.</p>
+                    <fig id="fig_create-dataset-dest" class="- topic/fig " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="fig:3;42:55">
+                        <image href="../_images/gui-screen-shots/dests_create.jpg" id="image_jlc_hwl_sq" scale="50" placement="inline" class="- topic/image " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="image:4;44:63"/>
+                    </fig>
+                </info>
+            </step>
+            <step class="- topic/li task/step " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="step:4;48:19">
+                <cmd class="- topic/ph task/cmd " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="cmd:4;49:22">Enter the destination details.</cmd>
+                <choicetable id="choicetable_h54_rtx_3q" relcolwidth="1* 4*" keycol="1" class="- topic/simpletable task/choicetable " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="choicetable:1;50:78">
+                    <chrow class="- topic/strow task/chrow " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="chrow:1;51:28">
+                        <choption class="- topic/stentry task/choption " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="choption:1;52:35">Name</choption>
+                        <chdesc class="- topic/stentry task/chdesc " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="chdesc:1;53:33">
+                            <p class="- topic/p " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="p:5;54:32">Mandatory. Provide a name for the destination.</p>
+                        </chdesc>
+                    </chrow>
+                    <chrow class="- topic/strow task/chrow " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="chrow:2;57:28">
+                        <choption class="- topic/stentry task/choption " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="choption:2;58:35">Type</choption>
+                        <chdesc class="- topic/stentry task/chdesc " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="chdesc:2;59:33">
+                            <p class="- topic/p " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="p:6;60:32">Mandatory. The destination type. Supported values are as follows:</p>
+                            <ul id="ul_rcd_s4m_qq" class="- topic/ul " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="ul:1;61:52">
+                                <li class="- topic/li " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="li:1;62:37"><keyword class="- topic/keyword " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="keyword:1;62:46">MySQL</keyword>. The destination is a MySQL database. </li>
+                                <li class="- topic/li " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="li:2;63:37"><keyword class="- topic/keyword " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="keyword:2;63:46">HANA</keyword>. The destination is a SAP HANA
+                                    database.</li>
+                            </ul>
+                            <p class="- topic/p " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="p:7;66:32">Both MySQL and HANA destination types use a Jave Database
+                                Connectivity (JDBC) connection.</p>
+                        </chdesc>
+                    </chrow>
+                    <chrow class="- topic/strow task/chrow " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="chrow:3;70:28">
+                        <choption class="- topic/stentry task/choption " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="choption:3;71:35">Host</choption>
+                        <chdesc class="- topic/stentry task/chdesc " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="chdesc:3;72:33">Mandatory. The IP address of the destination, in dotted decimal
+                            format.</chdesc>
+                    </chrow>
+                    <chrow class="- topic/strow task/chrow " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="chrow:4;75:28">
+                        <choption class="- topic/stentry task/choption " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="choption:4;76:35">Port</choption>
+                        <chdesc class="- topic/stentry task/chdesc " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="chdesc:4;77:33">Mandatory. The destination TCP port.</chdesc>
+                    </chrow>
+                    <chrow class="- topic/strow task/chrow " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="chrow:5;79:28">
+                        <choption class="- topic/stentry task/choption " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="choption:5;80:35">Database Name</choption>
+                        <chdesc class="- topic/stentry task/chdesc " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="chdesc:5;81:33">Mandatory. The name of the destination database.</chdesc>
+                    </chrow>
+                    <chrow class="- topic/strow task/chrow " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="chrow:6;83:28">
+                        <choption class="- topic/stentry task/choption " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="choption:6;84:35">Schema</choption>
+                        <chdesc class="- topic/stentry task/chdesc " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="chdesc:6;85:33">Mandatory. The name of the schema being used in the destination
+                            database.</chdesc>
+                    </chrow>
+                    <chrow class="- topic/strow task/chrow " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="chrow:7;88:28">
+                        <choption class="- topic/stentry task/choption " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="choption:7;89:35">User Name</choption>
+                        <chdesc class="- topic/stentry task/chdesc " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="chdesc:7;90:33">Mandatory. The user name for logging on to the destination.
+                        </chdesc>
+                    </chrow>
+                    <chrow class="- topic/strow task/chrow " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="chrow:8;93:28">
+                        <choption class="- topic/stentry task/choption " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="choption:8;94:35">Password</choption>
+                        <chdesc class="- topic/stentry task/chdesc " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="chdesc:8;95:33">Mandatory. The password for logging on to the destination.</chdesc>
+                    </chrow>
+                    <chrow class="- topic/strow task/chrow " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="chrow:9;97:28">
+                        <choption class="- topic/stentry task/choption " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="choption:9;98:35">Confirm Password</choption>
+                        <chdesc class="- topic/stentry task/chdesc " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="chdesc:9;99:33">Mandatory. Re-enter the password to ensure it is correct.</chdesc>
+                    </chrow>
+                </choicetable>
+            </step>
+            <step class="- topic/li task/step " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="step:5;103:19">
+                <cmd class="- topic/ph task/cmd " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="cmd:5;104:22">Click the <uicontrol class="+ topic/ph ui-d/uicontrol " xtrf="C:\PHEMI-docs\docs\_common_source\Dataset_Destinations\task_create-dataset-destination.xml" xtrc="uicontrol:6;104:43">Save Destination</uicontrol> button to save the new
+                    destination.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

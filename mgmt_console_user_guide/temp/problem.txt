@@ -1,0 +1,470 @@
+Executing:
+"c:\program files\oxygen xml author 16\jre/bin/java" -Xmx384m "-Dorg.apache.xerces.xni.parser.XMLParserConfiguration=org.ditang.relaxng.defaults.RelaxDefaultsParserConfiguration" -classpath "C:\Program Files\Oxygen XML Author 16\tools\ant/lib/ant-launcher.jar" "-Dant.home=C:\Program Files\Oxygen XML Author 16\tools\ant" org.apache.tools.ant.launch.Launcher -lib "C:\Program Files\Oxygen XML Author 16\classes" -lib "C:\Program Files\Oxygen XML Author 16\lib\oxygen.jar" -lib "C:\Program Files\Oxygen XML Author 16\lib\oxygenAuthor.jar" -lib "C:\Program Files\Oxygen XML Author 16\lib\oxygenDeveloper.jar" -lib "C:\Program Files\Oxygen XML Author 16\lib\oxygenEclipse.jar" -lib "C:\Program Files\Oxygen XML Author 16\lib\oxygenAuthorEclipse.jar" -lib "C:\Program Files\Oxygen XML Author 16\lib\oxygenDeveloperEclipse.jar" -lib "C:\Program Files\Oxygen XML Author 16\lib\resolver.jar" -lib "C:\Program Files\Oxygen XML Author 16\lib\org.eclipse.wst.xml.xpath2.processor_1.2.0.jar" -lib "C:\Program Files\Oxygen XML Author 16\lib\xml-apis.jar" -lib "C:\Program Files\Oxygen XML Author 16\lib\xercesImpl.jar" -lib "C:\Program Files\Oxygen XML Author 16\lib\commons-io-1.3.1.jar" -lib "C:\Program Files\Oxygen XML Author 16\lib\commons-logging-1.1.3.jar" -lib "C:\Program Files\Oxygen XML Author 16\lib\log4j.jar" -lib "C:\Program Files\Oxygen XML Author 16\frameworks\dita\DITA-OT\lib\commons-codec-1.4.jar" -lib "C:\Program Files\Oxygen XML Author 16\lib\jing.jar" -lib "C:\Program Files\Oxygen XML Author 16\lib\saxon9ee.jar" -lib "C:\Program Files\Oxygen XML Author 16\lib\saxon.jar" -lib "C:\Program Files\Oxygen XML Author 16\lib\xmlgraphics-commons-1.5.jar" -lib "C:\Program Files\Oxygen XML Author 16\lib\fop.jar" -lib "C:\Program Files\Oxygen XML Author 16\lib\batik-all-1.7.jar" -lib "C:\Program Files\Oxygen XML Author 16\lib\js.jar" -lib "C:\Program Files\Oxygen XML Author 16\lib\xml-apis-ext.jar" -lib "C:\Program Files\Oxygen XML Author 16\lib\avalon-framework-4.2.0.jar" -lib "C:\Program Files\Oxygen XML Author 16\lib\jeuclid-core.jar" -lib "C:\Program Files\Oxygen XML Author 16\lib\jeuclid-fop.jar" -lib "C:\Program Files\Oxygen XML Author 16\lib\jai_tiff.jar" -lib "C:\Program Files\Oxygen XML Author 16\lib\jh.jar" -lib "C:\Program Files\Oxygen XML Author 16\frameworks\dita\DITA-OT\lib\jsearch.jar" -lib "C:\Program Files\Oxygen XML Author 16\lib\lucene-analyzers-common-4.0.0.jar" -lib "C:\Program Files\Oxygen XML Author 16\lib\lucene-core-4.0.0.jar" -lib "C:\Program Files\Oxygen XML Author 16\frameworks\dita\DITA-OT\plugins\com.oxygenxml.webhelp\lib\xhtml-indexer.jar" -lib "C:\Program Files\Oxygen XML Author 16\frameworks\dita\DITA-OT\plugins\com.oxygenxml.highlight\lib\xslthl-2.1.1.jar" -lib "C:\Program Files\Oxygen XML Author 16\frameworks\dita\DITA-OT" -lib "C:\Program Files\Oxygen XML Author 16\frameworks\dita\DITA-OT\lib\dost-patches.jar" -lib "C:\Program Files\Oxygen XML Author 16\frameworks\dita\DITA-OT\lib" -lib "C:\Program Files\Oxygen XML Author 16\frameworks\dita\DITA-OT\lib\dost.jar" -f "C:\Program Files\Oxygen XML Author 16\frameworks/dita/DITA-OT/build.xml" "-Dtranstype=pdf2" "-Dbasedir=C:\PHEMI-docs\docs\mgmt_console_user_guide" "-Doutput.dir=C:\PHEMI-docs\docs\mgmt_console_user_guide/out/pdf" "-Ddita.temp.dir=C:\PHEMI-docs\docs\mgmt_console_user_guide/temp/pdf" "-Dpdf.formatter=fop" "-Dargs.filter=C:\Users\Lindsay\Dropbox\Product Management\Product Documentation\R1.0\_Common_Source\_Filters\No_Internal.ditaval" "-Ddita.input.valfile=C:\Users\Lindsay\Dropbox\Product Management\Product Documentation\R1.0\_Common_Source\_Filters\No_Internal.ditaval" "-Dxep.failOnError=true" "-Ddita.dir=C:\Program Files\Oxygen XML Author 16\frameworks/dita/DITA-OT" "-Douter.control=quiet" "-Dargs.input=C:\PHEMI-docs\docs\mgmt_console_user_guide\Test.ditamap" "-DbaseJVMArgLine=-Xmx384m"
+
+Buildfile: C:\Program Files\Oxygen XML Author 16\frameworks\dita\DITA-OT\build.xml
+
+init:
+
+clean-output:
+
+dita2pdf2.init:
+
+start-process:
+
+init-logger:
+
+init-URIResolver:
+
+use-init:
+
+check-arg:
+[DOTA012W][WARN] Argument "dita.input.valfile" is deprecated. Please use the argument "args.filter" instead.
+    [mkdir] Created dir: C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf
+     [echo] *****************************************************************
+     [echo] * basedir = C:\PHEMI-docs\docs\mgmt_console_user_guide
+     [echo] * dita.dir = C:\Program Files\Oxygen XML Author 16\frameworks/dita/DITA-OT
+     [echo] * input = C:\PHEMI-docs\docs\mgmt_console_user_guide\Test.ditamap
+     [echo] * inputdir = C:\PHEMI-docs\docs\mgmt_console_user_guide
+     [echo] * transtype = pdf2
+     [echo] * tempdir = C:\PHEMI-docs\docs\mgmt_console_user_guide/temp/pdf
+     [echo] * outputdir = C:\PHEMI-docs\docs\mgmt_console_user_guide/out/pdf
+     [echo] * extname = ${dita.ext}
+     [echo] * clean.temp = true
+     [echo] * clean.output = false
+     [echo] * DITA-OT version = 1.8.5
+     [echo] * XML parser = Xerces
+     [echo] * XSLT processor = Saxon
+     [echo] * collator = JDL
+     [echo] *****************************************************************
+     [echo] #Ant properties
+     [echo] #Tue Feb 24 15:46:43 PST 2015
+     [echo] args.css.file.temp=${args.css}
+     [echo] args.css.real=${args.css}
+     [echo] args.default.language=en-US
+     [echo] args.filter=C\:\\Users\\Lindsay\\Dropbox\\Product Management\\Product Documentation\\R1.0\\_Common_Source\\_Filters\\No_Internal.ditaval
+     [echo] args.grammar.cache=yes
+     [echo] args.input=C\:\\PHEMI-docs\\docs\\mgmt_console_user_guide\\Test.ditamap
+     [echo] args.logdir=C\:\\PHEMI-docs\\docs\\mgmt_console_user_guide/out/pdf
+     [echo] args.outext=.html
+     [echo] args.rellinks=none
+     [echo] args.xml.systemid.set=yes
+     [echo] dita.dir=C\:\\Program Files\\Oxygen XML Author 16\\frameworks/dita/DITA-OT
+     [echo] dita.input.dirname=C\:\\PHEMI-docs\\docs\\mgmt_console_user_guide
+     [echo] dita.input.filename=Test.ditamap
+     [echo] dita.input.valfile=C\:\\Users\\Lindsay\\Dropbox\\Product Management\\Product Documentation\\R1.0\\_Common_Source\\_Filters\\No_Internal.ditaval
+     [echo] dita.map.filename.root=Test
+     [echo] dita.plugin.com.oxygenxml.dita-ot.plugin.mathml.dir=C\:\\Program Files\\Oxygen XML Author 16\\frameworks\\dita\\DITA-OT\\plugins\\mathml
+     [echo] dita.plugin.com.oxygenxml.dita-ot.plugin.webhelp.dir=C\:\\Program Files\\Oxygen XML Author 16\\frameworks\\dita\\DITA-OT\\plugins\\com.oxygenxml.webhelp
+     [echo] dita.plugin.com.oxygenxml.highlight.dir=C\:\\Program Files\\Oxygen XML Author 16\\frameworks\\dita\\DITA-OT\\plugins\\com.oxygenxml.highlight
+     [echo] dita.plugin.com.oxygenxml.pdf.prince.dir=C\:\\Program Files\\Oxygen XML Author 16\\frameworks\\dita\\DITA-OT\\plugins\\com.oxygenxml.pdf.prince
+     [echo] dita.plugin.com.sophos.tocjs.dir=C\:\\Program Files\\Oxygen XML Author 16\\frameworks\\dita\\DITA-OT\\plugins\\com.sophos.tocjs
+     [echo] dita.plugin.net.sourceforge.d4p.graphviz.dir=C\:\\Program Files\\Oxygen XML Author 16\\frameworks\\dita\\DITA-OT\\plugins\\net.sourceforge.dita4publishers.graphviz
+     [echo] dita.plugin.net.sourceforge.d4p.subjectscheme2navmap.dir=C\:\\Program Files\\Oxygen XML Author 16\\frameworks\\dita\\DITA-OT\\plugins\\net.sourceforge.dita4publishers.subjectscheme2navmap
+     [echo] dita.plugin.net.sourceforge.dita4publishers.common.html.dir=C\:\\Program Files\\Oxygen XML Author 16\\frameworks\\dita\\DITA-OT\\plugins\\net.sourceforge.dita4publishers.common.html
+     [echo] dita.plugin.net.sourceforge.dita4publishers.common.mapdriven.dir=C\:\\Program Files\\Oxygen XML Author 16\\frameworks\\dita\\DITA-OT\\plugins\\net.sourceforge.dita4publishers.common.mapdriven
+     [echo] dita.plugin.net.sourceforge.dita4publishers.common.xslfo.dir=C\:\\Program Files\\Oxygen XML Author 16\\frameworks\\dita\\DITA-OT\\plugins\\net.sourceforge.dita4publishers.common.xslfo
+     [echo] dita.plugin.net.sourceforge.dita4publishers.common.xslt.dir=C\:\\Program Files\\Oxygen XML Author 16\\frameworks\\dita\\DITA-OT\\plugins\\net.sourceforge.dita4publishers.common.xslt
+     [echo] dita.plugin.net.sourceforge.dita4publishers.doctypes.dir=C\:\\Program Files\\Oxygen XML Author 16\\frameworks\\dita\\DITA-OT\\plugins\\net.sourceforge.dita4publishers.doctypes
+     [echo] dita.plugin.net.sourceforge.dita4publishers.enumeration-d.fo.dir=C\:\\Program Files\\Oxygen XML Author 16\\frameworks\\dita\\DITA-OT\\plugins\\net.sourceforge.dita4publishers.enumeration-d.fo
+     [echo] dita.plugin.net.sourceforge.dita4publishers.enumeration-d.html.dir=C\:\\Program Files\\Oxygen XML Author 16\\frameworks\\dita\\DITA-OT\\plugins\\net.sourceforge.dita4publishers.enumeration-d.html
+     [echo] dita.plugin.net.sourceforge.dita4publishers.epub.dir=C\:\\Program Files\\Oxygen XML Author 16\\frameworks\\dita\\DITA-OT\\plugins\\net.sourceforge.dita4publishers.epub
+     [echo] dita.plugin.net.sourceforge.dita4publishers.formatting-d.fo.dir=C\:\\Program Files\\Oxygen XML Author 16\\frameworks\\dita\\DITA-OT\\plugins\\net.sourceforge.dita4publishers.formatting-d.fo
+     [echo] dita.plugin.net.sourceforge.dita4publishers.formatting-d.html.dir=C\:\\Program Files\\Oxygen XML Author 16\\frameworks\\dita\\DITA-OT\\plugins\\net.sourceforge.dita4publishers.formatting-d.html
+     [echo] dita.plugin.net.sourceforge.dita4publishers.html2.dir=C\:\\Program Files\\Oxygen XML Author 16\\frameworks\\dita\\DITA-OT\\plugins\\net.sourceforge.dita4publishers.html2
+     [echo] dita.plugin.net.sourceforge.dita4publishers.journals.pdf.dir=C\:\\Program Files\\Oxygen XML Author 16\\frameworks\\dita\\DITA-OT\\plugins\\net.sourceforge.dita4publishers.journals.pdf
+     [echo] dita.plugin.net.sourceforge.dita4publishers.kindle.dir=C\:\\Program Files\\Oxygen XML Author 16\\frameworks\\dita\\DITA-OT\\plugins\\net.sourceforge.dita4publishers.kindle
+     [echo] dita.plugin.net.sourceforge.dita4publishers.math-d.html.dir=C\:\\Program Files\\Oxygen XML Author 16\\frameworks\\dita\\DITA-OT\\plugins\\net.sourceforge.dita4publishers.math-d.html
+     [echo] dita.plugin.net.sourceforge.dita4publishers.math.dir=C\:\\Program Files\\Oxygen XML Author 16\\frameworks\\dita\\DITA-OT\\plugins\\net.sourceforge.dita4publishers.math
+     [echo] dita.plugin.net.sourceforge.dita4publishers.media-d.html.dir=C\:\\Program Files\\Oxygen XML Author 16\\frameworks\\dita\\DITA-OT\\plugins\\net.sourceforge.dita4publishers.media-d.html
+     [echo] dita.plugin.net.sourceforge.dita4publishers.pdf-dl-as-dl.dir=C\:\\Program Files\\Oxygen XML Author 16\\frameworks\\dita\\DITA-OT\\plugins\\net.sourceforge.dita4publishers.pdf-dl-as-dl
+     [echo] dita.plugin.net.sourceforge.dita4publishers.pubContent-d.fo.dir=C\:\\Program Files\\Oxygen XML Author 16\\frameworks\\dita\\DITA-OT\\plugins\\net.sourceforge.dita4publishers.pubContent-d.fo
+     [echo] dita.plugin.net.sourceforge.dita4publishers.pubmap.html.dir=C\:\\Program Files\\Oxygen XML Author 16\\frameworks\\dita\\DITA-OT\\plugins\\net.sourceforge.dita4publishers.pubmap.html
+     [echo] dita.plugin.net.sourceforge.dita4publishers.rss.dir=C\:\\Program Files\\Oxygen XML Author 16\\frameworks\\dita\\DITA-OT\\plugins\\net.sourceforge.dita4publishers.rss
+     [echo] dita.plugin.net.sourceforge.dita4publishers.ruby-d.fo.dir=C\:\\Program Files\\Oxygen XML Author 16\\frameworks\\dita\\DITA-OT\\plugins\\net.sourceforge.dita4publishers.ruby.fo
+     [echo] dita.plugin.net.sourceforge.dita4publishers.ruby.html.dir=C\:\\Program Files\\Oxygen XML Author 16\\frameworks\\dita\\DITA-OT\\plugins\\net.sourceforge.dita4publishers.ruby.html
+     [echo] dita.plugin.net.sourceforge.dita4publishers.sample.epub_override.dir=C\:\\Program Files\\Oxygen XML Author 16\\frameworks\\dita\\DITA-OT\\plugins\\net.sourceforge.dita4publishers.sample.epub_override
+     [echo] dita.plugin.net.sourceforge.dita4publishers.shakespear.doctypes.dir=C\:\\Program Files\\Oxygen XML Author 16\\frameworks\\dita\\DITA-OT\\plugins\\net.sourceforge.dita4publishers.shakespear.doctypes
+     [echo] dita.plugin.net.sourceforge.dita4publishers.shakespear.html.dir=C\:\\Program Files\\Oxygen XML Author 16\\frameworks\\dita\\DITA-OT\\plugins\\net.sourceforge.dita4publishers.shakespear.html
+     [echo] dita.plugin.net.sourceforge.dita4publishers.variables-d.html.dir=C\:\\Program Files\\Oxygen XML Author 16\\frameworks\\dita\\DITA-OT\\plugins\\net.sourceforge.dita4publishers.variables-d.html
+     [echo] dita.plugin.net.sourceforge.dita4publishers.variables-d.pdf.dir=C\:\\Program Files\\Oxygen XML Author 16\\frameworks\\dita\\DITA-OT\\plugins\\net.sourceforge.dita4publishers.variables-d.pdf
+     [echo] dita.plugin.net.sourceforge.dita4publishers.word2dita.dir=C\:\\Program Files\\Oxygen XML Author 16\\frameworks\\dita\\DITA-OT\\plugins\\net.sourceforge.dita4publishers.word2dita
+     [echo] dita.plugin.net.sourceforge.dita4publishers.xmldomain.doctypes.dir=C\:\\Program Files\\Oxygen XML Author 16\\frameworks\\dita\\DITA-OT\\plugins\\net.sourceforge.dita4publishers.xmldomain.doctypes
+     [echo] dita.plugin.net.sourceforge.dita4publishers.xmldomain.fo.dir=C\:\\Program Files\\Oxygen XML Author 16\\frameworks\\dita\\DITA-OT\\plugins\\net.sourceforge.dita4publishers.xmldomain.fo
+     [echo] dita.plugin.net.sourceforge.dita4publishers.xmldomain.html.dir=C\:\\Program Files\\Oxygen XML Author 16\\frameworks\\dita\\DITA-OT\\plugins\\net.sourceforge.dita4publishers.xmldomain.html
+     [echo] dita.plugin.org.dita-ng.dita.relaxng.dir=C\:\\Program Files\\Oxygen XML Author 16\\frameworks\\dita\\DITA-OT\\plugins\\org.dita-ng.doctypes
+     [echo] dita.plugin.org.dita.13097troubleshooting.dir=C\:\\Program Files\\Oxygen XML Author 16\\frameworks\\dita\\DITA-OT\\plugins\\org.dita.troubleshooting
+     [echo] dita.plugin.org.dita.base.dir=C\:\\Program Files\\Oxygen XML Author 16\\frameworks\\dita\\DITA-OT
+     [echo] dita.plugin.org.dita.docbook.dir=C\:\\Program Files\\Oxygen XML Author 16\\frameworks\\dita\\DITA-OT\\plugins\\org.dita.docbook
+     [echo] dita.plugin.org.dita.eclipsecontent.dir=C\:\\Program Files\\Oxygen XML Author 16\\frameworks\\dita\\DITA-OT\\plugins\\org.dita.eclipsecontent
+     [echo] dita.plugin.org.dita.eclipsehelp.dir=C\:\\Program Files\\Oxygen XML Author 16\\frameworks\\dita\\DITA-OT\\plugins\\org.dita.eclipsehelp
+     [echo] dita.plugin.org.dita.htmlhelp.dir=C\:\\Program Files\\Oxygen XML Author 16\\frameworks\\dita\\DITA-OT\\plugins\\org.dita.htmlhelp
+     [echo] dita.plugin.org.dita.javahelp.dir=C\:\\Program Files\\Oxygen XML Author 16\\frameworks\\dita\\DITA-OT\\plugins\\org.dita.javahelp
+     [echo] dita.plugin.org.dita.legacypdf.dir=C\:\\Program Files\\Oxygen XML Author 16\\frameworks\\dita\\DITA-OT\\plugins\\legacypdf
+     [echo] dita.plugin.org.dita.odt.dir=C\:\\Program Files\\Oxygen XML Author 16\\frameworks\\dita\\DITA-OT\\plugins\\org.dita.odt
+     [echo] dita.plugin.org.dita.pdf.dir=C\:\\Program Files\\Oxygen XML Author 16\\frameworks\\dita\\DITA-OT\\plugins\\org.dita.pdf
+     [echo] dita.plugin.org.dita.pdf2.dir=C\:\\Program Files\\Oxygen XML Author 16\\frameworks\\dita\\DITA-OT\\plugins\\org.dita.pdf2
+     [echo] dita.plugin.org.dita.specialization.dita11.dir=C\:\\Program Files\\Oxygen XML Author 16\\frameworks\\dita\\DITA-OT\\plugins\\org.dita.specialization.dita11
+     [echo] dita.plugin.org.dita.specialization.dita132.dir=C\:\\Program Files\\Oxygen XML Author 16\\frameworks\\dita\\DITA-OT\\plugins\\org.dita.specialization.dita132
+     [echo] dita.plugin.org.dita.specialization.eclipsemap.dir=C\:\\Program Files\\Oxygen XML Author 16\\frameworks\\dita\\DITA-OT\\plugins\\org.dita.specialization.eclipsemap
+     [echo] dita.plugin.org.dita.specialization.h2d.dir=C\:\\Program Files\\Oxygen XML Author 16\\frameworks\\dita\\DITA-OT\\plugins\\h2d
+     [echo] dita.plugin.org.dita.troff.dir=C\:\\Program Files\\Oxygen XML Author 16\\frameworks\\dita\\DITA-OT\\plugins\\org.dita.troff
+     [echo] dita.plugin.org.dita.wordrtf.dir=C\:\\Program Files\\Oxygen XML Author 16\\frameworks\\dita\\DITA-OT\\plugins\\org.dita.wordrtf
+     [echo] dita.plugin.org.dita.xhtml.dir=C\:\\Program Files\\Oxygen XML Author 16\\frameworks\\dita\\DITA-OT\\plugins\\org.dita.xhtml
+     [echo] dita.plugin.org.dita2indesign.dita2indesign.dir=C\:\\Program Files\\Oxygen XML Author 16\\frameworks\\dita\\DITA-OT\\plugins\\org.dita2indesign.dita2indesign
+     [echo] dita.preprocess.reloadstylesheet=false
+     [echo] dita.temp.dir=C\:\\PHEMI-docs\\docs\\mgmt_console_user_guide/temp/pdf
+     [echo] dita.topic.filename.root=Test.ditamap
+     [echo] dita2wordToDita.buildfile.dir=C\:\\Program Files\\Oxygen XML Author 16\\frameworks\\dita\\DITA-OT
+     [echo] preprocess.copy-image.skip=true
+     [echo] *****************************************************************
+
+output-css-warn-message:
+
+output-msg:
+
+build-init:
+
+gen-list:
+ [gen-list] GenMapAndTopicListModule.execute(): Starting...
+ [gen-list] Using Xerces grammar pool for DTD and schema caching.
+ [gen-list] C:\Users\Lindsay\Dropbox\Product Management\Product Documentation\R1.0\_Common_Source\_Filters\No_Internal.ditaval (The system cannot find the path specified)
+ [gen-list] Processing C:\PHEMI-docs\docs\mgmt_console_user_guide\Test.ditamap
+ [gen-list] Processing C:\PHEMI-docs\docs\_common_source\_Variables\PHEMI_Central\con_Product-Vars.xml
+ [gen-list] Processing C:\PHEMI-docs\docs\_common_source\Data_in_PHEMI\Data-in-PHEMI.ditamap
+ [gen-list] Processing C:\PHEMI-docs\docs\_common_source\_Variables\PHEMI_Central\con_Corporate_Vars.xml
+ [gen-list] Processing C:\PHEMI-docs\docs\_common_source\Data_in_PHEMI\con_curation.xml
+ [gen-list] Processing C:\PHEMI-docs\docs\_common_source\Data_in_PHEMI\con_curate_schemaless-storage.xml
+ [gen-list] Processing C:\PHEMI-docs\docs\_common_source\Data_in_PHEMI\con_curate_data-linking.xml
+ [gen-list] Processing C:\PHEMI-docs\docs\_common_source\Data_in_PHEMI\con_curate_dpfs.xml
+ [gen-list] Processing C:\PHEMI-docs\docs\_common_source\Data_in_PHEMI\con_consumption.xml
+ [gen-list] Processing C:\PHEMI-docs\docs\_common_source\Data_in_PHEMI\con_collection.xml
+ [gen-list] Processing C:\PHEMI-docs\docs\_common_source\Data_in_PHEMI\con_curate_data-dictionary.xml
+ [gen-list] Processing C:\PHEMI-docs\docs\_common_source\Data_in_PHEMI\con_curate_index-catalog.xml
+ [gen-list] Processing C:\PHEMI-docs\docs\_common_source\Data_in_PHEMI\con_data-in-PHEMI.xml
+ [gen-list] Serializing job specification
+ [gen-list] Feb 24, 2015 3:46:45 PM java.util.prefs.WindowsPreferences <init>
+ [gen-list] WARNING: Could not open/create prefs root node Software\JavaSoft\Prefs at root 0x80000002. Windows RegCreateKeyEx(...) returned error code 5.
+ [gen-list] GenMapAndTopicListModule.execute(): Execution time: 2.283 seconds
+[job-helper] Processing C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\.job.xml to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\outditafiles.list
+[job-helper] Loading stylesheet C:\Program Files\Oxygen XML Author 16\frameworks\dita\DITA-OT\xsl\job-helper.xsl
+[job-helper] Processing C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\.job.xml to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\fullditamapandtopic.list
+[job-helper] Loading stylesheet C:\Program Files\Oxygen XML Author 16\frameworks\dita\DITA-OT\xsl\job-helper.xsl
+[job-helper] Processing C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\.job.xml to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\fullditatopic.list
+[job-helper] Loading stylesheet C:\Program Files\Oxygen XML Author 16\frameworks\dita\DITA-OT\xsl\job-helper.xsl
+[job-helper] Processing C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\.job.xml to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\fullditamap.list
+[job-helper] Loading stylesheet C:\Program Files\Oxygen XML Author 16\frameworks\dita\DITA-OT\xsl\job-helper.xsl
+[job-helper] Processing C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\.job.xml to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\hrefditatopic.list
+[job-helper] Loading stylesheet C:\Program Files\Oxygen XML Author 16\frameworks\dita\DITA-OT\xsl\job-helper.xsl
+[job-helper] Processing C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\.job.xml to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\conref.list
+[job-helper] Loading stylesheet C:\Program Files\Oxygen XML Author 16\frameworks\dita\DITA-OT\xsl\job-helper.xsl
+[job-helper] Processing C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\.job.xml to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\image.list
+[job-helper] Loading stylesheet C:\Program Files\Oxygen XML Author 16\frameworks\dita\DITA-OT\xsl\job-helper.xsl
+[job-helper] Processing C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\.job.xml to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\flagimage.list
+[job-helper] Loading stylesheet C:\Program Files\Oxygen XML Author 16\frameworks\dita\DITA-OT\xsl\job-helper.xsl
+[job-helper] Processing C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\.job.xml to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\html.list
+[job-helper] Loading stylesheet C:\Program Files\Oxygen XML Author 16\frameworks\dita\DITA-OT\xsl\job-helper.xsl
+[job-helper] Processing C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\.job.xml to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\hreftargets.list
+[job-helper] Loading stylesheet C:\Program Files\Oxygen XML Author 16\frameworks\dita\DITA-OT\xsl\job-helper.xsl
+[job-helper] Processing C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\.job.xml to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\canditopics.list
+[job-helper] Loading stylesheet C:\Program Files\Oxygen XML Author 16\frameworks\dita\DITA-OT\xsl\job-helper.xsl
+[job-helper] Processing C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\.job.xml to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\skipchunk.list
+[job-helper] Loading stylesheet C:\Program Files\Oxygen XML Author 16\frameworks\dita\DITA-OT\xsl\job-helper.xsl
+[job-helper] Processing C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\.job.xml to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\subjectscheme.list
+[job-helper] Loading stylesheet C:\Program Files\Oxygen XML Author 16\frameworks\dita\DITA-OT\xsl\job-helper.xsl
+[job-helper] Processing C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\.job.xml to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\conreftargets.list
+[job-helper] Loading stylesheet C:\Program Files\Oxygen XML Author 16\frameworks\dita\DITA-OT\xsl\job-helper.xsl
+[job-helper] Processing C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\.job.xml to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\copytosource.list
+[job-helper] Loading stylesheet C:\Program Files\Oxygen XML Author 16\frameworks\dita\DITA-OT\xsl\job-helper.xsl
+[job-helper] Processing C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\.job.xml to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\subtargets.list
+[job-helper] Loading stylesheet C:\Program Files\Oxygen XML Author 16\frameworks\dita\DITA-OT\xsl\job-helper.xsl
+[job-helper] Processing C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\.job.xml to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\conrefpush.list
+[job-helper] Loading stylesheet C:\Program Files\Oxygen XML Author 16\frameworks\dita\DITA-OT\xsl\job-helper.xsl
+[job-helper] Processing C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\.job.xml to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\keyref.list
+[job-helper] Loading stylesheet C:\Program Files\Oxygen XML Author 16\frameworks\dita\DITA-OT\xsl\job-helper.xsl
+[job-helper] Processing C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\.job.xml to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\coderef.list
+[job-helper] Loading stylesheet C:\Program Files\Oxygen XML Author 16\frameworks\dita\DITA-OT\xsl\job-helper.xsl
+[job-helper] Processing C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\.job.xml to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\resourceonly.list
+[job-helper] Loading stylesheet C:\Program Files\Oxygen XML Author 16\frameworks\dita\DITA-OT\xsl\job-helper.xsl
+
+debug-filter:
+   [filter] DebugAndFilterModule.execute(): Starting...
+   [filter] C:\Users\Lindsay\Dropbox\Product Management\Product Documentation\R1.0\_Common_Source\_Filters\No_Internal.ditaval (The system cannot find the path specified)
+   [filter] Using Xerces grammar pool for DTD and schema caching.
+   [filter] Processing C:\PHEMI-docs\docs\_common_source\Data_in_PHEMI\con_collection.xml
+   [filter] Processing C:\PHEMI-docs\docs\_common_source\_Variables\PHEMI_Central\con_Product-Vars.xml
+   [filter] Processing C:\PHEMI-docs\docs\mgmt_console_user_guide\Test.ditamap
+   [filter] Processing C:\PHEMI-docs\docs\_common_source\Data_in_PHEMI\con_curate_dpfs.xml
+   [filter] Processing C:\PHEMI-docs\docs\_common_source\Data_in_PHEMI\con_data-in-PHEMI.xml
+   [filter] Processing C:\PHEMI-docs\docs\_common_source\Data_in_PHEMI\con_curate_data-dictionary.xml
+   [filter] Processing C:\PHEMI-docs\docs\_common_source\Data_in_PHEMI\con_consumption.xml
+   [filter] Processing C:\PHEMI-docs\docs\_common_source\Data_in_PHEMI\con_curation.xml
+   [filter] Processing C:\PHEMI-docs\docs\_common_source\Data_in_PHEMI\Data-in-PHEMI.ditamap
+   [filter] Processing C:\PHEMI-docs\docs\_common_source\Data_in_PHEMI\con_curate_data-linking.xml
+   [filter] Processing C:\PHEMI-docs\docs\_common_source\Data_in_PHEMI\con_curate_index-catalog.xml
+   [filter] Processing C:\PHEMI-docs\docs\_common_source\Data_in_PHEMI\con_curate_schemaless-storage.xml
+   [filter] Processing C:\PHEMI-docs\docs\_common_source\_Variables\PHEMI_Central\con_Corporate_Vars.xml
+   [filter] Execution time: 440 milliseconds
+[job-helper] Processing C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\.job.xml to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\user.input.file.list
+[job-helper] Loading stylesheet C:\Program Files\Oxygen XML Author 16\frameworks\dita\DITA-OT\xsl\job-helper.xsl
+[job-helper] Processing C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\.job.xml to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\hreftargets.list
+[job-helper] Loading stylesheet C:\Program Files\Oxygen XML Author 16\frameworks\dita\DITA-OT\xsl\job-helper.xsl
+[job-helper] Processing C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\.job.xml to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\conref.list
+[job-helper] Loading stylesheet C:\Program Files\Oxygen XML Author 16\frameworks\dita\DITA-OT\xsl\job-helper.xsl
+[job-helper] Processing C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\.job.xml to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\hrefditatopic.list
+[job-helper] Loading stylesheet C:\Program Files\Oxygen XML Author 16\frameworks\dita\DITA-OT\xsl\job-helper.xsl
+[job-helper] Processing C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\.job.xml to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\fullditatopic.list
+[job-helper] Loading stylesheet C:\Program Files\Oxygen XML Author 16\frameworks\dita\DITA-OT\xsl\job-helper.xsl
+[job-helper] Processing C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\.job.xml to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\fullditamapandtopic.list
+[job-helper] Loading stylesheet C:\Program Files\Oxygen XML Author 16\frameworks\dita\DITA-OT\xsl\job-helper.xsl
+[job-helper] Processing C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\.job.xml to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\conreftargets.list
+[job-helper] Loading stylesheet C:\Program Files\Oxygen XML Author 16\frameworks\dita\DITA-OT\xsl\job-helper.xsl
+[job-helper] Processing C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\.job.xml to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\conrefpush.list
+[job-helper] Loading stylesheet C:\Program Files\Oxygen XML Author 16\frameworks\dita\DITA-OT\xsl\job-helper.xsl
+[job-helper] Processing C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\.job.xml to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\keyref.list
+[job-helper] Loading stylesheet C:\Program Files\Oxygen XML Author 16\frameworks\dita\DITA-OT\xsl\job-helper.xsl
+[job-helper] Processing C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\.job.xml to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\skipchunk.list
+[job-helper] Loading stylesheet C:\Program Files\Oxygen XML Author 16\frameworks\dita\DITA-OT\xsl\job-helper.xsl
+[job-helper] Processing C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\.job.xml to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\canditopics.list
+[job-helper] Loading stylesheet C:\Program Files\Oxygen XML Author 16\frameworks\dita\DITA-OT\xsl\job-helper.xsl
+[job-helper] Processing C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\.job.xml to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\resourceonly.list
+[job-helper] Loading stylesheet C:\Program Files\Oxygen XML Author 16\frameworks\dita\DITA-OT\xsl\job-helper.xsl
+
+copy-image-check:
+
+copy-image-uplevels:
+
+copy-image-noraml:
+
+copy-image:
+
+copy-html-check:
+
+copy-html:
+
+copy-flag-check:
+
+copy-flag:
+
+copy-subsidiary-check:
+
+copy-subsidiary:
+
+copy-generated-files:
+     [copy] Copying 2 files to C:\PHEMI-docs\docs\mgmt_console_user_guide\out\pdf
+
+copy-files:
+
+conrefpush-check:
+
+conrefpush:
+
+conref-check:
+
+conref:
+   [conref] Transforming into C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf
+   [conref] Processing C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\_common_source\Data_in_PHEMI\con_collection.xml to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\_common_source\Data_in_PHEMI\con_collection.xml.cnrf
+   [conref] Loading stylesheet C:\Program Files\Oxygen XML Author 16\frameworks\dita\DITA-OT\xsl\preprocess\conref.xsl
+   [conref] Processing C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\_common_source\Data_in_PHEMI\con_consumption.xml to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\_common_source\Data_in_PHEMI\con_consumption.xml.cnrf
+   [conref] Processing C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\_common_source\Data_in_PHEMI\con_curate_data-linking.xml to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\_common_source\Data_in_PHEMI\con_curate_data-linking.xml.cnrf
+   [conref] Processing C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\_common_source\Data_in_PHEMI\con_curate_dpfs.xml to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\_common_source\Data_in_PHEMI\con_curate_dpfs.xml.cnrf
+   [conref] Processing C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\_common_source\Data_in_PHEMI\con_curate_index-catalog.xml to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\_common_source\Data_in_PHEMI\con_curate_index-catalog.xml.cnrf
+   [conref] Processing C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\_common_source\Data_in_PHEMI\con_curate_schemaless-storage.xml to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\_common_source\Data_in_PHEMI\con_curate_schemaless-storage.xml.cnrf
+   [conref] Processing C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\_common_source\Data_in_PHEMI\con_curation.xml to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\_common_source\Data_in_PHEMI\con_curation.xml.cnrf
+   [conref] Processing C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\_common_source\Data_in_PHEMI\con_data-in-PHEMI.xml to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\_common_source\Data_in_PHEMI\con_data-in-PHEMI.xml.cnrf
+     [move] Moving 8 files to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf
+
+add-links:
+
+move-meta-entries-check:
+
+move-meta-entries:
+[move-meta] Reading C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\_common_source\Data_in_PHEMI\Data-in-PHEMI.ditamap
+[move-meta] Reading C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\mgmt_console_user_guide\Test.ditamap
+
+keyref-check:
+
+keyref:
+
+coderef-check:
+
+coderef:
+
+mapref-check:
+
+mapref:
+   [mapref] Transforming into C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf
+   [mapref] Processing C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\_common_source\Data_in_PHEMI\Data-in-PHEMI.ditamap to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\_common_source\Data_in_PHEMI\Data-in-PHEMI.ditamap.ref
+   [mapref] Loading stylesheet C:\Program Files\Oxygen XML Author 16\frameworks\dita\DITA-OT\xsl\preprocess\mapref.xsl
+   [mapref] Processing C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\mgmt_console_user_guide\Test.ditamap to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\mgmt_console_user_guide\Test.ditamap.ref
+     [move] Moving 2 files to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf
+
+mappull-check:
+
+mappull:
+  [mappull] Transforming into C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf
+  [mappull] Processing C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\_common_source\Data_in_PHEMI\Data-in-PHEMI.ditamap to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\_common_source\Data_in_PHEMI\Data-in-PHEMI.ditamap.pull
+  [mappull] Loading stylesheet C:\Program Files\Oxygen XML Author 16\frameworks\dita\DITA-OT\xsl\preprocess\mappull.xsl
+  [mappull] Processing C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\mgmt_console_user_guide\Test.ditamap to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\mgmt_console_user_guide\Test.ditamap.pull
+     [move] Moving 2 files to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf
+
+chunk-check:
+
+chunk:
+[job-helper] Processing C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\.job.xml to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\fullditatopic.list
+[job-helper] Loading stylesheet C:\Program Files\Oxygen XML Author 16\frameworks\dita\DITA-OT\xsl\job-helper.xsl
+[job-helper] Processing C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\.job.xml to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\fullditamap.list
+[job-helper] Loading stylesheet C:\Program Files\Oxygen XML Author 16\frameworks\dita\DITA-OT\xsl\job-helper.xsl
+[job-helper] Processing C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\.job.xml to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\fullditamapandtopic.list
+[job-helper] Loading stylesheet C:\Program Files\Oxygen XML Author 16\frameworks\dita\DITA-OT\xsl\job-helper.xsl
+[job-helper] Processing C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\.job.xml to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\chunkedditamap.list
+[job-helper] Loading stylesheet C:\Program Files\Oxygen XML Author 16\frameworks\dita\DITA-OT\xsl\job-helper.xsl
+[job-helper] Processing C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\.job.xml to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\chunkedtopic.list
+[job-helper] Loading stylesheet C:\Program Files\Oxygen XML Author 16\frameworks\dita\DITA-OT\xsl\job-helper.xsl
+[job-helper] Processing C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\.job.xml to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\resourceonly.list
+[job-helper] Loading stylesheet C:\Program Files\Oxygen XML Author 16\frameworks\dita\DITA-OT\xsl\job-helper.xsl
+[job-helper] Processing C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\.job.xml to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\copytosource.list
+[job-helper] Loading stylesheet C:\Program Files\Oxygen XML Author 16\frameworks\dita\DITA-OT\xsl\job-helper.xsl
+[job-helper] Processing C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\.job.xml to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\copytotarget2sourcemap.list
+[job-helper] Loading stylesheet C:\Program Files\Oxygen XML Author 16\frameworks\dita\DITA-OT\xsl\job-helper.xsl
+
+maplink-check:
+
+maplink:
+  [maplink] Processing C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\mgmt_console_user_guide\Test.ditamap to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\mgmt_console_user_guide\maplinks.unordered
+  [maplink] Loading stylesheet C:\Program Files\Oxygen XML Author 16\frameworks\dita\DITA-OT\xsl\preprocess\maplink.xsl
+
+move-links-check:
+
+move-links:
+
+topicpull-check:
+
+topicpull:
+[topicpull] Transforming into C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf
+[topicpull] Processing C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\_common_source\Data_in_PHEMI\con_collection.xml to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\_common_source\Data_in_PHEMI\con_collection.xml.pull
+[topicpull] Loading stylesheet C:\Program Files\Oxygen XML Author 16\frameworks\dita\DITA-OT\xsl\preprocess\topicpull.xsl
+[topicpull] Processing C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\_common_source\Data_in_PHEMI\con_consumption.xml to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\_common_source\Data_in_PHEMI\con_consumption.xml.pull
+[topicpull] Processing C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\_common_source\Data_in_PHEMI\con_curate_data-dictionary.xml to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\_common_source\Data_in_PHEMI\con_curate_data-dictionary.xml.pull
+[topicpull] Processing C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\_common_source\Data_in_PHEMI\con_curate_data-linking.xml to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\_common_source\Data_in_PHEMI\con_curate_data-linking.xml.pull
+[topicpull] Processing C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\_common_source\Data_in_PHEMI\con_curate_dpfs.xml to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\_common_source\Data_in_PHEMI\con_curate_dpfs.xml.pull
+[topicpull] Processing C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\_common_source\Data_in_PHEMI\con_curate_index-catalog.xml to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\_common_source\Data_in_PHEMI\con_curate_index-catalog.xml.pull
+[topicpull] Processing C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\_common_source\Data_in_PHEMI\con_curate_schemaless-storage.xml to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\_common_source\Data_in_PHEMI\con_curate_schemaless-storage.xml.pull
+[topicpull] Processing C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\_common_source\Data_in_PHEMI\con_curation.xml to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\_common_source\Data_in_PHEMI\con_curation.xml.pull
+[topicpull] Processing C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\_common_source\Data_in_PHEMI\con_data-in-PHEMI.xml to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\_common_source\Data_in_PHEMI\con_data-in-PHEMI.xml.pull
+[topicpull] Processing C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\_common_source\_Variables\PHEMI_Central\con_Corporate_Vars.xml to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\_common_source\_Variables\PHEMI_Central\con_Corporate_Vars.xml.pull
+[topicpull] Processing C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\_common_source\_Variables\PHEMI_Central\con_Product-Vars.xml to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\_common_source\_Variables\PHEMI_Central\con_Product-Vars.xml.pull
+     [move] Moving 11 files to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf
+
+flag-module-check:
+
+flag-module:
+[preprocess_flag] Transforming into C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf
+[preprocess_flag] Processing C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\_common_source\Data_in_PHEMI\con_collection.xml to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\_common_source\Data_in_PHEMI\con_collection.xml.flag
+[preprocess_flag] Loading stylesheet C:\Program Files\Oxygen XML Author 16\frameworks\dita\DITA-OT\xsl\preprocess\flag.xsl
+[preprocess_flag] Processing C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\_common_source\Data_in_PHEMI\con_consumption.xml to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\_common_source\Data_in_PHEMI\con_consumption.xml.flag
+[preprocess_flag] Processing C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\_common_source\Data_in_PHEMI\con_curate_data-dictionary.xml to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\_common_source\Data_in_PHEMI\con_curate_data-dictionary.xml.flag
+[preprocess_flag] Processing C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\_common_source\Data_in_PHEMI\con_curate_data-linking.xml to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\_common_source\Data_in_PHEMI\con_curate_data-linking.xml.flag
+[preprocess_flag] Processing C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\_common_source\Data_in_PHEMI\con_curate_dpfs.xml to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\_common_source\Data_in_PHEMI\con_curate_dpfs.xml.flag
+[preprocess_flag] Processing C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\_common_source\Data_in_PHEMI\con_curate_index-catalog.xml to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\_common_source\Data_in_PHEMI\con_curate_index-catalog.xml.flag
+[preprocess_flag] Processing C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\_common_source\Data_in_PHEMI\con_curate_schemaless-storage.xml to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\_common_source\Data_in_PHEMI\con_curate_schemaless-storage.xml.flag
+[preprocess_flag] Processing C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\_common_source\Data_in_PHEMI\con_curation.xml to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\_common_source\Data_in_PHEMI\con_curation.xml.flag
+[preprocess_flag] Processing C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\_common_source\Data_in_PHEMI\con_data-in-PHEMI.xml to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\_common_source\Data_in_PHEMI\con_data-in-PHEMI.xml.flag
+     [move] Moving 9 files to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf
+
+preprocess:
+
+map2pdf2:
+
+transform.topic2pdf.init:
+
+publish.map.pdf.init:
+
+copyCoreArtwork:
+    [mkdir] Created dir: C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\Configuration\OpenTopic\cfg\common\artwork
+     [copy] Copying 10 files to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\Configuration\OpenTopic\cfg\common\artwork
+     [copy] Copying 1 file to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\Customization\OpenTopic
+
+transform.topic2fo.init:
+[detect-lang] Lang search finished
+     [echo] Using document.locale=en
+
+transform.topic2fo.index:
+[index-preprocess] [INFO] IBM ICU4J Collator is not found. Default Java Collator will be used
+[index-preprocess] [INFO] IBM ICU4J Collator is not found. Default Java Collator will be used
+
+transform.topic2fo.flagging.filter:
+     [xslt] Processing C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\stage1.xml to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\stage1a.xml
+     [xslt] Loading stylesheet C:\Program Files\Oxygen XML Author 16\frameworks\dita\DITA-OT\plugins\org.dita.pdf2\xsl\fo\flagging-preprocess.xsl
+
+transform.topic2fo.flagging.no-filter:
+
+transform.topic2fo.flagging:
+
+transform.topic2fo.main:
+     [xslt] Processing C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\stage1a.xml to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\stage2.fo
+     [xslt] Loading stylesheet C:\Program Files\Oxygen XML Author 16\frameworks\dita\DITA-OT\plugins\org.dita.pdf2\xsl\fo\topic2fo_shell_fop.xsl
+     [xslt] C:\Program Files\Oxygen XML Author 16\frameworks\dita\DITA-OT\plugins\org.dita.pdf2\xsl\fo\front-matter.xsl:82:40: Warning! A variable with no following sibling instructions has no effect
+     [xslt] : Warning! The source document is in no namespace, but the template rules all expect elements in a namespace
+
+transform.topic2fo.i18n.filter:
+     [xslt] Processing C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\stage3.fo to C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\topic.fo
+     [xslt] Loading stylesheet C:\Program Files\Oxygen XML Author 16\frameworks\dita\DITA-OT\plugins\org.dita.pdf2\xsl\fo\i18n-postprocess.xsl
+
+transform.topic2fo.i18n.no-filter:
+
+transform.topic2fo.i18n:
+
+transform.topic2fo:
+
+transform.fo2pdf.xep.test-use:
+
+transform.fo2pdf.xep.init:
+
+transform.fo2pdf.xep:
+
+transform.fo2pdf.ah.test-use:
+
+transform.fo2pdf.ah.init:
+
+transform.fo2pdf.ah:
+
+transform.fo2pdf.fop.test-use:
+
+transform.fo2pdf.fop.init:
+
+transform.fo2pdf.fop:
+
+checkFOPLib:
+      [fop] 0 INFO [ main ] org.apache.fop.apps.FopFactoryConfigurator - Default page-height set to: 11in
+      [fop] 1 INFO [ main ] org.apache.fop.apps.FopFactoryConfigurator - Default page-width set to: 8.26in
+      [fop] 2054 WARN [ main ] org.apache.fop.apps.FOUserAgent - Font "Arial Unicode MS,normal,700" not found. Substituting with "Arial Unicode MS,normal,400".
+      [fop] 2055 WARN [ main ] org.apache.fop.apps.FOUserAgent - Font "Batang,normal,700" not found. Substituting with "Batang,normal,400".
+      [fop] 2195 INFO [ main ] org.apache.fop.apps.FOUserAgent - Rendered page #1.
+      [fop] 2380 ERROR [ main ] org.apache.fop.apps.FOUserAgent - Image not found. URI: file:/C:/PHEMI-docs/docs/mgmt_console_user_guide/temp/pdf/_common_source/_images/mktg/Ovw-arch.png. (See position 5:-1)
+      [fop] 2412 ERROR [ main ] org.apache.fop.apps.FOUserAgent - Image not found. URI: file:/C:/PHEMI-docs/docs/mgmt_console_user_guide/temp/pdf/_common_source/_images/mktg/collect.png. (See position 26:-1)
+      [fop] 2444 ERROR [ main ] org.apache.fop.apps.FOUserAgent - Image not found. URI: file:/C:/PHEMI-docs/docs/mgmt_console_user_guide/temp/pdf/_common_source/_images/mktg/curate.png. (See position 64:-1)
+      [fop] 2510 ERROR [ main ] org.apache.fop.apps.FOUserAgent - Image not found. URI: file:/C:/PHEMI-docs/docs/mgmt_console_user_guide/temp/pdf/_common_source/_images/mktg/consume.png. (See position 153:-1)
+      [fop] 2975 INFO [ main ] org.apache.fop.apps.FOUserAgent - Rendered page #2.
+      [fop] 3076 INFO [ main ] org.apache.fop.apps.FOUserAgent - Rendered page #3.
+      [fop] 3109 INFO [ main ] org.apache.fop.apps.FOUserAgent - Rendered page #4.
+      [fop] 3250 INFO [ main ] org.apache.fop.apps.FOUserAgent - Rendered page #5.
+      [fop] C:\PHEMI-docs\docs\mgmt_console_user_guide\temp\pdf\topic.fo -> C:\PHEMI-docs\docs\mgmt_console_user_guide\out\pdf\mgmt_console_user_guide\Test.pdf
+
+transform.fo2pdf:
+
+delete.fo2pdf.topic.fo:
+
+transform.topic2pdf:
+
+publish.map.pdf:
+
+topic2pdf2:
+
+dita2pdf2:
+
+clean-temp:
+
+BUILD SUCCESSFUL
+Total time: 21 seconds
+
+The process finished with exit code: 0

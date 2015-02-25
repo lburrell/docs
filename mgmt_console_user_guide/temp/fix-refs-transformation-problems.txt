@@ -1,0 +1,2571 @@
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: fatal
+Description: Transformation failed.
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Filter_Expressions\ref_filter-expressions.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Initial_Setup\con_admin-qs.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Installation\con_installation.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Initial_Setup\task_setup-workflow.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Privacy_Security_Governance\task_define-governance-policy.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Initial_Setup\con_before-configuring.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Object_Browsing\task_delete-object.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Object_Browsing\con_object-browsing.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Object_Browsing\task_view-object.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\task_view-data-collection-info.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\con_data-policies.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\task_modify-data-collection.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\task_define-data-policy.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\task_view-data-collections.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\task_delete-data-collection.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\task_define-dpf.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\con_data-collections.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\DPFs\con_dpfs.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\con_define-data-collection.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Users\task_define-user-authorizations.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Users\task_view-user-auths.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Users\task_modify-user-authorization.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Lifecycle_Management\task_manually-check-data-ret.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Lifecycle_Management\con_data-retention-behavior.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Lifecycle_Management\task_view-data-retention-behav.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Lifecycle_Management\task_set-data-retention-sched.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\data_visibilities\task_define-data-visibility.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\data_visibilities\task_view-data-visibilities.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Categories\task_delete-data-category.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Categories\task_add-data-category.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Categories\task_view-data-category-names.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Categories\task_edit-data-category-name.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: The filter "9558 ERROR [ main ] ro.sync.xml.transformer.dita.remote.b - Could not download task_view-user-auths.xml because:C:\PHEMI-docs\docs\task_view-user-auths.xml" could not be found!
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: The filter "9559 ERROR [ main ] ro.sync.xml.transformer.dita.remote.b - Could not download task_define-user-authorizations.xml because:C:\PHEMI-docs\docs\task_define-user-authorizations.xml" could not be found!
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: The filter "9560 ERROR [ main ] ro.sync.xml.transformer.dita.remote.b - Could not download task_modify-user-authorization.xml because:C:\PHEMI-docs\docs\task_modify-user-authorization.xml" could not be found!
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: The filter "10516 ERROR [ main ] ro.sync.xml.transformer.dita.remote.b - Could not download con_data-policies.xml because:C:\PHEMI-docs\docs\con_data-policies.xml" could not be found!
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: The filter "10520 ERROR [ main ] ro.sync.xml.transformer.dita.remote.b - Could not download task_view-data-collections.xml because:C:\PHEMI-docs\docs\task_view-data-collections.xml" could not be found!
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: The filter "10521 ERROR [ main ] ro.sync.xml.transformer.dita.remote.b - Could not download con_define-data-collection.xml because:C:\PHEMI-docs\docs\con_define-data-collection.xml" could not be found!
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: The filter "10522 ERROR [ main ] ro.sync.xml.transformer.dita.remote.b - Could not download task_define-data-policy.xml because:C:\PHEMI-docs\docs\task_define-data-policy.xml" could not be found!
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: The filter "10523 ERROR [ main ] ro.sync.xml.transformer.dita.remote.b - Could not download task_define-dpf.xml because:C:\PHEMI-docs\docs\task_define-dpf.xml" could not be found!
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: The filter "10524 ERROR [ main ] ro.sync.xml.transformer.dita.remote.b - Could not download task_view-data-collection-info.xml because:C:\PHEMI-docs\docs\task_view-data-collection-info.xml" could not be found!
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: The filter "10526 ERROR [ main ] ro.sync.xml.transformer.dita.remote.b - Could not download task_modify-data-collection.xml because:C:\PHEMI-docs\docs\task_modify-data-collection.xml" could not be found!
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: The filter "10527 ERROR [ main ] ro.sync.xml.transformer.dita.remote.b - Could not download task_delete-data-collection.xml because:C:\PHEMI-docs\docs\task_delete-data-collection.xml" could not be found!
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: The filter "10662 ERROR [ main ] ro.sync.xml.transformer.dita.remote.b - Could not download con_admin-qs.xml because:C:\PHEMI-docs\docs\con_admin-qs.xml" could not be found!
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: The filter "10854 ERROR [ main ] ro.sync.xml.transformer.dita.remote.b - Could not download con_object-browsing.xml because:C:\PHEMI-docs\docs\con_object-browsing.xml" could not be found!
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: The filter "10855 ERROR [ main ] ro.sync.xml.transformer.dita.remote.b - Could not download task_view-object.xml because:C:\PHEMI-docs\docs\task_view-object.xml" could not be found!
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: The filter "10856 ERROR [ main ] ro.sync.xml.transformer.dita.remote.b - Could not download task_delete-object.xml because:C:\PHEMI-docs\docs\task_delete-object.xml" could not be found!
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: The filter "10869 ERROR [ main ] ro.sync.xml.transformer.dita.remote.b - Could not download task_view-data-visibilities.xml because:C:\PHEMI-docs\docs\task_view-data-visibilities.xml" could not be found!
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: The filter "10870 ERROR [ main ] ro.sync.xml.transformer.dita.remote.b - Could not download task_define-data-visibility.xml because:C:\PHEMI-docs\docs\task_define-data-visibility.xml" could not be found!
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: The filter "11388 ERROR [ main ] ro.sync.xml.transformer.dita.remote.b - Could not download task_view-data-category-names.xml because:C:\PHEMI-docs\docs\task_view-data-category-names.xml" could not be found!
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: The filter "11389 ERROR [ main ] ro.sync.xml.transformer.dita.remote.b - Could not download task_add-data-category.xml because:C:\PHEMI-docs\docs\task_add-data-category.xml" could not be found!
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: The filter "11389 ERROR [ main ] ro.sync.xml.transformer.dita.remote.b - Could not download task_edit-data-category-name.xml because:C:\PHEMI-docs\docs\task_edit-data-category-name.xml" could not be found!
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: The filter "11390 ERROR [ main ] ro.sync.xml.transformer.dita.remote.b - Could not download task_delete-data-category.xml because:C:\PHEMI-docs\docs\task_delete-data-category.xml" could not be found!
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: The filter "11404 ERROR [ main ] ro.sync.xml.transformer.dita.remote.b - Could not download task_set-data-retention-sched.xml because:C:\PHEMI-docs\docs\task_set-data-retention-sched.xml" could not be found!
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: The filter "11405 ERROR [ main ] ro.sync.xml.transformer.dita.remote.b - Could not download task_manually-check-data-ret.xml because:C:\PHEMI-docs\docs\task_manually-check-data-ret.xml" could not be found!
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Initial_Setup\Admin_QS.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: '_Common_Source/Initial_Setup/con_admin-qs.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Initial_Setup\Admin_QS.ditamap, Element = topicref:1;7:36)
+Start location: 7:36
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Initial_Setup\Admin_QS.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: '_Common_Source/Initial_Setup/con_admin-qs.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Initial_Setup\Admin_QS.ditamap, Element = topicref:1;7:36)
+Start location: 7:36
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Initial_Setup\Admin_QS.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: '_Common_Source/Initial_Setup/../../_Common_Source/Initial_Setup/con_before-configuring.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Initial_Setup\Admin_QS.ditamap, Element = topicref:2;8:82)
+Start location: 8:82
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Initial_Setup\Admin_QS.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: '_Common_Source/Initial_Setup/../../_Common_Source/Initial_Setup/con_before-configuring.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Initial_Setup\Admin_QS.ditamap, Element = topicref:2;8:82)
+Start location: 8:82
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Initial_Setup\Admin_QS.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: '_Common_Source/Initial_Setup/../../_Common_Source/Installation/con_installation.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Initial_Setup\Admin_QS.ditamap, Element = topicref:3;9:77)
+Start location: 9:77
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Initial_Setup\Admin_QS.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: '_Common_Source/Initial_Setup/../../_Common_Source/Installation/con_installation.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Initial_Setup\Admin_QS.ditamap, Element = topicref:3;9:77)
+Start location: 9:77
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: '_Common_Source/Mgmt_Console/../Data_Collections/con_data-policies.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap, Element = topicref:2;7:43)
+Start location: 7:43
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: '_Common_Source/Mgmt_Console/../Data_Collections/con_data-policies.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap, Element = topicref:2;7:43)
+Start location: 7:43
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: '_Common_Source/Mgmt_Console/../Data_Collections/../DPFs/con_dpfs.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap, Element = topicref:3;8:42)
+Start location: 8:42
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: '_Common_Source/Mgmt_Console/../Data_Collections/../DPFs/con_dpfs.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap, Element = topicref:3;8:42)
+Start location: 8:42
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: '_Common_Source/Mgmt_Console/../Data_Collections/task_view-data-collections.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap, Element = topicref:4;9:52)
+Start location: 9:52
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: '_Common_Source/Mgmt_Console/../Data_Collections/task_view-data-collections.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap, Element = topicref:4;9:52)
+Start location: 9:52
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: '_Common_Source/Mgmt_Console/../Data_Collections/con_define-data-collection.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap, Element = topicref:5;10:51)
+Start location: 10:51
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: '_Common_Source/Mgmt_Console/../Data_Collections/con_define-data-collection.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap, Element = topicref:5;10:51)
+Start location: 10:51
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: '_Common_Source/Mgmt_Console/../Data_Collections/task_define-data-policy.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap, Element = topicref:6;11:50)
+Start location: 11:50
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: '_Common_Source/Mgmt_Console/../Data_Collections/task_define-data-policy.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap, Element = topicref:6;11:50)
+Start location: 11:50
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: '_Common_Source/Mgmt_Console/../Data_Collections/task_define-dpf.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap, Element = topicref:7;12:42)
+Start location: 12:42
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: '_Common_Source/Mgmt_Console/../Data_Collections/task_define-dpf.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap, Element = topicref:7;12:42)
+Start location: 12:42
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: '_Common_Source/Mgmt_Console/../Data_Collections/task_view-data-collection-info.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap, Element = topicref:8;14:56)
+Start location: 14:56
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: '_Common_Source/Mgmt_Console/../Data_Collections/task_view-data-collection-info.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap, Element = topicref:8;14:56)
+Start location: 14:56
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: '_Common_Source/Mgmt_Console/../Data_Collections/task_modify-data-collection.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap, Element = topicref:9;15:53)
+Start location: 15:53
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: '_Common_Source/Mgmt_Console/../Data_Collections/task_modify-data-collection.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap, Element = topicref:9;15:53)
+Start location: 15:53
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: '_Common_Source/Mgmt_Console/../Data_Collections/task_delete-data-collection.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap, Element = topicref:10;16:53)
+Start location: 16:53
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: '_Common_Source/Mgmt_Console/../Data_Collections/task_delete-data-collection.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap, Element = topicref:10;16:53)
+Start location: 16:53
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Object_Browsing\object-browser.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: '_Common_Source/Mgmt_Console/../Object_Browsing/con_object-browsing.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Object_Browsing\object-browser.ditamap, Element = topicref:1;6:43)
+Start location: 6:43
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Object_Browsing\object-browser.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: '_Common_Source/Mgmt_Console/../Object_Browsing/con_object-browsing.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Object_Browsing\object-browser.ditamap, Element = topicref:1;6:43)
+Start location: 6:43
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Object_Browsing\object-browser.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: '_Common_Source/Mgmt_Console/../Object_Browsing/task_view-object.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Object_Browsing\object-browser.ditamap, Element = topicref:2;7:42)
+Start location: 7:42
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Object_Browsing\object-browser.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: '_Common_Source/Mgmt_Console/../Object_Browsing/task_view-object.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Object_Browsing\object-browser.ditamap, Element = topicref:2;7:42)
+Start location: 7:42
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Object_Browsing\object-browser.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: '_Common_Source/Mgmt_Console/../Object_Browsing/task_delete-object.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Object_Browsing\object-browser.ditamap, Element = topicref:3;8:44)
+Start location: 8:44
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Object_Browsing\object-browser.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: '_Common_Source/Mgmt_Console/../Object_Browsing/task_delete-object.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Object_Browsing\object-browser.ditamap, Element = topicref:3;8:44)
+Start location: 8:44
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Users\user-authorizations.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: '_Common_Source/Mgmt_Console/../System_Configuration/../Users/task_view-user-auths.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Users\user-authorizations.ditamap, Element = topicref:2;7:46)
+Start location: 7:46
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Users\user-authorizations.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: '_Common_Source/Mgmt_Console/../System_Configuration/../Users/task_view-user-auths.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Users\user-authorizations.ditamap, Element = topicref:2;7:46)
+Start location: 7:46
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Users\user-authorizations.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: '_Common_Source/Mgmt_Console/../System_Configuration/../Users/task_define-user-authorizations.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Users\user-authorizations.ditamap, Element = topicref:3;8:57)
+Start location: 8:57
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Users\user-authorizations.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: '_Common_Source/Mgmt_Console/../System_Configuration/../Users/task_define-user-authorizations.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Users\user-authorizations.ditamap, Element = topicref:3;8:57)
+Start location: 8:57
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Users\user-authorizations.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: '_Common_Source/Mgmt_Console/../System_Configuration/../Users/task_modify-user-authorization.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Users\user-authorizations.ditamap, Element = topicref:4;9:56)
+Start location: 9:56
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Users\user-authorizations.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: '_Common_Source/Mgmt_Console/../System_Configuration/../Users/task_modify-user-authorization.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Users\user-authorizations.ditamap, Element = topicref:4;9:56)
+Start location: 9:56
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Lifecycle_Management\Data-Retention-Behavior.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: '_Common_Source/Mgmt_Console/../System_Configuration/../Lifecycle_Management/../../_Common_Source/Lifecycle_Management/con_data-retention-behavior.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Lifecycle_Management\Data-Retention-Behavior.ditamap, Element = topicref:1;6:93)
+Start location: 6:93
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Lifecycle_Management\Data-Retention-Behavior.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: '_Common_Source/Mgmt_Console/../System_Configuration/../Lifecycle_Management/../../_Common_Source/Lifecycle_Management/con_data-retention-behavior.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Lifecycle_Management\Data-Retention-Behavior.ditamap, Element = topicref:1;6:93)
+Start location: 6:93
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Lifecycle_Management\Data-Retention-Behavior.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: '_Common_Source/Mgmt_Console/../System_Configuration/../Lifecycle_Management/../../_Common_Source/Lifecycle_Management/task_view-data-retention-behav.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Lifecycle_Management\Data-Retention-Behavior.ditamap, Element = topicref:2;7:98)
+Start location: 7:98
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Lifecycle_Management\Data-Retention-Behavior.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: '_Common_Source/Mgmt_Console/../System_Configuration/../Lifecycle_Management/../../_Common_Source/Lifecycle_Management/task_view-data-retention-behav.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Lifecycle_Management\Data-Retention-Behavior.ditamap, Element = topicref:2;7:98)
+Start location: 7:98
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Lifecycle_Management\Data-Retention-Behavior.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: '_Common_Source/Mgmt_Console/../System_Configuration/../Lifecycle_Management/task_set-data-retention-sched.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Lifecycle_Management\Data-Retention-Behavior.ditamap, Element = topicref:3;8:55)
+Start location: 8:55
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Lifecycle_Management\Data-Retention-Behavior.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: '_Common_Source/Mgmt_Console/../System_Configuration/../Lifecycle_Management/task_set-data-retention-sched.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Lifecycle_Management\Data-Retention-Behavior.ditamap, Element = topicref:3;8:55)
+Start location: 8:55
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Lifecycle_Management\Data-Retention-Behavior.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: '_Common_Source/Mgmt_Console/../System_Configuration/../Lifecycle_Management/task_manually-check-data-ret.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Lifecycle_Management\Data-Retention-Behavior.ditamap, Element = topicref:4;9:54)
+Start location: 9:54
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Lifecycle_Management\Data-Retention-Behavior.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: '_Common_Source/Mgmt_Console/../System_Configuration/../Lifecycle_Management/task_manually-check-data-ret.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Lifecycle_Management\Data-Retention-Behavior.ditamap, Element = topicref:4;9:54)
+Start location: 9:54
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Categories\Data-Categories.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: '_Common_Source/Mgmt_Console/../System_Configuration/../Data_Categories/task_view-data-category-names.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Categories\Data-Categories.ditamap, Element = topicref:2;7:55)
+Start location: 7:55
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Categories\Data-Categories.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: '_Common_Source/Mgmt_Console/../System_Configuration/../Data_Categories/task_view-data-category-names.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Categories\Data-Categories.ditamap, Element = topicref:2;7:55)
+Start location: 7:55
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Categories\Data-Categories.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: '_Common_Source/Mgmt_Console/../System_Configuration/../Data_Categories/task_add-data-category.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Categories\Data-Categories.ditamap, Element = topicref:3;8:48)
+Start location: 8:48
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Categories\Data-Categories.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: '_Common_Source/Mgmt_Console/../System_Configuration/../Data_Categories/task_add-data-category.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Categories\Data-Categories.ditamap, Element = topicref:3;8:48)
+Start location: 8:48
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Categories\Data-Categories.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: '_Common_Source/Mgmt_Console/../System_Configuration/../Data_Categories/task_edit-data-category-name.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Categories\Data-Categories.ditamap, Element = topicref:4;9:54)
+Start location: 9:54
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Categories\Data-Categories.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: '_Common_Source/Mgmt_Console/../System_Configuration/../Data_Categories/task_edit-data-category-name.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Categories\Data-Categories.ditamap, Element = topicref:4;9:54)
+Start location: 9:54
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Categories\Data-Categories.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: '_Common_Source/Mgmt_Console/../System_Configuration/../Data_Categories/task_delete-data-category.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Categories\Data-Categories.ditamap, Element = topicref:5;10:51)
+Start location: 10:51
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Categories\Data-Categories.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: '_Common_Source/Mgmt_Console/../System_Configuration/../Data_Categories/task_delete-data-category.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Categories\Data-Categories.ditamap, Element = topicref:5;10:51)
+Start location: 10:51
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\data_visibilities\Data-Visibilities.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: '_Common_Source/Mgmt_Console/../System_Configuration/../data_visibilities/task_view-data-visibilities.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\data_visibilities\Data-Visibilities.ditamap, Element = topicref:2;7:53)
+Start location: 7:53
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\data_visibilities\Data-Visibilities.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: '_Common_Source/Mgmt_Console/../System_Configuration/../data_visibilities/task_view-data-visibilities.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\data_visibilities\Data-Visibilities.ditamap, Element = topicref:2;7:53)
+Start location: 7:53
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\data_visibilities\Data-Visibilities.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: '_Common_Source/Mgmt_Console/../System_Configuration/../data_visibilities/task_define-data-visibility.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\data_visibilities\Data-Visibilities.ditamap, Element = topicref:3;8:53)
+Start location: 8:53
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\data_visibilities\Data-Visibilities.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: '_Common_Source/Mgmt_Console/../System_Configuration/../data_visibilities/task_define-data-visibility.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\data_visibilities\Data-Visibilities.ditamap, Element = topicref:3;8:53)
+Start location: 8:53
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Categories\Data-Categories.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: 'task_view-data-category-names.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Categories\Data-Categories.ditamap, Element = topicref:2;7:55)
+Start location: 7:55
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Categories\Data-Categories.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: 'task_view-data-category-names.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Categories\Data-Categories.ditamap, Element = topicref:2;7:55)
+Start location: 7:55
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Categories\Data-Categories.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: 'task_add-data-category.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Categories\Data-Categories.ditamap, Element = topicref:3;8:48)
+Start location: 8:48
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Categories\Data-Categories.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: 'task_add-data-category.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Categories\Data-Categories.ditamap, Element = topicref:3;8:48)
+Start location: 8:48
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Categories\Data-Categories.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: 'task_edit-data-category-name.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Categories\Data-Categories.ditamap, Element = topicref:4;9:54)
+Start location: 9:54
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Categories\Data-Categories.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: 'task_edit-data-category-name.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Categories\Data-Categories.ditamap, Element = topicref:4;9:54)
+Start location: 9:54
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Categories\Data-Categories.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: 'task_delete-data-category.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Categories\Data-Categories.ditamap, Element = topicref:5;10:51)
+Start location: 10:51
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Categories\Data-Categories.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: 'task_delete-data-category.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Categories\Data-Categories.ditamap, Element = topicref:5;10:51)
+Start location: 10:51
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: 'con_data-policies.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap, Element = topicref:2;7:43)
+Start location: 7:43
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: 'con_data-policies.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap, Element = topicref:2;7:43)
+Start location: 7:43
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: '../DPFs/con_dpfs.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap, Element = topicref:3;8:42)
+Start location: 8:42
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: '../DPFs/con_dpfs.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap, Element = topicref:3;8:42)
+Start location: 8:42
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: 'task_view-data-collections.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap, Element = topicref:4;9:52)
+Start location: 9:52
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: 'task_view-data-collections.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap, Element = topicref:4;9:52)
+Start location: 9:52
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: 'con_define-data-collection.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap, Element = topicref:5;10:51)
+Start location: 10:51
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: 'con_define-data-collection.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap, Element = topicref:5;10:51)
+Start location: 10:51
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: 'task_define-data-policy.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap, Element = topicref:6;11:50)
+Start location: 11:50
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: 'task_define-data-policy.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap, Element = topicref:6;11:50)
+Start location: 11:50
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: 'task_define-dpf.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap, Element = topicref:7;12:42)
+Start location: 12:42
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: 'task_define-dpf.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap, Element = topicref:7;12:42)
+Start location: 12:42
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: 'task_view-data-collection-info.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap, Element = topicref:8;14:56)
+Start location: 14:56
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: 'task_view-data-collection-info.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap, Element = topicref:8;14:56)
+Start location: 14:56
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: 'task_modify-data-collection.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap, Element = topicref:9;15:53)
+Start location: 15:53
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: 'task_modify-data-collection.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap, Element = topicref:9;15:53)
+Start location: 15:53
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: 'task_delete-data-collection.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap, Element = topicref:10;16:53)
+Start location: 16:53
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: 'task_delete-data-collection.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap, Element = topicref:10;16:53)
+Start location: 16:53
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Initial_Setup\Admin_QS.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: 'con_admin-qs.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Initial_Setup\Admin_QS.ditamap, Element = topicref:1;7:36)
+Start location: 7:36
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Initial_Setup\Admin_QS.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: 'con_admin-qs.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Initial_Setup\Admin_QS.ditamap, Element = topicref:1;7:36)
+Start location: 7:36
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Initial_Setup\Admin_QS.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: '../../_Common_Source/Initial_Setup/con_before-configuring.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Initial_Setup\Admin_QS.ditamap, Element = topicref:2;8:82)
+Start location: 8:82
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Initial_Setup\Admin_QS.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: '../../_Common_Source/Initial_Setup/con_before-configuring.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Initial_Setup\Admin_QS.ditamap, Element = topicref:2;8:82)
+Start location: 8:82
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Initial_Setup\Admin_QS.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: '../../_Common_Source/Installation/con_installation.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Initial_Setup\Admin_QS.ditamap, Element = topicref:3;9:77)
+Start location: 9:77
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Initial_Setup\Admin_QS.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: '../../_Common_Source/Installation/con_installation.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Initial_Setup\Admin_QS.ditamap, Element = topicref:3;9:77)
+Start location: 9:77
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Lifecycle_Management\Data-Retention-Behavior.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: '../../_Common_Source/Lifecycle_Management/con_data-retention-behavior.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Lifecycle_Management\Data-Retention-Behavior.ditamap, Element = topicref:1;6:93)
+Start location: 6:93
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Lifecycle_Management\Data-Retention-Behavior.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: '../../_Common_Source/Lifecycle_Management/con_data-retention-behavior.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Lifecycle_Management\Data-Retention-Behavior.ditamap, Element = topicref:1;6:93)
+Start location: 6:93
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Lifecycle_Management\Data-Retention-Behavior.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: '../../_Common_Source/Lifecycle_Management/task_view-data-retention-behav.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Lifecycle_Management\Data-Retention-Behavior.ditamap, Element = topicref:2;7:98)
+Start location: 7:98
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Lifecycle_Management\Data-Retention-Behavior.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: '../../_Common_Source/Lifecycle_Management/task_view-data-retention-behav.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Lifecycle_Management\Data-Retention-Behavior.ditamap, Element = topicref:2;7:98)
+Start location: 7:98
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Lifecycle_Management\Data-Retention-Behavior.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: 'task_set-data-retention-sched.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Lifecycle_Management\Data-Retention-Behavior.ditamap, Element = topicref:3;8:55)
+Start location: 8:55
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Lifecycle_Management\Data-Retention-Behavior.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: 'task_set-data-retention-sched.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Lifecycle_Management\Data-Retention-Behavior.ditamap, Element = topicref:3;8:55)
+Start location: 8:55
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Lifecycle_Management\Data-Retention-Behavior.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: 'task_manually-check-data-ret.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Lifecycle_Management\Data-Retention-Behavior.ditamap, Element = topicref:4;9:54)
+Start location: 9:54
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Lifecycle_Management\Data-Retention-Behavior.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: 'task_manually-check-data-ret.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Lifecycle_Management\Data-Retention-Behavior.ditamap, Element = topicref:4;9:54)
+Start location: 9:54
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: '../Data_Collections/con_data-policies.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap, Element = topicref:2;7:43)
+Start location: 7:43
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: '../Data_Collections/con_data-policies.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap, Element = topicref:2;7:43)
+Start location: 7:43
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: '../Data_Collections/../DPFs/con_dpfs.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap, Element = topicref:3;8:42)
+Start location: 8:42
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: '../Data_Collections/../DPFs/con_dpfs.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap, Element = topicref:3;8:42)
+Start location: 8:42
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: '../Data_Collections/task_view-data-collections.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap, Element = topicref:4;9:52)
+Start location: 9:52
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: '../Data_Collections/task_view-data-collections.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap, Element = topicref:4;9:52)
+Start location: 9:52
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: '../Data_Collections/con_define-data-collection.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap, Element = topicref:5;10:51)
+Start location: 10:51
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: '../Data_Collections/con_define-data-collection.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap, Element = topicref:5;10:51)
+Start location: 10:51
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: '../Data_Collections/task_define-data-policy.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap, Element = topicref:6;11:50)
+Start location: 11:50
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: '../Data_Collections/task_define-data-policy.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap, Element = topicref:6;11:50)
+Start location: 11:50
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: '../Data_Collections/task_define-dpf.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap, Element = topicref:7;12:42)
+Start location: 12:42
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: '../Data_Collections/task_define-dpf.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap, Element = topicref:7;12:42)
+Start location: 12:42
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: '../Data_Collections/task_view-data-collection-info.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap, Element = topicref:8;14:56)
+Start location: 14:56
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: '../Data_Collections/task_view-data-collection-info.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap, Element = topicref:8;14:56)
+Start location: 14:56
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: '../Data_Collections/task_modify-data-collection.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap, Element = topicref:9;15:53)
+Start location: 15:53
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: '../Data_Collections/task_modify-data-collection.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap, Element = topicref:9;15:53)
+Start location: 15:53
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: '../Data_Collections/task_delete-data-collection.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap, Element = topicref:10;16:53)
+Start location: 16:53
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: '../Data_Collections/task_delete-data-collection.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Collections\data-collections.ditamap, Element = topicref:10;16:53)
+Start location: 16:53
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Object_Browsing\object-browser.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: '../Object_Browsing/con_object-browsing.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Object_Browsing\object-browser.ditamap, Element = topicref:1;6:43)
+Start location: 6:43
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Object_Browsing\object-browser.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: '../Object_Browsing/con_object-browsing.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Object_Browsing\object-browser.ditamap, Element = topicref:1;6:43)
+Start location: 6:43
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Object_Browsing\object-browser.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: '../Object_Browsing/task_view-object.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Object_Browsing\object-browser.ditamap, Element = topicref:2;7:42)
+Start location: 7:42
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Object_Browsing\object-browser.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: '../Object_Browsing/task_view-object.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Object_Browsing\object-browser.ditamap, Element = topicref:2;7:42)
+Start location: 7:42
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Object_Browsing\object-browser.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: '../Object_Browsing/task_delete-object.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Object_Browsing\object-browser.ditamap, Element = topicref:3;8:44)
+Start location: 8:44
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Object_Browsing\object-browser.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: '../Object_Browsing/task_delete-object.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Object_Browsing\object-browser.ditamap, Element = topicref:3;8:44)
+Start location: 8:44
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Users\user-authorizations.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: '../System_Configuration/../Users/task_view-user-auths.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Users\user-authorizations.ditamap, Element = topicref:2;7:46)
+Start location: 7:46
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Users\user-authorizations.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: '../System_Configuration/../Users/task_view-user-auths.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Users\user-authorizations.ditamap, Element = topicref:2;7:46)
+Start location: 7:46
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Users\user-authorizations.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: '../System_Configuration/../Users/task_define-user-authorizations.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Users\user-authorizations.ditamap, Element = topicref:3;8:57)
+Start location: 8:57
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Users\user-authorizations.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: '../System_Configuration/../Users/task_define-user-authorizations.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Users\user-authorizations.ditamap, Element = topicref:3;8:57)
+Start location: 8:57
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Users\user-authorizations.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: '../System_Configuration/../Users/task_modify-user-authorization.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Users\user-authorizations.ditamap, Element = topicref:4;9:56)
+Start location: 9:56
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Users\user-authorizations.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: '../System_Configuration/../Users/task_modify-user-authorization.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Users\user-authorizations.ditamap, Element = topicref:4;9:56)
+Start location: 9:56
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Lifecycle_Management\Data-Retention-Behavior.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: '../System_Configuration/../Lifecycle_Management/../../_Common_Source/Lifecycle_Management/con_data-retention-behavior.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Lifecycle_Management\Data-Retention-Behavior.ditamap, Element = topicref:1;6:93)
+Start location: 6:93
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Lifecycle_Management\Data-Retention-Behavior.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: '../System_Configuration/../Lifecycle_Management/../../_Common_Source/Lifecycle_Management/con_data-retention-behavior.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Lifecycle_Management\Data-Retention-Behavior.ditamap, Element = topicref:1;6:93)
+Start location: 6:93
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Lifecycle_Management\Data-Retention-Behavior.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: '../System_Configuration/../Lifecycle_Management/../../_Common_Source/Lifecycle_Management/task_view-data-retention-behav.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Lifecycle_Management\Data-Retention-Behavior.ditamap, Element = topicref:2;7:98)
+Start location: 7:98
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Lifecycle_Management\Data-Retention-Behavior.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: '../System_Configuration/../Lifecycle_Management/../../_Common_Source/Lifecycle_Management/task_view-data-retention-behav.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Lifecycle_Management\Data-Retention-Behavior.ditamap, Element = topicref:2;7:98)
+Start location: 7:98
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Lifecycle_Management\Data-Retention-Behavior.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: '../System_Configuration/../Lifecycle_Management/task_set-data-retention-sched.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Lifecycle_Management\Data-Retention-Behavior.ditamap, Element = topicref:3;8:55)
+Start location: 8:55
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Lifecycle_Management\Data-Retention-Behavior.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: '../System_Configuration/../Lifecycle_Management/task_set-data-retention-sched.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Lifecycle_Management\Data-Retention-Behavior.ditamap, Element = topicref:3;8:55)
+Start location: 8:55
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Lifecycle_Management\Data-Retention-Behavior.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: '../System_Configuration/../Lifecycle_Management/task_manually-check-data-ret.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Lifecycle_Management\Data-Retention-Behavior.ditamap, Element = topicref:4;9:54)
+Start location: 9:54
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Lifecycle_Management\Data-Retention-Behavior.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: '../System_Configuration/../Lifecycle_Management/task_manually-check-data-ret.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Lifecycle_Management\Data-Retention-Behavior.ditamap, Element = topicref:4;9:54)
+Start location: 9:54
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Categories\Data-Categories.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: '../System_Configuration/../Data_Categories/task_view-data-category-names.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Categories\Data-Categories.ditamap, Element = topicref:2;7:55)
+Start location: 7:55
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Categories\Data-Categories.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: '../System_Configuration/../Data_Categories/task_view-data-category-names.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Categories\Data-Categories.ditamap, Element = topicref:2;7:55)
+Start location: 7:55
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Categories\Data-Categories.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: '../System_Configuration/../Data_Categories/task_add-data-category.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Categories\Data-Categories.ditamap, Element = topicref:3;8:48)
+Start location: 8:48
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Categories\Data-Categories.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: '../System_Configuration/../Data_Categories/task_add-data-category.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Categories\Data-Categories.ditamap, Element = topicref:3;8:48)
+Start location: 8:48
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Categories\Data-Categories.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: '../System_Configuration/../Data_Categories/task_edit-data-category-name.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Categories\Data-Categories.ditamap, Element = topicref:4;9:54)
+Start location: 9:54
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Categories\Data-Categories.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: '../System_Configuration/../Data_Categories/task_edit-data-category-name.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Categories\Data-Categories.ditamap, Element = topicref:4;9:54)
+Start location: 9:54
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Categories\Data-Categories.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: '../System_Configuration/../Data_Categories/task_delete-data-category.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Categories\Data-Categories.ditamap, Element = topicref:5;10:51)
+Start location: 10:51
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Categories\Data-Categories.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: '../System_Configuration/../Data_Categories/task_delete-data-category.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Categories\Data-Categories.ditamap, Element = topicref:5;10:51)
+Start location: 10:51
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\data_visibilities\Data-Visibilities.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: '../System_Configuration/../data_visibilities/task_view-data-visibilities.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\data_visibilities\Data-Visibilities.ditamap, Element = topicref:2;7:53)
+Start location: 7:53
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\data_visibilities\Data-Visibilities.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: '../System_Configuration/../data_visibilities/task_view-data-visibilities.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\data_visibilities\Data-Visibilities.ditamap, Element = topicref:2;7:53)
+Start location: 7:53
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\data_visibilities\Data-Visibilities.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: '../System_Configuration/../data_visibilities/task_define-data-visibility.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\data_visibilities\Data-Visibilities.ditamap, Element = topicref:3;8:53)
+Start location: 8:53
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\data_visibilities\Data-Visibilities.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: '../System_Configuration/../data_visibilities/task_define-data-visibility.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\data_visibilities\Data-Visibilities.ditamap, Element = topicref:3;8:53)
+Start location: 8:53
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Object_Browsing\object-browser.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: 'con_object-browsing.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Object_Browsing\object-browser.ditamap, Element = topicref:1;6:43)
+Start location: 6:43
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Object_Browsing\object-browser.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: 'con_object-browsing.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Object_Browsing\object-browser.ditamap, Element = topicref:1;6:43)
+Start location: 6:43
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Object_Browsing\object-browser.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: 'task_view-object.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Object_Browsing\object-browser.ditamap, Element = topicref:2;7:42)
+Start location: 7:42
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Object_Browsing\object-browser.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: 'task_view-object.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Object_Browsing\object-browser.ditamap, Element = topicref:2;7:42)
+Start location: 7:42
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Object_Browsing\object-browser.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: 'task_delete-object.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Object_Browsing\object-browser.ditamap, Element = topicref:3;8:44)
+Start location: 8:44
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Object_Browsing\object-browser.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: 'task_delete-object.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Object_Browsing\object-browser.ditamap, Element = topicref:3;8:44)
+Start location: 8:44
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Users\user-authorizations.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: '../Users/task_view-user-auths.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Users\user-authorizations.ditamap, Element = topicref:2;7:46)
+Start location: 7:46
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Users\user-authorizations.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: '../Users/task_view-user-auths.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Users\user-authorizations.ditamap, Element = topicref:2;7:46)
+Start location: 7:46
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Users\user-authorizations.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: '../Users/task_define-user-authorizations.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Users\user-authorizations.ditamap, Element = topicref:3;8:57)
+Start location: 8:57
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Users\user-authorizations.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: '../Users/task_define-user-authorizations.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Users\user-authorizations.ditamap, Element = topicref:3;8:57)
+Start location: 8:57
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Users\user-authorizations.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: '../Users/task_modify-user-authorization.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Users\user-authorizations.ditamap, Element = topicref:4;9:56)
+Start location: 9:56
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Users\user-authorizations.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: '../Users/task_modify-user-authorization.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Users\user-authorizations.ditamap, Element = topicref:4;9:56)
+Start location: 9:56
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Lifecycle_Management\Data-Retention-Behavior.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: '../Lifecycle_Management/../../_Common_Source/Lifecycle_Management/con_data-retention-behavior.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Lifecycle_Management\Data-Retention-Behavior.ditamap, Element = topicref:1;6:93)
+Start location: 6:93
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Lifecycle_Management\Data-Retention-Behavior.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: '../Lifecycle_Management/../../_Common_Source/Lifecycle_Management/con_data-retention-behavior.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Lifecycle_Management\Data-Retention-Behavior.ditamap, Element = topicref:1;6:93)
+Start location: 6:93
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Lifecycle_Management\Data-Retention-Behavior.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: '../Lifecycle_Management/../../_Common_Source/Lifecycle_Management/task_view-data-retention-behav.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Lifecycle_Management\Data-Retention-Behavior.ditamap, Element = topicref:2;7:98)
+Start location: 7:98
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Lifecycle_Management\Data-Retention-Behavior.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: '../Lifecycle_Management/../../_Common_Source/Lifecycle_Management/task_view-data-retention-behav.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Lifecycle_Management\Data-Retention-Behavior.ditamap, Element = topicref:2;7:98)
+Start location: 7:98
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Lifecycle_Management\Data-Retention-Behavior.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: '../Lifecycle_Management/task_set-data-retention-sched.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Lifecycle_Management\Data-Retention-Behavior.ditamap, Element = topicref:3;8:55)
+Start location: 8:55
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Lifecycle_Management\Data-Retention-Behavior.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: '../Lifecycle_Management/task_set-data-retention-sched.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Lifecycle_Management\Data-Retention-Behavior.ditamap, Element = topicref:3;8:55)
+Start location: 8:55
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Lifecycle_Management\Data-Retention-Behavior.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: '../Lifecycle_Management/task_manually-check-data-ret.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Lifecycle_Management\Data-Retention-Behavior.ditamap, Element = topicref:4;9:54)
+Start location: 9:54
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Lifecycle_Management\Data-Retention-Behavior.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: '../Lifecycle_Management/task_manually-check-data-ret.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Lifecycle_Management\Data-Retention-Behavior.ditamap, Element = topicref:4;9:54)
+Start location: 9:54
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Categories\Data-Categories.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: '../Data_Categories/task_view-data-category-names.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Categories\Data-Categories.ditamap, Element = topicref:2;7:55)
+Start location: 7:55
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Categories\Data-Categories.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: '../Data_Categories/task_view-data-category-names.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Categories\Data-Categories.ditamap, Element = topicref:2;7:55)
+Start location: 7:55
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Categories\Data-Categories.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: '../Data_Categories/task_add-data-category.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Categories\Data-Categories.ditamap, Element = topicref:3;8:48)
+Start location: 8:48
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Categories\Data-Categories.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: '../Data_Categories/task_add-data-category.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Categories\Data-Categories.ditamap, Element = topicref:3;8:48)
+Start location: 8:48
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Categories\Data-Categories.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: '../Data_Categories/task_edit-data-category-name.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Categories\Data-Categories.ditamap, Element = topicref:4;9:54)
+Start location: 9:54
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Categories\Data-Categories.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: '../Data_Categories/task_edit-data-category-name.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Categories\Data-Categories.ditamap, Element = topicref:4;9:54)
+Start location: 9:54
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Categories\Data-Categories.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: '../Data_Categories/task_delete-data-category.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Categories\Data-Categories.ditamap, Element = topicref:5;10:51)
+Start location: 10:51
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Categories\Data-Categories.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: '../Data_Categories/task_delete-data-category.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Data_Categories\Data-Categories.ditamap, Element = topicref:5;10:51)
+Start location: 10:51
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\data_visibilities\Data-Visibilities.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: '../data_visibilities/task_view-data-visibilities.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\data_visibilities\Data-Visibilities.ditamap, Element = topicref:2;7:53)
+Start location: 7:53
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\data_visibilities\Data-Visibilities.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: '../data_visibilities/task_view-data-visibilities.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\data_visibilities\Data-Visibilities.ditamap, Element = topicref:2;7:53)
+Start location: 7:53
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\data_visibilities\Data-Visibilities.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: '../data_visibilities/task_define-data-visibility.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\data_visibilities\Data-Visibilities.ditamap, Element = topicref:3;8:53)
+Start location: 8:53
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\data_visibilities\Data-Visibilities.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: '../data_visibilities/task_define-data-visibility.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\data_visibilities\Data-Visibilities.ditamap, Element = topicref:3;8:53)
+Start location: 8:53
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Users\user-authorizations.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: 'task_view-user-auths.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Users\user-authorizations.ditamap, Element = topicref:2;7:46)
+Start location: 7:46
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Users\user-authorizations.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: 'task_view-user-auths.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Users\user-authorizations.ditamap, Element = topicref:2;7:46)
+Start location: 7:46
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Users\user-authorizations.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: 'task_define-user-authorizations.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Users\user-authorizations.ditamap, Element = topicref:3;8:57)
+Start location: 8:57
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Users\user-authorizations.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: 'task_define-user-authorizations.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Users\user-authorizations.ditamap, Element = topicref:3;8:57)
+Start location: 8:57
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Users\user-authorizations.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: 'task_modify-user-authorization.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Users\user-authorizations.ditamap, Element = topicref:4;9:56)
+Start location: 9:56
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Users\user-authorizations.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: 'task_modify-user-authorization.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Users\user-authorizations.ditamap, Element = topicref:4;9:56)
+Start location: 9:56
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\data_visibilities\Data-Visibilities.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: 'task_view-data-visibilities.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\data_visibilities\Data-Visibilities.ditamap, Element = topicref:2;7:53)
+Start location: 7:53
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\data_visibilities\Data-Visibilities.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: 'task_view-data-visibilities.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\data_visibilities\Data-Visibilities.ditamap, Element = topicref:2;7:53)
+Start location: 7:53
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\data_visibilities\Data-Visibilities.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX023W]: Unable to retrieve navtitle from target: 'task_define-data-visibility.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\data_visibilities\Data-Visibilities.ditamap, Element = topicref:3;8:53)
+Start location: 8:53
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX023W
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\data_visibilities\Data-Visibilities.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: warning
+Description: [DOTX027W]: Unable to retrieve linktext from target: 'task_define-data-visibility.xml'.  The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\data_visibilities\Data-Visibilities.ditamap, Element = topicref:3;8:53)
+Start location: 8:53
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX027W
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\PHEMI-docs\docs\temp\pdf\_Common_Source\Users\task_modify-user-authorization.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\PHEMI-docs\docs\temp\pdf\_Common_Source\Users\task_define-user-authorizations.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\PHEMI-docs\docs\temp\pdf\_Common_Source\Data_Collections\con_data-policies.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\PHEMI-docs\docs\temp\pdf\_Common_Source\Lifecycle_Management\task_view-data-retention-behav.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\PHEMI-docs\docs\temp\pdf\_Common_Source\Initial_Setup\con_admin-qs.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\PHEMI-docs\docs\temp\pdf\_Common_Source\Data_Collections\task_view-data-collections.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\PHEMI-docs\docs\temp\pdf\_Common_Source\Lifecycle_Management\task_set-data-retention-sched.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\PHEMI-docs\docs\temp\pdf\_Common_Source\Lifecycle_Management\task_manually-check-data-ret.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\PHEMI-docs\docs\temp\pdf\_Common_Source\Data_Categories\task_view-data-category-names.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\PHEMI-docs\docs\temp\pdf\_Common_Source\Object_Browsing\task_delete-object.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\PHEMI-docs\docs\temp\pdf\_Common_Source\Data_Categories\task_add-data-category.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\PHEMI-docs\docs\temp\pdf\_Common_Source\data_visibilities\task_define-data-visibility.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\PHEMI-docs\docs\temp\pdf\_Common_Source\Object_Browsing\con_object-browsing.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\PHEMI-docs\docs\temp\pdf\_Common_Source\DPFs\con_dpfs.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\PHEMI-docs\docs\temp\pdf\_Common_Source\Data_Collections\task_modify-data-collection.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\PHEMI-docs\docs\temp\pdf\_Common_Source\Data_Collections\task_delete-data-collection.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\PHEMI-docs\docs\temp\pdf\_Common_Source\Data_Categories\task_edit-data-category-name.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\PHEMI-docs\docs\temp\pdf\_Common_Source\Object_Browsing\task_view-object.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\PHEMI-docs\docs\temp\pdf\_Common_Source\Lifecycle_Management\con_data-retention-behavior.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\PHEMI-docs\docs\temp\pdf\_Common_Source\Data_Collections\con_define-data-collection.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\PHEMI-docs\docs\temp\pdf\_Common_Source\Initial_Setup\con_before-configuring.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\PHEMI-docs\docs\temp\pdf\_Common_Source\Data_Collections\task_define-dpf.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\PHEMI-docs\docs\temp\pdf\_Common_Source\Data_Collections\task_define-data-policy.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\PHEMI-docs\docs\temp\pdf\_Common_Source\Data_Collections\task_view-data-collection-info.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\PHEMI-docs\docs\temp\pdf\_Common_Source\Installation\con_installation.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\PHEMI-docs\docs\temp\pdf\_Common_Source\data_visibilities\task_view-data-visibilities.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\PHEMI-docs\docs\temp\pdf\_Common_Source\Users\task_view-user-auths.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\PHEMI-docs\docs\temp\pdf\_Common_Source\Data_Categories\task_delete-data-category.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\PHEMI-docs\docs\temp\pdf\_Common_Source\Initial_Setup\..\..\_Common_Source\Initial_Setup\con_before-configuring.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\PHEMI-docs\docs\temp\pdf\_Common_Source\Initial_Setup\..\..\_Common_Source\Installation\con_installation.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\PHEMI-docs\docs\temp\pdf\_Common_Source\Mgmt_Console\..\Data_Collections\con_data-policies.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\PHEMI-docs\docs\temp\pdf\_Common_Source\Mgmt_Console\..\Data_Collections\..\DPFs\con_dpfs.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\PHEMI-docs\docs\temp\pdf\_Common_Source\Mgmt_Console\..\Data_Collections\task_view-data-collections.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\PHEMI-docs\docs\temp\pdf\_Common_Source\Mgmt_Console\..\Data_Collections\con_define-data-collection.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\PHEMI-docs\docs\temp\pdf\_Common_Source\Mgmt_Console\..\Data_Collections\task_define-data-policy.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\PHEMI-docs\docs\temp\pdf\_Common_Source\Mgmt_Console\..\Data_Collections\task_define-dpf.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\PHEMI-docs\docs\temp\pdf\_Common_Source\Mgmt_Console\..\Data_Collections\task_view-data-collection-info.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\PHEMI-docs\docs\temp\pdf\_Common_Source\Mgmt_Console\..\Data_Collections\task_modify-data-collection.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\PHEMI-docs\docs\temp\pdf\_Common_Source\Mgmt_Console\..\Data_Collections\task_delete-data-collection.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\PHEMI-docs\docs\temp\pdf\_Common_Source\Mgmt_Console\..\Object_Browsing\con_object-browsing.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\PHEMI-docs\docs\temp\pdf\_Common_Source\Mgmt_Console\..\Object_Browsing\task_view-object.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\PHEMI-docs\docs\temp\pdf\_Common_Source\Mgmt_Console\..\Object_Browsing\task_delete-object.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\PHEMI-docs\docs\temp\pdf\_Common_Source\Mgmt_Console\..\System_Configuration\..\Users\task_view-user-auths.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\PHEMI-docs\docs\temp\pdf\_Common_Source\Mgmt_Console\..\System_Configuration\..\Users\task_define-user-authorizations.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\PHEMI-docs\docs\temp\pdf\_Common_Source\Mgmt_Console\..\System_Configuration\..\Users\task_modify-user-authorization.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\PHEMI-docs\docs\temp\pdf\_Common_Source\Mgmt_Console\..\System_Configuration\..\Lifecycle_Management\..\..\_Common_Source\Lifecycle_Management\con_data-retention-behavior.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\PHEMI-docs\docs\temp\pdf\_Common_Source\Mgmt_Console\..\System_Configuration\..\Lifecycle_Management\..\..\_Common_Source\Lifecycle_Management\task_view-data-retention-behav.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\PHEMI-docs\docs\temp\pdf\_Common_Source\Mgmt_Console\..\System_Configuration\..\Lifecycle_Management\task_set-data-retention-sched.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\PHEMI-docs\docs\temp\pdf\_Common_Source\Mgmt_Console\..\System_Configuration\..\Lifecycle_Management\task_manually-check-data-ret.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\PHEMI-docs\docs\temp\pdf\_Common_Source\Mgmt_Console\..\System_Configuration\..\Data_Categories\task_view-data-category-names.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\PHEMI-docs\docs\temp\pdf\_Common_Source\Mgmt_Console\..\System_Configuration\..\Data_Categories\task_add-data-category.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\PHEMI-docs\docs\temp\pdf\_Common_Source\Mgmt_Console\..\System_Configuration\..\Data_Categories\task_edit-data-category-name.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\PHEMI-docs\docs\temp\pdf\_Common_Source\Mgmt_Console\..\System_Configuration\..\Data_Categories\task_delete-data-category.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\PHEMI-docs\docs\temp\pdf\_Common_Source\Mgmt_Console\..\System_Configuration\..\data_visibilities\task_view-data-visibilities.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: error
+Description: [DOTX008E] File 'C:\PHEMI-docs\docs\temp\pdf\_Common_Source\Mgmt_Console\..\System_Configuration\..\data_visibilities\task_define-data-visibility.xml' does not exist or cannot be loaded.
+URL: http://www.oxygenxml.com/DITA-messages.html#msgs__DOTX008E
+
+System ID: C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Initial_Setup\Admin_QS.ditamap
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: fatal
+Description: [PDFX005F]: Topic reference (href : #unique_15) not found. Reference may be incorrect. Please correct your ditamap or bookmap file. The location of this problem was at (File = C:\Users\Lindsay\AppData\Local\Temp\OxygenXMLTemp\ditaTemporaryOutputDir-1424850845028\t1\t2\t3\t4\t5\_Common_Source\Initial_Setup\Admin_QS.ditamap, Element = topicref:4;10:87)
+Start location: 10:87
+
+System ID: C:\Program Files\Oxygen XML Author 16\frameworks\dita\DITA-OT\xsl\common\output-message.xsl
+Scenario: DITA Map PDF - External-Facing
+Input file: C:\PHEMI-docs\docs\Mgmt_Console_User_Guide.ditamap
+Engine name: DITA-OT
+Severity: fatal
+Description: Processing terminated by xsl:message at line 76 in output-message.xsl
+Start location: 76:0

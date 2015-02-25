@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
-<map>
- <title>Foundational Concepts</title>
- <topicref href="con_foundational-concepts.xml">
-  <mapref href="found-psg.ditamap"/>
-  <mapref href="found-data.ditamap"/>
- </topicref>
-</map>

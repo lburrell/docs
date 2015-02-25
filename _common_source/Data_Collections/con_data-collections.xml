@@ -3,7 +3,7 @@
 <concept id="concept_data-collections">
   <title>Data Collections</title>
   <conbody>
-    <p conref="../_Glossary/con_glossary.xml#concept_glossary/data-source"/>
+    <p conref="../_glossary/con_glossary.xml#concept_glossary/data-collection"/>
     <p>Data collection configuration includes:</p>
     <ul id="ul_nxv_jjf_jq">
       <li>A data policy</li>

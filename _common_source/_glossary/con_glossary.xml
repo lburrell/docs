@@ -93,11 +93,11 @@
    <dlentry>
     <dt>data collection</dt>
     <dd>
-     <p audience="internal">Two words (i.e., not "datasource").</p>
-      <p id="data-source">In <ph conkeyref="product-vars/product-name"/>, a data collection is the
-            set of management and governance rules and policies that will be applied to a collection
-            of data. A data collection configuration should be defined for each set of data that is
-            to be stored and managed according to the same retention, legal, and governance rules. </p>
+      <p id="data-collection">In <ph conkeyref="product-vars/product-name"/>, a data collection is
+            the set of management and governance rules and policies that will be applied to a
+            collection of data. A data collection configuration should be defined for each set of
+            data that is to be stored and managed according to the same retention, legal, and
+            governance rules. </p>
     </dd>
    </dlentry>
    <dlentry>

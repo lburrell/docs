@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\PHEMI-docs\docs\temp\pdf\oxygen_dita_temp\_common_source\Privacy_Security_Governance?><?workdir-uri file:/C:/PHEMI-docs/docs/temp/pdf/oxygen_dita_temp/_common_source/Privacy_Security_Governance/?><?path2project ..\..\?><?path2project-uri ../../?><concept xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="concept_privacy" ditaarch:DITAArchVersion="1.2" domains="(topic concept)                            (topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic concept/concept " xtrf="C:\PHEMI-docs\docs\_common_source\Privacy_Security_Governance\con_privacy.xml" xtrc="concept:1;3:31">
+ <title class="- topic/title " xtrf="C:\PHEMI-docs\docs\_common_source\Privacy_Security_Governance\con_privacy.xml" xtrc="title:1;4:9">Privacy</title>
+ <shortdesc class="- topic/shortdesc " xtrf="C:\PHEMI-docs\docs\_common_source\Privacy_Security_Governance\con_privacy.xml" xtrc="shortdesc:1;5:13">Privacy is restricting information access to those who have the right to access it. </shortdesc>
+ <conbody class="- topic/body  concept/conbody " xtrf="C:\PHEMI-docs\docs\_common_source\Privacy_Security_Governance\con_privacy.xml" xtrc="conbody:1;6:11">
+  <p class="- topic/p " xtrf="C:\PHEMI-docs\docs\_common_source\Privacy_Security_Governance\con_privacy.xml" xtrc="p:1;7:6"><ph class="- topic/ph " xtrf="C:\PHEMI-docs\docs\_common_source\_Variables\PHEMI_Central\con_Product-Vars.xml" xtrc="ph:1;6:48">PHEMI Central</ph>'s Privacy by Design framework was designed from the
+      ground up to define, manage, and enforce data sharing agreements and privacy policies.  This
+      framework includes the following mechanisms:</p>
+  <ul id="ul_if1_npb_dr" class="- topic/ul " xtrf="C:\PHEMI-docs\docs\_common_source\Privacy_Security_Governance\con_privacy.xml" xtrc="ul:1;10:26">
+   <li class="- topic/li " xtrf="C:\PHEMI-docs\docs\_common_source\Privacy_Security_Governance\con_privacy.xml" xtrc="li:1;11:8">
+    <p class="- topic/p " xtrf="C:\PHEMI-docs\docs\_common_source\Privacy_Security_Governance\con_privacy.xml" xtrc="p:2;12:8"><b class="+ topic/ph hi-d/b " xtrf="C:\PHEMI-docs\docs\_common_source\Privacy_Security_Governance\con_privacy.xml" xtrc="b:1;12:11">Attribute-based access control (ABAC)</b>—Users are tagged with attributes that describe
+          their authorizations to access data. Data is tagged with attributes that describe what its
+          visibility should be. These two attributes are used in access policies that are applied to
+          data collections and datasets to enforce rightful access privileges. For example, a data
+          analyst with CONFIDENTIAL authorization might be able to export fully identified data, an
+          analyst with RESEARCHER authorization might only have access to de-identified data. </p>
+        <p class="- topic/p " xtrf="C:\PHEMI-docs\docs\_common_source\Privacy_Security_Governance\con_privacy.xml" xtrc="p:3;18:12">Attribute based access control reduces complexity and reduces the risk of data breach. An
+          attributed-based approach to privacy is also especially helpful when not all uses or
+          access requirements for data are understood up-front, or when new types of data are
+          frequently introduced into the system  (both common scenarios in health care, for
+          example). </p>
+   </li>
+   <li class="- topic/li " xtrf="C:\PHEMI-docs\docs\_common_source\Privacy_Security_Governance\con_privacy.xml" xtrc="li:2;24:8">
+    <p class="- topic/p " xtrf="C:\PHEMI-docs\docs\_common_source\Privacy_Security_Governance\con_privacy.xml" xtrc="p:4;25:8"><b class="+ topic/ph hi-d/b " xtrf="C:\PHEMI-docs\docs\_common_source\Privacy_Security_Governance\con_privacy.xml" xtrc="b:2;25:11">Selective data tagging</b>—The attribute-based access configured in the system can be
+          enriched and extpanded with context-specific protections by using the Data Processing
+          Function framework to extract and re-tag information. For example, scans of patient
+          reports can be recognized and extracted by a DPF and fields selectively marked as PII
+          (personally identifying information, as in a Social Security or Social Insurance Number)
+          or NON_IDENTIFYING (as in a blood glucose measurement).</p>
+   </li>
+   <li class="- topic/li " xtrf="C:\PHEMI-docs\docs\_common_source\Privacy_Security_Governance\con_privacy.xml" xtrc="li:3;32:8">
+    <p class="- topic/p " xtrf="C:\PHEMI-docs\docs\_common_source\Privacy_Security_Governance\con_privacy.xml" xtrc="p:5;33:8"><b class="+ topic/ph hi-d/b " xtrf="C:\PHEMI-docs\docs\_common_source\Privacy_Security_Governance\con_privacy.xml" xtrc="b:3;33:11">Automatic anonymization and de-identification</b>—<ph class="- topic/ph " xtrf="C:\PHEMI-docs\docs\_common_source\_Variables\PHEMI_Central\con_Product-Vars.xml" xtrc="ph:1;6:48">PHEMI Central</ph> can be set to automatically invoke a Data
+          Processing Function that can de-identify, encrypt, redact, or mask any data element. A DPF
+          can even include sophisticated data dependency algorithms to reduce the risk of
+          re-identification. </p>
+        <p class="- topic/p " xtrf="C:\PHEMI-docs\docs\_common_source\Privacy_Security_Governance\con_privacy.xml" xtrc="p:6;38:12">A <ph class="- topic/ph " xtrf="C:\PHEMI-docs\docs\_common_source\_Variables\PHEMI_Central\con_Product-Vars.xml" xtrc="ph:5;11:50">PHEMI Administrator</ph> can also construct datasets that strip out
+          identifying data elements. Centralizing anonymization and de-identification helps reduce
+          data sprawl and reduces the risk of data consistency errors. </p>
+   </li>
+   <li class="- topic/li " xtrf="C:\PHEMI-docs\docs\_common_source\Privacy_Security_Governance\con_privacy.xml" xtrc="li:4;42:8">
+    <p class="- topic/p " xtrf="C:\PHEMI-docs\docs\_common_source\Privacy_Security_Governance\con_privacy.xml" xtrc="p:7;43:8"><b class="+ topic/ph hi-d/b " xtrf="C:\PHEMI-docs\docs\_common_source\Privacy_Security_Governance\con_privacy.xml" xtrc="b:4;43:11">End to end access policy enforcement</b>—Every query for data to <ph class="- topic/ph " xtrf="C:\PHEMI-docs\docs\_common_source\_Variables\PHEMI_Central\con_Product-Vars.xml" xtrc="ph:1;6:48">PHEMI Central</ph> is mediated by the PHEMI Policy Enforcement
+          Engine, which compares the access request aginst the privacy protections that have been
+          placed on the data. At no time can users, applications, or external systems bypass the
+          Policy Enforcement Engine to access data directly. </p>
+   </li>
+  </ul>
+ </conbody>
+</concept>

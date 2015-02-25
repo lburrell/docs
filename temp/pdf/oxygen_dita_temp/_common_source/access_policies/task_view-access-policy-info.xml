@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\PHEMI-docs\docs\temp\pdf\oxygen_dita_temp\_common_source\access_policies?><?workdir-uri file:/C:/PHEMI-docs/docs/temp/pdf/oxygen_dita_temp/_common_source/access_policies/?><?path2project ..\..\?><?path2project-uri ../../?><task xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="task_view-access-policy-info" ditaarch:DITAArchVersion="1.2" domains="(topic task)                            (topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic task strictTaskbody-c)    " class="- topic/topic task/task " xtrf="C:\PHEMI-docs\docs\_common_source\access_policies\task_view-access-policy-info.xml" xtrc="task:1;3:41">
+    <title class="- topic/title " xtrf="C:\PHEMI-docs\docs\_common_source\access_policies\task_view-access-policy-info.xml" xtrc="title:1;4:12">View Access Policy Information</title>
+    <shortdesc class="- topic/shortdesc " xtrf="C:\PHEMI-docs\docs\_common_source\access_policies\task_view-access-policy-info.xml" xtrc="shortdesc:1;5:16">View the information configured for a given access policy on the <wintitle class="+ topic/keyword ui-d/wintitle " xtrf="C:\PHEMI-docs\docs\_common_source\access_policies\task_view-access-policy-info.xml" xtrc="wintitle:1;5:91">Access
+            Policy Builder</wintitle> page. </shortdesc>
+    <taskbody class="- topic/body task/taskbody " xtrf="C:\PHEMI-docs\docs\_common_source\access_policies\task_view-access-policy-info.xml" xtrc="taskbody:1;7:15">
+        <context class="- topic/section task/context " xtrf="C:\PHEMI-docs\docs\_common_source\access_policies\task_view-access-policy-info.xml" xtrc="context:1;8:18">
+            <p class="- topic/p " xtrf="C:\PHEMI-docs\docs\_common_source\access_policies\task_view-access-policy-info.xml" xtrc="p:1;9:16">To view information for an access policy:</p>
+        </context>
+        <steps class="- topic/ol task/steps " xtrf="C:\PHEMI-docs\docs\_common_source\access_policies\task_view-access-policy-info.xml" xtrc="steps:1;11:16">
+            <step class="- topic/li task/step " xtrf="C:\PHEMI-docs\docs\_common_source\access_policies\task_view-access-policy-info.xml" xtrc="step:1;12:19">
+                <cmd class="- topic/ph task/cmd " xtrf="C:\PHEMI-docs\docs\_common_source\access_policies\task_view-access-policy-info.xml" xtrc="cmd:1;13:22">Open the <uicontrol class="+ topic/ph ui-d/uicontrol " xtrf="C:\PHEMI-docs\docs\_common_source\access_policies\task_view-access-policy-info.xml" xtrc="uicontrol:1;13:42">Access Policy Builder</uicontrol> page, by clicking the
+                        <uicontrol class="+ topic/ph ui-d/uicontrol " xtrf="C:\PHEMI-docs\docs\_common_source\access_policies\task_view-access-policy-info.xml" xtrc="uicontrol:2;14:36">Access Policy Builder</uicontrol> icon in the left navigation
+                    bar. <image href="../_images/gui-screen-shots/icon_access-policies.JPG" id="image_fmr_wzn_mq" scale="70" placement="inline" class="- topic/image " xtrf="C:\PHEMI-docs\docs\_common_source\access_policies\task_view-access-policy-info.xml" xtrc="image:1;16:59"/>
+                </cmd>
+                <info class="- topic/itemgroup task/info " xtrf="C:\PHEMI-docs\docs\_common_source\access_policies\task_view-access-policy-info.xml" xtrc="info:1;18:23">
+                    <p class="- topic/p " xtrf="C:\PHEMI-docs\docs\_common_source\access_policies\task_view-access-policy-info.xml" xtrc="p:2;19:24">The <wintitle class="+ topic/keyword ui-d/wintitle " xtrf="C:\PHEMI-docs\docs\_common_source\access_policies\task_view-access-policy-info.xml" xtrc="wintitle:2;19:38">Access Policy Builder</wintitle> page opens.</p>
+                    <fig id="fig_access-policy-builder" class="- topic/fig " xtrf="C:\PHEMI-docs\docs\_common_source\access_policies\task_view-access-policy-info.xml" xtrc="fig:1;20:57">
+                        <image href="../_images/gui-screen-shots/access-policy_policy-builder.jpg" id="image_hmp_55r_3q" scale="70" placement="inline" class="- topic/image " xtrf="C:\PHEMI-docs\docs\_common_source\access_policies\task_view-access-policy-info.xml" xtrc="image:2;22:63"/>
+                    </fig>
+                </info>
+            </step>
+            <step class="- topic/li task/step " xtrf="C:\PHEMI-docs\docs\_common_source\access_policies\task_view-access-policy-info.xml" xtrc="step:2;26:19">
+                <cmd class="- topic/ph task/cmd " xtrf="C:\PHEMI-docs\docs\_common_source\access_policies\task_view-access-policy-info.xml" xtrc="cmd:2;27:22">At the right of the <uicontrol class="+ topic/ph ui-d/uicontrol " xtrf="C:\PHEMI-docs\docs\_common_source\access_policies\task_view-access-policy-info.xml" xtrc="uicontrol:3;27:53">Choose Policy to Edit</uicontrol> field, click
+                    the drop-down arrow to see configured access policies. Select the policy you
+                    want to view.</cmd>
+                <info class="- topic/itemgroup task/info " xtrf="C:\PHEMI-docs\docs\_common_source\access_policies\task_view-access-policy-info.xml" xtrc="info:2;30:23">
+                    <fig id="fig_access-policies_view-info" class="- topic/fig " xtrf="C:\PHEMI-docs\docs\_common_source\access_policies\task_view-access-policy-info.xml" xtrc="fig:2;31:61">
+                        <image href="../_images/gui-screen-shots/access-policy_select.jpg" id="image_wpx_pd4_mq" scale="70" placement="inline" class="- topic/image " xtrf="C:\PHEMI-docs\docs\_common_source\access_policies\task_view-access-policy-info.xml" xtrc="image:3;33:63"/>
+                    </fig>
+                    <p class="- topic/p " xtrf="C:\PHEMI-docs\docs\_common_source\access_policies\task_view-access-policy-info.xml" xtrc="p:3;35:24">The screen for the selected access policy opens, showing the information
+                        configured for it.</p>
+                    <fig id="fig_access-policy_view-info" class="- topic/fig " xtrf="C:\PHEMI-docs\docs\_common_source\access_policies\task_view-access-policy-info.xml" xtrc="fig:3;37:59">
+                        <image href="../_images/gui-screen-shots/access-policy_view-info.jpg" id="image_hy3_dnm_qq" scale="70" placement="inline" class="- topic/image " xtrf="C:\PHEMI-docs\docs\_common_source\access_policies\task_view-access-policy-info.xml" xtrc="image:4;39:63"/>
+                    </fig>
+                </info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

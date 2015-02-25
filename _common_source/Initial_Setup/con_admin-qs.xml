@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_admin-qs">
+ <title>Administrator Quick Start</title>
+ <shortdesc>This section shows you the workflow for a first configuration of the <ph
+   conkeyref="product-vars/product-name"/>
+  <ph conkeyref="product-vars/gui-name"/>.</shortdesc>
+ <conbody>
+  <p/>
+ </conbody>
+</concept>

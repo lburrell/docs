@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><map xmlns:opentopic-index="http://www.idiominc.com/opentopic/index" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" class="- map/map " ditaarch:DITAArchVersion="1.2" domains="(topic delay-d)                          (map mapgroup-d)                           (topic indexing-d)                          (map glossref-d)                          (topic hi-d)                           (topic ut-d)                           (topic hazard-d)                          (topic abbrev-d)                          (topic pr-d)                           (topic sw-d)                          (topic ui-d)                         " xtrc="map:1;3:6" xtrf="C:\PHEMI-docs\docs\_common_source\Initial_Setup\Admin_QS.ditamap"><opentopic:map xmlns:opentopic="http://www.idiominc.com/opentopic" xmlns:ot-placeholder="http://suite-sol.com/namespaces/ot-placeholder">
+ <title class="- topic/title " xtrc="title:1;4:9" xtrf="C:\PHEMI-docs\docs\_common_source\Initial_Setup\Admin_QS.ditamap">Administrator Quick Start</title>
+ 
+ 
+ <topicref class="- map/topicref " first_topic_id="#unique_1" href="#unique_1" id="unique_1" ohref="con_before-configuring.xml" xtrc="topicref:1;7:81" xtrf="C:\PHEMI-docs\docs\_common_source\Initial_Setup\Admin_QS.ditamap">
+  <topicref class="- map/topicref " first_topic_id="#unique_2" href="#unique_2" id="unique_2" ohref="../Installation/con_installation.xml" xtrc="topicref:2;8:76" xtrf="C:\PHEMI-docs\docs\_common_source\Initial_Setup\Admin_QS.ditamap"/>
+  <topicref class="- map/topicref " first_topic_id="#unique_3" href="#unique_3" id="unique_3" ohref="../Privacy_Security_Governance/task_define-governance-policy.xml" xtrc="topicref:3;9:86" xtrf="C:\PHEMI-docs\docs\_common_source\Initial_Setup\Admin_QS.ditamap"/>
+ </topicref>
+ <topicref class="- map/topicref " first_topic_id="#unique_4" href="#unique_4" id="unique_4" ohref="task_setup-workflow.xml" xtrc="topicref:4;11:79" xtrf="C:\PHEMI-docs\docs\_common_source\Initial_Setup\Admin_QS.ditamap"/>
+</opentopic:map><concept class="- topic/topic concept/concept " ditaarch:DITAArchVersion="1.2" domains="(topic concept)                            (topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " id="unique_1" oid="concept_before-you-begin" xml:lang="en" xtrc="concept:1;3:40" xtrf="C:\PHEMI-docs\docs\_Common_Source\Initial_Setup\con_before-configuring.xml">
+ <title class="- topic/title " xtrc="title:1;4:9" xtrf="C:\PHEMI-docs\docs\_Common_Source\Initial_Setup\con_before-configuring.xml">Before You Configure</title>
+ <shortdesc class="- topic/shortdesc " xtrc="shortdesc:1;5:13" xtrf="C:\PHEMI-docs\docs\_Common_Source\Initial_Setup\con_before-configuring.xml">Before you start configuring <ph class="- topic/ph " xtrc="ph:1;6:48" xtrf="C:\PHEMI-docs\docs\_common_source\_Variables\PHEMI_Central\con_Product-Vars.xml">PHEMI Central</ph>, the system
+  must be installed and you should have your organization's governance policy clearly
+  defined.</shortdesc>
+ <conbody class="- topic/body  concept/conbody " xtrc="conbody:1;8:12" xtrf="C:\PHEMI-docs\docs\_Common_Source\Initial_Setup\con_before-configuring.xml"/>
+<concept class="- topic/topic concept/concept " ditaarch:DITAArchVersion="1.2" domains="(topic concept)                            (topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " id="unique_2" oid="concept_system-installation" xml:lang="en" xtrc="concept:1;3:43" xtrf="C:\PHEMI-docs\docs\_Common_Source\Installation\con_installation.xml">
+ <title class="- topic/title " xtrc="title:1;4:9" xtrf="C:\PHEMI-docs\docs\_Common_Source\Installation\con_installation.xml">System Installation</title>
+ <shortdesc class="- topic/shortdesc " xtrc="shortdesc:1;5:14" xtrf="C:\PHEMI-docs\docs\_Common_Source\Installation\con_installation.xml"/>
+ <conbody class="- topic/body  concept/conbody " xtrc="conbody:1;6:11" xtrf="C:\PHEMI-docs\docs\_Common_Source\Installation\con_installation.xml">
+  <p class="- topic/p " xtrc="p:1;7:6" xtrf="C:\PHEMI-docs\docs\_Common_Source\Installation\con_installation.xml"><ph class="- topic/ph " xtrc="ph:1;6:48" xtrf="C:\PHEMI-docs\docs\_common_source\_Variables\PHEMI_Central\con_Product-Vars.xml">PHEMI Central</ph> may be shipped as an appliance, deployed on Amazon
+      Web Services (AWS), or deployed on your organization's VMware environment. Regardless of the
+      deployment type, <ph class="- topic/ph " xtrc="ph:1;6:76" xtrf="C:\PHEMI-docs\docs\_common_source\_Variables\PHEMI_Central\con_Corporate_Vars.xml">PHEMI Professional
+    Services</ph> will install and set up your base
+      system of cluster nodes and your management node, and will install the <ph class="- topic/ph " xtrc="ph:1;6:48" xtrf="C:\PHEMI-docs\docs\_common_source\_Variables\PHEMI_Central\con_Product-Vars.xml">PHEMI Central</ph> software on the cluster. Installation may include
+      populating your system with some of your organization's pre-existing data.</p>
+  <p class="- topic/p " xtrc="p:2;13:6" xtrf="C:\PHEMI-docs\docs\_Common_Source\Installation\con_installation.xml">
+      <ph class="- topic/ph " xtrc="ph:1;6:76" xtrf="C:\PHEMI-docs\docs\_common_source\_Variables\PHEMI_Central\con_Corporate_Vars.xml">PHEMI Professional
+    Services</ph> will create the first  <ph class="- topic/ph " xtrc="ph:5;11:50" xtrf="C:\PHEMI-docs\docs\_common_source\_Variables\PHEMI_Central\con_Product-Vars.xml">PHEMI Administrator</ph> account for you on <ph class="- topic/ph " xtrc="ph:1;6:48" xtrf="C:\PHEMI-docs\docs\_common_source\_Variables\PHEMI_Central\con_Product-Vars.xml">PHEMI Central</ph> and will provide you with the user name and password
+      for the account, together with the URL of the <ph class="- topic/ph " xtrc="ph:1;6:48" xtrf="C:\PHEMI-docs\docs\_common_source\_Variables\PHEMI_Central\con_Product-Vars.xml">PHEMI Central</ph>
+      <ph class="- topic/ph " xtrc="ph:2;7:50" xtrf="C:\PHEMI-docs\docs\_common_source\_Variables\PHEMI_Central\con_Product-Vars.xml">Management and Governance Console</ph>. At that point, you can log on to the <ph class="- topic/ph " xtrc="ph:2;7:50" xtrf="C:\PHEMI-docs\docs\_common_source\_Variables\PHEMI_Central\con_Product-Vars.xml">Management and Governance Console</ph>.</p>
+ </conbody>
+</concept><task class="- topic/topic task/task " ditaarch:DITAArchVersion="1.2" domains="(topic task)                            (topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic task strictTaskbody-c)    " id="unique_3" oid="task_define-governance-policy" xml:lang="en" xtrc="task:1;3:42" xtrf="C:\PHEMI-docs\docs\_common_source\Privacy_Security_Governance\task_define-governance-policy.xml">
+    <title class="- topic/title " xtrc="title:1;4:12" xtrf="C:\PHEMI-docs\docs\_common_source\Privacy_Security_Governance\task_define-governance-policy.xml">Define a Governance Policy</title>
+    <shortdesc class="- topic/shortdesc " xtrc="shortdesc:1;5:16" xtrf="C:\PHEMI-docs\docs\_common_source\Privacy_Security_Governance\task_define-governance-policy.xml">Make sure your organization's governance policy is defined before you begin
+        configuration.</shortdesc>
+    <taskbody class="- topic/body task/taskbody " xtrc="taskbody:1;7:15" xtrf="C:\PHEMI-docs\docs\_common_source\Privacy_Security_Governance\task_define-governance-policy.xml">
+        <context class="- topic/section task/context " xtrc="context:1;8:18" xtrf="C:\PHEMI-docs\docs\_common_source\Privacy_Security_Governance\task_define-governance-policy.xml">
+            <p class="- topic/p " xtrc="p:1;9:16" xtrf="C:\PHEMI-docs\docs\_common_source\Privacy_Security_Governance\task_define-governance-policy.xml">Your governance policies will drive how you configure <ph class="- topic/ph " conref="../_Variables/PHEMI_Central/con_Product-Vars.xml#product-name" xtrc="ph:1;10:60" xtrf="C:\PHEMI-docs\docs\_common_source\Privacy_Security_Governance\task_define-governance-policy.xml"/>
+                <ph class="- topic/ph " conref="../_Variables/PHEMI_Central/con_Product-Vars.xml#product-name" xtrc="ph:2;11:60" xtrf="C:\PHEMI-docs\docs\_common_source\Privacy_Security_Governance\task_define-governance-policy.xml"/>. Therefore, before configuring <ph class="- topic/ph " conref="../_Variables/PHEMI_Central/con_Product-Vars.xml#product-name" xtrc="ph:3;12:60" xtrf="C:\PHEMI-docs\docs\_common_source\Privacy_Security_Governance\task_define-governance-policy.xml"/>
+                <ph class="- topic/ph " conref="../_Variables/PHEMI_Central/con_Product-Vars.xml#product-name" xtrc="ph:4;13:60" xtrf="C:\PHEMI-docs\docs\_common_source\Privacy_Security_Governance\task_define-governance-policy.xml"/>, you should make sure you have your
+                organization's governance policy available to you. If you are uncertain as to the
+                appropriate data visibilities, user authorizations, or access policies to define for
+                your organization, consult with your Information Officer, Privacy Officer, or with
+                someone in a comparable role.</p>
+            <p class="- topic/p " xtrc="p:2;18:16" xtrf="C:\PHEMI-docs\docs\_common_source\Privacy_Security_Governance\task_define-governance-policy.xml">To define your organization's governance policy:</p>
+        </context>
+        <steps class="- topic/ol task/steps " xtrc="steps:1;20:16" xtrf="C:\PHEMI-docs\docs\_common_source\Privacy_Security_Governance\task_define-governance-policy.xml">
+            <step class="- topic/li task/step " xtrc="step:1;21:19" xtrf="C:\PHEMI-docs\docs\_common_source\Privacy_Security_Governance\task_define-governance-policy.xml">
+                <cmd class="- topic/ph task/cmd " xtrc="cmd:1;22:22" xtrf="C:\PHEMI-docs\docs\_common_source\Privacy_Security_Governance\task_define-governance-policy.xml">Identify the different sensitivity levels of the data you will be storing in
+                        <ph class="- topic/ph " conref="../_Variables/PHEMI_Central/con_Product-Vars.xml#product-name" xtrc="ph:5;23:68" xtrf="C:\PHEMI-docs\docs\_common_source\Privacy_Security_Governance\task_define-governance-policy.xml"/>
+                    <ph class="- topic/ph " conref="../_Variables/PHEMI_Central/con_Product-Vars.xml#product-name" xtrc="ph:6;24:64" xtrf="C:\PHEMI-docs\docs\_common_source\Privacy_Security_Governance\task_define-governance-policy.xml"/>. </cmd>
+                <info class="- topic/itemgroup task/info " xtrc="info:1;25:23" xtrf="C:\PHEMI-docs\docs\_common_source\Privacy_Security_Governance\task_define-governance-policy.xml">You'll configure these as data visibilities. Data visibilities are attributes
+                    used to tag ingested data for purposes of privacy and access control. Examples
+                    of data visibilities are "CONFIDENTIAL," "SECRET," and "PII" (Personally
+                    Identifiable Information).</info>
+            </step>
+            <step class="- topic/li task/step " xtrc="step:2;30:19" xtrf="C:\PHEMI-docs\docs\_common_source\Privacy_Security_Governance\task_define-governance-policy.xml">
+                <cmd class="- topic/ph task/cmd " xtrc="cmd:2;31:22" xtrf="C:\PHEMI-docs\docs\_common_source\Privacy_Security_Governance\task_define-governance-policy.xml">Identify what authorizations your organization assigns to different users to
+                    allow them to access data. </cmd>
+                <info class="- topic/itemgroup task/info " xtrc="info:2;33:23" xtrf="C:\PHEMI-docs\docs\_common_source\Privacy_Security_Governance\task_define-governance-policy.xml">
+                    <p class="- topic/p " xtrc="p:3;34:24" xtrf="C:\PHEMI-docs\docs\_common_source\Privacy_Security_Governance\task_define-governance-policy.xml">Your user authorizations should reflect the actual permissions your personnel
+                        are granted to interact with data with different visibility. </p>
+                </info>
+            </step>
+            <step class="- topic/li task/step " xtrc="step:3;38:19" xtrf="C:\PHEMI-docs\docs\_common_source\Privacy_Security_Governance\task_define-governance-policy.xml">
+                <cmd class="- topic/ph task/cmd " xtrc="cmd:3;39:22" xtrf="C:\PHEMI-docs\docs\_common_source\Privacy_Security_Governance\task_define-governance-policy.xml">Specify the allowed combinations of user authorizations and data
+                    visibilities.</cmd>
+                <info class="- topic/itemgroup task/info " xtrc="info:3;41:23" xtrf="C:\PHEMI-docs\docs\_common_source\Privacy_Security_Governance\task_define-governance-policy.xml">For example, a user with C_LEVEL authorization (perhaps a CEO, CIO, COO, or
+                    CTO) might be permitted to access CONFIDENTIAL data, a user with RESEARCH
+                    authorization might only be permitted to access only DE-IDENTIFIED data, and a
+                    user with DOCTOR authorization might be allowed to see data of all sensitivity.
+                    In You'll configure these as data visibilities., the allowed access combinations
+                    are implemented as access policies.</info>
+            </step>
+        </steps>
+    </taskbody>
+</task></concept><task class="- topic/topic task/task " ditaarch:DITAArchVersion="1.2" domains="(topic task)                            (topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)                            (topic task strictTaskbody-c)    " id="unique_4" oid="task_initial-config-workflow" xml:lang="en" xtrc="task:1;3:41" xtrf="C:\PHEMI-docs\docs\_Common_Source\Initial_Setup\task_setup-workflow.xml">
+    <title class="- topic/title " xtrc="title:1;4:12" xtrf="C:\PHEMI-docs\docs\_Common_Source\Initial_Setup\task_setup-workflow.xml">Initial Configuration Workflow</title>
+    <shortdesc class="- topic/shortdesc " xtrc="shortdesc:1;5:16" xtrf="C:\PHEMI-docs\docs\_Common_Source\Initial_Setup\task_setup-workflow.xml">Since some configuration tasks must be completed before others can be performed, the
+            <ph class="- topic/ph " xtrc="ph:5;11:50" xtrf="C:\PHEMI-docs\docs\_common_source\_Variables\PHEMI_Central\con_Product-Vars.xml">PHEMI Administrator</ph> can use the workflow in this section to configure
+            <ph class="- topic/ph " xtrc="ph:1;6:48" xtrf="C:\PHEMI-docs\docs\_common_source\_Variables\PHEMI_Central\con_Product-Vars.xml">PHEMI Central</ph>.</shortdesc>
+    <taskbody class="- topic/body task/taskbody " xtrc="taskbody:1;8:15" xtrf="C:\PHEMI-docs\docs\_Common_Source\Initial_Setup\task_setup-workflow.xml">
+        <prereq class="- topic/section task/prereq " xtrc="prereq:1;9:18" xtrf="C:\PHEMI-docs\docs\_Common_Source\Initial_Setup\task_setup-workflow.xml"/>
+        <steps class="- topic/ol task/steps " xtrc="steps:1;10:16" xtrf="C:\PHEMI-docs\docs\_Common_Source\Initial_Setup\task_setup-workflow.xml">
+            <stepsection class="- topic/li task/stepsection " xtrc="stepsection:1;11:26" xtrf="C:\PHEMI-docs\docs\_Common_Source\Initial_Setup\task_setup-workflow.xml">In these first steps, order matters. You cannot create users until you have
+                defined user authorizations. Likewise, you cannot create access policies without
+                defining both user authorizations and data visibilities.</stepsection>
+            <step class="- topic/li task/step " xtrc="step:1;14:19" xtrf="C:\PHEMI-docs\docs\_Common_Source\Initial_Setup\task_setup-workflow.xml">
+                <cmd class="- topic/ph task/cmd " xtrc="cmd:1;15:22" xtrf="C:\PHEMI-docs\docs\_Common_Source\Initial_Setup\task_setup-workflow.xml"><xref class="- topic/xref " href="#unique_5" ohref="../../_common_source/mgmt_console/task_logging-on.xml#task_logging-on" type="task" xtrc="xref:1;17:26" xtrf="C:\PHEMI-docs\docs\_Common_Source\Initial_Setup\task_setup-workflow.xml"><?ditaot usertext?>Log on to the <ph class="- topic/ph " xtrc="ph:1;6:48" xtrf="C:\PHEMI-docs\docs\_common_source\_Variables\PHEMI_Central\con_Product-Vars.xml">PHEMI Central</ph>
+                        <ph class="- topic/ph " xtrc="ph:2;7:50" xtrf="C:\PHEMI-docs\docs\_common_source\_Variables\PHEMI_Central\con_Product-Vars.xml">Management and Governance Console</ph><?ditaot genshortdesc?><desc class="- topic/desc "/></xref>.</cmd>
+            </step>
+            <step class="- topic/li task/step " xtrc="step:2;20:19" xtrf="C:\PHEMI-docs\docs\_Common_Source\Initial_Setup\task_setup-workflow.xml">
+                <cmd class="- topic/ph task/cmd " xtrc="cmd:2;21:22" xtrf="C:\PHEMI-docs\docs\_Common_Source\Initial_Setup\task_setup-workflow.xml"><xref class="- topic/xref " href="#unique_6" ohref="..%5C..%5C_common_source%5Cusers%5Ccon_user-authorizations.xml" type="concept" xtrc="xref:2;21:90" xtrf="C:\PHEMI-docs\docs\_Common_Source\Initial_Setup\task_setup-workflow.xml"><?ditaot usertext?>Define user
+                        authorizations.</xref></cmd>
+            </step>
+            <step class="- topic/li task/step " xtrc="step:3;24:19" xtrf="C:\PHEMI-docs\docs\_Common_Source\Initial_Setup\task_setup-workflow.xml">
+                <cmd class="- topic/ph task/cmd " xtrc="cmd:3;25:22" xtrf="C:\PHEMI-docs\docs\_Common_Source\Initial_Setup\task_setup-workflow.xml"><xref class="- topic/xref " href="#unique_7" ohref="..%5C..%5C_common_source%5Cusers%5Ccon_users.xml" type="concept" xtrc="xref:3;25:76" xtrf="C:\PHEMI-docs\docs\_Common_Source\Initial_Setup\task_setup-workflow.xml"><?ditaot usertext?>Create users.<?ditaot genshortdesc?><desc class="- topic/desc ">User management allows you to say who can use the system to do what, and who can access         what data.</desc></xref>
+                    Create at least one user with a role of <ph class="- topic/ph " xtrc="ph:5;11:50" xtrf="C:\PHEMI-docs\docs\_common_source\_Variables\PHEMI_Central\con_Product-Vars.xml">PHEMI Administrator</ph>, at
+                    least one user with a role of <ph class="- topic/ph " xtrc="ph:7;13:70" xtrf="C:\PHEMI-docs\docs\_common_source\_Variables\PHEMI_Central\con_Product-Vars.xml">Privacy Officer</ph>,
+                    and at least one user with a role of <ph class="- topic/ph " xtrc="ph:6;12:64" xtrf="C:\PHEMI-docs\docs\_common_source\_Variables\PHEMI_Central\con_Product-Vars.xml">Data Analyst</ph>. </cmd>
+            </step>
+            <step class="- topic/li task/step " xtrc="step:4;31:19" xtrf="C:\PHEMI-docs\docs\_Common_Source\Initial_Setup\task_setup-workflow.xml">
+                <cmd class="- topic/ph task/cmd " xtrc="cmd:4;32:22" xtrf="C:\PHEMI-docs\docs\_Common_Source\Initial_Setup\task_setup-workflow.xml"><xref class="- topic/xref " href="#unique_8" ohref="..%5C..%5C_common_source%5Cdata_visibilities%5Ccon_data-visibilities.xml" type="concept" xtrc="xref:4;33:26" xtrf="C:\PHEMI-docs\docs\_Common_Source\Initial_Setup\task_setup-workflow.xml"><?ditaot usertext?>Define data visibilities.<?ditaot genshortdesc?><desc class="- topic/desc ">Data visibilities identify the privacy requirements for data.</desc></xref></cmd>
+            </step>
+            <stepsection class="- topic/li task/stepsection " xtrc="stepsection:2;35:26" xtrf="C:\PHEMI-docs\docs\_Common_Source\Initial_Setup\task_setup-workflow.xml">
+                <p class="- topic/p " xtrc="p:1;36:20" xtrf="C:\PHEMI-docs\docs\_Common_Source\Initial_Setup\task_setup-workflow.xml">Data categories must be added before you can define data collections. Access policies
+                    are optional for data collection configuration, but if you are using access
+                    policies, you must configure the policies before configuring the data collections. </p>
+                <p class="- topic/p " xtrc="p:2;39:20" xtrf="C:\PHEMI-docs\docs\_Common_Source\Initial_Setup\task_setup-workflow.xml">If you are using a Data Processing Function (DPF) to generate derived data from
+                    raw data, you must prepare the DPF code archive before configuring the data
+                    collection and upload the DPF archive during data collection configuration.</p>
+            </stepsection>
+            <step class="- topic/li task/step " xtrc="step:5;43:19" xtrf="C:\PHEMI-docs\docs\_Common_Source\Initial_Setup\task_setup-workflow.xml">
+                <cmd class="- topic/ph task/cmd " xtrc="cmd:5;44:22" xtrf="C:\PHEMI-docs\docs\_Common_Source\Initial_Setup\task_setup-workflow.xml"><xref class="- topic/xref " href="#unique_9" ohref="..%5C..%5C_common_source%5CData_Categories%5Ccon_data-categories.xml" type="concept" xtrc="xref:5;44:96" xtrf="C:\PHEMI-docs\docs\_Common_Source\Initial_Setup\task_setup-workflow.xml"><?ditaot usertext?>Add
+                        data categories.<?ditaot genshortdesc?><desc class="- topic/desc ">High-level data categories help you classify the data that will be stored in <ph class="- topic/ph " conref="../_Variables/PHEMI_Central/con_Product-Vars.xml#product-name" xtrc="ph:1;6:43" xtrf="C:\PHEMI-docs\docs\_common_source\Data_Categories\con_data-categories.xml"/>. </desc></xref></cmd>
+            </step>
+            <step class="- topic/li task/step " xtrc="step:6;47:19" xtrf="C:\PHEMI-docs\docs\_Common_Source\Initial_Setup\task_setup-workflow.xml">
+                <cmd class="- topic/ph task/cmd " xtrc="cmd:6;48:22" xtrf="C:\PHEMI-docs\docs\_Common_Source\Initial_Setup\task_setup-workflow.xml"><xref class="- topic/xref " href="#unique_9" ohref="../../_common_source/Data_Categories/con_data-categories.xml#concept_data-categories" type="concept" xtrc="xref:6;50:26" xtrf="C:\PHEMI-docs\docs\_Common_Source\Initial_Setup\task_setup-workflow.xml"><?ditaot usertext?>Create access policies.<?ditaot genshortdesc?><desc class="- topic/desc ">High-level data categories help you classify the data that will be stored in <ph class="- topic/ph " conref="../_Variables/PHEMI_Central/con_Product-Vars.xml#product-name" xtrc="ph:1;6:43" xtrf="C:\PHEMI-docs\docs\_common_source\Data_Categories\con_data-categories.xml"/>. </desc></xref></cmd>
+            </step>
+            <step class="- topic/li task/step " xtrc="step:7;52:19" xtrf="C:\PHEMI-docs\docs\_Common_Source\Initial_Setup\task_setup-workflow.xml">
+                <cmd class="- topic/ph task/cmd " xtrc="cmd:7;53:22" xtrf="C:\PHEMI-docs\docs\_Common_Source\Initial_Setup\task_setup-workflow.xml"><xref class="- topic/xref " href="#unique_10" ohref="../../_common_source/Data_Collections/con_data-collections.xml#concept_data-collections" type="concept" xtrc="xref:7;55:26" xtrf="C:\PHEMI-docs\docs\_Common_Source\Initial_Setup\task_setup-workflow.xml"><?ditaot usertext?>Set up your data collections.</xref></cmd>
+            </step>
+            <stepsection class="- topic/li task/stepsection " xtrc="stepsection:3;57:26" xtrf="C:\PHEMI-docs\docs\_Common_Source\Initial_Setup\task_setup-workflow.xml">It is the <ph class="- topic/ph " xtrc="ph:6;12:64" xtrf="C:\PHEMI-docs\docs\_common_source\_Variables\PHEMI_Central\con_Product-Vars.xml">Data Analyst</ph>, not the <ph class="- topic/ph " xtrc="ph:5;11:50" xtrf="C:\PHEMI-docs\docs\_common_source\_Variables\PHEMI_Central\con_Product-Vars.xml">PHEMI Administrator</ph>, who executes and exports datasets. However,
+                constructing datasets from available data elements and configuring dataset export
+                destinations is part of system configuration, and these tasks are performed by the
+                    <ph class="- topic/ph " xtrc="ph:5;11:50" xtrf="C:\PHEMI-docs\docs\_common_source\_Variables\PHEMI_Central\con_Product-Vars.xml">PHEMI Administrator</ph>.</stepsection>
+            <step class="- topic/li task/step " xtrc="step:8;62:19" xtrf="C:\PHEMI-docs\docs\_Common_Source\Initial_Setup\task_setup-workflow.xml">
+                <cmd class="- topic/ph task/cmd " xtrc="cmd:8;63:22" xtrf="C:\PHEMI-docs\docs\_Common_Source\Initial_Setup\task_setup-workflow.xml"><xref class="- topic/xref " href="#unique_11" ohref="../../_common_source/datasets/con_datasets.xml#concept_datasets" type="concept" xtrc="xref:8;64:26" xtrf="C:\PHEMI-docs\docs\_Common_Source\Initial_Setup\task_setup-workflow.xml"><?ditaot usertext?>Build datasets.<?ditaot genshortdesc?><desc class="- topic/desc ">A dataset is a specific view of data in <ph class="- topic/ph " conref="../_Variables/PHEMI_Central/con_Product-Vars.xml#product-name" xtrc="ph:1;6:5" xtrf="C:\PHEMI-docs\docs\_common_source\datasets\con_datasets.xml"/>.</desc></xref></cmd>
+            </step>
+            <step class="- topic/li task/step " xtrc="step:9;66:19" xtrf="C:\PHEMI-docs\docs\_Common_Source\Initial_Setup\task_setup-workflow.xml">
+                <cmd class="- topic/ph task/cmd " xtrc="cmd:9;67:22" xtrf="C:\PHEMI-docs\docs\_Common_Source\Initial_Setup\task_setup-workflow.xml"><xref class="- topic/xref " href="#unique_12" ohref="../../_common_source/Dataset_Destinations/con_dataset-destinations.xml#concept_dataset-destinations" type="concept" xtrc="xref:9;69:26" xtrf="C:\PHEMI-docs\docs\_Common_Source\Initial_Setup\task_setup-workflow.xml"><?ditaot usertext?>Configure dataset destinations.<?ditaot genshortdesc?><desc class="- topic/desc ">Datasets can be exported to consuming applications and tools. </desc></xref></cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task><opentopic-index:index.groups/></map>

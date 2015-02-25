@@ -1,9 +1,9 @@
-#Mon Feb 23 16:36:22 PST 2015
+#Tue Feb 24 19:25:44 PST 2015
 relflagimagelist=
-user.input.dir=/Users/lindsayburrell/Documents/_PHEMI/Docs/r1.0
+user.input.dir=C\:\\PHEMI-docs\\docs
 copytotarget2sourcemaplist=
-uplevels=../../
-user.input.file=_common_source/Passwords/Password-Policy.ditamap
+uplevels=..\\..\\
+user.input.file=_common_source\\Passwords\\Password-Policy.ditamap
 user.input.file.listfile=usr.input.file.list
-tempdirToinputmapdir.relative.value=_common_source/Passwords/
+tempdirToinputmapdir.relative.value=_common_source[\\\\|/]Passwords[\\\\|/]
 relflagimagefile=relflagimage.list

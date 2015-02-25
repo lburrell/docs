@@ -2,7 +2,6 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
  <title>Data Collections</title>
- <keydef keys="product-vars" href="../_Variables/PHEMI_Central/con_Product-Vars.xml"/>
  <topicref href="con_data-collections.xml">
   <topicref href="con_data-policies.xml"/>
   <topicref href="../DPFs/con_dpfs.xml"/>

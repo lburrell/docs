@@ -2,7 +2,6 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
  <title>Introducing PHEMI Central</title>
- <keydef keys="product-vars" href="../_Variables/PHEMI_Central/con_Product-Vars.xml"/>
  <topicref href="con_introducing-PHEMI-Central.xml">
   <mapref href="../Data_in_PHEMI/Data-in-PHEMI.ditamap" format="ditamap"/>
   <mapref href="../Privacy_Security_Governance/privacy-security-governance.ditamap" format="ditamap"/>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\PHEMI-docs\docs\temp\pdf\oxygen_dita_temp\_common_source\Filter_Expressions?><?workdir-uri file:/C:/PHEMI-docs/docs/temp/pdf/oxygen_dita_temp/_common_source/Filter_Expressions/?><?path2project ..\..\?><?path2project-uri ../../?><reference xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="reference_filter-expr" ditaarch:DITAArchVersion="1.2" domains="(topic reference)                            (topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic       reference/reference " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="reference:1;3:39">
+  <title class="- topic/title " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="title:1;4:10">Filter Expressions</title>
+  <shortdesc class="- topic/shortdesc " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="shortdesc:1;5:14">Filter data in reports, logs, and lists of objects using simple regular expressions. </shortdesc>
+  <refbody class="- topic/body        reference/refbody " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="refbody:1;6:12">
+    <section class="- topic/section " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="section:1;7:14">
+      <p class="- topic/p " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="p:1;8:10">Regular expressions used to filter information in <ph class="- topic/ph " xtrf="C:\PHEMI-docs\docs\_common_source\_Variables\PHEMI_Central\con_Product-Vars.xml" xtrc="ph:1;6:48">PHEMI Central</ph> must be compatible with both the Java and the Python programming languages.</p>
+      <p class="- topic/p " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="p:2;10:10">The simple regular expressions described in this section are supported by the system. More
+        complicated regular expressions may succeed, but are not guaranteed to succeed.</p>
+    </section>
+    <section class="- topic/section " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="section:2;13:14">
+      <title class="- topic/title " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="title:2;14:14">Character Classes</title>
+      <p class="- topic/p " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="p:3;15:10">Generally, the allowed character classes include lowercase letters, uppercase letters,
+        numbers (decimal digits), and the underscore character ("_"). Taken together, these
+        characters comprise the "word" character class.</p>
+      <p class="- topic/p " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="p:4;18:10">To match a specific string of letters, numbers, punctuation, or a mix, simply enter the
+        string. For example entering the string <userinput class="+ topic/ph sw-d/userinput " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="userinput:1;19:60">2014</userinput> matches any entry
+        containing the string "2014". A blank space is entered simply as a blank space.</p>
+      <p class="- topic/p " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="p:5;21:10">To make more flexible expressions, use <xref href="#reference_filter-expr/metacharacters" format="dita" class="- topic/xref " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="xref:1;22:25" type="title"><?ditaot usertext?>metacharacters</xref> and <xref href="#reference_filter-expr/escape-sequences" format="dita" class="- topic/xref " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="xref:2;23:72" type="title"><?ditaot usertext?>escape sequences</xref>.</p>
+    </section>
+    <section class="- topic/section " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="section:3;25:14">
+      <title id="metacharacters" class="- topic/title " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="title:3;26:34">Metacharacters</title>
+      <p class="- topic/p " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="p:6;27:10">Metacharacters are characters that are not matched themselves, but indicate how a filter
+        expression should be interpreted. </p>
+    </section>
+    <properties id="properties_mdf_zxk_lq" relcolwidth="1* 5*" class="- topic/simpletable reference/properties " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="properties:1;30:64">
+      <prophead class="- topic/sthead      reference/prophead " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="prophead:1;31:17">
+        <proptypehd class="- topic/stentry     reference/proptypehd " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="proptypehd:1;32:21">Character(s)</proptypehd>
+        <propdeschd class="- topic/stentry     reference/propdeschd " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="propdeschd:1;33:21">Description</propdeschd>
+      </prophead>
+      <property class="- topic/strow       reference/property " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="property:1;35:17">
+        <proptype class="- topic/stentry     reference/proptype " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="proptype:1;36:19">[ ]</proptype>
+        <propdesc class="- topic/stentry     reference/propdesc " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="propdesc:1;37:19">
+          <p class="- topic/p " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="p:7;38:14">Square brackets. Matches any single character within the brackets. For example,
+              <userinput class="+ topic/ph sw-d/userinput " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="userinput:2;39:26">[abc]</userinput> matches any of the characters "a", "b", or "c". Backslash
+            escapes are not allowed within square brackets.</p>
+          <p class="- topic/p " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="p:8;41:14">To filter on a sequence of more than one character inside brackets, delimit the
+            expressions using a single quote; for example, ['11''12''13']</p>
+          <p class="- topic/p " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="p:9;43:14">A closing square bracket may be included in the bracket expression if it is the first
+            character of the set (or the first character after the carat), as in
+              <userinput class="+ topic/ph sw-d/userinput " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="userinput:3;45:26">[]abc]</userinput>.</p>
+        </propdesc>
+      </property>
+      <property class="- topic/strow       reference/property " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="property:2;48:17">
+        <proptype class="- topic/stentry     reference/proptype " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="proptype:2;49:19">-</proptype>
+        <propdesc class="- topic/stentry     reference/propdesc " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="propdesc:2;50:19">
+          <p class="- topic/p " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="p:10;51:14">Hyphen. When within square brackets, specifies a range of values. For example,
+              <userinput class="+ topic/ph sw-d/userinput " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="userinput:4;52:26">[a-z]</userinput> matches any lowercase letter from "a" through "z". The
+            expression <userinput class="+ topic/ph sw-d/userinput " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="userinput:5;53:35">[a-d]</userinput> is equivalent to
+            <userinput class="+ topic/ph sw-d/userinput " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="userinput:6;54:24">[abcd]</userinput>.</p>
+          <p class="- topic/p " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="p:11;55:14">The hyphen is treated as a literal character if it is the first or last character
+            inside square brackets, as in <userinput class="+ topic/ph sw-d/userinput " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="userinput:7;56:54">[abc-]</userinput> or if it is the first
+            character after the carat inside square brackets.</p>
+        </propdesc>
+      </property>
+      <property class="- topic/strow       reference/property " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="property:3;60:17">
+        <proptype class="- topic/stentry     reference/proptype " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="proptype:3;61:19">[^ ]</proptype>
+        <propdesc class="- topic/stentry     reference/propdesc " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="propdesc:3;62:19">
+          <p class="- topic/p " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="p:12;63:14">Matches the negation or complement of the characters within the brackets. For example,
+              <userinput class="+ topic/ph sw-d/userinput " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="userinput:8;64:26">[^abc]</userinput> matches any character that is neither an "a" nor a "b"
+            nor a "c", while <userinput class="+ topic/ph sw-d/userinput " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="userinput:9;65:41">[^a-z]</userinput> matches any character that is not a
+            lowercase alphabetic character. </p>
+          <p class="- topic/p " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="p:13;67:14">When outside square brackets, the carat is matched as an ordinary character.</p>
+        </propdesc>
+      </property>
+      <property class="- topic/strow       reference/property " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="property:4;70:17">
+        <proptype class="- topic/stentry     reference/proptype " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="proptype:4;71:19">^</proptype>
+        <propdesc class="- topic/stentry     reference/propdesc " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="propdesc:4;72:19">Matches the starting position of the string or line.</propdesc>
+      </property>
+      <property class="- topic/strow       reference/property " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="property:5;74:17">
+        <proptype class="- topic/stentry     reference/proptype " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="proptype:5;75:19">$</proptype>
+        <propdesc class="- topic/stentry     reference/propdesc " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="propdesc:5;76:19">Matches the ending position of a string or line, or the position immediately
+          preceding the newline character.</propdesc>
+      </property>
+      <property class="- topic/strow       reference/property " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="property:6;79:17">
+        <proptype class="- topic/stentry     reference/proptype " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="proptype:6;80:19">\</proptype>
+        <propdesc class="- topic/stentry     reference/propdesc " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="propdesc:6;81:19">The escape character. When followed by an ordinary character, the escape character
+          signals a special sequence; for example, <userinput class="+ topic/ph sw-d/userinput " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="userinput:10;82:63">\n</userinput> indicates a newline
+          character. When followed by a metacharacter, the metacharacter loses its special meaning
+          and is matched in the same way as an ordinary character.</propdesc>
+      </property>
+      <property class="- topic/strow       reference/property " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="property:7;86:17">
+        <proptype class="- topic/stentry     reference/proptype " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="proptype:7;87:19">.</proptype>
+        <propdesc class="- topic/stentry     reference/propdesc " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="propdesc:7;88:19">
+          <p class="- topic/p " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="p:14;89:14">Dot, or period. Matches any single character, except newline (\n). For example,
+              <userinput class="+ topic/ph sw-d/userinput " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="userinput:11;90:26">.at</userinput> matches "bat", "cat", "hat", "mat", and so on. Within a
+            bracket expression, the dot matches a literal dot. Therefore, while
+              <userinput class="+ topic/ph sw-d/userinput " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="userinput:12;92:26">.at</userinput> matches "bat", "cat", and so on,
+              <userinput class="+ topic/ph sw-d/userinput " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="userinput:13;93:26">[.at]</userinput> matches "." or "a" or "t". </p>
+        </propdesc>
+      </property>
+    </properties>
+    <section class="- topic/section " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="section:4;97:14">
+      <title id="escape-sequences" class="- topic/title " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="title:4;98:36">Escape Sequences</title>
+      <p class="- topic/p " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="p:15;99:10">There are certain characters that take on a new meaning when they are preceded by the
+        escape character, the backslash.</p>
+    </section>
+    <properties id="properties_dhf_xjl_lq" relcolwidth="1* 5*" class="- topic/simpletable reference/properties " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="properties:2;102:64">
+      <prophead class="- topic/sthead      reference/prophead " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="prophead:2;103:17">
+        <proptypehd class="- topic/stentry     reference/proptypehd " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="proptypehd:2;104:21">Escape Sequence</proptypehd>
+        <propdeschd class="- topic/stentry     reference/propdeschd " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="propdeschd:2;105:21">Description</propdeschd>
+      </prophead>
+      <property class="- topic/strow       reference/property " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="property:8;107:17">
+        <proptype class="- topic/stentry     reference/proptype " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="proptype:8;108:19">\n</proptype>
+        <propdesc class="- topic/stentry     reference/propdesc " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="propdesc:8;109:19">
+          <p class="- topic/p " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="p:16;110:14">Newline.</p>
+        </propdesc>
+      </property>
+      <property class="- topic/strow       reference/property " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="property:9;113:17">
+        <proptype class="- topic/stentry     reference/proptype " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="proptype:9;114:19">\r</proptype>
+        <propdesc class="- topic/stentry     reference/propdesc " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="propdesc:9;115:19">
+          <p class="- topic/p " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="p:17;116:14">Carriage return.</p>
+        </propdesc>
+      </property>
+      <property class="- topic/strow       reference/property " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="property:10;119:17">
+        <proptype class="- topic/stentry     reference/proptype " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="proptype:10;120:19">\t</proptype>
+        <propdesc class="- topic/stentry     reference/propdesc " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="propdesc:10;121:19">
+          <p class="- topic/p " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="p:18;122:14">Horizontal tab.</p>
+        </propdesc>
+      </property>
+      <property class="- topic/strow       reference/property " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="property:11;125:17">
+        <proptype class="- topic/stentry     reference/proptype " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="proptype:11;126:19">\x0B</proptype>
+        <propdesc class="- topic/stentry     reference/propdesc " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="propdesc:11;127:19">
+          <p class="- topic/p " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="p:19;128:14">Vertical tab.</p>
+        </propdesc>
+      </property>
+      <property class="- topic/strow       reference/property " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="property:12;131:17">
+        <proptype class="- topic/stentry     reference/proptype " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="proptype:12;132:19">\f</proptype>
+        <propdesc class="- topic/stentry     reference/propdesc " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="propdesc:12;133:19">
+          <p class="- topic/p " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="p:20;134:14">Form feed.</p>
+        </propdesc>
+      </property>
+      <property class="- topic/strow       reference/property " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="property:13;137:17">
+        <proptype class="- topic/stentry     reference/proptype " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="proptype:13;138:19">\d</proptype>
+        <propdesc class="- topic/stentry     reference/propdesc " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="propdesc:13;139:19">
+          <p class="- topic/p " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="p:21;140:14">A digit. Equivalent to [0-9].</p>
+        </propdesc>
+      </property>
+      <property class="- topic/strow       reference/property " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="property:14;143:17">
+        <proptype class="- topic/stentry     reference/proptype " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="proptype:14;144:19">\D</proptype>
+        <propdesc class="- topic/stentry     reference/propdesc " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="propdesc:14;145:19">
+          <p class="- topic/p " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="p:22;146:14">A non-digit. Equivalent to [^0-9].</p>
+        </propdesc>
+      </property>
+      <property class="- topic/strow       reference/property " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="property:15;149:17">
+        <proptype class="- topic/stentry     reference/proptype " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="proptype:15;150:19">\s</proptype>
+        <propdesc class="- topic/stentry     reference/propdesc " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="propdesc:15;151:19">
+          <p class="- topic/p " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="p:23;152:14">A whitespace character. Equivalent to [ \t\n\r\x0B\f].</p>
+        </propdesc>
+      </property>
+      <property class="- topic/strow       reference/property " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="property:16;155:17">
+        <proptype class="- topic/stentry     reference/proptype " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="proptype:16;156:19">\S</proptype>
+        <propdesc class="- topic/stentry     reference/propdesc " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="propdesc:16;157:19">
+          <p class="- topic/p " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="p:24;158:14">A non-whitespace character. Equivalent to [^\s].</p>
+        </propdesc>
+      </property>
+      <property class="- topic/strow       reference/property " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="property:17;161:17">
+        <proptype class="- topic/stentry     reference/proptype " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="proptype:17;162:19">\w</proptype>
+        <propdesc class="- topic/stentry     reference/propdesc " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="propdesc:17;163:19">A member of the word character class. Equivalent to [a-zA-Z_0-9].</propdesc>
+      </property>
+      <property class="- topic/strow       reference/property " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="property:18;165:17">
+        <proptype class="- topic/stentry     reference/proptype " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="proptype:18;166:19">\W</proptype>
+        <propdesc class="- topic/stentry     reference/propdesc " xtrf="C:\PHEMI-docs\docs\_common_source\Filter_Expressions\ref_filter-expressions.xml" xtrc="propdesc:18;167:19">A non-word character. Equivalent to [^\w].</propdesc>
+      </property>
+    </properties>
+  </refbody>
+</reference>

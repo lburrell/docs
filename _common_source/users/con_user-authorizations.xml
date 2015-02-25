@@ -3,7 +3,7 @@
 <concept id="concept_user-authorizations">
  <title>User Authorizations</title>
  <conbody>
-    <p conref="../_Glossary/con_glossary.xml#concept_glossary/user-authorizations"/>
+    <p conref="../_glossary/con_glossary.xml#concept_glossary/user-authorizations"/>
     <p>User authorizations are used together with data visibilities to create access policies. The
       access policy matches the authorization against the data visibility to determine what action,
       if any, a user may take with respect to accessing the data. </p>

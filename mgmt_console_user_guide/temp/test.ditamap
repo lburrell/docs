@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
-<map>
- <title>Test Topic Map</title>
- <keydef keys="product-vars"
-  href="../../_common_source/_Variables/PHEMI_Central/con_Product-Vars.xml"/>
- <mapref href="../../_common_source/Data_Management/data-mgmt.ditamap" format="ditamap"/>
-</map>

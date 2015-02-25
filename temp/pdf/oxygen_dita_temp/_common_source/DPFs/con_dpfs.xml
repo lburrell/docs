@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\PHEMI-docs\docs\temp\pdf\oxygen_dita_temp\_common_source\DPFs?><?workdir-uri file:/C:/PHEMI-docs/docs/temp/pdf/oxygen_dita_temp/_common_source/DPFs/?><?path2project ..\..\?><?path2project-uri ../../?><concept xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="concept_dpfs" ditaarch:DITAArchVersion="1.2" domains="(topic concept)                            (topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic concept/concept " xtrf="C:\PHEMI-docs\docs\_common_source\DPFs\con_dpfs.xml" xtrc="concept:1;3:28">
+ <title class="- topic/title " xtrf="C:\PHEMI-docs\docs\_common_source\DPFs\con_dpfs.xml" xtrc="title:1;4:9">Data Processing Functions</title>
+ <shortdesc class="- topic/shortdesc " xtrf="C:\PHEMI-docs\docs\_common_source\DPFs\con_dpfs.xml" xtrc="shortdesc:1;5:13">Data Processing Functions allow data items to be parsed, data elements to be recognized
+    and extracted, and the derived data to selectively tagged with metadata.</shortdesc>
+ <conbody class="- topic/body  concept/conbody " xtrf="C:\PHEMI-docs\docs\_common_source\DPFs\con_dpfs.xml" xtrc="conbody:1;7:11">
+    <p class="- topic/p " xtrf="C:\PHEMI-docs\docs\_common_source\_glossary\con_glossary.xml" xtrc="p:7;78:23"> A Data Processing Function, or DPF, is an executable piece of code that
+            supplies the instructions for processing raw data (for example, a log message or medical
+            report) to extract from heterogeneous data collections meaningful, context-specific
+            information (such as a temperature reading or blood glucose measurement) that can be
+            queried or exported for analysis. The code is executed by the <ph class="- topic/ph " xtrf="C:\PHEMI-docs\docs\_common_source\_Variables\PHEMI_Central\con_Product-Vars.xml" xtrc="ph:1;6:48">PHEMI Central</ph>
+            <ph class="- topic/ph " xtrf="C:\PHEMI-docs\docs\_common_source\_Variables\PHEMI_Central\con_Product-Vars.xml" xtrc="ph:4;9:55">DPF Engine</ph>, which uses it to direct curation of the data.
+            The input to a DPF is the raw binary data ingested into the system. The output of a DPF
+            is a set of structured elements, each of which includes a type property (for example,
+            INT or STRING) and can specify data visibilities (for example, SECRET or IDENTIFIABLE)
+            on a per-field basis. The data elements output by a DPF are called derived data. The
+            collection of derived data produced by a DPF is automatically indexed in PHEMI Central.
+          </p>
+    <p class="- topic/p " xtrf="C:\PHEMI-docs\docs\_common_source\_glossary\con_glossary.xml" xtrc="p:11;127:26">The set of code that makes up a DPF is called a DPF archive. A DPF archive
+            is delivered as a ZIP file archive. It consists of two parts: a manifest file and a code
+            library. To associate a DPF with a data collection, the DPF archive is ``registered`` with
+            the data collection by uploading the archive during data collection configuration.</p>
+  <p class="- topic/p " xtrf="C:\PHEMI-docs\docs\_common_source\DPFs\con_dpfs.xml" xtrc="p:3;10:6">A DPF is associated with a data collection as part of data collection configuration. To associate
+   the DPF with the data collection you upload the DPF archive on the data collection configuration
+   page.</p>
+  <p class="- topic/p " xtrf="C:\PHEMI-docs\docs\_common_source\DPFs\con_dpfs.xml" xtrc="p:4;13:6"><ph class="- topic/ph " xtrf="C:\PHEMI-docs\docs\_common_source\_Variables\PHEMI_Central\con_Product-Vars.xml" xtrc="ph:1;6:48">PHEMI Central</ph> includes a library of helper functions to simplify
+   DPF development. DPFs can be developed in either Java or Python, or <ph class="- topic/ph " xtrf="C:\PHEMI-docs\docs\_common_source\_Variables\PHEMI_Central\con_Product-Vars.xml" xtrc="ph:1;6:48">PHEMI Central</ph> can be extended to support DPF development in any modern
+   programming language that runs on a Linux OS. No MapReduce or YARN knowledge is  necessary. Your
+   DPF can be written by PHEMI, by your organization’s in-house programmers, or by third-party
+   developers. Training in DPF development is also available from PHEMI.</p>
+ </conbody>
+</concept>

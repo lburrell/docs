@@ -11,13 +11,11 @@
    <li>Users</li>
   </ul>
     <p>To be able to configure users, you must first configure <xref
-        href="../Users/con_user-authorizations.xml#concept_user-authorizations">user
-        authorizations</xref>. Your users must include at least one user with a role of <ph
-        conkeyref="product-vars/admin"/> and at least one user with a role of <ph
-        conkeyref="product-vars/privacy-officer"/>. </p>
-    <p>If you are applying an access policy to the data collection, you must first configure the <xref
-        href="../Access_Policies/task_create-access-policy.xml#task_create-access-policy">access
-        policies</xref>.</p>
+                href="../users/con_user-authorizations.xml">user authorizations</xref>. Your users
+            must include at least one user with a role of <ph conkeyref="product-vars/admin"/> and
+            at least one user with a role of <ph conkeyref="product-vars/privacy-officer"/>. </p>
+    <p>If you are applying an access policy to the data collection, you must first configure the
+                <xref href="../access_policies/con_access-policies.xml">access policies</xref>.</p>
   <p>When you first define a data collection, only the <wintitle>Data Policy</wintitle> screen is
       available to you. Configure the data policy and save it. After saving the data policy
       information, the <wintitle>Data Processing Function</wintitle> and <wintitle>Ingest
