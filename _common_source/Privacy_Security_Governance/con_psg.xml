@@ -2,7 +2,7 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_psg-in-PHEMI">
  <title>Privacy, Security, and Governance </title>
- <shortdesc>The intention of privacy, security, and governance is to protect information and ensure
+ <shortdesc>The purpose of privacy, security, and governance is to protect information and ensure
   rightful access.</shortdesc>
  <conbody>
   <p><ph conkeyref="product-vars/product-name"/> is designed from the ground up to be able to manage

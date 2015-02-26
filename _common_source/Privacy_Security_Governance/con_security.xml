@@ -20,9 +20,9 @@
    </li>
    <li>
     <p><b>Audit Log</b>—<ph conkeyref="product-vars/product-name"/> maintains complete a audit log
-          of system and user operations. The log includes all create, modify, and delete operations,
-          plus a record of all queries for made to the system. The audit log file is completely
-          tamperproof for all users. </p>
+     of system and user operations. The log includes all create, modify, and delete operations, plus
+     a record of all queries made to the system. The audit log file is completely tamperproof for
+     all users. </p>
    </li>
    <li>
     <p><b>Encryption in motion</b>—<ph conkeyref="product-vars/product-name"/> assumes your system
