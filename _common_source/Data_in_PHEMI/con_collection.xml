@@ -54,11 +54,11 @@
    </li>
   </ul>
   <p>During ingest, <ph conkeyref="product-vars/product-name"/> tags each raw data object with
-      metadata that describes the data. Metadata governing digital rights management, retention
-      rules, data sharing agreements, and privacy policies is applied and enforced. Describing
-      information with metadata means that users and applications can query and analyze data based
-      the data’s properties, instead of having to navigate complex directories or schemas to find
-      information.  <ph conkeyref="product-vars/product-name"/> then places the tagged digital asset
-      into the data store for curation.</p>
+   metadata that describes the data. Metadata governing digital rights management, retention rules,
+   data sharing agreements, and privacy policies is applied and enforced. Describing information
+   with metadata means that users and applications can query and analyze data based on the data’s
+   properties, instead of having to navigate complex directories or schemas to find information. <ph
+    conkeyref="product-vars/product-name"/> then places the tagged digital asset into the data store
+   for curation.</p>
  </conbody>
 </concept>

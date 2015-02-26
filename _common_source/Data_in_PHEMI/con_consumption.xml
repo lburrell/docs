@@ -5,7 +5,7 @@
  <shortdesc/>
  <conbody>
   <p>The data elements stored in <ph conkeyref="product-vars/product-name"/> is accessed by querying
-   the system. Queries can be made in a number of ways.</p>
+   the system. Access can be made in a number of ways.</p>
   <ul id="ul_esb_pv1_dr">
    <li>You can locate and download the original data object using the <ph
      conkeyref="product-vars/product-name"/>
@@ -15,7 +15,7 @@
       conkeyref="product-vars/RESTful-API"/>.</p>
    </li>
    <li>
-    <p>You can download data from a dataset into Excel, CSV, or TSV format.</p>
+    <p>You can create a dataset and download it into Excel, CSV, or TSV format.</p>
    </li>
    <li>
     <p>You can export a dataset to a portal, tool, or application, using the <ph
@@ -29,7 +29,6 @@
    <image href="../../_common_source/_images/mktg/consume.png" id="image_dnw_vf4_cr"/>
   </fig>
   <p>In all cases, <ph conkeyref="product-vars/product-name"/>'s Policy Enforcement Engine strictly
-   enforces your organization’s privacy and security policies to enforce rightful access to
-   data.</p>
+   enforces your organization’s privacy and security policies to ensure rightful access to data.</p>
  </conbody>
 </concept>

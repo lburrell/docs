@@ -6,9 +6,9 @@
   into analytics-ready digital assets.</shortdesc>
  <conbody>
   <p><ph conkeyref="product-vars/product-name"/> integrates the capabilities of the Hadoop/Accumulo
-   ecosystem with powerful metadata framework, indexing and cataloging capabilities, and an
-   innovative Data Processing Function framework to create a Smart Data Store that transforms your
-   raw data into analytics-ready digital assets. </p>
+   ecosystem with a powerful metadata framework, with indexing and cataloging capabilities, and with
+   an innovative Data Processing Function framework to create a Smart Data Store that transforms
+   your raw data into analytics-ready digital assets. </p>
   <fig id="fig_curation">
    <image href="../../_common_source/_images/mktg/curate.png" id="image_gds_54n_cr"/>
   </fig>

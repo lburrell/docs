@@ -27,7 +27,7 @@
       <p>Metacharacters are characters that are not matched themselves, but indicate how a filter
         expression should be interpreted. </p>
     </section>
-    <properties id="properties_mdf_zxk_lq" relcolwidth="1* 5*">
+    <properties id="properties_mdf_zxk_lq" relcolwidth="1* 6*">
       <prophead>
         <proptypehd>Character(s)</proptypehd>
         <propdeschd>Description</propdeschd>
@@ -99,7 +99,7 @@
       <p>There are certain characters that take on a new meaning when they are preceded by the
         escape character, the backslash.</p>
     </section>
-    <properties id="properties_dhf_xjl_lq" relcolwidth="1* 5*">
+    <properties id="properties_dhf_xjl_lq" relcolwidth="1* 6*">
       <prophead>
         <proptypehd>Escape Sequence</proptypehd>
         <propdeschd>Description</propdeschd>
