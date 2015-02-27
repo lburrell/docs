@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_curate-dpfs">
- <title>DPF Framework</title>
+ <title><ph conkeyref="product-vars/dpf-framework"/></title>
  <shortdesc>A Data Processing Function (DPF) is an executable piece of code, written in any modern
   programming language, that transforms the original raw data  into analytics-ready digital assets
   specifically targeted for your organization’s needs. </shortdesc>
@@ -24,10 +24,10 @@
    parsing functions, like Optical Character Recognition (OCR) or image parsing. As the
    organization’s needs evolve and as knowledge advances, DPFs can be updated or redeveloped and
    re-executed on existing or historical data to extract new or different information.</p>
-  <p><ph conkeyref="product-vars/product-name"/>'s DPF framework manages DPF deployment and
-   execution across the entire system. A DPF code library is associated with a data collection by
-   uploading it into PHEMI Central. The code is executed by the PHEMI Central DPF Engine.  <ph
-    conkeyref="product-vars/product-name"/> manages DPF execution across all datasets and all data
-   elements within the system. </p>
+  <p><ph conkeyref="product-vars/product-name"/>'s <ph conkeyref="product-vars/dpf-framework"/>
+   manages DPF deployment and execution across the entire system. A DPF code library is associated
+   with a data collection by uploading it into PHEMI Central. The code is executed by the PHEMI
+   Central DPF Engine. <ph conkeyref="product-vars/product-name"/> manages DPF execution across all
+   datasets and all data elements within the system. </p>
  </conbody>
 </concept>

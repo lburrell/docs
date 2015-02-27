@@ -40,7 +40,9 @@
                 </info>
                 <choicetable id="choicetable_data-policy-info" relcolwidth="1* 3.5*">
                     <chrow>
-                        <choption>Name</choption>
+                        <choption>
+                            <p>Name</p>
+                        </choption>
                         <chdesc>
                             <p>Mandatory. A name for the data collection. Numbers, letters, spaces,
                                 hyphens, and the underscore character are supported.</p>
@@ -50,54 +52,98 @@
                         </chdesc>
                     </chrow>
                     <chrow>
-                        <choption>Source Category</choption>
-                        <chdesc>Mandatory. The data category of the data collection. Choose from the
-                            drop-down list of data categories. <xref
-                                href="../Data_Categories/task_add-data-category.xml#task_add-data-category"
-                                >How do I define data categories?</xref></chdesc>
+                        <choption>
+                            <p>Source Category</p>
+                        </choption>
+                        <chdesc>
+                            <p>Mandatory. The data category of the data collection. Choose from the
+                                drop-down list of data categories. </p>
+                            <p><xref
+                                    href="../Data_Categories/task_add-data-category.xml#task_add-data-category"
+                                    >How do I define data categories?</xref></p>
+                        </chdesc>
                     </chrow>
                     <chrow>
-                        <choption>Institutional Owner</choption>
-                        <chdesc>Mandatory. The individual responsible overall for data stored in <ph
-                                conkeyref="product-vars/product-name"/>. Only users with a role of
-                                <ph conkeyref="product-vars/admin"/> are eligible. Choose from the
-                            drop-down list of eligible users.</chdesc>
+                        <choption>
+                            <p>Institutional Owner</p>
+                        </choption>
+                        <chdesc>
+                            <p>Mandatory. The individual responsible overall for data stored in <ph
+                                    conkeyref="product-vars/product-name"/>. Only users with a role
+                                of <ph conkeyref="product-vars/admin"/> are eligible. Choose from
+                                the drop-down list of eligible users.</p>
+                        </chdesc>
                     </chrow>
                     <chrow>
-                        <choption>Privacy Officer</choption>
-                        <chdesc>Mandatory. The individual responsible for defining the
-                            organization's governance policy and for approving access policies. Only
-                            users with a role of <ph conkeyref="product-vars/privacy-officer"/> are
-                            eligible. Choose from the drop-down list of eligible users.</chdesc>
+                        <choption>
+                            <p>Privacy Officer</p>
+                        </choption>
+                        <chdesc>
+                            <p>Mandatory. The individual responsible for defining the organization's
+                                governance policy and for approving access policies. Only users with
+                                a role of <ph conkeyref="product-vars/privacy-officer"/> are
+                                eligible. Choose from the drop-down list of eligible users.</p>
+                        </chdesc>
                     </chrow>
                     <chrow>
-                        <choption>Source Owner</choption>
-                        <chdesc>Mandatory. The individual responsible for approving dataset requests
-                            involving this data collection. Only users with a role of <ph
-                                conkeyref="product-vars/admin"/> are eligible. Choose from the
-                            drop-down list of eligible users.</chdesc>
+                        <choption>
+                            <p>Source Owner</p>
+                        </choption>
+                        <chdesc>
+                            <p>Mandatory. The individual responsible for approving dataset requests
+                                involving this data collection. Only users with a role of <ph
+                                    conkeyref="product-vars/admin"/> are eligible. Choose from the
+                                drop-down list of eligible users.</p>
+                        </chdesc>
                     </chrow>
                     <chrow>
-                        <choption>Data Visibilities</choption>
-                        <chdesc>Optional. The data visibility (privacy tag) to be associated with
-                            this data collection. Select from the list of configured data visibilities.
-                            You can select multiple items by holding down the
-                                <keyword>Shift</keyword> key.</chdesc>
+                        <choption>
+                            <p>Data Visibilities</p>
+                        </choption>
+                        <chdesc>
+                            <p>Optional. The data visibility (privacy tag) to be associated with
+                                this data collection. Choose from the list of configured data
+                                visibilities. You can select multiple items by holding down the
+                                    <keyword>Shift</keyword> key. By default, no data visibility is
+                                applied.</p>
+                        </chdesc>
                     </chrow>
                     <chrow>
-                        <choption>Document Format</choption>
-                        <chdesc>Optional. The kinds of document expected from this data collection.
-                            Examples are <keyword>Microsoft Word</keyword>,
-                            <keyword>Excel</keyword>, or <keyword>JSON</keyword>.</chdesc>
+                        <choption>
+                            <p>Access Policy</p>
+                        </choption>
+                        <chdesc>
+                            <p>Optional. The access policy for enforcing rightful access to data
+                                from this data collection. Choose from the list of configured access
+                                policies. By default, no access policy is applied.</p>
+                        </chdesc>
                     </chrow>
                     <chrow>
-                        <choption>Definition</choption>
-                        <chdesc>Optional. A brief description of the kinds of documents expected
-                            from this data collection. </chdesc>
+                        <choption>
+                            <p>Document Format</p>
+                        </choption>
+                        <chdesc>
+                            <p>Optional. The kinds of document expected from this data collection.
+                                Examples are <keyword>Microsoft Word</keyword>,
+                                    <keyword>Excel</keyword>, or <keyword>JSON</keyword>. </p>
+                        </chdesc>
                     </chrow>
                     <chrow>
-                        <choption>Notes</choption>
-                        <chdesc>Optional. Any additional notes for the data collection.</chdesc>
+                        <choption>
+                            <p>Definition</p>
+                        </choption>
+                        <chdesc>
+                            <p>Optional. A brief description of the kinds of documents expected from
+                                this data collection. </p>
+                        </chdesc>
+                    </chrow>
+                    <chrow>
+                        <choption>
+                            <p>Notes</p>
+                        </choption>
+                        <chdesc>
+                            <p>Optional. Any additional notes for the data collection.</p>
+                        </chdesc>
                     </chrow>
                 </choicetable>
             </step>
@@ -125,9 +171,11 @@
                             id="image_oq2_h4q_yq" scale="50"/>
                     </fig>
                 </info>
-                <choicetable id="choicetable_g4p_wyp_yq" relcolwidth="1* 3.5*">
+                <choicetable id="choicetable_g4p_wyp_yq" relcolwidth="1* 4*">
                     <chrow>
-                        <choption>Please choose...</choption>
+                        <choption>
+                            <p>Please choose...</p>
+                        </choption>
                         <chdesc>
                             <p>Mandatory. Specifies when data should be erased from the system.
                                 Supported values are as follows:</p>
@@ -148,18 +196,22 @@
                         </chdesc>
                     </chrow>
                     <chrow>
-                        <choption>Version control</choption>
-                        <chdesc>Optional. Maintains version control over data. Check to enable
-                            version control; uncheck to disable version control. By default, version
-                            control is disabled.</chdesc>
+                        <choption>
+                            <p>Version Control</p>
+                        </choption>
+                        <chdesc>
+                            <p>Optional. Maintains version control over data. Check to enable
+                                version control; uncheck to disable version control. By default,
+                                version control is disabled.</p>
+                        </chdesc>
                     </chrow>
                 </choicetable>
             </step>
             <step>
-                <cmd>Click the <uicontrol>Save Data Collection</uicontrol> button to save the data
-                    policy. When the data policy has been successfully saved, the <wintitle>Data
-                        Processing Function</wintitle> and <wintitle>Ingest Data</wintitle> tabs
-                    appear as available on the screen.</cmd>
+                <cmd>Click the <uicontrol>Save</uicontrol> button to save the data policy. When the
+                    data policy has been successfully saved, the <wintitle>Data Processing
+                        Function</wintitle> and <wintitle>Ingest Data</wintitle> tabs appear as
+                    available on the screen.</cmd>
             </step>
         </steps>
     </taskbody>

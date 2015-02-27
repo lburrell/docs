@@ -18,12 +18,13 @@
    Engine mediates all requests for data. Users can only access and export data to which they have
    rightful access, based on data visibility tags, user authorizations, and access policies, so
    access to data remains governance-compliant at all times. </p>
-  <p class="- topic/p " xtrf="C:\PHEMI-docs\docs\_common_source\datasets\con_datasets.xml" xtrc="p:5;25:6">Datasets are often created for research or exploratory data use. As such, the intended use for
-   a given dataset may be different from the intended use of the original data collections. In
-   particular, the governance and controls intended for the data in a dataset may differ from the
-   governance of the original data collections. In <ph conref="../_Variables/PHEMI_Central/con_Product-Vars.xml#product-name" class="- topic/ph " xtrf="C:\PHEMI-docs\docs\_common_source\datasets\con_datasets.xml" xtrc="ph:6;28:95"></ph>, you
-   can attach an access policy to a dataset that is different from, and independent of, the access
-   rules applied to the consistuent data collections.</p>
+  <p class="- topic/p " xtrf="C:\PHEMI-docs\docs\_common_source\datasets\con_datasets.xml"
+   xtrc="p:5;25:6">Datasets are often created for research or exploratory data use. As such, the
+   intended use for a given dataset may be different from the intended use of the original data
+   collections. In particular, the governance and controls intended for the data in a dataset may
+   differ from the governance of the original data collections. In , you can attach an access policy
+   to a dataset that is different from, and independent of, the access rules applied to the
+   consistuent data collections.</p>
   <p class="- topic/p " xtrf="C:\PHEMI-docs\docs\_common_source\datasets\con_datasets.xml" xtrc="p:6;31:6">Similarly, a single dataset can be executed by multiple users—even by users with different
    authorizations. A given user&apos;s actual view into the data in an executed dataset is always
    mediated by the Policy Enforcement Engine, and is therefore restricted by  data visibility and

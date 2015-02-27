@@ -125,8 +125,9 @@
      <p audience="internal">Note that "archive" is lower case.</p>
      <p id="dpf-archive">The set of code that makes up a DPF is called a DPF archive. A DPF archive
             is delivered as a ZIP file archive. It consists of two parts: a manifest file and a code
-            library. To associate a DPF with a data collection, the DPF archive is ``registered`` with
-            the data collection by uploading the archive during data collection configuration.</p>
+            library. To associate a DPF with a data collection, the DPF archive is ``registered``
+            with the data collection by uploading the archive as part of data collection
+            configuration.</p>
     </dd>
    </dlentry>
       <dlentry>

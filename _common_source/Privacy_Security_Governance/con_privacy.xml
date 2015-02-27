@@ -5,7 +5,7 @@
  <shortdesc>Privacy is restricting information access to those who have the right to access it. </shortdesc>
  <conbody>
   <p><ph conkeyref="product-vars/product-name"/>'s Privacy by Design framework was designed from the
-      ground up to define, manage, and enforce data-sharing agreements and privacy policies. This
+      ground up to define, manage, and enforce data sharing agreements and privacy policies. This
       framework includes the following mechanisms:</p>
   <ul id="ul_if1_npb_dr">
    <li>
@@ -43,8 +43,8 @@
     <p><b>End-to-end access policy enforcement</b>—Every query for data to <ph
             conkeyref="product-vars/product-name"/> is mediated by the PHEMI Policy Enforcement
           Engine, which compares the access request aginst the privacy protections that have been
-          placed on the data. At no time can users, applications, or external systems bypass the
-          Policy Enforcement Engine to access data directly. </p>
+          placed on the data. At no time can users, applications, or external systems bypass the <ph
+            conkeyref="product-vars/policy-engine"/> to access data directly. </p>
    </li>
   </ul>
  </conbody>

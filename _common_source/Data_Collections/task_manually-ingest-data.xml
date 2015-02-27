@@ -2,7 +2,7 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="task_manually-ingest-data">
     <title>Manually Ingest Files</title>
-    <shortdesc>You can quickly manually ingest data files from a data collection into <ph
+    <shortdesc>Manually ingest data files from a data collection into <ph
             conkeyref="product-vars/product-name"/> from the <wintitle>Data Collections</wintitle>
         page.</shortdesc>
     <taskbody>
@@ -15,7 +15,8 @@
                         id="image_fmr_wzn_mq" scale="50"/></cmd>
                 <info>
                     <p>The <wintitle>Data Collections</wintitle> page opens showing defined data
-                        categories. <xref
+                        categories. </p>
+                    <p><xref
                             href="../Data_Categories/con_data-categories.xml#concept_data-categories"
                             >Tell me about data categories.</xref></p>
                     <fig id="fig_data-sources">
@@ -36,9 +37,10 @@
                 </info>
             </step>
             <step>
-                <cmd>Click the data collection name. The <wintitle>Data Policy</wintitle> screen for the
-                    data collection opens.</cmd>
+                <cmd>Click the data collection name. </cmd>
                 <info>
+                    <p>The page for the data collection opens showing the <wintitle>Data
+                            Policy</wintitle> screen. </p>
                     <fig id="fig_data-policy-cmplt">
                         <image
                             href="../_images/gui-screen-shots/data-collections_data-policy_cmplt.png"
@@ -55,11 +57,12 @@
                     </fig></info>
             </step>
             <step>
-                <cmd>Click the <uicontrol>Choose File</uicontrol> button (or
-                        <uicontrol>Browse</uicontrol> button, depending on your browser). Navigate
-                    to the folder and select the file or files you want to ingest. Click the
-                        <uicontrol>Choose</uicontrol> or <uicontrol>Open</uicontrol> button to set
-                    your selection.</cmd>
+                <cmd>In the <uicontrol>Files for Ingest</uicontrol> field, click the
+                        <uicontrol>Choose File</uicontrol> button (this may be a
+                        <uicontrol>Browse</uicontrol> button, depending on the browser you are
+                    using). Navigate to the folder and select the file or files you want to ingest.
+                    Click the <uicontrol>Choose</uicontrol> (or <uicontrol>Open</uicontrol>) button
+                    to set your selection.</cmd>
             </step>
             <step>
                 <cmd>For structured or composite file such as a ZIP files or CSV files, if you want

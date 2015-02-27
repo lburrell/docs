@@ -2,9 +2,9 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
 <task id="task_define-dpf">
     <title>Specify the Data Processing Function</title>
-    <shortdesc>To associate a DPF with a data collection, you upload the DPF archive onto the
-            <uicontrol>Data Processing Function</uicontrol> screen of the <wintitle>Data
-            Collections</wintitle> page.</shortdesc>
+    <shortdesc>To associate a Data Processing Function (DPF) with a data collection, you upload the
+        DPF archive onto the <uicontrol>Data Processing Function</uicontrol> screen of the
+            <wintitle>Data Collections</wintitle> page.</shortdesc>
     <taskbody>
         <context>
             <p>
@@ -14,12 +14,12 @@
         </context>
         <steps id="steps_qxv_jfq_yq">
             <step>
-                <cmd>From the <wintitle>Data Policy</wintitle> screen of the <wintitle>Data
+                <cmd>On the <wintitle>Data Policy</wintitle> screen of the <wintitle>Data
                         Collections</wintitle> page, click the <uicontrol>Data Processing
                         Function</uicontrol> tab.</cmd>
                 <info>The <wintitle>Data Processing Function</wintitle> screen opens. When you first
-                    define a data collection, no Data Processing Function (DPF) is associated with
-                    it. <fig id="fig_data-source-no-dpf">
+                    define a data collection, no DPF is associated with it. <fig
+                        id="fig_data-source-no-dpf">
                         <image href="../_images/gui-screen-shots/data-collections_no-dpf.png"
                             id="image_cfz_r14_1r" scale="50"/>
                     </fig></info>
@@ -36,20 +36,76 @@
                 <cmd>Choose to use either a <uicontrol>System DPF</uicontrol> or a <uicontrol>Custom
                         DPF</uicontrol>.</cmd>
                 <choices id="choices_zrx_2b4_1r">
-                    <choice>If you choose <wintitle>System DPF</wintitle>, use the drop-down arrow
-                        to select which PHEMI system DPF you want to use. Choose between a DPF for
-                        processing <uicontrol>Variant Call Format (VCF) data</uicontrol> and a DPF
-                        for processing <uicontrol>Microsoft Excel workbook</uicontrol> data. Once
-                        the system DPF is selected, click the <uicontrol>Apply System
-                            DPF</uicontrol> button to apply the DPF.</choice>
-                    <choice>If you choose <wintitle>Custom DPF</wintitle>, click the
-                            <uicontrol>Select File</uicontrol> button, navigate to the DPF archive
+                    <choice>A system DPF is one of the standard DPF libraries provided with <ph
+                            conkeyref="product-vars/product-name"/>. If you choose <wintitle>System
+                            DPF</wintitle>, use the drop-down arrow to select which PHEMI system DPF
+                        you want to use. Choose between a DPF for processing <uicontrol>Variant Call
+                            Format (VCF) data</uicontrol> and a DPF for processing
+                            <uicontrol>Microsoft Excel workbook</uicontrol> data. Once the system
+                        DPF is selected, click the <uicontrol>Apply System DPF</uicontrol> button to
+                        apply the DPF.</choice>
+                    <choice>A custom DPF is a DPF you develop especially to process your
+                        organization's data. If you choose <wintitle>Custom DPF</wintitle>, click
+                        the <uicontrol>Select File</uicontrol> button, navigate to the DPF archive
                         and double-click the ZIP file. Or, drag and drop the DPF archive from your
                         file manager oto the target area on the <ph
                             conkeyref="product-vars/gui-name"/> screen. Click the <uicontrol>Apply
                             Custom DPF</uicontrol> button to upload the archive file and apply the
                         DPF.</choice>
                 </choices>
+                <info>
+                    <p>The system uploads the DPF, validates it, and applies it. The <wintitle>Data
+                            Processing Function</wintitle> screen reappears, showing the DPF name,
+                        the DPF version, the default trigger condition, and the DPF description. All
+                        information except the trigger is automatically read from the DPF archive or
+                        derived by <ph conkeyref="product-vars/product-name"/>'s <ph
+                            conkeyref="product-vars/dpf-framework"/>.</p>
+                    <fig id="fig_data-collections_dpf">
+                        <image href="../_images/gui-screen-shots/data-collections_dpf.png"
+                            id="image_pll_4hh_fr" scale="50"/>
+                    </fig>
+                </info>
+            </step>
+            <step>
+                <cmd>Set the trigger condition.  The trigger condition determines when the DPF
+                    processes ingested data.</cmd>
+                <choicetable id="choicetable_arl_13h_fr" relcolwidth="1* 3*">
+                    <chrow>
+                        <choption>
+                            <p>When new data arrives</p>
+                        </choption>
+                        <chdesc>
+                            <p>The DPF processes data as it is ingested.</p>
+                        </chdesc>
+                    </chrow>
+                    <chrow>
+                        <choption>
+                            <p>Manually</p>
+                        </choption>
+                        <chdesc>
+                            <p>The DPF must be manually triggered.</p>
+                            <p>When you choose this option, an <uicontrol>Execute</uicontrol> button
+                                appears next to the Trigger field. Click this button to manually
+                                execute a DPF on a data collection.</p>
+                        </chdesc>
+                    </chrow>
+                    <chrow>
+                        <choption>
+                            <p>Periodic</p>
+                        </choption>
+                        <chdesc>
+                            <p>The DPF executes on ingested data according to the specified
+                                schedule. When  you choose this option, a scheduling field
+                                appears.</p>
+                            <p>Set the DPF schedule to execute every <uicontrol>1
+                                minute</uicontrol>, <uicontrol>5 minutes</uicontrol>, <uicontrol>10
+                                    minutes</uicontrol>, <uicontrol>30 minutes</uicontrol>, or
+                                    <uicontrol>60 minutes</uicontrol>. By default, the DPF executes
+                                every 5 m</p>
+                        </chdesc>
+                    </chrow>
+                </choicetable>
+                <info>By default, the DPF trigger is set to execute the DPF every 5 minutes.</info>
             </step>
         </steps>
     </taskbody>

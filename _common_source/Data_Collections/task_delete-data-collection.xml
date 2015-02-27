@@ -10,9 +10,9 @@
         <steps>
             <step>
                 <cmd>Open the <uicontrol>Data Collections</uicontrol> page, by clicking the
-                        <uicontrol>Data Collections</uicontrol> icon. <image
-                        href="../_images/gui-screen-shots/icon_data-collections.png"
-                        id="image_fmr_wzn_mq" scale="50"/> in the left navigation bar.</cmd>
+                        <uicontrol>Data Collections</uicontrol> icon in the left navigation bar.
+                        <image href="../_images/gui-screen-shots/icon_data-collections.png"
+                        id="image_fmr_wzn_mq" scale="50"/></cmd>
                 <info>
                     <p>The <wintitle>Data Collections</wintitle> page opens showing defined data
                         categories.</p>

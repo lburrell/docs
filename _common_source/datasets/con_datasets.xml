@@ -18,10 +18,10 @@
    users and downloaded or exported to spreadsheets, applications, or analytics tools. Because all
    data is indexed and cataloged in advance, dataset execution is fast.</p>
   <p>Defining a dataset does not modify any configuration for data collections or impact any
-   protections to data, because the <ph conkeyref="product-vars/product-name"/> Policy Enforcement
-   Engine mediates all requests for data. Users can only access and export data to which they have
-   rightful access, based on data visibility tags, user authorizations, and access policies, so
-   access to data remains governance-compliant at all times. </p>
+   protections to data, because the <ph conkeyref="product-vars/product-name"/>
+   <ph conkeyref="product-vars/policy-engine"/> mediates all requests for data. Users can only
+   access and export data to which they have rightful access, based on data visibility tags, user
+   authorizations, and access policies, so access to data remains governance-compliant at all times. </p>
   <p>Datasets are often created for research or exploratory data use. As such, the intended use for
    a given dataset may be different from the intended use of the original data collections. In
    particular, the governance and controls intended for the data in a dataset may differ from the
@@ -30,8 +30,9 @@
    rules applied to the consistuent data collections.</p>
   <p>Similarly, a single dataset can be executed by multiple users—even by users with different
    authorizations. A given user's actual view into the data in an executed dataset is always
-   mediated by the Policy Enforcement Engine, and is therefore restricted by  data visibility and
-   user authorization, as experssed in an access policy. Thus, two users with different
-   authorizations might execute the same dataset but end up with different views of the data.</p>
+   mediated by the <ph conkeyref="product-vars/policy-engine"/>, and is therefore restricted by data
+   visibility and user authorization, as experssed in an access policy. Thus, two users with
+   different authorizations might execute the same dataset but end up with different views of the
+   data.</p>
  </conbody>
 </concept>

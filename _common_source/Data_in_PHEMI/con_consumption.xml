@@ -28,7 +28,8 @@
   <fig id="fig_consume">
    <image href="../../_common_source/_images/mktg/consume.png" id="image_dnw_vf4_cr"/>
   </fig>
-  <p>In all cases, <ph conkeyref="product-vars/product-name"/>'s Policy Enforcement Engine strictly
-   enforces your organization’s privacy and security policies to ensure rightful access to data.</p>
+  <p>In all cases, <ph conkeyref="product-vars/product-name"/>'s <ph
+    conkeyref="product-vars/policy-engine"/> strictly enforces your organization’s privacy and
+   security policies to ensure rightful access to data.</p>
  </conbody>
 </concept>
