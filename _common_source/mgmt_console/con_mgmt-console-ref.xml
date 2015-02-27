@@ -3,6 +3,6 @@
 <concept id="concept_mgmt-console-ref">
  <title><ph conkeyref="product-vars/gui-name"/> Reference</title>
  <shortdesc>This section steps you through all the functions and procedures in the <ph
-   conkeyref="product-vars/gui-name"/></shortdesc>
+      conkeyref="product-vars/gui-name"/>.</shortdesc>
  <conbody/>
 </concept>

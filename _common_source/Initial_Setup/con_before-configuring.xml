@@ -3,7 +3,6 @@
 <concept id="concept_before-you-begin">
  <title>Before You Configure</title>
  <shortdesc>Before you start configuring <ph conkeyref="product-vars/product-name"/>, the system
-  must be installed and you should have your organization's governance policy clearly
-  defined.</shortdesc>
+  must be installed and you should have your organization's governance policy at hand.</shortdesc>
  <conbody/>
 </concept>

@@ -21,7 +21,8 @@
             <step>
                 <cmd>Click the drop-down arrow and select <uicontrol>About</uicontrol>. </cmd>
                 <info>
-                    <p>The <wintitle>About PHEMI Central</wintitle> screen opens.</p>
+                    <p>The <wintitle>About PHEMI Central</wintitle> screen opens, showing system
+                        version.</p>
                     <fig id="fig_system-version-info">
                         <image
                             href="../../_common_source/_images/gui-screen-shots/quick-tasks_system-version-info.png"
