@@ -35,7 +35,7 @@
                 <info>
                     <fig id="fig_data-collection_src-desc">
                         <image href="../_images/gui-screen-shots/data-collections_coll-desc.png"
-                            id="image_eks_xmq_yq" scale="50"/>
+                            id="image_eks_xmq_yq" scale="60"/>
                     </fig>
                 </info>
                 <choicetable id="choicetable_data-policy-info" relcolwidth="1* 3.5*">

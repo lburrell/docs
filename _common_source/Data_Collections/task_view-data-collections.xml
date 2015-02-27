@@ -15,10 +15,11 @@
                         id="image_fmr_wzn_mq" scale="50"/></cmd>
                 <info>
                     <p>The <wintitle>Data Collections</wintitle> page opens showing defined data
-                        categories. <xref
+                        categories. </p>
+                    <p><xref
                             href="../Data_Categories/con_data-categories.xml#concept_data-categories"
                             >Tell me about data categories.</xref></p>
-                    <fig id="fig_data-sources">
+                    <fig id="fig_data-collections">
                         <image href="../_images/gui-screen-shots/data-collections.png"
                             id="image_hmp_55r_3q" scale="50"/>
                     </fig>

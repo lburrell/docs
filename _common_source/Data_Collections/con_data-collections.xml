@@ -6,17 +6,16 @@
     <p conref="../_glossary/con_glossary.xml#concept_glossary/data-collection"/>
     <p>Data collection configuration includes:</p>
     <ul id="ul_nxv_jjf_jq">
-      <li>A data policy</li>
-      <li>The Data Processing Function for processing the data collection</li>
+      <li>Specifying data policy</li>
+      <li>Associating the Data Processing Function that will process the data collection</li>
     </ul>
-    <p>The <wintitle>Data Collections</wintitle> page also includes a facility for manually
-      ingesting data. </p>
-    <p><xref href="task_manually-ingest-data.xml#task_manually-ingest-data">How do I manually ingest
-        data?</xref></p>
     <p>Connection information to specific systems is not a part of data collection configuration.
       Data is "pushed" from the site submitting the data. <ph conkeyref="product-vars/product-name"
       /> extracts any necessary connection information and login credentials from the session
       information. <xref href="../../_common_source/Data_in_PHEMI/con_submit-data.xml">How do I
         submit data to <ph conkeyref="product-vars/product-name"/>?</xref></p>
+    <p>Data collection configuration is set on the <wintitle>Data Collections</wintitle> page. The
+        <wintitle>Data Collections</wintitle> page also includes a facility for manually ingesting
+      data. </p>
   </conbody>
 </concept>

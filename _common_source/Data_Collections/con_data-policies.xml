@@ -11,10 +11,10 @@
    of the configured data visibilities to attach to data belonging to this collection. The data
    policy also specifies which access policy (if any) will be used to enforce rightful access to the
    information. All raw data ingested from this data collection, as well as every item of data
-   derived from processing this data collection, will be tagged with the specified data visibility
-   and access policy to protect privacy.</p>
-  <p>The data policy is also where the data sharing agreement is stored for reference. In this
-   context, the data sharing agreement is the document recording permission for this data collection
+   derived from processing this data collection, will be tagged on ingestion with the specified data
+   visibility and access policy to protect privacy.</p>
+  <p>The data policy is also where the data-sharing agreement is stored for reference. In this
+   context, the data-sharing agreement is the document recording permission for this data collection
    to be stored in <ph conkeyref="product-vars/product-name"/>. You upload the agreement document
    and specify the time period for which the agreement is valid.</p>
   <p>The data policy also records the retention rules to be applied to information from this data

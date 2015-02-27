@@ -2,7 +2,7 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_define-data-source">
  <title>Define a Data Collection</title>
- <shortdesc>Define a data collection on the<wintitle>Data Collections</wintitle> page. </shortdesc>
+ <shortdesc>Define a data collection on the <wintitle>Data Collections</wintitle> page. </shortdesc>
  <conbody>
   <p>Before defining a data collection, you must configure the following:</p>
   <ul id="ul_yyz_3xn_mq">

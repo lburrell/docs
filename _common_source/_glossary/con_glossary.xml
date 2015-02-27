@@ -76,30 +76,29 @@
         <dd>
           <p audience="internal">Capitalized.</p>
           <p id="dpf"> A Data Processing Function, or DPF, is an executable piece of code that
-            supplies the instructions for processing raw data (for example, a log message or medical
-            report) to extract from heterogeneous data collections meaningful, context-specific
-            information (such as a temperature reading or blood glucose measurement) that can be
-            queried or exported for analysis. The code is executed by the <ph
-              conkeyref="product-vars/product-name"/>
+            supplies the instructions for processing raw data to extract meaningful,
+            context-specific information (such as a temperature reading or blood glucose
+            measurement) that can be queried or exported for analysis. The code is executed by the
+              <ph conkeyref="product-vars/product-name"/>
             <ph conkeyref="product-vars/dpf-engine"/>, which uses it to direct curation of the data.
             The input to a DPF is the raw binary data ingested into the system. The output of a DPF
             is a set of structured elements, each of which includes a type property (for example,
-            INT or STRING) and can specify data visibilities (for example, SECRET or IDENTIFIABLE)
-            on a per-field basis. The data elements output by a DPF are called derived data. The
-            collection of derived data produced by a DPF is automatically indexed in PHEMI Central.
-          </p>
+            INT or STRING) and can selectively specify data visibilities (for example, SECRET or
+            IDENTIFIABLE) on a per-field basis. The data elements output by a DPF are called derived
+            data. The collection of derived data produced by a DPF is automatically indexed in PHEMI
+            Central. </p>
         </dd>
       </dlentry>
    <dlentry>
-    <dt>data collection</dt>
-    <dd>
-      <p id="data-collection">In <ph conkeyref="product-vars/product-name"/>, a data collection is
-            the set of management and governance rules and policies that will be applied to a
-            collection of data. A data collection configuration should be defined for each set of
-            data that is to be stored and managed according to the same retention, legal, and
-            governance rules. </p>
-    </dd>
-   </dlentry>
+        <dt>data collection</dt>
+        <dd>
+          <p id="data-collection">In <ph conkeyref="product-vars/product-name"/>, a data collection
+            is the set of management and governance rules and policies that will be applied to some
+            set of data. A data collection configuration should be defined for each set of data that
+            is to be stored and managed according to the same retention, legal, and governance
+            rules. </p>
+        </dd>
+      </dlentry>
    <dlentry>
     <dt>data visibilities</dt>
     <dd>See <keyword>visibilities</keyword>.</dd>
