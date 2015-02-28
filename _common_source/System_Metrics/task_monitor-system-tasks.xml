@@ -42,7 +42,7 @@
                 <choicetable id="choicetable_xhd_vhg_cr" relcolwidth="1* 4.5*">
                     <chrow>
                         <choption>chained</choption>
-                        <chdesc>The system has ingested raw data and executed a DPF on the
+                        <chdesc>The system has both ingested raw data and executed a DPF on the
                             data.</chdesc>
                     </chrow>
                     <chrow>

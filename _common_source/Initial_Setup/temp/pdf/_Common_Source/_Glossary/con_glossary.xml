@@ -34,7 +34,7 @@
             from a single byte up to gigabytes, plus the metadata associated with the data item. Any
             piece of raw data, regardless of size, is stored in a single cell. Elements of derived
             data (transformed from the raw data) are also each stored individually in cells. Any
-            cell can be protected by applying data visibilities.For derived data, each derived item
+            cell can be protected by applying data visibilities. For derived data, each derived item
             can be individually assigned a visibility (which may be different than that configured
             for the data collection) by the DPF performing the processing.</p>
     </dd>

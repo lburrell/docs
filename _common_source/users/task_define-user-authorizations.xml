@@ -49,7 +49,7 @@
             </step>
             <step>
                 <cmd>Specify the authorization information.</cmd>
-                <choicetable id="choicetable_h54_rtx_3q" relcolwidth="1* 4*">
+                <choicetable id="choicetable_h54_rtx_3q" relcolwidth="1* 4.5*">
                     <chrow>
                         <choption>
                             <p>Name</p>

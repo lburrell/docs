@@ -7,7 +7,7 @@
   specifically targeted for your organization’s needs. </shortdesc>
  <conbody>
   <p>The DPF supplies the instructions for parsing the raw data (for example, a log message or
-   medical report), extracting key content (for example, a a blood glucose measurement) and
+   medical report), extracting key content (for example, a blood glucose measurement) and
    performing data cleansing and enhanced indexing and cataloging. The DPF also structures data
    according to the organization’s needs. The result is data description at the element level that
    embeds the rules and policies governing the data collection, and embeds configured properties

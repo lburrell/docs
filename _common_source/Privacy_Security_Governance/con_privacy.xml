@@ -42,7 +42,7 @@
    <li>
     <p><b>End-to-end access policy enforcement</b>—Every query for data to <ph
             conkeyref="product-vars/product-name"/> is mediated by the PHEMI Policy Enforcement
-          Engine, which compares the access request aginst the privacy protections that have been
+          Engine, which compares the access request against the privacy protections that have been
           placed on the data. At no time can users, applications, or external systems bypass the <ph
             conkeyref="product-vars/policy-engine"/> to access data directly. </p>
    </li>

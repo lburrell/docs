@@ -35,8 +35,8 @@
             </step>
             <step>
                 <cmd>Click the data collection name. </cmd>
-                <info>The page for the data collection opens on the <wintitle>Data Policy</wintitle>
-                    screen. <fig id="fig_data-policy-cmplt">
+                <info>The page for the data collection opens showing the <wintitle>Data
+                        Policy</wintitle> screen. <fig id="fig_data-policy-cmplt">
                         <image
                             href="../_images/gui-screen-shots/data-collections_data-policy_cmplt.png"
                             id="image_i2r_ck4_1r" scale="50"/>
