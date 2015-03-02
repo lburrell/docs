@@ -1,0 +1,134 @@
+Last login: Thu Feb 19 16:32:14 on ttys000
+Lindsays-MacBook-Pro:~ lindsayburrell$ cd Documents
+Lindsays-MacBook-Pro:Documents lindsayburrell$ cd PHEMI-docs
+-bash: cd: PHEMI-docs: No such file or directory
+Lindsays-MacBook-Pro:Documents lindsayburrell$ ls
+Budget 02-11~7CBCD079.ynab4
+Business
+FW New Demo Servers.pdf
+PHEMI_Product_Description_Feb23_2015.pdf
+Snagit
+Wet-Finishing for Weavers.mp4
+YNAB
+_PHEMI
+Lindsays-MacBook-Pro:Documents lindsayburrell$ cd _PHEMI
+Lindsays-MacBook-Pro:_PHEMI lindsayburrell$ ls
+Data Sharing Agreement.pages	Marketing
+Docs
+Lindsays-MacBook-Pro:_PHEMI lindsayburrell$ cd Docs
+Lindsays-MacBook-Pro:Docs lindsayburrell$ ls
+r1.0
+Lindsays-MacBook-Pro:Docs lindsayburrell$ cd r1.0
+Lindsays-MacBook-Pro:r1.0 lindsayburrell$ ls -la
+total 24
+drwx------@ 12 lindsayburrell  staff    408 27 Feb 15:32 .
+drwxr-xr-x   4 lindsayburrell  staff    136 17 Feb 12:55 ..
+-rw-r--r--@  1 lindsayburrell  staff  10244 27 Feb 09:38 .DS_Store
+drwxr-xr-x  16 lindsayburrell  staff    544 27 Feb 17:24 .git
+drwxr-xr-x@  5 lindsayburrell  staff    170 26 Jan 12:50 DPF_APIs
+drwxr-xr-x@  6 lindsayburrell  staff    204 26 Jan 12:50 Internal_Style_Guide
+drwxr-xr-x@ 38 lindsayburrell  staff   1292 23 Feb 14:00 _common_source
+drwxr-xr-x@  8 lindsayburrell  staff    272 27 Feb 15:32 mgmt_console_user_guide
+drwxr-xr-x   3 lindsayburrell  staff    102 27 Feb 09:36 out
+drwxr-xr-x@  5 lindsayburrell  staff    170 19 Feb 10:06 restful_api
+drwxr-xr-x   3 lindsayburrell  staff    102 27 Feb 09:36 temp
+drwxr-xr-x@  4 lindsayburrell  staff    136 19 Feb 10:05 z_customer-specific
+Lindsays-MacBook-Pro:r1.0 lindsayburrell$ git branch
+* master
+Lindsays-MacBook-Pro:r1.0 lindsayburrell$ cat .git/HEAD
+ref: refs/heads/master
+Lindsays-MacBook-Pro:r1.0 lindsayburrell$ ls -la .git/refs/heads
+total 8
+drwxr-xr-x  3 lindsayburrell  staff  102 27 Feb 17:24 .
+drwxr-xr-x  5 lindsayburrell  staff  170 26 Jan 16:48 ..
+-rw-r--r--  1 lindsayburrell  staff   41 27 Feb 17:24 master
+Lindsays-MacBook-Pro:r1.0 lindsayburrell$ cat .git/refs/heads/master
+ceea55f041c42282e324a5e68d9fa1089716a254
+Lindsays-MacBook-Pro:r1.0 lindsayburrell$ 
+Lindsays-MacBook-Pro:r1.0 lindsayburrell$ git log --oneline
+ceea55f End of day commit (Friday)
+4f4cfc5 Finish editing up through Data Collections.
+219f31f Last push for the day (Thurs)
+e428dd5 Edited Quick Tasks.
+ebac454 Edited Submitting Data to PHEMI Central
+8173780 Edit Data in PHEMI Central
+7117afa Interim commit (Wed) with a few changes.
+e5f865f Post-debugging. Graphics working; ditamap cleanly validates.
+1a1eaa6 Completed one run for bad links, etc. EOD (Monday) commit.
+b7d4055 Submitting--and that's the last chapter. End of day (Thursday) commit.
+23a03c7 All Introducing PHEMI (not debugged: graphics not rendering in submaps.
+ee87d7b Privacy, Security, and Governance subtopics.
+5425ca4 Privacy, Security, and Governance overview.
+fc24191 Data in PHEMI: Collect.
+23f5b5a Change Data sources to data collections.
+25f8acb Remove excess Lisa stuff
+05e14b8 Administrator Quick Start, PHEMI Central Overview, and Data in PHEMI Cen
+ebece6c Object Browser. End of day (Monday) commit.
+0b34b5c Commit System Metrics
+3407727 End of day (Wed) commit
+64df27e Data sources. Also, governance.
+9de7591 End of day commit Feb 05.
+258a4bb Missed a couple of files.
+Lindsays-MacBook-Pro:r1.0 lindsayburrell$ git branch new_feature
+Lindsays-MacBook-Pro:r1.0 lindsayburrell$ git branch
+* master
+  new_feature
+Lindsays-MacBook-Pro:r1.0 lindsayburrell$ ls -la .git/refs/heads
+total 16
+drwxr-xr-x  4 lindsayburrell  staff  136  1 Mar 20:10 .
+drwxr-xr-x  5 lindsayburrell  staff  170 26 Jan 16:48 ..
+-rw-r--r--  1 lindsayburrell  staff   41 27 Feb 17:24 master
+-rw-r--r--  1 lindsayburrell  staff   41  1 Mar 20:10 new_feature
+Lindsays-MacBook-Pro:r1.0 lindsayburrell$ cat .git/refs/heads/new_feature
+ceea55f041c42282e324a5e68d9fa1089716a254
+Lindsays-MacBook-Pro:r1.0 lindsayburrell$ cat .git/HEAD
+ref: refs/heads/master
+Lindsays-MacBook-Pro:r1.0 lindsayburrell$ git branch
+* master
+  new_feature
+Lindsays-MacBook-Pro:r1.0 lindsayburrell$ cat .git/HEAD
+ref: refs/heads/master
+Lindsays-MacBook-Pro:r1.0 lindsayburrell$ git checkout new_feature
+M	_common_source/_images/gui-screen-shots/.DS_Store
+Switched to branch 'new_feature'
+Lindsays-MacBook-Pro:r1.0 lindsayburrell$ git branch
+  master
+* new_feature
+Lindsays-MacBook-Pro:r1.0 lindsayburrell$ cat .git/HEAD
+ref: refs/heads/new_feature
+Lindsays-MacBook-Pro:r1.0 lindsayburrell$ git status
+On branch new_feature
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   _common_source/_Variables/PHEMI_Central/con_Product-Vars.xml
+	modified:   _common_source/_images/gui-screen-shots/.DS_Store
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Lindsays-MacBook-Pro:r1.0 lindsayburrell$ nano
+
+  GNU nano 2.0.6                New Buffer                            Modified  
+
+.DS_Store
+.Trashes
+.Spotlight-V100
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+^G Get Help  ^O WriteOut  ^R Read File ^Y Prev Page ^K Cut Text  ^C Cur Pos
+^X Exit      ^J Justify   ^W Where Is  ^V Next Page ^U UnCut Text^T To Spell
