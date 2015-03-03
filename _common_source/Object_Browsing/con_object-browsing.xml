@@ -9,7 +9,9 @@
       can see the metadata that has been applied to the object, the data elements (if any) that have
       been derived by running a DPF on the data, and the binary data that makes up the object, shown
       as hexadecimal with an ASCII interpretation.</p>
-    <p>Only a <ph conkeyref="product-vars/admin"/> can access the Object Browser. As with all other
-      data, access to data is restricted by the governance placed around the data.</p>
+    <p>The Object Browser is the only access to data that a <ph conkeyref="product-vars/admin"/> has
+      in <ph conkeyref="product-vars/product-name"/>, and only a <ph conkeyref="product-vars/admin"
+      /> can access the Object Browser. As with all other kinds of queries to the system, access to
+      data is constrained by the governance placed around the data.</p>
  </conbody>
 </concept>

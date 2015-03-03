@@ -2,7 +2,7 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="task_delete-object">
     <title>Delete an Object</title>
-    <shortdesc>Delete an individual object from the system using the <wintitle>Object
+    <shortdesc>Delete an individual data object from the system using the <wintitle>Object
             Browser</wintitle> page.</shortdesc>
     <taskbody>
         <context>
@@ -23,10 +23,14 @@
                 </info>
             </step>
             <step>
-                <cmd>Click the drop-down arrow on the <uicontrol>Data Collection</uicontrol> field and
-                    select the data collection containing the object.</cmd>
-                <info>The available objects are listed in the <wintitle>Objects</wintitle> text box.
-                    Each object has the original file name it had on ingest, prepended with the
+                <cmd>Click the drop-down arrow on the <uicontrol>choose Data Collection</uicontrol>
+                    field and select the data collection containing the object.</cmd>
+                <info><fig id="fig_select-object">
+                        <image
+                            href="../_images/gui-screen-shots/object-browser_select-collection.png"
+                            id="image_k2w_2jk_gr" scale="50"/>
+                    </fig>The available objects are listed in the <wintitle>Objects</wintitle> text
+                    box. Each object has the original file name it had on ingest, prepended with the
                     system key that <ph conkeyref="product-vars/product-name"/> has assigned.<fig
                         id="fig_objects">
                         <image href="../_images/gui-screen-shots/object-browser_objects.png"
@@ -34,7 +38,7 @@
                     </fig></info>
             </step>
             <step>
-                <cmd>Select the object you want to view, scrolling through the list as necessary. </cmd>
+                <cmd>Scroll through the list as necessary and select the object you want to view. </cmd>
                 <info>Once selected, the object's information is retrieved and displays with the
                         <wintitle>Metadata</wintitle> tab showing, and the
                         <uicontrol>Delete</uicontrol> button appears.<fig id="fig_object-info">
@@ -44,9 +48,12 @@
             </step>
             <step>
                 <cmd>To delete the original object, click the <uicontrol>Delete</uicontrol> button.
-                    The system asks you to confirm permanent deletion of the object. If you want to
-                    delete the derived data items in addition to the original object, check the
-                    checkbox. Click <uicontrol>Delete</uicontrol>.</cmd>
+                    The <wintitle>Delete this object?</wintitle> dialog opens and the system asks
+                    you to confirm permanent deletion of the object. If there are derived data items
+                    and you want to delete them as well, check the <uicontrol>Do you also want to
+                        delete the associated Derived Data?</uicontrol> checkbox on the
+                        <wintitle>Delete this object?</wintitle> dialog. Click
+                        <uicontrol>Delete</uicontrol>.</cmd>
             </step>
         </steps>
     </taskbody>
