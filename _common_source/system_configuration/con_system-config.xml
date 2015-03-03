@@ -2,8 +2,9 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_sys-config">
  <title>System Configuration</title>
- <shortdesc>The System Configuration page includes functions the <ph conkeyref="product-vars/admin"
-  /> uses to set up and maintain <ph conkeyref="product-vars/product-name"/>.</shortdesc>
+ <shortdesc>The <wintitle>System Configuration</wintitle> page includes functions the <ph
+   conkeyref="product-vars/admin"/> uses to set up and maintain <ph
+   conkeyref="product-vars/product-name"/>.</shortdesc>
  <conbody>
   <p><xref href="../Initial_Setup/task_setup-workflow.xml#task_initial-config-workflow">What is the
     workflow for initial configuration?</xref></p>
