@@ -17,8 +17,8 @@
                         id="image_fmr_wzn_mq" scale="50"/></cmd>
                 <info>
                     <p>The <wintitle>System Metrics</wintitle> page opens showing the
-                            <wintitle>Global Metrics</wintitle> pane and the <wintitle>Data Collection
-                            Metrics</wintitle> tab. </p>
+                            <wintitle>Global Metrics</wintitle> pane and the <wintitle>Data
+                            Metrics</wintitle> pane. </p>
                     <fig id="fig_system-metrics">
                         <image href="../_images/gui-screen-shots/system-metrics.png"
                             id="image_hmp_55r_3q" scale="50"/>
@@ -27,14 +27,14 @@
             </step>
             <step>
                 <cmd>Click the <uicontrol>System Performance</uicontrol> tab.</cmd>
-                <info>The <wintitle>System Performance</wintitle> tab opens. <fig
+                <info>The <wintitle>System Performance</wintitle> pane opens. <fig
                         id="fig_system-perf">
                         <image href="../_images/gui-screen-shots/system-metrics_system-perf.png"
                             id="image_lqt_j1g_cr" scale="50"/>
                     </fig></info>
             </step>
             <step>
-                <cmd>In the <uicontrol>System Performance</uicontrol> field, choose <uicontrol>Data
+                <cmd>In the <uicontrol>Select process</uicontrol> field, choose <uicontrol>Data
                         Ingest</uicontrol> to view performance information for data ingest, or
                         <uicontrol>Data Execution</uicontrol> to view performance information for
                     dataset execution.</cmd>
@@ -42,9 +42,9 @@
             <step>
                 <cmd>Choose the query period: select <wintitle>Last Hour</wintitle> to see
                     statistics for the previous hour, or select <wintitle>Time Range</wintitle> to
-                    specify a range of times. The format for time is<varname>
+                    specify a range of times. The format for a time is<varname>
                         yyyy</varname><keyword>-</keyword><varname>mm</varname><keyword>-</keyword><varname>dd</varname><keyword>T</keyword><varname>hh</varname><keyword>:</keyword><varname>mm</varname><keyword>:</keyword><varname>ss</varname>,
-                    where hours are specified in 24-hour time format.</cmd>
+                    where hours are specified according to a 24-hour clock.</cmd>
             </step>
             <step>
                 <cmd>Click <uicontrol>Query</uicontrol>.</cmd>

@@ -16,7 +16,7 @@
                 <info>
                     <p>The <wintitle>Access Policy Builder</wintitle> page opens.</p>
                     <fig id="fig_access-policy-builder">
-                        <image href="../_images/gui-screen-shots/access-policy_policy-builder.jpg"
+                        <image href="../_images/gui-screen-shots/access-policy_policy-builder.png"
                             id="image_hmp_55r_3q" scale="70"/>
                     </fig>
                 </info>
@@ -26,14 +26,14 @@
                     the drop-down arrow to see configured access policies. Select the policy you
                     want to modify.</cmd>
                 <info>
-                    <fig id="fig_access-policies_view-info">
-                        <image href="../_images/gui-screen-shots/access-policy_select.jpg"
+                    <fig id="fig_access-policies_select">
+                        <image href="../_images/gui-screen-shots/access-policy_select.png"
                             id="image_wpx_pd4_mq" scale="70"/>
                     </fig>
                     <p>The screen for the selected access policy opens, showing the information
                         configured for it.</p>
                     <fig id="fig_access-policy_view-info">
-                        <image href="../_images/gui-screen-shots/access-policy_view-info.jpg"
+                        <image href="../_images/gui-screen-shots/access-policy_view-info.png"
                             id="image_hy3_dnm_qq" scale="70"/>
                     </fig>
                 </info>
@@ -41,13 +41,24 @@
             <step>
                 <cmd>Do any of the following.</cmd>
                 <choices id="choices_afm_tpn_qq">
-                    <choice>Modify an existing rule by editing values for
-                        <keyword>Subject</keyword>, <keyword>Action</keyword>, or
-                            <keyword>Object</keyword>.</choice>
-                    <choice>Add a new rule by clicking the <uicontrol>Add Rule</uicontrol> button
-                        and populating the fields. </choice>
-                    <choice>Delete a rule by clicking the trash can icon to the right of the
-                        rule.</choice>
+                    <choice>
+                        <p>Modify an existing rule by editing values for <keyword>Subject</keyword>,
+                                <keyword>Action</keyword>, or <keyword>Object</keyword>.</p>
+                        <p><xref
+                                href="task_create-access-policy.xml#task_create-access-policy/choicetable_access-policies"
+                                >What do these fields mean?</xref></p>
+                    </choice>
+                    <choice>
+                        <p>Add a new rule by clicking the <uicontrol>Add Rule</uicontrol> button and
+                            populating the fields. </p>
+                        <p><xref
+                                href="task_create-access-policy.xml#task_create-access-policy/choicetable_access-policies"
+                                >What do these fields mean?</xref></p>
+                    </choice>
+                    <choice>
+                        <p>Delete a rule by clicking the trash can icon to the right of the
+                            rule.</p>
+                    </choice>
                 </choices>
             </step>
             <step>

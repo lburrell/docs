@@ -2,7 +2,6 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
  <title>Data in PHEMI Central</title>
- <keydef keys="product-vars" href="../_Variables/PHEMI_Central/con_Product-Vars.xml"/>
  <topicref href="con_data-in-PHEMI.xml">
   <topicref href="con_collection.xml"/>
   <topicref href="con_curation.xml">

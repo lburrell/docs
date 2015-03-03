@@ -4,7 +4,11 @@
  <title>Data Collections</title>
  <topicref href="con_data-collections.xml">
   <topicref href="con_data-policies.xml"/>
-  <topicref href="../DPFs/con_dpfs.xml"/>
+  <topicref href="../DPFs/con_dpfs.xml">
+   <topicref href="../DPFs/con_dpf-archive.xml"/>
+   <topicref href="../DPFs/con_system-dpf.xml"/>
+   <topicref href="../DPFs/con_develop-custom-dpf.xml"/>
+  </topicref>
   <topicref href="task_view-data-collections.xml"/>
   <topicref href="con_define-data-collection.xml">
    <topicref href="task_define-data-policy.xml"/>

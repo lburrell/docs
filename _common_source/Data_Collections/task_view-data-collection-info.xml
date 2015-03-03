@@ -52,8 +52,9 @@
                             tab.</p>
                     </choice>
                     <choice>
-                        <p>See the DPF associated with this data collection by clicking the
-                                <uicontrol>Data Processing Function</uicontrol> tab.</p>
+                        <p>See the DPF associated with this data collection or change when DPF
+                            processing occurs by clicking the <uicontrol>Data Processing
+                                Function</uicontrol> tab.</p>
                     </choice>
                     <choice>
                         <p>Access a screen where you can manually ingest files by clicking the

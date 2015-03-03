@@ -22,7 +22,7 @@
                 </cmd>
                 <info>The <wintitle>Access Policy Builder</wintitle> page opens.<fig
                         id="fig_access-policy-builder">
-                        <image href="../_images/gui-screen-shots/access-policy_policy-builder.jpg"
+                        <image href="../_images/gui-screen-shots/access-policy_policy-builder.png"
                             id="image_j4l_xkn_jq" scale="70"/>
                     </fig></info>
             </step>
@@ -38,30 +38,43 @@
                 <cmd>Enter the access rule information.</cmd>
                 <choicetable id="choicetable_access-policies" relcolwidth="1.0* 4.5*">
                     <chrow>
-                        <choption>Subject</choption>
+                        <choption>
+                            <p>Subject</p>
+                        </choption>
                         <chdesc>
-                            <p>Mandatory. The user authorizations allowed to perform the action on
+                            <p>Mandatory. The user authorization(s) allowed to perform the action on
                                 the data. User authorizations are configured for the system by the
                                 administrator. </p>
                         </chdesc>
                     </chrow>
                     <chrow>
-                        <choption>Action</choption>
+                        <choption>
+                            <p>Action</p>
+                        </choption>
                         <chdesc>
                             <p>Mandatory. The action(s) an authorized user may take on the data.
                                 Supported actions are as follows: </p>
                             <ul id="ul_e2n_tmn_qq">
+                                <li><keyword>None</keyword>. The user has no permission to interact
+                                    with the data.</li>
                                 <li><keyword>Read</keyword>. The user may view the data.</li>
                                 <li><keyword>Export</keyword>. The user may export the data to a
                                     destination, such as a local computer for analysis.</li>
                             </ul>
+                            <p>The default value is <keyword>None</keyword>. In practice, an action
+                                of <keyword>None</keyword> would be rarely, if ever, specified.
+                                Instead, access rules are generally structured to specify what
+                                actions are allowed. Anything not allowed is implicitly
+                                disallowed.</p>
                         </chdesc>
                     </chrow>
                     <chrow>
-                        <choption>Object</choption>
+                        <choption>
+                            <p>Object</p>
+                        </choption>
                         <chdesc>
                             <p>Mandatory. The data visibilities authorized users are allowed to
-                                access. Data visibilities are configured by the administrator.</p>
+                                perform the action on.</p>
                         </chdesc>
                     </chrow>
                 </choicetable>

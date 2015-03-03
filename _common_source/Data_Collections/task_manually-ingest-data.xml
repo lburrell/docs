@@ -51,10 +51,7 @@
             <step>
                 <cmd>Click the <uicontrol>Ingest Data</uicontrol> tab.</cmd>
                 <info/>
-                <info>The <wintitle>Ingest Data</wintitle> screen opens.<fig id="fig_ingest-data">
-                        <image href="../_images/gui-screen-shots/data-collections_ingest-data.png"
-                            id="image_bnx_xzv_1r" scale="50"/>
-                    </fig></info>
+                <info>The <wintitle>Ingest Data</wintitle> screen opens.</info>
             </step>
             <step>
                 <cmd>In the <uicontrol>Files for Ingest</uicontrol> field, click the
@@ -65,12 +62,63 @@
                     to set your selection.</cmd>
             </step>
             <step>
-                <cmd>For structured or composite file such as a ZIP files or CSV files, if you want
-                    the PHEMI system DPFs to automatically process the file on ingest, click the
-                    drop-down arrow in the <uicontrol>Ingest Composite Data</uicontrol> field and
-                    select the file type from the list. If you want <ph
-                        conkeyref="product-vars/product-name"/> to store the original data along
-                    with the derived data items, check the <uicontrol>Store Original
+                <cmd>For structured or composite files, if you want the PHEMI system DPFs to
+                    automatically process the file on ingest, click the drop-down arrow in the
+                        <uicontrol>Ingest Composite Data</uicontrol> field and select the file type
+                    from the list. </cmd>
+                <info>
+                    <fig id="fig_sst_4g2_gr">
+                        <image href="../_images/gui-screen-shots/data-collections_ingest-data.png"
+                            scale="50" id="image_xst_4g2_gr"/>
+                    </fig>
+                </info>
+                <choicetable id="choicetable_y5w_jh2_gr">
+                    <chrow>
+                        <choption>
+                            <p>Archived/Zipped files</p>
+                        </choption>
+                        <chdesc>
+                            <p><ph conkeyref="product-vars/product-name"/> extracts the files from
+                                the archive and ingests the archive contents. Supported formats as
+                                    <keyword>.tar.gz</keyword>, <keyword>.tar.bz2</keyword> and
+                                    <keyword>.zip</keyword>.</p>
+                        </chdesc>
+                    </chrow>
+                    <chrow>
+                        <choption>CSV files</choption>
+                        <chdesc>
+                            <p><ph conkeyref="product-vars/product-name"/> extracts each row of the
+                                CSV file as a single object. Newline characters are interpreted as
+                                delimiting rows. Commas are interpreted as delimiting fields within
+                                a row. The first row is interpreted as the header row. Rows are
+                                ingested as XML fragments.</p>
+                        </chdesc>
+                    </chrow>
+                    <chrow>
+                        <choption>PHEMI Excel Workbook</choption>
+                        <chdesc>
+                            <p><ph conkeyref="product-vars/product-name"/> extracts each row of the
+                                Excel file as a single object. The first row of the Excel file is
+                                expected to contain column names. The second row is expected to
+                                contain type information for the data. The third row should is
+                                expected to specify the data's visibilities. An object is created
+                                for each row in the Excel file.</p>
+                        </chdesc>
+                    </chrow>
+                    <chrow>
+                        <choption>VCF files</choption>
+                        <chdesc>
+                            <p><ph conkeyref="product-vars/product-name"/> extracts each row of the
+                                VCF file as a single object. The VCF file is expected to contain a
+                                header section and at least one header row. The VCF file may be in
+                                submitted in text format or as a GZIP archive file.</p>
+                        </chdesc>
+                    </chrow>
+                </choicetable>
+            </step>
+            <step>
+                <cmd>If you want <ph conkeyref="product-vars/product-name"/> to store the original
+                    data along with the derived data items, check the <uicontrol>Store Original
                         File</uicontrol> checkbox.</cmd>
             </step>
             <step>

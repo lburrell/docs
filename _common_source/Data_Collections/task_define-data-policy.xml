@@ -162,9 +162,13 @@
                         <varname>mm-dd-yyyy</varname>.</info>
             </step>
             <step>
-                <cmd>Specify the retention rules. These rules are used to determine how long each
-                    item from this data collection can remain in the system.</cmd>
+                <cmd>Specify the retention rules. </cmd>
                 <info>
+                    <p><ph conkeyref="product-vars/product-name"/> uses these rules to determine how
+                        long each item from this data collection can remain in the system. When a
+                        given data element's time to live expires, <ph
+                            conkeyref="product-vars/product-name"/> removes the data element from
+                        the data store.</p>
                     <fig id="fig_retention-rules">
                         <image
                             href="../_images/gui-screen-shots/data-collections_retention-rules.png"
@@ -210,7 +214,7 @@
             <step>
                 <cmd>Click the <uicontrol>Save</uicontrol> button to save the data policy. When the
                     data policy has been successfully saved, the <wintitle>Data Processing
-                        Function</wintitle> and <wintitle>Ingest Data</wintitle> tabs appear as
+                        Function</wintitle> and <wintitle>Ingest Data</wintitle> tabs become
                     available on the screen.</cmd>
             </step>
         </steps>

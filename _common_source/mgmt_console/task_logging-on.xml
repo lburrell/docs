@@ -32,9 +32,8 @@
                 <cmd>Enter your user name and password. Click <uicontrol>Login</uicontrol>.</cmd>
                 <stepresult>The <ph conkeyref="product-vars/product-name"/>
                     <ph conkeyref="product-vars/gui-name"/> launches.The <ph
-                        conkeyref="product-vars/gui-name"/> initially opens on the <wintitle>Data
-                        Collections</wintitle> page. Subsequently, the system remembers the last
-                    page you viewed and opens on that page.</stepresult>
+                        conkeyref="product-vars/gui-name"/> opens on the <wintitle>System
+                        Metrics</wintitle> dashboard. </stepresult>
             </step>
             <step>
                 <cmd>Logging off the <ph conkeyref="product-vars/gui-name"/> is described <xref

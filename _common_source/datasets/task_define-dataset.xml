@@ -121,24 +121,25 @@
             <step id="choose-dataset-fields">
                 <cmd>Choose the fields you want in the dataset.</cmd>
                 <info>
-                    <p>You select the fields for the dataset in the <uicontrol>Dataset
-                            Contents</uicontrol> pane. This pane shows a number of tabs; these tabs
-                        reflect the data categories you have configured for your data. Clicking a
-                        tab will list all the fields extracted from all the data collections within
-                        the category, where each data collection is represented by a column. Each
-                        data source and each field has a checkbox. </p>
+                    <p>All configured data collections and all derived data items are available to
+                        include in a dataset. </p>
+                    <p>You select the fields to include in the dataset on the <uicontrol>Dataset
+                            Contents</uicontrol> pane. The <uicontrol>Dataset Contents</uicontrol>
+                        pane shows a number of tabs; each tab reflects one of the data categories
+                        that has been configured for your data. </p>
+                    <p>Clicking a data category tab lists all the fields extracted from all the data
+                        collections within the category. Each data collection is represented by a
+                        column. Each data collection and each data element within the collection has
+                        a checkbox. Include a data element, or an entire data collection, by
+                        checking its checkbox.</p>
                     <fig id="fig_select-fields">
                         <image href="../_images/gui-screen-shots/datasets_choose-fields.png"
                             id="image_nfl_mx4_yq" scale="50"/>
                     </fig>
-                    <ul id="ul_zxz_cx4_yq">
-                        <li>Select an entire data collection by checking the checkbox for the
-                            column.</li>
-                        <li>Select any number of individual fields. </li>
-                    </ul>
                     <p>Continue for each data category you want to include in the dataset.</p>
                     <p>As you select fields, a preview of your selections appears in
-                            <uicontrol>Export Preview</uicontrol> pane.</p>
+                            <uicontrol>Export Preview</uicontrol> pane, organizedby data
+                        category.</p>
                     <fig id="fig_export-preview">
                         <image href="../_images/gui-screen-shots/datasets_export-preview.png"
                             id="image_yg1_5x4_yq" scale="50"/>
@@ -147,9 +148,12 @@
             </step>
             <step>
                 <cmd>When your dataset is complete, click the <uicontrol>Save Dataset</uicontrol>
-                    button. The system confirms when the dataset has been successfully saved. Click
-                        <uicontrol>Close</uicontrol> to dismiss the <wintitle>Build New
-                        Dataset</wintitle> screen.</cmd>
+                    button. </cmd>
+                <info>
+                    <p>The system confirms when the dataset has been successfully saved. Click
+                            <uicontrol>Close</uicontrol> to dismiss the <wintitle>Build New
+                            Dataset</wintitle> screen.</p>
+                </info>
             </step>
         </steps>
     </taskbody>

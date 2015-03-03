@@ -26,32 +26,46 @@
             </step>
             <step>
                 <cmd>Click the <uicontrol>Add a DPF</uicontrol> button. </cmd>
-                <info>The <wintitle>Apply DPF for this Data Collection</wintitle> screen opens. <fig
-                        id="fig_apply-dpf">
-                        <image href="../_images/gui-screen-shots/data-collections_apply-dpf.png"
-                            id="image_gsj_hd4_1r" scale="50"/>
-                    </fig></info>
+                <info>The <wintitle>Apply DPF for this Data Collection</wintitle> screen opens, with
+                    either the <wintitle>System DPF</wintitle> or the <wintitle>Custom
+                        DPF</wintitle> option selected.</info>
             </step>
             <step>
                 <cmd>Choose to use either a <uicontrol>System DPF</uicontrol> or a <uicontrol>Custom
                         DPF</uicontrol>.</cmd>
                 <choices id="choices_zrx_2b4_1r">
-                    <choice>A system DPF is one of the standard DPF libraries provided with <ph
-                            conkeyref="product-vars/product-name"/>. If you choose <wintitle>System
-                            DPF</wintitle>, use the drop-down arrow to select which PHEMI system DPF
-                        you want to use. Choose between a DPF for processing <uicontrol>Variant Call
-                            Format (VCF) data</uicontrol> and a DPF for processing
-                            <uicontrol>Microsoft Excel workbook</uicontrol> data. Once the system
-                        DPF is selected, click the <uicontrol>Apply System DPF</uicontrol> button to
-                        apply the DPF.</choice>
-                    <choice>A custom DPF is a DPF you develop especially to process your
-                        organization's data. If you choose <wintitle>Custom DPF</wintitle>, click
-                        the <uicontrol>Select File</uicontrol> button, navigate to the DPF archive
-                        and double-click the ZIP file. Or, drag and drop the DPF archive from your
-                        file manager oto the target area on the <ph
-                            conkeyref="product-vars/gui-name"/> screen. Click the <uicontrol>Apply
-                            Custom DPF</uicontrol> button to upload the archive file and apply the
-                        DPF.</choice>
+                    <choice>
+                        <p>If you choose <wintitle>System DPF</wintitle>, use the drop-down arrow to
+                            select which system DPF you want to use. Choose between <uicontrol>PHEMI
+                                VCF Data Processing Function</uicontrol> and <uicontrol>PHEMI Excel
+                                Workbook Data Processing Function</uicontrol>. </p>
+                        <p> </p>
+                        <p><xref href="../DPFs/con_system-dpf.xml#concept_system-dpfs">What do these
+                                options mean?</xref></p>
+                        <fig id="fig_system-dpfs">
+                            <image
+                                href="../_images/gui-screen-shots/data-collections_apply-sys-dpf.png"
+                                id="image_gnw_vzd_gr" scale="50"/>
+                        </fig>
+                        <p>Choose whether you want data to be reprocessed after the configuration
+                            change. Click the <uicontrol>Apply System DPF</uicontrol> button to
+                            apply the DPF.</p>
+                    </choice>
+                    <choice>
+                        <p>If you choose <wintitle>Custom DPF</wintitle>, click the
+                                <uicontrol>Select File</uicontrol> button, navigate to the DPF
+                            archive and double-click the ZIP file. Or, drag and drop the DPF archive
+                            from your file manager oto the target area on the <ph
+                                conkeyref="product-vars/gui-name"/> screen. </p>
+                        <fig id="fig_custom-dpf">
+                            <image
+                                href="../_images/gui-screen-shots/data-collections_apply-cust-dpf.png"
+                                id="image_hbz_4d2_gr" scale="50"/>
+                        </fig>
+                        <p>Choose whether you want data to be reprocessed after the configuration
+                            change. Click the <uicontrol>Apply Custom DPF</uicontrol> button to
+                            upload the archive file and apply the DPF.</p>
+                    </choice>
                 </choices>
                 <info>
                     <p>The system uploads the DPF, validates it, and applies it. The <wintitle>Data
@@ -67,15 +81,19 @@
                 </info>
             </step>
             <step>
-                <cmd>Set the trigger condition.  The trigger condition determines when the DPF
-                    processes ingested data.</cmd>
+                <cmd>Set the trigger condition. The trigger condition determines when the DPF
+                    processes data.</cmd>
                 <choicetable id="choicetable_arl_13h_fr" relcolwidth="1* 3*">
                     <chrow>
                         <choption>
                             <p>When new data arrives</p>
                         </choption>
                         <chdesc>
-                            <p>The DPF processes data as it is ingested.</p>
+                            <p>The DPF processes data as it is ingested. If the DPF is the
+                                    <uicontrol>PHEMI VCF Data Processing Function</uicontrol>, this
+                                is the only trigger condition available. (This is because VCF files
+                                are so large, they are always processed into individual records
+                                immediately on ingest.)</p>
                         </chdesc>
                     </chrow>
                     <chrow>
@@ -100,8 +118,7 @@
                             <p>Set the DPF schedule to execute every <uicontrol>1
                                 minute</uicontrol>, <uicontrol>5 minutes</uicontrol>, <uicontrol>10
                                     minutes</uicontrol>, <uicontrol>30 minutes</uicontrol>, or
-                                    <uicontrol>60 minutes</uicontrol>. By default, the DPF executes
-                                every 5 m</p>
+                                    <uicontrol>60 minutes</uicontrol>. </p>
                         </chdesc>
                     </chrow>
                 </choicetable>

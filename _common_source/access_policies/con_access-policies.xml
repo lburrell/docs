@@ -2,7 +2,7 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_access-policies">
  <title>Access Policies</title>
- <shortdesc>Access policies let you characterize rightful access in terms of user authorizations and
+ <shortdesc>Access policies let you characterize rightful access in terms of user authorization and
     data visibility.</shortdesc>
  <conbody>
     <p conref="../_glossary/con_glossary.xml#concept_glossary/access-policy"/>
