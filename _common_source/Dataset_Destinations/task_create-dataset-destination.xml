@@ -28,8 +28,8 @@
                 <cmd>Click the <uicontrol>Dataset Destinations</uicontrol> tab. </cmd>
                 <info>
                     <p>The <wintitle>Dataset Destinations</wintitle> screen opens.</p>
-                    <fig id="fig_system-config_dataset-destinations">
-                        <image href="../_images/gui-screen-shots/dests.jpg" id="image_s2y_vfm_qq"
+                    <fig id="fig_dataset-destinations">
+                        <image href="../_images/gui-screen-shots/dests.png" id="image_s2y_vfm_qq"
                             scale="50"/>
                     </fig>
                 </info>
@@ -40,8 +40,8 @@
                 <info>
                     <p>The <wintitle>Destination Details</wintitle> screen opens.</p>
                     <fig id="fig_create-dataset-dest">
-                        <image href="../_images/gui-screen-shots/dests_create.jpg"
-                            id="image_jlc_hwl_sq" scale="50"/>
+                        <image href="../_images/gui-screen-shots/dests_create.png"
+                            id="image_jlc_hwl_sq" scale="70"/>
                     </fig>
                 </info>
             </step>

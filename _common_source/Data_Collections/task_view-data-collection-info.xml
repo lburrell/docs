@@ -16,7 +16,7 @@
                 <info>
                     <p>The <wintitle>Data Collections</wintitle> page opens showing defined data
                         categories.</p>
-                    <fig id="fig_data-sources">
+                    <fig id="fig_data-collections">
                         <image href="../_images/gui-screen-shots/data-collections.png"
                             id="image_hmp_55r_3q" scale="50"/>
                     </fig>

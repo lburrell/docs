@@ -12,7 +12,7 @@
             <step>
                 <cmd>Open the <uicontrol>Manage Datasets</uicontrol> page, by clicking the
                         <uicontrol>Datasets</uicontrol> icon in the left navigation bar. <image
-                        href="../_images/gui-screen-shots/icon_datasets.jpg" id="image_fmr_wzn_mq"
+                        href="../_images/gui-screen-shots/icon_datasets.png" id="image_fmr_wzn_mq"
                         scale="50"/></cmd>
                 <info>
                     <p>The <wintitle>Manage Datasets</wintitle> page opens, listing the datasets

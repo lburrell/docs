@@ -29,7 +29,7 @@
                 <cmd>Click any data category to expand the category and see the data collection
                     included in the category.</cmd>
                 <info>
-                    <fig id="fig_data-sources_data-sources">
+                    <fig id="fig_data-collections_colls">
                         <image
                             href="../_images/gui-screen-shots/data-collections_data-collections.png"
                             id="image_wpx_pd4_mq" scale="50"/>
@@ -67,7 +67,7 @@
                         <uicontrol>Ingest Composite Data</uicontrol> field and select the file type
                     from the list. </cmd>
                 <info>
-                    <fig id="fig_sst_4g2_gr">
+                    <fig id="fig_composite-files">
                         <image href="../_images/gui-screen-shots/data-collections_ingest-data.png"
                             scale="50" id="image_xst_4g2_gr"/>
                     </fig>

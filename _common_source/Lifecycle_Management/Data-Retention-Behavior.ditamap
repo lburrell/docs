@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
- <title>Data Retention Behavior</title>
+ <title>Data Retention</title>
  <topicref href="con_data-retention-behavior.xml">
   <topicref href="task_view-data-retention-behav.xml"/>
   <topicref href="task_set-data-retention-sched.xml"/>

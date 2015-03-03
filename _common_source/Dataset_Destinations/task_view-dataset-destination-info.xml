@@ -29,7 +29,7 @@
                 <info>
                     <p>The <wintitle>Dataset Destinations</wintitle> screen opens.</p>
                     <fig id="fig_dataset-destinations">
-                        <image href="../_images/gui-screen-shots/dests.jpg" id="image_s2y_vfm_qq"
+                        <image href="../_images/gui-screen-shots/dests.png" id="image_s2y_vfm_qq"
                             scale="50"/>
                     </fig>
                 </info>
@@ -40,7 +40,7 @@
                     destination you want to view.</cmd>
                 <info>
                     <fig id="fig_view-dataset-destinations">
-                        <image href="../_images/gui-screen-shots/dests_view.jpg"
+                        <image href="../_images/gui-screen-shots/dests_view.png"
                             id="image_p2y_zvl_sq" scale="50"/>
                     </fig>
                 </info>

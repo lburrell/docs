@@ -22,17 +22,16 @@
             </step>
             <step>
                 <cmd>Click the <uicontrol>Data Retention</uicontrol> tab.</cmd>
-                <info>The <wintitle>Data Retention</wintitle> page opens. <fig
+                <info>The <wintitle>Data Retention</wintitle> screen opens. <fig
                         id="fig_data-retention">
-                        <image
-                            href="../../_common_source/_images/gui-screen-shots/data-retention.jpg"
+                        <image href="../_images/gui-screen-shots/data-retention.png"
                             id="image_fdj_ktf_xq" scale="50"/>
                     </fig></info>
             </step>
             <step>
                 <cmd>In the <uicontrol>Frequency</uicontrol> field, choose between
                         <uicontrol>hourly</uicontrol>, <uicontrol>daily</uicontrol>, or
-                        <uicontrol>weekly</uicontrol>, or specify the number of minutes between
+                        <uicontrol>weekly</uicontrol>, or else specify the number of minutes between
                     checks.</cmd>
             </step>
             <step>

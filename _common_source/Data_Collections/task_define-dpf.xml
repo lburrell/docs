@@ -19,7 +19,7 @@
                         Function</uicontrol> tab.</cmd>
                 <info>The <wintitle>Data Processing Function</wintitle> screen opens. When you first
                     define a data collection, no DPF is associated with it. <fig
-                        id="fig_data-source-no-dpf">
+                        id="fig_data-coll-no-dpf">
                         <image href="../_images/gui-screen-shots/data-collections_no-dpf.png"
                             id="image_cfz_r14_1r" scale="50"/>
                     </fig></info>

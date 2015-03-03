@@ -16,7 +16,7 @@
                 <info>
                     <p>The <wintitle>Data Collections</wintitle> page opens showing defined data
                         categories.</p>
-                    <fig id="fig_data-sources">
+                    <fig id="fig_data-collections">
                         <image href="../_images/gui-screen-shots/data-collections.png"
                             id="image_hmp_55r_3q" scale="50"/>
                     </fig>
@@ -26,7 +26,7 @@
                 <cmd>Click the data category that contains the data collection, so that it expands and
                     shows the data collection in the category.</cmd>
                 <info>
-                    <fig id="fig_data-sources_data-sources">
+                    <fig id="fig_data-collections-items">
                         <image
                             href="../_images/gui-screen-shots/data-collections_data-collections.png"
                             id="image_wpx_pd4_mq" scale="50"/>

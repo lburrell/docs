@@ -4,11 +4,11 @@
  <title>System Configuration</title>
  <topicref href="con_system-config.xml">
   <topicref href="../Passwords/Password-Policy.ditamap" format="ditamap"/>
-  <topicref href="../users/user-authorizations.ditamap" format="ditamap"/>
   <topicref href="../Dataset_Destinations/map_dataset-destinations.ditamap" format="ditamap"/>
   <mapref href="../../_common_source/Lifecycle_Management/Data-Retention-Behavior.ditamap"
    format="ditamap"/>
   <mapref href="../../_common_source/Data_Categories/Data-Categories.ditamap" format="ditamap"/>
   <mapref href="../../_common_source/data_visibilities/Data-Visibilities.ditamap" format="ditamap"/>
+  <topicref href="../users/user-authorizations.ditamap" format="ditamap"/>
  </topicref>
 </map>

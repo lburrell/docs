@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="task_manuall-check-data-ret">
-    <title>Manually Check Data Retention</title>
+    <title>Manually Trigger Data Retention Check</title>
     <shortdesc>Trigger data retention checking at any time on the <wintitle>Data
             Retention</wintitle> screen of the <wintitle>System Configuration</wintitle>
         page.</shortdesc>
@@ -23,10 +23,9 @@
             </step>
             <step>
                 <cmd>Click the <uicontrol>Data Retention</uicontrol> tab.</cmd>
-                <info>The <wintitle>Data Retention</wintitle> page opens. <fig
+                <info>The <wintitle>Data Retention</wintitle> screen opens. <fig
                         id="fig_data-retention">
-                        <image
-                            href="../../_common_source/_images/gui-screen-shots/data-retention.jpg"
+                        <image href="../_images/gui-screen-shots/data-retention.png"
                             id="image_fdj_ktf_xq" scale="50"/>
                     </fig></info>
             </step>
@@ -37,7 +36,8 @@
             <step>
                 <cmd>Click <uicontrol>Enforce Retention Now</uicontrol>. <ph
                         conkeyref="product-vars/product-name"/> checks the selected data collections
-                    for expired data.</cmd>
+                    for expired data. If expired data is detected, the system deletes it from the
+                    data store.</cmd>
             </step>
         </steps>
     </taskbody>
