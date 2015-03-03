@@ -25,7 +25,7 @@
                         <wintitle>Login</wintitle> screen reopens.</cmd>
                 <info>
                     <fig id="fig_login-screen">
-                        <image href="../_images/gui-screen-shots/login-screen.JPG"
+                        <image href="../_images/gui-screen-shots/login_screen.png"
                             id="image_wkx_xpr_3q" scale="70"/>
                     </fig>
                 </info>

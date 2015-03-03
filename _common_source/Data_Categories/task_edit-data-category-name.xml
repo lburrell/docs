@@ -17,8 +17,8 @@
                 <info>The <wintitle>System Configuration</wintitle> page opens on the
                         <wintitle>Password Policy</wintitle> screen.</info>
                 <info>
-                    <fig id="fig_system-config_password-policy">
-                        <image href="../_images/gui-screen-shots/password-policy.jpg"
+                    <fig id="fig_password-policy">
+                        <image href="../_images/gui-screen-shots/password-policy.png"
                             id="image_j4l_xkn_jq" scale="50"/>
                     </fig>
                 </info>

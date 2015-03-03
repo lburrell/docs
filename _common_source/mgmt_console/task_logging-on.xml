@@ -23,8 +23,8 @@
                 <stepresult>
                     <p>The <ph conkeyref="product-vars/product-name"/> login screen appears.</p>
                     <fig id="fig_login-screen">
-                        <image href="../_images/gui-screen-shots/login-screen.JPG"
-                            id="image_kym_blr_3q"/>
+                        <image href="../_images/gui-screen-shots/login_screen.png"
+                            id="image_wkx_xpr_3q" scale="70"/>
                     </fig>
                 </stepresult>
             </step>

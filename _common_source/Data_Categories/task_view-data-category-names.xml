@@ -3,18 +3,56 @@
 <task id="task_view-data-categories">
     <title>View Data Categories</title>
     <shortdesc>View the names of defined data categories on the <wintitle>Data Categories</wintitle>
-        screen of the <wintitle>System Configuration</wintitle> page.</shortdesc>
+        screen of the <wintitle>System Configuration</wintitle> page, or from the <wintitle>Data
+            Collections</wintitle> page.</shortdesc>
     <taskbody id="system-config_view-data-categories">
-        <context>
-            <p>To view data category names:</p>
-        </context>
+        <context/>
         <steps>
+            <stepsection>
+                <p>To view data category names from the <wintitle>System Configuration</wintitle>
+                    page:</p>
+            </stepsection>
+            <step>
+                <cmd>Open the <uicontrol>System Configuration</uicontrol> page, by clicking the
+                        <uicontrol>System Configuration</uicontrol> icon in the left navigation bar.
+                        <image
+                        href="../../_common_source/_images/gui-screen-shots/icon_system-config.png"
+                        id="image_svp_vkn_jq" scale="50"/></cmd>
+                <info>The <wintitle>System Configuration</wintitle> page opens on the<wintitle>
+                        Password Policy</wintitle> screen. <fig id="fig_password-policy">
+                        <image href="../_images/gui-screen-shots/password-policy.png"
+                            id="image_j4l_xkn_jq" scale="50"/>
+                    </fig></info>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>Data Categories</uicontrol> tab.</cmd>
+                <info>The <wintitle>Data Categories</wintitle> screen opens. <fig
+                        id="fig_data-categories">
+                        <image href="../_images/gui-screen-shots/data-categories.png"
+                            id="image_fdj_ktf_xq" scale="50"/>
+                    </fig></info>
+            </step>
+            <step>
+                <cmd/>
+                <info>
+                    <p>In the <uicontrol>Choose Category to Edit</uicontrol> field, click the
+                        drop-down arrow to see the list of defined data categories. </p>
+                    <fig id="fig_gsk_tmk_gr">
+                        <image href="../_images/gui-screen-shots/data-categories_system-config.jpg"
+                            scale="50" id="image_rtk_tmk_gr"/>
+                    </fig>
+                </info>
+            </step>
             <step>
                 <cmd>Open the <uicontrol>Data Collections</uicontrol> screen, by clicking the
                         <uicontrol>Data Collections</uicontrol> icon in the left navigation bar.
                         <image href="../_images/gui-screen-shots/icon_system-config.png"
                         id="image_fmr_wzn_mq" scale="50"/></cmd>
                 <info>
+                    <fig id="fig_qnx_bmk_gr">
+                        <image href="../_images/gui-screen-shots/password-policy.png" scale="50"
+                            id="image_i4x_bmk_gr"/>
+                    </fig>
                     <p>The <wintitle>Data Collections</wintitle> page opens showing the defined data
                         categories.</p>
                     <fig id="fig_data-sources">
@@ -25,11 +63,6 @@
             </step>
         </steps>
         <result>
-            <p>If you are a <ph conkeyref="product-vars/admin"/>, you can also view data category
-                names from the <menucascade>
-                    <uicontrol>System Configuration</uicontrol>
-                    <uicontrol>Data Categories</uicontrol>
-                </menucascade> screen. </p>
             <p>Open the <uicontrol>System Configuration</uicontrol> screen, by clicking the
                     <uicontrol>System Configuration</uicontrol> icon. Then click the <uicontrol>Data
                     Categories</uicontrol> tab to open the <wintitle>Data Categories</wintitle>
