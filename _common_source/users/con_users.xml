@@ -11,7 +11,7 @@
             combined with data visibilities in access policies to specify how users are allowed to
             interact with data.</p>
         <p>Most user information is set and modified on the <wintitle>Manage Users</wintitle> page.
-                <image href="../_images/gui-screen-shots/icon_users.JPG" id="image_jws_fhn_jq"
+                <image href="../_images/gui-screen-shots/icon_users.png" id="image_jws_fhn_jq"
                 scale="50"/> The exception is user authorizations, which are defined as part of
             system configuration. </p>
         <p><xref href="con_user-authorizations.xml#concept_user-authorizations">Tell me about  user

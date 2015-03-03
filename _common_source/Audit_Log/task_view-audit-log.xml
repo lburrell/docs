@@ -11,12 +11,12 @@
             <step>
                 <cmd>Open the <uicontrol>Audit Log</uicontrol> page, by clicking the
                         <uicontrol>Audit Logs</uicontrol> icon in the left navigation bar. <image
-                        href="../../_common_source/_images/gui-screen-shots/icon_audit-log.jpg"
-                        id="image_qv4_qdg_xq" scale="50"/></cmd>
+                        href="../_images/gui-screen-shots/icon_audit-log.png" id="image_qv4_qdg_xq"
+                        scale="50"/></cmd>
                 <info>
                     <p>The <wintitle>Audit Logs</wintitle> page opens.</p>
                     <fig id="fig_audit-log">
-                        <image href="../../_common_source/_images/gui-screen-shots/audit-log.jpg"
+                        <image href="../_images/gui-screen-shots/audit-log.png"
                             id="image_vy1_ydg_xq" scale="50"/>
                     </fig>
                 </info>

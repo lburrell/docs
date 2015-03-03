@@ -46,7 +46,7 @@
       </entry>
      </row>
      <row>
-      <entry><image href="../_images/gui-screen-shots/icon_datasets.jpg" id="image_ak1_1gw_1r"/>
+      <entry><image href="../_images/gui-screen-shots/icon_datasets.png" id="image_ak1_1gw_1r"/>
        <p>Datasets</p></entry>
       <entry>Build datasets; execute datasets; export datasets.</entry>
       <entry>
@@ -55,7 +55,7 @@
       </entry>
      </row>
      <row>
-      <entry><image href="../_images/gui-screen-shots/icon_access-policies.JPG"
+      <entry><image href="../_images/gui-screen-shots/icon_access-policies.png"
         id="image_ksc_1gw_1r"/><p>Access Policy Builder</p></entry>
       <entry>Define access policies.</entry>
       <entry>
@@ -71,7 +71,7 @@
       </entry>
      </row>
      <row>
-      <entry><image href="../_images/gui-screen-shots/icon_users.JPG" id="image_ukj_1gw_1r"
+      <entry><image href="../_images/gui-screen-shots/icon_users.png" id="image_ukj_1gw_1r"
         /><p>Users</p></entry>
       <entry>Manage <ph conkeyref="product-vars/product-name"/> users.</entry>
       <entry>
@@ -86,7 +86,7 @@
       <entry><ph conkeyref="product-vars/admin"/>.</entry>
      </row>
      <row>
-      <entry><image href="../_images/gui-screen-shots/icon_audit-log.jpg" id="image_bfr_1gw_1r"
+      <entry><image href="../_images/gui-screen-shots/icon_audit-log.png" id="image_bfr_1gw_1r"
         /><p>Audit log</p></entry>
       <entry>Monitor what operations have been performed from and what data requests have been made
        of <ph conkeyref="product-vars/product-name"/>. </entry>
