@@ -5,14 +5,9 @@
  <shortdesc>See how <ph conkeyref="product-vars/product-name"/> has been accessed and used by
         viewing the <wintitle>Audit Log</wintitle>.</shortdesc>
  <conbody>
-    <p>The log tracks all accesses to <ph conkeyref="product-vars/product-name"/>: through the <ph
-                conkeyref="product-vars/RESTful-API"/> or through the <ph
-                conkeyref="product-vars/product-name"/>.</p>
     <p><ph conkeyref="product-vars/product-name"/> maintains complete a complete audit log of system
             and user operations. Log entries include all create, modify, and delete operations
-            performed through the <ph conkeyref="product-vars/gui-name"/>, along with a record of
-            all data access queries made to the system through the PHEMI <ph
-                conkeyref="product-vars/RESTful-API"/>. Audit Log files are completely tamperproof
-            for all users. </p>
+            performed and all data access queries made to the system through any interface. Audit
+            Log files are completely tamperproof for all users. </p>
   </conbody>
 </concept>
