@@ -11,13 +11,13 @@
             <step>
                 <cmd>Open the <uicontrol>Access Policy Builder</uicontrol> page, by clicking the
                         <uicontrol>Access Policy Builder</uicontrol> icon in the left navigation
-                    bar. <image href="../_images/gui-screen-shots/icon_access-policies.JPG"
-                        id="image_fmr_wzn_mq" scale="70"/></cmd>
+                    bar. <image href="../_images/gui-screen-shots/icon_access-policies.png"
+                        id="image_fmr_wzn_mq" scale="50"/></cmd>
                 <info>
                     <p>The <wintitle>Access Policy Builder</wintitle> page opens.</p>
                     <fig id="fig_access-policy-builder">
                         <image href="../_images/gui-screen-shots/access-policy_policy-builder.png"
-                            id="image_hmp_55r_3q" scale="70"/>
+                            id="image_hmp_55r_3q" scale="50"/>
                     </fig>
                 </info>
             </step>
@@ -28,13 +28,13 @@
                 <info>
                     <fig id="fig_access-policies_view-info">
                         <image href="../_images/gui-screen-shots/access-policy_view.png"
-                            id="image_wpx_pd4_mq" scale="70"/>
+                            id="image_wpx_pd4_mq" scale="50"/>
                     </fig>
                     <p>The screen for the selected access policy opens, showing the information
                         configured for it.</p>
                     <fig id="fig_access-policy_view-info">
                         <image href="../_images/gui-screen-shots/access-policy_view-info.png"
-                            id="image_hy3_dnm_qq" scale="70"/>
+                            id="image_hy3_dnm_qq" scale="50"/>
                     </fig>
                 </info>
             </step>

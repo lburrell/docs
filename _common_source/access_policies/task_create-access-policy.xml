@@ -17,21 +17,21 @@
             <step>
                 <cmd>Open the <uicontrol>Access Policy Builder</uicontrol> page, by clicking the
                         <uicontrol>Access Policy Builder</uicontrol> icon in the left navigation
-                    bar. <image href="../_images/gui-screen-shots/icon_access-policies.JPG"
-                        id="image_fmr_wzn_mq" scale="70"/>
+                    bar. <image href="../_images/gui-screen-shots/icon_access-policies.png"
+                        id="image_fmr_wzn_mq" scale="50"/>
                 </cmd>
                 <info>The <wintitle>Access Policy Builder</wintitle> page opens.<fig
                         id="fig_access-policy-builder">
                         <image href="../_images/gui-screen-shots/access-policy_policy-builder.png"
-                            id="image_j4l_xkn_jq" scale="70"/>
+                            id="image_j4l_xkn_jq" scale="50"/>
                     </fig></info>
             </step>
             <step>
                 <cmd>Click the <uicontrol>New Policy</uicontrol> button.</cmd>
                 <info>The form for the new access policy opens, with Rule 1 ready for you to edit.
                         <fig id="fig_create-access-rule">
-                        <image href="../_images/gui-screen-shots/access-policy_create-rule.jpg"
-                            id="image_h44_ykn_jq" scale="70"/>
+                        <image href="../_images/gui-screen-shots/access-policy_create-rule.png"
+                            id="image_h44_ykn_jq" scale="50"/>
                     </fig></info>
             </step>
             <step>
