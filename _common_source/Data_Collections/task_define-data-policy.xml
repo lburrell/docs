@@ -50,7 +50,7 @@
                         </chdesc>
                     </chrow>
                     <chrow>
-                        <choption>Source Category</choption>
+                        <choption>Data Category</choption>
                         <chdesc>Mandatory. The data category of the data collection. Choose from the
                             drop-down list of data categories. <xref
                                 href="../Data_Categories/task_add-data-category.xml#task_add-data-category"
@@ -71,7 +71,7 @@
                             eligible. Choose from the drop-down list of eligible users.</chdesc>
                     </chrow>
                     <chrow>
-                        <choption>Source Owner</choption>
+                        <choption>Data Owner</choption>
                         <chdesc>Mandatory. The individual responsible for approving dataset requests
                             involving this data collection. Only users with a role of <ph
                                 conkeyref="product-vars/admin"/> are eligible. Choose from the
@@ -83,6 +83,10 @@
                             this data collection. Select from the list of configured data visibilities.
                             You can select multiple items by holding down the
                                 <keyword>Shift</keyword> key.</chdesc>
+                    </chrow>
+                    <chrow>
+                        <choption>Access Policy</choption>
+                        <chdesc/>
                     </chrow>
                     <chrow>
                         <choption>Document Format</choption>
