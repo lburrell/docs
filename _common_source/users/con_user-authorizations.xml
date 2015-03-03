@@ -23,7 +23,7 @@
         conkeyref="product-vars/admin"/> during system configuration. </p>
     <p>All users are assigned the predefined PUBLIC authorization by default. The PUBLIC
       authorization can subsequently be removed by the <ph conkeyref="product-vars/admin"/>.</p>
-    <note>Once defined, a user authorization setting may be neither edited nor deleted. The
-      description may be subsequently edited.</note>
+    <note>Once defined, a user authorization name cannot be changed. To change the authorization
+      name, you must delete the authorization and recreate it with the new name.</note>
   </conbody>
 </concept>

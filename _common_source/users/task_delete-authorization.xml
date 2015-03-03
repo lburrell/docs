@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_delete-authorization">
+    <title>Delete Authorization</title>
+    <shortdesc>Delete a user authorization on the <wintitle>Data Visibilities</wintitle> screen of
+        the <wintitle>System Configuration</wintitle> page.</shortdesc>
+    <taskbody>
+        <context>
+            <p>To delete a user authorization:</p>
+        </context>
+        <steps id="steps_dwd_rnx_kq">
+            <step>
+                <cmd>Open the <uicontrol>System Configuration</uicontrol> page, by clicking the
+                        <uicontrol>System Configuration</uicontrol> icon in the left navigation bar.
+                        <image href="../_images/gui-screen-shots/icon_system-config.png"
+                        id="image_svp_vkn_jq" scale="50"/>
+                </cmd>
+                <info>The <wintitle>System Configuration</wintitle> page opens on the<wintitle>
+                        Password Policy</wintitle> screen. <fig id="fig_password-policy">
+                        <image href="../_images/gui-screen-shots/password-policy.png"
+                            id="image_j4l_xkn_jq" scale="50"/>
+                    </fig></info>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>User Authorizations</uicontrol> tab.</cmd>
+                <info>
+                    <p>The <wintitle>User Authorizations</wintitle> screen opens.</p>
+                    <fig id="fig_visibilities">
+                        <image href="../_images/gui-screen-shots/user-authorizations.png"
+                            id="image_bxn_5wk_gr" scale="50"/>
+                    </fig>
+                </info>
+            </step>
+            <step>
+                <cmd>Locate the authorization you want to delete and click the trash can icon in the
+                        <uicontrol>Actions</uicontrol> column. </cmd>
+                <info>
+                    <p>The <wintitle>Delete this Authorization?</wintitle> screen opens.</p>
+                    <p>Note that user configurations and access policies both depend on user
+                        authorizations. The system checks for dependencies before it deletes an
+                        authorization, and if one of your users or one of your access policies
+                        refers to the authorization you want to delete, the system will warn you,
+                        listing the user(s) and access policy or policies that you need to modify.
+                        In this case, the <uicontrol>Delete</uicontrol> button will be unavailable
+                        (greyed out). You must eliminate all dependencies before the system will
+                        permit you to delete the authorization. When all dependencies have been
+                        eliminated, the <uicontrol>Delete</uicontrol> button will become available. </p>
+                    <fig id="fig_delete-authorization">
+                        <image href="../_images/gui-screen-shots/user-authorization_delete.png"
+                            scale="50" id="image_mtd_ywk_gr"/>
+                    </fig>
+                </info>
+            </step>
+            <step>
+                <cmd>When all dependencies have been eliminated, the <uicontrol>Delete</uicontrol>
+                    button will become available. Click <uicontrol>Delete</uicontrol> to delete the
+                    authorization.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

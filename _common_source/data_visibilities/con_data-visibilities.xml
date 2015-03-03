@@ -12,8 +12,8 @@
    CONFIDENTIAL to identify data that is sensitive and requires a user to a certain level of access
    or certification to access, PII to identify Personally Identifiable Information, PHI to identify
    personal health information, or SECRET to identify especially sensitive material.</p>
-  <note>Once defined, a data visibility may be neither edited nor deleted. The description for the
-   visibility can be modified subsequently.</note>
+  <note>Once defined, the name of a data visibility may not be edited. To change the name of a user
+   visibility, you must delete the visibility and recreate it with the new name.</note>
   <p>The data visibilities specified for a data collection are referred to in access policies and
    matched against user authorizations to determine what actions, if any, a given user is allowed to
    perform on the data. The access policy can then be applied to a data collection or dataset during

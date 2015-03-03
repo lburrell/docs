@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_change-visibility-desc">
+    <title>Change Visibility Description</title>
+    <shortdesc>Change a data visibility description on the <wintitle>Data Visibilities</wintitle>
+        screen of the <wintitle>System Configuration</wintitle> page.</shortdesc>
+    <taskbody>
+        <context>
+            <p>To change data visibility description:</p>
+        </context>
+        <steps id="steps_dwd_rnx_kq">
+            <step>
+                <cmd>Open the <uicontrol>System Configuration</uicontrol> page, by clicking the
+                        <uicontrol>System Configuration</uicontrol> icon in the left navigation bar.
+                        <image href="../_images/gui-screen-shots/icon_system-config.png"
+                        id="image_svp_vkn_jq" scale="50"/>
+                </cmd>
+                <info>The <wintitle>System Configuration</wintitle> page opens on the<wintitle>
+                        Password Policy</wintitle> screen. <fig id="fig_data-visibilities">
+                        <image href="../_images/gui-screen-shots/data-visibilities.png"
+                            id="image_snr_ypm_lq" scale="50"/>
+                    </fig></info>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>Data Visibilities</uicontrol> tab.</cmd>
+                <info>
+                    <p>The <wintitle>Data Visibilities</wintitle> screen opens.</p>
+                    <fig id="fig_visibilities">
+                        <image href="../_images/gui-screen-shots/data-visibilities.png"
+                            id="image_bxn_5wk_gr" scale="50"/>
+                    </fig>
+                </info>
+            </step>
+            <step>
+                <cmd>Locate the data visibility you want to change and click the edit icon in the
+                        <uicontrol>Rearrangement</uicontrol> column. </cmd>
+                <info>
+                    <p>The <wintitle>Modify Visibility</wintitle> screen opens.</p>
+                    <fig id="fig_modify-visibility">
+                        <image href="../_images/gui-screen-shots/data-visibility_modify.png"
+                            scale="50" id="image_mtd_ywk_gr"/>
+                    </fig>
+                </info>
+            </step>
+            <step>
+                <cmd>Modify the description. Click <uicontrol>Modify</uicontrol> to save your
+                    changes.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

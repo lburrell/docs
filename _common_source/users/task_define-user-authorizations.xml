@@ -14,8 +14,9 @@
                     >How do I define a governance policy?</xref></p>
         </prereq>
         <context>
-            <note>Once defined, a user authorization label may be neither edited nor deleted. The
-                description may be subsequently edited.</note>
+            <note>Once defined, a user authorization name may not be changed. To change the
+                authorization name, you must delete the authorization and recreate it with the new
+                name.</note>
             <p>To define a user authorization:</p>
         </context>
         <steps id="steps_dwd_rnx_kq">
@@ -35,7 +36,7 @@
                 <cmd>Click the <uicontrol>User Authorizations</uicontrol> tab.</cmd>
                 <info>The <wintitle>User Authorizations</wintitle> screen opens.<fig
                         id="fig_user-authorizations">
-                        <image href="../_images/gui-screen-shots/users_user-authorizations.JPG"
+                        <image href="../_images/gui-screen-shots/user-authorizations.png"
                             id="image_izt_dmx_wq" scale="50"/>
                     </fig></info>
             </step>
@@ -43,7 +44,7 @@
                 <cmd>Cick the <uicontrol>Create Authorization</uicontrol> button.</cmd>
                 <info>The <wintitle>Create Authorization</wintitle> screen opens. <fig
                         id="fig_create-auth">
-                        <image href="../_images/gui-screen-shots/users_create-authorization.jpg"
+                        <image href="../_images/gui-screen-shots/user-authorization_create.png"
                             id="image_jlm_wrx_wq" scale="70"/>
                     </fig></info>
             </step>
@@ -56,6 +57,9 @@
                         </choption>
                         <chdesc>
                             <p>The authorization label to be applied to users.</p>
+                            <p>Note that once defined, the authorization name cannot be changed. To
+                                change the name, you must delete the authorization and recreate
+                                it.</p>
                         </chdesc>
                     </chrow>
                     <chrow>
@@ -63,14 +67,13 @@
                             <p>Description</p>
                         </choption>
                         <chdesc>
-                            <p>A brief description for the authorization label.</p>
+                            <p>A brief description for the authorization.</p>
                         </chdesc>
                     </chrow>
                 </choicetable>
             </step>
             <step>
-                <cmd>Save the authorization information by clicking the
-                        <uicontrol>Create</uicontrol> button. </cmd>
+                <cmd>Click the <uicontrol>Create</uicontrol> button to save the information. </cmd>
             </step>
         </steps>
     </taskbody>

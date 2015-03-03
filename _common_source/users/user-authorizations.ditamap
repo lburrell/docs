@@ -6,5 +6,6 @@
   <topicref href="task_view-user-auths.xml"/>
   <topicref href="task_define-user-authorizations.xml"/>
   <topicref href="task_modify-user-authorization.xml"/>
+  <topicref href="task_delete-authorization.xml"/>
  </topicref>
 </map>

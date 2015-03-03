@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="modify-user-authorization">
-    <title>Modify Authorization Description</title>
-    <shortdesc>Modify user authorizations on the <wintitle>User Authorizations</wintitle> screen of
-        the <wintitle>System Configuration</wintitle> page.</shortdesc>
+    <title>Change Authorization Description</title>
+    <shortdesc>Change user authorization descriptions on the <wintitle>User
+            Authorizations</wintitle> screen of the <wintitle>System Configuration</wintitle>
+        page.</shortdesc>
     <taskbody>
         <context>
-            <p>Although you can't delete a user authorization or edit the authorization label,  you
-                can edit the description after the authorization has been created.</p>
-            <p>To edit a user authorization description:</p>
+            <p>Although you can't edit an authorization name, you can edit the description after the
+                authorization has been created.</p>
+            <p>To edit an authorization description:</p>
         </context>
         <steps id="steps_dwd_rnx_kq">
             <step>
@@ -27,23 +28,24 @@
                 <cmd>Click the <uicontrol>User Authorizations</uicontrol> tab.</cmd>
                 <info>The <wintitle>User Authorizations</wintitle> screen opens.<fig
                         id="fig_user-authorizations">
-                        <image href="../_images/gui-screen-shots/users_user-authorizations.JPG"
+                        <image href="../_images/gui-screen-shots/user-authorizations.png"
                             id="image_izt_dmx_wq" scale="50"/>
                     </fig></info>
             </step>
             <step>
-                <cmd>Location the description for the authorization you want to edit. Click the
-                        <uicontrol>Modify</uicontrol> button.</cmd>
+                <cmd>Location the authorization you want to edit. Click the edit icon in the
+                        <uicontrol>Actions</uicontrol> column.</cmd>
                 <info>
                     <p>The </p>
                     <fig>
-                        <image href="../_images/gui-screen-shots/users_modify-user-auth.jpg"
+                        <image href="../_images/gui-screen-shots/user-authorization_modify.png"
                             id="image_mbj_2rx_wq" scale="70"/>
                     </fig>
                 </info>
             </step>
             <step>
-                <cmd>Save the change by clicking the <uicontrol>Modify</uicontrol> button. </cmd>
+                <cmd>Make your change. Click the <uicontrol>Modify</uicontrol> button to save your
+                    changes. </cmd>
             </step>
         </steps>
     </taskbody>

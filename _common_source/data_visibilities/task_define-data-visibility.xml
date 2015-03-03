@@ -6,8 +6,8 @@
             <wintitle>System Configuration</wintitle> page.</shortdesc>
     <taskbody>
         <context>
-            <note>Once defined, a data visibility may be neither edited nor deleted. The description
-                may be modified subsequently.</note>
+            <note>Once defined, the name of a data visibility may not be changed. To change the
+                name, you must delete the visibility and recreate it with the new name.</note>
             <p>To define data visibilities:</p>
         </context>
         <steps id="steps_dwd_rnx_kq">
@@ -18,44 +18,59 @@
                         id="image_svp_vkn_jq" scale="50"/>
                 </cmd>
                 <info>The <wintitle>System Configuration</wintitle> page opens on the<wintitle>
-                        Password Policy</wintitle> screen. <fig id="fig_password-policy">
-                        <image href="../_images/gui-screen-shots/password-policy.jpg"
-                            id="image_c5d_qqf_xq" scale="50"/>
-                    </fig></info>
-            </step>
-            <step>
-                <cmd>Click the <uicontrol>Data Visibilities</uicontrol> tab.</cmd>
-                <info>The <wintitle>Data Visibilities</wintitle> screen opens.<fig
-                        id="fig_system-config_manage-visibilities">
-                        <image href="../_images/gui-screen-shots/data-visibilities.jpg"
+                        Password Policy</wintitle> screen. <fig id="fig_data-visibilities">
+                        <image href="../_images/gui-screen-shots/data-visibilities.png"
                             id="image_snr_ypm_lq" scale="50"/>
                     </fig></info>
             </step>
             <step>
-                <cmd>Click the <uicontrol>Create Visibility</uicontrol> button. The <wintitle>Create
-                        Visibility</wintitle> screen opens.</cmd>
-                <info/>
+                <cmd>Click the <uicontrol>Data Visibilities</uicontrol> tab.</cmd>
+                <info>
+                    <p>The <wintitle>Data Visibilities</wintitle> screen opens.</p>
+                    <fig id="fig_visibilities">
+                        <image href="../_images/gui-screen-shots/data-visibilities.png"
+                            id="image_bxn_5wk_gr" scale="50"/>
+                    </fig>
+                </info>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>Create Visibility</uicontrol> button. </cmd>
+                <info>
+                    <p>The <wintitle>Create Visibility</wintitle> screen opens.</p>
+                    <fig id="fig_create-visibility">
+                        <image href="../_images/gui-screen-shots/data-visibility_create.png"
+                            scale="50" id="image_mtd_ywk_gr"/>
+                    </fig>
+                </info>
             </step>
             <step>
                 <cmd>Enter the visibility information.</cmd>
                 <choicetable id="choicetable_h54_rtx_3q" relcolwidth="1* 4*">
                     <chrow>
-                        <choption>Name</choption>
+                        <choption>
+                            <p>Name</p>
+                        </choption>
                         <chdesc>
                             <p>Enter a name for the data visibility; for example, "CONFIDENTIAL,"
                                 "SECRET" or "PII".</p>
+                            <p>Note: The visibility name cannot be subsequently edited. To change
+                                the name, you must delete the visibility and recreate it.</p>
                         </chdesc>
                     </chrow>
                     <chrow>
-                        <choption>Description</choption>
-                        <chdesc>Enter a brief description to describe the intention of the
-                            visibility.</chdesc>
+                        <choption>
+                            <p>Description</p>
+                        </choption>
+                        <chdesc>
+                            <p>Enter a brief description to describe the intention of the
+                                visibility.</p>
+                        </chdesc>
                     </chrow>
                 </choicetable>
             </step>
             <step>
-                <cmd>Save the visibility information by clicking the <uicontrol>Create
-                        Visibility</uicontrol> button. </cmd>
+                <cmd>Save the visibility information by clicking the <uicontrol>Create</uicontrol>
+                    button. </cmd>
             </step>
         </steps>
     </taskbody>

@@ -16,7 +16,7 @@
                         id="image_svp_vkn_jq" scale="50"/></cmd>
                 <info>The <wintitle>System Configuration</wintitle> page opens on the
                         <wintitle>Password Policy</wintitle> screen. <fig id="fig_tcg_21f_xq">
-                        <image href="../_images/gui-screen-shots/password-policy.jpg"
+                        <image href="../_images/gui-screen-shots/password-policy.png"
                             id="image_qwg_jqf_xq" scale="50"/>
                     </fig></info>
             </step>
@@ -24,7 +24,7 @@
                 <cmd>Click the <uicontrol>Data Visibilities</uicontrol> tab.</cmd>
                 <info>The <wintitle>Data Visibilities</wintitle> screen opens, listing all the data
                     visibilities configured for the system.<fig id="fig_data-visibilities">
-                        <image href="../_images/gui-screen-shots/data-visibilities.jpg"
+                        <image href="../_images/gui-screen-shots/data-visibilities.png"
                             id="image_snr_ypm_lq" scale="50"/>
                     </fig></info>
             </step>

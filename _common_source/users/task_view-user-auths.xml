@@ -26,7 +26,7 @@
                 <info>The <wintitle>User Authorizations</wintitle> screen opens, showing you each
                     authorization that has been defined, along with a brief description.<fig
                         id="fig_user-authorizations">
-                        <image href="../_images/gui-screen-shots/users_user-authorizations.JPG"
+                        <image href="../_images/gui-screen-shots/user-authorizations.png"
                             id="image_izt_dmx_wq" scale="50"/>
                     </fig></info>
             </step>
