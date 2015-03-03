@@ -2,7 +2,7 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="task_manually-ingest-data">
     <title>Manually Ingest Files</title>
-    <shortdesc>You can quickly manually ingest data files from a data collection into <ph
+    <shortdesc>Manually ingest data files from a data collection into <ph
             conkeyref="product-vars/product-name"/> from the <wintitle>Data Collections</wintitle>
         page.</shortdesc>
     <taskbody>
@@ -15,7 +15,8 @@
                         id="image_fmr_wzn_mq" scale="50"/></cmd>
                 <info>
                     <p>The <wintitle>Data Collections</wintitle> page opens showing defined data
-                        categories. <xref
+                        categories. </p>
+                    <p><xref
                             href="../Data_Categories/con_data-categories.xml#concept_data-categories"
                             >Tell me about data categories.</xref></p>
                     <fig id="fig_data-sources">
@@ -36,9 +37,10 @@
                 </info>
             </step>
             <step>
-                <cmd>Click the data collection name. The <wintitle>Data Policy</wintitle> screen for the
-                    data collection opens.</cmd>
+                <cmd>Click the data collection name. </cmd>
                 <info>
+                    <p>The page for the data collection opens showing the <wintitle>Data
+                            Policy</wintitle> screen. </p>
                     <fig id="fig_data-policy-cmplt">
                         <image
                             href="../_images/gui-screen-shots/data-collections_data-policy_cmplt.png"
@@ -49,25 +51,74 @@
             <step>
                 <cmd>Click the <uicontrol>Ingest Data</uicontrol> tab.</cmd>
                 <info/>
-                <info>The <wintitle>Ingest Data</wintitle> screen opens.<fig id="fig_ingest-data">
+                <info>The <wintitle>Ingest Data</wintitle> screen opens.</info>
+            </step>
+            <step>
+                <cmd>In the <uicontrol>Files for Ingest</uicontrol> field, click the
+                        <uicontrol>Choose File</uicontrol> button (this may be a
+                        <uicontrol>Browse</uicontrol> button, depending on the browser you are
+                    using). Navigate to the folder and select the file or files you want to ingest.
+                    Click the <uicontrol>Choose</uicontrol> (or <uicontrol>Open</uicontrol>) button
+                    to set your selection.</cmd>
+            </step>
+            <step>
+                <cmd>For structured or composite files, if you want the PHEMI system DPFs to
+                    automatically process the file on ingest, click the drop-down arrow in the
+                        <uicontrol>Ingest Composite Data</uicontrol> field and select the file type
+                    from the list. </cmd>
+                <info>
+                    <fig id="fig_sst_4g2_gr">
                         <image href="../_images/gui-screen-shots/data-collections_ingest-data.png"
-                            id="image_bnx_xzv_1r" scale="50"/>
-                    </fig></info>
+                            scale="50" id="image_xst_4g2_gr"/>
+                    </fig>
+                </info>
+                <choicetable id="choicetable_y5w_jh2_gr">
+                    <chrow>
+                        <choption>
+                            <p>Archived/Zipped files</p>
+                        </choption>
+                        <chdesc>
+                            <p><ph conkeyref="product-vars/product-name"/> extracts the files from
+                                the archive and ingests the archive contents. Supported formats as
+                                    <keyword>.tar.gz</keyword>, <keyword>.tar.bz2</keyword> and
+                                    <keyword>.zip</keyword>.</p>
+                        </chdesc>
+                    </chrow>
+                    <chrow>
+                        <choption>CSV files</choption>
+                        <chdesc>
+                            <p><ph conkeyref="product-vars/product-name"/> extracts each row of the
+                                CSV file as a single object. Newline characters are interpreted as
+                                delimiting rows. Commas are interpreted as delimiting fields within
+                                a row. The first row is interpreted as the header row. Rows are
+                                ingested as XML fragments.</p>
+                        </chdesc>
+                    </chrow>
+                    <chrow>
+                        <choption>PHEMI Excel Workbook</choption>
+                        <chdesc>
+                            <p><ph conkeyref="product-vars/product-name"/> extracts each row of the
+                                Excel file as a single object. The first row of the Excel file is
+                                expected to contain column names. The second row is expected to
+                                contain type information for the data. The third row should is
+                                expected to specify the data's visibilities. An object is created
+                                for each row in the Excel file.</p>
+                        </chdesc>
+                    </chrow>
+                    <chrow>
+                        <choption>VCF files</choption>
+                        <chdesc>
+                            <p><ph conkeyref="product-vars/product-name"/> extracts each row of the
+                                VCF file as a single object. The VCF file is expected to contain a
+                                header section and at least one header row. The VCF file may be in
+                                submitted in text format or as a GZIP archive file.</p>
+                        </chdesc>
+                    </chrow>
+                </choicetable>
             </step>
             <step>
-                <cmd>Click the <uicontrol>Choose File</uicontrol> button (or
-                        <uicontrol>Browse</uicontrol> button, depending on your browser). Navigate
-                    to the folder and select the file or files you want to ingest. Click the
-                        <uicontrol>Choose</uicontrol> or <uicontrol>Open</uicontrol> button to set
-                    your selection.</cmd>
-            </step>
-            <step>
-                <cmd>For structured or composite file such as a ZIP files or CSV files, if you want
-                    the PHEMI system DPFs to automatically process the file on ingest, click the
-                    drop-down arrow in the <uicontrol>Ingest Composite Data</uicontrol> field and
-                    select the file type from the list. If you want <ph
-                        conkeyref="product-vars/product-name"/> to store the original data along
-                    with the derived data items, check the <uicontrol>Store Original
+                <cmd>If you want <ph conkeyref="product-vars/product-name"/> to store the original
+                    data along with the derived data items, check the <uicontrol>Store Original
                         File</uicontrol> checkbox.</cmd>
             </step>
             <step>

@@ -17,8 +17,8 @@
                         id="image_fmr_wzn_mq" scale="50"/></cmd>
                 <info>
                     <p>The <wintitle>System Metrics</wintitle> page opens showing the
-                        <wintitle>Global Metrics</wintitle> pane and the <wintitle>Data Collection
-                            Metrics</wintitle> tab. </p>
+                            <wintitle>Global Metrics</wintitle> pane and the <wintitle>Data
+                            Metrics</wintitle> pane. </p>
                     <fig id="fig_system-metrics">
                         <image href="../_images/gui-screen-shots/system-metrics.png"
                             id="image_hmp_55r_3q" scale="50"/>
@@ -27,7 +27,7 @@
             </step>
             <step>
                 <cmd>Click the <uicontrol>Task Monitoring</uicontrol> tab.</cmd>
-                <info>The <wintitle>Task Monitoring</wintitle> tab opens, showing system tasks with
+                <info>The <wintitle>Task Monitoring</wintitle> pane opens, showing system tasks with
                     most recently executed tasks shown first.<fig id="fig_task-monitoring">
                         <image href="../_images/gui-screen-shots/system-metrics_task-monitoring.png"
                             id="image_lqt_j1g_cr" scale="50"/>
@@ -35,42 +35,71 @@
             </step>
             <step>
                 <cmd>By default, the <wintitle>Task Monitoring</wintitle> pane lists tasks of all
-                    task types. You can focus on a single task type by clicking the drop-down arrow
+                    task types. You can filter on a single task type by clicking the drop-down arrow
                     in the <wintitle>Filter by Task</wintitle> field and checking the task type you
                     want to see. If you want to see all task types, you can check
                         <wintitle>All</wintitle>.</cmd>
                 <choicetable id="choicetable_xhd_vhg_cr" relcolwidth="1* 4.5*">
                     <chrow>
-                        <choption>chained</choption>
-                        <chdesc>The system has ingested raw data and executed a DPF on the
-                            data.</chdesc>
+                        <choption>
+                            <p>chained</p>
+                        </choption>
+                        <chdesc>
+                            <p>The system has executed a chained ingest and DPF execution task set,
+                                ingesting raw data and executing a DPF as the data was being
+                                ingested. This occurs, for example, when Variant Call Format (VCF)
+                                files are ingested.</p>
+                        </chdesc>
                     </chrow>
                     <chrow>
-                        <choption>cleanup</choption>
-                        <chdesc>The system has checked retention rules for a data collection and
-                            deleted expired data.</chdesc>
+                        <choption>
+                            <p>cleanup</p>
+                        </choption>
+                        <chdesc>
+                            <p>The system has checked retention rules for a data collection and
+                                deleted expired data from the data store.</p>
+                        </chdesc>
                     </chrow>
                     <chrow>
-                        <choption>derive</choption>
-                        <chdesc>The system has executed a DPF against ingested data.</chdesc>
+                        <choption>
+                            <p>derive</p>
+                        </choption>
+                        <chdesc>
+                            <p>The system has executed a DPF on data.</p>
+                        </chdesc>
                     </chrow>
                     <chrow>
-                        <choption>download</choption>
-                        <chdesc>The system has exported a dataset.</chdesc>
+                        <choption>
+                            <p>download</p>
+                        </choption>
+                        <chdesc>
+                            <p>The system has exported a dataset.</p>
+                        </chdesc>
                     </chrow>
                     <chrow>
-                        <choption>execute</choption>
-                        <chdesc>The system has executed a dataset.</chdesc>
+                        <choption>
+                            <p>execute</p>
+                        </choption>
+                        <chdesc>
+                            <p>The system has executed a dataset.</p>
+                        </chdesc>
                     </chrow>
                     <chrow>
-                        <choption>ingest</choption>
-                        <chdesc>The system has ingested data from the indicated data
-                            collection.</chdesc>
+                        <choption>
+                            <p>ingest</p>
+                        </choption>
+                        <chdesc>
+                            <p>The system has ingested data from the indicated data collection.</p>
+                        </chdesc>
                     </chrow>
                     <chrow>
-                        <choption>snapshot</choption>
-                        <chdesc>The system has taken a snapshot of information for system
-                            metrics.</chdesc>
+                        <choption>
+                            <p>snapshot</p>
+                        </choption>
+                        <chdesc>
+                            <p>The system has taken a snapshot of information for system
+                                metrics.</p>
+                        </chdesc>
                     </chrow>
                 </choicetable>
                 <info>When you make your selection, the results display from most recent to less

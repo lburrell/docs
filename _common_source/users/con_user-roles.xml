@@ -7,7 +7,6 @@
     conkeyref="product-vars/product-name"/>
    <ph conkeyref="product-vars/gui-name"/>. Users can be assigned any or all of three roles.</p>
   <table frame="all" rowsep="1" colsep="1" id="table_krh_mnn_hq">
-   <title>User Roles</title>
    <tgroup cols="3">
     <colspec colname="c1" colnum="1" colwidth="1*"/>
     <colspec colname="newCol2" colnum="2" colwidth="1.36*"/>
@@ -21,36 +20,69 @@
     </thead>
     <tbody>
      <row>
-      <entry><ph conkeyref="product-vars/admin"/></entry>
-      <entry>Configures access to <ph conkeyref="product-vars/product-name"/> and to data.</entry>
+      <entry>
+       <p><ph conkeyref="product-vars/admin"/></p>
+      </entry>
+      <entry>
+       <p>Configures  <ph conkeyref="product-vars/product-name"/> and configures access to data.</p>
+      </entry>
       <entry>
        <ul id="ul_b5r_4tp_kq">
-        <li>System configuration: password policy, dataset destinations, data retention behavior,
-         data categories, data visibilities, and user authorizations</li>
-        <li>Configure data collections, including deploying DPFs</li>
-        <li>Create access policies</li>
-        <li>Monitor system metrics</li>
-        <li>Manage users</li>
-        <li>Monitor audit logs</li>
+        <li>
+         <p>System configuration: password policy, dataset destinations, data retention behavior,
+          data categories, data visibilities, and user authorizations</p>
+        </li>
+        <li>
+         <p>Manage access policies</p>
+        </li>
+        <li>
+         <p>Manage data collections, deploy DPFs</p>
+        </li>
+        <li>
+         <p>Construct datasets</p>
+        </li>
+        <li>
+         <p>Monitor system metrics</p>
+        </li>
+        <li>
+         <p>Manage users</p>
+        </li>
+        <li>
+         <p>Monitor audit logs</p>
+        </li>
        </ul>
       </entry>
      </row>
      <row>
-      <entry>Privacy Officer</entry>
-      <entry>Responsible for governance policies that define the organization's approach for
-       safeguarding data and assigning privileges to users. </entry>
-      <entry>The privacy officer has no functional ability within the <ph
-        conkeyref="product-vars/product-name"/>
-       <ph conkeyref="product-vars/gui-name"/>. The privacy officer elucidates the governance
-       policies prior to system configuration.</entry>
+      <entry>
+       <p>Privacy Officer</p>
+      </entry>
+      <entry>
+       <p>Responsible for governance policies that define the organization's approach for
+        safeguarding data and assigning privileges to users.</p>
+      </entry>
+      <entry>
+       <p>The privacy officer has no functional ability within the <ph
+         conkeyref="product-vars/product-name"/>
+        <ph conkeyref="product-vars/gui-name"/>. The privacy officer elucidates the governance
+        policies prior to system configuration.</p>
+      </entry>
      </row>
      <row>
-      <entry>Data Analyst</entry>
-      <entry>Submits data for ingestion and consumes data.</entry>
+      <entry>
+       <p>Data Analyst</p>
+      </entry>
+      <entry>
+       <p>Submits data for ingestion and consumes data.</p>
+      </entry>
       <entry>
        <ul id="ul_ybw_ytp_kq">
-        <li>Ingest data</li>
-        <li>Execute and export datasets</li>
+        <li>
+         <p>Ingest data</p>
+        </li>
+        <li>
+         <p>Execute and export datasets</p>
+        </li>
        </ul>
       </entry>
      </row>

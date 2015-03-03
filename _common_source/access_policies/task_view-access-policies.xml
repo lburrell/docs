@@ -17,7 +17,7 @@
                 <info>
                     <p>The <wintitle>Access Policy Builder</wintitle> page opens.</p>
                     <fig id="fig_access-policies">
-                        <image href="../_images/gui-screen-shots/access-policy_policy-builder.jpg"
+                        <image href="../_images/gui-screen-shots/access-policy_policy-builder.png"
                             id="image_hmp_55r_3q" scale="70"/>
                     </fig>
                 </info>
@@ -27,7 +27,7 @@
                     the drop-down arrow. The list of configured access policies display.</cmd>
                 <info>
                     <fig id="fig_access-policies_view">
-                        <image href="../_images/gui-screen-shots/access-policy_view.jpg"
+                        <image href="../_images/gui-screen-shots/access-policy_select.png"
                             id="image_wpx_pd4_mq" scale="70"/>
                     </fig>
                 </info>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_custom-dpfs">
+ <title>Developing Custom DPFs</title>
+ <shortdesc>A custom DPF is a DPF you develop especially to process your organization's data. </shortdesc>
+ <conbody>
+  <p><ph conkeyref="product-vars/product-name"/> includes a library of helper functions to simplify
+   DPF development. DPFs can be developed in either Java or Python, or <ph
+    conkeyref="product-vars/product-name"/> can be extended to support DPF development in any modern
+   programming language that runs on a Linux OS. No MapReduce or YARN knowledge is necessary. Your
+   DPF can be written by PHEMI, by your organization’s in-house programmers, or by third-party
+   developers. Training in DPF development is also available from PHEMI.</p>
+ </conbody>
+</concept>

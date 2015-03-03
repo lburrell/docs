@@ -4,6 +4,6 @@
  <title>DPF Archives</title>
  <shortdesc/>
  <conbody>
-  <p/>
+  <p conref="../_glossary/con_glossary.xml#concept_glossary/dpf-archive"/>
  </conbody>
 </concept>

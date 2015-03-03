@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="task_view-data-source-metrics">
-    <title>View Data Collection Metrics</title>
+    <title>View Data Metrics</title>
     <shortdesc> View statistics about data collections on the <wintitle>Data Collection
             Metrics</wintitle> tab of the <wintitle>System Metrics</wintitle> page.</shortdesc>
     <taskbody>
@@ -16,8 +16,8 @@
                         id="image_fmr_wzn_mq" scale="50"/></cmd>
                 <info>
                     <p>The <wintitle>System Metrics</wintitle> page opens showing the
-                        <wintitle>Global Metrics</wintitle> pane and the <wintitle>Data Collection
-                            Metrics</wintitle> tab. </p>
+                            <wintitle>Global Metrics</wintitle> pane and the <wintitle>Data
+                            Metrics</wintitle> pane. </p>
                     <fig id="fig_system-metrics">
                         <image href="../_images/gui-screen-shots/system-metrics.png"
                             id="image_hmp_55r_3q" scale="50"/>
@@ -25,17 +25,17 @@
                 </info>
             </step>
             <step>
-                <cmd>By default, the <wintitle>Data Collection Metrics</wintitle> pane shows metrics
-                    for all data collections. To view information for some other set of data
-                    collections, click the drop-down arrow in the <wintitle>Data
-                        Collections</wintitle> field and check each data collection you want
-                    included in the metrics. If you want to include all data collections, you can
-                    check <wintitle>All</wintitle>.</cmd>
+                <cmd>By default, the <wintitle>Data Metrics</wintitle> pane shows metrics for all
+                    data collections. To view information for a different set of data collections,
+                    click the drop-down arrow in the <wintitle>Data Collections</wintitle> field and
+                    check each data collection you want included in the metrics. If you want to
+                    include all data collections, you can check <wintitle>All</wintitle> to select
+                    them all in one operation.</cmd>
             </step>
             <step>
                 <cmd>Choose the query period: select <wintitle>Now</wintitle> to see a current
-                    snapshot, or select <wintitle>Date Range</wintitle> to specify a range of dates.
-                    The format for dates is
+                    snapshot, or select <wintitle>Date Range</wintitle> to specify metrics for an
+                    interval and specify the range of dates. The format for dates is
                         <varname>yyyy</varname><keyword>-</keyword><varname>mm</varname><keyword>-</keyword><varname>dd</varname>.</cmd>
             </step>
             <step>

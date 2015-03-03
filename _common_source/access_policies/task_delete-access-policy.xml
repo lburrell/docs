@@ -16,7 +16,7 @@
                 <info>
                     <p>The <wintitle>Access Policy Builder</wintitle> page opens.</p>
                     <fig id="fig_access-policy-builder">
-                        <image href="../_images/gui-screen-shots/access-policy_policy-builder.jpg"
+                        <image href="../_images/gui-screen-shots/access-policy_policy-builder.png"
                             id="image_hmp_55r_3q" scale="70"/>
                     </fig>
                 </info>
@@ -27,20 +27,22 @@
                     want to modify.</cmd>
                 <info>
                     <fig id="fig_access-policies_view-info">
-                        <image href="../_images/gui-screen-shots/access-policy_select.jpg"
+                        <image href="../_images/gui-screen-shots/access-policy_view.png"
                             id="image_wpx_pd4_mq" scale="70"/>
                     </fig>
                     <p>The screen for the selected access policy opens, showing the information
                         configured for it.</p>
                     <fig id="fig_access-policy_view-info">
-                        <image href="../_images/gui-screen-shots/access-policy_view-info.jpg"
+                        <image href="../_images/gui-screen-shots/access-policy_view-info.png"
                             id="image_hy3_dnm_qq" scale="70"/>
                     </fig>
                 </info>
             </step>
             <step>
-                <cmd>Click the <uicontrol>Delete Access Policy</uicontrol> button. The system asks
-                    you to confirm deletion; click <uicontrol>Delete</uicontrol>.</cmd>
+                <cmd>Delete a single rule by clicking the trash can icon next to the rule. Delete an
+                    entire access policy by clicking the <uicontrol>Delete Access Policy</uicontrol>
+                    button. If you try to delete an access policy, the system asks you to confirm
+                    deletion; click <uicontrol>Delete</uicontrol>.</cmd>
             </step>
         </steps>
     </taskbody>

@@ -2,22 +2,28 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_access-policies">
  <title>Access Policies</title>
- <shortdesc>Access policies let you characterize rightful access in terms of user authorizations and
+ <shortdesc>Access policies let you characterize rightful access in terms of user authorization and
     data visibility.</shortdesc>
  <conbody>
     <p conref="../_glossary/con_glossary.xml#concept_glossary/access-policy"/>
     <p>To create an access policy, you define one or more access rules. Each rule has three parts. </p>
     <ul id="ul_l4z_2dm_lq">
-      <li><keyword>Subject</keyword> specifies who may access the data. Access is characterized in
-        terms of user authorizations. <xref
-          href="../users/con_user-authorizations.xml#concept_user-authorizations">Tell me about user
-          authorizations.</xref></li>
-      <li><keyword>Action</keyword> specifies what action authorized users may take to interact with
-        the data. </li>
-      <li><keyword>Object</keyword> specifies what kind of data for which the access is being
-        granted. The data is specified in terms of data visibility. <xref
-          href="../data_visibilities/con_data-visibilities.xml#concept_data-visibilities">Tell me
-          about data visibilities.</xref></li>
+      <li>
+        <p><keyword>Subject</keyword> specifies who may access the data. Access is characterized in
+          terms of user authorizations. </p>
+        <p><xref href="../users/con_user-authorizations.xml#concept_user-authorizations">Tell me
+            about user authorizations.</xref></p>
+      </li>
+      <li>
+        <p><keyword>Action</keyword> specifies what action authorized users may take to interact
+          with the data.</p>
+      </li>
+      <li>
+        <p><keyword>Object</keyword> specifies what kind of data for which the access is being
+          granted. The data is specified in terms of data visibility. </p>
+        <p><xref href="../data_visibilities/con_data-visibilities.xml#concept_data-visibilities"
+            >Tell me about data visibilities.</xref></p>
+      </li>
     </ul>
     <p> A access policy is matched when the request satisfies at least one access rule in the
       policy. A rule is satisfied if the user making the request has one of the authorizations

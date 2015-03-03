@@ -4,8 +4,8 @@
  <title>System Metrics</title>
  <topicref href="con_system-metrics.xml">
   <topicref href="task_view-global-metrics.xml"/>
-  <topicref href="task_view-data-source-metrics.xml"/>
-  <topicref href="task_view-sys-perf-metrics.xml"/>
+  <topicref href="task_view-data-metrics.xml"/>
+  <topicref href="task_view-sys-perf.xml"/>
   <topicref href="task_monitor-system-tasks.xml"/>
  </topicref>
 </map>

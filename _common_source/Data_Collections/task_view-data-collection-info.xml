@@ -10,9 +10,9 @@
         <steps>
             <step>
                 <cmd>Open the <uicontrol>Data Collections</uicontrol> page, by clicking the
-                        <uicontrol>Data Collections</uicontrol> icon. <image
-                        href="../_images/gui-screen-shots/icon_data-collections.png"
-                        id="image_fmr_wzn_mq" scale="50"/> in the left navigation bar.</cmd>
+                        <uicontrol>Data Collections</uicontrol> icon in the left navigation bar.
+                        <image href="../_images/gui-screen-shots/icon_data-collections.png"
+                        id="image_fmr_wzn_mq" scale="50"/></cmd>
                 <info>
                     <p>The <wintitle>Data Collections</wintitle> page opens showing defined data
                         categories.</p>
@@ -34,27 +34,32 @@
                 </info>
             </step>
             <step>
-                <cmd>Click the data collection name. The page for the data collection opens on the
-                        <wintitle>Data Policy</wintitle> screen. </cmd>
+                <cmd>Click the data collection name. The page for the data collection opens showing
+                    the <wintitle>Data Policy</wintitle> screen. </cmd>
                 <info>
                     <fig id="fig_data-policy-cmplt">
                         <image
                             href="../_images/gui-screen-shots/data-collections_data-policy_cmplt.png"
-                            id="image_i2r_ck4_1r" scale="50"/>
+                            id="image_i2r_ck4_1r" scale="60"/>
                     </fig>
                 </info>
             </step>
             <step>
                 <cmd>Do any of the following:</cmd>
                 <choices id="choices_vbd_p24_mq">
-                    <choice>View data policy information on the <wintitle>Data Policy</wintitle>
-                        tab.</choice>
-                    <choice>See the DPF associated with this data collection by clicking the
-                            <uicontrol>Data Processing Function</uicontrol> tab to .</choice>
-                    <choice>Access a screen where you can manually ingest files by clicking the
-                            <uicontrol>Ingest Data</uicontrol> tab. <xref
-                            href="task_manually-ingest-data.xml#task_manually-ingest-data">How do I
-                            manually ingest files?</xref></choice>
+                    <choice>
+                        <p>View data policy information on the <wintitle>Data Policy</wintitle>
+                            tab.</p>
+                    </choice>
+                    <choice>
+                        <p>See the DPF associated with this data collection or change when DPF
+                            processing occurs by clicking the <uicontrol>Data Processing
+                                Function</uicontrol> tab.</p>
+                    </choice>
+                    <choice>
+                        <p>Access a screen where you can manually ingest files by clicking the
+                                <uicontrol>Ingest Data</uicontrol> tab.</p>
+                    </choice>
                 </choices>
             </step>
         </steps>
