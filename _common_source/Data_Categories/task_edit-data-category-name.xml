@@ -27,7 +27,7 @@
                 <cmd>Click the <uicontrol>Data Categories</uicontrol> tab.</cmd>
                 <info>The <wintitle>Data Categories</wintitle> screen opens. <fig
                         id="fig_data-categories">
-                        <image href="../_images/gui-screen-shots/data-categories.jpg"
+                        <image href="../_images/gui-screen-shots/data-categories.png"
                             id="image_mc5_xg4_mq" scale="50"/>
                     </fig></info>
             </step>
@@ -35,12 +35,12 @@
                 <cmd>At the right side of the <uicontrol>Choose Category to Edit</uicontrol> field,
                     click the drop-down list and select the category you want to edit. </cmd>
                 <info><fig id="fig_data-categories_system-config">
-                        <image href="../_images/gui-screen-shots/data-categories_system-config.jpg"
+                        <image href="../_images/gui-screen-shots/data-categories_view.png"
                             id="image_ptj_3c4_mq" scale="50"/>
                     </fig>The <wintitle>Category Details</wintitle> screen opens. <fig
-                        id="fig_category-details">
-                        <image href="../_images/gui-screen-shots/data-category_details.jpg"
-                            id="image_fyk_hbm_sq" scale="50"/>
+                        id="fig_data-category-details">
+                        <image href="../_images/gui-screen-shots/data-categories_details.png"
+                            id="image_smd_qh4_mq" scale="50"/>
                     </fig></info>
             </step>
             <step>

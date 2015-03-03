@@ -33,28 +33,25 @@
                     </fig></info>
             </step>
             <step>
-                <cmd/>
+                <cmd>In the <uicontrol>Choose Category to Edit</uicontrol> field, click the
+                    drop-down arrow to see the list of defined data categories. </cmd>
                 <info>
-                    <p>In the <uicontrol>Choose Category to Edit</uicontrol> field, click the
-                        drop-down arrow to see the list of defined data categories. </p>
                     <fig id="fig_gsk_tmk_gr">
-                        <image href="../_images/gui-screen-shots/data-categories_system-config.jpg"
+                        <image href="../_images/gui-screen-shots/data-categories_view.png"
                             scale="50" id="image_rtk_tmk_gr"/>
                     </fig>
                 </info>
             </step>
+            <stepsection>You can also view data categories from the <wintitle>Data
+                    Collections</wintitle> page.</stepsection>
             <step>
                 <cmd>Open the <uicontrol>Data Collections</uicontrol> screen, by clicking the
                         <uicontrol>Data Collections</uicontrol> icon in the left navigation bar.
                         <image href="../_images/gui-screen-shots/icon_system-config.png"
                         id="image_fmr_wzn_mq" scale="50"/></cmd>
                 <info>
-                    <fig id="fig_qnx_bmk_gr">
-                        <image href="../_images/gui-screen-shots/password-policy.png" scale="50"
-                            id="image_i4x_bmk_gr"/>
-                    </fig>
-                    <p>The <wintitle>Data Collections</wintitle> page opens showing the defined data
-                        categories.</p>
+                    <p>The <wintitle>Data Collections</wintitle> page opens, showing all defined
+                        data categories.</p>
                     <fig id="fig_data-sources">
                         <image href="../_images/gui-screen-shots/data-collections.png"
                             id="image_hmp_55r_3q" scale="70"/>
@@ -62,16 +59,5 @@
                 </info>
             </step>
         </steps>
-        <result>
-            <p>Open the <uicontrol>System Configuration</uicontrol> screen, by clicking the
-                    <uicontrol>System Configuration</uicontrol> icon. Then click the <uicontrol>Data
-                    Categories</uicontrol> tab to open the <wintitle>Data Categories</wintitle>
-                screen. At the right side of the <uicontrol>Choose Category to Edit</uicontrol>
-                field, click the drop-down list to see the list of defined data categories. </p>
-            <fig id="data-category_sysconfig">
-                <image href="../_images/gui-screen-shots/data-categories_system-config.jpg"
-                    id="image_ptj_3c4_mq" scale="50"/>
-            </fig>
-        </result>
     </taskbody>
 </task>

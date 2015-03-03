@@ -8,7 +8,7 @@
   <p>Each data category can include multiple collections, data systems (such as different
       databases), or data collections. For example, an organization might have a category BILLING,
       which could include data from several different billing systems in the organization. Another
-      might have a category ECG, which might contain electrocardiograms from different data
+      might have a category GENOMICS, which might contain genomic data from different data
       sources.</p>
  </conbody>
 </concept>

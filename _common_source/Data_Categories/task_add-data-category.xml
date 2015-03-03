@@ -6,8 +6,7 @@
             <wintitle>System Configuration</wintitle> page.</shortdesc>
     <taskbody>
         <context>
-            <p>Datasource categories are configured by the PHEMI Administrator. To add a data
-                category:</p>
+            <p>To add a data category:</p>
         </context>
         <steps id="steps_dwd_rnx_kq">
             <step>
@@ -25,7 +24,7 @@
                 <cmd>Click the <uicontrol>Data Categories</uicontrol> tab.</cmd>
                 <info>The <wintitle>Data Categories</wintitle> screen opens.<fig
                         id="fig_data-categories">
-                        <image href="../_images/gui-screen-shots/data-categories.jpg"
+                        <image href="../_images/gui-screen-shots/data-categories.png"
                             id="image_mc5_xg4_mq" scale="50"/>
                     </fig></info>
             </step>
@@ -35,7 +34,7 @@
                     <p>The <wintitle>Data Categories</wintitle> screen expands to show the
                             <wintitle>Category Details</wintitle> area.</p>
                     <fig id="fig_data-category-details">
-                        <image href="../_images/gui-screen-shots/data-categories_details.jpg"
+                        <image href="../_images/gui-screen-shots/data-categories_details.png"
                             id="image_smd_qh4_mq" scale="50"/>
                     </fig>
                 </info>
