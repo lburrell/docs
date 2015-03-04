@@ -22,7 +22,7 @@
             <step>
                 <cmd>Click the drop-down arrow and select <uicontrol>Logout</uicontrol>. You are
                     logged off the <ph conkeyref="product-vars/gui-name"/> and the
-                        <wintitle>Login</wintitle> screen reopens.</cmd>
+                        <wintitle>Login</wintitle> screen opens.</cmd>
                 <info>
                     <fig id="fig_login-screen">
                         <image href="../_images/gui-screen-shots/login_screen.png"

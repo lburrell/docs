@@ -11,7 +11,7 @@
             <step>
                 <cmd>Open the <uicontrol>Manage Users</uicontrol> page, by clicking the
                         <uicontrol>Users</uicontrol> icon in the left navigation bar. <image
-                        href="../_images/gui-screen-shots/icon_users.JPG" id="image_ljq_qln_jq"
+                        href="../_images/gui-screen-shots/icon_users.png" id="image_lg1_skn_jq"
                         scale="50"/>
                 </cmd>
                 <info>
@@ -32,7 +32,7 @@
             </step>
             <step>
                 <cmd>Click the <uicontrol>Modify</uicontrol> button.</cmd>
-                <info>The <wintitle>Edit User</wintitle>screen opens. <fig id="fig_edit-user">
+                <info>The <wintitle>Edit User</wintitle>dialog opens. <fig id="fig_edit-user">
                         <image href="../_images/gui-screen-shots/users_modify.png"
                             id="image_ztr_tln_jq" scale="70"/>
                     </fig></info>

@@ -12,9 +12,8 @@
             <step>
                 <cmd>Open the <uicontrol>Manage Users</uicontrol> page, by clicking the
                         <uicontrol>Users</uicontrol> icon in the left navigation bar. <image
-                        href="../_images/gui-screen-shots/icon_users.JPG" id="image_svp_vkn_jq"
-                        scale="50"/>
-                </cmd>
+                        href="../_images/gui-screen-shots/icon_users.png" id="image_lg1_skn_jq"
+                        scale="50"/></cmd>
                 <info>The <wintitle>Manage Users</wintitle> page lists all users defined in the
                     system so far.<fig id="fig_manage-users">
                         <image href="../_images/gui-screen-shots/users_manage-users.png"
@@ -23,7 +22,7 @@
             </step>
             <step>
                 <cmd>Click the <uicontrol>Create User</uicontrol> button.</cmd>
-                <info>The <wintitle>Create a New User</wintitle> window opens. <fig
+                <info>The <wintitle>Create a New User</wintitle> dialog opens. <fig
                         id="fig_create-new-user">
                         <image href="../_images/gui-screen-shots/users_create-new-user.png"
                             id="image_h44_ykn_jq" scale="70"/>

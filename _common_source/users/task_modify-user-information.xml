@@ -12,7 +12,7 @@
             <step>
                 <cmd>Open the <uicontrol>Manage Users</uicontrol> page, by clicking the
                         <uicontrol>Users</uicontrol> icon in the left navigation bar. <image
-                        href="../_images/gui-screen-shots/icon_users.JPG" id="image_vgg_kln_jq"
+                        href="../_images/gui-screen-shots/icon_users.png" id="image_lg1_skn_jq"
                         scale="50"/></cmd>
                 <info>
                     <fig id="fig_manage-users">
@@ -33,7 +33,7 @@
             <step>
                 <cmd>Click the <uicontrol>Modify</uicontrol> button.</cmd>
                 <info>
-                    <p>The <wintitle>Edit User</wintitle> screen opens. </p>
+                    <p>The <wintitle>Edit User</wintitle> dialog opens. </p>
                     <p><xref
                             href="task_create-new-user.xml#task_create-new-user/choicetable_user-info"
                             >What do these fields mean?</xref></p>
