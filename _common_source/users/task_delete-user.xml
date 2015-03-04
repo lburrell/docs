@@ -16,7 +16,7 @@
                 </cmd>
                 <info>
                     <fig id="fig_manage-users">
-                        <image href="../_images/gui-screen-shots/users_manage-users.jpg"
+                        <image href="../_images/gui-screen-shots/users_manage-users.png"
                             id="image_lx5_rln_jq" scale="70"/>
                     </fig>
                 </info>
@@ -25,15 +25,15 @@
                 <cmd>Click the user's name to expand the user record.</cmd>
                 <info>
                     <fig id="fig_view-user-information">
-                        <image href="../_images/gui-screen-shots/users_view-info.jpg"
-                            id="image_qzt_sln_jq" scale="70"/>
+                        <image href="../_images/gui-screen-shots/users_view-info.png"
+                            id="image_qzt_sln_jq" scale="50"/>
                     </fig>
                 </info>
             </step>
             <step>
                 <cmd>Click the <uicontrol>Modify</uicontrol> button.</cmd>
                 <info>The <wintitle>Edit User</wintitle>screen opens. <fig id="fig_edit-user">
-                        <image href="../_images/gui-screen-shots/users_modify.jpg"
+                        <image href="../_images/gui-screen-shots/users_modify.png"
                             id="image_ztr_tln_jq" scale="70"/>
                     </fig></info>
             </step>

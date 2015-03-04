@@ -16,8 +16,8 @@
                         scale="50"/></cmd>
                 <info>
                     <fig id="fig_manage-users">
-                        <image href="../_images/gui-screen-shots/users_manage-users.jpg"
-                            id="image_emw_mln_jq" scale="70"/>
+                        <image href="../_images/gui-screen-shots/users_manage-users.png"
+                            id="image_emw_mln_jq" scale="50"/>
                     </fig>
                 </info>
             </step>
@@ -25,24 +25,28 @@
                 <cmd>Click the user's name to expand the user record.</cmd>
                 <info>
                     <fig id="fig_view-user-information">
-                        <image href="../_images/gui-screen-shots/users_view-info.jpg"
-                            id="image_ipx_nln_jq" scale="70"/>
+                        <image href="../_images/gui-screen-shots/users_view-info.png"
+                            id="image_ipx_nln_jq" scale="50"/>
                     </fig>
                 </info>
             </step>
             <step>
                 <cmd>Click the <uicontrol>Modify</uicontrol> button.</cmd>
-                <info>The <wintitle>Edit User</wintitle>screen opens. <fig id="fig_edit-user">
-                        <image href="../_images/gui-screen-shots/users_modify.jpg"
+                <info>
+                    <p>The <wintitle>Edit User</wintitle> screen opens. </p>
+                    <p><xref
+                            href="task_create-new-user.xml#task_create-new-user/choicetable_user-info"
+                            >What do these fields mean?</xref></p>
+                    <fig id="fig_edit-user">
+                        <image href="../_images/gui-screen-shots/users_modify.png"
                             id="image_qss_4ln_jq" scale="70"/>
-                    </fig></info>
+                    </fig>
+                </info>
             </step>
             <step>
                 <cmd>Modify the user information as necessary. You must confirm the user's password
                     by typing it in both the <uicontrol>Password</uicontrol> and the
-                        <uicontrol>Confirm Password</uicontrol> fields. <xref
-                        href="task_create-new-user.xml#task_create-new-user/choicetable_user-info"
-                        >What do these fields mean?</xref></cmd>
+                        <uicontrol>Confirm Password</uicontrol> fields.</cmd>
             </step>
             <step>
                 <cmd>Save the changes by clicking the <uicontrol>Save User</uicontrol> button. The

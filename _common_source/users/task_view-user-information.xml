@@ -10,22 +10,22 @@
         <steps>
             <step>
                 <cmd>Open the <uicontrol>Manage Users</uicontrol> screen, by clicking the
-                        <uicontrol>Users</uicontrol> icon in the left navigation bar.<image
+                        <uicontrol>Users</uicontrol> icon in the left navigation bar. <image
                         href="../_images/gui-screen-shots/icon_users.JPG" id="image_i5h_1ln_jq"
                         scale="50"/>
                 </cmd>
                 <info>
                     <fig id="fig_manage-users">
-                        <image href="../_images/gui-screen-shots/users_manage-users.jpg"
-                            id="image_g1v_fln_jq" scale="70"/>
+                        <image href="../_images/gui-screen-shots/users_manage-users.png"
+                            id="image_g1v_fln_jq" scale="50"/>
                     </fig>
                 </info>
             </step>
             <step>
                 <cmd>Click the user's name to expand the user record.</cmd>
                 <info><fig id="fig_view-user-information">
-                        <image href="../_images/gui-screen-shots/users_view-info.jpg"
-                            id="image_mbs_gln_jq" scale="70"/>
+                        <image href="../_images/gui-screen-shots/users_view-info.png"
+                            id="image_mbs_gln_jq" scale="50"/>
                     </fig>Click the user's name a second time to collapse the user record
                     again.</info>
             </step>

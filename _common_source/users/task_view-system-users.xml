@@ -14,10 +14,10 @@
                         href="../_images/gui-screen-shots/icon_users.JPG" id="image_lg1_skn_jq"
                         scale="50"/>
                 </cmd>
-                <info>The <wintitle>Manage Users</wintitle> page lists all the users defined on the
-                        system.<fig id="fig_manage-users">
-                        <image href="../_images/gui-screen-shots/users_manage-users.jpg"
-                            id="image_lq2_5kn_jq" scale="70"/>
+                <info>The <wintitle>Manage Users</wintitle> page lists all the users who have been
+                    defined on the system.<fig id="fig_manage-users">
+                        <image href="../_images/gui-screen-shots/users_manage-users.png"
+                            id="image_lq2_5kn_jq" scale="50"/>
                     </fig></info>
             </step>
         </steps>
