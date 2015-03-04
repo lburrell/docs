@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_test-dest-connection">
+    <title>Test a Dataset Destination Connection</title>
+    <shortdesc>You can test the connection for a dataset destination from the <wintitle>Dataset
+            Destinations</wintitle> screen of the <wintitle>System Configuration</wintitle> page. </shortdesc>
+    <taskbody>
+        <context>
+            <p>To test a dataset destination connection:</p>
+        </context>
+        <steps id="steps_nlf_mgs_gr">
+            <step>
+                <cmd>Open the <uicontrol>System Configuration</uicontrol> page, by clicking the
+                        <uicontrol>System Configuration</uicontrol> icon in the left navigation bar.
+                        <image
+                        href="../../_common_source/_images/gui-screen-shots/icon_system-config.png"
+                        id="image_fmr_wzn_mq" scale="50"/></cmd>
+                <info>
+                    <p>The <wintitle>System Configuration</wintitle> page opens on the
+                            <wintitle>Password Policy</wintitle> screen.</p>
+                    <fig id="fig_password-policy">
+                        <image href="../_images/gui-screen-shots/password-policy.png"
+                            id="image_j4l_xkn_jq" scale="50"/>
+                    </fig>
+                </info>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>Dataset Destinations</uicontrol> tab. </cmd>
+                <info>
+                    <p>The <wintitle>Dataset Destinations</wintitle> screen opens.</p>
+                    <fig id="fig_dataset-destinations">
+                        <image href="../_images/gui-screen-shots/dests.png" id="image_s2y_vfm_qq"
+                            scale="50"/>
+                    </fig>
+                </info>
+            </step>
+            <step>
+                <cmd>Click the drop-down arrow at the right of the <uicontrol>Choose Destination to
+                        Edit</uicontrol> field to see configured dataset destinations. Select the
+                    destination you want to test.</cmd>
+                <info>
+                    <fig id="fig_view-dataset-destinations">
+                        <image href="../_images/gui-screen-shots/dests_view.png"
+                            id="image_p2y_zvl_sq" scale="50"/>
+                    </fig>
+                </info>
+            </step>
+            <step>
+                <cmd>The <wintitle>Destination Details</wintitle> screen opens, showing information
+                    for the selected dataset.</cmd>
+                <info>
+                    <fig id="fig_dest-details">
+                        <image
+                            href="../../_common_source/_images/gui-screen-shots/dests_view-info.png"
+                            id="image_lkd_nwh_yq" scale="50"/>
+                    </fig>
+                </info>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>Test Connection</uicontrol> button.</cmd>
+                <info>
+                    <p>The system initiates an attempt to connect with the dataset destination
+                        system. If it connects the system displays a <keyword>Connection
+                            successful</keyword> message. </p>
+                    <fig id="fig_test-dest-connection">
+                        <image href="../_images/gui-screen-shots/dests_test-connection.png"
+                            id="image_ssf_xhs_gr" scale="50"/>
+                    </fig>
+                    <p>If the connection does not succeed, the system opens a diagnostic pane that
+                        displays status and error messages related to the connection attempt.</p>
+                </info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

@@ -6,8 +6,9 @@
         viewing the <wintitle>Audit Log</wintitle>.</shortdesc>
  <conbody>
     <p><ph conkeyref="product-vars/product-name"/> maintains complete a complete audit log of system
-            and user operations. Log entries include all create, modify, and delete operations
-            performed and all data access queries made to the system through any interface. Audit
-            Log files are completely tamperproof for all users. </p>
+                        and user operations. Log entries include all create, modify, and delete
+                        operations performed, as well as all data queries made to the system,
+                        regardless of interface.The Audit Log file is completely tamperproof for all
+                        users. </p>
   </conbody>
 </concept>

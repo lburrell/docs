@@ -25,22 +25,41 @@
                 </info>
             </step>
             <step>
-                <cmd>By default, the <wintitle>Data Metrics</wintitle> pane shows metrics for all
-                    data collections. To view information for a different set of data collections,
-                    click the drop-down arrow in the <wintitle>Data Collections</wintitle> field and
-                    check each data collection you want included in the metrics. If you want to
-                    include all data collections, you can check <wintitle>All</wintitle> to select
-                    them all in one operation.</cmd>
+                <cmd>Select the data collections to include in the query. </cmd>
+                <info>
+                    <p>By default, the <wintitle>Data Metrics</wintitle> pane shows a current
+                        snapshot of data collection metrics and includes the data from all data
+                        collections. To view information for a different set of data collections,
+                        click the drop-down arrow in the <wintitle>Data Collections</wintitle> field
+                        and check each data collection you want included in the metrics. If you want
+                        to include all data collections, check <wintitle>All</wintitle> to select
+                        them all in one operation.</p>
+                </info>
             </step>
             <step>
-                <cmd>Choose the query period: select <wintitle>Now</wintitle> to see a current
-                    snapshot, or select <wintitle>Date Range</wintitle> to specify metrics for an
-                    interval and specify the range of dates. The format for dates is
+                <cmd>Choose the query period. Select <uicontrol>Now</uicontrol> or select
+                        <uicontrol>Date Range</uicontrol> and specify the dates in the format
                         <varname>yyyy</varname><keyword>-</keyword><varname>mm</varname><keyword>-</keyword><varname>dd</varname>.</cmd>
             </step>
             <step>
                 <cmd>Click <uicontrol>Query</uicontrol>.</cmd>
-                <info>The results of your query are displayed below the selection parameters.</info>
+                <info>
+                    <p>The results of your query are displayed below the selection parameters.</p>
+                    <p>If the query period is <wintitle>Now</wintitle>, the system shows the metrics
+                        as a set of ring graphs.</p>
+                    <fig id="fig_data-metrics_now">
+                        <image href="../_images/gui-screen-shots/system-metrics_data_now.png"
+                            id="image_xhk_pks_gr" scale="50"/>
+                    </fig>
+                    <p>When a date range is specified, the system draws an X-Y graph showing
+                        ingestion events for the specified data collections. You can hover your
+                        cursor over an ingestion event to view specific data metrics for each data
+                        collection.</p>
+                    <fig id="fig_data-metrics_range">
+                        <image href="../_images/gui-screen-shots/system-metrics_data_range.png"
+                            id="image_trj_pls_gr" scale="50"/>
+                    </fig>
+                </info>
             </step>
         </steps>
     </taskbody>

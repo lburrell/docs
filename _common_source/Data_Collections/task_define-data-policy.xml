@@ -103,9 +103,9 @@
                         <chdesc>
                             <p>Optional. The data visibility (privacy tag) to be associated with
                                 this data collection. Choose from the list of configured data
-                                visibilities. You can select multiple items by holding down the
-                                    <keyword>Shift</keyword> key. By default, no data visibility is
-                                applied.</p>
+                                visibilities. You may apply zero, one, or many data visibilities;
+                                select multiple items by holding down the <keyword>Shift</keyword>
+                                key. By default, no data visibility is applied.</p>
                         </chdesc>
                     </chrow>
                     <chrow>

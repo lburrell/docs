@@ -6,6 +6,7 @@
   <topicref href="task_view-dataset-destinations.xml"/>
   <topicref href="task_create-dataset-destination.xml"/>
   <topicref href="task_view-dataset-destination-info.xml"/>
+  <topicref href="task_test-dest-connection.xml"/>
   <topicref href="task_modify-dataset-destination-info.xml"/>
   <topicref href="task_delete-dataset-destination.xml"/>
  </topicref>

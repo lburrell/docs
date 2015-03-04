@@ -8,8 +8,8 @@
    classifies the data collection into one of the configured data categories. The data policy also
    lists the users who "own," or are responsible for, various aspects of the information.</p>
   <p>The data policy also specifies the privacy settings for the data collection. It specifies which
-   of the configured data visibilities to attach to data belonging to this collection. The data
-   policy also specifies which access policy (if any) will be used to enforce rightful access to the
+   data visibilities, if any, to attach to data belonging to this collection. The data policy also
+   specifies which access policy (if any) will be used to enforce rightful access to the
    information. All raw data ingested from this data collection, as well as every item of data
    derived from processing this data collection, will be tagged on ingestion with the specified data
    visibility and access policy to protect privacy.</p>
