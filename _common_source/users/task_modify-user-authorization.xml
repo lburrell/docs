@@ -36,7 +36,7 @@
                 <cmd>Location the authorization you want to edit. Click the edit icon in the
                         <uicontrol>Actions</uicontrol> column.</cmd>
                 <info>
-                    <p>The </p>
+                    <p>The <wintitle>Modify Authorization</wintitle> dialog opens.</p>
                     <fig>
                         <image href="../_images/gui-screen-shots/user-authorization_modify.png"
                             id="image_mbj_2rx_wq" scale="70"/>

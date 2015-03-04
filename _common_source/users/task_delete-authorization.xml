@@ -35,7 +35,7 @@
                 <cmd>Locate the authorization you want to delete and click the trash can icon in the
                         <uicontrol>Actions</uicontrol> column. </cmd>
                 <info>
-                    <p>The <wintitle>Delete this Authorization?</wintitle> screen opens.</p>
+                    <p>The <wintitle>Delete this Authorization?</wintitle> dialog opens.</p>
                     <p>Note that user configurations and access policies both depend on user
                         authorizations. The system checks for dependencies before it deletes an
                         authorization, and if one of your users or one of your access policies

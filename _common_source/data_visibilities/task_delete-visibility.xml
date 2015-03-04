@@ -35,7 +35,7 @@
                 <cmd>Locate the data visibility you want to delete and click the trash can icon in
                     the <uicontrol>Rearrangement</uicontrol> column. </cmd>
                 <info>
-                    <p>The <wintitle>Delete this Visibility?</wintitle> screen opens.</p>
+                    <p>The <wintitle>Delete this Visibility?</wintitle> dialog opens.</p>
                     <p>Note that data collection configurations and access policies both depend on
                         data visibilities. The system checks for dependencies before it deletes a
                         visibility, and if one of your data collections or one of your access

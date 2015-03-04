@@ -36,7 +36,7 @@
             <step>
                 <cmd>Click the <uicontrol>Create Visibility</uicontrol> button. </cmd>
                 <info>
-                    <p>The <wintitle>Create Visibility</wintitle> screen opens.</p>
+                    <p>The <wintitle>Create Visibility</wintitle> dialog opens.</p>
                     <fig id="fig_create-visibility">
                         <image href="../_images/gui-screen-shots/data-visibility_create.png"
                             scale="50" id="image_mtd_ywk_gr"/>

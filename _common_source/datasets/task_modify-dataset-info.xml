@@ -40,7 +40,6 @@
                     <p><xref
                             href="task_define-dataset.xml#task_define-new-dataset/choicetable_define-dataset"
                             >What do these fields mean?</xref></p>
-                    <p/>
                     <p>Click <uicontrol>Save Dataset</uicontrol> to save your changes. The system
                         confirms when the dataset has been successfully saved. Click
                             <uicontrol>Close</uicontrol> to dismiss the dataset information

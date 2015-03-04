@@ -35,7 +35,7 @@
                 <cmd>Locate the data visibility you want to change and click the edit icon in the
                         <uicontrol>Rearrangement</uicontrol> column. </cmd>
                 <info>
-                    <p>The <wintitle>Modify Visibility</wintitle> screen opens.</p>
+                    <p>The <wintitle>Modify Visibility</wintitle> dialog opens.</p>
                     <fig id="fig_modify-visibility">
                         <image href="../_images/gui-screen-shots/data-visibility_modify.png"
                             scale="50" id="image_mtd_ywk_gr"/>

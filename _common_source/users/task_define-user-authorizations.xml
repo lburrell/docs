@@ -42,7 +42,7 @@
             </step>
             <step>
                 <cmd>Cick the <uicontrol>Create Authorization</uicontrol> button.</cmd>
-                <info>The <wintitle>Create Authorization</wintitle> screen opens. <fig
+                <info>The <wintitle>Create Authorization</wintitle> dialog opens. <fig
                         id="fig_create-auth">
                         <image href="../_images/gui-screen-shots/user-authorization_create.png"
                             id="image_jlm_wrx_wq" scale="70"/>

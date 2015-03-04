@@ -82,8 +82,10 @@
                         <chdesc>
                             <p>Optional. The access policy to protect the dataset. The access policy
                                 selected for the dataset may be different from any applied to the
-                                constituent data collection(s). By default, the first configured
-                                access policy is applied.</p>
+                                constituent data collection(s). </p>
+                            <p>If you apply an access policy to a dataset, the dataset access policy
+                                overrides any access policy applied to constituent data collections.
+                                The access policies for the collections are bypassed.</p>
                         </chdesc>
                     </chrow>
                     <chrow>
