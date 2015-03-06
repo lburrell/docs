@@ -5,8 +5,6 @@
  <conbody>
   <p>You can use the <ph conkeyref="product-vars/gui-name"/> to manually ingest data objects into
         <ph conkeyref="product-vars/product-name"/>. </p>
-        <p><xref href="../Data_Collections/task_manually-ingest-data.xml#task_manually-ingest-data"
-                >How?</xref></p>
   <p>Manual upload is a good method when you have very large amounts of data such that HTTP/REST is
       not suitable (for example, gigabytes or terabytes of data), and/or data that needs to be
       ingested relatively infrequently. </p>
