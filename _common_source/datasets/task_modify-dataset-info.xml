@@ -6,8 +6,8 @@
         page.</shortdesc>
     <taskbody>
         <prereq>
-            <note> Only users with a role of <ph conkeyref="product-vars/admin"/> can modify a
-                dataset definition. </note>
+            <note> Only users with a role of <ph conkeyref="role-vars/admin"/> can modify a dataset
+                definition. </note>
         </prereq>
         <context>
             <p>To see information for a dataset:</p>

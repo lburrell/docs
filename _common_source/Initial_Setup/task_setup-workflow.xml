@@ -3,8 +3,8 @@
 <task id="task_initial-config-workflow">
     <title>Initial Configuration Workflow</title>
     <shortdesc>Since some configuration tasks must be completed before others can be performed, the
-            <ph conkeyref="product-vars/admin"/> can use the workflow in this section to configure
-            <ph conkeyref="product-vars/product-name"/>.</shortdesc>
+            <ph conkeyref="role-vars/admin"/> can use the workflow in this section to configure <ph
+            conkeyref="product-vars/product-name"/>.</shortdesc>
     <taskbody>
         <prereq/>
         <steps>
@@ -23,10 +23,9 @@
             </step>
             <step>
                 <cmd><xref href="../../_common_source/users/con_users.xml">Create users.</xref>
-                    Create at least one user with a role of <ph conkeyref="product-vars/admin"/>, at
-                    least one user with a role of <ph conkeyref="product-vars/privacy-officer"/>,
-                    and at least one user with a role of <ph conkeyref="product-vars/data-analyst"
-                    />. </cmd>
+                    Create at least one user with a role of <ph conkeyref="role-vars/admin"/>, at
+                    least one user with a role of <ph conkeyref="role-vars/privacy-officer"/>, and
+                    at least one user with a role of <ph conkeyref="role-vars/data-analyst"/>. </cmd>
             </step>
             <step>
                 <cmd><xref href="../../_common_source/data_visibilities/con_data-visibilities.xml"
@@ -54,11 +53,11 @@
                         href="../../_common_source/Data_Collections/con_data-collections.xml#concept_data-collections"
                         >Set up your data collections.</xref></cmd>
             </step>
-            <stepsection>It is the <ph conkeyref="product-vars/data-analyst"/>, not the <ph
-                    conkeyref="product-vars/admin"/>, who executes and exports datasets. However,
+            <stepsection>It is the <ph conkeyref="role-vars/data-analyst"/>, not the <ph
+                    conkeyref="role-vars/admin"/>, who executes and exports datasets. However,
                 constructing datasets from available data elements and configuring dataset export
                 destinations is part of system configuration, and these tasks are performed by the
-                    <ph conkeyref="product-vars/admin"/>.</stepsection>
+                    <ph conkeyref="role-vars/admin"/>.</stepsection>
             <step>
                 <cmd><xref href="../../_common_source/datasets/con_datasets.xml#concept_datasets"
                         >Build datasets.</xref></cmd>

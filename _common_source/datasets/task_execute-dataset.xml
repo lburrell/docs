@@ -6,8 +6,8 @@
         page.</shortdesc>
     <taskbody>
         <prereq>
-            <note> Only users with a role of <ph conkeyref="product-vars/data-analyst"/> can execute
-                a dataset. </note>
+            <note> Only users with a role of <ph conkeyref="role-vars/data-analyst"/> can execute a
+                dataset. </note>
         </prereq>
         <context>
             <p>To see what datasets are available:</p>
@@ -32,9 +32,9 @@
                         <uicontrol>Select/Deselect All</uicontrol> to select all the datasets.</cmd>
                 <info>
                     <p>You will only be able to select datasets that the <ph
-                            conkeyref="product-vars/admin"/> has designated as available to you in
-                        the dataset definition.  If a dataset has not been made available to you,
-                        you will see it in the list but it will be marked as <keyword>not
+                            conkeyref="role-vars/admin"/> has designated as available to you in the
+                        dataset definition. If a dataset has not been made available to you, you
+                        will see it in the list but it will be marked as <keyword>not
                             authorized</keyword>.</p>
                     <p>If you do have access to a dataset, you may not have access to all the data.
                         The data you are able to see will be constrained by your user authorization

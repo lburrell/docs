@@ -9,9 +9,9 @@
   <ul id="ul_syt_3lb_dr">
    <li>
     <p><b>Role Based Access Control (RBAC)</b>—User roles determine what operations a user can
-          perform. For example, only users with a role of <ph conkeyref="product-vars/admin"/> can
-          configure the system and construct datasets, while only users with a role of <ph
-            conkeyref="product-vars/data-analyst"/> can query data and execute or export a dataset. </p>
+     perform. For example, only users with a role of <ph conkeyref="role-vars/admin"/> can configure
+     the system and construct datasets, while only users with a role of <ph
+      conkeyref="role-vars/data-analyst"/> can query data and execute or export a dataset. </p>
    </li>
    <li>
     <p><b>Configurable Password Policy</b>—<ph conkeyref="product-vars/product-name"/> allows you to

@@ -11,12 +11,12 @@
    <ph conkeyref="product-vars/gui-name"/> you can access, and therefore what icons appear in the
    left navigation bar. Different roles have access to different parts of the <ph
     conkeyref="product-vars/gui-name"/>.</p>
-  <p>Note also that <ph conkeyref="product-vars/privacy-officer"/>s do not have any functional
+  <p>Note also that <ph conkeyref="role-vars/privacy-officer"/>s do not have any functional
    capabilities in the <ph conkeyref="product-vars/gui-name"/>. However, <ph
-    conkeyref="product-vars/privacy-officer"/>s are considered to have some ownership responsibility
+    conkeyref="role-vars/privacy-officer"/>s are considered to have some ownership responsibility
    for data, and are therefore named as one of the "owners" of a data collection. For this reason,
-   you must configure at least one <ph conkeyref="product-vars/privacy-officer"/> in order to be
-   able to define a data collection.</p>
+   you must configure at least one <ph conkeyref="role-vars/privacy-officer"/> in order to be able
+   to define a data collection.</p>
   <table frame="all" rowsep="1" colsep="1" id="table_z34_pfw_1r">
    <title/>
    <tgroup cols="3">
@@ -42,7 +42,7 @@
         id="image_gbs_yfw_1r"/><p>Data Collections</p></entry>
       <entry>Manage data collections; manually ingest files.</entry>
       <entry>
-       <p><ph conkeyref="product-vars/admin"/>.</p>
+       <p><ph conkeyref="role-vars/admin"/>.</p>
       </entry>
      </row>
      <row>
@@ -50,8 +50,8 @@
        <p>Datasets</p></entry>
       <entry>Build datasets; execute datasets; export datasets.</entry>
       <entry>
-       <p><ph conkeyref="product-vars/admin"/> to define datasets.</p>
-       <p><ph conkeyref="product-vars/data-analyst"/> to execute and export datasets.</p>
+       <p><ph conkeyref="role-vars/admin"/> to define datasets.</p>
+       <p><ph conkeyref="role-vars/data-analyst"/> to execute and export datasets.</p>
       </entry>
      </row>
      <row>
@@ -59,7 +59,7 @@
         id="image_ksc_1gw_1r"/><p>Access Policy Builder</p></entry>
       <entry>Define access policies.</entry>
       <entry>
-       <p><ph conkeyref="product-vars/admin"/>.</p>
+       <p><ph conkeyref="role-vars/admin"/>.</p>
       </entry>
      </row>
      <row>
@@ -67,7 +67,7 @@
        <p>System Metrics</p></entry>
       <entry>View metrics about data collections, system performance, and tasks.</entry>
       <entry>
-       <p><ph conkeyref="product-vars/admin"/>.</p>
+       <p><ph conkeyref="role-vars/admin"/>.</p>
       </entry>
      </row>
      <row>
@@ -75,7 +75,7 @@
         /><p>Users</p></entry>
       <entry>Manage <ph conkeyref="product-vars/product-name"/> users.</entry>
       <entry>
-       <p><ph conkeyref="product-vars/admin"/>.</p>
+       <p><ph conkeyref="role-vars/admin"/>.</p>
       </entry>
      </row>
      <row>
@@ -83,7 +83,7 @@
         /><p>Object Browser</p></entry>
       <entry>View or delete individual objects stored in <ph conkeyref="product-vars/product-name"
        />.</entry>
-      <entry><ph conkeyref="product-vars/admin"/>.</entry>
+      <entry><ph conkeyref="role-vars/admin"/>.</entry>
      </row>
      <row>
       <entry><image href="../_images/gui-screen-shots/icon_audit-log.png" id="image_bfr_1gw_1r"
@@ -91,7 +91,7 @@
       <entry>Monitor what operations have been performed from and what data requests have been made
        of <ph conkeyref="product-vars/product-name"/>. </entry>
       <entry>
-       <p><ph conkeyref="product-vars/admin"/>.</p>
+       <p><ph conkeyref="role-vars/admin"/>.</p>
       </entry>
      </row>
     </tbody>

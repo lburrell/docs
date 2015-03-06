@@ -21,7 +21,7 @@
     <tbody>
      <row>
       <entry>
-       <p><ph conkeyref="product-vars/admin"/></p>
+       <p><ph conkeyref="role-vars/admin"/></p>
       </entry>
       <entry>
        <p>Configures  <ph conkeyref="product-vars/product-name"/> and configures access to data.</p>

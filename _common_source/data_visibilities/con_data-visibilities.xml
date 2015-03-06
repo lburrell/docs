@@ -12,8 +12,8 @@
    <xref
     href="../Privacy_Security_Governance/task_define-governance-policy.xml#task_define-governance-policy"
     >How do I define a governance policy?</xref></p>
-  <p>Working from the governance policy, the <ph conkeyref="product-vars/admin"/> configures data
-   visibilities as part of system configuration.</p>
+  <p>Working from the governance policy, the <ph conkeyref="role-vars/admin"/> configures data
+      visibilities as part of system configuration.</p>
   <p>You can define data visibilities to suit your organization's needs. Possible examples are
    CONFIDENTIAL to identify data that is sensitive and requires a user to a certain level of access
    or certification to access, PII to identify Personally Identifiable Information, PHI to identify

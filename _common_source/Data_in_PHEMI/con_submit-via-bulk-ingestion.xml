@@ -5,9 +5,9 @@
  <shortdesc/>
  <conbody>
   <p>Batch ingest of data is extremely fast. You configure a secure FTP or an SSH connection to
-   allow a system to write data to a temporary landing space within <ph
-    conkeyref="product-vars/product-name"/>. <ph conkeyref="corp-vars/prof-services"/> will help you
-   get this set up.</p>
+      allow a system to write data to a temporary landing space within <ph
+        conkeyref="product-vars/product-name"/>. <ph conkeyref="role-vars/prof-services"/> will help
+      you get this set up.</p>
   <p>You can trigger the bulk ingest process remotely or you can use a scheduled task such as a
     <keyword>cron</keyword> job. Triggering the process launches a MapReduce job that inserts the
    bulk data into <ph conkeyref="product-vars/product-name"/> at a very fast rate. The temporary

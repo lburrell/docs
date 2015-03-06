@@ -15,8 +15,8 @@
     <p>To be able to configure users, you must first configure user authorizations.   <xref
         href="../users/con_user-authorizations.xml">How?</xref>
     </p>
-    <p>Your users must include at least one user with a role of <ph conkeyref="product-vars/admin"/>
-      and at least one user with a role of <ph conkeyref="product-vars/privacy-officer"/>. </p>
+    <p>Your users must include at least one user with a role of <ph conkeyref="role-vars/admin"/>
+      and at least one user with a role of <ph conkeyref="role-vars/privacy-officer"/>. </p>
     <p>If you are applying an access policy to the data collection, you must first configure the
       access policy.  <xref href="../access_policies/con_access-policies.xml">How?</xref></p>
   <p>When you first define a data collection, only the <wintitle>Data Policy</wintitle> screen is

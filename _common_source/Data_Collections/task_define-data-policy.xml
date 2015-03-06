@@ -70,8 +70,8 @@
                         <chdesc>
                             <p>Mandatory. The individual responsible overall for data stored in <ph
                                     conkeyref="product-vars/product-name"/>. Only users with a role
-                                of <ph conkeyref="product-vars/admin"/> are eligible. Choose from
-                                the drop-down list of eligible users.</p>
+                                of <ph conkeyref="role-vars/admin"/> are eligible. Choose from the
+                                drop-down list of eligible users.</p>
                         </chdesc>
                     </chrow>
                     <chrow>
@@ -81,8 +81,8 @@
                         <chdesc>
                             <p>Mandatory. The individual responsible for defining the organization's
                                 governance policy and for approving access policies. Only users with
-                                a role of <ph conkeyref="product-vars/privacy-officer"/> are
-                                eligible. Choose from the drop-down list of eligible users.</p>
+                                a role of <ph conkeyref="role-vars/data-analyst"/> are eligible.
+                                Choose from the drop-down list of eligible users.</p>
                         </chdesc>
                     </chrow>
                     <chrow>
@@ -92,7 +92,7 @@
                         <chdesc>
                             <p>Mandatory. The individual responsible for approving dataset requests
                                 involving this data collection. Only users with a role of <ph
-                                    conkeyref="product-vars/admin"/> are eligible. Choose from the
+                                    conkeyref="role-vars/admin"/> are eligible. Choose from the
                                 drop-down list of eligible users.</p>
                         </chdesc>
                     </chrow>

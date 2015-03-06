@@ -35,7 +35,7 @@
           Processing Function that can de-identify, encrypt, redact, or mask any data element. A DPF
           can even include sophisticated data dependency algorithms to reduce the risk of
           re-identification. </p>
-        <p>A <ph conkeyref="product-vars/admin"/> can also construct datasets that strip out
+        <p>A <ph conkeyref="role-vars/admin"/> can also construct datasets that strip out
           identifying data elements. Centralizing anonymization and de-identification helps reduce
           data sprawl and reduces the risk of data consistency errors. </p>
    </li>

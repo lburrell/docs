@@ -2,6 +2,6 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
  <title>Filter Expressions</title>
- <keydef keys="product-vars" href="../_Variables/PHEMI_Central/con_Product-Vars.xml"/>
+ <keydef keys="product-vars" href="../_Variables/Product_Vars/PHEMI_Central/con_Product-Vars.xml"/>
  <topicref href="ref_filter-expressions.xml"/>
 </map>

@@ -10,9 +10,9 @@
    using any available data elements, across multiple and disparate data collections. They can be
    created in advance or on demand, and they can be altered whenever circumstances dictate. You
    don't have to predefine the data and you don't have to navigate a complex database schema. </p>
-  <p> To be able to define a dataset, a user must have a role of <ph conkeyref="product-vars/admin"
-   />. To be able to execute or export a dataset, a user must have a role of <ph
-    conkeyref="product-vars/data-analyst"/>. </p>
+  <p> To be able to define a dataset, a user must have a role of <ph conkeyref="role-vars/admin"/>.
+   To be able to execute or export a dataset, a user must have a role of <ph
+    conkeyref="role-vars/data-analyst"/>. </p>
   <p>Datasets are instantiated only when they are executed. Datasets can be executed directly by
    users and downloaded or exported to spreadsheets, applications, or analytics tools. Because all
    data is indexed and cataloged in advance, dataset execution is fast.</p>

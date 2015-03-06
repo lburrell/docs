@@ -24,9 +24,9 @@
         restricted to accessing only the de-identified or nonidentified data.</li>
     </ul>
     <p>A user can be assigned multiple authorizations. User authorizations are set by the <ph
-        conkeyref="product-vars/admin"/> during system configuration. </p>
+        conkeyref="role-vars/admin"/> during system configuration. </p>
     <p>All users are assigned the predefined PUBLIC authorization by default. The PUBLIC
-      authorization can subsequently be removed by the <ph conkeyref="product-vars/admin"/>.</p>
+      authorization can subsequently be removed by the <ph conkeyref="role-vars/admin"/>.</p>
     <note>Once defined, a user authorization name cannot be changed. To change the authorization
       name, you must delete the authorization and recreate it with the new name.</note>
   </conbody>
