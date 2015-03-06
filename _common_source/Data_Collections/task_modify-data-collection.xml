@@ -54,7 +54,7 @@
                     </choice>
                     <choice>
                         <p>Click the <uicontrol>Data Processing Function</uicontrol> tab to change
-                            the DPF associated with this data collection. </p>
+                            the DPF configuration. </p>
                         <p><xref href="task_define-dpf.xml#task_define-dpf">What do these fields
                                 mean?</xref></p>
                     </choice>
@@ -62,8 +62,8 @@
                         <p>Click the <uicontrol>Ingest Data</uicontrol> tab to access a screen where
                             you can manually ingest files.</p>
                         <p>
-                            <xref href="task_manually-ingest-data.xml#task_manually-ingest-data"
-                                >What do these fields mean?</xref></p>
+                            <xref href="task_manually-ingest-data.xml#task_manually-ingest-data">How
+                                do I manually ingest data?</xref></p>
                     </choice>
                 </choices>
             </step>

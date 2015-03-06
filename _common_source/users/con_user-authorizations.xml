@@ -7,6 +7,10 @@
     <p>User authorizations are used together with data visibilities to create access policies. The
       access policy matches the authorization against the data visibility to determine what action,
       if any, a user may take with respect to accessing the data. </p>
+    <p><xref href="../data_visibilities/con_data-visibilities.xml#concept_data-visibilities">Tell me
+        about data visibilities.</xref>
+      <xref href="../access_policies/con_access-policies.xml#concept_access-policies">Tell me about
+        access policies.</xref></p>
     <p>Some examples of possible user authorizations are as follows: </p>
     <ul id="ul_lsz_53w_kq">
       <li><keyword>C_LEVEL</keyword>: The user is a C-Level individual (for example, CEO, COO, CIO,

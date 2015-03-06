@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_sys-dpf_excel">
+ <title>VCF DPF</title>
+ <shortdesc>The VCF DPF processes a VCF file.</shortdesc>
+ <conbody>
+    <p conref="../_glossary/con_glossary.xml#concept_glossary/vcf"/>
+  <p>Because a VCF data file is typically so large (on the order of gigabytes), a VCF file is always
+   parsed into records while the file is being ingested. If you monitor ingestion of a VCF file
+   (using the <uicontrol>Task Monitoring</uicontrol> pane of the <uicontrol>System
+    Metrics</uicontrol>), you will always see the <keyword>ingest</keyword> task chained to the
+    <keyword>derive</keyword> task for VCF files.</p>
+  <p>Once the ingestion process finishes, the file that was uploaded to the distributed file system
+   is removed.</p>
+ </conbody>
+</concept>

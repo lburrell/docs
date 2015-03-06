@@ -32,7 +32,9 @@
                 <info>The information screen for the dataset opens. <fig id="fig_dataset-info">
                         <image href="../_images/gui-screen-shots/datasets_view-info.png"
                             id="image_vg1_ccp_yq" scale="50"/>
-                    </fig></info>
+                    </fig><p><xref
+                            href="task_define-dataset.xml#task_define-new-dataset/choicetable_define-dataset"
+                            >What do these fields mean?</xref></p></info>
             </step>
             <step>
                 <cmd>Click <uicontrol>Close</uicontrol> to dismiss the screen.</cmd>

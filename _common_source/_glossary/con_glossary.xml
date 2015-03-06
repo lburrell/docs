@@ -241,25 +241,32 @@
       delete data. A RESTful API is an application programming interface (API) based on REST. </p>
     </dd>
    </dlentry>
-  </dl>
-  <dl>
-   <dlentry>
-    <dt>visibilities</dt>
-    <dd>
-     <p id="visibilities">All raw data and derived data stored in <ph
+      <dlentry>
+        <dt>VCF</dt>
+        <dd>
+          <p id="vcf">A Variant Call Format (VCF) file is a text file containing tab-separated
+            marker and genotype data. VCF data is used in bioinformatics to store gene sequence
+            variations. As such, a VCF can document hundreds, thousands, and even millions of gene
+            sites in a single file. </p>
+        </dd>
+      </dlentry>
+      <dlentry>
+        <dt>visibilities</dt>
+        <dd>
+          <p id="visibilities">All raw data and derived data stored in <ph
               conkeyref="product-vars/product-name"/> can be tagged with labels that provide
             information about the data's sensitivity. This sensitivity is described in terms of the
             visibility the data should have to different system users. The visibility tags you
             define for your data should reflect the sensitivity of the data as identified by your
             organization. </p>
-    </dd>
-   </dlentry>
-   <dlentry audience="internal">
-    <dt>ZIP file</dt>
-    <dd>
-     <p>"ZIP" is all caps.</p>
-    </dd>
-   </dlentry>
+        </dd>
+      </dlentry>
+      <dlentry audience="internal">
+        <dt>ZIP file</dt>
+        <dd>
+          <p>"ZIP" is all caps.</p>
+        </dd>
+      </dlentry>
   </dl>
  </conbody>
 </concept>

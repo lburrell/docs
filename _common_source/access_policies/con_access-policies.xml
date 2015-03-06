@@ -25,19 +25,19 @@
             >Tell me about data visibilities.</xref></p>
       </li>
     </ul>
-    <p> A access policy is matched when the request satisfies at least one access rule in the
-      policy. A rule is satisfied if the user making the request has one of the authorizations
-      listed for <keyword>Subject</keyword>, and the data being requested one of the visibilities
-      listed for <keyword>Object</keyword>. When there is a match, the user may take the specified
-      action(s) on the data.</p>
-    <p>The rules in a given access policy are intended to implement specific controls over data.
-      Depending on the number and kinds of datasets your organization works with, you may need just
-      one access policy or you may need multiple access policies. </p>
+    <p>An access policy is matched when the data access request satisfies at least one access rule
+      in the policy. A rule is satisfied if the user making the request has one of the
+      authorizations listed for <keyword>Subject</keyword>, and the data being requested one of the
+      visibilities listed for <keyword>Object</keyword>. When there is a match, the user may take
+      the specified <keyword>Action</keyword> on the data.</p>
+    <p>The rules in a given access policy implement specific controls over data. Depending on the
+      number and kinds of datasets your organization works with, you may need just one access policy
+      or you may need multiple access policies. </p>
     <p>If you have multiple access policies, it is possible for policies to conflict with one
       another and still represent a consistent governance policy, provided that each access policy
       is used to control different data collections or datasets. For example, one access policy may
       allow users with <keyword>Researcher</keyword> authority to read
         <keyword>CONFIDENTIAL</keyword> data while another access policy does not. This can be
-      perfectly consistent, given the policies control different data.</p>
+      perfectly consistent, as when access policies control different data.</p>
   </conbody>
 </concept>

@@ -24,7 +24,7 @@
                     <p>If the <ph conkeyref="product-vars/admin"/> has not made the dataset
                         available to you, you will not be authorized to execute it. In this case,
                         the dataset is marked as <keyword>(not authorized)</keyword>.</p>
-                    <p>If the dataset's time to live has expired, the dataset is marked as
+                    <p>If the dataset has expired, the dataset is marked as
                             <keyword>(expired)</keyword>.</p>
                 </info>
             </step>

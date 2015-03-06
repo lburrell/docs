@@ -6,8 +6,14 @@
  <conbody>
   <p conref="../_glossary/con_glossary.xml#concept_glossary/visibilities"/>
   <p>The visibility of data in your organization should be set out in your organization's governance
-   policy. Working from the governance policy,  the <ph conkeyref="product-vars/admin"/> and is
-   configured  as part of system configuration.</p>
+   policy. </p>
+  <p><xref href="../Privacy_Security_Governance/con_governance.xml#concept_governance">Tell me about
+    governance policies.</xref>
+   <xref
+    href="../Privacy_Security_Governance/task_define-governance-policy.xml#task_define-governance-policy"
+    >How do I define a governance policy?</xref></p>
+  <p>Working from the governance policy, the <ph conkeyref="product-vars/admin"/> configures data
+   visibilities as part of system configuration.</p>
   <p>You can define data visibilities to suit your organization's needs. Possible examples are
    CONFIDENTIAL to identify data that is sensitive and requires a user to a certain level of access
    or certification to access, PII to identify Personally Identifiable Information, PHI to identify
@@ -17,15 +23,16 @@
   <p>The data visibilities specified for a data collection are referred to in access policies and
    matched against user authorizations to determine what actions, if any, a given user is allowed to
    perform on the data. The access policy can then be applied to a data collection or dataset during
-   system configuration. <xref
-    href="../users/con_user-authorizations.xml#concept_user-authorizations">Tell me about user
-    authorizations.</xref>
+   system configuration. </p>
+  <p><xref href="../users/con_user-authorizations.xml#concept_user-authorizations">Tell me about
+    user authorizations.</xref>
    <xref href="../access_policies/con_access-policies.xml#concept_access-policies">Tell me about
     access policies.</xref></p>
   <p>In addition, any data visibility defined in the system can be used by a Data Processing
-   Function (DPF) to tag any derived data fields. These derived data elements can be assigned
-   different privacy levels from the data collection and from one another. For example, the Social
-   Security Number extracted from a health record can be tagged CONFIDENTIAL if that data visibility
-   has been defined in the system. This mechanism provides field-level privacy protection.</p>
+   Function (DPF) to selectively tag any derived data fields. The derived data elements can be
+   assigned different privacy levels from those of the data collection and from those of one
+   another. For example, the Social Security Number extracted from a health record can be tagged
+   CONFIDENTIAL if that data visibility has been defined in the system. This mechanism provides
+   field-level privacy protection.</p>
  </conbody>
 </concept>

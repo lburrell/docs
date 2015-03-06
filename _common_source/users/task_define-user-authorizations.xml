@@ -9,7 +9,9 @@
             <p>The user authorizations you define should reflect your organization's governance
                 policies. Consult your privacy officer, or a person in a similar role, to understand
                 what user authorizations your organization recognizes.</p>
-            <p><xref
+            <p><xref href="../Privacy_Security_Governance/con_governance.xml#concept_governance"
+                    >Tell me about governance policies.</xref>
+                <xref
                     href="../../_common_source/Privacy_Security_Governance/task_define-governance-policy.xml#task_define-governance-policy"
                     >How do I define a governance policy?</xref></p>
         </prereq>

@@ -23,11 +23,18 @@
             </step>
             <step>
                 <cmd>Click the user's name to expand the user record.</cmd>
-                <info><fig id="fig_view-user-information">
+                <info>
+                    <fig id="fig_view-user-information">
                         <image href="../_images/gui-screen-shots/users_view-info.png"
                             id="image_mbs_gln_jq" scale="50"/>
-                    </fig>Click the user's name a second time to collapse the user record
-                    again.</info>
+                    </fig>
+                    <p><xref
+                            href="task_create-new-user.xml#task_create-new-user/choicetable_user-info"
+                            >What do these fields mean?</xref></p>
+                </info>
+            </step>
+            <step>
+                <cmd>Click the user's name a second time to collapse the user record again.</cmd>
             </step>
         </steps>
     </taskbody>

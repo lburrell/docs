@@ -2,19 +2,9 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_system-dpfs">
  <title>System DPFs</title>
- <shortdesc/>
+ <shortdesc><ph conkeyref="product-vars/product-name"/> comes with a library of system
+  DPFs.</shortdesc>
  <conbody>
-  <p><ph conkeyref="product-vars/product-name"/> comes with a library of system DPFs:</p>
-  <ul id="ul_h4v_4b2_gr">
-   <li><b>PHEMI VCF Data Processing Function.</b> This system DPF processes Variant Call Format
-    (VCF) data. A VCF data file is typically very large (on the order of gigabytes). For this
-    reason, a VCF file is always parsed into records as the file is ingested. In the <menucascade>
-     <uicontrol>System Metrics</uicontrol>
-     <uicontrol>Task Monitoring</uicontrol>
-    </menucascade> screen, you will always see the  processing task (<keyword>derive</keyword>) for
-    this DPF chained to an <keyword>ingest</keyword> task.</li>
-   <li><b>Microsoft Excel Workbook Data Processing Function.</b> This system DPF processes Excel
-    workbooks. The workbook is parsed into rows and each row becomes a separate record.</li>
-  </ul>
+  <p/>
  </conbody>
 </concept>

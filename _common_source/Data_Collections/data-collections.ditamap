@@ -6,7 +6,10 @@
   <topicref href="con_data-policies.xml"/>
   <topicref href="../DPFs/con_dpfs.xml">
    <topicref href="../DPFs/con_dpf-archive.xml"/>
-   <topicref href="../DPFs/con_system-dpf.xml"/>
+   <topicref href="../DPFs/con_system-dpf.xml">
+    <topicref href="../DPFs/con_sys-dpf_excel.xml"/>
+    <topicref href="../DPFs/con_sys-dpf_vcf.xml"/>
+   </topicref>
    <topicref href="../DPFs/con_develop-custom-dpf.xml"/>
   </topicref>
   <topicref href="task_view-data-collections.xml"/>

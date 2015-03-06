@@ -37,6 +37,9 @@
                         <image href="../_images/gui-screen-shots/access-policy_view-info.png"
                             id="image_hy3_dnm_qq" scale="50"/>
                     </fig>
+                    <p><xref
+                            href="task_create-access-policy.xml#task_create-access-policy/choicetable_access-policies"
+                            >What do these fields mean?</xref></p>
                 </info>
             </step>
         </steps>

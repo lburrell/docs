@@ -47,15 +47,19 @@
             </step>
             <step>
                 <cmd>Enter the destination details.</cmd>
-                <choicetable id="choicetable_h54_rtx_3q" relcolwidth="1* 4*">
+                <choicetable id="choicetable_dests" relcolwidth="1* 4*">
                     <chrow>
-                        <choption>Name</choption>
+                        <choption>
+                            <p>Name</p>
+                        </choption>
                         <chdesc>
                             <p>Mandatory. Provide a name for the destination.</p>
                         </chdesc>
                     </chrow>
                     <chrow>
-                        <choption>Type</choption>
+                        <choption>
+                            <p>Type</p>
+                        </choption>
                         <chdesc>
                             <p>Mandatory. The destination type. Supported values are as follows:</p>
                             <ul id="ul_rcd_s4m_qq">
@@ -68,35 +72,63 @@
                         </chdesc>
                     </chrow>
                     <chrow>
-                        <choption>Host</choption>
-                        <chdesc>Mandatory. The IP address of the destination, in dotted decimal
-                            format.</chdesc>
-                    </chrow>
-                    <chrow>
-                        <choption>Port</choption>
-                        <chdesc>Mandatory. The destination TCP port.</chdesc>
-                    </chrow>
-                    <chrow>
-                        <choption>Database Name</choption>
-                        <chdesc>Mandatory. The name of the destination database.</chdesc>
-                    </chrow>
-                    <chrow>
-                        <choption>Schema</choption>
-                        <chdesc>Mandatory. The name of the schema being used in the destination
-                            database.</chdesc>
-                    </chrow>
-                    <chrow>
-                        <choption>User Name</choption>
-                        <chdesc>Mandatory. The user name for logging on to the destination.
+                        <choption>
+                            <p>Host</p>
+                        </choption>
+                        <chdesc>
+                            <p>Mandatory. The IP address of the destination, in dotted decimal
+                                format.</p>
                         </chdesc>
                     </chrow>
                     <chrow>
-                        <choption>Password</choption>
-                        <chdesc>Mandatory. The password for logging on to the destination.</chdesc>
+                        <choption>
+                            <p>Port</p>
+                        </choption>
+                        <chdesc>
+                            <p>Mandatory. The destination port.</p>
+                        </chdesc>
                     </chrow>
                     <chrow>
-                        <choption>Confirm Password</choption>
-                        <chdesc>Mandatory. Re-enter the password to ensure it is correct.</chdesc>
+                        <choption>
+                            <p>Database Name</p>
+                        </choption>
+                        <chdesc>
+                            <p>Mandatory. The name of the destination database.</p>
+                        </chdesc>
+                    </chrow>
+                    <chrow>
+                        <choption>
+                            <p>Schema</p>
+                        </choption>
+                        <chdesc>
+                            <p>Mandatory. The name of the schema being used in the destination
+                                database.</p>
+                        </chdesc>
+                    </chrow>
+                    <chrow>
+                        <choption>
+                            <p>User Name</p>
+                        </choption>
+                        <chdesc>
+                            <p>Mandatory. The user name for logging on to the destination system.
+                            </p>
+                        </chdesc>
+                    </chrow>
+                    <chrow>
+                        <choption>
+                            <p>Password</p>
+                        </choption>
+                        <chdesc>
+                            <p>Mandatory. The password for logging on to the destination system.</p>
+                        </chdesc>
+                    </chrow>
+                    <chrow>
+                        <choption>
+                            <p>Confirm Password</p>
+                        </choption>
+                        <chdesc>
+                            <p>Mandatory. Re-enter the password to ensure it is correct.</p>
+                        </chdesc>
                     </chrow>
                 </choicetable>
             </step>

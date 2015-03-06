@@ -10,13 +10,12 @@
             <p>
                 <xref href="../DPFs/con_dpfs.xml#concept_dpfs">Tell me about DPFs and DPF
                     archives.</xref></p>
-            <p>To associate a DPF with a data collection:</p>
+            <p>To associate a DPF with a data collection, start on the <wintitle>Data
+                    Collections</wintitle> page:</p>
         </context>
         <steps id="steps_qxv_jfq_yq">
             <step>
-                <cmd>On the <wintitle>Data Policy</wintitle> screen of the <wintitle>Data
-                        Collections</wintitle> page, click the <uicontrol>Data Processing
-                        Function</uicontrol> tab.</cmd>
+                <cmd>Click the <uicontrol>Data Processing Function</uicontrol> tab.</cmd>
                 <info>The <wintitle>Data Processing Function</wintitle> screen opens. When you first
                     define a data collection, no DPF is associated with it. <fig
                         id="fig_data-coll-no-dpf">
@@ -62,17 +61,19 @@
                                 href="../_images/gui-screen-shots/data-collections_apply-cust-dpf.png"
                                 id="image_hbz_4d2_gr" scale="50"/>
                         </fig>
-                        <p>Choose whether you want data to be reprocessed after the configuration
-                            change. Click the <uicontrol>Apply Custom DPF</uicontrol> button to
-                            upload the archive file and apply the DPF.</p>
+                        <p>Select the <uicontrol>Reprocess Data?</uicontrol> checkbox if you want
+                            data to be reprocessed after the configuration change. Click the
+                                <uicontrol>Apply Custom DPF</uicontrol> button to upload the archive
+                            file and apply the DPF.</p>
                     </choice>
                 </choices>
                 <info>
-                    <p>The system uploads the DPF, validates it, and applies it. The <wintitle>Data
-                            Processing Function</wintitle> screen reappears, showing the DPF name,
-                        the DPF version, the default trigger condition, and the DPF description. All
-                        information except the trigger is automatically read from the DPF archive or
-                        derived by <ph conkeyref="product-vars/product-name"/>'s <ph
+                    <p>The system uploads the DPF, validates it, and applies it to the data
+                        collection. The <wintitle>Data Processing Function</wintitle> screen
+                        reappears, showing the DPF name, the DPF version, the default trigger
+                        condition, and the DPF description. All information except the trigger is
+                        automatically read from the DPF archive or derived by <ph
+                            conkeyref="product-vars/product-name"/>'s <ph
                             conkeyref="product-vars/dpf-framework"/>.</p>
                     <fig id="fig_data-collections_dpf">
                         <image href="../_images/gui-screen-shots/data-collections_dpf.png"
@@ -81,8 +82,8 @@
                 </info>
             </step>
             <step>
-                <cmd>Set the trigger condition. The trigger condition determines when the DPF
-                    processes data.</cmd>
+                <cmd>Set the trigger condition. The trigger condition determines at what point the
+                    DPF processes data.</cmd>
                 <choicetable id="choicetable_arl_13h_fr" relcolwidth="1* 3*">
                     <chrow>
                         <choption>
@@ -122,7 +123,8 @@
                         </chdesc>
                     </chrow>
                 </choicetable>
-                <info>By default, the DPF trigger is set to execute the DPF every 5 minutes.</info>
+                <info>By default, the DPF trigger is set to execute the DPF periodically, every 5
+                    minutes.</info>
             </step>
         </steps>
     </taskbody>

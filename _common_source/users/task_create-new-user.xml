@@ -4,7 +4,8 @@
     <title>Create a New User</title>
     <shortdesc>Create a new user on the <wintitle>Manage Users</wintitle> page. </shortdesc>
     <taskbody>
-        <prereq>Before you can create users, you must configure user authorizations. </prereq>
+        <prereq>Before you can create users, you must configure user authorizations.  <xref
+                href="con_user-authorizations.xml#concept_user-authorizations">How?</xref></prereq>
         <context>
             <p>To create a new user:</p>
         </context>

@@ -26,13 +26,13 @@
    particular, the governance and controls intended for the data in a dataset may differ from the
    governance of the original data collections. In <ph conkeyref="product-vars/product-name"/>, you
    can attach an access policy to a dataset that is different from, and independent of, the access
-   rules applied to the constituent data collections.  When you attach an access policy to a
-   dataset, the dataset bypasses any access policies protecting the constituent data collections and
-   instead is constrained by its own access policy.  For example, the access policy of a data
-   collection may specify that only a user with <keyword>Doctor</keyword> authorization may see data
-   with <keyword>PHI</keyword> visibility, while the access policy for a dataset including some of
-   the same information may allow users with <keyword>Nurse</keyword> authorization to view
-    <keyword>PHI</keyword> data. </p>
+   rules applied to the constituent data collections. </p>
+  <p>When you attach an access policy to a dataset, the dataset bypasses any access policies
+   protecting the constituent data collections and instead is constrained by its own access policy.
+   For example, the access policy of a data collection may specify that only a user with
+    <keyword>Doctor</keyword> authorization may see data with <keyword>PHI</keyword> visibility,
+   while the access policy for a dataset including some of the same information may allow users with
+    <keyword>Nurse</keyword> authorization to view <keyword>PHI</keyword> data. </p>
   <p>Similarly, a single dataset can be executed by multiple users—even by users with different
    authorizations. A given user's actual view into the data in an executed dataset is always
    mediated by the <ph conkeyref="product-vars/policy-engine"/>, and is therefore constrained by

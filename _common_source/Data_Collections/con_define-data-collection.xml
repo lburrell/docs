@@ -6,16 +6,19 @@
  <conbody>
   <p>Before defining a data collection, you must configure the following:</p>
   <ul id="ul_yyz_3xn_mq">
-   <li>Data categories </li>
-   <li>Data visibilities </li>
-   <li>Users</li>
+   <li>Data categories  <xref href="../Data_Categories/task_add-data-category.xml">How?</xref></li>
+   <li>Data visibilities  <xref
+          href="../data_visibilities/task_define-data-visibility.xml#task_define-data-visibilities"
+          >How?</xref></li>
+   <li>Users  <xref href="../users/task_create-new-user.xml#task_create-new-user">How?</xref></li>
   </ul>
-    <p>To be able to configure users, you must first configure <xref
-                href="../users/con_user-authorizations.xml">user authorizations</xref>. Your users
-            must include at least one user with a role of <ph conkeyref="product-vars/admin"/> and
-            at least one user with a role of <ph conkeyref="product-vars/privacy-officer"/>. </p>
+    <p>To be able to configure users, you must first configure user authorizations.   <xref
+        href="../users/con_user-authorizations.xml">How?</xref>
+    </p>
+    <p>Your users must include at least one user with a role of <ph conkeyref="product-vars/admin"/>
+      and at least one user with a role of <ph conkeyref="product-vars/privacy-officer"/>. </p>
     <p>If you are applying an access policy to the data collection, you must first configure the
-                <xref href="../access_policies/con_access-policies.xml">access policies</xref>.</p>
+      access policy.  <xref href="../access_policies/con_access-policies.xml">How?</xref></p>
   <p>When you first define a data collection, only the <wintitle>Data Policy</wintitle> screen is
       available to you. Configure the data policy and save it. After saving the data policy
       information, the <wintitle>Data Processing Function</wintitle> and <wintitle>Ingest

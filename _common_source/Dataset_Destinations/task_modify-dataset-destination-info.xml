@@ -22,6 +22,9 @@
                         <image href="../_images/gui-screen-shots/password-policy.png"
                             id="image_j4l_xkn_jq" scale="50"/>
                     </fig>
+                    <p><xref
+                            href="task_create-dataset-destination.xml#task_create-dataset-destination/choicetable_dests"
+                            >What do these fields mean?</xref></p>
                 </info>
             </step>
             <step>
@@ -49,14 +52,14 @@
                 <cmd>The <wintitle>Destination Details</wintitle> screen opens, showing information
                     for the selected dataset. </cmd>
                 <info>
-                    <p><xref
-                            href="task_create-dataset-destination.xml#task_create-dataset-destination"
-                            >What do these fields mean?</xref></p>
                     <fig id="fig_dataset-dest-info">
                         <image
                             href="../../_common_source/_images/gui-screen-shots/dests_view-info.png"
                             id="image_vzc_n2n_xq" scale="50"/>
                     </fig>
+                    <p><xref
+                            href="task_create-dataset-destination.xml#task_create-dataset-destination"
+                            >What do these fields mean?</xref></p>
                 </info>
             </step>
             <step>

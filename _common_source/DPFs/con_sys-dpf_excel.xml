@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_sys-dpf_excel">
+ <title>Excel Workbook DPF</title>
+ <shortdesc>The Excel Workbook DPF takes an Excel workbook file and transforms it into derived
+  data.</shortdesc>
+ <conbody>
+  <p>The Excel workbook is uploaded and transformed into a single JSON document. The JSON document
+   is parsed into JSON objects, each representing one data record (row) of the Excel workbook. The
+   resulting set of JSON objects is stored in <ph conkeyref="product-vars/product-name"/> as a set
+   of raw data. </p>
+  <p>The Excel DPF supports <keyword>.xlsx</keyword> and <keyword>.xlsm</keyword> file types. The
+   Excel file must be comply with the expected format, where: </p>
+  <ul id="ul_uhs_dbt_gr">
+   <li>Row 1 specifies the column names. </li>
+   <li>Row 2 specifies the data type information for the data in the corresponding column. </li>
+   <li>Row 3 specifies the data visibilities for the data in the corresponding column, as
+    comma-separated list. The visibilities must be configured in t<ph
+     conkeyref="product-vars/product-name"/> or an error will occur and no data will be ingested. </li>
+   <li>Rows 4 to <i>n</i> contain the data to be ingested.</li>
+  </ul>
+  <fig id="fig_excel-dpf">
+   <image href="../_images/dpfs/excel_sample.png" id="image_i2t_2ct_gr" scale="70"/>
+  </fig>
+ </conbody>
+</concept>

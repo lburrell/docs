@@ -46,9 +46,9 @@
                         <chdesc>
                             <p>Mandatory. A name for the data collection. Numbers, letters, spaces,
                                 hyphens, and the underscore character are supported.</p>
-                            <note>Once you save a data collection, the name cannot be edited. To change
-                                the name, you must delete the whole data collection and reconfigure it
-                                with the new name. </note>
+                            <note>Once you save a data collection, the name cannot be edited. To
+                                change the name, you must delete the whole data collection and
+                                recreate it with the new name. </note>
                         </chdesc>
                     </chrow>
                     <chrow>
@@ -106,6 +106,9 @@
                                 visibilities. You may apply zero, one, or many data visibilities;
                                 select multiple items by holding down the <keyword>Shift</keyword>
                                 key. By default, no data visibility is applied.</p>
+                            <p><xref
+                                    href="../data_visibilities/task_define-data-visibility.xml#task_define-data-visibilities"
+                                    >How do I define data visibilities?</xref></p>
                         </chdesc>
                     </chrow>
                     <chrow>
@@ -116,6 +119,9 @@
                             <p>Optional. The access policy for enforcing rightful access to data
                                 from this data collection. Choose from the list of configured access
                                 policies. By default, no access policy is applied.</p>
+                            <p><xref
+                                    href="../access_policies/task_create-access-policy.xml#task_create-access-policy"
+                                    >How do I create an access policy?</xref></p>
                         </chdesc>
                     </chrow>
                     <chrow>

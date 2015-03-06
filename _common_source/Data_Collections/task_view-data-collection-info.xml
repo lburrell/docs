@@ -48,17 +48,22 @@
                 <cmd>Do any of the following:</cmd>
                 <choices id="choices_vbd_p24_mq">
                     <choice>
-                        <p>View data policy information on the <wintitle>Data Policy</wintitle>
-                            tab.</p>
+                        <p>View data policy information on the <wintitle>Data Policy</wintitle> tab.
+                                <xref
+                                href="task_define-data-policy.xml#task_define-data-policy/choicetable_data-policy-info"
+                                >What do these fields mean?</xref></p>
                     </choice>
                     <choice>
-                        <p>See the DPF associated with this data collection or change when DPF
-                            processing occurs by clicking the <uicontrol>Data Processing
-                                Function</uicontrol> tab.</p>
+                        <p>See the DPF associated with this data collection by clicking the
+                                <uicontrol>Data Processing Function</uicontrol> tab.  <xref
+                                href="task_define-dpf.xml#task_define-dpf">What do these fields
+                                mean?</xref></p>
                     </choice>
                     <choice>
                         <p>Access a screen where you can manually ingest files by clicking the
-                                <uicontrol>Ingest Data</uicontrol> tab.</p>
+                                <uicontrol>Ingest Data</uicontrol> tab.  <xref
+                                href="task_manually-ingest-data.xml#task_manually-ingest-data">How
+                                do I manually ingest files?</xref></p>
                     </choice>
                 </choices>
             </step>

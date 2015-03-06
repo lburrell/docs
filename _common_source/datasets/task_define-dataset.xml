@@ -61,10 +61,10 @@
                             <p>Optional. The format required by the system to receive the dataset.
                                 Supported values are as follows: </p>
                             <ul id="ul_ycd_m2j_yq">
-                                <li>Hive-MR. Apache Hive MapReduce format.</li>
-                                <li>JDBC. Java Database Connectivity format.</li>
-                                <li>CSV. Comma-separated values format.</li>
-                                <li>TSV. Tab-separated values format.</li>
+                                <li><keyword>Hive-MR.</keyword> Apache Hive MapReduce format.</li>
+                                <li><keyword>JDBC.</keyword> Java Database Connectivity format.</li>
+                                <li><keyword>CSV.</keyword> Comma-separated values format.</li>
+                                <li><keyword>TSV.</keyword> Tab-separated values format.</li>
                             </ul>
                             <p>The default is <keyword>Hive-MR</keyword>.</p>
                             <p>If you choose <keyword>JDBC</keyword> as the format, you have the
@@ -86,6 +86,9 @@
                             <p>If you apply an access policy to a dataset, the dataset access policy
                                 overrides any access policy applied to constituent data collections.
                                 The access policies for the collections are bypassed.</p>
+                            <p><xref
+                                    href="../access_policies/con_access-policies.xml#concept_access-policies"
+                                    >Tell me about access policies.</xref></p>
                         </chdesc>
                     </chrow>
                     <chrow>

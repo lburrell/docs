@@ -8,8 +8,12 @@
         <prereq>
             <p>Before you can create an access policy you must configure the following:</p>
             <ul id="ul_t4t_mlm_lq">
-                <li>User authorizations </li>
-                <li>Data visibilities </li>
+                <li>User authorizations  <xref
+                        href="../users/task_define-user-authorizations.xml#task_define-user-authorizations"
+                        >How?</xref></li>
+                <li>Data visibilities  <xref
+                        href="../data_visibilities/task_define-data-visibility.xml#task_define-data-visibilities"
+                        >How?</xref></li>
             </ul>
         </prereq>
         <context>To create a new access policy, define one or more access rules:</context>
@@ -45,6 +49,9 @@
                             <p>Mandatory. The user authorization(s) allowed to perform the action on
                                 the data. User authorizations are configured for the system by the
                                 administrator. </p>
+                            <p><xref
+                                    href="../users/con_user-authorizations.xml#concept_user-authorizations"
+                                    >Tell me about user authorizations.</xref></p>
                         </chdesc>
                     </chrow>
                     <chrow>
@@ -75,6 +82,9 @@
                         <chdesc>
                             <p>Mandatory. The data visibilities authorized users are allowed to
                                 perform the action on.</p>
+                            <p><xref
+                                    href="../data_visibilities/con_data-visibilities.xml#concept_data-visibilities"
+                                    >Tell me about data visibilities.</xref></p>
                         </chdesc>
                     </chrow>
                 </choicetable>

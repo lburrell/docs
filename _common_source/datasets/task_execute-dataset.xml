@@ -30,10 +30,16 @@
             <step>
                 <cmd>Check the checkbox next to the dataset you want to execute, or check
                         <uicontrol>Select/Deselect All</uicontrol> to select all the datasets.</cmd>
-                <info>You will only be able to select datasets that the <ph
-                        conkeyref="product-vars/admin"/> has designated as available to you in the
-                    dataset definition. Within that dataset, the data you are able to see will be
-                    constrained by the access policy applied to the dataset.</info>
+                <info>
+                    <p>You will only be able to select datasets that the <ph
+                            conkeyref="product-vars/admin"/> has designated as available to you in
+                        the dataset definition.  If a dataset has not been made available to you,
+                        you will see it in the list but it will be marked as <keyword>not
+                            authorized</keyword>.</p>
+                    <p>If you do have access to a dataset, you may not have access to all the data.
+                        The data you are able to see will be constrained by your user authorization
+                        and the access policy applied to the dataset.</p>
+                </info>
             </step>
             <step>
                 <cmd>Click <uicontrol>Execute Selected Datasets</uicontrol>.</cmd>

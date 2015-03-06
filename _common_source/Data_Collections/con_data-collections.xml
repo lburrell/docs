@@ -15,8 +15,6 @@
       information. </p>
     <p><xref href="../../_common_source/Data_in_PHEMI/con_submit-data.xml">How do I submit data to
           <ph conkeyref="product-vars/product-name"/>?</xref></p>
-    <p>Data collection configuration is set on the <wintitle>Data Collections</wintitle> page. The
-        <wintitle>Data Collections</wintitle> page also includes a facility for manually ingesting
-      data. </p>
+    <p>Data collection configuration is set on the <wintitle>Data Collections</wintitle> page.</p>
   </conbody>
 </concept>

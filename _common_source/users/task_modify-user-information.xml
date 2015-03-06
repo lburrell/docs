@@ -28,6 +28,9 @@
                         <image href="../_images/gui-screen-shots/users_view-info.png"
                             id="image_ipx_nln_jq" scale="50"/>
                     </fig>
+                    <p><xref
+                            href="task_create-new-user.xml#task_create-new-user/choicetable_user-info"
+                            >What do these fields mean?</xref></p>
                 </info>
             </step>
             <step>
