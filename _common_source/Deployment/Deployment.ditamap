@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Deployment</title>
+ <keydef keys="product-vars" href="../_Variables/Product_Vars/PHEMI_Central/con_Product-Vars.xml"/>
+ <keydef keys="role-vars" href="../_Variables/Role_Vars/con_Role_Vars.xml"/>
+ <topicref href="con_deployment.xml">
+  <topicref href="con_deployment-models.xml">
+   <topicref href="con_virtual-deploy.xml"/>
+   <topicref href="con_onpremise-deploy.xml"/>
+   <topicref href="con_data-center-deploy.xml"/>
+   <topicref href="con_roles-respons-deploy.xml"/>
+  </topicref>
+ </topicref>
+</map>
