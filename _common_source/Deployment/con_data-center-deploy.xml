@@ -2,8 +2,14 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_data-center-deploy">
  <title>Data Center Deployment</title>
- <shortdesc/>
+ <shortdesc>Will describe co-located deployment model.</shortdesc>
  <conbody>
-  <p/>
+  <ul id="ul_b32_dzg_hr">
+   <li>Give brief description of co-located deployment</li>
+   <li>Let's put in a picture of a standard on-premise deployment here.</li>
+   <li>System requirements? Deployment limitations?</li>
+   <li>Summarize any differences in IT admin responsibilities specific to this deployment
+    model.</li>
+  </ul>
  </conbody>
 </concept>

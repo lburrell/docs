@@ -2,8 +2,15 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_virt-deploy">
  <title>Virtualized Deployment</title>
- <shortdesc/>
+ <shortdesc>Will describe virtualized deployment model.</shortdesc>
  <conbody>
-  <p/>
+  <ul id="ul_b32_dzg_hr">
+   <li>Will specify that only AWS supported.</li>
+   <li>Should describe the model briefly</li>
+   <li>Let's put in a picture of a standard AWS deployment here.</li>
+   <li>System requirements? Deployment limitations?</li>
+   <li>Summarize any differences in IT admin responsibilities specific to this deployment
+    model.</li>
+  </ul>
  </conbody>
 </concept>

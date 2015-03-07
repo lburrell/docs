@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_it-admin-respons">
+ <title>Responsiblities</title>
+ <shortdesc>This section will provide a list of the areas of responsibbilitiy for the task list. </shortdesc>
+ <conbody>
+  <p>It will basically list and explain the tasks, in a table. The task names and order will be
+      parallel to the order of the chapters that follow. Likely each row in the table will link to
+      the requisite chapter. (Sort of how the Admin Quick Start does for the Mgmt and Governance
+      Console User Guide.)</p>
+ </conbody>
+</concept>

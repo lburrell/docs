@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
-<concept id="concept_roles-respons-deploy">
- <title>Roles and Responsibilities in Deployment</title>
- <shortdesc/>
+<concept id="concept_about-it-admin">
+ <title>About the IT Administrator</title>
+ <shortdesc>This section will describe the general intention of the IT Administrator
+  role.</shortdesc>
  <conbody>
-  <p/>
+  <p>It won't list detailed responsibilities (that's in a subsection). But it will give the general
+   purview of the IT Admin.</p>
+  <p>It will also distinguish the IT admin from the DB admin (PHEMI Administrator, in our
+   terminology).</p>
  </conbody>
 </concept>

@@ -2,8 +2,14 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_roles-respons-deploy">
  <title>Roles and Responsibilities in Deployment</title>
- <shortdesc/>
+ <shortdesc>This section specifies who does what in the deployment use case.</shortdesc>
  <conbody>
-  <p/>
+  <p>These will be a series of tables for each chapter. "Role and Responsibilities in X" The table
+   summarizes who is responsible for what.  That way, the IT Admin can get the answers to two
+   questions: "What am I responsible for?" and "Who's going to do X?"</p>
+  <p>So something like two columns: Task and Role.</p>
+  <p>So we should probably work to mention only two roles: IT Admin and PHEMI Professional Services.
+   I'm expecting we'll end up mentioning some tasks that involve the DB administrator, but to keep
+   the cognitive space clean it might be possible to sweep these under the rug a little. </p>
  </conbody>
 </concept>
