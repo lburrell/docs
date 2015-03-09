@@ -5,8 +5,8 @@
  <topicref href="con_datasets.xml">
   <topicref href="task_view-datasets.xml"/>
   <topicref href="task_define-dataset.xml"/>
-  <topicref href="task_modify-dataset-info.xml"/>
   <topicref href="task_view-dataset-info.xml"/>
+  <topicref href="task_modify-dataset-info.xml"/>
   <topicref href="task_execute-dataset.xml"/>
   <topicref href="task_delete-dataset.xml"/>
  </topicref>

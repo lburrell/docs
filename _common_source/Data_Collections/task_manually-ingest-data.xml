@@ -72,7 +72,7 @@
                             scale="50" id="image_xst_4g2_gr"/>
                     </fig>
                 </info>
-                <choicetable id="choicetable_y5w_jh2_gr">
+                <choicetable id="choicetable_y5w_jh2_gr" relcolwidth="1* 4*">
                     <chrow>
                         <choption>
                             <p>Archived/Zipped files</p>
@@ -91,7 +91,7 @@
                                 CSV file as a single object. Newline characters are interpreted as
                                 delimiting rows. Commas are interpreted as delimiting fields within
                                 a row. The first row is interpreted as the header row. Rows are
-                                ingested as XML fragments.</p>
+                                ingested as XML documents.</p>
                         </chdesc>
                     </chrow>
                     <chrow>

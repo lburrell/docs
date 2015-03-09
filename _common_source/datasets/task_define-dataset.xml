@@ -57,7 +57,7 @@
                             <p>Export Target</p>
                         </choption>
                         <chdesc>
-                            <p>Optional. The format required by the system to receive the dataset.
+                            <p>Mandatory. The format required by the system to receive the dataset.
                                 Supported values are as follows: </p>
                             <ul id="ul_ycd_m2j_yq">
                                 <li><keyword>Hive-MR.</keyword> Apache Hive MapReduce format.</li>
@@ -72,6 +72,15 @@
                             <p><xref
                                     href="../Dataset_Destinations/con_dataset-destinations.xml#concept_dataset-destinations"
                                     >Tell me about dataset destinations.</xref></p>
+                        </chdesc>
+                    </chrow>
+                    <chrow>
+                        <choption>
+                            <p>Table Prefix</p>
+                        </choption>
+                        <chdesc>
+                            <p>Optional. A database table prefix that can be prepended to data
+                                elements exported from this dataset.</p>
                         </chdesc>
                     </chrow>
                     <chrow>
@@ -108,6 +117,10 @@
                                 one or more users from the drop-down list; only users with a role of
                                     <ph conkeyref="role-vars/data-analyst"/> appear on the list. By
                                 default, no users are allowed to access the dataset.</p>
+                            <p>Once a user has been granted access to the dataset, access to
+                                individual elements is constrained by the visibility of the element,
+                                the user's authorization, and the access policy applied to the
+                                dataset.</p>
                         </chdesc>
                     </chrow>
                     <chrow>
@@ -115,7 +128,7 @@
                             <p>Expires</p>
                         </choption>
                         <chdesc>
-                            <p>Mandatory. An expiry date for the dataset. When this date is reached,
+                            <p>Optional. An expiry date for the dataset. When this date is reached,
                                     <ph conkeyref="product-vars/product-name"/> deletes the dataset
                                 from the system. </p>
                         </chdesc>

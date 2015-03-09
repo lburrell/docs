@@ -23,9 +23,12 @@
                     </fig>
                     <p>If the <ph conkeyref="role-vars/admin"/> has not made the dataset available
                         to you, you will not be authorized to execute it. In this case, the dataset
-                        is marked as <keyword>(not authorized)</keyword>.</p>
-                    <p>If the dataset has expired, the dataset is marked as
-                            <keyword>(expired)</keyword>.</p>
+                        is marked <keyword>(not authorized)</keyword>. If you need to see this data,
+                        you must ask the <ph conkeyref="role-vars/admin"/> add you to the list of
+                        users who can access the dataset.</p>
+                    <p>If the dataset has expired, the dataset is marked
+                            <keyword>(expired)</keyword>. If you need to see this data, you must ask
+                        the <ph conkeyref="role-vars/admin"/> to reset the dataset expiry date.</p>
                 </info>
             </step>
         </steps>
