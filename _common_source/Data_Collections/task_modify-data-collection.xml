@@ -55,8 +55,8 @@
                     <choice>
                         <p>Click the <uicontrol>Data Processing Function</uicontrol> tab to change
                             the DPF configuration. </p>
-                        <p><xref href="task_define-dpf.xml#task_define-dpf">What do these fields
-                                mean?</xref></p>
+                        <p><xref href="task_define-dpf.xml#task_define-dpf">How do I change the DPF
+                                registered with a data collection?</xref></p>
                     </choice>
                     <choice>
                         <p>Click the <uicontrol>Ingest Data</uicontrol> tab to access a screen where

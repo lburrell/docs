@@ -105,7 +105,8 @@
                                 this data collection. Choose from the list of configured data
                                 visibilities. You may apply zero, one, or many data visibilities;
                                 select multiple items by holding down the <keyword>Shift</keyword>
-                                key. By default, no data visibility is applied.</p>
+                                or <keyword>Control</keyword> key. By default, no data visibility is
+                                applied.</p>
                             <p><xref
                                     href="../data_visibilities/task_define-data-visibility.xml#task_define-data-visibilities"
                                     >How do I define data visibilities?</xref></p>
@@ -154,9 +155,9 @@
                 </choicetable>
             </step>
             <step>
-                <cmd>Upload the data sharing agreement. The data sharing agreement records
-                    permission for this data to reside on <ph conkeyref="product-vars/product-name"
-                    />. </cmd>
+                <cmd>Optionally, upload the data sharing agreement. The data sharing agreement
+                    records permission for this data to reside on <ph
+                        conkeyref="product-vars/product-name"/>. </cmd>
                 <info><fig id="fig_sharing-agreemt">
                         <image
                             href="../_images/gui-screen-shots/data-collections_sharing-agreemt.png"
@@ -164,12 +165,15 @@
                     </fig><p>Click the <uicontrol>Choose File</uicontrol> button and navigate to the
                         document in your local file system. Double-click the file to select it. The
                         system uploads the document.</p>Specify the period during which this data
-                    sharing agreement is in effect. The format for the start and end dates is
-                        <varname>mm-dd-yyyy</varname>.</info>
+                    sharing agreement is in effect. When the data sharing agreement period expires,
+                    the data remains in the system but users will be prevented from accessing it.
+                    The format for the start and end dates is <varname>mm-dd-yyyy</varname>. If you
+                    do not specify a time period, the data sharing agreement remains in effect
+                    indefinitely.</info>
             </step>
             <step>
                 <cmd>Specify the retention rules. These rules are used to determine how long each
-                    item from this data collection can remain in the system.</cmd>
+                    item from this data collection are retained in the data store. </cmd>
                 <info>
                     <fig id="fig_retention-rules">
                         <image
@@ -183,17 +187,17 @@
                             <p>Please choose...</p>
                         </choption>
                         <chdesc>
-                            <p>Mandatory. Specifies when data should be erased from the system.
+                            <p>Mandatory. Specifies when data should be purged from the system.
                                 Supported values are as follows:</p>
                             <ul id="ul_nbm_4cq_yq">
                                 <li><keyword>Retain for a time period.</keyword> Keeps the data for
                                     the period specified. Specify some number of minutes, hours,
                                     days, weeks or years.</li>
-                                <li><keyword>Delete after time period.</keyword> Erases the data
+                                <li><keyword>Delete after time period.</keyword> Purges  the data
                                     after the specified time period. Specify some number of minutes,
                                     hours, days, weeks or years.</li>
-                                <li><keyword>Do not delete.</keyword> The data is never
-                                    deleted.</li>
+                                <li><keyword>Do not delete.</keyword> The data is never purged from
+                                    the data stored.</li>
                                 <li><keyword>Delete oldest data once capacity is reached.</keyword>
                                     Deletes data items with the oldest timestamp after the specified
                                     capacity is reached. Specify the capacity as some number of

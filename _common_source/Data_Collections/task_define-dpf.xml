@@ -123,8 +123,7 @@
                         </chdesc>
                     </chrow>
                 </choicetable>
-                <info>By default, the DPF trigger is set to execute the DPF periodically, every 5
-                    minutes.</info>
+                <info>The default behavior depends on what is coded into the DPF.</info>
             </step>
         </steps>
     </taskbody>
