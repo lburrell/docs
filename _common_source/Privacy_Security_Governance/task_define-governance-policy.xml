@@ -15,14 +15,19 @@
                 someone in a comparable role.</p>
             <p>To define your organization's governance policy:</p>
         </context>
-        <steps>
+        <steps id="steps_dyv_y3c_3r">
             <step>
                 <cmd>Identify the different sensitivity levels of the data you will be storing in
                         <ph conkeyref="product-vars/product-name"/>. </cmd>
-                <info>You'll configure these as data visibilities. Data visibilities are attributes
-                    used to tag ingested data for purposes of privacy and access control. Examples
-                    of data visibilities are "CONFIDENTIAL," "SECRET," and "PII" (Personally
-                    Identifiable Information).</info>
+                <info>
+                    <p>You'll configure these as data visibilities. Data visibilities are attributes
+                        used to tag ingested data for purposes of privacy and access control.
+                        Examples of data visibilities are "CONFIDENTIAL," "SECRET," and "PII"
+                        (Personally Identifiable Information).</p>
+                    <p><xref
+                            href="../data_visibilities/con_data-visibilities.xml#concept_data-visibilities"
+                            >Tell me about data visibilities.</xref></p>
+                </info>
             </step>
             <step>
                 <cmd>Identify what authorizations your organization assigns to different users to
@@ -30,15 +35,23 @@
                 <info>
                     <p>Your user authorizations should reflect the actual permissions your personnel
                         are granted to interact with data with different visibility. </p>
+                    <p><xref href="../users/con_user-authorizations.xml#concept_user-authorizations"
+                            >Tell me about user authorizations.</xref></p>
                 </info>
             </step>
             <step>
                 <cmd>Specify the allowed combinations of user authorizations and data
                     visibilities.</cmd>
-                <info>For example, a user with C_LEVEL authorization (perhaps a CEO, CIO, COO, or
-                    CTO) might be permitted to access CONFIDENTIAL data, a user with RESEARCH
-                    authorization might only be permitted to access only DE-IDENTIFIED data, and a
-                    user with DOCTOR authorization might be allowed to see data of all sensitivity. </info>
+                <info>
+                    <p>For example, a user with C_LEVEL authorization (perhaps a CEO, CIO, COO, or
+                        CTO) might be permitted to access CONFIDENTIAL data, a user with RESEARCH
+                        authorization might only be permitted to access only DE-IDENTIFIED data, and
+                        a user with DOCTOR authorization might be allowed to see data of all
+                        sensitivity. You'll capture these combinations as access policies.</p>
+                    <p><xref
+                            href="../access_policies/con_access-policies.xml#concept_access-policies"
+                            >Tell me about access policies.</xref></p>
+                </info>
             </step>
         </steps>
     </taskbody>
