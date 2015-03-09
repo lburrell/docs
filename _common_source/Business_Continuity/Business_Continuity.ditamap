@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Business Continuity</title>
+ <topicref href="con_business-continuity.xml">
+  <topicref href="con_availability.xml"/>
+  <topicref href="con_disaster-recovery.xml"/>
+  <topicref href="task_monitor-system-availability.xml"/>
+ </topicref>
+</map>

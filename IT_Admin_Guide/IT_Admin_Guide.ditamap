@@ -8,11 +8,10 @@
  <mapref href="../_common_source/phemi_central/Introducing_PHEMI_Central.ditamap" format="ditamap"/>
  <mapref href="../_common_source/IT_Admin/About_the_IT_Admin.ditamap" format="ditamap"/>
  <mapref href="../_common_source/OAM/Supported_Mgmt_Tools.ditamap" format="ditamap"/>
- <mapref href="../_common_source/Service_Support/Service_and_Support.ditamap" format="ditamap"/>
  <mapref href="../_common_source/Deployment/Deployment.ditamap" format="ditamap"/>
- <mapref href="../_common_source/Software_Update/Software_Update.ditamap" format="ditamap"/>
- <mapref href="../_common_source/Backup_Restore/Backup_and_Restore.ditamap" format="ditamap"/>
  <mapref href="../_common_source/Security/Security.ditamap" format="ditamap"/>
- <mapref href="../_common_source/Logs/Logs.ditamap" format="ditamap"/>
+ <mapref href="../_common_source/OAM/Operations_and_Maintenance.ditamap" format="ditamap"/>
+ <mapref href="../_common_source/Business_Continuity/Business_Continuity.ditamap" format="ditamap"/>
+ <mapref href="../_common_source/Service_Support/Service_and_Support.ditamap" format="ditamap"/>
  <mapref href="../_common_source/_glossary/glossary.ditamap" format="ditamap"/>
 </map>

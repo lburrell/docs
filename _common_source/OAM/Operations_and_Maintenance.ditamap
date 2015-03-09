@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Operations and Maintenance</title>
+ <mapref href="Starting_and_Stopping.ditamap" format="ditamap"/>
+ <mapref href="../Software_Update/Software_Update.ditamap" format="ditamap"/>
+ <mapref href="Take_Down_Bring_Up.ditamap" format="ditamap"/>
+ <mapref href="Monitoring_the_System.ditamap" format="ditamap"/>
+ <mapref href="../Backup_Restore/Backup_and_Restore.ditamap" format="ditamap"/>
+ <mapref href="../Logs/Logs_and_Alerts.ditamap" format="ditamap"/>
+</map>

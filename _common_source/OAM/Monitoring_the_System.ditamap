@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Monitoring the System</title>
+ <topicref href="con_monitoring-the-system.xml">
+  <topicref href="task_monitor-memory-usage.xml"/>
+  <topicref href="task_monitor-system-status.xml"/>
+  <topicref href="task_monitor-disk-space.xml"/>
+  <topicref href="task_monitor-system-components.xml"/>
+ </topicref>
+</map>
