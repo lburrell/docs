@@ -15,7 +15,7 @@
    <li>Row 1 specifies the column names. </li>
    <li>Row 2 specifies the data type information for the data in the corresponding column. </li>
    <li>Row 3 specifies the data visibilities for the data in the corresponding column, as
-    comma-separated list. The visibilities must be configured in t<ph
+    comma-separated list. The visibilities must be configured in <ph
      conkeyref="product-vars/product-name"/> or an error will occur and no data will be ingested. </li>
    <li>Rows 4 to <i>n</i> contain the data to be ingested.</li>
   </ul>
