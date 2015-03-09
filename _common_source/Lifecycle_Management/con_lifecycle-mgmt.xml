@@ -6,10 +6,25 @@
   throughout their entire life cycle, from data creation through curation, usage, and end of
   life.</shortdesc>
  <conbody>
-  <p>Retention rules are captured in the <ph conkeyref="product-vars/gui-name"/>, and from the
-   rentention rules together with the ingestion timestamp, the system calculates a time to live for
-   every data element. Retention rules also prevent users from deleting data during the configured
-   retention period and helps automatically de-identify, delete, or otherwise process information
-   when the retention period does expire.</p>
+  <ul id="ul_jg4_lkc_3r">
+   <li>Expiry dates are set for the data sharing agreement. Each data collection is configured with
+    a data sharing agreement, which can be uploaded into <ph conkeyref="product-vars/product-name"
+    />. Configuring the data sharing agreement includes optionally setting a start and end date. If
+    the end date expires, users trying to access data receive a warning and <ph
+     conkeyref="product-vars/product-name"/> prevents them from accessing the system. The data
+    itself remains in the system, but users are unable to access it unless the expiry date for the
+    data sharing agreement is reset.</li>
+   <li>Expiry dates are set for datasets. Each dataset is made available for a period of time set by
+    the <ph conkeyref="role-vars/admin"/>. When this period expires, the dataset is flagged as
+    expired and users are not able to execute the dataset. The original data remains in the system,
+    but users are unable to access it unless the expiry date for the dataset is reset.</li>
+   <li>
+    <p>Retention rules are specified for data collections. Each data collection is configured with
+     retention rules. From the rentention rules together with the ingestion timestamp, <ph
+      conkeyref="product-vars/product-name"/> calculates a time to live for every raw and derived
+     data element. When the time to live expires, <ph conkeyref="product-vars/product-name"/> purges
+     data from the data store.</p>
+   </li>
+  </ul>
  </conbody>
 </concept>

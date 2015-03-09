@@ -11,12 +11,6 @@
    <ph conkeyref="product-vars/gui-name"/> you can access, and therefore what icons appear in the
    left navigation bar. Different roles have access to different parts of the <ph
     conkeyref="product-vars/gui-name"/>.</p>
-  <p>Note also that <ph conkeyref="role-vars/privacy-officer"/>s do not have any functional
-   capabilities in the <ph conkeyref="product-vars/gui-name"/>. However, <ph
-    conkeyref="role-vars/privacy-officer"/>s are considered to have some ownership responsibility
-   for data, and are therefore named as one of the "owners" of a data collection. For this reason,
-   you must configure at least one <ph conkeyref="role-vars/privacy-officer"/> in order to be able
-   to define a data collection.</p>
   <table frame="all" rowsep="1" colsep="1" id="table_z34_pfw_1r">
    <title/>
    <tgroup cols="3">
@@ -91,7 +85,7 @@
       <entry>Monitor what operations have been performed from and what data requests have been made
        of <ph conkeyref="product-vars/product-name"/>. </entry>
       <entry>
-       <p><ph conkeyref="role-vars/admin"/>.</p>
+       <p><ph conkeyref="role-vars/privacy-officer"/>.</p>
       </entry>
      </row>
     </tbody>
