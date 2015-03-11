@@ -6,5 +6,6 @@
   <topicref href="con_availability.xml"/>
   <topicref href="con_disaster-recovery.xml"/>
   <topicref href="task_monitor-system-availability.xml"/>
+  <topicref href="task_recover-from-disaster.xml"/>
  </topicref>
 </map>

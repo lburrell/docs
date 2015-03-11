@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="modify-user-authorization">
+    <title>Change Authorization Description</title>
+    <shortdesc>Change user authorization descriptions on the <wintitle>User
+            Authorizations</wintitle> screen of the <wintitle>System Configuration</wintitle>
+        page.</shortdesc>
+    <taskbody>
+        <context>
+            <p>Although you can't edit an authorization name, you can edit the description after the
+                authorization has been created.</p>
+            <p>To edit an authorization description:</p>
+        </context>
+        <steps id="steps_dwd_rnx_kq">
+            <step>
+                <cmd>Open the <uicontrol>System Configuration</uicontrol> page, by clicking the
+                        <uicontrol>System Configuration</uicontrol> icon in the left navigation bar.
+                        <image
+                        href="../../_common_source/_images/gui-screen-shots/icon_system-config.png"
+                        id="image_svp_vkn_jq" scale="50"/></cmd>
+                <info>The <wintitle>System Configuration</wintitle> page opens on the<wintitle>
+                        Password Policy</wintitle> screen.<fig id="fig_password-policy">
+                        <image href="../_images/gui-screen-shots/password-policy.png"
+                            id="image_j4l_xkn_jq" scale="50"/>
+                    </fig></info>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>User Authorizations</uicontrol> tab.</cmd>
+                <info>The <wintitle>User Authorizations</wintitle> screen opens.<fig
+                        id="fig_user-authorizations">
+                        <image href="../_images/gui-screen-shots/user-authorizations.png"
+                            id="image_izt_dmx_wq" scale="50"/>
+                    </fig></info>
+            </step>
+            <step>
+                <cmd>Location the authorization you want to edit. Click the edit icon in the
+                        <uicontrol>Actions</uicontrol> column.</cmd>
+                <info>
+                    <p>The </p>
+                    <fig>
+                        <image href="../_images/gui-screen-shots/user-authorization_modify.png"
+                            id="image_mbj_2rx_wq" scale="70"/>
+                    </fig>
+                </info>
+            </step>
+            <step>
+                <cmd>Make your change. Click the <uicontrol>Modify</uicontrol> button to save your
+                    changes. </cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

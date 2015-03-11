@@ -2,4 +2,8 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
  <title>Software Update</title>
+ <topicref href="con_software-update.xml">
+  <topicref href="task_get-latest-software.xml"/>
+  <topicref href="task_update-software.xml"/>
+ </topicref>
 </map>

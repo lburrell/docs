@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Resource Management</title>
+ <topicref href="con_resource-mgmt.dita">
+  <topicref href="task_monitor-disk-space.xml"/>
+  <topicref href="task_monitor-memory-usage.xml"/>
+  <topicref href="task_monitor-node-usage.dita"/>
+ </topicref>
+</map>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Monitoring System Status and Performance</title>
+ <topicref href="con_monitoring-status-perf.xml">
+  <topicref href="../Operations_Mgmt/task_monitor-system-status.xml"/>
+  <topicref href="task_monitor-system-perf.xml"/>
+ </topicref>
+</map>

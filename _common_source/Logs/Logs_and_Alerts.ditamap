@@ -2,4 +2,9 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
  <title>Logs and Alerts</title>
+ <topicref href="con_logs-alerts.xml">
+  <topicref href="task_view-logs.xml"/>
+  <topicref href="task_view-alarms-notifications.xml"/>
+  <topicref href="task_clear-alarms.xml"/>
+ </topicref>
 </map>

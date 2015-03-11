@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Starting and Stopping the System</title>
+ <topicref href="con_starting-stopping.xml">
+  <topicref href="task_start-system.xml"/>
+  <topicref href="task_stop-system.xml"/>
+  <topicref href="task_restart-system.xml"/>
+  <topicref href="task_take-down-cluster-node.xml"/>
+  <topicref href="task_bring-up-cluster-node.xml"/>
+  <topicref href="task_take-down-mgmt-node.xml"/>
+  <topicref href="task_bring-up-mgmt-node.xml"/>
+ </topicref>
+</map>

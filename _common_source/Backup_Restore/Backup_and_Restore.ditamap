@@ -2,4 +2,8 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
  <title>Backup and Restore</title>
+ <topicref href="con_backup-and-restore.xml">
+  <topicref href="task_back-up-database.xml"/>
+  <topicref href="task_restore-from-backup.xml"/>
+ </topicref>
 </map>

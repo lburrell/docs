@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_view-user-auths">
+    <title>View Defined User Authorizations</title>
+    <shortdesc>View defined user authorizations on the <wintitle>User Authorizations</wintitle>
+        screen of the <wintitle>System Configuration</wintitle> page.</shortdesc>
+    <taskbody>
+        <context>
+            <p>To view defined user authorizations:</p>
+        </context>
+        <steps id="steps_dwd_rnx_kq">
+            <step>
+                <cmd>Open the <uicontrol>System Configuration</uicontrol> page, by clicking the
+                        <uicontrol>System Configuration</uicontrol> icon in the left navigation bar.
+                        <image
+                        href="../../_common_source/_images/gui-screen-shots/icon_system-config.png"
+                        id="image_svp_vkn_jq" scale="50"/></cmd>
+                <info>The <wintitle>System Configuration</wintitle> page opens on the<wintitle>
+                        Password Policy</wintitle> screen.<fig id="fig_password-policy">
+                        <image href="../_images/gui-screen-shots/password-policy.png"
+                            id="image_j4l_xkn_jq" scale="50"/>
+                    </fig></info>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>User Authorizations</uicontrol> tab.</cmd>
+                <info>The <wintitle>User Authorizations</wintitle> screen opens, showing you each
+                    authorization that has been defined, along with a brief description.<fig
+                        id="fig_user-authorizations">
+                        <image href="../_images/gui-screen-shots/user-authorizations.png"
+                            id="image_izt_dmx_wq" scale="50"/>
+                    </fig></info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

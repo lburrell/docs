@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>User Authorizations</title>
+ <topicref href="con_user-authorizations.xml">
+  <topicref href="task_view-user-auths.xml"/>
+  <topicref href="task_define-user-authorizations.xml"/>
+  <topicref href="task_modify-user-authorization.xml"/>
+  <topicref href="task_delete-authorization.xml"/>
+ </topicref>
+</map>

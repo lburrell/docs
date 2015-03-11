@@ -2,8 +2,6 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
  <title>About the IT Administrator</title>
- <keydef keys="product-vars" href="../_Variables/Product_Vars/PHEMI_Central/con_Product-Vars.xml"/>
- <keydef keys="role-vars" href="../_Variables/Role_Vars/con_Role_Vars.xml"/>
  <topicref href="con_about-it-admin.xml">
   <topicref href="con_it-admin-assumps.xml"/>
   <topicref href="it-admin-responsibilities.xml"/>

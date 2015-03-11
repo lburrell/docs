@@ -2,6 +2,8 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
  <title>Service and Support</title>
- <topicref href="con_contact-us.dita"/>
- <topicref href="con_collect-info.dita"/>
+ <topicref href="con_service-support.xml">
+  <topicref href="con_contact-us.xml"/>
+  <topicref href="con_collect-info.xml"/>
+ </topicref>
 </map>

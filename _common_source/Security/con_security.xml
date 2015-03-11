@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_hck_3rj_3r">
+ <title>Security</title>
+ <shortdesc></shortdesc>
+ <conbody>
+  <p>Cautions? Disclaimers?</p>
+  <p>Why is Security necessary (see SAP Hana Guide in Downloads (home))</p>
+ </conbody>
+</concept>

@@ -2,4 +2,11 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
  <title>Security</title>
+ <topicref href="con_security.xml">
+  <topicref href="task_secure-network-communication.xml"/>
+  <topicref href="task_secure-users.xml"/>
+  <topicref href="task_secure-data-storage.xml"/>
+  <topicref href="task_audit-activity.xml"/>
+  <topicref href="task_secure-trace-dump-files.xml"/>
+ </topicref>
 </map>

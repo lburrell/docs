@@ -1,9 +1,9 @@
-#Fri Mar 06 12:27:00 PST 2015
+#Tue Mar 10 14:09:31 PDT 2015
 relflagimagelist=
-user.input.dir=/private/var/folders/bs/glb973zn5_378rr7_ll_83s00000gn/T/OxygenXMLTemp/ditaTemporaryOutputDir-1425673615312/t1/t2/t3/t4/t5
+user.input.dir=C\:\\_PHEMI\\docs
 copytotarget2sourcemaplist=
-uplevels=
-user.input.file=IT_Admin_Guide.ditamap
+uplevels=..\\
+user.input.file=IT_Admin_Guide\\IT_Admin_Guide.ditamap
 user.input.file.listfile=usr.input.file.list
-tempdirToinputmapdir.relative.value=
+tempdirToinputmapdir.relative.value=IT_Admin_Guide[\\\\|/]
 relflagimagefile=relflagimage.list

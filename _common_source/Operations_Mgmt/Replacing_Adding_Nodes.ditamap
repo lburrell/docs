@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Adding and Replacing Nodes</title>
+ <topicref href="con_adding-replacing-nodes.xml">
+  <topicref href="task_add-cluster-node.xml"/>
+  <topicref href="task_replace-cluster-node.xml"/>
+  <topicref href="task_replace-mgmt-node.xml"/>
+ </topicref>
+</map>
