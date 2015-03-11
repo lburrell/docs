@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Adding and Replacing Disks</title>
+ <topicref href="con_adding-replacing-disks.xml">
+  <topicref href="task_add-disk.xml"/>
+  <topicref href="task_replace-disk.xml"/>
+ </topicref>
+</map>

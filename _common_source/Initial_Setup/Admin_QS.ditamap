@@ -4,7 +4,7 @@
  <title>Administrator Quick Start</title>
  <topicref href="con_admin-qs.xml">
   <topicref href="con_before-configuring.xml">
-   <topicref href="../Installation/con_installation.xml"/>
+   <topicref href="../Deployment/con_installation.xml"/>
    <topicref href="../Privacy_Security_Governance/task_define-governance-policy.xml"/>
   </topicref>
   <topicref href="task_setup-workflow.xml"/>

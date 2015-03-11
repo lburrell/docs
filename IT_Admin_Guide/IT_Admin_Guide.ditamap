@@ -7,10 +7,11 @@
  <keydef keys="role-vars" href="../_common_source/_Variables/Role_Vars/con_Role_Vars.xml"/>
  <mapref href="../_common_source/phemi_central/Introducing_PHEMI_Central.ditamap" format="ditamap"/>
  <mapref href="../_common_source/IT_Admin/About_the_IT_Admin.ditamap" format="ditamap"/>
- <mapref href="../_common_source/OAM/Supported_Mgmt_Tools.ditamap" format="ditamap"/>
+ <mapref href="../_common_source/Operations_Mgmt/Supported_Mgmt_Tools.ditamap" format="ditamap"/>
  <topicref href="../_common_source/Deployment/Deployment-Provisioning.ditamap" format="ditamap"/>
  <mapref href="../_common_source/Security/Security.ditamap" format="ditamap"/>
  <mapref href="../_common_source/Operations_Mgmt/Starting_and_Stopping.ditamap"/>
+ <mapref href="../_common_source/Operations_Mgmt/Replacing_Adding_Disks.ditamap" format="ditamap"/>
  <mapref href="../_common_source/Operations_Mgmt/Replacing_Adding_Nodes.ditamap"/>
  <mapref href="../_common_source/Operations_Mgmt/Monitoring_Status_and_Performance.ditamap"
   format="ditamap"/>
