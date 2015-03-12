@@ -44,22 +44,11 @@
                         </choption>
                         <chdesc>
                             <p>Optional. The stop time of log entries. Choose the current time by
-                                checking the <keyword>Now</keyword> checkbox,or uncheck the
+                                checking the <keyword>Now</keyword> checkbox, or uncheck the
                                     <keyword>Now</keyword> checkbox and specify a time using
                                     <varname>yyyy-mm-dd</varname> for the date and
                                     <varname>hh:mm</varname>, in 24-hour format, for the time. The
                                 default is <keyword>Now</keyword>.  </p>
-                        </chdesc>
-                    </chrow>
-                    <chrow>
-                        <choption>
-                            <p>Filter</p>
-                        </choption>
-                        <chdesc>
-                            <p>Optional. Use a filtering expression to filter the log messages. </p>
-                            <p><xref
-                                    href="../../_common_source/Filter_Expressions/ref_filter-expressions.xml#reference_filter-expr"
-                                    >What filtering expressions can I use?</xref></p>
                         </chdesc>
                     </chrow>
                     <chrow>
@@ -72,6 +61,16 @@
                                 recent. Select <keyword>Newest First</keyword> to display from most
                                 recent to oldest. The default is <keyword>Newest
                                 First</keyword>.</p>
+                        </chdesc>
+                    </chrow>
+                    <chrow>
+                        <choption>
+                            <p>Filter</p>
+                        </choption>
+                        <chdesc>
+                            <p>Optional. A space-separated list of keywords, which may include user
+                                IDs. The system restricts search results to entries containing at
+                                least one of the keywords.</p>
                         </chdesc>
                     </chrow>
                 </choicetable>

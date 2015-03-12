@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_define-data-visibilities">
+    <title>Rearrange Data Visibilities</title>
+    <shortdesc>View configured data visibilities on the <wintitle>Data Visibilities</wintitle>
+        screen of the <wintitle>System Configuration</wintitle> page.</shortdesc>
+    <taskbody>
+        <context>
+            <p>To view the data visibilities that have been configured in the system:</p>
+        </context>
+        <steps id="steps_dwd_rnx_kq">
+            <step>
+                <cmd>Open the <uicontrol>System Configuration</uicontrol> page, by clicking the
+                        <uicontrol>System Configuration</uicontrol> icon in the left navigation bar.
+                        <image href="../_images/gui-screen-shots/icon_system-config.png"
+                        id="image_svp_vkn_jq" scale="50"/></cmd>
+                <info>The <wintitle>System Configuration</wintitle> page opens on the
+                        <wintitle>Password Policy</wintitle> screen. <fig id="fig_tcg_21f_xq">
+                        <image href="../_images/gui-screen-shots/password-policy.png"
+                            id="image_qwg_jqf_xq" scale="50"/>
+                    </fig></info>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>Data Visibilities</uicontrol> tab.</cmd>
+                <info>The <wintitle>Data Visibilities</wintitle> screen opens, listing all the data
+                    visibilities configured for the system.<fig id="fig_data-visibilities">
+                        <image href="../_images/gui-screen-shots/data-visibilities.png"
+                            id="image_snr_ypm_lq" scale="50"/>
+                    </fig></info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

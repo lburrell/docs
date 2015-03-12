@@ -4,5 +4,11 @@
  <title>Assumptions</title>
  <shortdesc>This is the section where we'll lay out the assumptions and expectations about the IT
   Admins skills and expertise</shortdesc>
- <conbody/>
+ <conbody>
+  <ul id="ul_g42_bgr_3r">
+   <li>System administration</li>
+   <li>Database administration</li>
+   <li>Network security</li>
+  </ul>
+ </conbody>
 </concept>

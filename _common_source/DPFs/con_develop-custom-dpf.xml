@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_custom-dpfs">
- <title>Developing Custom DPFs</title>
+ <title>Custom DPFs</title>
  <shortdesc>A custom DPF is a DPF you develop especially to process your organization's data. </shortdesc>
  <conbody>
   <p><ph conkeyref="product-vars/product-name"/> includes a library of helper functions to simplify

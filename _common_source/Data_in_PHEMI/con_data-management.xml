@@ -43,7 +43,7 @@
    sharing and consent rules. PHEMI Central stores the fully identified data but strictly controls
    the rightful use of all digital assets. When the user’s access privileges and the recorded data
    sharing agreements dictate, PHEMI Central can invoke a data processing function to de-identify or
-   anonymize any information information. Anonymization and deidentification may include disallowing
+   anonymize any information. Anonymization and deidentification may include disallowing
    access to personally identifiable information, masking certain information, redacting content, or
    may involve more sophisticated data dependency algorithms to reduce the risk of reidentification.
    Centralizing anonymization and de-identification helps reduce data sprawl and reduces the risk of

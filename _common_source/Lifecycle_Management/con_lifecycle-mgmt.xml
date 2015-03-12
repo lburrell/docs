@@ -20,7 +20,7 @@
     but users are unable to access it unless the expiry date for the dataset is reset.</li>
    <li>
     <p>Retention rules are specified for data collections. Each data collection is configured with
-     retention rules. From the rentention rules together with the ingestion timestamp, <ph
+     retention rules. From the retention rules together with the ingestion timestamp, <ph
       conkeyref="product-vars/product-name"/> calculates a time to live for every raw and derived
      data element. When the time to live expires, <ph conkeyref="product-vars/product-name"/> purges
      data from the data store.</p>

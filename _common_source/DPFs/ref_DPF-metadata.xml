@@ -143,7 +143,7 @@
           </ul></propdesc>
       </property>
       <property>
-        <proptype>system_indentifier</proptype>
+        <proptype>system_identifier</proptype>
         <propvalue>header</propvalue>
         <propdesc>???. Supported values are as follows:<ul id="ul_gjz_m11_hq">
             <li>X</li>

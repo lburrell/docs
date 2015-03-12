@@ -19,7 +19,7 @@
         the Datasource page.</li>
       <li><u>Periodic</u>: The DPF is run on a periodic basis as specified by the periodic value,
         regardless if data has been ingested or not; the DPF processes ingested data starting at the
-        first incompleted file.</li>
+        first file that was not completed.</li>
     </ul>
     <p> </p>
     <p>The trigger setting for the Semios data processing function is set to *Periodic for 5

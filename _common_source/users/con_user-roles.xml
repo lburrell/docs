@@ -64,8 +64,8 @@
       <entry>
        <p>The privacy officer has no functional ability within the <ph
          conkeyref="product-vars/product-name"/>
-        <ph conkeyref="product-vars/gui-name"/>. The privacy officer elucidates the governance
-        policies prior to system configuration.</p>
+        <ph conkeyref="product-vars/gui-name"/>. The privacy officer defines the governance policies
+        that drive system configuration and "owns" this aspect of a data collection.</p>
       </entry>
      </row>
      <row>

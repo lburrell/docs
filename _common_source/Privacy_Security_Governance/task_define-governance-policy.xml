@@ -24,9 +24,6 @@
                         used to tag ingested data for purposes of privacy and access control.
                         Examples of data visibilities are "CONFIDENTIAL," "SECRET," and "PII"
                         (Personally Identifiable Information).</p>
-                    <p><xref
-                            href="../data_visibilities/con_data-visibilities.xml#concept_data-visibilities"
-                            >Tell me about data visibilities.</xref></p>
                 </info>
             </step>
             <step>
@@ -35,8 +32,6 @@
                 <info>
                     <p>Your user authorizations should reflect the actual permissions your personnel
                         are granted to interact with data with different visibility. </p>
-                    <p><xref href="../users/con_user-authorizations.xml#concept_user-authorizations"
-                            >Tell me about user authorizations.</xref></p>
                 </info>
             </step>
             <step>
@@ -48,9 +43,6 @@
                         authorization might only be permitted to access only DE-IDENTIFIED data, and
                         a user with DOCTOR authorization might be allowed to see data of all
                         sensitivity. You'll capture these combinations as access policies.</p>
-                    <p><xref
-                            href="../access_policies/con_access-policies.xml#concept_access-policies"
-                            >Tell me about access policies.</xref></p>
                 </info>
             </step>
         </steps>

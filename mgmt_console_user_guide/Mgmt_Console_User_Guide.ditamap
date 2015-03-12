@@ -10,6 +10,5 @@
  <mapref href="../_common_source/Initial_Setup/Admin_QS.ditamap" format="ditamap"/>
  <mapref href="../_common_source/mgmt_console/Introducing_Mgmt_Console.ditamap" format="ditamap"/>
  <mapref href="../_common_source/mgmt_console/Mgmt_Console_Reference.ditamap" format="ditamap"/>
- <topicref href="../_common_source/Filter_Expressions/Filter-Expressions.ditamap" format="ditamap"/>
  <mapref href="../_common_source/_glossary/glossary.ditamap" format="ditamap"/>
 </map>

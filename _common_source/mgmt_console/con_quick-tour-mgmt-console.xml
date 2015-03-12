@@ -11,6 +11,12 @@
    <ph conkeyref="product-vars/gui-name"/> you can access, and therefore what icons appear in the
    left navigation bar. Different roles have access to different parts of the <ph
     conkeyref="product-vars/gui-name"/>.</p>
+  <p>Note also that the <ph conkeyref="role-vars/privacy-officer"/> does not have a functional role
+   within the <ph conkeyref="product-vars/gui-name"/>. In <ph conkeyref="product-vars/product-name"
+   />, the <ph conkeyref="role-vars/privacy-officer"/> is the person chiefly responsible for
+   defining the organization's overall governance policies. As such, you must define at least one
+   user with a role of <ph conkeyref="role-vars/privacy-officer"/> to "own" that aspect of a data
+   collection.</p>
   <table frame="all" rowsep="1" colsep="1" id="table_z34_pfw_1r">
    <title/>
    <tgroup cols="3">
@@ -20,7 +26,7 @@
     <thead>
      <row>
       <entry>
-       <p>Main Page:</p>
+       <p>Main Page</p>
       </entry>
       <entry>
        <p>What you can do there:</p>
@@ -85,7 +91,7 @@
       <entry>Monitor what operations have been performed from and what data requests have been made
        of <ph conkeyref="product-vars/product-name"/>. </entry>
       <entry>
-       <p><ph conkeyref="role-vars/privacy-officer"/>.</p>
+       <p><ph conkeyref="role-vars/admin"/>.</p>
       </entry>
      </row>
     </tbody>

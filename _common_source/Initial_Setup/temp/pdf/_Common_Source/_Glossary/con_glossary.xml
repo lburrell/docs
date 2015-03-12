@@ -88,7 +88,6 @@
    <dlentry class="- topic/dlentry " xtrf="C:\PHEMI-docs\docs\_common_source\_Glossary\con_glossary.xml" xtrc="dlentry:9;93:13">
     <dt class="- topic/dt " xtrf="C:\PHEMI-docs\docs\_common_source\_Glossary\con_glossary.xml" xtrc="dt:9;94:9">data collection</dt>
     <dd class="- topic/dd " xtrf="C:\PHEMI-docs\docs\_common_source\_Glossary\con_glossary.xml" xtrc="dd:9;95:9">
-     <p audience="internal" class="- topic/p " xtrf="C:\PHEMI-docs\docs\_common_source\_Glossary\con_glossary.xml" xtrc="p:13;96:29">Two words (i.e., not "datasource").</p>
       <p id="data-source" class="- topic/p " xtrf="C:\PHEMI-docs\docs\_common_source\_Glossary\con_glossary.xml" xtrc="p:14;97:27">In <ph conref="../_Variables/PHEMI_Central/con_Product-Vars.xml#product-name" class="- topic/ph " xtrf="C:\PHEMI-docs\docs\_common_source\_Glossary\con_glossary.xml" xtrc="ph:8;97:73"/>, a data collection is the
             set of management and governance rules and policies that will be applied to a collection
             of data. A data collection configuration should be defined for each set of data that is

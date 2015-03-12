@@ -164,6 +164,12 @@
                 </info>
             </step>
             <step>
+                <cmd>If you want to, you can change the name of any digital asset in the dataset. In
+                    the <uicontrol>Export Preview</uicontrol>, select the <uicontrol>Destination
+                        Name</uicontrol> field of the digital asset you want to modify. Double-click
+                    to make the field editable and make your changes.</cmd>
+            </step>
+            <step>
                 <cmd>When your dataset is complete, click the <uicontrol>Save Dataset</uicontrol>
                     button. </cmd>
                 <info>
