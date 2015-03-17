@@ -34,15 +34,15 @@
                     <p>You will only be able to select datasets that the <ph
                             conkeyref="role-vars/admin"/> has designated as available to you in the
                         dataset definition. If a dataset has not been made available to you, you
-                        will see it in the list but it will be marked <keyword>(not
-                            authorized)</keyword> and you will not be able to select it. If you need
+                        will see it in the list but it will be marked <keyword>not
+                            authorized</keyword> and you will not be able to select it. If you need
                         to see this data, you must ask the <ph conkeyref="role-vars/admin"/> add you
                         to the list of users who can access the dataset.</p>
                     <p>You will only be able to select datasets that have not expired. If the
                         dataset is expired, you will see it in the list but it will be marked
-                            <keyword>(expired)</keyword> and you will not be able to select it. If
-                        you need to see this data, you must ask the <ph conkeyref="role-vars/admin"
-                        /> to reset the dataset expiry date.</p>
+                            <keyword>expired</keyword> and you will not be able to select it. If you
+                        need to see this data, you must ask the <ph conkeyref="role-vars/admin"/> to
+                        reset the dataset expiry date.</p>
                     <p>If you do have access to a dataset, you may not have access to all the data
                         fields defined for it. The data you are able to see will be constrained by
                         your user authorization and the access policy applied to the dataset.</p>

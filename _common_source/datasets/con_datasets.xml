@@ -14,8 +14,7 @@
    To be able to execute or export a dataset, a user must have a role of <ph
     conkeyref="role-vars/data-analyst"/>. </p>
   <p>Datasets are instantiated only when they are executed. Datasets can be executed directly by
-   users and downloaded or exported to spreadsheets, applications, or analytics tools. Because all
-   data is indexed and cataloged in advance, dataset execution is fast.</p>
+   users and downloaded or exported to spreadsheets, applications, or analytics tools. </p>
   <p>Defining a dataset does not modify any configuration for data collections or impact any
    protections to data, because the <ph conkeyref="product-vars/product-name"/>
    <ph conkeyref="product-vars/policy-engine"/> mediates all requests for data. Users can only

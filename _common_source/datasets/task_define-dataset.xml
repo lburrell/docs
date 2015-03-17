@@ -129,8 +129,8 @@
                         </choption>
                         <chdesc>
                             <p>Optional. An expiry date for the dataset. When this date is reached,
-                                    <ph conkeyref="product-vars/product-name"/> deletes the dataset
-                                from the system. </p>
+                                    <ph conkeyref="product-vars/product-name"/> disables the dataset
+                                and it can no longer be executed. </p>
                         </chdesc>
                     </chrow>
                 </choicetable>
@@ -155,7 +155,7 @@
                     </fig>
                     <p>Continue for each data category you want to include in the dataset.</p>
                     <p>As you select fields, a preview of your selections appears in
-                            <uicontrol>Export Preview</uicontrol> pane, organizedby data
+                            <uicontrol>Export Preview</uicontrol> pane, organized by data
                         category.</p>
                     <fig id="fig_export-preview">
                         <image href="../_images/gui-screen-shots/datasets_export-preview.png"

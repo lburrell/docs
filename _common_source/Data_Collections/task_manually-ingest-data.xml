@@ -100,9 +100,9 @@
                             <p><ph conkeyref="product-vars/product-name"/> extracts each row of the
                                 Excel file as a single object. The first row of the Excel file is
                                 expected to contain column names. The second row is expected to
-                                contain type information for the data. The third row should is
-                                expected to specify the data's visibilities. An object is created
-                                for each row in the Excel file.</p>
+                                contain type information for the data. The third row is expected to
+                                specify the data's visibilities. An object is created for each row
+                                in the Excel file.</p>
                         </chdesc>
                     </chrow>
                     <chrow>
