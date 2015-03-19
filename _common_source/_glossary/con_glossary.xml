@@ -33,6 +33,7 @@
    <dlentry>
     <dt>field</dt>
     <dd>
+          <p audience="internal">Not "cell."</p>
      <p id="cell">A field is the smallest unit of data storage in <ph
               conkeyref="product-vars/product-name"/>. A field is a single data item, which can
             range from a single byte up to gigabytes, plus the metadata associated with the data
@@ -65,10 +66,10 @@
         <dt>data collection</dt>
         <dd>
           <p id="data-collection">In <ph conkeyref="product-vars/product-name"/>, a data collection
-            is the set of management and governance rules and policies that will be applied to some
-            set of data. A data collection configuration should be defined for each set of data that
-            is to be stored and managed according to the same retention, legal, and governance
-            rules. </p>
+            is the set of management and governance rules and policies, as well as the DPF
+            processing, that will be applied to some set of data. A data collection configuration
+            should be defined for each set of data that is to be stored and managed according to the
+            same retention, legal, and governance rules. </p>
         </dd>
       </dlentry>
       <dlentry>
@@ -115,8 +116,9 @@
     <dt>digital asset</dt>
     <dd>
      <p id="digital-asset">A digital asset is any piece of data stored with metadata in the system.
-      This may be raw data that has had metadata applied on collection, or it may be derived data
-      that has been parsed, indexed, catalogued, and/or enriched with additional metadata. </p>
+            This may be raw data that has had metadata applied during ingestion, or it may be
+            derived data that has been parsed, indexed, catalogued, and/or enriched with additional
+            metadata. </p>
     </dd>
    </dlentry>
    <dlentry>
@@ -126,8 +128,8 @@
      <p id="dpf-archive">The set of code that makes up a DPF is called a DPF archive. A DPF archive
             is delivered as a ZIP file archive. It consists of two parts: a manifest file and a code
             library. To associate a DPF with a data collection, the DPF archive is ``registered``
-            with the data collection by uploading the DPF archive as part of data collection
-            configuration.</p>
+            with the data collection by uploading the DPF archive. Registering the DPF is part of
+            data collection configuration.</p>
     </dd>
    </dlentry>
       <dlentry>
@@ -140,12 +142,11 @@
     <dt>ingestion</dt>
     <dd>
      <p id="ingestion">Ingestion is the process by which data is brought into in <ph
-              conkeyref="product-vars/product-name"/>. The sending system (the data source) submits
-            the data to <ph conkeyref="product-vars/product-name"/>, which listens for the data
-            using a web service. Data can also be ingested manually, by using the <ph
+              conkeyref="product-vars/product-name"/>. Often, the sending system submits the data to
+              <ph conkeyref="product-vars/product-name"/>, which listens for the data, often using a
+            web service. Data can also be ingested manually, by using the <ph
               conkeyref="product-vars/product-name"/>
-            <ph conkeyref="product-vars/gui-name"/>. The specific characteristics of data ingestion
-            can be specified per data collection as part of the data collection configuration. </p>
+            <ph conkeyref="product-vars/gui-name"/>. </p>
     </dd>
    </dlentry>
    <dlentry>
@@ -163,8 +164,8 @@
     <dt>key-value pairs</dt>
     <dd>
      <p id="key-value-pair">A key-value pair is a set of two linked data items: a key which uniquely
-      identifies some item of data, and the data itself. PHEMI Central uses key-value store to
-      efficiently store, process, and retrieve data.</p>
+            identifies some item of data, and the value, which is the data itself. PHEMI Central
+            uses key-value store to efficiently store, process, and retrieve data.</p>
     </dd>
    </dlentry>
    <dlentry>
@@ -246,8 +247,8 @@
         <dd>
           <p id="vcf">A Variant Call Format (VCF) file is a text file containing tab-separated
             marker and genotype data. VCF data is used in bioinformatics to store gene sequence
-            variations. As such, a VCF can document hundreds, thousands, and even millions of gene
-            sites in a single file. </p>
+            variations. As such, VCF files are very large, and a a VCF file can document hundreds,
+            thousands, and even millions of gene sites in a single file. </p>
         </dd>
       </dlentry>
       <dlentry>
@@ -257,8 +258,8 @@
               conkeyref="product-vars/product-name"/> can be tagged with labels that provide
             information about the data's sensitivity. This sensitivity is described in terms of the
             visibility the data should have to different system users. The visibility tags you
-            define for your data should reflect the sensitivity of the data as identified by your
-            organization. </p>
+            define for your data should reflect the visibility the data is intended to have
+            according to your organization's governance policy. </p>
         </dd>
       </dlentry>
       <dlentry audience="internal">

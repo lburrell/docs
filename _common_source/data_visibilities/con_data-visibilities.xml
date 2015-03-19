@@ -29,10 +29,14 @@
    <xref href="../access_policies/con_access-policies.xml#concept_access-policies">Tell me about
     access policies.</xref></p>
   <p>In addition, any data visibility defined in the system can be used by a Data Processing
-   Function (DPF) to selectively tag any derived data fields. The derived data elements can be
-   assigned different privacy levels from those of the data collection and from those of one
-   another. For example, the Social Security Number extracted from a health record can be tagged
-   CONFIDENTIAL if that data visibility has been defined in the system. This mechanism provides
-   field-level privacy protection.</p>
+      Function (DPF) to selectively tag any derived data fields. The derived data elements can be
+      assigned different privacy levels given that the visibilities have been configured in the
+      system. For example, the Social Security Number extracted from a health record web form can be
+      tagged CONFIDENTIAL if that data visibility has been defined in the system. This mechanism
+      provides field-level privacy protection. </p>
+    <p>Similarly, the DPF can extract several versions of a field; for example, one version
+      containing the original personally identifying information and another version that is
+      de-identified, perhaps by encrypting it or masking it, and then the DPF apply different data
+      visibilities to each version of the field.</p>
  </conbody>
 </concept>

@@ -6,7 +6,14 @@
         screen of the <wintitle>System Configuration</wintitle> page.</shortdesc>
     <taskbody>
         <context>
-            <p>To view the data visibilities that have been configured in the system:</p>
+            <p>Given that several versions of a field may be produced, your user authorities may
+                entitle you to see more than one version of a field. You can stipulate which data
+                visibilities should be preferred by arranging data visibilities in order of
+                preference. If your user authority and the data's access policies entitle you to see
+                more than one version of a field, the data with first-occurring visibility is given
+                preference.</p>
+            <p>By default, visibilities are ordered by order of configuration. To set the order data
+                visibilities:</p>
         </context>
         <steps id="steps_dwd_rnx_kq">
             <step>
@@ -27,6 +34,16 @@
                         <image href="../_images/gui-screen-shots/data-visibilities.png"
                             id="image_snr_ypm_lq" scale="50"/>
                     </fig></info>
+            </step>
+            <step>
+                <cmd>Click the <uicontrol>Rearrangement</uicontrol> checkbox.</cmd>
+            </step>
+            <step>
+                <cmd>Click in the row you want to rearrange and drag it to the new location.</cmd>
+            </step>
+            <step>
+                <cmd>When you have finished rearranging visibilities, click the <uicontrol>Save the
+                        New Arrangement</uicontrol> button.</cmd>
             </step>
         </steps>
     </taskbody>

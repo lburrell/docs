@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
- <title>Internal Style Guide</title>
+ <title>PHEMI Central Internal Style Guide</title>
+ <keydef keys="role-vars" href="../_common_source/_Variables/Role_Vars/con_Role_Vars.xml"/>
+ <keydef keys="product-vars"
+  href="../_common_source/_Variables/Product_Vars/PHEMI_Central/con_Product-Vars.xml"/>
  <topicref href="../_Common_Source/_Glossary/con_glossary.xml"/>
- <topicref href="../_Common_Source/_Branded_Terms/con_branded-terms.xml"/>
 </map>
