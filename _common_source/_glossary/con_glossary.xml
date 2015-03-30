@@ -4,6 +4,9 @@
  <title>Glossary of Terms and Concepts</title>
  <shortdesc/>
  <conbody>
+    <note audience="internal">For market reasons, we follow U.S. (not Canadian) spelling. This
+      means, for example, "catalog" (not "catalogue"), "color" (not "colour"), "center" (not
+      "centre"), and so on.</note>
   <dl>
    <dlentry>
     <dt>access policy</dt>
@@ -26,10 +29,14 @@
     </dd>
    </dlentry>
    <dlentry audience="internal">
-    <dt>big data</dt>
-    <dd>Do not capitalize. Do not hyphenate when used as an adjectival phrase (i.e., "big data
-     warehouse" not "big-data warehouse").</dd>
-   </dlentry>
+        <dt>big data</dt>
+        <dd>Do not capitalize. Do not hyphenate when used as an adjectival phrase (i.e., use "big
+          data warehouse" not "big-data warehouse").</dd>
+      </dlentry>
+      <dlentry audience="internal">
+        <dt>catalog</dt>
+        <dd>Not "catalogue". So therefore, "cataloged," "cataloging."</dd>
+      </dlentry>
    <dlentry>
     <dt>field</dt>
     <dd>
@@ -102,6 +109,12 @@
             dataset can be selected from across multiple data collections. The dataset is a view, or
             map, to the underlying data. The actual content of the dataset (that is, the dataset's
             data) is generated when the dataset is executed or when it is queried against.</p>
+        </dd>
+      </dlentry>
+      <dlentry audience="internal">
+        <dt>datasheet</dt>
+        <dd>
+          <p>One word (i.e., not "data sheet").</p>
         </dd>
       </dlentry>
    <dlentry>
@@ -201,6 +214,10 @@
             kind of metadata.</p>
     </dd>
    </dlentry>
+      <dlentry audience="internal">
+        <dt>(the) <ph conkeyref="product-vars/product-name"/> Big Data Warehouse</dt>
+        <dd>Full name of the product. Note that it takes an article.</dd>
+      </dlentry>
    <dlentry>
     <dt>PII</dt>
     <dd>
@@ -261,6 +278,10 @@
             define for your data should reflect the visibility the data is intended to have
             according to your organization's governance policy. </p>
         </dd>
+      </dlentry>
+      <dlentry>
+        <dt audience="internal">white paper</dt>
+        <dd>Two words. (Not "whitepaper.")</dd>
       </dlentry>
       <dlentry audience="internal">
         <dt>ZIP file</dt>

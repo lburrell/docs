@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_glossary">
+ <title>Measurements and Units</title>
+ <shortdesc/>
+ <conbody>
+    <p>The SI decimal prefixes are powers of 10. The IEC Binary prefixes are powers of two.</p>
+  <dl>
+      <dlentry>
+        <dt>bit</dt>
+        <dd>Lower case. Spell out rather than abbreviating. Rate abbreviation:
+            <uicontrol>bit/s</uicontrol>.</dd>
+      </dlentry>
+      <dlentry>
+        <dt>bitrate</dt>
+        <dd>One word. Not "bit rate."</dd>
+      </dlentry>
+      <dlentry>
+        <dt>byte</dt>
+        <dd>Lower case. Abbreviation: <uicontrol>B</uicontrol>. Rate abbreviation:
+            <uicontrol>B/s</uicontrol>.</dd>
+      </dlentry>
+      <dlentry>
+        <dt>exabit</dt>
+        <dd>10^18 bits. Lower case. Abbreviation: <uicontrol>Eb</uicontrol>. Rate abbreviation:
+            <uicontrol>Eb/s</uicontrol>.</dd>
+      </dlentry>
+      <dlentry>
+        <dt>exabyte</dt>
+        <dd>2^60 bytes. Lower case. Abbreviation: <uicontrol>EB</uicontrol>. Rate abbreviation:
+            <uicontrol>EB/s</uicontrol>.</dd>
+      </dlentry>
+      <dlentry>
+        <dt>gigabit</dt>
+        <dd>10^9 bits. Lower case. Abbreviation: <uicontrol>Gb</uicontrol>. Rate abbrevation:
+            <uicontrol>Gb/s</uicontrol>.</dd>
+      </dlentry>
+      <dlentry>
+        <dt>gigabyte</dt>
+        <dd>8*10^9 bits. Lower case. Abbreviation: <uicontrol>GB/s</uicontrol>. </dd>
+      </dlentry>
+      <dlentry>
+        <dt>GHz</dt>
+        <dd>GigaHerz. Note capitalization. </dd>
+      </dlentry>
+      <dlentry>
+        <dt>kilobit</dt>
+        <dd>10^3 bits. Lower case. Abbreviation: <uicontrol>kbit</uicontrol>. Rate abbreviation:
+            <uicontrol>kb/s</uicontrol></dd>
+      </dlentry>
+      <dlentry>
+        <dt>kilobyte</dt>
+        <dd>10^3 bytes. Lower case. Abbreviation: <uicontrol>kB</uicontrol>. Rate abbreviation:
+            <uicontrol>kB/s</uicontrol>.</dd>
+      </dlentry>
+    </dl>
+    <dl>
+      <dlentry>
+        <dt>megabit</dt>
+        <dd>10^6 bits. Lower case. Abbreviation: <uicontrol>Mbit</uicontrol>. Rate abbreviation:
+            <uicontrol>Mbit/s</uicontrol>.</dd>
+      </dlentry>
+    </dl>
+    <dl>
+      <dlentry>
+        <dt>megabyte</dt>
+        <dd>10^6 bytes. Lower case. Abbreviation: <uicontrol>MB</uicontrol>. Rate abbreviation:
+            <uicontrol>MB/s</uicontrol>.</dd>
+      </dlentry>
+      <dlentry>
+        <dt>petabit</dt>
+        <dd>10^15 bits. Lower case. Abbreviation: <uicontrol>Pbit</uicontrol>. Rate abbreviation:
+            <uicontrol>Pbit/s</uicontrol>.</dd>
+      </dlentry>
+      <dlentry>
+        <dt>petabyte</dt>
+        <dd>10^15 bytes. Lower case. Abbreviation: <uicontrol>PB</uicontrol>. Rate abbreviation:
+            <uicontrol>PB/s</uicontrol>.</dd>
+      </dlentry>
+      <dlentry>
+        <dt>terabit</dt>
+        <dd>10^12 bits. Lower case. Abbreviation: <uicontrol>Tbit</uicontrol>. Rate abbreviation:
+            <uicontrol>Tbit/s</uicontrol>.</dd>
+      </dlentry>
+      <dlentry>
+        <dt>terabyte</dt>
+        <dd>10^12 bytes. Lower case. Abbreviation: <uicontrol>TB</uicontrol>. Rate abbreviation:
+            <uicontrol>TB/s</uicontrol>.</dd>
+      </dlentry>
+      <dlentry>
+        <dt>yottabit</dt>
+        <dd>10^24 bits. Lower case. Abbreviation: <uicontrol>Ybit</uicontrol>. Rate abbreviation:
+            <uicontrol>Yb/s</uicontrol>.</dd>
+      </dlentry>
+      <dlentry>
+        <dt>yottabyte</dt>
+        <dd>10^24 bits. Lower case. Abbreviation: <uicontrol>YB</uicontrol>. Rate abbreviation:
+            <uicontrol>YB/s</uicontrol>.</dd>
+      </dlentry>
+      <dlentry>
+        <dt>zettabit</dt>
+        <dd>10^21 bits. Lower case. Abbreviation: <uicontrol>Zb</uicontrol>. Rate abbreviation:
+            <uicontrol>Zbit/s</uicontrol>.</dd>
+      </dlentry>
+      <dlentry>
+        <dt>zettabyte</dt>
+        <dd>10^21 bytes. Lower case. Abbreviation: <uicontrol>ZB</uicontrol>. Rate abbreviation:
+            <uicontrol>ZB/s</uicontrol>.</dd>
+      </dlentry>
+    </dl>
+ </conbody>
+</concept>
