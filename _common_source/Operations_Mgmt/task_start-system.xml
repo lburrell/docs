@@ -4,12 +4,131 @@
     <title>Start the System</title>
     <shortdesc/>
     <taskbody>
-        <context>
-            <p></p>
-        </context>
+        <context>This procedure assumes that all Docker containers have been previously installed,
+            configured, and initialized.</context>
         <steps>
+            <stepsection>First, start the Hadoop cluster.</stepsection>
             <step>
-                <cmd></cmd>
+                <cmd>Start the Ambari server.</cmd>
+                <info>
+                    <p>Log on to the node running the Ambari server as a user with
+                            <keyword>sudo</keyword> privileges. At the Ambari server command line,
+                        enter the following command:</p>
+                    <codeblock>sudo service ambari-server start</codeblock>
+                </info>
+            </step>
+            <step>
+                <cmd>Once the command line returns a success message, log on to the web-based Ambari
+                    console. The console runs on port 8080. </cmd>
+            </step>
+            <step>
+                <cmd>From within the Ambari console, select the cluster.</cmd>
+                <info>The cluster services show yellow question mark icons, which means that the
+                    Ambari server has not discovered the services yet. Wait for the Ambari server to
+                    establish communication with the Ambari service on the cluster. When the server
+                    and the cluster discover one another, the Ambari dashboard will learn that the
+                    services as stopped and the yellow question marks change to red "stopped" icons.
+                    This can take a few minutes.</info>
+            </step>
+            <step>
+                <cmd>Start Accumulo and  Hadoop services.</cmd>
+                <info>
+                    <p>Using SSH, log on to the Accumulo master node as a user with
+                            <keyword>sudo</keyword> privileges. Become the Accumulo user by issuing
+                        the following command:</p>
+                    <codeblock>sudo su accumulo</codeblock>
+                </info>
+            </step>
+            <step>
+                <cmd>Start the cluster.</cmd>
+                <info>
+                    <p>At the Accumulo master node command line, issue the following command:</p>
+                    <codeblock>
+/usr/lib/accumulo/bin/start-cluster.sh</codeblock>
+                    <p>When the system returns a success response, the Ambari console should show
+                        green checkmark icons next to each listed service, showing that the service
+                        is running. </p>
+                    <p>If any service still shows as stopped, you can individually start the service
+                        in Ambari. Select the service, click the
+                            <uicontrol>Service-Actions</uicontrol> button and select
+                            <uicontrol>Start</uicontrol>.</p>
+                </info>
+            </step>
+            <stepsection>After the Hadoop cluster is started, start <ph
+                    conkeyref="product-vars/product-name"/> Docker containers.</stepsection>
+            <step>
+                <cmd>Start the Docker service.</cmd>
+                <info>
+                    <p>Log on to the server running <ph conkeyref="product-vars/product-name"/> as a
+                        user with <keyword>sudo</keyword> privileges. At the command line, issue the
+                        following command:</p>
+                    <codeblock>sudo service docker start</codeblock>
+                </info>
+            </step>
+            <step>
+                <cmd>Start the MongoDB container.</cmd>
+                <info>
+                    <p>At the <ph conkeyref="product-vars/product-name"/> server, start the Docker
+                        container for MongoDB, using the following command:</p>
+                    <codeblock>sudo docker start phemi_mongo</codeblock>
+                </info>
+            </step>
+            <step>
+                <cmd>Start the <ph conkeyref="product-vars/product-name"/> application. </cmd>
+                <info>
+                    <p>The <ph conkeyref="product-vars/product-name"/> application runs on top of
+                        the Tornado web application framework. At the <ph
+                            conkeyref="product-vars/product-name"/> server, start the Docker
+                        container for the <ph conkeyref="product-vars/gui-name"/>, using the
+                        following command:</p>
+                    <codeblock>sudo docker start phemi_central</codeblock>
+                </info>
+            </step>
+            <step>
+                <cmd>Start the Nginx container.</cmd>
+                <info>
+                    <p>At the <ph conkeyref="product-vars/product-name"/> server command line, start
+                        the Docker container for Nginx, using the following command:</p>
+                    <codeblock>sudo docker start phemi_nginx</codeblock>
+                </info>
+            </step>
+            <stepsection>Once the Docker containers are started, start the web proxy server and the
+                    <ph conkeyref="product-vars/product-name"/> tenants. Starting the tenants starts
+                the <ph conkeyref="product-vars/product-name"/> web application.</stepsection>
+            <step>
+                <cmd>Start the web proxy server.</cmd>
+                <info>
+                    <p>Attach to the Nginx container. You may have to press
+                            <keyword>&lt;Enter></keyword> for the container command prompt to
+                        appear.  At the container command prompt, become the Ubuntu user, so that
+                        you have <keyword>sudo</keyword> privileges. Start the Nginx server:</p>
+                    <codeblock>sudo docker attach phemi_nginx
+su ubuntu
+sudo /etc/init.d/nginx start</codeblock>
+                </info>
+            </step>
+            <step>
+                <cmd>Detach from the Nginx container but do not kill it. </cmd>
+                <info> To detach from the container without killing it, press the key sequence
+                        <keyword>&lt;Ctrl>+p</keyword>, <keyword>&lt;Ctrl>+q</keyword>. </info>
+            </step>
+            <step>
+                <cmd>Attach to the <ph conkeyref="product-vars/product-name"/> application so you
+                    can start the tenants.</cmd>
+                <info>
+                    <p>Attach to the <ph conkeyref="product-vars/product-name"/> container. You may
+                        have to press <keyword>&lt;Enter></keyword> for the container command prompt
+                        to appear.  At the container command prompt, become the Ubuntu user, so that
+                        you have <keyword>sudo</keyword> privileges. Navigate to the directory
+                        containing your tenants.</p>
+                    <codeblock>sudo docker attach phemi_central
+su ubuntu
+cd /home/ubuntu/agile/bin/
+</codeblock>
+                </info>
+            </step>
+            <step>
+                <cmd>Start each tenant in your deployment.</cmd>
             </step>
         </steps>
     </taskbody>

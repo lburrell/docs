@@ -2,21 +2,17 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_about-it-admin">
  <title>About the IT Administrator</title>
- <shortdesc>This section will describe the general intention of the IT Administrator
-  role.</shortdesc>
+ <shortdesc/>
  <conbody>
-  <ul id="ul_xcz_px5_mr">
-   <li/>
-   <li/>
-   <li/>
-   <li/>
-   <li/>
-   <li/>
-   <li/>
+  <p>An individual responsible for maintaining the PHEMI Central system should have skills and
+   expertise in the following:</p>
+  <ul id="ul_g42_bgr_3r">
+   <li>Linux</li>
+   <li>System administration</li>
+   <li>Network security </li>
+   <li>Database administration</li>
+   <li>Administration of the Apache Hadoop ecosystem</li>
+   <li>Docker containers</li>
   </ul>
-  <p>It won't list detailed responsibilities (that's in a subsection). But it will give the general
-   purview of the IT Admin.</p>
-  <p>It will also distinguish the IT admin from the DB admin (PHEMI Administrator, in our
-   terminology).</p>
  </conbody>
 </concept>

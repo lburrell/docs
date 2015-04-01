@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>IT Admin Guide: Review Document</title>
+ <keydef keys="product-vars"
+  href="../_common_source/_Variables/Product_Vars/PHEMI_Central/con_Product-Vars.xml"/>
+ <keydef keys="role-vars" href="../_common_source/_Variables/Role_Vars/con_Role_Vars.xml"/>
+ <mapref href="../_common_source/IT_Admin/About_the_IT_Admin.ditamap" format="ditamap"/>
+ <mapref href="../_common_source/Deployment/Your-Deployment.ditamap" format="ditamap"/>
+ <mapref href="../_common_source/Operations_Mgmt/Starting_and_Stopping.ditamap" format="ditamap"/>
+ <mapref href="../_common_source/_glossary/glossary.ditamap" format="ditamap"/>
+</map>

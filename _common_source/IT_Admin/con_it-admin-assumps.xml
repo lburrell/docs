@@ -2,13 +2,12 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_it-admin-assumptions">
  <title>Assumptions</title>
- <shortdesc>This is the section where we'll lay out the assumptions and expectations about the IT
-  Admins skills and expertise</shortdesc>
  <conbody>
   <ul id="ul_g42_bgr_3r">
-   <li>System administration</li>
-   <li>Database administration</li>
-   <li>Network security</li>
+   <li>System administration and network security in general</li>
+   <li>Database administration in general</li>
+   <li>Administration of the Hadoop ecosystem, including the Hadoop Distributed File System (HDFS),
+    YARN, Ambari, and Accumulo.</li>
   </ul>
  </conbody>
 </concept>

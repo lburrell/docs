@@ -4,6 +4,8 @@
  <title>Starting and Stopping the System</title>
  <shortdesc></shortdesc>
  <conbody>
-  <p></p>
+  <p>From a cold state, the components of <ph conkeyref="product-vars/product-name"/> must be
+   started in order. From a running system, <ph conkeyref="product-vars/product-name"/> components
+   are stopped in the reverse order to that in which they were started.</p>
  </conbody>
 </concept>

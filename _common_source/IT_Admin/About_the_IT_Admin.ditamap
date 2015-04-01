@@ -2,8 +2,5 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
  <title>About the IT Administrator</title>
- <topicref href="con_about-it-admin.xml">
-  <topicref href="con_it-admin-assumps.xml"/>
-  <topicref href="it-admin-responsibilities.xml"/>
- </topicref>
+ <topicref href="con_about-it-admin.xml"/>
 </map>

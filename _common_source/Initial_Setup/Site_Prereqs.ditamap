@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
- <title>Starting and Stopping the System</title>
+ <title>Site Prerequisites</title>
  <keydef keys="product-vars" href="../_Variables/Product_Vars/PHEMI_Central/con_Product-Vars.xml"/>
  <keydef keys="role-vars" href="../_Variables/Role_Vars/con_Role_Vars.xml"/>
- <topicref href="con_starting-stopping.xml">
-  <topicref href="task_start-system.xml"/>
-  <topicref href="task_stop-system.xml"/>
- </topicref>
+ <topicref href="../Deployment/con_site-prereqs.xml"/>
 </map>

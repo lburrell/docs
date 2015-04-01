@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_w32_wtf_4r">
+ <title>Your Deployment</title>
+ <shortdesc></shortdesc>
+ <conbody>
+  <p>This guide assumes that <ph conkeyref="role-vars/prof-services"/> has installed and set up your
+      base system of cluster nodes and your management node, and has configured and initialized all
+        <ph conkeyref="product-vars/product-name"/> components on the cluster. </p>
+  <p><ph conkeyref="role-vars/prof-services"/> will also have installed and configured
+        <keyword>Docker</keyword> as part of your  deployment. Docker is an open-source engine that
+      automates deploying applications as portable, self-sufficient images. In administering <ph
+        conkeyref="product-vars/product-name"/>, you will be interacting with include the following
+      Docker containers:</p>
+  <ul id="ul_qsh_1xf_4r">
+   <li><keyword>Ambari. </keyword> Apache Ambari is an open-source interface for provisioning,
+        managing, and monitoring Hadoop clusters. </li>
+   <li><keyword>MongoDB.</keyword> MongoDB is a high-performance, high availability, scalable
+    document database.</li>
+   <li><keyword>Tornado.</keyword> Tornado is a Python-based web server and web application
+        framework. The <ph conkeyref="product-vars/product-name"/>
+        <ph conkeyref="product-vars/gui-name"/> runs on Tornado.</li>
+   <li><keyword>Nginx.</keyword> Nginx is an open-source reverse proxy server for the HTTP, HTTPS,
+        SMTP, POP3, and IMAP protocols. On the <ph conkeyref="product-vars/product-name"/> platform,
+        Nginx presents a unified interface for the multiple services making up the <ph
+          conkeyref="product-vars/product-name"/> application.</li>
+  </ul>
+    <p>In addition, you will be interacting with the Apache Accumulo server.</p>
+ </conbody>
+</concept>

@@ -2,14 +2,95 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="task_zmm_l5h_hr">
     <title>Stop the System</title>
-    <shortdesc/>
     <taskbody>
         <context>
             <p></p>
         </context>
-        <steps>
+        <steps id="steps_mxd_sjg_4r">
+            <stepsection>First, stop the <ph conkeyref="product-vars/product-name"/> Docker
+                containers.</stepsection>
             <step>
-                <cmd></cmd>
+                <cmd>Log on to the server running <ph conkeyref="product-vars/product-name"/> as a
+                    user with <keyword>sudo</keyword> privileges. </cmd>
+            </step>
+            <step>
+                <cmd>Stop Nginx.</cmd>
+                <info>
+                    <p>From the <ph conkeyref="product-vars/product-name"/> server command line,
+                        stop the Docker container for Nginx, using the following command:</p>
+                    <codeblock>sudo docker stop phemi_nginx</codeblock>
+                </info>
+            </step>
+            <step>
+                <cmd>Stop  Tornado. </cmd>
+                <info>
+                    <p>The Tornado web application framework runs the <ph
+                            conkeyref="product-vars/product-name"/>
+                        <ph conkeyref="product-vars/gui-name"/>. From the <ph
+                            conkeyref="product-vars/product-name"/> server command line, start the
+                        Docker container for the  <ph conkeyref="product-vars/gui-name"/>, using the
+                        following command:</p>
+                    <codeblock>sudo docker stop phemi_central</codeblock>
+                </info>
+            </step>
+            <step>
+                <cmd>Stop MongoDB.</cmd>
+                <info>
+                    <p>From the <ph conkeyref="product-vars/product-name"/> server command line,
+                        stop the Docker container for MongoDB, using the following command:</p>
+                    <codeblock>sudo docker stop phemi_mongo</codeblock>
+                </info>
+            </step>
+            <step>
+                <cmd>Stop Docker.</cmd>
+                <info>
+                    <p>From the <ph conkeyref="product-vars/product-name"/> server, stop the Docker
+                        service, using the following command:</p>
+                    <codeblock>sudo service docker.io. stop</codeblock>
+                </info>
+            </step>
+            <stepsection>After the <ph conkeyref="product-vars/product-name"/> Docker containers
+                have all been stopped, stop the Hadoop cluster.</stepsection>
+            <step>
+                <cmd>Log on to the Accumulo master node.</cmd>
+                <info>
+                    <p>Using SSH, log on to the Accumulo master node as a user with
+                            <keyword>sudo</keyword> privileges. Become the Accumulo user, by issuing
+                        the following command:</p>
+                    <codeblock>sudo su accumulo</codeblock>
+                </info>
+            </step>
+            <step>
+                <cmd>Stop the cluster.</cmd>
+                <info>
+                    <p>At the Accumulo master node's command line, issue the following command:</p>
+                    <codeblock>
+/usr/lib/accumulo/bin/stop-cluster.sh</codeblock>
+                </info>
+            </step>
+            <step>
+                <cmd>Access the Ambari console.</cmd>
+                <info>
+                    <p>Use a web browser to log on to the node running the Ambari server. The
+                        console runs on port 8080. </p>
+                </info>
+            </step>
+            <step>
+                <cmd>From within the Ambari console, select the cluster.</cmd>
+                <info>The Hadoop services show yellow, which means they have not been discovered
+                    yet. Wait for the Ambari server to establish communication with the Ambari
+                    service on the cluster. When the server and the cluster discover one another,
+                    the Ambari dashboard will show the services as either started (green icon) or
+                    stopped (red icon). Wait for all the cluster services to stop.</info>
+            </step>
+            <step>
+                <cmd>Stop the Ambari server.</cmd>
+                <info>
+                    <p>Log on to the node running the Ambari server as a user with
+                            <keyword>sudo</keyword> privileges. At the command line, enter the
+                        following command:</p>
+                    <codeblock>sudo service ambari-server stop</codeblock>
+                </info>
             </step>
         </steps>
     </taskbody>

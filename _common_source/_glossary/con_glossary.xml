@@ -18,6 +18,20 @@
             Access policies can be applied to data collections and datasets. </p>
     </dd>
    </dlentry>
+      <dlentry audience="it-admin">
+        <dt>Accumulo</dt>
+        <dd>
+          <p>Apache Accumulo is a high-performance distributed key/value data storage and retrieval
+            system.</p>
+        </dd>
+      </dlentry>
+      <dlentry audience="it-admin">
+        <dt>Ambari</dt>
+        <dd>
+          <p>Apache Ambari is an open-source interface for provisioning, managing, and monitoring
+            Hadoop clusters. </p>
+        </dd>
+      </dlentry>
    <dlentry>
     <dt>authorizations</dt>
     <dd>
@@ -30,12 +44,16 @@
    </dlentry>
    <dlentry audience="internal">
         <dt>big data</dt>
-        <dd>Do not capitalize. Do not hyphenate when used as an adjectival phrase (i.e., use "big
-          data warehouse" not "big-data warehouse").</dd>
+        <dd>
+          <p>Do not capitalize. Do not hyphenate when used as an adjectival phrase (i.e., use "big
+            data warehouse" not "big-data warehouse").</p>
+        </dd>
       </dlentry>
       <dlentry audience="internal">
         <dt>catalog</dt>
-        <dd>Not "catalogue". So therefore, "cataloged," "cataloging."</dd>
+        <dd>
+          <p>Not "catalogue". So therefore, "cataloged," "cataloging."</p>
+        </dd>
       </dlentry>
    <dlentry>
     <dt>field</dt>
@@ -99,7 +117,9 @@
       </dlentry>
    <dlentry>
     <dt>data visibilities</dt>
-    <dd>See <keyword>visibilities</keyword>.</dd>
+    <dd>
+          <p>See <keyword>visibilities</keyword>.</p>
+        </dd>
    </dlentry>
       <dlentry>
         <dt>dataset</dt>
@@ -147,9 +167,24 @@
    </dlentry>
       <dlentry>
         <dt>ETL</dt>
-        <dd>Extract, transform, and load. In databases, a set of tools or processes that extracts
-          data from sources, transforms the format or structure for storage, query, and analysis,
-          and loads it into the receiving or consuming system. </dd>
+        <dd>
+          <p>Extract, transform, and load. In databases, a set of tools or processes that extracts
+            data from sources, transforms the format or structure for storage, query, and analysis,
+            and loads it into the receiving or consuming system. </p>
+        </dd>
+      </dlentry>
+      <dlentry audience="it-admin">
+        <dt>HDFS</dt>
+        <dd>
+          <p>The Hadoop Distributed File System, a distributed file system designed for scalability
+            on commodity hardware.</p>
+        </dd>
+      </dlentry>
+      <dlentry audience="it-admin">
+        <dt>Hadoop</dt>
+        <dd>
+          <p>Hadoop is an open-source platform for distributed computing.</p>
+        </dd>
       </dlentry>
    <dlentry>
     <dt>ingestion</dt>
@@ -214,9 +249,25 @@
             kind of metadata.</p>
     </dd>
    </dlentry>
+      <dlentry audience="it-admin">
+        <dt>MongoDB</dt>
+        <dd>
+          <p>MongoDB is a high-performance, high availability, scalable document database.</p>
+        </dd>
+      </dlentry>
+      <dlentry audience="it-admin">
+        <dt>Nginx</dt>
+        <dd>
+          <p>(Pronounced "engine-X.") Nginx is an open-source reverse proxy server for the HTTP,
+            HTTPS, SMTP, POP3, and IMAP protocols. It can also act as a load balancer, HTTP cache,
+            and a web origin server .</p>
+        </dd>
+      </dlentry>
       <dlentry audience="internal">
         <dt>(the) <ph conkeyref="product-vars/product-name"/> Big Data Warehouse</dt>
-        <dd>Full name of the product. Note that it takes an article.</dd>
+        <dd>
+          <p>Full name of the product. Note that it takes an article.</p>
+        </dd>
       </dlentry>
    <dlentry>
     <dt>PII</dt>
@@ -234,12 +285,16 @@
    </dlentry>
    <dlentry audience="internal">
     <dt>privacy, security, and governance</dt>
-    <dd>Always use the same order. Do not capitalize (unless in a heading or title).</dd>
+    <dd>
+          <p>Always use the same order. Do not capitalize (unless in a heading or title).</p>
+        </dd>
    </dlentry>
    <dlentry audience="internal">
     <dt>Privacy by Design</dt>
-    <dd>Title case (i.e., capitalize "Privacy" and "Design"; not "by"). If shortened, the acronym is
-     "PbD."</dd>
+    <dd>
+          <p>Title case (i.e., capitalize "Privacy" and "Design"; not "by"). If shortened, the
+            acronym is "PbD."</p>
+        </dd>
    </dlentry>
    <dlentry>
     <dt>raw data</dt>
@@ -259,6 +314,21 @@
       delete data. A RESTful API is an application programming interface (API) based on REST. </p>
     </dd>
    </dlentry>
+      <dlentry audience="it-admin">
+        <dt>tenant</dt>
+        <dd>
+          <p id="tenant">A tenant is a virtual context within the <ph
+              conkeyref="product-vars/product-name"/> data store. Within the tenancy, data is
+            private from other tenants. Using tenancies, more than one organization can use <ph
+              conkeyref="product-vars/product-name"/> without necessarily sharing data.</p>
+        </dd>
+      </dlentry>
+      <dlentry audience="it-admin">
+        <dt>Tornado</dt>
+        <dd>
+          <p>Tornado is a Python-based web server and web application framework.</p>
+        </dd>
+      </dlentry>
       <dlentry>
         <dt>VCF</dt>
         <dd>
