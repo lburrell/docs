@@ -5,7 +5,8 @@
  <shortdesc></shortdesc>
  <conbody>
   <p>From a cold state, the components of <ph conkeyref="product-vars/product-name"/> must be
-   started in order. From a running system, <ph conkeyref="product-vars/product-name"/> components
-   are stopped in the reverse order to that in which they were started.</p>
+      started in order. From a running system, <ph conkeyref="product-vars/product-name"/>
+      components are stopped in essentially the reverse order to that in which they were
+      started.</p>
  </conbody>
 </concept>

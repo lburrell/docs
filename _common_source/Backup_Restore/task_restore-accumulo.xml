@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_cmw_dsn_4r">
+    <title>Restore Accumulo</title>
+    <shortdesc/>
+    <taskbody>
+        <context>
+            <p>Accumulo backups preserve the data, Accumulo splits, Accumulo configuration, and the
+                logical time information for the Accumulo table.</p>
+            <p>You restore Accumulo information using a Python script. </p>
+            <p>Accumulo information for each <ph conkeyref="product-vars/product-name"/> tenant is
+                restored separately.</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Log on to the server running <ph conkeyref="product-vars/product-name"/> as a
+                    user with <keyword>sudo</keyword> privileges. </cmd>
+            </step>
+            <step>
+                <cmd>From the <ph conkeyref="product-vars/product-name"/> server command line,
+                    attach to the <ph conkeyref="product-vars/product-name"/> container and access
+                    its command line.</cmd>
+                <info>
+                    <codeblock>sudo docker attach phemi_central</codeblock>
+                    <p>After attaching to the process, you may have to press
+                            <keyword>&lt;Enter></keyword> for the container command prompt to
+                        appear. </p>
+                </info>
+            </step>
+            <step>
+                <cmd>At the container command line, become the Ubuntu user. </cmd>
+                <info>
+                    <codeblock>su ubuntu
+</codeblock>
+                </info>
+            </step>
+            <step>
+                <cmd>Navigate to the <ph conkeyref="product-vars/product-name"/> web application
+                    folder.</cmd>
+                <info>
+                    <codeblock>cd /home/ubuntu/agile/agile-web-ui/</codeblock>
+                </info>
+            </step>
+            <step>
+                <cmd>For each tenant in your deployment, execute the restore script.</cmd>
+                <info>
+                    <codeblock>python -m utils/backup.accumulo_backup --config 
+{{ <varname>tenant_id</varname> }}.central --backup-dir /backup/<varname>timestamp</varname>/accumulo 
+--restore</codeblock>
+                    <p>where <varname>tenant_id</varname> is the identifier of the tenant (for
+                            example,<keyword> tenant_01</keyword>) and <varname>timestamp</varname>
+                        is either <keyword>latest</keyword> (for the most recent backup) or a
+                        timestamp in Epoch time format. </p>
+                </info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

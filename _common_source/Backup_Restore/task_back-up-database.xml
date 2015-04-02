@@ -5,11 +5,40 @@
     <shortdesc/>
     <taskbody>
         <context>
-            <p></p>
+            <p>You back up the  <ph conkeyref="product-vars/product-name"/> database using an
+                Ansible playbook. The playbook backs up data each tenant deployed on your system,
+                including the Accumulo database, MongoDB, and all deployed Data Processing Functions
+                (DPFs), as well as the Ansible configuration. </p>
+            <p>You access the playbook and run it from the command line of the  <ph
+                    conkeyref="product-vars/product-name"/> Docker container.</p>
         </context>
         <steps>
             <step>
-                <cmd></cmd>
+                <cmd>Log on to the server running <ph conkeyref="product-vars/product-name"/> as a
+                    user with <keyword>sudo</keyword> privileges. </cmd>
+            </step>
+            <step>
+                <cmd>From the <ph conkeyref="product-vars/product-name"/> server command line,
+                    attach to the <ph conkeyref="product-vars/product-name"/> container and access
+                    its command line.</cmd>
+                <info>
+                    <codeblock>sudo docker attach phemi_central</codeblock>
+                    <p>After attaching to the process, you may have to press
+                            <keyword>&lt;Enter></keyword> for the container command prompt to
+                        appear. </p>
+                </info>
+            </step>
+            <step>
+                <cmd>Navigate to the directory where the backup script is located.</cmd>
+                <info>
+                    <codeblock>cd ~/agile/ansible/</codeblock>
+                </info>
+            </step>
+            <step>
+                <cmd>Run the script.</cmd>
+                <info>
+                    <codeblock>ansible-playbook -u ubuntu -i inventory/template backup-prod.yml</codeblock>
+                </info>
             </step>
         </steps>
     </taskbody>

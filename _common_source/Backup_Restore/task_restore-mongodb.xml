@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_cmw_dsn_4r">
+    <title>Restore MongoDB</title>
+    <shortdesc/>
+    <taskbody>
+        <context>
+            <p>The backup script uses the <keyword>mongodump</keyword> utility to back up MongoDB
+                data. The <keyword>mongodump</keyword> utility creates a binary backup. </p>
+            <p>You use the <keyword>mongorestore</keyword> utility to restore from the binary
+                backup. </p>
+            <p>MongoDB information for each <ph conkeyref="product-vars/product-name"/> tenant is
+                restored separately.</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Log on to the server running <ph conkeyref="product-vars/product-name"/> as a
+                    user with <keyword>sudo</keyword> privileges. </cmd>
+            </step>
+            <step>
+                <cmd>From the <ph conkeyref="product-vars/product-name"/> server command line,
+                    attach to the <ph conkeyref="product-vars/product-name"/> container and access
+                    its command line.</cmd>
+                <info>
+                    <codeblock>sudo docker attach phemi_central</codeblock>
+                    <p>After attaching to the process, you may have to press
+                            <keyword>&lt;Enter></keyword> for the container command prompt to
+                        appear. </p>
+                </info>
+            </step>
+            <step>
+                <cmd>At the container command line, become the Ubuntu user, so that you have
+                        <keyword>sudo</keyword> privileges. </cmd>
+                <info>
+                    <codeblock>su ubuntu
+</codeblock>
+                </info>
+            </step>
+            <step>
+                <cmd>Navigate to the <ph conkeyref="product-vars/product-name"/> web application
+                    folder.</cmd>
+                <info>
+                    <codeblock>cd /home/ubuntu/agile/agile-web-ui/</codeblock>
+                </info>
+            </step>
+            <step>
+                <cmd>For each tenant in your deployment, execute the restore script.</cmd>
+                <info>
+                    <codeblock>mongorestore --host <varname>tenant_host</varname> --port <varname>tenant_port</varname> 
+-u <varname>tenant_username</varname> -p <varname>tenant_password</varname>
+--authenticationDatabase <varname>tenant_database</varname> /backup/<varname>timestamp</varname>/mongodb
+</codeblock>
+                    <p>where: </p>
+                    <ul id="ul_cfk_pc4_4r">
+                        <li><varname>tenant_host</varname> is the name or IP address of the host
+                            running the tenant's MongoDB server </li>
+                        <li><varname>tenant_port</varname> is the port being used for MongoDB on the
+                            tenant's host</li>
+                        <li><varname>tenant_username</varname> is the username for logging on to the
+                            tenant's MongoDB server</li>
+                        <li><varname>tenant_password</varname> is the password for logging on to the
+                            tenant's MongoDB server</li>
+                        <li><varname>tenant_database</varname> is the name of the tenant's MongoDB
+                            database.</li>
+                        <li><varname>timestamp</varname> is either <keyword>latest</keyword> (for
+                            the most recent backup) or a timestamp in Epoch time format. </li>
+                    </ul>
+                </info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

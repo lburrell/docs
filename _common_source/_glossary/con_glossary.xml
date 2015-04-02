@@ -104,8 +104,8 @@
           <p id="dpf"> A Data Processing Function, or DPF, is an executable piece of code that
             supplies the instructions for processing raw data to extract meaningful,
             context-specific information (such as a temperature reading or blood glucose
-            measurement) that can be queried or exported for analysis. The code is executed by the
-              <ph conkeyref="product-vars/product-name"/>
+            measurement) that can be queried or exported for analysis. </p>
+          <p id="dpf-2">The code is executed by the <ph conkeyref="product-vars/product-name"/>
             <ph conkeyref="product-vars/dpf-engine"/>, which uses it to direct curation of the data.
             The input to a DPF is the raw binary data ingested into the system. The output of a DPF
             is a set of structured elements, each of which includes a type property (for example,

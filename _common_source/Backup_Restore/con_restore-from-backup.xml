@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_nm3_srn_4r">
+ <title>Restore Data from a Backup</title>
+ <shortdesc>Restore each of Accumulo, MongoDB, Data Processing Functions (DPFs), and Ansible
+  configuration separately.</shortdesc>
+ <conbody>
+  <p>Before beginning any restore procedure, check the running processes to ensure that no instance
+   of the <keyword>agile.py</keyword> process is running.</p>
+ </conbody>
+</concept>

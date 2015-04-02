@@ -4,27 +4,28 @@
  <title>Your Deployment</title>
  <shortdesc></shortdesc>
  <conbody>
-  <p>This guide assumes that <ph conkeyref="role-vars/prof-services"/> has installed and set up your
-      base system of cluster nodes and your management node, and has configured and initialized all
-        <ph conkeyref="product-vars/product-name"/> components on the cluster. </p>
-  <p><ph conkeyref="role-vars/prof-services"/> will also have installed and configured
-        <keyword>Docker</keyword> as part of your  deployment. Docker is an open-source engine that
-      automates deploying applications as portable, self-sufficient images. In administering <ph
-        conkeyref="product-vars/product-name"/>, you will be interacting with include the following
-      Docker containers:</p>
-  <ul id="ul_qsh_1xf_4r">
-   <li><keyword>Ambari. </keyword> Apache Ambari is an open-source interface for provisioning,
-        managing, and monitoring Hadoop clusters. </li>
-   <li><keyword>MongoDB.</keyword> MongoDB is a high-performance, high availability, scalable
-    document database.</li>
-   <li><keyword>Tornado.</keyword> Tornado is a Python-based web server and web application
-        framework. The <ph conkeyref="product-vars/product-name"/>
-        <ph conkeyref="product-vars/gui-name"/> runs on Tornado.</li>
-   <li><keyword>Nginx.</keyword> Nginx is an open-source reverse proxy server for the HTTP, HTTPS,
-        SMTP, POP3, and IMAP protocols. On the <ph conkeyref="product-vars/product-name"/> platform,
-        Nginx presents a unified interface for the multiple services making up the <ph
-          conkeyref="product-vars/product-name"/> application.</li>
-  </ul>
-    <p>In addition, you will be interacting with the Apache Accumulo server.</p>
- </conbody>
+    <p>Your <ph conkeyref="product-vars/product-name"/> system is installed by <ph
+        conkeyref="role-vars/prof-services"/>. The <ph conkeyref="role-vars/prof-services"/> team
+      will:</p>
+    <ul id="ul_cvm_bp4_4r">
+      <li>Set up your base system of cluster nodes</li>
+      <li>Perform initial configuration of the system components and initialize them</li>
+    </ul>
+    <p>The system consists includes a number of components:</p>
+    <ul id="ul_y24_lp4_4r">
+      <li>The Hadoop ecosystem, including YARN and Accumulo</li>
+      <li>Ambari, a web-based console for provisioning, managing, and monitoring the cluster</li>
+      <li>MongoDB, a high availability, scalable document database</li>
+      <li>Tornado, the Python-based framework on which the <ph conkeyref="product-vars/product-name"
+        /> web application runs</li>
+      <li>Nginx, used as a web proxy server by <ph conkeyref="product-vars/product-name"/>
+      </li>
+    </ul>
+    <p>A number of <ph conkeyref="product-vars/product-name"/> components are implemented as Docker
+      containers. <ph conkeyref="role-vars/prof-services"/> will install Docker as part of system
+      installation. </p>
+    <p>The <ph conkeyref="product-vars/product-name"/> platforms can support multiple data contexts,
+      called "tenants." <ph conkeyref="role-vars/prof-services"/> will have installed some number of
+      tenants for your deployment.  These tenants need to be included in system administration.</p>
+  </conbody>
 </concept>

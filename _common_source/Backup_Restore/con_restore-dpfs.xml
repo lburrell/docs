@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_uvx_yh4_4r">
+ <title>Restore DPFs</title>
+ <shortdesc></shortdesc>
+ <conbody>
+  <p conref="../_glossary/con_glossary.xml#concept_glossary/dpf"/>
+  <p conref="../_glossary/con_glossary.xml#concept_glossary/dpf-archive"/>
+  <p>DPF archives are backed up into the directory
+    <keyword>/backup/</keyword><varname>timestamp</varname><keyword>/dpf</keyword>, where
+    <varname>timestamp</varname> is either <keyword>latest</keyword> (for the most recent backup) or
+   a timestamp in Epoch time format.</p>
+  <p>Once retrieved, the DPF archive may need to be re-registered with the appropriate data
+   collection in <ph conkeyref="product-vars/product-name"/>. Your <ph conkeyref="role-vars/admin"/>
+   can do this.</p>
+ </conbody>
+</concept>

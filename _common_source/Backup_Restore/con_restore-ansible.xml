@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_uvx_yh4_4r">
+ <title>Retrieve an Ansible Playbook</title>
+ <shortdesc></shortdesc>
+ <conbody>
+  <p>The <ph conkeyref="product-vars/product-name"/> platform uses Ansible to set up and configure
+   various components during installation. </p>
+  <p>The <ph conkeyref="product-vars/product-name"/> Ansible Playbooks are backed up into the
+   directory <keyword>/backup/</keyword><varname>timestamp</varname>, where
+    <varname>timestamp</varname> is either <keyword>latest</keyword> (for the most recent backup) or
+   a timestamp in Epoch time format. </p>
+ </conbody>
+</concept>

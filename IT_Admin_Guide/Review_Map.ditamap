@@ -8,5 +8,6 @@
  <mapref href="../_common_source/IT_Admin/About_the_IT_Admin.ditamap" format="ditamap"/>
  <mapref href="../_common_source/Deployment/Your-Deployment.ditamap" format="ditamap"/>
  <mapref href="../_common_source/Operations_Mgmt/Starting_and_Stopping.ditamap" format="ditamap"/>
+ <mapref href="../_common_source/Backup_Restore/Backup_and_Restore.ditamap" format="ditamap"/>
  <mapref href="../_common_source/_glossary/glossary.ditamap" format="ditamap"/>
 </map>

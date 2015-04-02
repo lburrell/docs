@@ -7,12 +7,12 @@
   <p>An individual responsible for maintaining the PHEMI Central system should have skills and
    expertise in the following:</p>
   <ul id="ul_g42_bgr_3r">
-   <li>Linux</li>
-   <li>System administration</li>
-   <li>Network security </li>
+   <li>Linux system administration and network security</li>
    <li>Database administration</li>
-   <li>Administration of the Apache Hadoop ecosystem</li>
+   <li>Apache Hadoop ecosystem, including Ambari, YARN, and Accumulo</li>
+   <li>MongoDB</li>
    <li>Docker containers</li>
+   <li>Ansible playbooks</li>
   </ul>
  </conbody>
 </concept>
