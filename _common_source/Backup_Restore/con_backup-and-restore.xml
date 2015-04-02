@@ -7,8 +7,8 @@
   <p>Backup files, regardless of component, are stored on the <ph
     conkeyref="product-vars/product-name"/> server. Backups are stored in the directory
     <keyword>/backup</keyword>. </p>
-  <p>The most recent backups are stored in <keyword>/backup/latest</keyword>Older backups reside in
-   directories named <keyword>/backup/</keyword><varname>timestamp</varname>, where
-    <varname>timestamp</varname> is a timestamp in Epoch time format.</p>
+  <p>The most recent backups are stored in <keyword>/backup/latest</keyword>. Older backups reside
+      in directories named <keyword>/backup/</keyword><varname>timestamp</varname>, where
+        <varname>timestamp</varname> is a timestamp in Epoch time format.</p>
  </conbody>
 </concept>
