@@ -4,8 +4,8 @@
  <title>About the IT Administrator</title>
  <shortdesc/>
  <conbody>
-  <p>An individual responsible for maintaining the PHEMI Central system should have skills and
-   expertise in the following:</p>
+  <p>The individual responsible for maintaining a PHEMI Central deployment is expected to have
+   skills and expertise in the following:</p>
   <ul id="ul_g42_bgr_3r">
    <li>Linux system administration and network security</li>
    <li>Database administration</li>
